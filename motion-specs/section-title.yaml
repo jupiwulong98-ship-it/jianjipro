@@ -1,0 +1,25 @@
+id: section-title
+status: ready_for_implementation
+semantic_trigger: [section, category_change, major_topic_shift]
+eligibility:
+  require_structure_change: true
+  reject_if:
+    - "只是普通句间转折"
+layout:
+  variants:
+    - id: neon_fullscreen
+      background: dark_tech_scene
+      headline: cyan_neon
+      full_screen: true
+    - id: giant_word_on_talking_head
+      background: talking_head
+      headline: yellow_or_outline
+      full_screen: false
+timing:
+  duration_sec: [1.2,3.0]
+  entrance_sec: [0.10,0.30]
+  exit_sec: [0.10,0.35]
+selection:
+  neon_fullscreen: "大章节/工具大类"
+  giant_word_on_talking_head: "小章节/功能点"
+evidence: [v1-e007,v1-e015,v1-e021,v1-e029,v1-e034,v3-e004,v3-e016,v3-e019]
