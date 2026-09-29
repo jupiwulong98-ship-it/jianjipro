@@ -1,0 +1,37 @@
+id: grid-stage-screen
+status: ready_for_implementation
+semantic_trigger: [product_demo, workflow, result, feature_explanation]
+eligibility:
+  require_any: [screen_capture, screenshot, document, dashboard, product_ui]
+  reject_if:
+    - "主体是人物情绪表达"
+layout:
+  background:
+    family: dark_grid_or_diagonal_texture
+    perspective_grid: optional
+  presenter:
+    variants:
+      - {shape: rounded_vertical_rect, position: left, width_pct: [16,24]}
+      - {shape: circle, position: bottom_left, width_pct: [10,16]}
+  screen_card:
+    position: center_right
+    width_pct: [60,76]
+    corner_radius_px_1080p: [24,48]
+  header_tag:
+    position: top_of_screen_card
+    optional: true
+  feature_tags:
+    position: edge_or_left_column
+    optional: true
+timing:
+  stage_enter_sec: [0.15,0.35]
+  screen_swap: "prefer cut or very short crossfade, not decorative transition"
+  tag_enter_sec: [0.15,0.30]
+  hold: "跟随讲解，不因模板固定时长强制退出"
+motion:
+  stage: "mostly stable"
+  content: "screen/page changes carry most of the motion"
+  annotation: "small pop/slide only when semantic trigger occurs"
+fallback:
+  no_screen_asset: "不得伪造界面；回到talking-head或generated-motion"
+evidence: [v1-e008,v1-e010,v1-e012,v1-e013,v1-e018,v1-e030,v1-e031,v1-e032,v1-e033,v2-e006,v2-e007,v2-e008,v2-e012,v2-e013,v2-e016,v2-e017,v2-e018]
