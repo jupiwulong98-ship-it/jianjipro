@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 project_id: ai-business-cases-test
 status: blocked_for_full_evidence_edit
 policy: "没有真实素材就不伪造案例证据；可降级为纯文字/数据动效。"
@@ -6,55 +6,71 @@ policy: "没有真实素材就不伪造案例证据；可降级为纯文字/数�
 required_assets:
   - id: a01
     for_segments: [s01]
-    asset: "生财有术/MCP 相关界面或来源截图"
-    priority: medium
-    fallback: "只显示文字：生财有术 MCP"
+    priority: recommended
+    asset_type: screenshot
+    purpose: "信息来源锚点"
+    description: "生财有术/MCP相关界面或来源截图"
+    fallback: "entity/tool-badge 或纯文字"
 
   - id: a02
     for_segments: [s05,s06,s08,s09]
-    asset: "心理测试项目原案例截图/成交数据/评论区截图"
-    priority: high
-    fallback: "使用数据卡，不展示伪造截图"
+    priority: required
+    asset_type: screenshot
+    purpose: "心理测试案例证据"
+    description: "原案例截图/成交数据/评论区截图"
+    fallback: "comparison与number动效，不展示伪造截图"
 
   - id: a03
     for_segments: [s12,s13,s14,s15]
-    asset: "YouTube案例的播放量、收益、YPP状态相关截图"
-    priority: high
-    fallback: "使用1亿/6000万/4000万/571美元的数据拆解动画"
+    priority: required
+    asset_type: screenshot
+    purpose: "YouTube案例证据"
+    description: "播放量、收益、YPP状态相关截图"
+    fallback: "comparison/funnel + evidence/proof 的纯数据降级"
 
   - id: a04
     for_segments: [s18,s22]
-    asset: "AI编程接单原文章/评论区截图"
-    priority: medium
-    fallback: "明确写‘案例转述’与‘评论观点’，不用假截图"
+    priority: recommended
+    asset_type: screenshot
+    purpose: "AI编程案例与评论来源"
+    description: "原文章/评论区截图"
+    fallback: "quote/quote-card 明确标注为转述，不伪造评论UI"
 
   - id: a05
     for_segments: [s26,s27]
-    asset: "AI视觉接单原案例收入与35元亏单相关截图"
-    priority: medium
-    fallback: "使用时间 vs 到手收入数据卡"
+    priority: recommended
+    asset_type: screenshot
+    purpose: "AI视觉接单案例证据"
+    description: "收入与35元亏单相关截图"
+    fallback: "comparison/metric-compare"
 
-motion_dependencies:
-  ready:
-    - giant-keyword
-    - accumulating-side-tags
-    - section-title
-  needs_implementation:
-    - comparison
-    - outcome_distribution
-    - funnel_or_waterfall
-    - statement_pair
-    - misconception_card
-    - process_diagram
-    - quote_card
-    - negative_equation_stack
-    - checklist
-    - closing_statement
+motion_requests:
+  ready_families:
+    - emphasis/keyword
+    - number/single-metric
+    - section/chapter-title
+    - list/key-points
+    - evidence/proof
+    - entity/tool-badge
+  upgrade_needed:
+    - process/process-map:item_count=7
+  missing_exact_cards:
+    - comparison/metric-compare
+    - comparison/group-contrast
+    - comparison/outcome-distribution
+    - comparison/funnel
+    - comparison/misconception
+    - statement/statement-pair
+    - statement/closing-statement
+    - equation/negative-equation-stack
+    - checklist/framework-checklist
+    - quote/quote-card
 
 execution_gate:
   can_generate_plan_now: true
+  can_route_ready_events_now: true
   can_render_full_video_now: false
   blockers:
     - "缺原始口播视频/SRT，无法做精确时间对齐"
-    - "部分高频generated_motion模板尚未实现"
-    - "案例证据素材未提供；证据型段落不能伪造"
+    - "部分family/subtype尚无精确真实卡"
+    - "required案例证据素材未提供"
