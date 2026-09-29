@@ -1,26 +1,44 @@
-# AIJIANJI V2 Agent Contract
+# JIANJIPRO Agent Contract
 
-本分支目标：把“参考博主剪辑风格”抽象为可复用 Style Profile，再应用到新的口播视频。
+目标：把“参考视频的编辑语言”学习成可复用规则，并把全新口播自动规划、补素材、选卡、执行和质检。
 
 ## 总流程
-1. Reference Analyzer：逐事件拆解参考视频，不只记录“发生了什么”，还记录“为什么在这里发生”。
-2. Style Profile：把多个参考视频归纳为稳定规则、概率、禁用项和视觉参数。
-3. Semantic Mapper：把新口播按句/意群标注意图、实体、数字、对比、结论、反问、警告等语义。
-4. Edit Planner：用 Style Profile + Semantic Map 生成可执行 Edit Decision List。
-5. Executor：基础剪辑交给 ChatCut；已有包装优先复用个人 Motion Library；无合适模板时允许生成新包装。
-6. Visual QC：渲染后检查时间、布局、文字、节奏、重复度和风格一致性；失败则回到 Planner/Executor 修正。
+1. Reference Analyzer：逐事件拆解参考视频。
+2. Style Synthesizer：跨视频归纳 Editorial Grammar + Visual Skin。
+3. Semantic Mapper：理解新口播每个意群的语义关系。
+4. Edit Planner：只生成 Motion Request，不直接指定卡片。
+5. Asset Gate / Asset Workspace：识别并补齐真实素材。
+6. Motion Router：按 Family → Subtype → Capability 从本地 Motion Library 选择真实卡片。
+7. Executor：ChatCut 按 resolved edit plan 执行。
+8. Visual QC：检查时间、布局、密度、重复、素材与风格一致性，失败则返工。
+
+## 决策分层
+```
+语义
+→ Motion Family
+→ Subtype
+→ Candidate Cards
+→ Router Ranking
+→ Card + Params + Media
+→ ChatCut
+```
 
 ## 强制原则
-- 不允许“看起来像”但无证据地编造参考风格规则。
-- 每条风格规则必须能追溯到 reference event。
-- 不允许仅按关键词选动画，必须同时考虑语义角色、节奏上下文和前后效果重复。
-- 模板库是缓存，不是决策脑。
-- 新生成的动效必须先进入候选区，通过 QC 后才能成为正式可复用模板。
-- 一切最终输出都应优先结构化（YAML/JSON），方便 Codex 和脚本继续消费。
+- Planner 禁止直接输出 card_id。
+- 卡片名称是执行细节，不是导演语言。
+- 数量不是类型；必须先判断并列、流程、比较、证据等信息关系。
+- 每条风格规则必须可追溯到 reference event。
+- 真实案例证据不得伪造。
+- 模板库是执行资源，不是决策脑。
+- 没有合适卡片时返回 generated/upgrade request，不允许硬套错误模板。
+- 新动效通过 QC 后才能升级为正式可复用卡片。
 
 ## 关键目录
-- styles/：每个博主/风格一个 profile。
-- references/style-engine/：结构规范和 schema。
-- skills/style-engine/：Agent 执行规范。
-- docs/style-engine-v2/：架构、视频输入和验收说明。
-- outputs/：运行时产物，默认不提交大型视频文件。
+- `references/samples/`：逐视频证据。
+- `styles/`：Style Profile。
+- `motion-specs/`：抽象包装规范。
+- `motion-library/cards/`：真实可渲染卡片。
+- `motion-library/taxonomy/`：Family、Subtype、卡片能力与Router规则。
+- `asset-workspace/`：素材装配协议。
+- `projects/`：真实项目的 semantic map / edit plan / assets。
+- `skills/style-engine/`：各 Agent 的执行规范。
