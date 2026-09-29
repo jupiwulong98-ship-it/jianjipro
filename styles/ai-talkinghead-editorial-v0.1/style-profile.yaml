@@ -1,0 +1,231 @@
+version: 0.2
+style_id: ai-talkinghead-editorial-v0.1
+source_creator: mixed-or-unverified
+source_videos:
+  - video-1
+  - doubao-ppt
+  - minimax-voice
+confidence: 0.86
+status: candidate
+warning: "三条样本共享强剪辑语法，但人物/视觉皮肤并非完全一致；当前只把跨视频稳定部分提升为正式规则。"
+
+layers:
+  editorial_grammar:
+    description: "以真人口播为锚点，关键语义才触发强包装；教程和产品演示优先让屏幕内容成为主画面。"
+    pacing:
+      visual_event_interval_sec: {min: 3.0, max: 8.0}
+      high_intensity_interval_sec: {min: 0.5, max: 2.5}
+      max_same_effect_repeat: 3
+
+    decision_rules:
+      - id: rule-section-title
+        semantic_trigger: [section, category_change, major_topic_shift]
+        context_conditions:
+          - "新章节开始"
+          - "进入新的工具类别或能力类别"
+        action:
+          effect_category: section_title
+          preferred_effect_ids: [neon_fullscreen_title, giant_keyword_title]
+        avoid_when:
+          - "只是句内补充，不是结构性转场"
+        evidence: [v1-e007,v1-e015,v1-e021,v1-e029,v1-e034,v3-e004,v3-e016,v3-e019]
+        confidence: 0.99
+
+      - id: rule-list-tags
+        semantic_trigger: [list, option, audience, pain_point, feature_list]
+        context_conditions:
+          - "一口气说2-6个并列概念"
+          - "每个词都短，适合被视觉化"
+        action:
+          effect_category: accumulating_tags
+          preferred_effect_ids: [side_tag_stack]
+        avoid_when:
+          - "并列项是长句"
+          - "屏幕演示已经很密"
+        evidence: [v1-e004,v1-e009,v1-e011,v1-e019,v2-e002,v2-e006,v2-e024,v3-e008]
+        confidence: 0.99
+
+      - id: rule-tutorial-screen-primary
+        semantic_trigger: [tutorial_step, product_demo, workflow, result]
+        context_conditions:
+          - "讲具体软件操作"
+          - "用户需要看清界面位置或结果"
+        action:
+          effect_category: screen_demo
+          preferred_effect_ids: [screen_primary_with_pip, grid_stage_screen_card]
+        avoid_when:
+          - "只是在表达观点，没有可展示界面"
+        evidence: [v1-e008,v1-e010,v1-e012,v1-e013,v1-e016,v1-e030,v1-e031,v1-e032,v1-e033,v2-e006,v2-e007,v2-e008,v2-e012,v2-e013,v2-e016,v2-e017,v2-e018,v3-e005,v3-e006,v3-e007,v3-e009,v3-e013,v3-e017,v3-e020]
+        confidence: 0.99
+
+      - id: rule-pip-when-screen-dominates
+        semantic_trigger: [product_demo, tutorial_step, example]
+        context_conditions:
+          - "主体证据是屏幕录制/素材/B-roll"
+          - "仍希望保留人物存在感"
+        action:
+          effect_category: presenter_pip
+          preferred_effect_ids: [circle_bottom_left, rounded_vertical_left]
+        avoid_when:
+          - "人物面部本身是当前情绪重点"
+        evidence: [v1-e008,v1-e010,v1-e012,v1-e013,v1-e016,v1-e017,v1-e018,v1-e024,v1-e026,v1-e028,v1-e030,v1-e031,v1-e032,v1-e033,v2-e006,v2-e007,v2-e008,v2-e012,v2-e013,v2-e016,v2-e017,v2-e018,v3-e005,v3-e006,v3-e007,v3-e009,v3-e013,v3-e017,v3-e020]
+        confidence: 0.99
+
+      - id: rule-entity-emphasis
+        semantic_trigger: [entity, product_name, key_term]
+        context_conditions:
+          - "首次引入工具/模型/概念"
+          - "名称本身是句子重音"
+        action:
+          effect_category: entity_callout
+          preferred_effect_ids: [logo_callout, giant_keyword]
+        avoid_when:
+          - "同一个实体在短时间内已经出现过"
+        evidence: [v1-e020,v1-e023,v1-e025,v1-e027,v2-e001,v2-e005,v2-e011,v3-e003]
+        confidence: 0.96
+
+      - id: rule-number-emphasis
+        semantic_trigger: [number, quantified_claim, time_period]
+        context_conditions:
+          - "数字是可信度、规模感或福利信息的核心"
+        action:
+          effect_category: number_emphasis
+          preferred_effect_ids: [giant_number, floating_number]
+        evidence: [v1-e003,v2-e025]
+        confidence: 0.90
+
+      - id: rule-comparison-graphic
+        semantic_trigger: [comparison, before_after, contrast]
+        context_conditions:
+          - "差异需要看或听"
+        action:
+          effect_category: comparison
+          preferred_effect_ids: [split_compare, waveform_compare, before_after_card]
+        evidence: [v3-e014,v2-e023]
+        confidence: 0.92
+
+      - id: rule-example-broll
+        semantic_trigger: [example, visual_quality, generated_result]
+        context_conditions:
+          - "口播在描述具体结果、画质、动作、作品"
+        action:
+          effect_category: result_broll
+          preferred_effect_ids: [fullscreen_broll_with_pip, angled_media_card]
+        evidence: [v1-e017,v1-e022,v1-e024,v1-e028,v2-e015]
+        confidence: 0.95
+
+      - id: rule-emotional-single-word
+        semantic_trigger: [emotion, punchline, strong_claim]
+        context_conditions:
+          - "单字/短词本身就是 punchline"
+        action:
+          effect_category: giant_keyword
+          preferred_effect_ids: [giant_yellow_word]
+        evidence: [v2-e022,v3-e012]
+        confidence: 0.91
+
+      - id: rule-return-to-clean-talking-head
+        semantic_trigger: [explanation, reassurance, conclusion, connective]
+        context_conditions:
+          - "信息需要被听懂而不是继续堆视觉"
+          - "上一段已经高密度包装"
+        action:
+          effect_category: none
+          preferred_effect_ids: []
+        evidence: [v2-e009,v2-e014,v2-e019,v2-e021,v2-e026,v3-e002,v3-e011,v3-e015,v3-e018,v3-e021,v1-e037]
+        confidence: 0.98
+
+    negative_rules:
+      - description: "不要每句话都上动效；高密度演示之后主动回到干净口播。"
+        evidence: [v2-e009,v2-e014,v3-e011,v3-e018,v1-e037]
+      - description: "不要在屏幕教程段同时叠大量标签；教程段优先保证界面可读性。"
+        evidence: [v2-e012,v2-e013,v3-e005,v3-e006]
+      - description: "同一类标签/大字不要连续无变化重复；同一语义家族允许换皮。"
+        evidence: [v1-e004,v1-e009,v1-e011,v1-e019]
+
+  visual_skin:
+    description: "当前三条样本的共享视觉皮肤；未来建议拆成个人品牌skin。"
+    typography:
+      base_caption: "粗体白字 + 黑描边/阴影"
+      headline: "大号高对比粗体"
+      keyword_colors: ["yellow","cyan","lime","purple"]
+    palette:
+      base: ["black","white"]
+      accents: ["yellow","cyan","lime","purple","magenta"]
+    captions:
+      position: bottom_center
+      safe_margin: "约画面高度5%-9%"
+      persist: true
+    stage:
+      family: "dark_grid_or_dark_texture"
+      perspective_grid: true
+      usage: "产品讲解、复杂信息、需要同时保留人物与大屏时"
+    pip:
+      variants:
+        - {shape: circle, position: bottom_left}
+        - {shape: rounded_vertical_rect, position: left}
+      rule: "屏幕主内容占画面60%-85%，人物缩小但不消失"
+    cards:
+      corners: rounded
+      border: "white/dotted/soft glow according to sub-style"
+      screen_ratio: "large"
+    tags:
+      shape: rounded_rect
+      text: dark
+      fills: ["yellow","lime","purple","magenta","cyan"]
+      behavior: accumulate_sequentially
+    transitions:
+      chapter: "full-screen or giant-word title"
+      default: "hard cut or fast graphic entrance rather than decorative transition"
+
+camera:
+  rules:
+    - id: camera-clean-medium
+      description: "口播主镜头以稳定中近景为主，包装承担大部分节奏变化。"
+      evidence: [v1-e037,v2-e009,v3-e011]
+      confidence: 0.94
+
+motion_graphics:
+  categories:
+    - section_title
+    - accumulating_tags
+    - grid_stage_screen_card
+    - presenter_pip
+    - giant_keyword
+    - logo_callout
+    - comparison
+    - process_diagram
+  rules:
+    - id: motion-tags-sequential
+      description: "标签按口播顺序逐项进入并保留，形成累积感。"
+      evidence: [v1-e009,v2-e006,v3-e008]
+      confidence: 0.99
+    - id: motion-title-strong-exit
+      description: "章节/钩子大标题可使用快速入场并以碎裂/切走等强退场结束。"
+      evidence: [v1-e001,v1-e007,v1-e015,v1-e021,v1-e029,v1-e034]
+      confidence: 0.94
+
+broll:
+  rules:
+    - id: broll-proof-over-decoration
+      description: "B-roll主要用于展示结果或操作证据，而不是单纯装饰。"
+      evidence: [v1-e017,v1-e024,v1-e028,v2-e013,v2-e018,v3-e005]
+      confidence: 0.97
+
+sound:
+  music:
+    confidence: 0.35
+    note: "当前视觉分析不足以可靠归纳BGM规则，暂不固化。"
+  sfx_rules:
+    - id: sfx-graphic-hit-candidate
+      description: "强标题/标签/卡片入场很可能配合短促UI/impact类音效；需音频层复核后转stable。"
+      evidence: [v1-e001,v1-e006,v2-e006,v3-e012]
+      confidence: 0.45
+
+composition:
+  safe_zones:
+    face: "不得用标签遮挡眼睛、鼻口"
+    captions: "底部字幕区避免被PIP和卡片覆盖"
+  subject_positioning:
+    talking_head: center
+    screen_demo: "PIP转左侧或左下，屏幕为主"
