@@ -1,0 +1,26 @@
+version: 0.1
+video_id: string
+event_id: string
+start: 0.0
+end: 0.0
+spoken_text: ""
+semantic_role: setup|claim|contrast|number|entity|example|process|conclusion|question|warning|other
+event_type: caption|emphasis|camera|motion_graphic|broll|transition|sfx|music|background|other
+trigger:
+  evidence_text: ""
+  inferred_reason: ""
+visual:
+  layout: {}
+  typography: {}
+  color: {}
+motion:
+  entrance: ""
+  hold: ""
+  exit: ""
+  timing: {}
+assets: []
+sound: {}
+context:
+  previous_event: null
+  next_event: null
+confidence: 0.0
