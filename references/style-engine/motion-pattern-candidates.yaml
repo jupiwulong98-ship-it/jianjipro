@@ -1,0 +1,64 @@
+version: 0.1
+patterns:
+  - id: giant_keyword
+    semantic_use: [hook, entity, emotion, section]
+    visual: "真人口播上叠超大高对比关键词"
+    motion: "fast appear / light scale / optional strong exit"
+    evidence: [v1-e001,v1-e023,v2-e022,v3-e012]
+    status: stable_category
+
+  - id: accumulating_side_tags
+    semantic_use: [list, audience, pain_point, feature_list]
+    visual: "人物左右侧圆角标签，按口播顺序累积"
+    motion: "each item pops/slides in; previous items persist"
+    evidence: [v1-e009,v2-e006,v3-e008]
+    status: stable_category
+
+  - id: presenter_center_menu
+    semantic_use: [category_overview, multi-part-structure]
+    visual: "黑色透视网格+中间人物竖框+多个功能卡环绕"
+    motion: "cards appear one by one until full menu"
+    evidence: [v1-e006]
+    status: candidate_skin_pattern
+
+  - id: grid_stage_screen
+    semantic_use: [product_demo, workflow, result]
+    visual: "暗色网格/斜纹舞台+人物PIP+大圆角屏幕卡"
+    motion: "screen content changes while stage remains stable"
+    evidence: [v1-e008,v2-e006]
+    status: stable_category
+
+  - id: screen_primary_circle_pip
+    semantic_use: [tutorial_step, product_demo]
+    visual: "网页录屏全屏+左下圆形人物PIP"
+    motion: "minimal; annotations appear on demand"
+    evidence: [v1-e016,v3-e005]
+    status: stable_category
+
+  - id: neon_chapter_title
+    semantic_use: [section]
+    visual: "暗色科技背景+青色霓虹超大章节名"
+    motion: "fast entrance, hold ~2-3s, cut out"
+    evidence: [v1-e007,v1-e015,v1-e021,v1-e029,v1-e034]
+    status: skin_candidate
+
+  - id: waveform_demo
+    semantic_use: [audio_demo, comparison]
+    visual: "暗色视频背景+中央动态声波/双波形对比"
+    motion: "waveform reacts continuously"
+    evidence: [v3-e010,v3-e014]
+    status: optional_pattern
+
+  - id: logo_callout
+    semantic_use: [entity]
+    visual: "人物两侧或角落出现产品Logo"
+    motion: "quick pop"
+    evidence: [v1-e020,v2-e005]
+    status: stable_category
+
+  - id: full_broll_with_pip
+    semantic_use: [example, generated_result, visual_quality]
+    visual: "成品/生成视频全屏，左下圆形人物PIP"
+    motion: "broll itself carries motion; overlay stays stable"
+    evidence: [v1-e024,v1-e028]
+    status: stable_category
