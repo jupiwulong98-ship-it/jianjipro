@@ -1,0 +1,22 @@
+version: 0.1
+project_id: string
+requirements:
+  - id: asset-001
+    edit_event_id: e01
+    source_segment_id: s01
+    priority: required|recommended|optional
+    asset_type: image|video|screenshot|logo|document|audio
+    purpose: ""
+    description: ""
+    count:
+      min: 1
+      max: 1
+    acceptance:
+      must_show: []
+      preferred: []
+      reject: []
+    fallback:
+      allowed: true
+      mode: text_motion|generated_motion|logo_only|skip
+      note: ""
+    status: missing|partial|ready|skipped
