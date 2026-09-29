@@ -1,0 +1,31 @@
+id: screen-primary-circle-pip
+status: ready_for_implementation
+semantic_trigger: [tutorial_step, product_demo, visual_proof]
+eligibility:
+  require_any: [screen_recording, website_demo, app_demo]
+layout:
+  screen:
+    position: full_canvas
+    crop: contain_or_smart_crop
+  presenter_pip:
+    shape: circle
+    position: bottom_left
+    width_pct: [10,16]
+    border: optional
+  captions:
+    position: bottom_center
+    avoid_overlap_with_pip: true
+  annotations:
+    styles: [yellow_step_text, red_outline, yellow_tag]
+timing:
+  transition_in: [0.10,0.25]
+  pip_persistence: "entire tutorial segment"
+  annotation_enter_sec: [0.15,0.30]
+  annotation_lifetime: "直到步骤完成或下一个步骤出现"
+motion:
+  pip: stable
+  screen: native_recording
+  annotation: short_pop_or_fade
+fallback:
+  no_presenter_cutout: "允许无PIP，但保留字幕/步骤标注"
+evidence: [v1-e016,v1-e026,v2-e020,v3-e005,v3-e006,v3-e007,v3-e009,v3-e013,v3-e017,v3-e020]
