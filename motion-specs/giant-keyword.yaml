@@ -1,4 +1,7 @@
 id: giant-keyword
+taxonomy:
+  family: emphasis
+  subtype: keyword
 status: ready_for_implementation
 semantic_trigger: [hook, entity, emotion, section, number, punchline]
 eligibility:
