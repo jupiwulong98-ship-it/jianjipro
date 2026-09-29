@@ -1,0 +1,20 @@
+version: 0.1
+project_id: string
+assets:
+  - requirement_id: asset-001
+    edit_event_id: e01
+    status: ready|partial|missing|skipped
+    files:
+      - path: assets/e01/example.png
+        type: image
+        role: primary
+        approved: true
+        notes: ""
+    user_override:
+      use_fallback: false
+      notes: ""
+execution_gate:
+  required_total: 0
+  required_ready: 0
+  can_execute: false
+  blockers: []
