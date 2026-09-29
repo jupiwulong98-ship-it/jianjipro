@@ -1,26 +1,42 @@
-version: 0.1
+version: 0.2
+
+selection_order:
+  - input_types
+  - family
+  - subtype
+  - item_count
+  - media_readiness
+  - presenter_layout
+  - style_skin
+  - density_energy
+  - repetition_and_layout_rhythm
 
 hard_filters:
+  - "required input_types必须由Shotbook/Asset Workspace满足"
   - "family必须匹配motion_request.family"
   - "subtype优先精确匹配；无精确候选时才允许同family降级"
   - "item_count必须在卡片支持范围内"
   - "required media slots必须可由Asset Workspace满足"
   - "明确禁止的presenter布局不得选择"
+  - "proof/evidence需要screenshot/document时，普通image不能冒充"
 
 scoring:
-  semantic_fit: 0.30
-  item_count_fit: 0.20
+  semantic_fit: 0.25
+  input_type_fit: 0.20
+  item_count_fit: 0.15
   media_readiness: 0.15
   presenter_layout_fit: 0.10
-  style_skin_fit: 0.10
+  style_skin_fit: 0.05
   density_fit: 0.05
   energy_fit: 0.05
   repetition_penalty: -0.15
   recently_used_same_card_penalty: -0.20
+  same_layout_third_time_penalty: -0.20
 
 selection:
   candidate_limit: 5
   min_score: 0.55
+  max_consecutive_same_primary_structure: 2
   if_no_candidate:
     - "尝试同family的fallback subtype"
     - "尝试参数化/升级候选卡"
@@ -29,13 +45,23 @@ selection:
     - "因为card名字相似就直接选中"
     - "为了命中现有卡而扭曲语义关系"
     - "忽略缺失的required media"
+    - "把camera/transition当成primary card来解决信息结构"
+
+supporting_layers:
+  rule: "Primary Card选定后，Shotbook再分别选择annotation/camera/transition/sfx。"
+  camera:
+    max_primary_motion_per_shot: 1
+  transition:
+    strong_transition_only_on_structure_boundary: true
+  annotation:
+    max_simultaneous_primary_emphasis: 1
 
 examples:
   - input:
       family: list
       subtype: key-points
       item_count: 3
-      presenter: center
+      input_types: [text,presenter]
     preferred_candidates: [tag-list]
     rejected_examples:
       side-tag-cluster: "v1固定5项"
@@ -45,5 +71,6 @@ examples:
       family: process
       subtype: process-map
       item_count: 7
+      input_types: [text]
     result: generated_or_upgrade
     reason: "process-map-scene v1固定5节点，需v2或动态生成"
