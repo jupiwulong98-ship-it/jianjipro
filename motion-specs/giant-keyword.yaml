@@ -1,0 +1,29 @@
+id: giant-keyword
+status: ready_for_implementation
+semantic_trigger: [hook, entity, emotion, section, number, punchline]
+eligibility:
+  max_chars_cn: 8
+  importance_min: 0.75
+  reject_if:
+    - "关键词不是当前句真正重音"
+    - "近3秒已经出现另一个超大关键词"
+layout:
+  placement_candidates: [upper_left, left_center, right_center, behind_subject]
+  face_occlusion: forbidden
+  font: extra_bold
+  text_color_candidates: [yellow, white, cyan]
+  optional_shadow: true
+timing:
+  entrance_sec: [0.10,0.25]
+  hold_sec: [0.70,1.80]
+  exit_sec: [0.15,0.45]
+motion:
+  entrance_candidates: [fast_scale, short_slide, hard_reveal]
+  exit_candidates: [hard_cut, fast_fade, particle_shatter]
+  special:
+    particle_shatter:
+      use_when: "hook/section需要强收尾"
+      evidence: [v1-e001]
+fallback:
+  if_long_text: "改为普通headline或tag，不强行做超大字"
+evidence: [v1-e001,v1-e003,v1-e023,v1-e025,v1-e027,v2-e003,v2-e010,v2-e022,v2-e023,v2-e025,v3-e003,v3-e004,v3-e012,v3-e016,v3-e019]
