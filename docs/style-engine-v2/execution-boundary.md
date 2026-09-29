@@ -9,25 +9,21 @@
 - Router Binding
 - QC规则
 
-## chatcut-motion-library 负责
+## 本仓库的 motion-library/ 负责
 - 真正可渲染的 JSX Component
 - manifest.json
 - mediaSlots
 - 版本管理
 - 动画预览与测试
 
-## 为什么不把卡片代码复制进 jianjipro
-否则会出现两份动画实现：
-- 一份在 jianjipro
-- 一份在 chatcut-motion-library
-
-两边版本会很快漂移。
+## 唯一实现位置
+卡片实现只在本仓库的 `motion-library/` 维护，不再引用旧的独立仓库。
 
 正确方式是：
 ```
-jianjipro 决定“用什么”
+jianjipro 的计划决定“用什么”
         ↓
 binding 决定“调用哪张”
         ↓
-chatcut-motion-library 决定“怎么渲染”
+motion-library/ 决定“怎么渲染”
 ```

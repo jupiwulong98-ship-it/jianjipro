@@ -42,3 +42,5 @@ AI 口播视频风格学习、动效规划、素材装配、镜头编排、卡�
 - 本地素材装配网页：未开发
 - Motion Router实际执行脚本：未开发
 - ChatCut完整闭环：未跑通
+
+首次本机实跑的已验证步骤与阻碍见 [docs/style-engine-v2/first-real-run-2026-09-29.md](docs/style-engine-v2/first-real-run-2026-09-29.md)。

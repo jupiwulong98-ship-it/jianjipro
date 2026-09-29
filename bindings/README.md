@@ -5,7 +5,7 @@
 原则：
 - `motion-specs/` 定义“什么时候用、应该长什么样”。
 - `bindings/` 定义“实际调用哪张 ChatCut 卡片/哪个版本”。
-- 真正的 JSX 动画代码继续放在 `chatcut-motion-library`，不在 jianjipro 重复维护。
+- 真正的 JSX 动画代码放在本仓库的 `motion-library/cards/`，由这里统一维护版本。
 - Planner 不直接依赖具体卡片名；Router 通过 binding 解析。
 
 执行链：
