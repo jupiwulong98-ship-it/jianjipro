@@ -1,4 +1,7 @@
 id: accumulating-side-tags
+taxonomy:
+  family: list
+  subtype: key-points
 status: ready_for_implementation
 semantic_trigger: [list, audience, pain_point, feature_list, option]
 eligibility:
