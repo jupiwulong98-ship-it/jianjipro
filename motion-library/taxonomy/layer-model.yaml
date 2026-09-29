@@ -1,0 +1,48 @@
+version: 0.1
+
+description: "一镜不是一张卡。Primary Visual负责主要信息结构，Camera/Annotation/Transition/SFX是独立可叠加层。"
+
+layers:
+  primary_visual:
+    required: true
+    examples: [list, comparison, evidence, process, screen-demo, emphasis]
+    owner: motion_router
+
+  annotation:
+    required: false
+    purpose: "在已有素材/卡片上指哪看哪：高亮、框、箭头、圈注、局部放大。"
+    selection_basis: [semantic_emphasis, target_coordinates, screen_readability]
+    constraints:
+      - "同一时刻只保留一个主要视觉重音。"
+      - "不得遮挡人物脸、字幕和证据关键内容。"
+
+  camera:
+    required: false
+    purpose: "让静态图/截图/长页具有镜头感，而不是把运镜做成独立信息卡。"
+    modes: [none, slow_push, slow_pull, pan, keyframe_tour, subtle_parallax]
+    constraints:
+      - "Camera不能改变信息关系。"
+      - "教程/证据可读性优先，不为运动而运动。"
+      - "同一镜头原则上只有一条主相机运动。"
+
+  transition:
+    required: false
+    purpose: "处理镜头边界和章节节奏。"
+    modes: [hard_cut, fast_fade, push, whip, wipe, chapter_break]
+    constraints:
+      - "只有结构边界才使用强转场。"
+      - "转场与primary visual分开选择。"
+      - "一条片保持少量固定转场语言，避免集邮式变化。"
+
+  sound:
+    required: false
+    purpose: "为标题、标签、转场、卡片入场提供SFX；BGM单独管理。"
+    owner: sfx_router
+
+composition_modes:
+  presenter_safe:
+    description: "人物继续可见，前景内容必须避开人物和字幕安全区。"
+  full_screen:
+    description: "视觉卡完整接管画面，人物可暂时离场/缩入明确PIP。"
+
+principle: "Card回答‘主要画面是什么’，Layer回答‘这张主要画面如何被强调、拍摄和衔接’。"
