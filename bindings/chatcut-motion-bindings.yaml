@@ -1,122 +1,38 @@
-version: 0.1
+version: 0.2
+status: local_library
+
 library:
-  repository: jupiwulong98-ship-it/chatcut-motion-library
-  branch: main
+  repository: jupiwulong98-ship-it/jianjipro
+  root: motion-library
+  cards: motion-library/cards
+  taxonomy: motion-library/taxonomy/card-capabilities.yaml
+  router_policy: motion-library/taxonomy/router-policy.yaml
 
-bindings:
-  - motion_spec: giant-keyword
-    status: ready
-    card:
-      id: keyword-impact
-      version: 2.0.0
-    mapping:
-      text: props.text
-      color: props.color
-      fontSize: props.fontSize
-    note: "可直接复用。"
+resolution_flow:
+  - "Edit Planner输出motion_request"
+  - "Motion Router读取families + card-capabilities"
+  - "hard filter过滤不兼容卡片"
+  - "按router-policy评分"
+  - "选择card_id + version"
+  - "填充props与media_bindings"
+  - "交给ChatCut执行"
 
-  - motion_spec: number-emphasis
-    status: ready
-    card:
-      id: number-impact
-      version: 2.0.0
-    mapping:
-      value: props.value
-      prefix: props.prefix
-      suffix: props.suffix
-      position: props.position
-    note: "可直接复用单数字强调；连续数字序列由Planner拆成多个事件或后续补sequence card。"
+legacy_spec_hints:
+  giant-keyword:
+    request: {family: emphasis, subtype: keyword}
+  number-emphasis:
+    request: {family: number, subtype: single-metric}
+  section-title:
+    request: {family: section, subtype: chapter-title}
+  accumulating-side-tags:
+    request: {family: list, subtype: key-points}
+  process-diagram:
+    request: {family: process, subtype: process-map}
+  grid-stage-screen:
+    request: {family: screen-demo, subtype: tool-demo}
+  screen-primary-circle-pip:
+    request: {family: screen-demo, subtype: screen-pip}
+  comparison:
+    request: {family: comparison, subtype: metric-compare}
 
-  - motion_spec: section-title
-    status: ready_with_skin_constraint
-    card:
-      id: chapter-neon-title
-      version: 1.0.0
-    media_slots:
-      - backgroundImage
-      - backgroundVideo
-    note: "可直接用于大章节；属于特定霓虹视觉皮肤。小章节仍可走giant-keyword。"
-
-  - motion_spec: accumulating-side-tags
-    status: upgrade_recommended
-    card:
-      id: side-tag-cluster
-      version: 1.0.0
-    limitations:
-      - "固定5个位置"
-      - "不支持2-6项自适应布局"
-      - "不感知人物安全区"
-    next_version_target: side-tag-cluster@2.0.0
-    note: "v1能先跑测试，但正式系统应升级为自适应版本。"
-
-  - motion_spec: grid-stage-screen
-    status: partially_ready
-    card:
-      id: tool-demo-scene
-      version: 1.0.0
-    media_slots:
-      - screenVideo
-      - logoImage
-      - presenterVideo
-    limitations:
-      - "当前固定3个卖点标签"
-      - "必须绑定Logo"
-      - "更偏工具演示，不是完全通用舞台"
-    next_version_target: tool-demo-scene@2.0.0
-    note: "与参考视频结构高度匹配，优先升级而不是重做。"
-
-  - motion_spec: screen-primary-circle-pip
-    status: missing_exact_card
-    closest_card:
-      id: tool-demo-scene
-      version: 1.0.0
-    required_new_card: screen-primary-circle-pip
-    reason: "需要全屏录屏 + 左下圆形人物PIP + 可选步骤标注，不应该强制网格、Logo和卖点标签。"
-
-  - motion_spec: process-diagram
-    status: upgrade_recommended
-    card:
-      id: process-map-scene
-      version: 1.0.0
-    limitations:
-      - "固定5节点"
-      - "布局固定为上下十字结构"
-    next_version_target: process-map-scene@2.0.0
-    target_capability: "3-8步骤，自适应横向/蛇形流程"
-
-  - motion_spec: comparison
-    status: missing_exact_card
-    closest_card:
-      id: perspective-result-split
-      version: 1.0.0
-    required_new_card: metric-comparison
-    reason: "现有卡是人物+结果素材分屏，不是真正的数字/结果A-B对比。"
-
-  - motion_spec: statement-pair
-    status: missing
-    required_new_card: statement-pair
-
-  - motion_spec: negative-equation-stack
-    status: missing
-    required_new_card: equation-stack
-
-  - motion_spec: checklist
-    status: missing
-    required_new_card: checklist-card
-
-priorities:
-  p0_ready_now:
-    - giant-keyword
-    - number-emphasis
-    - section-title
-  p1_upgrade:
-    - accumulating-side-tags
-    - grid-stage-screen
-    - process-diagram
-  p1_new:
-    - screen-primary-circle-pip
-    - metric-comparison
-  p2_new:
-    - statement-pair
-    - equation-stack
-    - checklist-card
+note: "此文件只保留抽象spec到taxonomy的兼容映射；不再把Planner直接绑定到某张卡。"
