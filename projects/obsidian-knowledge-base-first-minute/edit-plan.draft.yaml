@@ -1,0 +1,157 @@
+version: 0.3
+project_id: obsidian-knowledge-base-first-minute
+style_id: ai-talkinghead-editorial-v0.1
+source_video: "ChatCut asset 19079d1d-a399-467d-ac0c-d738b471c19c (156cdccc84924f9ca0fb4e922172a108.MOV)"
+semantic_segments: [s01, s02, s03, s04, s05, s06, s07, s08, s09, s10]
+
+events:
+  - id: e01
+    start: 0.700
+    end: 3.800
+    source_segment_id: s01
+    intent: emphasis
+    rationale: "开场的反常识警示是短句重音；只突出结论，不把整句口播重新排成字幕。对应 rule-emotional-single-word。"
+    style_rule_id: rule-emotional-single-word
+    motion_request:
+      required: true
+      family: emphasis
+      subtype: keyword
+      content: {text: "别先建文件夹", items: [], metrics: [], labels: []}
+      constraints:
+        item_count: 1
+        max_chars_per_item: 7
+        presenter_position: center
+        input_types_required: [presenter, text]
+        input_types_optional: []
+        media_available: [presenter, text]
+        media_required: []
+      visual_intent:
+        energy: high
+        density: low
+        preferred_layouts: [around_presenter]
+        preferred_skin: null
+      avoid: [cover_face, full_sentence_card, fabricated_screenshot]
+    presentation_hint: {preferred_mode: presenter_safe, presenter_required: true}
+    supporting_layer_hints: {annotation: none, camera: none, transition: none, sfx: optional}
+    asset_requirements: []
+    resolution: {status: unresolved, card_id: null, card_version: null, score: null, reason: "", props: {}, media_bindings: {}}
+    fallback: {mode: clean_talking_head, reason: "若文字遮脸或打断口播，撤销包装。"}
+    qc_checks: ["文字与口播重音同步", "人物眼口无遮挡", "不把建议写成普遍事实"]
+
+  - id: e02
+    start: 20.133
+    end: 24.700
+    source_segment_id: s04
+    intent: emphasis
+    rationale: "这里首次提出真正的组织原则‘从任务倒推’，属于新概念的短促锚点；后面马上回到干净口播。对应 rule-entity-emphasis。"
+    style_rule_id: rule-entity-emphasis
+    motion_request:
+      required: true
+      family: emphasis
+      subtype: keyword
+      content: {text: "从任务倒推", items: [], metrics: [], labels: []}
+      constraints:
+        item_count: 1
+        max_chars_per_item: 6
+        presenter_position: center
+        input_types_required: [presenter, text]
+        input_types_optional: []
+        media_available: [presenter, text]
+        media_required: []
+      visual_intent:
+        energy: medium
+        density: low
+        preferred_layouts: [side_of_presenter]
+        preferred_skin: null
+      avoid: [cover_face, repeat_opening_layout, full_screen_takeover]
+    presentation_hint: {preferred_mode: presenter_safe, presenter_required: true}
+    supporting_layer_hints: {annotation: none, camera: none, transition: none, sfx: none}
+    asset_requirements: []
+    resolution: {status: unresolved, card_id: null, card_version: null, score: null, reason: "", props: {}, media_bindings: {}}
+    fallback: {mode: clean_talking_head, reason: "若与开场同形态重复，保留口播即可。"}
+    qc_checks: ["不把概念包装成已验证成效", "与开场包装的布局有变化"]
+
+  - id: e03
+    start: 29.400
+    end: 40.067
+    source_segment_id: s06
+    intent: evidence
+    rationale: "s06 讲 Obsidian 内建文件夹，s07 逐项报出四个平级名称；真实界面比抽象步骤卡更能说明操作与层级。跨 s06–s07 作为一段连续演示，对应 rule-tutorial-screen-primary。"
+    style_rule_id: rule-tutorial-screen-primary
+    motion_request:
+      required: true
+      family: screen-demo
+      subtype: screen-pip
+      content:
+        text: null
+        items: ["个人大脑", "产品与用户", "案例与干货", "内容生产"]
+        metrics: []
+        labels: ["四个平级文件夹"]
+      constraints:
+        item_count: 4
+        max_chars_per_item: 6
+        presenter_position: left_or_lower_left
+        input_types_required: [presenter, video, text]
+        input_types_optional: [screenshot]
+        media_available: [presenter, text]
+        media_required: [video]
+      visual_intent:
+        energy: medium
+        density: low
+        preferred_layouts: [screen_primary_with_presenter_pip]
+        preferred_skin: null
+      avoid: [fake_ui, staged_personal_data, process_arrows, dense_overlaid_tags, unreadable_folder_names]
+    presentation_hint: {preferred_mode: auto, presenter_required: true}
+    supporting_layer_hints: {annotation: optional, camera: none, transition: none, sfx: none}
+    asset_requirements:
+      - id: a01
+        priority: required
+        asset_type: video
+        purpose: "展示 Obsidian 中四个同级文件夹的真实建立或实际界面。"
+        evidence_role: supporting
+        claim_status: not_applicable
+        status: missing
+        acceptance:
+          must_show: ["四个文件夹名称完整可读", "四个文件夹处于同一层级", "没有私人或客户敏感内容"]
+          reject: ["AI 伪造界面", "无法辨认层级", "泄露私人信息"]
+        fallback: {allowed: true, mode: text_motion, note: "若无可用录屏，改用四项平级文字结构；不冒充真实界面。"}
+    resolution: {status: unresolved, card_id: null, card_version: null, score: null, reason: "", props: {}, media_bindings: {}}
+    fallback: {mode: list_key_points, reason: "真实界面缺失时，保留平级列表语义并标明是示意。"}
+    qc_checks: ["画面内容来自真实 Obsidian 操作", "四项处于同一层级而非四步骤", "界面字可读", "人物与界面不互挡", "检查隐私"]
+
+  - id: e04
+    start: 46.667
+    end: 53.267
+    source_segment_id: s09
+    intent: explain
+    rationale: "三篇笔记是平级条目，适合按口播顺序逐项显示；与上一段真实界面采用不同布局，避免连续重复。对应 rule-list-tags。"
+    style_rule_id: rule-list-tags
+    motion_request:
+      required: true
+      family: list
+      subtype: key-points
+      content:
+        text: null
+        items: ["我是谁", "账号定位", "内容边界"]
+        metrics: []
+        labels: ["个人大脑里的三篇笔记"]
+      constraints:
+        item_count: 3
+        max_chars_per_item: 4
+        presenter_position: center_or_right
+        input_types_required: [presenter, text]
+        input_types_optional: []
+        media_available: [presenter, text]
+        media_required: []
+      visual_intent:
+        energy: medium
+        density: low
+        preferred_layouts: [side_stack]
+        preferred_skin: null
+      avoid: [process_arrows, screen_demo_layout, fake_note_screenshot, cover_face]
+    presentation_hint: {preferred_mode: presenter_safe, presenter_required: true}
+    supporting_layer_hints: {annotation: none, camera: none, transition: none, sfx: optional}
+    asset_requirements: []
+    resolution: {status: unresolved, card_id: null, card_version: null, score: null, reason: "", props: {}, media_bindings: {}}
+    fallback: {mode: clean_talking_head, reason: "若列表和前段画面太密，保持人物口播。"}
+    qc_checks: ["三项为并列关系", "逐项入场与口播顺序一致", "不展示真实个人资料"]

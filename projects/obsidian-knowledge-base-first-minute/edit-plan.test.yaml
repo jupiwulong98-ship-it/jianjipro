@@ -1,0 +1,293 @@
+version: 0.3
+project_id: obsidian-knowledge-base-first-minute
+style_id: ai-talkinghead-editorial-v0.1
+source_video: ChatCut asset 19079d1d-a399-467d-ac0c-d738b471c19c (156cdccc84924f9ca0fb4e922172a108.MOV)
+semantic_segments:
+- s01
+- s02
+- s03
+- s04
+- s05
+- s06
+- s07
+- s08
+- s09
+- s10
+events:
+- id: e01
+  start: 2.333
+  end: 3.933
+  source_segment_id: s01
+  intent: emphasis
+  rationale: 开场的反常识警示是短句重音；只突出结论，不把整句口播重新排成字幕。对应 rule-emotional-single-word。 实跑逐词对齐后，入场改至“别建文件夹”口播前约0.27秒。
+  style_rule_id: rule-emotional-single-word
+  motion_request:
+    required: true
+    family: emphasis
+    subtype: keyword
+    content:
+      text: 别先建文件夹
+      items: []
+      metrics: []
+      labels: []
+    constraints:
+      item_count: 1
+      max_chars_per_item: 7
+      presenter_position: center
+      input_types_required:
+      - presenter
+      - text
+      input_types_optional: []
+      media_available:
+      - presenter
+      - text
+      media_required: []
+    visual_intent:
+      energy: high
+      density: low
+      preferred_layouts:
+      - around_presenter
+      preferred_skin: null
+    avoid:
+    - cover_face
+    - full_sentence_card
+    - fabricated_screenshot
+  presentation_hint:
+    preferred_mode: presenter_safe
+    presenter_required: true
+  supporting_layer_hints:
+    annotation: none
+    camera: none
+    transition: none
+    sfx: optional
+  asset_requirements: []
+  resolution:
+    status: resolved
+    card_id: keyword-impact
+    card_version: 2.2.0
+    score: null
+    reason: 精确family/subtype和数量；项目资产调整留空与入场，稳定帧QC通过。
+    props:
+      text: 别先建文件夹
+      centerGap: 900
+    media_bindings: {}
+  fallback:
+    mode: clean_talking_head
+    reason: 若文字遮脸或打断口播，撤销包装。
+  qc_checks:
+  - 文字与口播重音同步
+  - 人物眼口无遮挡
+  - 不把建议写成普遍事实
+- id: e02
+  start: 23.1
+  end: 25.167
+  source_segment_id: s04
+  intent: emphasis
+  rationale: 这里首次提出真正的组织原则‘从任务倒推’，属于新概念的短促锚点；后面马上回到干净口播。对应 rule-entity-emphasis。 实跑逐词对齐后，入场改至“从真实任务倒推”口播前约0.3秒。
+  style_rule_id: rule-entity-emphasis
+  motion_request:
+    required: true
+    family: emphasis
+    subtype: keyword
+    content:
+      text: 从任务倒推
+      items: []
+      metrics: []
+      labels: []
+    constraints:
+      item_count: 1
+      max_chars_per_item: 6
+      presenter_position: center
+      input_types_required:
+      - presenter
+      - text
+      input_types_optional: []
+      media_available:
+      - presenter
+      - text
+      media_required: []
+    visual_intent:
+      energy: medium
+      density: low
+      preferred_layouts:
+      - side_of_presenter
+      preferred_skin: null
+    avoid:
+    - cover_face
+    - repeat_opening_layout
+    - full_screen_takeover
+  presentation_hint:
+    preferred_mode: presenter_safe
+    presenter_required: true
+  supporting_layer_hints:
+    annotation: none
+    camera: none
+    transition: none
+    sfx: none
+  asset_requirements: []
+  resolution:
+    status: generated
+    card_id: null
+    card_version: null
+    score: null
+    reason: 现有同family关键词卡只有开场双侧布局；为避免重复且保护人物，生成侧边概念强调测试候选。
+    props:
+      text: 从任务倒推
+    media_bindings: {}
+  fallback:
+    mode: clean_talking_head
+    reason: 若与开场同形态重复，保留口播即可。
+  qc_checks:
+  - 不把概念包装成已验证成效
+  - 与开场包装的布局有变化
+- id: e03
+  start: 29.4
+  end: 40.067
+  source_segment_id: s06
+  intent: explain
+  rationale: 测试阶段用户明确暂不提供真实素材；按原计划允许的 text_motion fallback，四个文件夹以平级文字示意呈现。源 request 为 screen-demo/screen-pip；此处是经素材关卡批准的 Planner
+    变体，不是 Router 跨 family 硬套。对应 rule-list-tags。
+  style_rule_id: rule-list-tags
+  motion_request:
+    required: true
+    family: list
+    subtype: key-points
+    content:
+      text: null
+      items:
+      - 个人大脑
+      - 产品与用户
+      - 案例与干货
+      - 内容生产
+      metrics: []
+      labels:
+      - 四个平级文件夹
+    constraints:
+      item_count: 4
+      max_chars_per_item: 6
+      presenter_position: left_or_lower_left
+      input_types_required:
+      - presenter
+      - text
+      input_types_optional: []
+      media_available:
+      - presenter
+      - text
+      media_required: []
+    visual_intent:
+      energy: medium
+      density: low
+      preferred_layouts:
+      - right_side_stack
+      preferred_skin: null
+    avoid:
+    - fake_ui
+    - process_arrows
+    - cover_face
+    - dense_overlaid_tags
+  presentation_hint:
+    preferred_mode: presenter_safe
+    presenter_required: true
+  supporting_layer_hints:
+    annotation: optional
+    camera: none
+    transition: none
+    sfx: none
+  asset_requirements: []
+  resolution:
+    status: fallback
+    card_id: null
+    card_version: null
+    score: null
+    reason: 用户暂不提供录屏；screen-demo原请求在Asset Gate降级为四项平级文字示意。现有tag-list固定四角位置可能压人物，使用项目内一次性候选。
+    props:
+      title: 示意｜四个同级文件夹
+      folder1: 个人大脑
+      folder2: 产品与用户
+      folder3: 案例与干货
+      folder4: 内容生产
+    media_bindings: {}
+  fallback:
+    selected: true
+    source_requirement_id: a01
+    mode: text_motion
+    display_label: 示意
+    reason: 用户明确本次测试不给真实录屏。
+  qc_checks:
+  - 明确标示示意
+  - 四项平级而非四步骤
+  - 不伪造 Obsidian 界面
+  - 人物眼口无遮挡
+  - 四项可读
+- id: e04
+  start: 46.667
+  end: 53.267
+  source_segment_id: s09
+  intent: explain
+  rationale: 三篇笔记是平级条目，适合按口播顺序逐项显示；与上一段真实界面采用不同布局，避免连续重复。对应 rule-list-tags。
+  style_rule_id: rule-list-tags
+  motion_request:
+    required: true
+    family: list
+    subtype: key-points
+    content:
+      text: null
+      items:
+      - 我是谁
+      - 我的账号定位
+      - 我的内容边界
+      metrics: []
+      labels:
+      - 个人大脑里的三篇笔记
+    constraints:
+      item_count: 3
+      max_chars_per_item: 6
+      presenter_position: center_or_right
+      input_types_required:
+      - presenter
+      - text
+      input_types_optional: []
+      media_available:
+      - presenter
+      - text
+      media_required: []
+    visual_intent:
+      energy: medium
+      density: low
+      preferred_layouts:
+      - side_stack
+      preferred_skin: null
+    avoid:
+    - process_arrows
+    - screen_demo_layout
+    - fake_note_screenshot
+    - cover_face
+  presentation_hint:
+    preferred_mode: presenter_safe
+    presenter_required: true
+  supporting_layer_hints:
+    annotation: none
+    camera: none
+    transition: none
+    sfx: optional
+  asset_requirements: []
+  resolution:
+    status: resolved
+    card_id: side-kicker
+    card_version: 1.0.0
+    score: null
+    reason: 同family侧边列表降级，三项数量与人物布局吻合；项目资产按逐词时间调整入场。
+    props:
+      line1: 我是谁
+      line2: 我的账号定位
+      line3: 我的内容边界
+      x: 110
+      y: 370
+    media_bindings: {}
+  fallback:
+    mode: clean_talking_head
+    reason: 若列表和前段画面太密，保持人物口播。
+  qc_checks:
+  - 三项为并列关系
+  - 逐项入场与口播顺序一致
+  - 不展示真实个人资料

@@ -1,0 +1,15 @@
+version: 0.1
+project_id: obsidian-knowledge-base-first-minute
+assets:
+- requirement_id: a01
+  edit_event_id: e03
+  status: skipped
+  files: []
+  user_override:
+    use_fallback: true
+    notes: 用户明确本次测试暂不提供真实素材；采用四项平级文字示意。
+execution_gate:
+  required_total: 0
+  required_ready: 0
+  can_execute: true
+  blockers: []

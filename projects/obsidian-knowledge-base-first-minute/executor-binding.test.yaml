@@ -1,0 +1,46 @@
+version: 0.1
+project_id: obsidian-knowledge-base-first-minute
+chatcut_project_id: e3714883-34ad-4a20-9fa0-a540ce0c211c
+original_timeline_id: 4d5d9d94-ffcd-4aba-8935-fa383ad65acf
+clean_timeline_id: a51ab853-ae69-48e5-8757-8b2ad01dfa84
+test_timeline_id: b9e91840-1202-4300-ac94-c07f83b47dc8
+fps: 30
+duration_frames: 1787
+items:
+- event_id: e01
+  timeline_frames:
+  - 70
+  - 118
+  origin: motion-library/cards/keyword-impact/versions/2.2.0
+  asset_id: 970873d8-714b-4d2d-9819-f2028eb2b79c
+  item_id: 8441392c-a274-4390-8324-2336000fc358
+  project_patch: centerGap=900; entrance changed from lateral slide to fade for face safety
+- event_id: e02
+  timeline_frames:
+  - 693
+  - 755
+  origin: generated_motion_candidate
+  asset_id: b6a13bdd-88f4-43ad-88c5-929865f42540
+  item_id: 0fbc043b-a844-410a-b606-a87b0af5616e
+  project_patch: natural-box left-side keyword
+- event_id: e03
+  timeline_frames:
+  - 882
+  - 1202
+  origin: asset_gate_text_fallback
+  asset_id: 64fc35a1-897d-4e0d-b45c-40e38644edb2
+  item_id: 116cacd7-3dc5-4038-ad75-b9ea689ee5f1
+  project_patch: 'four same-level folders; reveal frames aligned to speech: 1036,1074,1134,1179'
+- event_id: e04
+  timeline_frames:
+  - 1400
+  - 1598
+  origin: motion-library/cards/side-kicker/versions/1.0.0
+  asset_id: e6a3d9d9-b80e-4185-a72d-4bb85ef0995b
+  item_id: 089a9dae-2f70-45a5-ab1a-ca7040295c0b
+  project_patch: word-timed reveals and full note titles
+captions:
+  preset: white-impact
+  card_count: 31
+  visible: true
+  note: Corrected Obsidian capitalization in one caption card.
