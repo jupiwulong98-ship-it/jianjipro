@@ -1,0 +1,37 @@
+version: 0.1
+description: "语义标注的受控词表。primary_intent保持粗分类，semantic_role用于Motion选择。"
+
+semantic_roles:
+  - hook
+  - thesis
+  - example
+  - evidence
+  - data
+  - comparison
+  - parallel_list
+  - definition
+  - process
+  - mechanism
+  - transition
+  - question
+  - quote
+  - entity_intro
+  - warning
+  - conclusion
+  - cta
+  - section
+  - tutorial_step
+  - visual_proof
+  - clean_explanation
+
+evidence_need:
+  none: "不需要真实证据素材。"
+  supporting: "有真实素材更好，但缺失可降级。"
+  required: "该段如果要以证据形式呈现，必须提供真实来源素材。"
+
+claim_status:
+  not_applicable: "不是事实/量化主张。"
+  speaker_claim: "口播者/案例作者的主张，未独立验证。"
+  owner_confirmed: "用户确认来自自己的真实数据。"
+  sourced: "有明确外部来源支持。"
+  estimate: "估算或范围值。"
