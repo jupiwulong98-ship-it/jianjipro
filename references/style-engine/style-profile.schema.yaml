@@ -1,0 +1,49 @@
+version: 0.1
+style_id: string
+source_creator: string
+source_videos: []
+confidence: 0.0
+
+global:
+  aspect_ratio: "9:16"
+  pacing:
+    visual_event_interval_sec: {min: 0, max: 0}
+    max_same_effect_repeat: 0
+  density: low|medium|high
+
+typography:
+  caption: {}
+  emphasis: {}
+
+camera:
+  rules: []
+
+motion_graphics:
+  categories: []
+  rules: []
+
+broll:
+  rules: []
+
+sound:
+  music: {}
+  sfx_rules: []
+
+composition:
+  safe_zones: {}
+  subject_positioning: {}
+
+decision_rules:
+  - id: rule-id
+    semantic_trigger: []
+    context_conditions: []
+    action:
+      effect_category: string
+      preferred_effect_ids: []
+    avoid_when: []
+    evidence: []
+    confidence: 0.0
+
+negative_rules:
+  - description: string
+    evidence: []
