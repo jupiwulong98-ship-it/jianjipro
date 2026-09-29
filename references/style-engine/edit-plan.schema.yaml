@@ -1,4 +1,4 @@
-version: 0.2
+version: 0.3
 project_id: string
 style_id: string
 source_video: string
@@ -26,6 +26,8 @@ events:
         item_count: null
         max_chars_per_item: null
         presenter_position: null
+        input_types_required: []
+        input_types_optional: []
         media_available: []
         media_required: []
       visual_intent:
@@ -34,6 +36,16 @@ events:
         preferred_layouts: []
         preferred_skin: null
       avoid: []
+
+    presentation_hint:
+      preferred_mode: presenter_safe|full_screen|auto
+      presenter_required: false
+
+    supporting_layer_hints:
+      annotation: none|optional|recommended
+      camera: none|optional|recommended
+      transition: none|optional|recommended
+      sfx: none|optional|recommended
 
     asset_requirements: []
 
@@ -50,6 +62,7 @@ events:
     qc_checks: []
 
 rules:
-  - "Planner只填写motion_request，不直接指定card_id。"
+  - "Planner只填写motion_request与presentation/supporting hints，不直接指定card_id。"
+  - "具体安全区、运镜、标注、转场在Shotbook Planner落实。"
   - "resolution由Motion Router填写。"
   - "若motion_request.required=false，可保持干净口播。"
