@@ -1,0 +1,8 @@
+version: 0.1
+project_id: replace-me
+assets: []
+execution_gate:
+  required_total: 0
+  required_ready: 0
+  can_execute: false
+  blockers: []
