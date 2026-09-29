@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 
 selection_model:
   order:
@@ -16,88 +16,102 @@ families:
   emphasis:
     description: "单个关键词、短句、情绪重音。"
     subtypes:
-      keyword:
-        use_for: [hook, punchline, key_term, short_claim]
-      side-keyword:
-        use_for: [short_list_emphasis, side_annotation]
+      keyword: {use_for: [hook, punchline, key_term, short_claim]}
+      side-keyword: {use_for: [short_list_emphasis, side_annotation]}
 
   number:
     description: "单个数字或量化结果的视觉重音。"
     subtypes:
-      single-metric:
-        use_for: [number, money, percentage, count]
+      single-metric: {use_for: [number, money, percentage, count]}
 
   section:
     description: "章节、案例、话题的大结构切换。"
     subtypes:
-      chapter-title:
-        use_for: [section, category_change, case_change]
+      chapter-title: {use_for: [section, category_change, case_change]}
 
   list:
     description: "并列信息，不表达先后或因果。"
     subtypes:
-      key-points:
-        use_for: [parallel_points, features, pain_points, audience, options]
-      category-overview:
-        use_for: [category_menu, content_map]
-      side-list:
-        use_for: [compact_parallel_terms]
+      key-points: {use_for: [parallel_points, features, pain_points, audience, options]}
+      category-overview: {use_for: [category_menu, content_map]}
+      side-list: {use_for: [compact_parallel_terms]}
 
   process:
     description: "存在明确先后、流程、步骤关系。"
     subtypes:
-      process-map:
-        use_for: [workflow, steps, pipeline]
+      process-map: {use_for: [workflow, steps, pipeline]}
 
   comparison:
-    description: "A/B、前后、投入产出、结果差异。"
+    description: "不同结果、指标、状态或路径之间的关系。"
     subtypes:
       media-compare:
         use_for: [before_after_media, result_comparison]
       metric-compare:
-        use_for: [number_vs_number, effort_vs_income]
+        use_for: [number_vs_number, effort_vs_income, result_vs_profit]
+        status: missing_exact_card
+      group-contrast:
+        use_for: [group_vs_group, solved_vs_unsolved]
+        status: missing_exact_card
+      outcome-distribution:
+        use_for: [different_people_different_results, result_distribution]
+        status: missing_exact_card
+      funnel:
+        use_for: [total_to_monetizable_to_revenue, conversion_breakdown]
+        status: missing_exact_card
+      misconception:
+        use_for: [apparent_conclusion_vs_reality]
         status: missing_exact_card
 
   evidence:
     description: "用真实素材证明观点或展示结果。"
     subtypes:
-      broll:
-        use_for: [example, visual_proof, generated_result]
-      proof:
-        use_for: [screenshot_evidence, document_evidence]
-      single-result:
-        use_for: [single_result, one_screenshot]
-      gallery:
-        use_for: [multiple_results, examples]
-      template-wall:
-        use_for: [many_templates, gallery_overview]
-      perspective-result:
-        use_for: [presenter_plus_result]
+      broll: {use_for: [example, visual_proof, generated_result]}
+      proof: {use_for: [screenshot_evidence, document_evidence]}
+      single-result: {use_for: [single_result, one_screenshot]}
+      gallery: {use_for: [multiple_results, examples]}
+      template-wall: {use_for: [many_templates, gallery_overview]}
+      perspective-result: {use_for: [presenter_plus_result]}
 
   screen-demo:
     description: "软件操作、录屏、界面讲解。"
     subtypes:
-      screen-pip:
-        use_for: [tutorial_step, interface_demo]
-      focus-callout:
-        use_for: [click_target, interface_region]
-      tool-demo:
-        use_for: [tool_demo_with_features]
+      screen-pip: {use_for: [tutorial_step, interface_demo]}
+      focus-callout: {use_for: [click_target, interface_region]}
+      tool-demo: {use_for: [tool_demo_with_features]}
 
   entity:
     description: "工具、品牌、模型、平台等实体锚点。"
     subtypes:
-      tool-badge:
-        use_for: [one_or_two_tools]
-      logo-wall:
-        use_for: [many_tools, ecosystem]
+      tool-badge: {use_for: [one_or_two_tools]}
+      logo-wall: {use_for: [many_tools, ecosystem]}
 
-planned_families:
   statement:
-    subtypes: [statement-pair, closing-statement]
+    description: "用一到三句完整观点形成视觉结论。"
+    subtypes:
+      statement-pair:
+        use_for: [thesis_reversal, two_line_principle]
+        status: missing_exact_card
+      closing-statement:
+        use_for: [final_thesis, closing_principle]
+        status: missing_exact_card
+
   checklist:
-    subtypes: [framework-checklist]
+    description: "观众可以直接带走的判断框架或问题清单。"
+    subtypes:
+      framework-checklist:
+        use_for: [evaluation_framework, reusable_questions]
+        status: missing_exact_card
+
   equation:
-    subtypes: [negative-equation-stack]
+    description: "A≠B、A=B等公式化观点。"
+    subtypes:
+      negative-equation-stack:
+        use_for: [not_equal_principles, repeated_negative_equivalence]
+        status: missing_exact_card
+
   quote:
-    subtypes: [quote-card]
+    description: "评论、原文、外部观点的引用。"
+    subtypes:
+      quote-card:
+        use_for: [comment_quote, article_quote, external_validation]
+        status: missing_exact_card
