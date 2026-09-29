@@ -1,0 +1,86 @@
+version: 0.1
+project_id: string
+style_id: string
+source_video: string
+
+global:
+  aspect_ratio: "16:9"
+  fps: 30
+  caption_mode: burned_in|generated|none
+  presenter_default_position: center
+  layout_rhythm: []
+  style_skin: string
+
+shots:
+  - id: shot-001
+    start: 0.0
+    end: 0.0
+    source_segment_ids: []
+    spoken_text: ""
+    primary_visual_job: ""
+    semantic_role: ""
+    importance: 0.0
+
+    presentation_mode: presenter_safe|full_screen
+    safe_zones:
+      presenter: {enabled: true, region: null}
+      captions: {enabled: true, bottom_reserve_pct: 18}
+      custom: []
+
+    inputs:
+      required: []
+      available: []
+      missing: []
+
+    primary_motion_request:
+      family: string
+      subtype: string
+      content: {}
+      constraints: {}
+      visual_intent: {}
+
+    supporting_layers:
+      annotation:
+        enabled: false
+        target: null
+        mode: null
+      camera:
+        enabled: false
+        mode: none
+        target: null
+      transition_in:
+        enabled: false
+        mode: hard_cut
+      transition_out:
+        enabled: false
+        mode: hard_cut
+      sfx:
+        enabled: false
+        cue: null
+
+    asset_slots: []
+
+    resolution:
+      primary_card: null
+      card_version: null
+      props: {}
+      media_bindings: {}
+      status: unresolved
+
+    rhythm_context:
+      previous_primary_family: null
+      same_structure_run: 0
+      same_layout_run: 0
+      recent_cards: []
+
+    review:
+      stable_frame_ratio: 0.72
+      checks:
+        face_safety: pending
+        subtitle_clearance: pending
+        clipping: pending
+        density: pending
+        contrast: pending
+        semantic_fit: pending
+        evidence_integrity: pending
+      issues: []
