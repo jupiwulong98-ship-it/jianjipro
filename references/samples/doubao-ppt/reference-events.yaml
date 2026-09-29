@@ -1,0 +1,251 @@
+version: 0.1
+video_id: doubao-ppt
+source_file: 从报告到PPT全程不用动手_豆包工作才是打工人该用的AI _豆包工作 _AI _AI工具.mp4
+duration_sec: 192.07
+resolution: 1024x576
+sampling:
+  overview_fps: 1
+  micro_review_fps: 6
+notes:
+  - "主结构：真人口播 + 黑色斜纹/网格演示舞台 + 大圆角屏幕卡 + 左侧人物PIP。"
+  - "教程演示占比高，屏幕内容比人物更重要时立刻切到演示舞台。"
+events:
+  - id: v2-e001
+    start: 0.70
+    end: 2.00
+    semantic_role: entity
+    event_type: keyword_emphasis
+    spoken_text: "豆包工作"
+    visual: {layout: "真人口播；人物左上/中部出现产品名和Logo", color: "white/yellow"}
+    confidence: 0.95
+
+  - id: v2-e002
+    start: 2.50
+    end: 4.20
+    semantic_role: positioning
+    event_type: tag_stack
+    spoken_text: "生产力、办公场景"
+    visual: {layout: "人物左/右上黄色圆角标签", items: ["生产力","办公场景"]}
+    confidence: 0.96
+
+  - id: v2-e003
+    start: 4.20
+    end: 5.10
+    semantic_role: category
+    event_type: keyword_emphasis
+    spoken_text: "AI Agent产品"
+    visual: {text: "AI Agent", layout: "人物右上大白字"}
+    confidence: 0.94
+
+  - id: v2-e004
+    start: 5.00
+    end: 8.00
+    semantic_role: pain_point
+    event_type: broll
+    spoken_text: "厚厚满满的行业分析报告"
+    visual: {layout: "人物仍在中心，多张报告截图从四周叠入，制造信息过载"}
+    confidence: 0.97
+
+  - id: v2-e005
+    start: 8.00
+    end: 11.50
+    semantic_role: entity
+    event_type: icon_callout
+    spoken_text: "豆包工作和飞书生态深度打通"
+    visual: {layout: "产品Logo在人物两侧依次出现"}
+    confidence: 0.95
+
+  - id: v2-e006
+    start: 12.00
+    end: 21.90
+    semantic_role: feature_list
+    event_type: graphic_card
+    spoken_text: "账号登录后，文件保留在飞书体系内，还能设置分享权限、协同编辑、团队复用"
+    visual:
+      layout: "深色斜纹/网格舞台；左侧竖向人物PIP；右侧大圆角截图卡；顶部黄底黑字主标签"
+      header: "生态深度互通"
+      sub_tags: ["分享权限","协同编辑","团队复用"]
+    motion:
+      sequence: "主舞台先建立；截图内容随演示刷新；左侧黄色子标签按语义逐项添加"
+    confidence: 0.99
+
+  - id: v2-e007
+    start: 22.00
+    end: 26.80
+    semantic_role: data_source
+    event_type: graphic_card
+    spoken_text: "群聊、调研报告、资料库都在同一体系"
+    visual: {layout: "同一深色舞台；人物缩成左下圆形PIP；顶部三个黄色标签；主屏显示资料/群聊"}
+    confidence: 0.98
+
+  - id: v2-e008
+    start: 27.00
+    end: 37.50
+    semantic_role: workflow
+    event_type: graphic_card
+    spoken_text: "读取、理解内容，根据进度创建待办，严格继承权限"
+    visual: {layout: "深色舞台+左下圆形PIP；屏幕主体切换工作流、数据看板、安全示意"}
+    confidence: 0.96
+
+  - id: v2-e009
+    start: 38.00
+    end: 46.70
+    semantic_role: reassurance
+    event_type: talking_head
+    spoken_text: "你看不到的项目资料，Agent也看不到；完全不用担心"
+    visual: {layout: "回到纯真人口播，仅保留底部字幕"}
+    confidence: 0.98
+
+  - id: v2-e010
+    start: 47.00
+    end: 48.30
+    semantic_role: section
+    event_type: keyword_emphasis
+    spoken_text: "行业汇报"
+    visual: {text: "行业汇报", layout: "人物左侧/上方大号浅黄色字"}
+    confidence: 0.96
+
+  - id: v2-e011
+    start: 50.00
+    end: 51.50
+    semantic_role: entity
+    event_type: icon_callout
+    spoken_text: "豆包工作"
+    visual: {layout: "人物左侧Logo+产品名白字"}
+    confidence: 0.95
+
+  - id: v2-e012
+    start: 52.00
+    end: 65.80
+    semantic_role: tutorial_step
+    event_type: broll
+    spoken_text: "打开豆包工作，上传资料，选择行业分析报告skill，输入提示词"
+    visual: {layout: "深色舞台；左侧人物竖向PIP；右侧超大白色网页卡"}
+    motion: {sequence: "网页状态连续切换，人物PIP持续保留"}
+    confidence: 0.98
+
+  - id: v2-e013
+    start: 66.00
+    end: 84.80
+    semantic_role: result
+    event_type: broll
+    spoken_text: "先根据需求梳理框架，生成报告，表格数据来源清晰"
+    visual: {layout: "同一舞台结构；大屏依次展示长文报告、目录、表格、引用来源"}
+    confidence: 0.97
+
+  - id: v2-e014
+    start: 85.00
+    end: 92.70
+    semantic_role: review
+    event_type: talking_head
+    spoken_text: "拿到手自己再核对关键数据、调整就能直接用"
+    visual: {layout: "纯真人口播；节奏放缓"}
+    confidence: 0.98
+
+  - id: v2-e015
+    start: 93.00
+    end: 98.80
+    semantic_role: pain_point
+    event_type: broll
+    spoken_text: "做汇报PPT要排版、图表、模板"
+    visual: {layout: "全屏3D动画人物+PPT屏幕；强调繁琐劳动"}
+    confidence: 0.96
+
+  - id: v2-e016
+    start: 99.00
+    end: 106.80
+    semantic_role: solution
+    event_type: broll
+    spoken_text: "在一个对话框里选择PPT和可视化skill"
+    visual: {layout: "深色舞台；左人物PIP；右网页卡"}
+    confidence: 0.97
+
+  - id: v2-e017
+    start: 107.00
+    end: 121.80
+    semantic_role: process
+    event_type: broll
+    spoken_text: "基于报告跑两个Agent，一个写分析，一个做图表，最后自动汇总PPT"
+    visual: {layout: "同一舞台；网页卡内先显示提示词，再切双Agent流程与输出"}
+    confidence: 0.98
+
+  - id: v2-e018
+    start: 122.00
+    end: 139.80
+    semantic_role: result
+    event_type: broll
+    spoken_text: "看最终效果，页面层级、数据图表、演讲稿都处理好"
+    visual: {layout: "PPT编辑器大屏展示；人物PIP保留在左侧；连续翻页看结果"}
+    confidence: 0.98
+
+  - id: v2-e019
+    start: 140.00
+    end: 142.80
+    semantic_role: transition
+    event_type: talking_head
+    spoken_text: "那除此之外"
+    visual: {layout: "回到真人口播"}
+    confidence: 0.97
+
+  - id: v2-e020
+    start: 143.00
+    end: 153.80
+    semantic_role: feature
+    event_type: broll
+    spoken_text: "支持多端远程互通，手机也能继续工作"
+    visual: {layout: "全屏手机实拍B-roll；屏幕操作占主画面"}
+    confidence: 0.96
+
+  - id: v2-e021
+    start: 154.00
+    end: 159.80
+    semantic_role: claim
+    event_type: talking_head
+    spoken_text: "几个指令Agent就能帮忙干活"
+    visual: {layout: "纯口播"}
+    confidence: 0.97
+
+  - id: v2-e022
+    start: 160.00
+    end: 161.00
+    semantic_role: emotion
+    event_type: keyword_emphasis
+    spoken_text: "爽"
+    visual: {text: "爽", layout: "超大白/浅黄字从左侧占据画面", emphasis: "maximum"}
+    confidence: 0.98
+
+  - id: v2-e023
+    start: 172.00
+    end: 174.80
+    semantic_role: contrast
+    event_type: keyword_emphasis
+    spoken_text: "从工具时代正式进入Agent时代"
+    visual: {text_sequence: ["工具时代","Agent时代"], layout: "人物两侧大字依次出现"}
+    confidence: 0.97
+
+  - id: v2-e024
+    start: 178.00
+    end: 182.00
+    semantic_role: audience
+    event_type: tag_stack
+    spoken_text: "打工人、学生党"
+    visual: {layout: "人物左上黄色标签逐项累积", items: ["打工人","学生党"]}
+    confidence: 0.98
+
+  - id: v2-e025
+    start: 185.00
+    end: 186.20
+    semantic_role: offer
+    event_type: keyword_emphasis
+    spoken_text: "领30天订阅权益"
+    visual: {text: "30Days", layout: "人物左上大浅黄色英文字"}
+    confidence: 0.96
+
+  - id: v2-e026
+    start: 186.20
+    end: 192.07
+    semantic_role: conclusion
+    event_type: talking_head
+    spoken_text: "生活交给AI，脑子留给自己...下期见"
+    visual: {layout: "纯真人口播结束"}
+    confidence: 0.98
