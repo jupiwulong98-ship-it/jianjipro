@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 project_id: string
 source_video: string
 transcript_source: string
@@ -8,6 +8,7 @@ segments:
     end: 0.0
     text: ""
     primary_intent: setup|claim|misconception|contrast|number|list|process|example|entity|quote|question|warning|conclusion|cta|other
+    semantic_role: hook|thesis|example|evidence|data|comparison|parallel_list|definition|process|mechanism|transition|question|quote|entity_intro|warning|conclusion|cta|section|tutorial_step|visual_proof|clean_explanation
     importance: 0.0
     entities: []
     numbers: []
@@ -15,4 +16,12 @@ segments:
     rhetorical_function: ""
     emotional_intensity: 0.0
     visual_evidence_useful: false
+    evidence_need: none|supporting|required
+    claim_status: not_applicable|speaker_claim|owner_confirmed|sourced|estimate
+    suggested_inputs: []
     notes: ""
+
+rules:
+  - "semantic_role使用semantic-vocabulary.yaml受控词表。"
+  - "有数字不等于已验证；数字可同时是data + speaker_claim。"
+  - "证据需要与素材存在性分开记录。"
