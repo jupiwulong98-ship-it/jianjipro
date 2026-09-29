@@ -1,0 +1,369 @@
+version: 0.1
+video_id: video-1
+source_file: video-1.mp4
+duration_sec: 303.65
+resolution: 1920x1080
+sampling:
+  overview_fps: 1
+  micro_review_fps: 6
+notes:
+  - "主结构：真人口播 + 黑色透视网格舞台 + UI/素材卡片 + 章节标题卡。"
+  - "字幕基本持续存在，白字粗体、底部居中、黑色描边/阴影。"
+events:
+  - id: v1-e001
+    start: 0.00
+    end: 1.70
+    semantic_role: hook
+    event_type: keyword_emphasis
+    spoken_text: "一天打破一个AI信息差"
+    trigger: {inferred_reason: "开头核心承诺，必须建立强视觉钩子", confidence: 0.98}
+    visual: {layout: "人物中景+超大黄字覆盖上半区", text: "AI信息差", color: "yellow", emphasis: "very-high"}
+    motion: {entrance: "快速显现/轻放大", hold: "约1秒", exit: "碎裂/粒子化消散"}
+    confidence: 0.96
+
+  - id: v1-e002
+    start: 3.00
+    end: 5.80
+    semantic_role: entity_list
+    event_type: graphic_card
+    spoken_text: "大家经常用的AI工具"
+    trigger: {inferred_reason: "提到工具集合，用视觉墙快速建立数量感", confidence: 0.95}
+    visual: {layout: "人物前景+多Logo方块背景墙", density: "high"}
+    motion: {entrance: "背景Logo整体切入", hold: "2-3秒"}
+    confidence: 0.92
+
+  - id: v1-e003
+    start: 6.70
+    end: 9.30
+    semantic_role: number
+    event_type: keyword_emphasis
+    spoken_text: "我花了整整一个月，测试了接近100多个AI工具"
+    visual: {text_sequence: ["30 DAY", "100+"], layout: "人物右侧/后侧大号黄字", color: "yellow"}
+    motion: {entrance: "快速pop", exit: "直接切回口播"}
+    confidence: 0.95
+
+  - id: v1-e004
+    start: 11.70
+    end: 14.00
+    semantic_role: warning
+    event_type: tag_stack
+    spoken_text: "乱收费、急卡顿、反人类"
+    visual: {layout: "人物右侧纵向标签", style: "紫粉底黑字", accumulation: "逐项追加"}
+    motion: {entrance: "每个标签独立pop/slide", persistence: "后出现时保留前项"}
+    confidence: 0.98
+
+  - id: v1-e005
+    start: 16.40
+    end: 18.20
+    semantic_role: claim
+    event_type: keyword_emphasis
+    spoken_text: "真正打开我流量的宝藏AI软件"
+    visual: {text: "宝藏AI软件", layout: "超大黄字居中偏上"}
+    motion: {entrance: "放大进入", exit: "切入网格舞台"}
+    confidence: 0.94
+
+  - id: v1-e006
+    start: 18.20
+    end: 24.10
+    semantic_role: list
+    event_type: motion_graphic
+    spoken_text: "AI写作、AI图像、AI视频、AI音频、AI编程"
+    visual:
+      layout: "黑色3D透视网格；人物置于中央圆角竖框；五个青蓝渐变卡片围绕人物"
+      items: ["AI写作","AI图像","AI视频","AI音频","AI编程"]
+    motion:
+      entrance: "舞台切入后人物框先稳定"
+      sequence: "卡片逐个出现，先中央/下方，再扩展到左右"
+      final_state: "五卡片围绕人物形成完整菜单"
+    confidence: 0.99
+
+  - id: v1-e007
+    start: 27.00
+    end: 29.80
+    semantic_role: section
+    event_type: transition
+    spoken_text: "先说说豆包"
+    visual: {text: "AI写作", layout: "全屏章节卡", background: "暗色山水/科技场景", style: "青色霓虹大字"}
+    motion: {entrance: "硬切/快速显现", hold: "约2.5秒"}
+    confidence: 0.98
+
+  - id: v1-e008
+    start: 33.00
+    end: 38.70
+    semantic_role: example
+    event_type: graphic_card
+    spoken_text: "表达更贴近日常，提示词不需要很复杂"
+    visual: {layout: "黑色网格舞台；左侧人物圆角PIP；右侧大截图卡；绿色标题条"}
+    motion: {entrance: "截图卡进入后内部内容随讲解切换"}
+    confidence: 0.96
+
+  - id: v1-e009
+    start: 40.00
+    end: 44.90
+    semantic_role: list
+    event_type: tag_stack
+    spoken_text: "朋友圈、小红书、总结、表白信、演讲稿"
+    visual:
+      layout: "真人口播"
+      style: "紫粉圆角标签，黑字"
+      placement: "左右分布，避开面部"
+      accumulation: "按口播顺序逐项保留"
+    motion: {entrance: "逐项pop", cadence: "约0.5-1秒/项"}
+    confidence: 0.99
+
+  - id: v1-e010
+    start: 53.00
+    end: 60.80
+    semantic_role: product_demo
+    event_type: broll
+    spoken_text: "Kimi处理长文本，支持大量上下文"
+    visual: {layout: "黑网格舞台；左人物PIP；右软件截图；顶部绿色功能条；右上Logo"}
+    confidence: 0.96
+
+  - id: v1-e011
+    start: 62.00
+    end: 67.90
+    semantic_role: list
+    event_type: tag_stack
+    spoken_text: "文献综述、读后感、合同对比、资料整理"
+    visual: {layout: "人物右侧紫粉标签纵向累积", style: "与v1-e004同家族"}
+    confidence: 0.98
+
+  - id: v1-e012
+    start: 68.00
+    end: 82.90
+    semantic_role: product_demo
+    event_type: graphic_card
+    spoken_text: "DeepSeek逻辑推理能力强"
+    visual:
+      layout: "黑网格舞台；左人物PIP；右蓝白产品演示卡"
+      header: "绿色能力标签"
+      annotations: "底部/角落绿色关键词标签，如逻辑分析、严谨论证"
+    motion: {sequence: "产品截图与能力标签跟随论述更新"}
+    confidence: 0.96
+
+  - id: v1-e013
+    start: 83.00
+    end: 95.90
+    semantic_role: product_demo
+    event_type: graphic_card
+    spoken_text: "秘塔写作猫适合中文写作校对"
+    visual: {layout: "同一网格舞台体系；顶部绿色标签；右侧文档截图；绿色批注词"}
+    confidence: 0.97
+
+  - id: v1-e014
+    start: 96.80
+    end: 99.70
+    semantic_role: list
+    event_type: tag_stack
+    spoken_text: "公众号推文、论文、公文等"
+    visual: {layout: "真人口播；人物右侧黄字/白字列表逐项出现"}
+    confidence: 0.93
+
+  - id: v1-e015
+    start: 100.00
+    end: 103.00
+    semantic_role: section
+    event_type: transition
+    spoken_text: "接下来讲AI生成图像"
+    visual: {text: "AI生图", layout: "全屏青色霓虹章节卡", background: "与AI写作章节卡同家族"}
+    confidence: 0.99
+
+  - id: v1-e016
+    start: 107.00
+    end: 113.70
+    semantic_role: product_demo
+    event_type: broll
+    spoken_text: "生图功能就在聊天框，直接描述即可"
+    visual: {layout: "白底网页主画面；左下圆形人物PIP；演示生成结果"}
+    confidence: 0.97
+
+  - id: v1-e017
+    start: 120.00
+    end: 129.70
+    semantic_role: example
+    event_type: broll
+    spoken_text: "画面质量、光影、细节、可直接使用"
+    visual: {layout: "黑网格背景；左下人物圆形PIP；多张生成图大图轮换"}
+    confidence: 0.96
+
+  - id: v1-e018
+    start: 136.00
+    end: 141.90
+    semantic_role: product_demo
+    event_type: broll
+    spoken_text: "设计类物料可以用模板和排版工具"
+    visual: {layout: "黑网格舞台；左下人物PIP；模板墙/网页截图占主体"}
+    confidence: 0.95
+
+  - id: v1-e019
+    start: 144.00
+    end: 146.80
+    semantic_role: list
+    event_type: tag_stack
+    spoken_text: "海报、PPT、活动物料"
+    visual: {layout: "真人口播；人物右侧绿色标签纵向累积"}
+    confidence: 0.98
+
+  - id: v1-e020
+    start: 151.00
+    end: 153.70
+    semantic_role: entity
+    event_type: icon_callout
+    spoken_text: "GPT Image和Nano Banana Pro"
+    visual: {layout: "人物两侧出现产品Logo"}
+    confidence: 0.95
+
+  - id: v1-e021
+    start: 154.00
+    end: 156.90
+    semantic_role: section
+    event_type: transition
+    spoken_text: "再来说AI视频"
+    visual: {text: "AI视频", layout: "全屏青色霓虹章节卡"}
+    confidence: 0.99
+
+  - id: v1-e022
+    start: 160.00
+    end: 166.80
+    semantic_role: example
+    event_type: broll
+    spoken_text: "全免费的AI视频工具也有质量优势"
+    visual: {layout: "真人口播左侧+斜透视视频卡右侧，样例视频连续轮换"}
+    confidence: 0.95
+
+  - id: v1-e023
+    start: 171.00
+    end: 172.80
+    semantic_role: entity
+    event_type: keyword_emphasis
+    spoken_text: "可灵"
+    visual: {text: "可灵", layout: "人物右侧大黄字"}
+    confidence: 0.96
+
+  - id: v1-e024
+    start: 173.00
+    end: 178.80
+    semantic_role: example
+    event_type: broll
+    spoken_text: "生成符合物理规律、大幅度运动视频"
+    visual: {layout: "全屏生成视频；左下圆形人物PIP；底部白字说明"}
+    confidence: 0.95
+
+  - id: v1-e025
+    start: 186.00
+    end: 186.90
+    semantic_role: entity
+    event_type: keyword_emphasis
+    spoken_text: "即梦"
+    visual: {text: "即梦", layout: "人物右侧大黄字"}
+    confidence: 0.96
+
+  - id: v1-e026
+    start: 189.00
+    end: 193.80
+    semantic_role: product_demo
+    event_type: broll
+    spoken_text: "智能画布、故事创作模式、首尾帧控制"
+    visual: {layout: "白底产品网页；左下圆形人物PIP；红框局部强调"}
+    confidence: 0.96
+
+  - id: v1-e027
+    start: 201.00
+    end: 201.90
+    semantic_role: entity
+    event_type: keyword_emphasis
+    spoken_text: "海螺"
+    visual: {text: "海螺", layout: "人物右侧大黄字"}
+    confidence: 0.96
+
+  - id: v1-e028
+    start: 202.00
+    end: 209.70
+    semantic_role: example
+    event_type: broll
+    spoken_text: "人物动作、情绪、近景表现"
+    visual: {layout: "全屏生成视频轮换；左下圆形人物PIP；底部解释字幕"}
+    confidence: 0.95
+
+  - id: v1-e029
+    start: 220.00
+    end: 222.00
+    semantic_role: section
+    event_type: transition
+    spoken_text: "AI配音"
+    visual: {text: "AI配音", layout: "全屏青色霓虹章节卡"}
+    confidence: 0.99
+
+  - id: v1-e030
+    start: 222.20
+    end: 226.80
+    semantic_role: product_demo
+    event_type: graphic_card
+    spoken_text: "剪映自带AI配音更新快"
+    visual: {layout: "黑网格舞台；左下圆形人物PIP；右上/中软件界面卡；红框强调"}
+    confidence: 0.95
+
+  - id: v1-e031
+    start: 233.00
+    end: 238.80
+    semantic_role: product_demo
+    event_type: graphic_card
+    spoken_text: "IndexTTS-2适合有声书与长文本"
+    visual: {layout: "黑网格舞台；左下人物PIP；白色网页卡；右侧绿色功能标签逐项增加"}
+    confidence: 0.96
+
+  - id: v1-e032
+    start: 242.00
+    end: 245.80
+    semantic_role: product_demo
+    event_type: graphic_card
+    spoken_text: "MiniMax情绪表达更自然"
+    visual: {layout: "黑网格舞台；左下人物PIP；右侧产品页；左上Logo"}
+    confidence: 0.95
+
+  - id: v1-e033
+    start: 252.00
+    end: 257.80
+    semantic_role: product_demo
+    event_type: graphic_card
+    spoken_text: "Suno可以一句话生成音乐"
+    visual: {layout: "黑网格舞台；左下人物PIP；右侧暗色产品界面/音乐视频"}
+    confidence: 0.95
+
+  - id: v1-e034
+    start: 261.00
+    end: 263.90
+    semantic_role: section
+    event_type: transition
+    spoken_text: "AI编程"
+    visual: {text: "AI编程", layout: "全屏青色霓虹章节卡"}
+    confidence: 0.99
+
+  - id: v1-e035
+    start: 267.00
+    end: 271.80
+    semantic_role: process
+    event_type: motion_graphic
+    spoken_text: "文字、图像、代码、视频、音频，完整AI创作流程"
+    visual: {layout: "黑色透视网格；紫色描边模块节点；标题AI创作全流程"}
+    motion: {sequence: "节点按类别逐项补齐，形成完整流程图"}
+    confidence: 0.98
+
+  - id: v1-e036
+    start: 273.00
+    end: 290.50
+    semantic_role: recommendation
+    event_type: icon_callout
+    spoken_text: "开发者首选、个人需求、代码修复、跨文件定位"
+    visual: {layout: "真人口播；产品Logo固定在人物侧方；正文主要靠字幕承载"}
+    confidence: 0.91
+
+  - id: v1-e037
+    start: 291.00
+    end: 303.65
+    semantic_role: conclusion
+    event_type: talking_head
+    spoken_text: "这是我实测筛选出的AI神器...关注我"
+    visual: {layout: "纯口播为主，少量手势，不再叠加复杂包装"}
+    confidence: 0.98
