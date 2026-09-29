@@ -1,0 +1,320 @@
+version: 0.1
+project_id: ai-business-cases-test
+source: user_script
+timing_status: pending_alignment
+notes:
+  - "当前只有文案，没有原始口播视频/SRT，因此不生成虚假start/end时间。"
+  - "segment_id按叙事顺序排列，后续拿到视频后再做时间对齐。"
+
+segments:
+  - id: s01
+    text: "这两天，我通过生财有术的 MCP，找到了一些 AI 项目案例。"
+    primary_intent: setup
+    importance: 0.66
+    entities: ["生财有术","MCP","AI项目案例"]
+    rhetorical_function: context
+    emotional_intensity: 0.35
+    visual_evidence_useful: true
+
+  - id: s02
+    text: "我挑了几条比较有意思的，想跟大家分享一下。"
+    primary_intent: setup
+    importance: 0.45
+    rhetorical_function: transition
+    emotional_intensity: 0.25
+    visual_evidence_useful: false
+
+  - id: s03
+    text: "不是告诉你哪个项目一定能做，也不是劝你别做。"
+    primary_intent: contrast
+    importance: 0.75
+    contrast_pair: ["一定能做","别做"]
+    rhetorical_function: scope_boundary
+    emotional_intensity: 0.48
+    visual_evidence_useful: false
+
+  - id: s04
+    text: "我只是发现，看 AI 项目，真的不能只看标题里那个最显眼的结果。"
+    primary_intent: claim
+    importance: 0.95
+    rhetorical_function: thesis
+    emotional_intensity: 0.62
+    visual_evidence_useful: false
+
+  - id: s05
+    text: "有个案例，是用 AI 批量做心理测试网页、小红书图文和商品页面。"
+    primary_intent: example
+    importance: 0.70
+    entities: ["心理测试网页","小红书图文","商品页面"]
+    rhetorical_function: case_intro
+    emotional_intensity: 0.35
+    visual_evidence_useful: true
+
+  - id: s06
+    text: "作者从发现项目到出单，只用了一天。第三天的时候，已经有了 49 单有效成交。"
+    primary_intent: number
+    importance: 0.92
+    numbers: ["1天","第3天","49单"]
+    rhetorical_function: apparent_success
+    emotional_intensity: 0.70
+    visual_evidence_useful: true
+
+  - id: s07
+    text: "听到 49 单，是不是感觉这个项目已经跑起来了？"
+    primary_intent: question
+    importance: 0.82
+    numbers: ["49单"]
+    rhetorical_function: expectation_setup
+    emotional_intensity: 0.66
+    visual_evidence_useful: false
+
+  - id: s08
+    text: "但作者最后到手的利润，大概是 180 到 200 块。"
+    primary_intent: contrast
+    importance: 0.99
+    numbers: ["180-200元"]
+    contrast_pair: ["49单","180-200元利润"]
+    rhetorical_function: reversal
+    emotional_intensity: 0.82
+    visual_evidence_useful: true
+
+  - id: s09
+    text: "评论区也有人照着做。有人发出去以后有一百多条评论，暂时还是 0 单。也有人跑出了自己的第一单。"
+    primary_intent: comparison
+    importance: 0.88
+    numbers: ["100+评论","0单","1单"]
+    rhetorical_function: outcome_distribution
+    emotional_intensity: 0.58
+    visual_evidence_useful: true
+
+  - id: s10
+    text: "这个案例真正有意思的地方，不是它到底算不算一个好项目。"
+    primary_intent: conclusion
+    importance: 0.76
+    rhetorical_function: reframing
+    emotional_intensity: 0.48
+    visual_evidence_useful: false
+
+  - id: s11
+    text: "AI 确实把做产品、做图片、做网页的成本压得很低，但它没有自动帮你解决选题、流量和转化。"
+    primary_intent: contrast
+    importance: 0.99
+    entities: ["产品","图片","网页","选题","流量","转化"]
+    contrast_pair: ["生产成本降低","选题/流量/转化仍需解决"]
+    rhetorical_function: principle
+    emotional_intensity: 0.72
+    visual_evidence_useful: false
+
+  - id: s12
+    text: "我还看到一个做 YouTube AI 视频的案例。"
+    primary_intent: section
+    importance: 0.65
+    entities: ["YouTube AI视频"]
+    rhetorical_function: case_intro
+    emotional_intensity: 0.30
+    visual_evidence_useful: true
+
+  - id: s13
+    text: "作者有一条视频做到了 1 亿播放。"
+    primary_intent: number
+    importance: 0.90
+    numbers: ["1亿播放"]
+    rhetorical_function: apparent_success
+    emotional_intensity: 0.72
+    visual_evidence_useful: true
+
+  - id: s14
+    text: "但前面的 6000 万播放发生在开通收益之前。后面真正产生收入的 4000 万播放，带来了 571 美元。"
+    primary_intent: comparison
+    importance: 0.99
+    numbers: ["6000万","4000万","571美元"]
+    contrast_pair: ["播放量","可变现播放量","实际收入"]
+    rhetorical_function: monetization_reversal
+    emotional_intensity: 0.78
+    visual_evidence_useful: true
+
+  - id: s15
+    text: "而且他的两个频道，后来分别因为儿童相关问题和同质化内容，失去了 YPP，也就是广告收益资格。"
+    primary_intent: warning
+    importance: 0.97
+    entities: ["YPP","广告收益资格"]
+    rhetorical_function: risk
+    emotional_intensity: 0.75
+    visual_evidence_useful: true
+
+  - id: s16
+    text: "1 亿播放听起来很大。但是视频能不能开收益、每次播放值多少钱、内容能不能长期合规、账号能不能活下来，这是四件不同的事。"
+    primary_intent: list
+    importance: 0.99
+    numbers: ["1亿播放","4件事"]
+    rhetorical_function: decomposition
+    emotional_intensity: 0.68
+    visual_evidence_useful: false
+
+  - id: s17
+    text: "流量不等于收入。收入也不一定能留下来。"
+    primary_intent: claim
+    importance: 1.00
+    rhetorical_function: distilled_principle
+    emotional_intensity: 0.80
+    visual_evidence_useful: false
+
+  - id: s18
+    text: "还有一个案例，是零代码基础，用 AI 编程接单，25 天收入 5100 元。"
+    primary_intent: section
+    importance: 0.82
+    entities: ["AI编程接单"]
+    numbers: ["25天","5100元"]
+    rhetorical_function: case_intro
+    emotional_intensity: 0.55
+    visual_evidence_useful: true
+
+  - id: s19
+    text: "只看标题，很容易理解成：现在不用会编程，只要会跟 AI 说话就能赚钱。"
+    primary_intent: misconception
+    importance: 0.90
+    rhetorical_function: false_inference
+    emotional_intensity: 0.62
+    visual_evidence_useful: false
+
+  - id: s20
+    text: "但把文章看完，你会发现，他真正做的事情非常多。"
+    primary_intent: contrast
+    importance: 0.85
+    rhetorical_function: reveal
+    emotional_intensity: 0.55
+    visual_evidence_useful: false
+
+  - id: s21
+    text: "要去平台找客户，要把客户说不清楚的需求整理出来，要判断什么单能接，怎么报价，允许改几次，需不需要部署，最后能不能按要求交付。"
+    primary_intent: list
+    importance: 0.99
+    entities: ["找客户","需求整理","筛单","报价","修改次数","部署","交付"]
+    rhetorical_function: hidden_work
+    emotional_intensity: 0.72
+    visual_evidence_useful: false
+
+  - id: s22
+    text: "评论区甚至有人直接质疑：这不是零基础，只是没有代码基础，因为设计和交付本身也是能力。"
+    primary_intent: quote
+    importance: 0.90
+    rhetorical_function: external_validation
+    emotional_intensity: 0.65
+    visual_evidence_useful: true
+
+  - id: s23
+    text: "我觉得这个质疑反而说到了重点。AI 可以替你写代码。"
+    primary_intent: claim
+    importance: 0.90
+    rhetorical_function: partial_concession
+    emotional_intensity: 0.58
+    visual_evidence_useful: false
+
+  - id: s24
+    text: "但是客户不会拿着一份完整的需求文档来找你。谁来把需求问清楚？谁来判断做出来的东西能不能用？出了问题，最后谁负责？"
+    primary_intent: question
+    importance: 1.00
+    rhetorical_function: responsibility_reframe
+    emotional_intensity: 0.82
+    visual_evidence_useful: false
+
+  - id: s25
+    text: "这些才是接单真正值钱的部分。"
+    primary_intent: conclusion
+    importance: 0.99
+    rhetorical_function: principle
+    emotional_intensity: 0.78
+    visual_evidence_useful: false
+
+  - id: s26
+    text: "另一个做 AI 视觉接单的作者，两个月赚了 2818 元。她有些 300 块的单子做起来很顺。"
+    primary_intent: section
+    importance: 0.78
+    entities: ["AI视觉接单"]
+    numbers: ["2个月","2818元","300元"]
+    rhetorical_function: case_intro
+    emotional_intensity: 0.44
+    visual_evidence_useful: true
+
+  - id: s27
+    text: "但最亏的一单，做了两天，最后只拿到 35 块。"
+    primary_intent: contrast
+    importance: 0.96
+    numbers: ["2天","35元"]
+    contrast_pair: ["时间投入","实际收入"]
+    rhetorical_function: unit_economics_reversal
+    emotional_intensity: 0.75
+    visual_evidence_useful: true
+
+  - id: s28
+    text: "所以她最后得出的结论，不是要学会更厉害的提示词，而是要学会筛单、拆需求、控制修改和完成交付。"
+    primary_intent: list
+    importance: 0.97
+    entities: ["筛单","拆需求","控制修改","完成交付"]
+    contrast_pair: ["提示词","交付能力"]
+    rhetorical_function: principle
+    emotional_intensity: 0.66
+    visual_evidence_useful: false
+
+  - id: s29
+    text: "看完这些案例，我最大的感受是：AI 没有让做生意变简单。它只是让生产东西变便宜、变快了。"
+    primary_intent: conclusion
+    importance: 1.00
+    contrast_pair: ["生意变简单","生产变便宜变快"]
+    rhetorical_function: master_thesis
+    emotional_intensity: 0.82
+    visual_evidence_useful: false
+
+  - id: s30
+    text: "产品能做出来，不代表有人买。有人来问，不代表能成交。有播放，不代表有利润。赚到第一笔钱，也不代表这件事可以稳定重复。"
+    primary_intent: list
+    importance: 1.00
+    entities: ["产品","购买","询问","成交","播放","利润","稳定重复"]
+    rhetorical_function: negative_equivalences
+    emotional_intensity: 0.83
+    visual_evidence_useful: false
+
+  - id: s31
+    text: "所以以后再看到“一天跑通”“零基础变现”“上亿播放”这样的结果，我觉得可以先别急着抄。"
+    primary_intent: warning
+    importance: 0.96
+    entities: ["一天跑通","零基础变现","上亿播放"]
+    rhetorical_function: caution
+    emotional_intensity: 0.74
+    visual_evidence_useful: false
+
+  - id: s32
+    text: "先问清楚几件事：他到底卖了什么？扣掉时间和成本，最后剩下多少钱？除了会使用 AI，他原来还具备什么能力和资源？如果平台规则、流量或者工具发生变化，这件事还能不能继续做？"
+    primary_intent: list
+    importance: 1.00
+    entities: ["卖什么","净利润","原有能力资源","可持续性"]
+    rhetorical_function: evaluation_framework
+    emotional_intensity: 0.70
+    visual_evidence_useful: false
+
+  - id: s33
+    text: "如果这些问题还没有答案，它可能是一个不错的练手项目，也可能是一个很好的展示案例。但它还不一定是一门好生意。"
+    primary_intent: conclusion
+    importance: 0.98
+    contrast_pair: ["练手/展示案例","好生意"]
+    rhetorical_function: qualification
+    emotional_intensity: 0.68
+    visual_evidence_useful: false
+
+  - id: s34
+    text: "后面我也会继续找一些 AI 项目案例，和大家一起看。不只是看它赚了多少钱。也看看它到底卖的是什么，什么人能做，成本藏在哪里，风险又在哪里。"
+    primary_intent: cta
+    importance: 0.75
+    entities: ["卖什么","适合谁","成本","风险"]
+    rhetorical_function: series_promise
+    emotional_intensity: 0.45
+    visual_evidence_useful: false
+
+  - id: s35
+    text: "因为 AI 工具之间的差距会越来越小。真正值钱的，可能是你能不能把结果和代价一起看清楚。"
+    primary_intent: conclusion
+    importance: 1.00
+    contrast_pair: ["结果","代价"]
+    rhetorical_function: closing_thesis
+    emotional_intensity: 0.82
+    visual_evidence_useful: false
