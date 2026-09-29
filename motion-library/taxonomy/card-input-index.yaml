@@ -1,0 +1,62 @@
+version: 0.1
+cards:
+  broll-takeover:
+    required: [presenter]
+    any_of: [video,image]
+  category-card-scene:
+    required: [presenter,text]
+  chapter-neon-title:
+    required: [text]
+    optional: [image,video]
+  keyword-impact:
+    required: [text]
+    optional: [presenter]
+  logo-wall:
+    required: [image]
+    optional: [presenter]
+  number-impact:
+    required: [text]
+    optional: [presenter]
+  perspective-result-split:
+    required: [presenter]
+    any_of: [image,video]
+  process-map-scene:
+    required: [text]
+  proof-split-scene:
+    required: [presenter,screenshot]
+    optional: [image]
+  result-card-scene:
+    required: [presenter]
+    any_of: [image,video]
+  result-compare:
+    required: [image]
+  result-gallery-scene:
+    required: [presenter,image]
+  screen-focus-callout:
+    required: [presenter,video]
+    optional: [image]
+  screen-pip-scene:
+    required: [presenter,video]
+    optional: [image,text]
+  side-kicker:
+    required: [text]
+    optional: [presenter]
+  side-tag-cluster:
+    required: [text]
+    optional: [presenter]
+  tag-list:
+    required: [text]
+    optional: [presenter]
+  template-wall:
+    required: [presenter,image]
+  tool-badge:
+    required: [text]
+    optional: [image,presenter]
+  tool-demo-scene:
+    required: [presenter,video]
+    optional: [image,text]
+
+rules:
+  - "screenshot用于证据时不能被普通image替代。"
+  - "presenter optional与required必须区分。"
+  - "any_of表示至少有一种即可。"
