@@ -1,0 +1,374 @@
+version: 0.1
+project_id: ai-business-cases-test
+style_id: ai-talkinghead-editorial-v0.1
+timing_status: pending_alignment
+planner_status: structure_ready
+notes:
+  - "当前没有视频时间轴，所有事件使用source_segment_id定位；拿到口播视频后再映射start/end。"
+  - "整体策略：偏观点型内容，不能套成教程片。保持约55%-65%干净口播，强包装集中在数据反转、案例切换、核心结论。"
+
+events:
+  - id: e01
+    source_segment_id: s01
+    intent: show_entity
+    executor: asset_insert
+    effect_category: logo_callout
+    effect_id: null
+    parameters:
+      text: "生财有术 MCP"
+      placement: "side_of_subject"
+    rationale: "开场建立信息来源，但不抢主论点。"
+    style_rule_id: rule-entity-emphasis
+    fallback: {mode: "giant_keyword", text: "AI项目案例"}
+
+  - id: e02
+    source_segment_id: s04
+    intent: emphasis
+    executor: motion_library
+    effect_category: giant_keyword
+    effect_id: giant-keyword
+    parameters:
+      text: "别只看结果"
+      importance: 0.95
+    rationale: "这是整条视频的第一层主论点，应形成视觉锚点。"
+    style_rule_id: rule-emotional-single-word
+
+  - id: e03
+    source_segment_id: s05
+    intent: explain
+    executor: motion_library
+    effect_category: accumulating_tags
+    effect_id: accumulating-side-tags
+    parameters:
+      items: ["心理测试网页","小红书图文","商品页面"]
+      palette: "purple-magenta"
+    rationale: "三个并列且短的产品形态，适合累积标签。"
+    style_rule_id: rule-list-tags
+
+  - id: e04
+    source_segment_id: s06
+    intent: emphasis
+    executor: motion_library
+    effect_category: number_emphasis
+    effect_id: giant-keyword
+    parameters:
+      sequence: ["1天","第3天","49单"]
+      display_mode: "progressive_numbers"
+    rationale: "建立表面成功预期，为后面的利润反转做铺垫。"
+    style_rule_id: rule-number-emphasis
+
+  - id: e05
+    source_segment_id: s08
+    intent: compare
+    executor: generated_motion
+    effect_category: comparison
+    effect_id: null
+    parameters:
+      left: "49单"
+      right: "利润 180-200元"
+      hierarchy: "right_is_reveal"
+    rationale: "这是第一个最关键的数据反转；需要比较而不是再上一遍大字。"
+    style_rule_id: rule-comparison-graphic
+    fallback: {mode: "giant_keyword", text: "利润 180-200 元"}
+
+  - id: e06
+    source_segment_id: s09
+    intent: compare
+    executor: generated_motion
+    effect_category: outcome_distribution
+    effect_id: null
+    parameters:
+      cards:
+        - "100+评论 → 0单"
+        - "另一位 → 第1单"
+    rationale: "展示同一项目的结果分布，强化‘案例不可直接复制’。"
+    style_rule_id: rule-comparison-graphic
+
+  - id: e07
+    source_segment_id: s11
+    intent: compare
+    executor: motion_library
+    effect_category: accumulating_tags
+    effect_id: accumulating-side-tags
+    parameters:
+      left_group: ["产品","图片","网页"]
+      right_group: ["选题","流量","转化"]
+      treatment: "left_checked_right_warning"
+    rationale: "一边是AI压低的生产成本，一边是没有自动解决的商业问题。"
+    style_rule_id: rule-list-tags
+
+  - id: e08
+    source_segment_id: s12
+    intent: transition
+    executor: motion_library
+    effect_category: section_title
+    effect_id: section-title
+    parameters:
+      text: "案例 2｜YouTube AI 视频"
+      variant: "giant_word_on_talking_head"
+    rationale: "进入第二个案例，需要明确结构切换。"
+    style_rule_id: rule-section-title
+
+  - id: e09
+    source_segment_id: s13
+    intent: emphasis
+    executor: motion_library
+    effect_category: number_emphasis
+    effect_id: giant-keyword
+    parameters:
+      text: "1亿播放"
+    rationale: "故意先把最显眼的结果推到最大。"
+    style_rule_id: rule-number-emphasis
+
+  - id: e10
+    source_segment_id: s14
+    intent: compare
+    executor: generated_motion
+    effect_category: comparison
+    effect_id: null
+    parameters:
+      flow:
+        - "1亿总播放"
+        - "6000万：开收益前"
+        - "4000万：产生收入"
+        - "571美元"
+      visual_model: "funnel_or_waterfall"
+    rationale: "这是非常适合数据拆解图的段落，单纯大字会损失逻辑关系。"
+    style_rule_id: rule-comparison-graphic
+
+  - id: e11
+    source_segment_id: s15
+    intent: warning
+    executor: asset_insert
+    effect_category: evidence_card
+    effect_id: null
+    parameters:
+      headline: "两个频道失去 YPP"
+      reasons: ["儿童相关问题","同质化内容"]
+    rationale: "风险不是抽象观点，最好由截图/文章证据承载。"
+    style_rule_id: rule-example-broll
+    fallback: {mode: "accumulating-side-tags", items: ["儿童相关问题","同质化内容","失去YPP"]}
+
+  - id: e12
+    source_segment_id: s16
+    intent: explain
+    executor: motion_library
+    effect_category: accumulating_tags
+    effect_id: accumulating-side-tags
+    parameters:
+      items: ["能不能开收益","每次播放值多少","能不能长期合规","账号能不能活下来"]
+      max_visible: 4
+    rationale: "四件不同的事，本身就是清晰的列表结构。"
+    style_rule_id: rule-list-tags
+
+  - id: e13
+    source_segment_id: s17
+    intent: emphasis
+    executor: generated_motion
+    effect_category: statement_pair
+    effect_id: null
+    parameters:
+      line1: "流量 ≠ 收入"
+      line2: "收入 ≠ 留得下来"
+    rationale: "核心结论，适合极简公式化表达。"
+    style_rule_id: rule-emotional-single-word
+
+  - id: e14
+    source_segment_id: s18
+    intent: transition
+    executor: motion_library
+    effect_category: section_title
+    effect_id: section-title
+    parameters:
+      text: "案例 3｜AI 编程接单"
+      subline: "25天 / 5100元"
+    rationale: "进入第三个案例。"
+    style_rule_id: rule-section-title
+
+  - id: e15
+    source_segment_id: s19
+    intent: emphasis
+    executor: generated_motion
+    effect_category: misconception_card
+    effect_id: null
+    parameters:
+      text: "不会编程 + 会跟AI说话 = 能赚钱？"
+      treatment: "question"
+    rationale: "把观众容易形成的错误推论直接可视化。"
+    style_rule_id: rule-comparison-graphic
+
+  - id: e16
+    source_segment_id: s21
+    intent: explain
+    executor: generated_motion
+    effect_category: process_diagram
+    effect_id: null
+    parameters:
+      steps: ["找客户","问清需求","筛单","报价","限制修改","部署","交付"]
+      layout: "horizontal_or_snake_flow"
+    rationale: "七项隐藏工作不适合堆成七个标签，应使用流程链。"
+    style_rule_id: rule-list-tags
+
+  - id: e17
+    source_segment_id: s22
+    intent: show_entity
+    executor: asset_insert
+    effect_category: quote_card
+    effect_id: null
+    parameters:
+      quote: "不是零基础，只是没有代码基础"
+      source: "评论区"
+    rationale: "外部质疑最好显示原评论截图；没有素材时用明确标注的转述卡。"
+    style_rule_id: rule-example-broll
+
+  - id: e18
+    source_segment_id: s24
+    intent: emphasis
+    executor: motion_library
+    effect_category: accumulating_tags
+    effect_id: accumulating-side-tags
+    parameters:
+      items: ["谁问清需求？","谁判断能不能用？","出了问题谁负责？"]
+      palette: "yellow"
+    rationale: "连续三个反问是此案例的重音。"
+    style_rule_id: rule-list-tags
+
+  - id: e19
+    source_segment_id: s25
+    intent: emphasis
+    executor: motion_library
+    effect_category: giant_keyword
+    effect_id: giant-keyword
+    parameters:
+      text: "这才是真正值钱的部分"
+    rationale: "第三个案例的结论锚点。"
+    style_rule_id: rule-emotional-single-word
+
+  - id: e20
+    source_segment_id: s26
+    intent: transition
+    executor: motion_library
+    effect_category: section_title
+    effect_id: section-title
+    parameters:
+      text: "案例 4｜AI 视觉接单"
+      subline: "2个月 / 2818元"
+    rationale: "进入第四个案例。"
+    style_rule_id: rule-section-title
+
+  - id: e21
+    source_segment_id: s27
+    intent: compare
+    executor: generated_motion
+    effect_category: comparison
+    effect_id: null
+    parameters:
+      left: "做了2天"
+      right: "到手35元"
+      treatment: "time_vs_income"
+    rationale: "强调单位时间收益崩塌。"
+    style_rule_id: rule-comparison-graphic
+
+  - id: e22
+    source_segment_id: s28
+    intent: explain
+    executor: motion_library
+    effect_category: accumulating_tags
+    effect_id: accumulating-side-tags
+    parameters:
+      items: ["筛单","拆需求","控制修改","完成交付"]
+      palette: "lime"
+    rationale: "四个能力短而并列，适合标签累积。"
+    style_rule_id: rule-list-tags
+
+  - id: e23
+    source_segment_id: s29
+    intent: emphasis
+    executor: generated_motion
+    effect_category: statement_pair
+    effect_id: null
+    parameters:
+      line1: "AI没有让生意变简单"
+      line2: "它只是让生产变便宜、变快"
+    rationale: "整条视频的总论点，应给予第二次主视觉峰值。"
+    style_rule_id: rule-emotional-single-word
+
+  - id: e24
+    source_segment_id: s30
+    intent: explain
+    executor: generated_motion
+    effect_category: negative_equation_stack
+    effect_id: null
+    parameters:
+      lines:
+        - "做出来 ≠ 有人买"
+        - "有人问 ≠ 能成交"
+        - "有播放 ≠ 有利润"
+        - "赚第一笔 ≠ 能稳定重复"
+    rationale: "四组否定等式应作为统一视觉家族，而不是四次独立大字。"
+    style_rule_id: rule-comparison-graphic
+
+  - id: e25
+    source_segment_id: s31
+    intent: warning
+    executor: motion_library
+    effect_category: accumulating_tags
+    effect_id: accumulating-side-tags
+    parameters:
+      items: ["一天跑通","零基础变现","上亿播放"]
+      palette: "warning"
+    rationale: "三个典型标题词，适合做视觉警示标签。"
+    style_rule_id: rule-list-tags
+
+  - id: e26
+    source_segment_id: s32
+    intent: explain
+    executor: generated_motion
+    effect_category: checklist
+    effect_id: null
+    parameters:
+      questions:
+        - "到底卖了什么？"
+        - "扣掉成本还剩多少？"
+        - "原来有什么能力和资源？"
+        - "规则或流量变化还能不能做？"
+    rationale: "这是用户可带走的方法论，值得形成固定四问卡。"
+    style_rule_id: rule-list-tags
+
+  - id: e27
+    source_segment_id: s33
+    intent: compare
+    executor: generated_motion
+    effect_category: comparison
+    effect_id: null
+    parameters:
+      left: "练手项目 / 展示案例"
+      right: "好生意"
+      relation: "not_equal"
+    rationale: "把结论压缩成可记忆的一组区分。"
+    style_rule_id: rule-comparison-graphic
+
+  - id: e28
+    source_segment_id: s34
+    intent: explain
+    executor: motion_library
+    effect_category: accumulating_tags
+    effect_id: accumulating-side-tags
+    parameters:
+      items: ["卖什么","谁能做","成本在哪","风险在哪"]
+      palette: "cyan"
+    rationale: "为系列后续建立固定分析框架。"
+    style_rule_id: rule-list-tags
+
+  - id: e29
+    source_segment_id: s35
+    intent: emphasis
+    executor: generated_motion
+    effect_category: closing_statement
+    effect_id: null
+    parameters:
+      line1: "工具差距会越来越小"
+      line2: "真正值钱的是"
+      line3: "把结果和代价一起看清楚"
+    rationale: "结尾主张，适合由干净口播进入极简终章卡。"
+    style_rule_id: rule-emotional-single-word
