@@ -1,19 +1,55 @@
-version: 0.1
+version: 0.2
 project_id: string
 style_id: string
 source_video: string
 semantic_segments: []
+
 events:
   - id: edit-event-id
     start: 0.0
     end: 0.0
     source_segment_id: segment-id
-    intent: emphasis|explain|compare|show_entity|show_number|pace_change|transition|none
-    executor: chatcut|motion_library|generated_motion|asset_insert|sfx
-    effect_category: string
-    effect_id: null
-    parameters: {}
+    intent: emphasis|explain|compare|show_entity|show_number|pace_change|transition|evidence|none
     rationale: ""
     style_rule_id: ""
+
+    motion_request:
+      required: true
+      family: emphasis|number|section|list|process|comparison|evidence|screen-demo|entity|statement|checklist|equation|quote
+      subtype: string
+      content:
+        text: null
+        items: []
+        metrics: []
+        labels: []
+      constraints:
+        item_count: null
+        max_chars_per_item: null
+        presenter_position: null
+        media_available: []
+        media_required: []
+      visual_intent:
+        energy: low|medium|high
+        density: low|medium|high
+        preferred_layouts: []
+        preferred_skin: null
+      avoid: []
+
+    asset_requirements: []
+
+    resolution:
+      status: unresolved|resolved|generated|fallback|skipped
+      card_id: null
+      card_version: null
+      score: null
+      reason: ""
+      props: {}
+      media_bindings: {}
+
     fallback: {}
     qc_checks: []
+
+rules:
+  - "Planner只填写motion_request，不直接指定card_id。"
+  - "resolution由Motion Router填写。"
+  - "若motion_request.required=false，可保持干净口播。"
