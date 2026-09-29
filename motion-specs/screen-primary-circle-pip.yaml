@@ -1,4 +1,7 @@
 id: screen-primary-circle-pip
+taxonomy:
+  family: screen-demo
+  subtype: screen-pip
 status: ready_for_implementation
 semantic_trigger: [tutorial_step, product_demo, visual_proof]
 eligibility:
