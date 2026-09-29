@@ -1,0 +1,215 @@
+version: 0.1
+video_id: minimax-voice
+source_file: 用AI轻松GET活人感配音 _AI _AI配音 _AI软件.mp4
+duration_sec: 123.00
+resolution: 1280x720
+sampling:
+  overview_fps: 1
+  micro_review_fps: 6
+notes:
+  - "主结构：真人口播 + 网页教程 + 左下圆形人物PIP + 大号语义标题。"
+events:
+  - id: v3-e001
+    start: 0.00
+    end: 6.50
+    semantic_role: hook
+    event_type: example
+    spoken_text: "多语言自然配音开场"
+    visual: {layout: "真人口播连续切换不同语言字幕/音色示例"}
+    confidence: 0.93
+
+  - id: v3-e002
+    start: 7.00
+    end: 12.80
+    semantic_role: pain_point
+    event_type: talking_head
+    spoken_text: "这些都不是我自己说的，是AI配的音"
+    visual: {layout: "纯真人口播，底部字幕"}
+    confidence: 0.97
+
+  - id: v3-e003
+    start: 13.00
+    end: 14.20
+    semantic_role: entity
+    event_type: keyword_emphasis
+    spoken_text: "我用AI配的音"
+    visual: {text: "minimax", layout: "居中超大白字，背后暗色科技球体"}
+    confidence: 0.95
+
+  - id: v3-e004
+    start: 15.00
+    end: 16.80
+    semantic_role: section
+    event_type: keyword_emphasis
+    spoken_text: "先从基础操作开始"
+    visual: {text: "基础操作", layout: "人物两侧超大蓝色描边字"}
+    confidence: 0.96
+
+  - id: v3-e005
+    start: 21.00
+    end: 25.80
+    semantic_role: tutorial_step
+    event_type: broll
+    spoken_text: "网页搜索Minimax，找到语音合成功能"
+    visual:
+      layout: "全屏网页录屏；左下圆形人物PIP"
+      annotations: "顶部黄色步骤文案；红框/高亮引导点击"
+    confidence: 0.99
+
+  - id: v3-e006
+    start: 26.00
+    end: 31.50
+    semantic_role: tutorial_step
+    event_type: broll
+    spoken_text: "把文案输入文本框，练习"
+    visual: {layout: "网页主画面+左下圆形PIP；白底教程为主"}
+    confidence: 0.98
+
+  - id: v3-e007
+    start: 32.00
+    end: 34.90
+    semantic_role: option
+    event_type: broll
+    spoken_text: "在声音库里根据需求筛选声音"
+    visual: {layout: "网页弹窗/列表；人物PIP持续"}
+    confidence: 0.97
+
+  - id: v3-e008
+    start: 35.00
+    end: 38.80
+    semantic_role: list
+    event_type: tag_stack
+    spoken_text: "中文、粤语、英语、日语、韩语"
+    visual: {layout: "网页暗化背景；黄色语言标签在画面左右逐项堆叠"}
+    motion: {entrance: "按口播顺序逐项pop"}
+    confidence: 0.99
+
+  - id: v3-e009
+    start: 39.00
+    end: 40.60
+    semantic_role: option
+    event_type: broll
+    spoken_text: "不同口音、年龄和性别都可以选"
+    visual: {layout: "回到网页筛选弹窗+人物PIP"}
+    confidence: 0.97
+
+  - id: v3-e010
+    start: 41.80
+    end: 45.50
+    semantic_role: demo
+    event_type: motion_graphic
+    spoken_text: "试听生成效果"
+    visual: {layout: "全屏暗色视频背景；中央白色动态声波"}
+    motion: {hold: "声波持续跳动，画面不显示人物"}
+    confidence: 0.96
+
+  - id: v3-e011
+    start: 46.00
+    end: 53.50
+    semantic_role: conclusion
+    event_type: talking_head
+    spoken_text: "这样的配音可以满足日常视频需求"
+    visual: {layout: "真人口播"}
+    confidence: 0.98
+
+  - id: v3-e012
+    start: 54.00
+    end: 56.00
+    semantic_role: tip
+    event_type: keyword_emphasis
+    spoken_text: "还有一个小技巧"
+    visual: {text: "小技巧", layout: "人物左侧大黄字"}
+    motion: {entrance: "快速渐显/轻滑入"}
+    confidence: 0.99
+
+  - id: v3-e013
+    start: 56.00
+    end: 59.80
+    semantic_role: tutorial_step
+    event_type: broll
+    spoken_text: "在文字里加入标注"
+    visual: {layout: "网页主画面+左下圆形PIP"}
+    confidence: 0.97
+
+  - id: v3-e014
+    start: 60.00
+    end: 71.80
+    semantic_role: comparison
+    event_type: motion_graphic
+    spoken_text: "对比其他配音软件，加入情绪提示后会更有感染力"
+    visual:
+      layout: "唱片机/音频背景；顶部声波；右上minimax字样；左下黄色'其他配音软件'"
+      comparison: "不同波形/试听片段交替"
+    confidence: 0.98
+
+  - id: v3-e015
+    start: 72.00
+    end: 81.80
+    semantic_role: explanation
+    event_type: talking_head
+    spoken_text: "声音会更有情绪、更自然"
+    visual: {layout: "真人口播；少量装饰性小粒子/光点"}
+    confidence: 0.95
+
+  - id: v3-e016
+    start: 83.00
+    end: 84.80
+    semantic_role: section
+    event_type: keyword_emphasis
+    spoken_text: "第一个就是声音克隆"
+    visual: {text: "声音克隆", layout: "人物后方/上方超大黄字"}
+    confidence: 0.99
+
+  - id: v3-e017
+    start: 85.00
+    end: 91.50
+    semantic_role: tutorial_step
+    event_type: broll
+    spoken_text: "按提示录一两分钟自己的声音"
+    visual: {layout: "网页录音页面；左下圆形人物PIP；红框圈出关键区域"}
+    confidence: 0.98
+
+  - id: v3-e018
+    start: 92.00
+    end: 100.80
+    semantic_role: benefit
+    event_type: talking_head
+    spoken_text: "以后写文案直接让AI帮你念"
+    visual: {layout: "真人口播"}
+    confidence: 0.98
+
+  - id: v3-e019
+    start: 102.00
+    end: 103.20
+    semantic_role: section
+    event_type: keyword_emphasis
+    spoken_text: "第二个就是音乐创作"
+    visual: {text: "音乐创作", layout: "人物后方超大黄字"}
+    confidence: 0.99
+
+  - id: v3-e020
+    start: 103.20
+    end: 108.80
+    semantic_role: tutorial_step
+    event_type: broll
+    spoken_text: "支持上传参考音乐、输入歌词"
+    visual: {layout: "网页主画面+左下圆形PIP；黄色说明标签固定在上方"}
+    confidence: 0.98
+
+  - id: v3-e021
+    start: 109.00
+    end: 121.50
+    semantic_role: conclusion
+    event_type: talking_head
+    spoken_text: "以前团队才能搞定，现在普通人也能做"
+    visual: {layout: "纯真人口播"}
+    confidence: 0.97
+
+  - id: v3-e022
+    start: 121.70
+    end: 123.00
+    semantic_role: farewell
+    event_type: keyword_emphasis
+    spoken_text: "下期再见"
+    visual: {text: "再见啦~", layout: "人物右上黄色斜体/活泼字"}
+    confidence: 0.98
