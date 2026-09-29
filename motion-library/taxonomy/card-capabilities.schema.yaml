@@ -1,0 +1,24 @@
+version: 0.1
+card:
+  id: string
+  version: string
+  family: string
+  subtype: string
+  status: ready|partially_ready|upgrade_recommended|experimental
+  item_count:
+    min: 1
+    max: 1
+  text: {}
+  media:
+    required: []
+    optional: []
+  presenter:
+    compatible: true
+    layout: null
+    positions: []
+  visual:
+    density: low|medium|high
+    energy: low|medium|high
+    skin: null
+  semantic_fit: []
+  limitations: []
