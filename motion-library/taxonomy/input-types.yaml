@@ -1,0 +1,25 @@
+version: 0.1
+
+description: "卡片选择的素材/输入约束。先判断这一镜实际有什么输入，再做Card筛选。"
+
+types:
+  presenter:
+    description: "真人口播人物，原片或抠像。"
+  video:
+    description: "B-roll、录屏、实拍视频。"
+  image:
+    description: "照片、海报、插图、Logo。"
+  screenshot:
+    description: "网页、后台、文章、聊天记录等真实截图。"
+  ui:
+    description: "由代码直接生成/演示的界面，不依赖外部截图。"
+  text:
+    description: "纯文字、数字、结构化数据。"
+  scene_boundary:
+    description: "作用于前后两个镜头的转场输入。"
+
+selection_rule:
+  - "Router先检查required input，再检查语义family/subtype。"
+  - "真实素材缺失时不得为了命中卡片而伪造截图/数据。"
+  - "image与screenshot分开：截图通常承载证据，需要可读性与来源；普通image更偏视觉说明。"
+  - "presenter required/optional必须区分。"
