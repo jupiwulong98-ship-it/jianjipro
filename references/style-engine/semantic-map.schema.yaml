@@ -1,0 +1,18 @@
+version: 0.1
+project_id: string
+source_video: string
+transcript_source: string
+segments:
+  - id: segment-001
+    start: 0.0
+    end: 0.0
+    text: ""
+    primary_intent: setup|claim|misconception|contrast|number|list|process|example|entity|quote|question|warning|conclusion|cta|other
+    importance: 0.0
+    entities: []
+    numbers: []
+    contrast_pair: []
+    rhetorical_function: ""
+    emotional_intensity: 0.0
+    visual_evidence_useful: false
+    notes: ""
