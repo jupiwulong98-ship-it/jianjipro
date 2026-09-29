@@ -1,0 +1,40 @@
+version: 0.1
+style_id: ai-talkinghead-editorial-v0.1
+sources:
+  video-1: references/samples/video-1/reference-events.yaml
+  doubao-ppt: references/samples/doubao-ppt/reference-events.yaml
+  minimax-voice: references/samples/minimax-voice/reference-events.yaml
+
+stable_cross_video_patterns:
+  section_title:
+    videos: [video-1,minimax-voice]
+    events: [v1-e007,v1-e015,v1-e021,v1-e029,v1-e034,v3-e004,v3-e016,v3-e019]
+  accumulating_tags:
+    videos: [video-1,doubao-ppt,minimax-voice]
+    events: [v1-e004,v1-e009,v1-e011,v1-e019,v2-e002,v2-e006,v2-e024,v3-e008]
+  screen_primary_with_pip:
+    videos: [video-1,doubao-ppt,minimax-voice]
+    events: [v1-e016,v1-e030,v2-e012,v2-e013,v2-e018,v3-e005,v3-e006,v3-e017]
+  grid_stage:
+    videos: [video-1,doubao-ppt]
+    events: [v1-e006,v1-e008,v1-e010,v1-e012,v1-e013,v1-e018,v1-e030,v1-e031,v1-e032,v1-e033,v2-e006,v2-e007,v2-e008,v2-e012,v2-e013,v2-e016,v2-e017,v2-e018]
+  giant_keyword:
+    videos: [video-1,doubao-ppt,minimax-voice]
+    events: [v1-e001,v1-e003,v1-e023,v1-e025,v1-e027,v2-e003,v2-e010,v2-e022,v2-e023,v2-e025,v3-e003,v3-e004,v3-e012,v3-e016,v3-e019]
+  clean_talking_head_recovery:
+    videos: [video-1,doubao-ppt,minimax-voice]
+    events: [v1-e037,v2-e009,v2-e014,v2-e019,v2-e021,v2-e026,v3-e002,v3-e011,v3-e015,v3-e018,v3-e021]
+
+sample_specific_patterns:
+  neon_chapter_skin:
+    primary_video: video-1
+    events: [v1-e007,v1-e015,v1-e021,v1-e029,v1-e034]
+    status: skin_not_grammar
+  yellow_header_dark_demo_skin:
+    primary_video: doubao-ppt
+    events: [v2-e006,v2-e007]
+    status: skin_not_grammar
+  waveform_compare_skin:
+    primary_video: minimax-voice
+    events: [v3-e010,v3-e014]
+    status: optional_pattern
