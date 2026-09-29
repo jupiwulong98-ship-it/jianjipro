@@ -1,4 +1,7 @@
 id: section-title
+taxonomy:
+  family: section
+  subtype: chapter-title
 status: ready_for_implementation
 semantic_trigger: [section, category_change, major_topic_shift]
 eligibility:
