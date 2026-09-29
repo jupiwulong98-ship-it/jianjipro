@@ -1,0 +1,39 @@
+version: 0.1
+style_id: replace-me
+source_creator: replace-me
+source_videos: []
+confidence: 0.0
+
+global:
+  aspect_ratio: "9:16"
+  pacing:
+    visual_event_interval_sec:
+      min: 2.5
+      max: 6.0
+    max_same_effect_repeat: 2
+  density: medium
+
+typography:
+  caption: {}
+  emphasis: {}
+
+camera:
+  rules: []
+
+motion_graphics:
+  categories: []
+  rules: []
+
+broll:
+  rules: []
+
+sound:
+  music: {}
+  sfx_rules: []
+
+composition:
+  safe_zones: {}
+  subject_positioning: {}
+
+decision_rules: []
+negative_rules: []
