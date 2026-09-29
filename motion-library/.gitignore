@@ -1,0 +1,9 @@
+.superpowers/
+.worktrees/
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+
+output/
+.playwright-cli/
