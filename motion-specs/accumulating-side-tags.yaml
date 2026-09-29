@@ -1,0 +1,44 @@
+id: accumulating-side-tags
+status: ready_for_implementation
+semantic_trigger: [list, audience, pain_point, feature_list, option]
+eligibility:
+  min_items: 2
+  max_items: 6
+  max_chars_per_item_cn: 6
+  reject_if:
+    - "当前主画面为高密度屏幕教程"
+    - "条目本身需要解释而不是只强调名称"
+layout:
+  anchor: presenter_face_safe_zone
+  placement:
+    preferred: [left_of_subject, right_of_subject]
+    behavior: "根据人物位置自动选择空白侧；必要时左右分组"
+  item:
+    shape: rounded_rect
+    font: bold
+    text_color: dark
+    padding: compact
+    gap_px_1080p: [12,24]
+timing:
+  item_enter_sec: [0.15,0.30]
+  item_interval_sec: [0.45,1.00]
+  persist_previous: true
+  exit:
+    mode: "whole-group-cut-or-fast-fade"
+    sec: [0.10,0.30]
+motion:
+  entrance_candidates: [scale_pop, short_slide, fade_scale]
+  overshoot: [1.03,1.10]
+sequencing:
+  rule: "严格跟随口播条目顺序，每说到一个条目再出现一个标签"
+  max_visible: 6
+parameters:
+  palette_variants:
+    - [purple, magenta]
+    - [yellow]
+    - [lime]
+    - [cyan]
+fallback:
+  if_space_insufficient: "改为单侧纵向列表"
+  if_items_too_long: "改为短标题+普通字幕，不生成标签"
+evidence: [v1-e004,v1-e009,v1-e011,v1-e019,v2-e002,v2-e006,v2-e024,v3-e008]
