@@ -1,4 +1,7 @@
 id: grid-stage-screen
+taxonomy:
+  family: screen-demo
+  subtype: tool-demo
 status: ready_for_implementation
 semantic_trigger: [product_demo, workflow, result, feature_explanation]
 eligibility:
