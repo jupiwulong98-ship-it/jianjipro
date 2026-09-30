@@ -1,0 +1,97 @@
+{
+  "project_id": "talkcraft-integration-render-test",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "public_dir": "assets",
+  "theme": {
+    "accent": "#22d3ee",
+    "ink": "#ffffff",
+    "panelInk": "#171923",
+    "panel": "#f8fafc"
+  },
+  "shots": [
+    {
+      "id": "s03",
+      "start_frame": 300,
+      "duration_frames": 120,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 64,
+        "top": 160,
+        "width": 720,
+        "height": 600
+      },
+      "primary_motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "content": {
+          "keyword": "局部重渲染"
+        }
+      }
+    },
+    {
+      "id": "s04",
+      "start_frame": 420,
+      "duration_frames": 120,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 64,
+        "top": 160,
+        "width": 720,
+        "height": 600
+      },
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "content": {
+          "steps": [
+            {
+              "no": "01",
+              "txt": "ChatCut 初剪"
+            },
+            {
+              "no": "02",
+              "txt": "规划包装"
+            },
+            {
+              "no": "03",
+              "txt": "Remotion 渲染"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s06",
+      "start_frame": 750,
+      "duration_frames": 150,
+      "presentation_mode": "full_screen",
+      "box": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "primary_motion_request": {
+        "family": "list",
+        "subtype": "key-points",
+        "content": {
+          "layout": "vertical-strips",
+          "fullScreen": true,
+          "items": [
+            "HyperFrames",
+            "Remotion",
+            "ChatCut"
+          ],
+          "srcs": [
+            "asset:hyperframes.svg",
+            "asset:remotion.png",
+            "asset:chatcut-app.png"
+          ]
+        }
+      }
+    }
+  ],
+  "style_id": "ai-talkinghead-editorial-v0.1"
+}

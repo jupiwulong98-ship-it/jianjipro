@@ -14,6 +14,10 @@
 ## 输出
 严格符合 `references/style-engine/shotbook.schema.yaml`。
 
+TalkCraft 执行另生成分段计划，字段与例子见 `motion-library/docs/talkcraft.md` 和 `projects/talkcraft-integration-smoke/plan.json`。保留 ChatCut 原始时间映射，以 30 fps 端点计算 start_frame / duration_frames；不要逐段累计取整。
+
+干净口播合法，不强制每句动效。复杂包装按透明视频交付，内部文字/颜色/动效改源参数后局部重渲染；不宣称已转换为 ChatCut 原生可编辑组件。
+
 ## 每镜必须明确
 1. primary_visual_job：这一镜唯一主要视觉任务。
 2. presentation_mode：presenter_safe 或 full_screen。

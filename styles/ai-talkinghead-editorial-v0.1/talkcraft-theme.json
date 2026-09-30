@@ -1,0 +1,13 @@
+{
+  "style_id": "ai-talkinghead-editorial-v0.1",
+  "status": "candidate",
+  "derived_from": "style-profile.yaml / layers.visual_skin",
+  "note": "首版选择黑白基底与青色强调，保留候选风格身份；规则由镜头计划引用，不宣称精准复刻单一博主。",
+  "theme": {
+    "accent": "#22d3ee",
+    "ink": "#ffffff",
+    "panelInk": "#171923",
+    "panel": "#f8fafc",
+    "fontFamily": "\"PingFang SC\", \"Hiragino Sans GB\", sans-serif"
+  }
+}

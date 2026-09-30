@@ -4,6 +4,7 @@
 把 Shotbook / Edit Plan 的 motion_request 解析为真实可执行 Primary Card。
 
 ## 输入
+- TalkCraft 候选：`motion-library/adapters/talkcraft/registry.json`；完整浏览库：`motion-library/src/talkcraft/catalog.json`。
 - shotbook shot / edit-plan motion_request
 - motion-library/taxonomy/input-types.yaml
 - motion-library/taxonomy/card-input-index.yaml
@@ -16,6 +17,10 @@
 
 ## 输出
 填写 resolution：status / card_id / card_version / score / reason / props / media_bindings。
+
+TalkCraft 分段执行使用 `resolution.primary_card` 保存主卡 ID（与 Shotbook schema 对齐），来源为 `talkcraft:<slug>`。辅助 Camera 的 ID 单独保存，不能作为 Primary。真实参数解析和渲染入口见 `motion-library/docs/talkcraft.md`。
+
+完整模板库不代表所有卡已适配；只有 registry 中开放的能力可进入自动解析。其余返回适配请求。Planner 的 content 必须表达真实内容关系，不能为命中某张卡而改语义。
 
 ## 决策顺序
 1. 先检查 input types，缺硬输入直接淘汰。

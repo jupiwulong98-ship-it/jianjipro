@@ -2,6 +2,14 @@
 
 AI 口播视频风格学习、动效规划、素材装配、镜头编排、卡片路由、ChatCut 执行与视觉质检的一体化仓库。
 
+## TalkCraft 能力接入（2026-10-01）
+
+已引入 108 张模板的源码、配方与离线 demo；八张实拍适配卡可通过独立 Remotion 环境按镜头渲染。风格参数来自本仓库，复杂效果分段交付 ChatCut。
+
+简版设计：[整合方案](docs/superpowers/specs/2026-10-01-talkcraft-integration-design.md)。命令与制作说明：[TalkCraft 使用说明](motion-library/docs/talkcraft.md)。
+
+模板浏览入口：在 `motion-library/` 运行 `npm run dev`，选择“浏览 TalkCraft 108 张模板”。这是模板预览库，剪辑调整仍在 ChatCut。
+
 ## 核心链路
 
 参考视频 → Style Profile
@@ -40,7 +48,7 @@ AI 口播视频风格学习、动效规划、素材装配、镜头编排、卡�
 - Stable Frame Review Gate：已建立
 - Generated Motion工作流：已建立
 - 本地素材装配网页：未开发
-- Motion Router实际执行脚本：未开发
+- Motion Router实际执行脚本：TalkCraft 八张适配卡的确定性解析已实现；全库综合路由尚未实现
 - ChatCut完整闭环：未跑通
 
 首次本机实跑的已验证步骤与阻碍见 [docs/style-engine-v2/first-real-run-2026-09-29.md](docs/style-engine-v2/first-real-run-2026-09-29.md)。

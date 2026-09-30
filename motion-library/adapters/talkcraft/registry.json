@@ -1,0 +1,187 @@
+[
+  {
+    "family": "emphasis",
+    "subtype": "keyword",
+    "required": [
+      "text"
+    ],
+    "props": [
+      "text",
+      "sub"
+    ],
+    "max_text": 12,
+    "min_frames": 75,
+    "panel": "transparent",
+    "id": "talkcraft:split-text-stagger",
+    "slug": "split-text-stagger",
+    "version": "jianjipro-1",
+    "layer": "primary",
+    "status": "adapted_requires_project_review",
+    "source": "cards/split-text-stagger.tsx"
+  },
+  {
+    "family": "emphasis",
+    "subtype": "keyword",
+    "required": [
+      "keyword"
+    ],
+    "props": [
+      "keyword",
+      "before",
+      "after"
+    ],
+    "max_text": 8,
+    "min_frames": 42,
+    "panel": "transparent",
+    "id": "talkcraft:keyword-pop-highlight",
+    "slug": "keyword-pop-highlight",
+    "version": "jianjipro-1",
+    "layer": "primary",
+    "status": "adapted_requires_project_review",
+    "source": "cards/keyword-pop-highlight.tsx"
+  },
+  {
+    "family": "section",
+    "subtype": "chapter-title",
+    "required": [
+      "title",
+      "items"
+    ],
+    "props": [
+      "title",
+      "items",
+      "itemBg",
+      "accent",
+      "logoSrc",
+      "itemsAt",
+      "exitTime"
+    ],
+    "min_items": 1,
+    "max_items": 4,
+    "min_frames": 150,
+    "panel": "light",
+    "id": "talkcraft:title-demote-to-label",
+    "slug": "title-demote-to-label",
+    "version": "jianjipro-1",
+    "layer": "primary",
+    "status": "adapted_requires_project_review",
+    "source": "cards/title-demote-to-label.tsx"
+  },
+  {
+    "family": "process",
+    "subtype": "process-map",
+    "required": [
+      "steps"
+    ],
+    "props": [
+      "steps"
+    ],
+    "min_items": 2,
+    "max_items": 4,
+    "min_frames": 65,
+    "panel": "light",
+    "id": "talkcraft:numbered-step-stack",
+    "slug": "numbered-step-stack",
+    "version": "jianjipro-1",
+    "layer": "primary",
+    "status": "adapted_requires_project_review",
+    "source": "cards/numbered-step-stack.tsx"
+  },
+  {
+    "family": "emphasis",
+    "subtype": "keyword",
+    "required": [
+      "stem",
+      "words",
+      "final"
+    ],
+    "props": [
+      "stem",
+      "words",
+      "final",
+      "accent"
+    ],
+    "min_items": 2,
+    "max_items": 6,
+    "min_frames": 150,
+    "panel": "transparent",
+    "id": "talkcraft:word-slot-cycle",
+    "slug": "word-slot-cycle",
+    "version": "jianjipro-1",
+    "layer": "primary",
+    "status": "adapted_requires_project_review",
+    "source": "cards/word-slot-cycle.tsx"
+  },
+  {
+    "family": "list",
+    "subtype": "key-points",
+    "required": [
+      "items",
+      "srcs",
+      "layout"
+    ],
+    "props": [
+      "items",
+      "srcs",
+      "layout",
+      "hostSrc",
+      "entryTimes",
+      "seconds",
+      "fullScreen"
+    ],
+    "min_items": 3,
+    "max_items": 3,
+    "min_frames": 95,
+    "panel": "full_screen",
+    "full_screen": true,
+    "layouts": [
+      "vertical-strips"
+    ],
+    "id": "talkcraft:parallel-items-with-host",
+    "slug": "parallel-items-with-host",
+    "version": "jianjipro-1",
+    "layer": "primary",
+    "status": "adapted_requires_project_review",
+    "source": "cards/parallel-items-with-host.tsx"
+  },
+  {
+    "family": "statement",
+    "subtype": "closing-statement",
+    "required": [
+      "lines"
+    ],
+    "props": [
+      "lines"
+    ],
+    "min_items": 3,
+    "max_items": 3,
+    "min_frames": 110,
+    "panel": "light",
+    "id": "talkcraft:quote-hold-arrow",
+    "slug": "quote-hold-arrow",
+    "version": "jianjipro-1",
+    "layer": "primary",
+    "status": "adapted_requires_project_review",
+    "source": "cards/quote-hold-arrow.tsx"
+  },
+  {
+    "family": null,
+    "subtype": null,
+    "layer": "camera",
+    "required": [
+      "src"
+    ],
+    "props": [
+      "src",
+      "seconds"
+    ],
+    "min_frames": 60,
+    "panel": "full_screen",
+    "full_screen": true,
+    "id": "talkcraft:slow-push-in",
+    "slug": "slow-push-in",
+    "version": "jianjipro-1",
+    "status": "adapted_requires_project_review",
+    "source": "cards/slow-push-in.tsx"
+  }
+]

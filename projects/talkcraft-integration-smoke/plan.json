@@ -1,0 +1,199 @@
+{
+  "project_id": "talkcraft-integration-smoke",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "public_dir": "assets",
+  "theme": {
+    "accent": "#22d3ee",
+    "ink": "#ffffff",
+    "panelInk": "#171923",
+    "panel": "#f8fafc"
+  },
+  "shots": [
+    {
+      "id": "s01",
+      "start_frame": 0,
+      "duration_frames": 120,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 64,
+        "top": 160,
+        "width": 720,
+        "height": 600
+      },
+      "primary_motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "content": {
+          "text": "模板组合测试",
+          "sub": "实拍口播 · 包装复用"
+        }
+      }
+    },
+    {
+      "id": "s02",
+      "start_frame": 120,
+      "duration_frames": 180,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 64,
+        "top": 160,
+        "width": 720,
+        "height": 600
+      },
+      "primary_motion_request": {
+        "family": "section",
+        "subtype": "chapter-title",
+        "content": {
+          "title": "模板可复用",
+          "items": [
+            "修改文案",
+            "调整配色",
+            "分段渲染"
+          ]
+        }
+      }
+    },
+    {
+      "id": "s03",
+      "start_frame": 300,
+      "duration_frames": 120,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 64,
+        "top": 160,
+        "width": 720,
+        "height": 600
+      },
+      "primary_motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "content": {
+          "keyword": "局部重渲染"
+        }
+      }
+    },
+    {
+      "id": "s04",
+      "start_frame": 420,
+      "duration_frames": 120,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 64,
+        "top": 160,
+        "width": 720,
+        "height": 600
+      },
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "content": {
+          "steps": [
+            {
+              "no": "01",
+              "txt": "ChatCut 初剪"
+            },
+            {
+              "no": "02",
+              "txt": "规划包装"
+            },
+            {
+              "no": "03",
+              "txt": "Remotion 渲染"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "s05",
+      "start_frame": 540,
+      "duration_frames": 210,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 64,
+        "top": 160,
+        "width": 720,
+        "height": 600
+      },
+      "primary_motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "content": {
+          "stem": "可修改",
+          "words": [
+            "文案",
+            "颜色",
+            "素材"
+          ],
+          "final": "重复使用"
+        }
+      }
+    },
+    {
+      "id": "s06",
+      "start_frame": 750,
+      "duration_frames": 150,
+      "presentation_mode": "full_screen",
+      "box": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "primary_motion_request": {
+        "family": "list",
+        "subtype": "key-points",
+        "content": {
+          "layout": "vertical-strips",
+          "fullScreen": true,
+          "items": [
+            "HyperFrames",
+            "Remotion",
+            "ChatCut"
+          ],
+          "srcs": [
+            "asset:hyperframes.svg",
+            "asset:remotion.png",
+            "asset:chatcut-app.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "s07",
+      "start_frame": 900,
+      "duration_frames": 150,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 64,
+        "top": 160,
+        "width": 720,
+        "height": 600
+      },
+      "primary_motion_request": {
+        "family": "statement",
+        "subtype": "closing-statement",
+        "content": {
+          "lines": [
+            "保留风格规划",
+            "复用动画模板",
+            "看效果再调整"
+          ]
+        }
+      }
+    },
+    {
+      "id": "s08",
+      "start_frame": 1050,
+      "duration_frames": 120,
+      "presentation_mode": "full_screen",
+      "layer": "camera",
+      "props": {
+        "src": "asset:hyperframes-official.png"
+      }
+    }
+  ],
+  "style_id": "ai-talkinghead-editorial-v0.1"
+}
