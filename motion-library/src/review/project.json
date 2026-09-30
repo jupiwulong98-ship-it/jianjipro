@@ -1,0 +1,537 @@
+{
+  "id": "ai-tools-real-20260930",
+  "title": "AI 剪辑工具怎么选",
+  "fps": 30,
+  "durationFrames": 3410,
+  "captionCount": 53,
+  "clipCount": 35,
+  "snapshotDate": "2026-09-30",
+  "styleLabel": "旧 v2 单蓝强调 · 本轮待审",
+  "chatcutProjectId": "81892e72-e13e-4a96-a827-90f8162794d1",
+  "provenance": "用已有 v2 镜头与确认字幕占位；包装理由为本轮审阅建议，尚未代表用户确认。画面为历史包装与初剪源片合成参考，不是实时 ChatCut 截屏。",
+  "assets": [
+    {
+      "id": "host",
+      "label": "真实口播主线",
+      "kind": "image",
+      "url": "/review-projects/ai-tools-real-20260930/host.jpg",
+      "source": "",
+      "note": "35 个初剪片段；人物镜头对应源视频映射。"
+    },
+    {
+      "id": "hyperframes-logo",
+      "label": "HyperFrames 标识",
+      "kind": "image",
+      "url": "/review-projects/ai-tools-real-20260930/hyperframes.svg",
+      "source": "https://www.hyperframes.dev/",
+      "note": "沿用旧项目已登记的官方标识；保留品牌颜色。"
+    },
+    {
+      "id": "hyperframes-page",
+      "label": "HyperFrames 官网截图",
+      "kind": "image",
+      "url": "/review-projects/ai-tools-real-20260930/hyperframes-page.jpg",
+      "source": "https://www.hyperframes.dev/",
+      "note": "2026-09-30 缓存的官网页面；不是操作录屏。"
+    },
+    {
+      "id": "remotion-logo",
+      "label": "Remotion 标识",
+      "kind": "image",
+      "url": "/review-projects/ai-tools-real-20260930/remotion.png",
+      "source": "https://www.remotion.dev/",
+      "note": "沿用旧项目已登记的官方标识；保留品牌颜色。"
+    },
+    {
+      "id": "remotion-page",
+      "label": "Remotion 官网截图",
+      "kind": "image",
+      "url": "/review-projects/ai-tools-real-20260930/remotion-page.jpg",
+      "source": "https://www.remotion.dev/",
+      "note": "2026-09-30 缓存的官网页面；不是操作录屏。"
+    },
+    {
+      "id": "chatcut-logo",
+      "label": "ChatCut 标识",
+      "kind": "image",
+      "url": "/review-projects/ai-tools-real-20260930/chatcut-app.png",
+      "source": "https://chatcut.io/zh",
+      "note": "沿用旧项目已登记的官方标识；保留品牌颜色。"
+    },
+    {
+      "id": "chatcut-page",
+      "label": "ChatCut 官网截图",
+      "kind": "image",
+      "url": "/review-projects/ai-tools-real-20260930/chatcut-page.jpg",
+      "source": "https://chatcut.io/zh",
+      "note": "2026-09-30 缓存的官网页面；不是操作录屏。"
+    },
+    {
+      "id": "typing",
+      "label": "键盘与工作场景",
+      "kind": "video",
+      "url": "/review-projects/ai-tools-real-20260930/typing.mp4",
+      "source": "https://pixabay.com/videos/id-6378/",
+      "note": "场景 B-roll，源素材静音；不声称是产品真实操作。"
+    },
+    {
+      "id": "production",
+      "label": "视频制作现场",
+      "kind": "video",
+      "url": "/review-projects/ai-tools-real-20260930/production.mp4",
+      "source": "https://pixabay.com/videos/id-26537/",
+      "note": "场景 B-roll，源素材静音；不声称是产品真实操作。"
+    }
+  ],
+  "shots": [
+    {
+      "id": "scene-01",
+      "title": "开场：AI 剪辑怎么选",
+      "startFrame": 0,
+      "endFrame": 261,
+      "mode": "人物旁",
+      "intent": "先建立本片主题",
+      "reason": "开头给出话题，标题与人物共同承担注意力，不急着堆素材。",
+      "ruleIds": [
+        "rule-section-title"
+      ],
+      "templateIds": [
+        "split-text-stagger"
+      ],
+      "layerNote": "主包装",
+      "packaging": "人物旁透明标题",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-01.jpg",
+      "caption": "今天给大家分享几个常用的 AI 动效包装的工具。",
+      "transcript": "现在刷到 AI 剪辑，感觉只需要把视频丢给 AI 就能够自动剪好了。今天给大家分享几个常用的 AI 动效包装的工具。",
+      "assetIds": [
+        "host"
+      ],
+      "attention": [],
+      "originalShotIds": [
+        "s01"
+      ]
+    },
+    {
+      "id": "scene-02",
+      "title": "HyperFrames：工具首次出现",
+      "startFrame": 261,
+      "endFrame": 560,
+      "mode": "人物旁",
+      "intent": "记住名称，再接用途",
+      "reason": "工具首次出现用标识建立认知，标题随后让位给产品介绍、文字图片和动画。",
+      "ruleIds": [
+        "rule-entity-emphasis"
+      ],
+      "templateIds": [
+        "title-demote-to-label"
+      ],
+      "layerNote": "主包装",
+      "packaging": "名称 → 角标 → 用途",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-02.jpg",
+      "caption": "可以看 HyperFrames。",
+      "transcript": "第一个 HyperFrames。如果你要做产品介绍，画面主要是文字、图片和动画的情况下，可以看 HyperFrames。",
+      "assetIds": [
+        "hyperframes-logo"
+      ],
+      "attention": [],
+      "originalShotIds": [
+        "s02"
+      ]
+    },
+    {
+      "id": "scene-03",
+      "title": "HyperFrames：展示官网",
+      "startFrame": 560,
+      "endFrame": 764,
+      "mode": "全屏",
+      "intent": "让观众看见实际产品",
+      "reason": "真实官网接管画面，轻缓推近只作为辅助运镜。",
+      "ruleIds": [
+        "rule-tutorial-screen-primary"
+      ],
+      "templateIds": [
+        "slow-push-in"
+      ],
+      "layerNote": "辅助运镜；主画面是真实截图",
+      "packaging": "官网截图 + 缓推",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-03.jpg",
+      "caption": "AI 通过网页生成的技术把它做成视频。",
+      "transcript": "你描述你想要的画面。AI 通过网页生成的技术把它做成视频。它的优势是动效很灵活。",
+      "assetIds": [
+        "hyperframes-page"
+      ],
+      "attention": [
+        "这是官网页面概览，不是实际操作录屏。"
+      ],
+      "originalShotIds": [
+        "s03"
+      ]
+    },
+    {
+      "id": "scene-04",
+      "title": "灵活，也需要判断",
+      "startFrame": 764,
+      "endFrame": 1148,
+      "mode": "人物旁",
+      "intent": "突出优势与代价",
+      "reason": "对“工程可改”“需要判断”做局部重音，人物继续说话。",
+      "ruleIds": [
+        "rule-return-to-clean-talking-head"
+      ],
+      "templateIds": [
+        "keyword-pop-highlight"
+      ],
+      "layerNote": "主包装",
+      "packaging": "关键词强调",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-04.jpg",
+      "caption": "但是不代表它每次出片都是你想要的方向，",
+      "transcript": "它的优势是动效很灵活。然后做完还有工程文件可以让你去修改。它的代价就是你要和 AI 一起去调整项目。它能够出片，但是不代表它每次出片都是你想要的方向，所以它稳定性可能稍微会差一点。",
+      "assetIds": [
+        "host"
+      ],
+      "attention": [
+        "这段较长，可在重点之间留干净口播。"
+      ],
+      "originalShotIds": [
+        "s03",
+        "s04"
+      ]
+    },
+    {
+      "id": "scene-05",
+      "title": "Remotion：可复用的模板元素",
+      "startFrame": 1148,
+      "endFrame": 1507,
+      "mode": "人物旁",
+      "intent": "解释哪些东西可做成模板",
+      "reason": "标题、字幕、品牌颜色与动画是并列内容，先检查其信息关系再选排版。",
+      "ruleIds": [
+        "rule-list-tags"
+      ],
+      "templateIds": [
+        "numbered-step-stack"
+      ],
+      "layerNote": "主包装",
+      "packaging": "旧版编号堆叠 · 建议调整",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-05.jpg",
+      "caption": "你可以把标题、字幕。",
+      "transcript": "第二个是 Remotion。如果你每次都做同一种风格，同一种模板的视频。可以重点看一下 Remotion。你可以把标题、字幕。品牌颜色和动画全部都做成模板。下次你换内容就只需要在模板里面改改里面的参数就可以了。",
+      "assetIds": [
+        "remotion-logo"
+      ],
+      "attention": [
+        "旧版用了步骤卡，但这里是并列项，建议换成并列标签。"
+      ],
+      "originalShotIds": [
+        "s05"
+      ]
+    },
+    {
+      "id": "scene-06",
+      "title": "Remotion：官网与复用",
+      "startFrame": 1507,
+      "endFrame": 1708,
+      "mode": "全屏",
+      "intent": "展示工具及复用方向",
+      "reason": "用已有官网截图承接“换内容、改参数”，不把官网示例冒充我们的实测结果。",
+      "ruleIds": [
+        "rule-tutorial-screen-primary"
+      ],
+      "templateIds": [
+        "slow-push-in"
+      ],
+      "layerNote": "辅助运镜；主画面是真实截图",
+      "packaging": "官网截图 + 缓推",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-06.jpg",
+      "caption": "它就非常适合重复做和批量做。",
+      "transcript": "下次你换内容就只需要在模板里面改改里面的参数就可以了。它就非常适合重复做和批量做。",
+      "assetIds": [
+        "remotion-page"
+      ],
+      "attention": [],
+      "originalShotIds": [
+        "s06"
+      ]
+    },
+    {
+      "id": "scene-07",
+      "title": "搭模板需要时间",
+      "startFrame": 1708,
+      "endFrame": 1814,
+      "mode": "全屏",
+      "intent": "用动作素材承接时间投入",
+      "reason": "键盘素材提供场景变化；它是动作示意，不是 Remotion 操作证据。",
+      "ruleIds": [
+        "rule-example-broll"
+      ],
+      "templateIds": [],
+      "layerNote": "ChatCut 原生素材 / 项目定制文字",
+      "packaging": "独立 B-roll + 细线边框",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-07.jpg",
+      "caption": "它的代价是前期搭一个模板是比较耗时间的。",
+      "transcript": "它就非常适合重复做和批量做。它的代价是前期搭一个模板是比较耗时间的。如果你只用这个风格剪一条片子，",
+      "assetIds": [
+        "typing"
+      ],
+      "attention": [
+        "全屏素材的裁切与露底需要实际合成检查。"
+      ],
+      "originalShotIds": [
+        "s06"
+      ]
+    },
+    {
+      "id": "scene-08",
+      "title": "只做一条，可能不划算",
+      "startFrame": 1814,
+      "endFrame": 2003,
+      "mode": "人物旁",
+      "intent": "强调使用成本判断",
+      "reason": "让画面回到人物，突出“不划算”，避免同一段持续全屏。",
+      "ruleIds": [
+        "rule-return-to-clean-talking-head"
+      ],
+      "templateIds": [
+        "keyword-pop-highlight"
+      ],
+      "layerNote": "主包装",
+      "packaging": "人物回场 + 关键词",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-08.jpg",
+      "caption": "那么你可能用不上 Remotion。",
+      "transcript": "如果你只用这个风格剪一条片子，那么你可能用不上 Remotion。它不是特别划算。",
+      "assetIds": [
+        "host"
+      ],
+      "attention": [],
+      "originalShotIds": [
+        "s06"
+      ]
+    },
+    {
+      "id": "scene-09",
+      "title": "ChatCut：真人口播与录屏",
+      "startFrame": 2003,
+      "endFrame": 2178,
+      "mode": "人物旁",
+      "intent": "建立适用场景",
+      "reason": "先认出工具名称，再看到真人口播和录屏这两类输入。",
+      "ruleIds": [
+        "rule-entity-emphasis"
+      ],
+      "templateIds": [],
+      "layerNote": "ChatCut 原生素材 / 项目定制文字",
+      "packaging": "Logo + 简洁场景文字",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-09.jpg",
+      "caption": "如果你已经拍好了你真人口播，",
+      "transcript": "第三个， ChatCut。如果你已经拍好了你真人口播，或者是有一段录屏。",
+      "assetIds": [
+        "chatcut-logo"
+      ],
+      "attention": [
+        "当前文字为旧项目定制实现，尚未作为通用卡注册。"
+      ],
+      "originalShotIds": [
+        "s07"
+      ]
+    },
+    {
+      "id": "scene-10",
+      "title": "剪废话、字幕、补画面",
+      "startFrame": 2178,
+      "endFrame": 2288,
+      "mode": "全屏",
+      "intent": "让画面节奏发生变化",
+      "reason": "制作现场素材作为场景示意，口播和字幕仍是主要信息。",
+      "ruleIds": [
+        "rule-example-broll"
+      ],
+      "templateIds": [],
+      "layerNote": "ChatCut 原生素材 / 项目定制文字",
+      "packaging": "独立 B-roll + 细线边框",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-10.jpg",
+      "caption": "然后排字幕，",
+      "transcript": "想去剪掉废话，然后排字幕，或者是补一些画面。",
+      "assetIds": [
+        "production"
+      ],
+      "attention": [
+        "它不是 ChatCut 软件的实际操作录屏。"
+      ],
+      "originalShotIds": [
+        "s07"
+      ]
+    },
+    {
+      "id": "scene-11",
+      "title": "ChatCut：在时间线上修改",
+      "startFrame": 2288,
+      "endFrame": 2433,
+      "mode": "全屏",
+      "intent": "展示产品界面方向",
+      "reason": "用真实官网截图承接口播，不伪造界面操作。",
+      "ruleIds": [
+        "rule-tutorial-screen-primary"
+      ],
+      "templateIds": [
+        "slow-push-in"
+      ],
+      "layerNote": "辅助运镜；主画面是真实截图",
+      "packaging": "官网截图 + 缓推",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-11.jpg",
+      "caption": "它是直接在视频时间线上进行修改。",
+      "transcript": "优先看一下 ChatCut。它是直接在视频时间线上进行修改。",
+      "assetIds": [
+        "chatcut-page"
+      ],
+      "attention": [],
+      "originalShotIds": [
+        "s07"
+      ]
+    },
+    {
+      "id": "scene-12",
+      "title": "最终结果自己微调",
+      "startFrame": 2433,
+      "endFrame": 2646,
+      "mode": "人物旁",
+      "intent": "强调人工过片",
+      "reason": "核心落点是自己调整和判断，保持人物在场。",
+      "ruleIds": [
+        "rule-return-to-clean-talking-head"
+      ],
+      "templateIds": [
+        "keyword-pop-highlight"
+      ],
+      "layerNote": "主包装",
+      "packaging": "“自己微调”强调",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-12.jpg",
+      "caption": "但是最终结果还是要你自己亲手去过一遍，",
+      "transcript": "AI 剪完之后，你还能自己进去微调。但是最终结果还是要你自己亲手去过一遍，然后才能够验证。",
+      "assetIds": [
+        "host"
+      ],
+      "attention": [],
+      "originalShotIds": [
+        "s08"
+      ]
+    },
+    {
+      "id": "scene-13",
+      "title": "安装简单，自己尝试",
+      "startFrame": 2646,
+      "endFrame": 2884,
+      "mode": "人物旁",
+      "intent": "串起三个工具名称",
+      "reason": "三个名称处于同一语义槽位，轮换后落到“自己尝试”。",
+      "ruleIds": [
+        "rule-entity-emphasis"
+      ],
+      "templateIds": [
+        "word-slot-cycle"
+      ],
+      "layerNote": "主包装",
+      "packaging": "词槽轮换 → 结论",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-13.jpg",
+      "caption": "你只需要告诉你的 agent 帮你安装某一个就可以，",
+      "transcript": "那么这三个工具安装其实都很简单，你只需要告诉你的 agent 帮你安装某一个就可以，或者你三个都装上，自己去尝试一下。其实选什么工具，",
+      "assetIds": [
+        "hyperframes-logo",
+        "remotion-logo",
+        "chatcut-logo"
+      ],
+      "attention": [
+        "检查工具名阅读时间，不能为了展示动画加快口播。"
+      ],
+      "originalShotIds": [
+        "s08"
+      ]
+    },
+    {
+      "id": "scene-14",
+      "title": "先看需求",
+      "startFrame": 2884,
+      "endFrame": 2974,
+      "mode": "人物旁",
+      "intent": "给出选择原则",
+      "reason": "先用短关键词突出选择依据，再进入工具匹配。",
+      "ruleIds": [
+        "rule-return-to-clean-talking-head"
+      ],
+      "templateIds": [
+        "keyword-pop-highlight"
+      ],
+      "layerNote": "主包装",
+      "packaging": "短句强调",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-14.jpg",
+      "caption": "最后都是看你有什么样的需求。",
+      "transcript": "其实选什么工具，最后都是看你有什么样的需求。",
+      "assetIds": [
+        "host"
+      ],
+      "attention": [],
+      "originalShotIds": [
+        "s09"
+      ]
+    },
+    {
+      "id": "scene-15",
+      "title": "三种任务，三种工具",
+      "startFrame": 2974,
+      "endFrame": 3242,
+      "mode": "全屏",
+      "intent": "帮助观众快速做选择",
+      "reason": "动效、固定栏目、真人口播是平级任务，用三栏对应工具，不能画成先后流程。",
+      "ruleIds": [
+        "rule-list-tags"
+      ],
+      "templateIds": [
+        "parallel-items-with-host"
+      ],
+      "layerNote": "主包装",
+      "packaging": "全屏三栏，按口播逐项进入",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-15.jpg",
+      "caption": "可以看一下 Remotion 。如果你",
+      "transcript": "最后都是看你有什么样的需求。做这种动效可以重点看一下 HyperFrames。然后做固定的栏目，可以看一下 Remotion 。如果你主要是真人口播主要可以看一下 ChatCut。",
+      "assetIds": [
+        "hyperframes-logo",
+        "remotion-logo",
+        "chatcut-logo"
+      ],
+      "attention": [
+        "旧模板名字含人物，但这一镜实际采用无占位人物的全屏版式。"
+      ],
+      "originalShotIds": [
+        "s09"
+      ]
+    },
+    {
+      "id": "scene-16",
+      "title": "收束：结果自己判断",
+      "startFrame": 3242,
+      "endFrame": 3410,
+      "mode": "人物旁",
+      "intent": "让结论落定",
+      "reason": "省步骤、省时间之后，把注意力交回人物与“自己判断”。",
+      "ruleIds": [
+        "rule-return-to-clean-talking-head"
+      ],
+      "templateIds": [
+        "quote-hold-arrow"
+      ],
+      "layerNote": "主包装",
+      "packaging": "三行观点 + 最后一行高亮",
+      "preview": "/review-projects/ai-tools-real-20260930/scene-16.jpg",
+      "caption": "但是最终结果一定要你自己去进行判断。",
+      "transcript": "工具可以帮你省一些操作步骤和时间，但是最终结果一定要你自己去进行判断。",
+      "assetIds": [
+        "host"
+      ],
+      "attention": [
+        "这是自己的结论，不是外部引用。"
+      ],
+      "originalShotIds": [
+        "s10"
+      ]
+    }
+  ]
+}
