@@ -1,6 +1,6 @@
 # TalkCraft 已接入的能力
 
-- 浏览：108 张配方、TSX 和离线 demo，进入原卡片库后选择“浏览 TalkCraft 108 张模板”。它只用来挑效果，时间线调整在 ChatCut。
+- 浏览：108 张配方、TSX 和离线 demo，打开网页默认即为 TalkCraft 模板库。它只用来挑效果，时间线调整在 ChatCut。
 - 制作：八张适配卡的开放参数和限制见 `adapters/talkcraft/registry.json`；未适配模板仅供参考。
 - 渲染：Remotion 4.0.519 独立依赖，静音 ProRes 4444 透明 MOV；按镜头缓存。
 - 交付：生成包含帧位置的 `chatcut-delivery.json`，由 Codex 使用 ChatCut 工具在副本装配。这一步没有内置无人值守的 ChatCut 客户端。

@@ -20,7 +20,7 @@ Edit Plan 是导演决策，Shotbook 是逐镜施工单：
 - 稳定帧在哪里审
 
 ## Motion Library
-真实 JSX 卡片位于 motion-library/cards/。
+2026-10-01 起旧 ChatCut 原生卡已移除。真实 TSX 适配卡位于 motion-library/adapters/talkcraft/cards/，执行能力索引为 adapters/talkcraft/registry.json。
 AI检索入口位于 motion-library/taxonomy/。
 卡片只负责 Primary Visual。Camera / Annotation / Transition 不再被迫塞进某一张Card。
 

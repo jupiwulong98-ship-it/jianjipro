@@ -1,3 +1,8 @@
+---
+name: motion-router
+description: 根据口播镜头的语义、真实输入和布局约束解析已适配的 TalkCraft 卡，缺能力时返回适配或生成请求。
+---
+
 # Motion Router Skill
 
 ## 任务
@@ -7,9 +12,7 @@
 - TalkCraft 候选：`motion-library/adapters/talkcraft/registry.json`；完整浏览库：`motion-library/src/talkcraft/catalog.json`。
 - shotbook shot / edit-plan motion_request
 - motion-library/taxonomy/input-types.yaml
-- motion-library/taxonomy/card-input-index.yaml
 - motion-library/taxonomy/families.yaml
-- motion-library/taxonomy/card-capabilities.yaml
 - motion-library/taxonomy/router-policy.yaml
 - asset-manifest
 - 最近已使用卡片与布局历史
@@ -21,6 +24,8 @@
 TalkCraft 分段执行使用 `resolution.primary_card` 保存主卡 ID（与 Shotbook schema 对齐），来源为 `talkcraft:<slug>`。辅助 Camera 的 ID 单独保存，不能作为 Primary。真实参数解析和渲染入口见 `motion-library/docs/talkcraft.md`。
 
 完整模板库不代表所有卡已适配；只有 registry 中开放的能力可进入自动解析。其余返回适配请求。Planner 的 content 必须表达真实内容关系，不能为命中某张卡而改语义。
+
+旧 ChatCut 原生 Card 已移除，不再查找其 manifest 或绑定。可执行能力与硬输入以 adapters/talkcraft/registry.json 为准。
 
 ## 决策顺序
 1. 先检查 input types，缺硬输入直接淘汰。

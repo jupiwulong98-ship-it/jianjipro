@@ -1,18 +1,7 @@
-# Executor Bindings
+# 执行绑定
 
-这里负责把 jianjipro 的抽象剪辑决策映射到真实执行资源。
+当前使用 `talkcraft-bindings.yaml` 指向 TalkCraft 适配 registry 与独立 Remotion 渲染工具。
 
-原则：
-- `motion-specs/` 定义“什么时候用、应该长什么样”。
-- `bindings/` 定义“实际调用哪张 ChatCut 卡片/哪个版本”。
-- 真正的 JSX 动画代码放在本仓库的 `motion-library/cards/`，由这里统一维护版本。
-- Planner 不直接依赖具体卡片名；Router 通过 binding 解析。
+Planner 输出语义和输入，Router 解析为适配卡；按镜头渲染静音透明 MOV，生成 `chatcut-delivery.json`。助手通过 ChatCut 工具在项目副本上装配。
 
-执行链：
-```
-Edit Plan
-  -> effect_category / motion_spec
-  -> binding registry
-  -> executable card + version + prop mapping + media slots
-  -> ChatCut
-```
+八张已适配卡可执行；108 张浏览模板不能等同于 108 张已适配卡。未适配需求返回升级/生成请求。流程见 `motion-library/docs/talkcraft.md`。

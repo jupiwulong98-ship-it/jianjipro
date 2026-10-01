@@ -9,7 +9,7 @@ export function TalkCraftGallery({onBack,onOpenProject}: {onBack: () => void;onO
     && `${card.title} ${card.slug} ${card.oneliner} ${card.semantics.join(' ')}`.toLowerCase().includes(query.toLowerCase()));
   const active = catalog.find(card => card.slug === selected);
   return <main className="shell">
-    <button className="back" onClick={onBack}>← 返回原卡片库</button>
+    <button className="back" onClick={onBack}>打开口播项目审阅</button>
     {onOpenProject&&<button style={{float:'right'}} onClick={onOpenProject}>返回项目审阅</button>}
     <p className="eyebrow">JIANJIPRO · TALKCRAFT</p>
     <h1>TalkCraft 模板库</h1>

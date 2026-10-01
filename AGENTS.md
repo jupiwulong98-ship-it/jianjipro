@@ -36,7 +36,8 @@
 - references/samples/：逐视频证据。
 - styles/：Style Profile。
 - motion-specs/：抽象包装规范。
-- motion-library/cards/：真实可渲染卡片。
+- motion-library/adapters/talkcraft/：真实可渲染适配卡与 registry。
+- motion-library/vendor/talkcraft/：108 张上游模板源码与配方；未适配模板不可直接执行。
 - motion-library/taxonomy/：Family、Subtype、Input、Capability、Layer、Router规则。
 - asset-workspace/：素材装配协议。
 - projects/：真实项目的 semantic map / edit plan / shotbook / assets。

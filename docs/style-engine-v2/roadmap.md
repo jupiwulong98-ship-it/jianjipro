@@ -24,7 +24,7 @@
 - [x] Input Types + Card Input Index
 - [x] Primary Card 与 Camera / Annotation / Transition 分层
 - [x] Router Policy
-- [ ] 升级 tag-list / side-tag-cluster 自适应能力
+- [ ] 扩展 TalkCraft 适配卡的语义、数量和布局覆盖
 - [ ] 升级 process-map-scene 支持 3~8 节点
 - [ ] 补 metric-comparison
 - [ ] 补 statement-pair

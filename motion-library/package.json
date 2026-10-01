@@ -15,9 +15,7 @@
     "talkcraft:render": "node runtime-talkcraft/render.mjs render",
     "talkcraft:index": "node scripts/index-talkcraft.mjs",
     "test:talkcraft": "node --test tests/talkcraft.test.mjs",
-    "validate:cards": "node scripts/validate-cards.mjs",
-    "validate:taxonomy": "node scripts/validate-taxonomy.mjs",
-    "validate": "npm run validate:cards && npm run validate:taxonomy"
+    "validate": "npm run talkcraft:index && npm run test:talkcraft"
   },
   "dependencies": {
     "@remotion/player": "4.0.522",

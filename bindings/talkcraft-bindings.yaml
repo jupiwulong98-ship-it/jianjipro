@@ -1,0 +1,19 @@
+version: 1
+status: segment_rendering
+library:
+  repository: jupiwulong98-ship-it/jianjipro
+  templates: motion-library/vendor/talkcraft
+  catalog: motion-library/src/talkcraft/catalog.json
+  executable_registry: motion-library/adapters/talkcraft/registry.json
+  renderer: motion-library/runtime-talkcraft/render.mjs
+  router_policy: motion-library/taxonomy/router-policy.yaml
+resolution_flow:
+  - semantic_motion_request
+  - validate_inputs_and_family_subtype
+  - resolve_adapted_card
+  - render_representative_frames
+  - user_review
+  - render_transparent_segments
+  - chatcut_delivery_json
+  - assemble_in_chatcut_project_copy
+note: "ChatCut 装配仍由助手通过工具执行；本仓库没有无人值守的 ChatCut 客户端。"

@@ -56,21 +56,6 @@ supporting_layers:
   annotation:
     max_simultaneous_primary_emphasis: 1
 
-examples:
-  - input:
-      family: list
-      subtype: key-points
-      item_count: 3
-      input_types: [text,presenter]
-    preferred_candidates: [tag-list]
-    rejected_examples:
-      side-tag-cluster: "v1固定5项"
-      process-map-scene: "这是流程，不是并列关系"
 
-  - input:
-      family: process
-      subtype: process-map
-      item_count: 7
-      input_types: [text]
-    result: generated_or_upgrade
-    reason: "process-map-scene v1固定5节点，需v2或动态生成"
+# 当前执行能力以 adapters/talkcraft/registry.json 为准。
+# 此处是全库路由设计规则；当前脚本只解析已适配卡，不实现完整加权评分。

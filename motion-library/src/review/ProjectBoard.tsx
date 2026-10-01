@@ -62,7 +62,7 @@ export function ProjectBoard({onOpenTemplates,onBack}:{onOpenTemplates:()=>void;
   return <main className="review-board">
     <header className="rb-header">
       <div className="rb-brand"><span className="rb-brand-mark">J</span><div><strong>JIANJIPRO</strong><span>项目审阅 / 包装计划</span></div></div>
-      <nav><button onClick={onBack}>原卡片库</button><button onClick={onOpenTemplates}>模板库 ↗</button></nav>
+      <nav><button onClick={onBack}>返回模板库</button><button onClick={onOpenTemplates}>模板库 ↗</button></nav>
     </header>
     <section className="rb-project">
       <div><p className="rb-kicker">真实口播 · 旧方案占位</p><h1>{project.title}</h1><p>{clock(project.durationFrames)} · {project.clipCount} 个口播片段 · {project.captionCount} 条字幕 · {project.shots.length} 个包装镜头</p></div>

@@ -1,37 +1,14 @@
 # Motion Taxonomy
 
-这是 AI 选择动效的唯一入口。
+规划顺序：Family → Subtype → 真实输入与布局 → 已适配 Card。
 
-## 三层结构
+- `families.yaml`：语义信息关系。
+- `input-types.yaml`：素材与输入类型。
+- `layer-model.yaml`：Primary / Camera / Annotation / Transition / SFX 分层。
+- `router-policy.yaml`：全库筛选与评分设计；当前解析脚本尚未实现完整加权评分。
+- `../adapters/talkcraft/registry.json`：八张适配卡的可执行能力、参数和约束。
+- `../src/talkcraft/catalog.json`：108 张模板的浏览目录。
 
-```
-Family
-  ↓
-Subtype
-  ↓
-Card Variant
-```
+旧原生 Card 的能力索引与输入索引已移除。
 
-例如：
-
-```
-list
-  └── key-points
-       ├── tag-list
-       └── side-tag-cluster
-```
-
-Planner 只知道 `list/key-points`。
-Router 才知道底层卡片名称。
-
-## 文件
-- `families.yaml`：定义信息关系和类型。
-- `card-capabilities.yaml`：20张真实卡的能力索引。
-- `router-policy.yaml`：筛选、评分、重复惩罚、降级规则。
-
-## 新卡加入流程
-1. 新建真实 card + manifest。
-2. 在 card-capabilities.yaml 注册。
-3. 标注 family/subtype、数量范围、素材要求、布局、视觉密度。
-4. 通过预览/QC。
-5. Router 自动可发现，无需修改 Planner。
+新增模板：保留 vendor 原件，在 adapters/talkcraft/cards 新增参数化 TSX，登记 registry，在 runtime-talkcraft/Root.tsx 注册；验证代表帧和动态片段，再用于实际项目。运行 `npm run talkcraft:index` 更新目录。未适配模板只能参考，不能自动命中。

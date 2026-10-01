@@ -8,9 +8,13 @@ AI 口播视频风格学习、动效规划、素材装配、镜头编排、卡�
 
 简版设计：[整合方案](docs/superpowers/specs/2026-10-01-talkcraft-integration-design.md)。命令与制作说明：[TalkCraft 使用说明](motion-library/docs/talkcraft.md)。
 
-模板浏览入口：在 `motion-library/` 运行 `npm run dev`，选择“浏览 TalkCraft 108 张模板”。这是模板预览库，剪辑调整仍在 ChatCut。
+模板浏览入口：在 `motion-library/` 运行 `npm run dev`，网页默认打开 TalkCraft 模板库。这是模板预览库，剪辑调整仍在 ChatCut。
 
 项目审阅入口：同一服务的 `/#review`（页面按钮“打开口播项目审阅”）。当前用真实项目“AI 剪辑工具怎么选”的旧 v2 方案占位：16 段镜头、53 条字幕、画面参考、模板 demo、素材来源和逐段意见。可建议更换模板、处理意见、确认方案；记录保存在 `projects/ai-tools-real-20260930/review.json`，不入 Git。确认不会自动渲染或修改 ChatCut，后续制作按意见逐条执行。静态托管只可浏览，保存需要本机 Vite 服务。
+
+## 当前模板体系
+
+旧 ChatCut 原生链路的 20 张 Card、预览实现与绑定已移除。模板制作统一使用 TalkCraft + Remotion；ChatCut 用于初剪、字幕与透明片段装配。108 张模板中，目前 8 张有真实参数适配与确定性解析，其他需适配后使用。历史实跑记录只说明当时的状态，以本页和当前 registry 为准。
 
 ## 核心链路
 
@@ -35,7 +39,8 @@ AI 口播视频风格学习、动效规划、素材装配、镜头编排、卡�
 - references/style-engine/：Semantic / Edit Plan / Shotbook / Asset schemas。
 - skills/style-engine/：各 Agent 规范。
 - motion-specs/：抽象包装规范。
-- motion-library/cards/：20 张现有真实可渲染卡片及历史版本。
+- motion-library/vendor/talkcraft/：108 张上游模板源码、配方与许可。
+- motion-library/adapters/talkcraft/：8 张适配卡、能力 registry 和主题参数。
 - motion-library/taxonomy/：Family / Subtype / Input / Capability / Layer / Router Policy。
 - asset-workspace/：真实素材装配协议。
 - projects/：真实视频项目。
@@ -49,7 +54,7 @@ AI 口播视频风格学习、动效规划、素材装配、镜头编排、卡�
 - Asset Workspace协议：已建立
 - Stable Frame Review Gate：已建立
 - Generated Motion工作流：已建立
-- 本地素材装配网页：未开发
+- 项目审阅看板：已实现画面/模板/素材查看与意见保存；自动素材装配未实现
 - Motion Router实际执行脚本：TalkCraft 八张适配卡的确定性解析已实现；全库综合路由尚未实现
 - ChatCut完整闭环：未跑通
 
