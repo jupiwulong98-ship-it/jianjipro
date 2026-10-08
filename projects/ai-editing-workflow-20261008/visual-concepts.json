@@ -1,0 +1,508 @@
+{
+  "version": "0.1",
+  "project_id": "ai-editing-workflow-20261008",
+  "source_video": "ChatCut 1ab95a6d-f88a-416b-9d93-a669d1a63ef3",
+  "semantic_map_source": "semantic-map.json",
+  "concepts": [
+    {
+      "event_id": "visual-01",
+      "source_segment_ids": [
+        "meaning-01"
+      ],
+      "start": 0.25,
+      "end": 4.73,
+      "spoken_text": "哈喽，今天这个视频给大家分享一下，就是我最近一直在研究的 AI 剪辑。",
+      "meaning": "开场只点明主题",
+      "visual_concept": "人物保持主画面，说到 AI 剪辑时，短标题在左侧实际留白出现。 显出短题“AI 剪辑”，人物与字幕保持清晰。 主题引入后标题轻退场，回到人物。",
+      "visual_structure": "single_focus",
+      "structure_description": "主题引入后标题轻退场，回到人物。",
+      "visual_focus": "开场只点明主题：主题引入后标题轻退场，回到人物。",
+      "presentation": "presenter_safe",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-02",
+      "source_segment_ids": [
+        "meaning-02"
+      ],
+      "start": 4.75,
+      "end": 14.026667,
+      "spoken_text": "然后我也交付过一些客户，那么基本上都是按照他的一个对标的一个格式，然后我去给他。搭建一个模板，复刻，对标的内容。",
+      "meaning": "对标到客户模板",
+      "visual_concept": "同一条路径先出现“对标风格”输入位，旁边保留人物小窗。 建立风格输入位，只画抽象特征，不冒充真实客户案例。 输入汇入模板母体。 母体右侧出现新内容结果，连接线保持。 对标特征流入模板，模板输出同风格内容；示意标签常驻。",
+      "visual_structure": "input_process_output",
+      "structure_description": "对标特征流入模板，模板输出同风格内容；示意标签常驻。",
+      "visual_focus": "对标到客户模板：对标特征流入模板，模板输出同风格内容；示意标签常驻。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-04",
+      "source_segment_ids": [
+        "meaning-04"
+      ],
+      "start": 24.653333,
+      "end": 30.306667,
+      "spoken_text": "第一个我是使用的 Hyperframes就是直接去生成 HTML 的动画效果，然后渲染出去。",
+      "meaning": "HTML 动画如何变成片段",
+      "visual_concept": "暗色工作面先放简化 HTML 文档，标注示意。 出现 Hyperframes 名称与简化文档，不用官网截图充当演示。 文档变为可识别的代码结构。 文档沿路径进入渲染位，右侧播放抽象动画预览。 代码经过渲染成为一个动画片段，路径保持连续。",
+      "visual_structure": "input_process_output",
+      "structure_description": "代码经过渲染成为一个动画片段，路径保持连续。",
+      "visual_focus": "HTML 动画如何变成片段：代码经过渲染成为一个动画片段，路径保持连续。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-05",
+      "source_segment_ids": [
+        "meaning-05"
+      ],
+      "start": 30.566667,
+      "end": 42.07,
+      "spoken_text": "然后后面我去用了Remotion Remotion就是更加组件化的一种设计，它能够把你生成的一个效果，然后持续复用，只用改里面的一些。参数就行了。",
+      "meaning": "组件母体与重复输出",
+      "visual_concept": "中央保留一个组件母体，周围暂为空。 建立带 Remotion 标识的组件母体。 从同一母体派生多个结果，连接不断开。 只让参数输入变化，母体的结构与样式保持。 母体不变、内容参数改变，派生不同内容的多个结果。",
+      "visual_structure": "one_to_many",
+      "structure_description": "母体不变、内容参数改变，派生不同内容的多个结果。",
+      "visual_focus": "组件母体与重复输出：母体不变、内容参数改变，派生不同内容的多个结果。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-06",
+      "source_segment_ids": [
+        "meaning-06"
+      ],
+      "start": 42.266667,
+      "end": 51.463333,
+      "spoken_text": "然后最后呢，我使用了 Cha t Cu t，Cha t Cu t 就是比较适用于口播剪辑这种类型，那么我最后是把它做了一个结合。",
+      "meaning": "ChatCut 与生成动画的交接",
+      "visual_concept": "保留一条口播时间线，旁边是已生成动画片段。 建立标注 ChatCut 的解释性时间线。 聚焦口播轨道，不展示未经录屏证明的按钮。 生成片段移入画面轨，与口播轨对齐。 生成片段进入上层轨道，与口播并行，表现组合关系。",
+      "visual_structure": "input_process_output",
+      "structure_description": "生成片段进入上层轨道，与口播并行，表现组合关系。",
+      "visual_focus": "ChatCut 与生成动画的交接：生成片段进入上层轨道，与口播并行，表现组合关系。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-08",
+      "source_segment_ids": [
+        "meaning-08"
+      ],
+      "start": 60.066667,
+      "end": 66.06,
+      "spoken_text": "那么第一步肯就是拆解对标风格，就是对标他在这句话的时候，他用的什么样的效果？",
+      "meaning": "第一步：拆解风格对应关系",
+      "visual_concept": "人物旁出现“01 拆解风格”的短标记，下方保留一句话与效果之间的连线。 出现步骤标记和待分析的一句话。 连线从这句话移动到效果位，焦点转移。 说到具体效果，连线从口播文字落到动画结果位。",
+      "visual_structure": "single_focus",
+      "structure_description": "说到具体效果，连线从口播文字落到动画结果位。",
+      "visual_focus": "第一步：拆解风格对应关系：说到具体效果，连线从口播文字落到动画结果位。",
+      "presentation": "presenter_safe",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-09",
+      "source_segment_ids": [
+        "meaning-09"
+      ],
+      "start": 66.06,
+      "end": 71.95,
+      "spoken_text": "比方说他讲到数字，是不是有一个数字增长，或者说数字下降这种数字的一种动画效果。",
+      "meaning": "数字变化的动画例子",
+      "visual_concept": "同一图形主体先保持中性，不显示精确数值。 主体向上展开，出现向上箭头。 相同主体向下收拢，对照上升与下降。 增长与下降各自改变方向，回到对称的两个状态。",
+      "visual_structure": "comparison",
+      "structure_description": "增长与下降各自改变方向，回到对称的两个状态。",
+      "visual_focus": "数字变化的动画例子：增长与下降各自改变方向，回到对称的两个状态。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-10",
+      "source_segment_ids": [
+        "meaning-10"
+      ],
+      "start": 72.2,
+      "end": 81.986667,
+      "spoken_text": "这个时候，那我第一个 skill 就是去拆解，怎么样让 AI 懂我们这对标账号。他每句话加的什么样的一个动画效果，这是第一步。",
+      "meaning": "让 AI 学会句子与画面的对应",
+      "visual_concept": "只出现对标内容的抽象一行文字。 从单行展开分析层。 注明分析对象是对标表达，不是客户成果。 逐行连接对应效果位，让对应关系可追踪。 文字展开为几行，逐行连接各自的动画类型，再汇成风格规则。",
+      "visual_structure": "hierarchy",
+      "structure_description": "文字展开为几行，逐行连接各自的动画类型，再汇成风格规则。",
+      "visual_focus": "让 AI 学会句子与画面的对应：文字展开为几行，逐行连接各自的动画类型，再汇成风格规则。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-11",
+      "source_segment_ids": [
+        "meaning-11"
+      ],
+      "start": 82.036667,
+      "end": 97.536667,
+      "spoken_text": "这一步做完之后，第二步，那么就是让 AI 根据。第一个拆解出来的对标效果，然后用我们的口播文案去输出一版。效果预览，那么这个效果预览，它是轻微的渲染，就是它只是一个截图，一个占位。",
+      "meaning": "第二步：口播和风格变成方案预览",
+      "visual_concept": "左侧保留风格规则与自己的口播两个输入，输出位为空。 切入同一工作面，突出方案预览阶段。 保留风格规则输入位。 加入文案输入，与规则共同进入处理位。 输出一个明确标注示意的布局预览。 预览冻结为静态线框，保持阅读时间。 强调素材槽位为空，不展示虚构实拍或客户结果。 两个输入汇合成布局预览，最后只保留线框截图与占位轮廓。",
+      "visual_structure": "input_process_output",
+      "structure_description": "两个输入汇合成布局预览，最后只保留线框截图与占位轮廓。",
+      "visual_focus": "第二步：口播和风格变成方案预览：两个输入汇合成布局预览，最后只保留线框截图与占位轮廓。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-12",
+      "source_segment_ids": [
+        "meaning-12"
+      ],
+      "start": 97.8,
+      "end": 105.783333,
+      "spoken_text": "那么还有很多博主，他用比方说视频呃图片生成模型去生成这种效果，然后呢再交给 AI 去复刻，这是一个方法，",
+      "meaning": "图片模型方案的交接",
+      "visual_concept": "一张概念画面处于生成端，复刻端为空。 只建立生成端与解释性画面。 画面沿连接移动到复刻端，明确交接对象。 概念画面被交给复刻端，保留两端对象和连接。",
+      "visual_structure": "sequence",
+      "structure_description": "概念画面被交给复刻端，保留两端对象和连接。",
+      "visual_focus": "图片模型方案的交接：概念画面被交给复刻端，保留两端对象和连接。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-14",
+      "source_segment_ids": [
+        "meaning-14"
+      ],
+      "start": 112.2,
+      "end": 120.09,
+      "spoken_text": "那么我的第二步是直接让他输出文字占位，然后我看一下觉得OK 之后第三步，那么就是复刻对标账号的动画组件。",
+      "meaning": "预览确认后再复刻",
+      "visual_concept": "方案预览保持在左侧，右侧复刻阶段尚未开放。 显出待检查的文字方案。 确认标记落下，后续路径才亮。 焦点沿路径进入“复刻组件”。 预览通过后路径亮起，焦点进入动画组件阶段。",
+      "visual_structure": "decision_tree",
+      "structure_description": "预览通过后路径亮起，焦点进入动画组件阶段。",
+      "visual_focus": "预览确认后再复刻：预览通过后路径亮起，焦点进入动画组件阶段。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-15",
+      "source_segment_ids": [
+        "meaning-15"
+      ],
+      "start": 120.333333,
+      "end": 130.593333,
+      "spoken_text": "我会先让他逐帧的去把它拆解出来，就是这个效果，他从第几帧出现到第几帧结束，然后这每一帧都要有效果，比方说他是跳入还是跳出。",
+      "meaning": "逐帧拆解入场与退场",
+      "visual_concept": "横向帧带固定，主预览主体尚未入场，注明示意。 建立连续帧带和游标。 游标到入场节点，主体进入。 游标到退场节点，主体离开；随后回看这两个端点。 短暂重放入场状态。 短暂重放退场状态并收住。 游标从入场经过保持再到退场，主预览随状态变化。",
+      "visual_structure": "timeline",
+      "structure_description": "游标从入场经过保持再到退场，主预览随状态变化。",
+      "visual_focus": "逐帧拆解入场与退场：游标从入场经过保持再到退场，主预览随状态变化。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-16",
+      "source_segment_ids": [
+        "meaning-16"
+      ],
+      "start": 130.833333,
+      "end": 136.34,
+      "spoken_text": "那么拿到这个逐帧的一个效果之后，交给 AI 去复刻。复刻完之后让它自己做审核。",
+      "meaning": "复刻后审核",
+      "visual_concept": "人物恢复主画面，留白处放“复刻”与“审核”两个相连状态。 复刻状态亮起。 焦点移向审核位，只表达开始审核。 焦点从复刻推进到审核，审核后保持待复核状态。",
+      "visual_structure": "sequence",
+      "structure_description": "焦点从复刻推进到审核，审核后保持待复核状态。",
+      "visual_focus": "复刻后审核：焦点从复刻推进到审核，审核后保持待复核状态。",
+      "presentation": "presenter_safe",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-18",
+      "source_segment_ids": [
+        "meaning-18"
+      ],
+      "start": 146.466667,
+      "end": 160.06,
+      "spoken_text": "复刻之后，你可以让它创建一个组件库，那么这个组件库你要分类，比方说是卡片是什么样子的，比方说呃录屏的时候是什么样的一个效果？比方说你真人口播的时候是什么样的一个效果？这些把它分好类。",
+      "meaning": "组件库按使用场景归档",
+      "visual_concept": "库容器保持在中心，内部目录尚未展开。 库容器建立。 容器内部出现分类目录。 第一个目录收纳抽象卡片组件。 第二个目录展示屏幕内容组件的缩略轮廓。 第三个目录展示人物安全区域组件。 容器展开为卡片、录屏、真人三类，每类放入抽象组件并保留归属。",
+      "visual_structure": "hierarchy",
+      "structure_description": "容器展开为卡片、录屏、真人三类，每类放入抽象组件并保留归属。",
+      "visual_focus": "组件库按使用场景归档：容器展开为卡片、录屏、真人三类，每类放入抽象组件并保留归属。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-19",
+      "source_segment_ids": [
+        "meaning-19"
+      ],
+      "start": 160.333333,
+      "end": 164.7,
+      "spoken_text": "然后其实就后面你就甩给他一个视频，他就能够产出。",
+      "meaning": "新视频调用已有库",
+      "visual_concept": "已建立的库保持在原位置，新口播片段位于输入端。 新口播进入已有库，不重新搭库。 显示标注示意的包装片段结果。 新片段经过库调用成为包装片段，突出既有库。",
+      "visual_structure": "input_process_output",
+      "structure_description": "新片段经过库调用成为包装片段，突出既有库。",
+      "visual_focus": "新视频调用已有库：新片段经过库调用成为包装片段，突出既有库。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-21",
+      "source_segment_ids": [
+        "meaning-21"
+      ],
+      "start": 175.333333,
+      "end": 185.66,
+      "spoken_text": "你让 AI根据你原来的口播文案，让它给你输出一篇更适合加动画包装效果的口播文案。它不会改变你整个内容的意思，而且它可以让你的条理变得更加有序。",
+      "meaning": "意思不变，文案更适合动画",
+      "visual_concept": "同一份原文作为固定主体，右侧保持待整理状态。 建立原文主体。 同一文案重新分段并对齐画面槽位。 两侧的核心含义连接保持，标出“意思保留”。 焦点移到分段与层级，突出更有序。 原文被分成更清楚的结构段，语义连接保留，右侧出现可绑定的画面槽位。",
+      "visual_structure": "before_after",
+      "structure_description": "原文被分成更清楚的结构段，语义连接保留，右侧出现可绑定的画面槽位。",
+      "visual_focus": "意思不变，文案更适合动画：原文被分成更清楚的结构段，语义连接保留，右侧出现可绑定的画面槽位。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-23",
+      "source_segment_ids": [
+        "meaning-23"
+      ],
+      "start": 195.9,
+      "end": 203.73,
+      "spoken_text": "后面确实，如果这样子去做之后，你的剪辑的效率会提高很多。而且它消耗的 token 特别少。为什么消耗的少？",
+      "meaning": "效率与消耗的定性结果",
+      "visual_concept": "人物保持，两枚短标识暂不出现。 短标识“提高效率”进入实际留白。 替换为“减少重复生成”，保留为讲述者的经验解释。 先出现“提高效率”，再转成“减少重复生成”，不显示量化刻度。",
+      "visual_structure": "single_focus",
+      "structure_description": "先出现“提高效率”，再转成“减少重复生成”，不显示量化刻度。",
+      "visual_focus": "效率与消耗的定性结果：先出现“提高效率”，再转成“减少重复生成”，不显示量化刻度。",
+      "presentation": "presenter_safe",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-24",
+      "source_segment_ids": [
+        "meaning-24"
+      ],
+      "start": 203.73,
+      "end": 211.02,
+      "spoken_text": "就是因为你其实把其他的风格这些东西已经固定了。AI 它相当于只是去改里面的参数，因为是用的 Remotion 去制作的。",
+      "meaning": "固定风格，只替换参数",
+      "visual_concept": "风格框架固定，新内容参数位待更新。 框架锁定，突出不变部分。 参数卡换入，结果内容随之变化。 只补工具标识，不改变母体关系。 参数替换推动结果变化，框架、字体和运动规则持续不变。",
+      "visual_structure": "one_to_many",
+      "structure_description": "参数替换推动结果变化，框架、字体和运动规则持续不变。",
+      "visual_focus": "固定风格，只替换参数：参数替换推动结果变化，框架、字体和运动规则持续不变。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-26",
+      "source_segment_ids": [
+        "meaning-26"
+      ],
+      "start": 218.666667,
+      "end": 225,
+      "spoken_text": "但是这个东西它有一个不稳定性，并且 token 的消耗量非常大，而且很多人用不上Opus 5.5。",
+      "meaning": "另一种做法的三个局限",
+      "visual_concept": "一侧保留“一句话生成”标签，另一侧空出观察维度。 稳定性维度显出“需反复检查”。 消耗维度显出“生成成本”。 可用性维度显出“访问条件”。 依次显出稳定性、消耗、可用性三个维度，均不打分。",
+      "visual_structure": "comparison",
+      "structure_description": "依次显出稳定性、消耗、可用性三个维度，均不打分。",
+      "visual_focus": "另一种做法的三个局限：依次显出稳定性、消耗、可用性三个维度，均不打分。",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-27",
+      "source_segment_ids": [
+        "meaning-27"
+      ],
+      "start": 225.266667,
+      "end": 238.84,
+      "spoken_text": "那么，这就是我今天想讲的，就是如果大家有 AI 剪辑这种需求，你可以把我这个视频下载下来，然后告诉 AI 让它提取逐字稿之后。然后来帮你进行完成。那么我自己也是有一套完整的流程。",
+      "meaning": "观众怎样照着视频复用流程",
+      "visual_concept": "从这条视频出发的路径先只有起点，人物保留在旁。 视频移到本地输入位。 输入转成文字，路径亮到逐字稿节点。 逐字稿连接到步骤实践位，强调依次执行。 短暂回显拆解、预览、复刻、复用四阶段，作为回顾。 视频经过逐字稿进入流程理解，最后停在可按步骤实践的入口。",
+      "visual_structure": "sequence",
+      "structure_description": "视频经过逐字稿进入流程理解，最后停在可按步骤实践的入口。",
+      "visual_focus": "观众怎样照着视频复用流程：视频经过逐字稿进入流程理解，最后停在可按步骤实践的入口。",
+      "presentation": "presenter_safe",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+      },
+      "revision_reason": null
+    }
+  ]
+}

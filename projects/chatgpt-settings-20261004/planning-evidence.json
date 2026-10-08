@@ -1,0 +1,17 @@
+{
+  "checked_on": "2026-10-04",
+  "sources": [
+    {"id":"sycophancy","url":"https://openai.com/index/sycophancy-in-gpt-4o/","title":"Sycophancy in GPT-4o","published":"2025-04-29","supports":"OpenAI 公开说明 GPT-4o 一次更新过于迎合、已回滚，并讨论自定义指令和个性化方向。","does_not_support":"不证明所有模型目前都这样，不证明四项设置能彻底解决迎合问题或能力差距。"},
+    {"id":"personality","url":"https://help.openai.com/en/articles/11899719-customizing-your-chatgpt-personality","title":"Customizing Your ChatGPT Personality","supports":"风格与语气可在 Personalization 设置；Professional、Efficient、Candid 是风格选择。","does_not_support":"专业、高效、直截了当不是三个保证同时存在的独立开关；风格不改变能力或安全规则。中文名称待真实素材核对。"},
+    {"id":"instructions","url":"https://help.openai.com/en/articles/8096356-chatgpt-custom-instructions","title":"ChatGPT Custom Instructions","supports":"自定义指令是用户提供的持久响应要求，可用于后续会话。","does_not_support":"不保证模型完美遵从每条要求，不冒充用户的实际设置。"},
+    {"id":"memory","url":"https://help.openai.com/en/articles/8590148-memory-in-chatgpt","title":"Memory in ChatGPT","supports":"Settings→Personalization→Memory 可查看相关控制；具体管理功能随账号、区域和平台变化。","does_not_support":"不证明本段减肥例子是已测得的真实模型输出。"},
+    {"id":"data","url":"https://help.openai.com/en/articles/7730893-data-controls-in-chatgpt","title":"Data controls in ChatGPT","supports":"Settings→Data controls 下可检查模型改进偏好；与记忆控制是不同设置。","does_not_support":"关掉训练偏好不等于删除历史，也不是绝对保密保证或模型能力提升。"}
+  ],
+  "unverified_claims": [
+    {"scene_id":"meaning-04","claim":"95% 的人从来没有打开过这些设置","status":"speaker_claim","treatment":"原口播与字幕保留；本阶段未找到该数字的支持来源，不做大数字或比例图；发布前由用户复核取舍。"},
+    {"scene_id":"meaning-02","claim":"差距全在这些设置里面","status":"speaker_claim","treatment":"只呈现同模型、不同设置的对照，不画决定一切的因果证明。"},
+    {"scene_id":"meaning-15","claim":"减肥旧记忆可能导致建议偏离现在情况","status":"speaker_example","treatment":"标口播例子，保留可能性，不编造真实回答、实验数据或医疗建议。"}
+  ],
+  "display_policy": "来源只留内部核对记录，成片不显示来源脚注、网页地址或调试信息。",
+  "source_note": "帮助中心资料支持功能与路径，不能代替当前中文界面素材；本稿仍待实际画面和听音审阅。"
+}

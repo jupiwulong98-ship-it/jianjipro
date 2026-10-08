@@ -1,0 +1,338 @@
+{
+  "status": "pass",
+  "source_hash": "0a077ec8e0bbe367e41532d35727698a5e94271bb454a5667c8aa215826f809b",
+  "scope": "AI 视觉检查候选稳定帧；不代表用户审片或实际听音通过",
+  "reviewed_frames": 57,
+  "reviewed_composites": 2,
+  "shots": [
+    {
+      "id": "github",
+      "concept_ids": [
+        "visual-github"
+      ],
+      "frames": [
+        20,
+        62,
+        86
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "find",
+      "concept_ids": [
+        "visual-find"
+      ],
+      "frames": [
+        20,
+        54,
+        74
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "repository",
+      "concept_ids": [
+        "visual-repository"
+      ],
+      "frames": [
+        20,
+        199,
+        276
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "three-actions",
+      "concept_ids": [
+        "visual-three-actions"
+      ],
+      "frames": [
+        20,
+        104,
+        144
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "signup",
+      "concept_ids": [
+        "visual-signup"
+      ],
+      "frames": [
+        20,
+        133,
+        185
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "search-codex",
+      "concept_ids": [
+        "visual-search-codex"
+      ],
+      "frames": [
+        20,
+        144,
+        200
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "search-ppt",
+      "concept_ids": [
+        "visual-search-ppt"
+      ],
+      "frames": [
+        20,
+        72,
+        100
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "repositories",
+      "concept_ids": [
+        "visual-repositories"
+      ],
+      "frames": [
+        20,
+        109,
+        151
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "awesome",
+      "concept_ids": [
+        "visual-awesome"
+      ],
+      "frames": [
+        20,
+        313,
+        434
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "stars",
+      "concept_ids": [
+        "visual-stars"
+      ],
+      "frames": [
+        20,
+        271,
+        376
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "star-not-fit",
+      "concept_ids": [
+        "visual-star-not-fit"
+      ],
+      "frames": [
+        20,
+        95,
+        131
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "readme",
+      "concept_ids": [
+        "visual-readme"
+      ],
+      "frames": [
+        20,
+        97,
+        134
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "readme-checks",
+      "concept_ids": [
+        "visual-readme-checks"
+      ],
+      "frames": [
+        20,
+        105,
+        145
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "copy-link",
+      "concept_ids": [
+        "visual-copy-link"
+      ],
+      "frames": [
+        20,
+        105,
+        145
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "check-before-install",
+      "concept_ids": [
+        "visual-check-before-install"
+      ],
+      "frames": [
+        20,
+        259,
+        359
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "install-not-use",
+      "concept_ids": [
+        "visual-install-not-use"
+      ],
+      "frames": [
+        20,
+        115,
+        160
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "real-task",
+      "concept_ids": [
+        "visual-real-task"
+      ],
+      "frames": [
+        20,
+        188,
+        261
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "acceptance",
+      "concept_ids": [
+        "visual-acceptance"
+      ],
+      "frames": [
+        20,
+        64,
+        89
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    },
+    {
+      "id": "summary",
+      "concept_ids": [
+        "visual-summary"
+      ],
+      "frames": [
+        20,
+        180,
+        250
+      ],
+      "checks": [
+        "关系结构与语义一致",
+        "字形与边界无明显异常",
+        "给字幕保留底部空间",
+        "真实网页截图或明确示意标签"
+      ]
+    }
+  ],
+  "findings": [
+    "两个人物旁强调字已放大，真人合成检查未挡脸",
+    "注册入口和排序取景已修复",
+    "输入输出和安装示意未冒充已完成实测"
+  ],
+  "human_review": "pending"
+}

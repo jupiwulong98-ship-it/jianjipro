@@ -1,0 +1,229 @@
+{
+  "project_id": "github-skill-real-20261002-v2",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "status": "ready_for_assembly",
+  "clips": [
+    {
+      "shot_id": "github",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/github.mov",
+      "start_frame": 239,
+      "duration_frames": 87,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "talkcraft",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "find",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/find.mov",
+      "start_frame": 605,
+      "duration_frames": 75,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "talkcraft",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "repository",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/repository.mov",
+      "start_frame": 1004,
+      "duration_frames": 277,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "three-actions",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/three-actions.mov",
+      "start_frame": 1393,
+      "duration_frames": 145,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "signup",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/signup.mov",
+      "start_frame": 1584,
+      "duration_frames": 186,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "search-codex",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/search-codex.mov",
+      "start_frame": 1770,
+      "duration_frames": 201,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "search-ppt",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/search-ppt.mov",
+      "start_frame": 1971,
+      "duration_frames": 101,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "repositories",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/repositories.mov",
+      "start_frame": 2072,
+      "duration_frames": 152,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "awesome",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/awesome.mov",
+      "start_frame": 2363,
+      "duration_frames": 435,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "stars",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/stars.mov",
+      "start_frame": 2859,
+      "duration_frames": 377,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "star-not-fit",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/star-not-fit.mov",
+      "start_frame": 3269,
+      "duration_frames": 132,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "readme",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/readme.mov",
+      "start_frame": 3500,
+      "duration_frames": 135,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "readme-checks",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/readme-checks.mov",
+      "start_frame": 3677,
+      "duration_frames": 146,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "copy-link",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/copy-link.mov",
+      "start_frame": 4048,
+      "duration_frames": 146,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "check-before-install",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/check-before-install.mov",
+      "start_frame": 4194,
+      "duration_frames": 360,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "install-not-use",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/install-not-use.mov",
+      "start_frame": 4600,
+      "duration_frames": 161,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "real-task",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/real-task.mov",
+      "start_frame": 4761,
+      "duration_frames": 262,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "acceptance",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/acceptance.mov",
+      "start_frame": 5051,
+      "duration_frames": 90,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "summary",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/summary.mov",
+      "start_frame": 5228,
+      "duration_frames": 251,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "eccef469b42276718154ff3098e449dc0ced7457a1cdcd9e424dd3bede5f43ab"
+    },
+    {
+      "shot_id": "identity",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/renders/identity.mov",
+      "start_frame": 5791,
+      "duration_frames": 198,
+      "source_in": 0,
+      "muted": true,
+      "alpha": true,
+      "provider": "generated_motion",
+      "source_hash": "d273c3398477021e72eddd59ac49b1240790d31a60664c0ced6970fcbe881344"
+    }
+  ]
+}

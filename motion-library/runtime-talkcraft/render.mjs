@@ -3,6 +3,7 @@ import path from 'node:path';
 import {bundle} from '@remotion/bundler';
 import {renderMedia, renderStill, selectComposition} from '@remotion/renderer';
 import {catalog, runtimeDir, resolvePlan, validateAssets, fingerprint, deliveryManifest, verifyVideo} from './core.mjs';
+import {reviewRhythm, assertRhythmGate} from '../scripts/rhythm-review.mjs';
 
 const [command, input, ...flags] = process.argv.slice(2);
 if (command === 'list') {
@@ -18,9 +19,16 @@ if (command === 'list') {
   const out = path.join(path.dirname(planFile), 'renders');
   fs.mkdirSync(out, {recursive:true});
   fs.writeFileSync(path.join(out,'resolved-plan.json'),JSON.stringify(plan,null,2)+'\n');
+  if (source.visual_contract_version) fs.writeFileSync(path.join(out,'rhythm-review.json'),
+    JSON.stringify(reviewRhythm(source,{policy:source.rhythm_policy??{}}),null,2)+'\n');
+  else console.warn('旧计划未经过画面构思合同校验；visual_contract_status=legacy_unverified。迁移流程见 docs/style-engine-v2/visual-concepts-and-rhythm.md。');
   if (command === 'resolve') console.log(`已解析 ${plan.shots.length} 个镜头：${out}/resolved-plan.json`);
   else {
+    const unresolved=plan.shots.filter(s=>s.resolution.status==='needs_generation');
+    if (unresolved.length) throw new Error(`以下镜头需 Generated Motion 与稳定帧复核，不能静默跳过：${unresolved.map(s=>s.id).join(', ')}`);
     const stillOnly = flags.includes('--stills');
+    // Representative stills are needed to revise a plan; full rendering waits for Gate B.
+    if (!stillOnly && source.visual_contract_version) assertRhythmGate(source);
     const serveUrl = await bundle({entryPoint:path.join(runtimeDir,'Root.tsx'),publicDir,
       webpackOverride: config => ({...config,resolve:{...config.resolve,modules:[path.join(runtimeDir,'node_modules'),'node_modules']}})});
     const cacheFile = path.join(out,'cache.json');

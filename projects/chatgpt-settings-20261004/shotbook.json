@@ -1,0 +1,1745 @@
+{
+  "version": "0.2",
+  "visual_contract_version": "0.1",
+  "project_id": "chatgpt-settings-20261004",
+  "style_id": "ai-talkinghead-editorial-v0.1",
+  "source_video": "ChatCut cc3387e2-a642-406a-acea-d4ec922e0740",
+  "visual_concepts_source": "visual-concepts.json",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration_frames": 4475,
+  "shots": [
+    {
+      "id": "breath-1",
+      "start_frame": 0,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-01",
+      "start_frame": 8,
+      "duration_frames": 63,
+      "start": 0.25,
+      "end": 2.37,
+      "source_segment_ids": [
+        "meaning-01"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "为什么你的 AI 没有别人的好用呢？",
+      "primary_visual_job": "理解这期在解决同款 AI 用起来不同的问题",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-2",
+      "start_frame": 71,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-02",
+      "start_frame": 79,
+      "duration_frames": 94,
+      "start": 2.633333,
+      "end": 5.793333,
+      "source_segment_ids": [
+        "meaning-02"
+      ],
+      "source_edit_event_id": "edit-visual-02",
+      "visual_concept_ids": [
+        "visual-02"
+      ],
+      "visual_structure": "comparison",
+      "clean_presenter": false,
+      "spoken_text": "同样的模型，差距全在这些不起眼的设置里面。",
+      "primary_visual_job": "看懂相同模型仍有不同设置这一对照维度",
+      "presentation_mode": "presenter_safe",
+      "primary_motion_request": {
+        "required": true,
+        "family": "comparison",
+        "subtype": "media-compare",
+        "visual_structure": "comparison",
+        "content": {
+          "text": "看懂相同模型仍有不同设置这一对照维度"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": "talkcraft:rack-focus-pair"
+      },
+      "rhythm": {
+        "layout": "left_emphasis",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-3",
+      "start_frame": 173,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-03",
+      "start_frame": 181,
+      "duration_frames": 214,
+      "start": 6.033333,
+      "end": 13.173333,
+      "source_segment_ids": [
+        "meaning-03"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "GPT 官方承认AI 太会拍马屁了。而他们给出了解决方案。都藏在你的设置按钮里面。",
+      "primary_visual_job": "听清讲述者为何引出设置",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-4",
+      "start_frame": 395,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-04",
+      "start_frame": 403,
+      "duration_frames": 220,
+      "start": 13.433333,
+      "end": 20.773333,
+      "source_segment_ids": [
+        "meaning-04"
+      ],
+      "source_edit_event_id": "edit-visual-04",
+      "visual_concept_ids": [
+        "visual-04"
+      ],
+      "visual_structure": "single_focus",
+      "clean_presenter": false,
+      "spoken_text": "95% 的人从来都没有打开过这些设置按钮。尤其是最后一个，很多人用了几年都不知道。现在直接跟着我改。",
+      "primary_visual_job": "在讲到95%时同步强调口播数字，再返回人物操作引导",
+      "presentation_mode": "presenter_safe",
+      "primary_motion_request": {
+        "required": true,
+        "family": "number",
+        "subtype": "single-metric",
+        "visual_structure": "single_focus",
+        "content": {
+          "text": "在讲到95%时同步强调口播数字，再返回人物操作引导"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": "talkcraft:number-counter"
+      },
+      "rhythm": {
+        "layout": "left_emphasis",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-5",
+      "start_frame": 623,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-05",
+      "start_frame": 631,
+      "duration_frames": 142,
+      "start": 21.033333,
+      "end": 25.793333,
+      "source_segment_ids": [
+        "meaning-05"
+      ],
+      "source_edit_event_id": "edit-visual-05",
+      "visual_concept_ids": [
+        "visual-05"
+      ],
+      "visual_structure": "sequence",
+      "clean_presenter": false,
+      "spoken_text": "第一个，我们先改 GPT 的说话风格。打开设置，找到个性化。",
+      "primary_visual_job": "找到设置与个性化的位置，不把说话风格当成模型切换",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "sequence",
+        "content": {
+          "text": "找到设置与个性化的位置，不把说话风格当成模型切换"
+        },
+        "constraints": {
+          "input_types_required": [
+            "screenshot"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [
+        {
+          "id": "style-screen",
+          "required": true,
+          "status": "ready"
+        }
+      ],
+      "resolution": {
+        "status": "awaiting_real_capture",
+        "primary_card": "talkcraft:focus-dim-spotlight"
+      },
+      "rhythm": {
+        "layout": "real_screen_focus",
+        "visual_intensity": "medium",
+        "visual_subject": "screen",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "pending"
+        }
+      }
+    },
+    {
+      "id": "breath-6",
+      "start_frame": 773,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-06",
+      "start_frame": 781,
+      "duration_frames": 197,
+      "start": 26.033333,
+      "end": 32.613333,
+      "source_segment_ids": [
+        "meaning-06"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "如果你平时拿它工作，我更建议你选择偏专业、高效、直截了当的风格。",
+      "primary_visual_job": "把专业、高效、直截了当理解为工作偏好",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-7",
+      "start_frame": 978,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-07",
+      "start_frame": 986,
+      "duration_frames": 327,
+      "start": 32.866667,
+      "end": 43.793333,
+      "source_segment_ids": [
+        "meaning-07"
+      ],
+      "source_edit_event_id": "edit-visual-07",
+      "visual_concept_ids": [
+        "visual-07"
+      ],
+      "visual_structure": "comparison",
+      "clean_presenter": false,
+      "spoken_text": "为什么？因为很多人最烦的一点就是，你说什么它都先夸你两句。例如，你的想法很棒。这个方向非常有潜力。听着很舒服，但是对你解决问题没有任何帮助。",
+      "primary_visual_job": "看懂赞美回复没有推进问题处理这一落差",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "comparison",
+        "subtype": "media-compare",
+        "visual_structure": "comparison",
+        "content": {
+          "text": "看懂赞美回复没有推进问题处理这一落差"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": "talkcraft:rack-focus-pair"
+      },
+      "rhythm": {
+        "layout": "comparison",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-8",
+      "start_frame": 1313,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-08",
+      "start_frame": 1321,
+      "duration_frames": 128,
+      "start": 44.033333,
+      "end": 48.32,
+      "source_segment_ids": [
+        "meaning-08"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "所以我自己给它的原则很简单，少哄我，多找出问题。",
+      "primary_visual_job": "记住讲述者对回复的要求",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-9",
+      "start_frame": 1449,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-09",
+      "start_frame": 1457,
+      "duration_frames": 117,
+      "start": 48.566667,
+      "end": 52.466667,
+      "source_segment_ids": [
+        "meaning-09"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "第二个，把自定义指令设置好。这一步非常重要。",
+      "primary_visual_job": "知道下一项从风格转向固定指令",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-10",
+      "start_frame": 1574,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-10",
+      "start_frame": 1582,
+      "duration_frames": 282,
+      "start": 52.733333,
+      "end": 62.16,
+      "source_segment_ids": [
+        "meaning-10"
+      ],
+      "source_edit_event_id": "edit-visual-10",
+      "visual_concept_ids": [
+        "visual-10"
+      ],
+      "visual_structure": "before_after",
+      "clean_presenter": false,
+      "spoken_text": "不要每打开一个新会话就告诉它，简洁一点。不要说废话，如果我错了就直接指出来。这些要求一次性写进指令里面。",
+      "primary_visual_job": "分清每次新会话重说和保存一次指令两种做法",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "before_after",
+        "content": {
+          "text": "分清每次新会话重说和保存一次指令两种做法"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": "talkcraft:error-retype"
+      },
+      "rhythm": {
+        "layout": "before_after",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-11",
+      "start_frame": 1864,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-11",
+      "start_frame": 1872,
+      "duration_frames": 328,
+      "start": 62.4,
+      "end": 73.346667,
+      "source_segment_ids": [
+        "meaning-11"
+      ],
+      "source_edit_event_id": "edit-visual-11",
+      "visual_concept_ids": [
+        "visual-11"
+      ],
+      "visual_structure": "sequence",
+      "clean_presenter": false,
+      "spoken_text": "比如我会告诉它。不要为了认同我而认同我。发现我的逻辑有问题，直接指出来。回答优先给我结论，再给我解释原因。不要堆砌一堆正确但没用的废话。",
+      "primary_visual_job": "看清四条要求写成什么，而不是一次读整屏长文",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "sequence",
+        "content": {
+          "text": "看清四条要求写成什么，而不是一次读整屏长文"
+        },
+        "constraints": {
+          "input_types_required": [
+            "screenshot"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [
+        {
+          "id": "instructions-screen",
+          "required": true,
+          "status": "ready"
+        }
+      ],
+      "resolution": {
+        "status": "awaiting_real_capture",
+        "primary_card": "talkcraft:focus-dim-spotlight"
+      },
+      "rhythm": {
+        "layout": "real_screen_focus",
+        "visual_intensity": "medium",
+        "visual_subject": "screen",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "pending"
+        }
+      }
+    },
+    {
+      "id": "breath-12",
+      "start_frame": 2200,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-12",
+      "start_frame": 2208,
+      "duration_frames": 96,
+      "start": 73.6,
+      "end": 76.826667,
+      "source_segment_ids": [
+        "meaning-12"
+      ],
+      "source_edit_event_id": "edit-visual-12",
+      "visual_concept_ids": [
+        "visual-12"
+      ],
+      "visual_structure": "one_to_many",
+      "clean_presenter": false,
+      "spoken_text": "设置一次之后。以后大量的对话都不用重复。",
+      "primary_visual_job": "看懂同一套已保存指令可以影响后续多次对话",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "one_to_many",
+        "content": {
+          "text": "看懂同一套已保存指令可以影响后续多次对话"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": "talkcraft:host-card-glass-board"
+      },
+      "rhythm": {
+        "layout": "one_to_many",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-13",
+      "start_frame": 2304,
+      "duration_frames": 9,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-13",
+      "start_frame": 2313,
+      "duration_frames": 251,
+      "start": 77.1,
+      "end": 85.48,
+      "source_segment_ids": [
+        "meaning-13"
+      ],
+      "source_edit_event_id": "edit-visual-13",
+      "visual_concept_ids": [
+        "visual-13"
+      ],
+      "visual_structure": "sequence",
+      "clean_presenter": false,
+      "spoken_text": "第三个就是检查它到底记住了你什么。还是进入个性化，找到记忆相关的设置。这里你一定要定期去看。",
+      "primary_visual_job": "找到记忆管理入口并知道要检查内容",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "sequence",
+        "content": {
+          "text": "找到记忆管理入口并知道要检查内容"
+        },
+        "constraints": {
+          "input_types_required": [
+            "screenshot"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [
+        {
+          "id": "memory-screen",
+          "required": true,
+          "status": "ready"
+        }
+      ],
+      "resolution": {
+        "status": "awaiting_real_capture",
+        "primary_card": "talkcraft:focus-dim-spotlight"
+      },
+      "rhythm": {
+        "layout": "real_screen_focus",
+        "visual_intensity": "medium",
+        "visual_subject": "screen",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "pending"
+        }
+      }
+    },
+    {
+      "id": "breath-14",
+      "start_frame": 2564,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-14",
+      "start_frame": 2572,
+      "duration_frames": 161,
+      "start": 85.733333,
+      "end": 91.126667,
+      "source_segment_ids": [
+        "meaning-14"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "因为你半年前随口说的一句话，它可能就给你记住了。可能不是你现在的真实情况了。",
+      "primary_visual_job": "理解曾经真实的信息可能不再符合现在",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-15",
+      "start_frame": 2733,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-15",
+      "start_frame": 2741,
+      "duration_frames": 292,
+      "start": 91.366667,
+      "end": 101.106667,
+      "source_segment_ids": [
+        "meaning-15"
+      ],
+      "source_edit_event_id": "edit-visual-15",
+      "visual_concept_ids": [
+        "visual-15"
+      ],
+      "visual_structure": "before_after",
+      "clean_presenter": false,
+      "spoken_text": "比如你以前告诉它，我最近在减肥。后来你已经不减了。但这个信息一直影响它后面的回答。它给你的建议就可能会越来越偏。",
+      "primary_visual_job": "看懂当前情况已经改变，而记录仍旧的错位",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "before_after",
+        "content": {
+          "text": "看懂当前情况已经改变，而记录仍旧的错位"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": "talkcraft:strike-and-replace"
+      },
+      "rhythm": {
+        "layout": "before_after",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-16",
+      "start_frame": 3033,
+      "duration_frames": 7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-16",
+      "start_frame": 3040,
+      "duration_frames": 110,
+      "start": 101.333333,
+      "end": 105,
+      "source_segment_ids": [
+        "meaning-16"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "所以它的记忆不是越多越好。准确的记忆才有价值。",
+      "primary_visual_job": "记住定期校准比堆积记忆更关键",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-17",
+      "start_frame": 3150,
+      "duration_frames": 7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-17",
+      "start_frame": 3157,
+      "duration_frames": 372,
+      "start": 105.233333,
+      "end": 117.646667,
+      "source_segment_ids": [
+        "meaning-17"
+      ],
+      "source_edit_event_id": "edit-visual-17",
+      "visual_concept_ids": [
+        "visual-17"
+      ],
+      "visual_structure": "sequence",
+      "clean_presenter": false,
+      "spoken_text": "最后一个。检查你的数据控制设置。打开设置。进入数据控制或者相关的隐私选项。看看类似，帮助改进模型。这一类选项是不是符合你的需求？",
+      "primary_visual_job": "找到数据控制中的模型改进选项，按自己需求检查",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "sequence",
+        "content": {
+          "text": "找到数据控制中的模型改进选项，按自己需求检查"
+        },
+        "constraints": {
+          "input_types_required": [
+            "screenshot"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [
+        {
+          "id": "data-screen",
+          "required": true,
+          "status": "ready"
+        }
+      ],
+      "resolution": {
+        "status": "awaiting_real_capture",
+        "primary_card": "talkcraft:focus-dim-spotlight"
+      },
+      "rhythm": {
+        "layout": "real_screen_focus",
+        "visual_intensity": "medium",
+        "visual_subject": "screen",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "pending"
+        }
+      }
+    },
+    {
+      "id": "breath-18",
+      "start_frame": 3529,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-18",
+      "start_frame": 3537,
+      "duration_frames": 198,
+      "start": 117.9,
+      "end": 124.52,
+      "source_segment_ids": [
+        "meaning-18"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "尤其是你经常往 GPT 里面放。公司资料、客户信息、商业方案。或者比较私人的内容。",
+      "primary_visual_job": "意识到公司资料、客户信息和私人内容都需要主动检查设置",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-19",
+      "start_frame": 3735,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-19",
+      "start_frame": 3743,
+      "duration_frames": 132,
+      "start": 124.766667,
+      "end": 129.193333,
+      "source_segment_ids": [
+        "meaning-19"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "那你应该至少知道这些开关在哪里，而不是一直用默认设置。",
+      "primary_visual_job": "把默认使用转为有意识检查",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-20",
+      "start_frame": 3875,
+      "duration_frames": 9,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-20",
+      "start_frame": 3884,
+      "duration_frames": 321,
+      "start": 129.466667,
+      "end": 140.173333,
+      "source_segment_ids": [
+        "meaning-20"
+      ],
+      "source_edit_event_id": "edit-visual-20",
+      "visual_concept_ids": [
+        "visual-20"
+      ],
+      "visual_structure": "comparison",
+      "clean_presenter": false,
+      "spoken_text": "这 4 个地方全部都检查完以后，你会发现。真正让 ChatGPT 越来越好用的，不只是换一个更强的模型。而是让它越来越了解你希望它怎么样和你工作。",
+      "primary_visual_job": "分清模型能力与贴合个人工作方式是两个维度",
+      "presentation_mode": "full_screen",
+      "primary_motion_request": {
+        "required": true,
+        "family": "comparison",
+        "subtype": "media-compare",
+        "visual_structure": "comparison",
+        "content": {
+          "text": "分清模型能力与贴合个人工作方式是两个维度"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ]
+        }
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": "talkcraft:rack-focus-pair"
+      },
+      "rhythm": {
+        "layout": "comparison",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "breath-21",
+      "start_frame": 4205,
+      "duration_frames": 7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "meaning-21",
+      "start_frame": 4212,
+      "duration_frames": 255,
+      "start": 140.4,
+      "end": 148.9,
+      "source_segment_ids": [
+        "meaning-21"
+      ],
+      "visual_concept_ids": [],
+      "clean_presenter": true,
+      "spoken_text": "如果你还在裸用 AI 先把这 4 个设置改了。关注我，接下来我还会继续把这些 AI 工具。一个一个调成真正能干活的助手。",
+      "primary_visual_job": "记住先检查四项设置并理解后续内容方向",
+      "presentation_mode": "presenter_safe",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 820
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "asset_slots": [],
+      "resolution": {
+        "status": "project_adapter_upgrade",
+        "primary_card": null
+      },
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      },
+      "review": {
+        "stable_frame_ratio": 0.72,
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "semantic_fit": "pending",
+          "evidence_integrity": "not_applicable"
+        }
+      }
+    },
+    {
+      "id": "tail",
+      "start_frame": 4467,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [],
+      "visual_concept_ids": [],
+      "rhythm": {
+        "layout": "original_presenter",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    }
+  ]
+}

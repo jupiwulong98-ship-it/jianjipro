@@ -1,0 +1,6 @@
+[
+  {"start": 3.6, "end": 4.1, "id": "screen-exit", "every": 0.05},
+  {"start": 7.85, "end": 8.4, "id": "studio-exit", "every": 0.05},
+  {"start": 47.6, "end": 48.35, "id": "result-emphasis", "every": 0.05},
+  {"start": 54.05, "end": 54.55, "id": "check-repeat", "every": 0.05}
+]

@@ -1,0 +1,863 @@
+{
+  "version": "0.4",
+  "project_id": "ai-editing-workflow-20261008",
+  "style_id": "ai-editing-workflow-20261008-approved",
+  "visual_concepts_source": "visual-concepts.json",
+  "events": [
+    {
+      "id": "edit-1",
+      "start": 0.26666666666666666,
+      "end": 4.7,
+      "source_segment_id": "meaning-01",
+      "visual_concept_id": "visual-01",
+      "intent": "emphasis",
+      "rationale": "难点：听众需要快速确认主题；短题足够，不先铺满流程。；画面补充：人物保持主画面，说到 AI 剪辑时，短标题在左侧实际留白出现。 随口播变化为：主题引入后标题轻退场，回到人物。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "visual_structure": "single_focus",
+        "required": true,
+        "content": {
+          "keyword": "AI 剪辑"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "keyword"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-2",
+      "start": 4.766666666666667,
+      "end": 14,
+      "source_segment_id": "meaning-02",
+      "visual_concept_id": "visual-02",
+      "intent": "explain",
+      "rationale": "难点：交付过程容易被误读成直接复制视频；把风格输入与新内容输出分开。；画面补充：同一条路径先出现“对标风格”输入位，旁边保留人物小窗。 随口播变化为：对标特征流入模板，模板输出同风格内容；示意标签常驻。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "对标风格",
+            "模板母体",
+            "新内容"
+          ],
+          "title": "把对标风格变成可复用模板"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "pipeline"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-4",
+      "start": 24.666666666666668,
+      "end": 30.3,
+      "source_segment_id": "meaning-04",
+      "visual_concept_id": "visual-04",
+      "intent": "explain",
+      "rationale": "难点：工具名不能解释制作机制；同一对象沿代码、渲染、片段三个状态推进。；画面补充：暗色工作面先放简化 HTML 文档，标注示意。 随口播变化为：代码经过渲染成为一个动画片段，路径保持连续。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "HTML",
+            "渲染",
+            "动画片段"
+          ],
+          "title": "Hyperframes：HTML → 动画片段"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "code"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-5",
+      "start": 30.566666666666666,
+      "end": 42.06666666666667,
+      "source_segment_id": "meaning-05",
+      "visual_concept_id": "visual-05",
+      "intent": "explain",
+      "rationale": "难点：复用是共享母体而非平级能力列表；画面保留不变的组件，只变化参数。；画面补充：中央保留一个组件母体，周围暂为空。 随口播变化为：母体不变、内容参数改变，派生不同内容的多个结果。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "one_to_many",
+        "required": true,
+        "content": {
+          "labels": [
+            "组件母体",
+            "片段 A",
+            "片段 B",
+            "片段 C"
+          ],
+          "title": "Remotion：一套组件，多次复用"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "branch"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-6",
+      "start": 42.266666666666666,
+      "end": 51.43333333333333,
+      "source_segment_id": "meaning-06",
+      "visual_concept_id": "visual-06",
+      "intent": "explain",
+      "rationale": "难点：这里讲工具协作而非三个工具排名；同一时间线表达装配终点。；画面补充：保留一条口播时间线，旁边是已生成动画片段。 随口播变化为：生成片段进入上层轨道，与口播并行，表现组合关系。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "生成动画",
+            "画面轨",
+            "口播轨"
+          ],
+          "title": "ChatCut：口播与动画在时间线上相遇"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "tracks"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-8",
+      "start": 60.06666666666667,
+      "end": 66.03333333333333,
+      "source_segment_id": "meaning-08",
+      "visual_concept_id": "visual-08",
+      "intent": "emphasis",
+      "rationale": "难点：第一步的关键是话与画面的对应，不只是大号数字 1。；画面补充：人物旁出现“01 拆解风格”的短标记，下方保留一句话与效果之间的连线。 随口播变化为：说到具体效果，连线从口播文字落到动画结果位。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "visual_structure": "single_focus",
+        "required": true,
+        "content": {
+          "labels": [
+            "这句话",
+            "这个效果"
+          ],
+          "title": "01 / 拆解风格"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "mapping"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-9",
+      "start": 66.06666666666666,
+      "end": 71.93333333333334,
+      "source_segment_id": "meaning-09",
+      "visual_concept_id": "visual-09",
+      "intent": "explain",
+      "rationale": "难点：口播没有给出真实数据；用方向变化解释形式，避免生成虚构百分比。；画面补充：同一图形主体先保持中性，不显示精确数值。 随口播变化为：增长与下降各自改变方向，回到对称的两个状态。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "comparison",
+        "required": true,
+        "content": {
+          "labels": [
+            "增长",
+            "下降"
+          ],
+          "title": "同一个主体，不同变化方向"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "direction"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-10",
+      "start": 72.2,
+      "end": 81.96666666666667,
+      "source_segment_id": "meaning-10",
+      "visual_concept_id": "visual-10",
+      "intent": "explain",
+      "rationale": "难点：AI 懂风格容易被理解成记住一个标题；展示句子、效果与规则的层级。；画面补充：只出现对标内容的抽象一行文字。 随口播变化为：文字展开为几行，逐行连接各自的动画类型，再汇成风格规则。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "hierarchy",
+        "required": true,
+        "content": {
+          "labels": [
+            "口播表达",
+            "对应效果",
+            "风格规则"
+          ],
+          "title": "从一句话，整理成一组风格规则"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "rules"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-11",
+      "start": 82.06666666666666,
+      "end": 97.53333333333333,
+      "source_segment_id": "meaning-11",
+      "visual_concept_id": "visual-11",
+      "intent": "explain",
+      "rationale": "难点：观众可能把效果预览当最终渲染；让结果停在可检查的线框方案。；画面补充：左侧保留风格规则与自己的口播两个输入，输出位为空。 随口播变化为：两个输入汇合成布局预览，最后只保留线框截图与占位轮廓。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "风格规则",
+            "口播文案",
+            "方案预览"
+          ],
+          "title": "02 / 先看方案，再做动画"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "preview"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-12",
+      "start": 97.8,
+      "end": 105.76666666666667,
+      "source_segment_id": "meaning-12",
+      "visual_concept_id": "visual-12",
+      "intent": "explain",
+      "rationale": "难点：此处讲另一种方法的交接；不用通用图片蒙太奇代替实际关系。；画面补充：一张概念画面处于生成端，复刻端为空。 随口播变化为：概念画面被交给复刻端，保留两端对象和连接。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "required": true,
+        "content": {
+          "labels": [
+            "图片模型",
+            "概念画面",
+            "复刻端"
+          ],
+          "title": "把概念画面交给 AI 复刻"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "handoff"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-14",
+      "start": 112.2,
+      "end": 120.06666666666666,
+      "source_segment_id": "meaning-14",
+      "visual_concept_id": "visual-14",
+      "intent": "explain",
+      "rationale": "难点：第二步与第三步之间存在确认条件，普通并列清单会丢掉条件。；画面补充：方案预览保持在左侧，右侧复刻阶段尚未开放。 随口播变化为：预览通过后路径亮起，焦点进入动画组件阶段。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "decision_tree",
+        "required": true,
+        "content": {
+          "labels": [
+            "文字占位",
+            "检查方案",
+            "复刻组件"
+          ],
+          "title": "确认之后，再进入复刻"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "decision"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-15",
+      "start": 120.33333333333333,
+      "end": 130.56666666666666,
+      "source_segment_id": "meaning-15",
+      "visual_concept_id": "visual-15",
+      "intent": "explain",
+      "rationale": "难点：逐帧拆解是时间关系；保持同一帧带与主体，避免退化成三张标签。；画面补充：横向帧带固定，主预览主体尚未入场，注明示意。 随口播变化为：游标从入场经过保持再到退场，主预览随状态变化。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "timeline",
+        "required": true,
+        "content": {
+          "labels": [
+            "入场",
+            "停留",
+            "退场"
+          ],
+          "title": "03 / 逐帧看清入场与退场"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "timeline"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-16",
+      "start": 130.83333333333334,
+      "end": 136.33333333333334,
+      "source_segment_id": "meaning-16",
+      "visual_concept_id": "visual-16",
+      "intent": "explain",
+      "rationale": "难点：审核是流程步骤，不能直接显示已通过来替用户验收。；画面补充：人物恢复主画面，留白处放“复刻”与“审核”两个相连状态。 随口播变化为：焦点从复刻推进到审核，审核后保持待复核状态。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "required": true,
+        "content": {
+          "labels": [
+            "复刻",
+            "审核"
+          ],
+          "title": "复刻 → 审核"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "mini"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-18",
+      "start": 146.46666666666667,
+      "end": 160.03333333333333,
+      "source_segment_id": "meaning-18",
+      "visual_concept_id": "visual-18",
+      "intent": "explain",
+      "rationale": "难点：分类的重点是以后如何找到合适组件；显示库到分类到组件的层级。；画面补充：库容器保持在中心，内部目录尚未展开。 随口播变化为：容器展开为卡片、录屏、真人三类，每类放入抽象组件并保留归属。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "hierarchy",
+        "required": true,
+        "content": {
+          "labels": [
+            "组件库",
+            "卡片",
+            "录屏",
+            "真人口播"
+          ],
+          "title": "把组件按使用场景归档"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "library"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-19",
+      "start": 160.33333333333334,
+      "end": 164.7,
+      "source_segment_id": "meaning-19",
+      "visual_concept_id": "visual-19",
+      "intent": "explain",
+      "rationale": "难点：直接甩给视频不是凭空生成；保留组件库作为中间环节。；画面补充：已建立的库保持在原位置，新口播片段位于输入端。 随口播变化为：新片段经过库调用成为包装片段，突出既有库。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "新口播",
+            "已有组件库",
+            "包装片段"
+          ],
+          "title": "新视频调用已有组件库"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "reuse"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-21",
+      "start": 175.33333333333334,
+      "end": 185.63333333333333,
+      "source_segment_id": "meaning-21",
+      "visual_concept_id": "visual-21",
+      "intent": "explain",
+      "rationale": "难点：更适合动画不等于换了主题；保持原内容关系，只整理结构与画面落点。；画面补充：同一份原文作为固定主体，右侧保持待整理状态。 随口播变化为：原文被分成更清楚的结构段，语义连接保留，右侧出现可绑定的画面槽位。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "before_after",
+        "required": true,
+        "content": {
+          "labels": [
+            "原口播文案",
+            "整理后的文案",
+            "画面槽位"
+          ],
+          "title": "核心意思保留，结构更清楚"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "rewrite"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-23",
+      "start": 195.9,
+      "end": 203.7,
+      "source_segment_id": "meaning-23",
+      "visual_concept_id": "visual-23",
+      "intent": "emphasis",
+      "rationale": "难点：口播没有具体时间或 token 数；只做定性强调，不伪造节省比例。；画面补充：人物保持，两枚短标识暂不出现。 随口播变化为：先出现“提高效率”，再转成“减少重复生成”，不显示量化刻度。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "visual_structure": "single_focus",
+        "required": true,
+        "content": {
+          "labels": [
+            "提高效率",
+            "减少重复生成"
+          ],
+          "title": "减少重复制作"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "keywordSwap"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-24",
+      "start": 203.73333333333332,
+      "end": 211,
+      "source_segment_id": "meaning-24",
+      "visual_concept_id": "visual-24",
+      "intent": "explain",
+      "rationale": "难点：少消耗的机制来自固定部分复用；把不变框架与变动参数同时保留。；画面补充：风格框架固定，新内容参数位待更新。 随口播变化为：参数替换推动结果变化，框架、字体和运动规则持续不变。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "one_to_many",
+        "required": true,
+        "content": {
+          "labels": [
+            "固定框架",
+            "文案 A",
+            "文案 B",
+            "文案 C"
+          ],
+          "title": "固定风格，只替换内容参数"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "parameters"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-26",
+      "start": 218.66666666666666,
+      "end": 225,
+      "source_segment_id": "meaning-26",
+      "visual_concept_id": "visual-26",
+      "intent": "explain",
+      "rationale": "难点：多个局限针对同一个方法；使用同维度观察，不给无来源量化排名。；画面补充：一侧保留“一句话生成”标签，另一侧空出观察维度。 随口播变化为：依次显出稳定性、消耗、可用性三个维度，均不打分。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "comparison",
+        "required": true,
+        "content": {
+          "labels": [
+            "稳定性",
+            "消耗",
+            "可用性"
+          ],
+          "title": "一句话生成：需要考虑的三个维度"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "dimensions"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    },
+    {
+      "id": "edit-27",
+      "start": 225.26666666666668,
+      "end": 238.83333333333334,
+      "source_segment_id": "meaning-27",
+      "visual_concept_id": "visual-27",
+      "intent": "explain",
+      "rationale": "难点：CTA 不只叫下载；明确下载、提取逐字稿与按流程实践的先后。；画面补充：从这条视频出发的路径先只有起点，人物保留在旁。 随口播变化为：视频经过逐字稿进入流程理解，最后停在可按步骤实践的入口。",
+      "style_rule_id": "project-dark-relations",
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "required": true,
+        "content": {
+          "labels": [
+            "下载视频",
+            "提取逐字稿",
+            "按步骤实践"
+          ],
+          "title": "照着这条视频，按步骤实践"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "recap"
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe",
+        "presenter_required": true
+      },
+      "asset_requirements": []
+    }
+  ],
+  "style_profile_source": "project-style-profile.json"
+}

@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "raw_capture_files_removed": [
+    "menu.png",
+    "personalization.png",
+    "instructions.png",
+    "memory.png",
+    "style.png",
+    "style-options.png",
+    "data.png",
+    "raw-qc.jpg"
+  ],
+  "retained": "Only cropped/redacted assets and hashes"
+}

@@ -1,0 +1,32 @@
+{
+  "gate": "D",
+  "status": "needs_visual_review",
+  "source_kind": "rendered_full_video",
+  "video": "/Users/jupiwulong/Downloads/AI剪辑流程-动画包装-审阅版-20261008.mp4",
+  "sample_count": 172,
+  "pages_reviewed": [
+    "page-1.jpg",
+    "page-2.jpg",
+    "page-3.jpg",
+    "page-4.jpg",
+    "page-5.jpg",
+    "page-6.jpg",
+    "page-7.jpg",
+    "page-8.jpg"
+  ],
+  "shots_observed": 55,
+  "blocking_issues_observed": [],
+  "sampled_visual_review": "complete",
+  "checks": {
+    "face_safety": "no_blocking_issue_observed",
+    "subtitle_clearance": "no_blocking_issue_observed",
+    "clipping_overlap": "no_blocking_issue_observed",
+    "semantic_fit": "approved_relations_preserved_in_samples",
+    "continuity": "original_video_and_captions_equal",
+    "evidence_integrity": "diagrams_are_illustrative"
+  },
+  "continuous_playback_review": "not_verified",
+  "continuous_listening_review": "not_verified",
+  "human_aesthetic_acceptance": "pending",
+  "limitation": "172帧及实际ChatCut逐镜预览仅证明抽样画面；未声明连续运动、声音或人类审美验收通过。"
+}

@@ -3,14 +3,14 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import os from 'node:os';
 import path from 'node:path';
-import {resolvePlan, validateAssets, deliveryManifest, fingerprint, catalog} from '../runtime-talkcraft/core.mjs';
+import {resolvePlan, validateAssets, deliveryManifest, fingerprint, catalog, registry, validateProps} from '../runtime-talkcraft/core.mjs';
 
 const keyword = (id='s01') => ({id,start_frame:15,duration_frames:120,presentation_mode:'presenter_safe',
   box:{left:64,top:120,width:720,height:540},primary_motion_request:{family:'emphasis',subtype:'keyword',content:{keyword:'模板复用'}}});
 const plan = shots => ({project_id:'test',fps:30,width:1920,height:1080,shots});
 
-test('完整 108 模板有 demo、配方和生产状态；只有八张启用适配', () => {
-  assert.equal(catalog.length,108); assert.equal(catalog.filter(c => c.adapter).length,8);
+test('完整 108 模板有 demo、配方和生产状态；108 张均接入参数适配', () => {
+  assert.equal(catalog.length,108); assert.equal(catalog.filter(c => c.adapter).length,108);
   for (const c of catalog) assert.ok(c.demo_url && c.slug && c.title);
 });
 test('按实际文字参数选卡，不把硬编码 demo 当作真实制作', () => {
@@ -51,4 +51,23 @@ test('主题从 jianjipro 风格档加载，参数改变使缓存失效', () => 
 test('标题条目超过镜头时长时拒绝，避免第三条没出现就结束', () => {
   const shot={...keyword(),duration_frames:180,primary_motion_request:{family:'section',subtype:'chapter-title',content:{title:'测试',items:['甲','乙','丙'],itemsAt:[2,3,6]}}};
   assert.throws(() => resolvePlan(plan([shot])),/条目尚未读完/);
+});
+
+test('新增 100 张必须提供显式文案与实际素材，按原版动画时长校验', () => {
+ const cards=registry.filter(c=>c.adapter_mode==='full_source');assert.equal(cards.length,100);
+ for(const c of cards){assert.equal(c.min_frames,c.contract.source_meta.durationInFrames);assert.throws(()=>validateProps(c,{}),/texts/);assert.equal(c.contract.source_hash.length,64);}
+ const c=cards.find(c=>c.slug==='grid-to-hero');const props={texts:Object.fromEntries(Object.keys(c.contract.texts).map(k=>[k,'测试文案'])),srcs:['asset:a.png','asset:b.png','asset:c.png','asset:d.png','asset:e.png','asset:f.png']};assert.doesNotThrow(()=>validateProps(c,props));assert.throws(()=>validateProps(c,{...props,srcs:props.srcs.slice(0,1)}),/6 张真实素材/);
+ const media=cards.find(c=>c.slug==='magnifier-detail');assert.throws(()=>validateProps(media,{texts:Object.fromEntries(Object.keys(media.contract.texts).map(k=>[k,'测试']))}),/缺少真实素材/);
+});
+test('数字演示值和未开放主题不能静默进入真实制作', () => {
+ const c=registry.find(c=>c.slug==='number-counter');const props={texts:Object.fromEntries(Object.keys(c.contract.texts).map(k=>[k,'测试']))};assert.throws(()=>validateProps(c,props),/显式绑定数据/);assert.doesNotThrow(()=>validateProps(c,{...props,data:{CONFIG:{target:108,odoTarget:'0108'}}}));assert.throws(()=>validateProps(c,{...props,data:{CONFIG:{target:108,odoTarget:'0108'}},skin:{accent:'#ff0000'}}),/skin 未开放/);
+});
+
+test('执行层绑定实际参数，保留导演的语义内容', () => {
+ const source=keyword();source.resolution={adapter_props:{keyword:'实际画面文字'}};
+ const result=resolvePlan(plan([source])).shots[0];
+ assert.equal(result.props.keyword,'实际画面文字');
+ assert.equal(result.primary_motion_request.content.keyword,'模板复用');
+ assert.equal(source.primary_motion_request.content.keyword,'模板复用');
+ assert.throws(()=>resolvePlan(plan([{...source,resolution:{adapter_props:{keyword:'文字',madeUp:true}}}])),/不支持参数/);
 });

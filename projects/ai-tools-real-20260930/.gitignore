@@ -1,2 +1,5 @@
 review.json
 *.tmp
+validation/resolved-plan.json
+validation/frames/
+validation/renders/

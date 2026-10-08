@@ -1,0 +1,66 @@
+{
+  "approved_source_hash": "e83752c209576e4b36e941f7307467f12f0d9469459bd4fa7f5eb42e96f766bc",
+  "reference_sha256": "0931895a075694d86e2809dc19846151d6c7ba3bc90dcf53818624c8fbc410a0",
+  "overlay_sha256": "d0cd322e634f9ca45b4f847ae04dbfbedf67fdf2951eeedfcca4645c9ffe01d6",
+  "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/assembly/first20-overlay.mov",
+  "fps": 30,
+  "alpha": true,
+  "audio": false,
+  "clips": [
+    {
+      "name": "number",
+      "start_frame": 96,
+      "duration_frames": 55,
+      "source_in": 3200000,
+      "left": 62,
+      "top": 226,
+      "width": 700,
+      "height": 394,
+      "muted": true
+    },
+    {
+      "name": "strike",
+      "start_frame": 159,
+      "duration_frames": 104,
+      "source_in": 5300000,
+      "left": 62,
+      "top": 226,
+      "width": 700,
+      "height": 394,
+      "muted": true
+    },
+    {
+      "name": "page",
+      "start_frame": 264,
+      "duration_frames": 61,
+      "source_in": 8800000,
+      "left": 62,
+      "top": 226,
+      "width": 700,
+      "height": 394,
+      "muted": true
+    },
+    {
+      "name": "retype",
+      "start_frame": 327,
+      "duration_frames": 146,
+      "source_in": 10900000,
+      "left": 62,
+      "top": 226,
+      "width": 700,
+      "height": 394,
+      "muted": true
+    },
+    {
+      "name": "wait",
+      "start_frame": 510,
+      "duration_frames": 89,
+      "source_in": 17000000,
+      "left": 62,
+      "top": 226,
+      "width": 700,
+      "height": 394,
+      "muted": true
+    }
+  ]
+}

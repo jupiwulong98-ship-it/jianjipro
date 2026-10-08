@@ -1,0 +1,25 @@
+{
+  "coordinate": "20-second local Remotion reference frame index; same source speech and caption layout, not native ChatCut export",
+  "fps": 30,
+  "frames": [
+    132,
+    206,
+    249,
+    295,
+    455,
+    585
+  ],
+  "sources": {
+    "before": {
+      "original_file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/versions/before-talkcraft-rework/reference.mp4",
+      "sha256": "17078c03af6b4e89a28ac18a8dcad07bbd523fe635659704471b90f8ee5143b6",
+      "decoded_audio_sha256": "aa2d0a57e24c9236ca34b8c208305ee7b6c9613372118d98d47cee9832f73486"
+    },
+    "after": {
+      "original_file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/reference.mp4",
+      "sha256": "0931895a075694d86e2809dc19846151d6c7ba3bc90dcf53818624c8fbc410a0",
+      "decoded_audio_sha256": "aa2d0a57e24c9236ca34b8c208305ee7b6c9613372118d98d47cee9832f73486"
+    }
+  },
+  "same_decoded_audio": true
+}

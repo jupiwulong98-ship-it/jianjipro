@@ -1,6 +1,9 @@
 import {useEffect, useState} from 'react';
 import catalog from '../talkcraft/catalog.json';
 import data from './project.json';
+import concepts from '../../../projects/ai-tools-real-20260930/visual-concepts.json';
+import plannedRhythm from '../../../projects/ai-tools-real-20260930/validation/rhythm-review.json';
+import observedRhythm from '../../../projects/ai-tools-real-20260930/validation/rendered-v2/rhythm-review.json';
 import {loadReview, saveReview} from './client';
 import type {BoardProject, ReviewState, ShotReview} from './types';
 import './review.css';
@@ -9,12 +12,14 @@ const project=data as BoardProject;
 const labels={pending:'待确认',approved:'已确认',changes_requested:'需调整'};
 const empty:ShotReview={status:'pending',comments:[]};
 const clock=(frame:number)=>`${Math.floor(frame/project.fps/60).toString().padStart(2,'0')}:${(frame/project.fps%60).toFixed(1).padStart(4,'0')}`;
+const issueText=(text:string)=>text.replaceAll('presenter_left_text','人物右侧、文字左侧')
+  .replace(/scene-\d{2}/g,id=>`「${project.shots.find(s=>s.id===id)?.title??id}」`);
 const ruleLabels:Record<string,string>={
   'rule-section-title':'章节与主题','rule-entity-emphasis':'工具首次出现','rule-list-tags':'平级并列',
   'rule-tutorial-screen-primary':'真实界面为主','rule-example-broll':'素材与内容匹配','rule-return-to-clean-talking-head':'返回干净口播',
 };
 
-export function ProjectBoard({onOpenTemplates,onBack}:{onOpenTemplates:()=>void;onBack:()=>void}) {
+export function ProjectBoard({onOpenTemplates,onBack,onPlanning}:{onOpenTemplates:()=>void;onBack:()=>void;onPlanning?:()=>void}) {
   const [selected,setSelected]=useState(project.shots[0].id);
   const [filter,setFilter]=useState('all');
   const [review,setReview]=useState<ReviewState>({revision:0,shots:{}});
@@ -41,6 +46,7 @@ export function ProjectBoard({onOpenTemplates,onBack}:{onOpenTemplates:()=>void;
   const shown=project.shots.filter(s=>filter==='all'||(review.shots[s.id]?.status??'pending')===filter);
   const template=catalog.find(c=>c.slug===shot.templateIds[0]);
   const assets=project.assets.filter(a=>shot.assetIds.includes(a.id));
+  const visualConcept=concepts.concepts.find(c=>c.source_segment_ids.includes(shot.id));
   const candidates=catalog.filter(c=>`${c.title} ${c.slug} ${c.semantics.join(' ')}`.toLowerCase().includes(search.toLowerCase()));
 
   async function mutate(shotId:string, action:Record<string,unknown>) {
@@ -62,13 +68,26 @@ export function ProjectBoard({onOpenTemplates,onBack}:{onOpenTemplates:()=>void;
   return <main className="review-board">
     <header className="rb-header">
       <div className="rb-brand"><span className="rb-brand-mark">J</span><div><strong>JIANJIPRO</strong><span>项目审阅 / 包装计划</span></div></div>
-      <nav><button onClick={onBack}>返回模板库</button><button onClick={onOpenTemplates}>模板库 ↗</button></nav>
+      <nav>{onPlanning&&<button onClick={onPlanning}>剪后全文与画面策划</button>}<button onClick={onBack}>返回模板库</button><button onClick={onOpenTemplates}>模板库 ↗</button></nav>
     </header>
     <section className="rb-project">
       <div><p className="rb-kicker">真实口播 · 旧方案占位</p><h1>{project.title}</h1><p>{clock(project.durationFrames)} · {project.clipCount} 个口播片段 · {project.captionCount} 条字幕 · {project.shots.length} 个包装镜头</p></div>
       <div className="rb-progress"><span><b>{approved}</b> / {project.shots.length} 镜头已确认</span><div><i style={{width:`${approved/project.shots.length*100}%`}}/></div><small>你看方案和素材，我按意见修改</small></div>
     </section>
     <div className="rb-flow"><span className="done">✓ 初剪与字幕</span><i>→</i><span className="current">② 规划 · 模板 · 素材审阅</span><i>→</i><span>③ 样段预览</span><i>→</i><span>④ ChatCut 装配</span></div>
+    <details className="rb-rhythm rb-panel">
+      <summary>整片节奏检查 · 历史画面 {observedRhythm.issues.length} 项 · 新构思 {plannedRhythm.issues.length} 项待审</summary>
+      <p>已看过按时间排列的 62 帧历史合成参考。新方案尚未制作；静帧诊断仍需结合整片播放判断。</p>
+      <a href="/review-projects/ai-tools-real-20260930/rhythm/contact-sheet.jpg" target="_blank" rel="noreferrer">查看整片时间带 ↗</a>
+      {[['历史画面',observedRhythm],['新方案预检',plannedRhythm]].map(([label,value])=>{
+        const report=value as typeof plannedRhythm;
+        return <div key={label as string}><h3>{label as string}</h3>{report.issues.map(issue=><article key={issue.issue_id}>
+          <strong>{issue.start.toFixed(1)}–{issue.end.toFixed(1)} 秒 · {issue.severity==='high'?'重点调整':issue.severity==='low'?'可保留，需说明理由':'建议调整'}</strong>
+          <p>{issueText(issue.reason)}</p><p>{issueText(issue.suggestion)}</p>
+          <button onClick={()=>select(issue.shot_ids[0])}>查看对应镜头</button>
+        </article>)}</div>;
+      })}
+    </details>
     <section className="rb-layout">
       <aside className="rb-sidebar">
         <div className="rb-sidebar-heading"><h2>镜头清单</h2><span>{shown.length} 段</span></div>
@@ -93,8 +112,16 @@ export function ProjectBoard({onOpenTemplates,onBack}:{onOpenTemplates:()=>void;
           <p className="rb-preview-note">{tab==='frame'?'已有包装的合成参考，供本轮讨论；还不是新的确认版本。':'模板原始演示：看运动形式，真实文案和配色以项目为准。'}</p>
         </section>
         <section className="rb-transcript"><span>这一段说了什么</span><p>{shot.transcript}</p></section>
+        <section className="rb-panel rb-concept">
+          <div className="rb-section-head"><h3>先构思画面</h3><span>本轮 AI 提案 · 待审</span></div>
+          {visualConcept?<><p>{visualConcept.visual_concept}</p><div className="rb-intent"><span>关系</span><strong>{visualConcept.structure_description}</strong></div>
+            <p><b>观众要看懂：</b>{visualConcept.visual_focus}</p>
+            <p>{visualConcept.real_asset_need==='required'?'必需真实素材：':visualConcept.real_asset_need==='recommended'?'推荐素材：':'可使用解释性动效。'}{visualConcept.asset_description}</p>
+            <small>先保留这个画面逻辑，再寻找实现；下方画面和模板仍是旧 v2 参考。</small></>
+            :<p>本轮建议保留干净口播，让观众消化信息；无需为这一段强加动画。</p>}
+        </section>
         <section className="rb-plan rb-panel">
-          <div className="rb-section-head"><h3>包装计划</h3><span>规划建议 · 待确认</span></div>
+          <div className="rb-section-head"><h3>旧 v2 包装参考</h3><span>历史建议 · 供对照</span></div>
           <div className="rb-intent"><span>重点</span><strong>{shot.intent}</strong></div>
           <p>{shot.reason}</p>
           <div className="rb-rule-chips">{shot.ruleIds.map(id=><span key={id}>↳ {ruleLabels[id]??id}</span>)}</div>
@@ -123,14 +150,14 @@ export function ProjectBoard({onOpenTemplates,onBack}:{onOpenTemplates:()=>void;
         </article>):<p className="rb-empty">还没有意见。先看看方案和素材。</p>}</div>
         <div className="rb-confirm"><button className="rb-approve" disabled={!ready||saving||pending>0||state.status==='approved'} onClick={()=>mutate(shot.id,{action:'status',status:'approved'})}>{state.status==='approved'?'✓ 这段已确认':'确认这段方案'}</button>
           {state.status==='approved'&&<button className="rb-reset" disabled={saving} onClick={()=>mutate(shot.id,{action:'status',status:'pending'})}>重新讨论</button>}
-          <p>{pending?'先处理意见，再确认方案。':'确认会记录审阅状态；不会立即改片或渲染。'}</p></div>
+          <p>{pending?'先处理意见，再确认方案。':'确认记录对应旧 v2 审阅方案；本轮构思另待审，不会立即制作。'}</p></div>
       </aside>
     </section>
     {picker&&<div className="rb-modal-backdrop"><section className="rb-modal" role="dialog" aria-modal="true" aria-label="建议替换模板">
       <div className="rb-section-head"><div><h3>给这段建议一个模板</h3><p>记录为修改意见，重新规划后再制作。</p></div><button onClick={()=>setPicker(false)}>关闭</button></div>
       <input aria-label="搜索候选模板" placeholder="搜索用途或模板名称…" value={search} onChange={event=>setSearch(event.target.value)}/>
       <div className="rb-candidates">{candidates.map(card=><button key={card.slug} disabled={!ready||saving} onClick={async()=>{if(await mutate(shot.id,{action:'comment',text:`建议改用「${card.title}」（${card.slug}）${card.adapter?'':'，这张需要先做制作适配'}。请重新检查语义、版式与素材。`}))setPicker(false);}}>
-        <span>{card.category} · {card.adapter?'已有制作适配':'需制作适配'}</span><strong>{card.title}</strong><small>{card.oneliner}</small>
+        <span>{card.category} · {card.adapter?(card.adapter.verification?'已接入 · 三项验证通过':card.adapter.status==='adapted_pending_verification'?'已接入 · 待渲染验收':'已有制作适配'):'需制作适配'}</span><strong>{card.title}</strong><small>{card.oneliner}</small>
       </button>)}</div>
     </section></div>}
   </main>;

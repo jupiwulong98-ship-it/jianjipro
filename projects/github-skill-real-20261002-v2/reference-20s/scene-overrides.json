@@ -1,0 +1,271 @@
+[
+  {
+    "id": "ref20-intro",
+    "title": "建立话题 · 观看人数规模",
+    "mode": "visual",
+    "packaging_rule": "number_emphasis",
+    "source_word_ids": [
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f82436595-7f8d-4339-9e10-f4463837aa2b",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f1efb1d31-b850-4693-88e1-5c5ec2070940",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512fee502518-41e1-45e2-973e-f98cfdc32762",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f02dc6247-419f-4a3d-9486-e208179563cf",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f48dd04d8-8ae4-459a-a09e-cd1ea1ad6cc6",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512fa11bb959-711b-4288-bbec-1bf6897c3812",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512fd6646655-83d5-45ab-ab5b-d672e1217b97",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f2ad15a0e-5667-40d1-b1a3-4a961fcba388",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512fa628406f-662b-49ec-af8a-aba20befff0c",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512ff3679ae3-81a2-482b-9258-5d55613c2385",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512fb59a1a83-5211-4671-87cd-ecb525932585",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f5388a0d5-3b14-4a2c-980f-a626f4d7eb0a",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512fac58bcd9-94a2-4bc4-8d48-4b70a8da7c5f",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512fdd4ec3d9-7144-46b6-a668-cd0ba3fe4893",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f8eabbbb4-140f-405b-9938-d8f797a75d4b",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f4e489614-7e70-4ae8-bf15-d708be49e33d",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512ff0a2f900-87b8-4704-8ada-ed1d151f3375",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f6bb4506a-f605-40d6-b95d-92b66c246d6c",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f60c534aa-20d5-470e-9656-1a81f2fe7e71",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb",
+      "36:023537de-90bb-4e20-a1da-31bfbb74512f219aed79-aa17-4362-bd9f-306a5f660f84"
+    ],
+    "viewer_goal": "让十多万人看过的规模成为一个直观记忆点",
+    "initial_state": "保留人物；观看人数在左侧留白以深色大字出现",
+    "actions": [
+      {
+        "word_id": "36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+        "cue_word_ids": [
+          "36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+          "36:023537de-90bb-4e20-a1da-31bfbb74512fdd4ec3d9-7144-46b6-a668-cd0ba3fe4893",
+          "36:023537de-90bb-4e20-a1da-31bfbb74512f8eabbbb4-140f-405b-9938-d8f797a75d4b"
+        ],
+        "description": "数字从0递增，使用模板原有先快后慢的节奏"
+      },
+      {
+        "word_id": "36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c",
+        "cue_word_ids": [
+          "36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c",
+          "36:023537de-90bb-4e20-a1da-31bfbb74512f6bb4506a-f605-40d6-b95d-92b66c246d6c"
+        ],
+        "description": "数字落在10，轻微放大后收住，万+随后出现"
+      },
+      {
+        "word_id": "36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb",
+        "cue_word_ids": [
+          "36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb",
+          "36:023537de-90bb-4e20-a1da-31bfbb74512f219aed79-aa17-4362-bd9f-306a5f660f84"
+        ],
+        "description": "10万+驻留后在下一句前退出"
+      }
+    ],
+    "final_state": "10万+完成轻微落定，随后退出，人物与字幕始终保留",
+    "materials": "当前项目实拍与原口播；图形为解释性示意，不使用网页截图。人物脸部和底部字幕区保留。",
+    "reason": "难点：十多万是本句的数量重音，字幕中容易略过；画面补充：沿用已有计数缓动与落定，数字与单位分层出现，去掉亮青色和厚阴影。数量仅来自口播自述，不画增长曲线。",
+    "revision_reason": "按用户要求仅重做前20秒，优先采用TalkCraft现有动效；从图标关系图改为短语转折、真实素材和字形强调。"
+  },
+  {
+    "id": "ref20-public",
+    "title": "解除私藏误解 · 展示可找到的项目",
+    "mode": "visual",
+    "packaging_rule": "before_after",
+    "source_word_ids": [
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d68be9126-d9f1-4dd0-bdc2-c0d26678881f",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d9fc3910f-09c8-4be0-9431-236313391aa4",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d1c0e1947-d776-4d07-a3a8-8fa35197db2e",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dad596c28-7e0d-4a98-bd5e-daac24c3bfbd",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d670a9fe3-7cf8-43d5-a668-586f5211aa7f",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d53dd6fff-4088-4efe-9335-9bf02cd7c740",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dee63aba7-34da-4514-a139-188d9c180613",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dba197ec4-1798-4e95-bf7c-8ad2cfab84d4",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d01bb9075-81d8-4c99-a0a1-9906ead5d801",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3db69051b5-3301-4134-86f7-16cad260c869",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d017075e6-eb9a-4db9-8bd8-27b0718269c1",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d48290fa8-6283-44ba-bb4f-26d4ed0a7a99",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3daa4df19c-9abd-4300-9cb1-dc3abc3ea4ab",
+      "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d66b84af0-6876-4df2-887e-f0ad2bfd659f",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079e2e0897-ad16-4b2b-84f6-b147258e5db4",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0749b5ee36-3b37-4ade-810a-4a7e38c34c8b",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07f9ea9a6a-3774-45ff-b7c8-298299d05e7a",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c072a70a074-1088-4379-8b64-900bb140464d",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07c9ae6442-5c1c-497c-ba31-f6ca8eacfe8f",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07e20c2c96-c6f8-411b-83ee-36af7ac6aa09",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07232122db-9a26-482f-b7ac-de5fac00e222",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07dba9911c-42c9-4e7c-9a20-04578745b030",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079c4a1462-dfbe-402c-9686-0676f7243b26",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07330539b5-e054-4e9e-a42c-4be6c824da4d",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0722c1605e-f3a0-4761-81ed-9ecc73651b5a",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0771b74a5e-ae4c-422c-a9f8-6fc686183012",
+      "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079a99b0ab-1595-45af-9416-14205a7aeefe"
+    ],
+    "viewer_goal": "看懂这些工具是公开可找到的项目",
+    "initial_state": "人物左侧仅出现私藏两个字，作为被纠正的误解",
+    "actions": [
+      {
+        "word_id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d01bb9075-81d8-4c99-a0a1-9906ead5d801",
+        "cue_word_ids": [
+          "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d01bb9075-81d8-4c99-a0a1-9906ead5d801",
+          "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3db69051b5-3301-4134-86f7-16cad260c869"
+        ],
+        "description": "划线穿过私藏，纠正误解"
+      },
+      {
+        "word_id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800",
+        "cue_word_ids": [
+          "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800",
+          "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079e2e0897-ad16-4b2b-84f6-b147258e5db4"
+        ],
+        "description": "同一槽位换成公开可找"
+      },
+      {
+        "word_id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079c4a1462-dfbe-402c-9686-0676f7243b26",
+        "cue_word_ids": [
+          "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079c4a1462-dfbe-402c-9686-0676f7243b26"
+        ],
+        "description": "已打码真实搜索结果页立起，展示项目可被找到"
+      }
+    ],
+    "final_state": "已打码的真实搜索结果页轻微立起展示，再回到人物",
+    "materials": "复用已打码的真实search-codex.png；项目标题和链接已在图片像素中遮盖。截图仅说明有搜索结果，不演示下一句操作。",
+    "reason": "难点：观众可能把分享的工具理解成封闭收藏；画面补充：先划掉私藏，原位替换为公开可找，再呈现真实搜索结果页。复用现有替换与页面展示动效，避免重新绘制图标。",
+    "revision_reason": "按用户要求仅重做前20秒，优先采用TalkCraft现有动效；从图标关系图改为短语转折、真实素材和字形强调。"
+  },
+  {
+    "id": "ref20-method",
+    "title": "从推荐清单转向找方法",
+    "mode": "visual",
+    "packaging_rule": "before_after",
+    "source_word_ids": [
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5821da7-a424-4c91-80c3-0cee56af758c",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5a17f3a-17a7-4567-8c2e-a915cc84f7be",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b461d28f447-3a15-4dba-a283-86eaa51d50c6",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b464f9dd28b-75c8-4997-8300-092c4d365494",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46ad4b95f4-1817-4240-985c-309ed3e51d7b",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4680e65013-2897-4fcd-8c25-461532cdafc0",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46513ce733-5685-4e38-9151-749cb5ca0e28",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4687a235e1-18e9-46ac-9f0c-75584a1a46c6",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46527c5508-b7e7-4603-8487-620b3a7f0362",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b466d4e377b-4b6f-4da4-a53a-f228e3a58c1b",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b461d0fec58-6db8-4c67-8b97-b2f94555d976",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46ad4cfaa5-cfb2-4451-924f-96544dbaf4bc",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b469dff3aad-e374-486a-a4ed-f2838441fc3e",
+      "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4696029e9f-21c5-4cd3-af29-7ae802d9958b",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ac7e215e-5071-4b5a-9e3e-6e502cdd0993",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2042e808b-c716-43a9-85eb-1b3108020558",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a22032b8b6-da91-4850-bbda-db1d8f884bc4",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a25aa4dc03-936e-47e5-aa94-1aaa0494d798",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ab674000-29ba-4f22-9660-1a6100f2c73c",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a29a65776d-8f49-4293-9f81-988d905f3154",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a258517f83-9003-412c-9c79-7108a56fdd13",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c84d63fb-8c44-4d43-a979-378296e0da65",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a20bf8f618-e017-48c9-a865-a6fef06dacc2",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2155b6bc6-4322-4fe6-b45a-96c9f710729e",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c7d9c747-3abe-4a3f-92a5-82f0bdfd58ff",
+      "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a290d7a150-92d4-4a5e-bed7-944ffd489744"
+    ],
+    "viewer_goal": "分清这一期提供的是寻找方法，而不是另一批推荐名称",
+    "initial_state": "左侧输入推荐清单短语，光标随打字停留",
+    "actions": [
+      {
+        "word_id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4680e65013-2897-4fcd-8c25-461532cdafc0",
+        "cue_word_ids": [
+          "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4680e65013-2897-4fcd-8c25-461532cdafc0",
+          "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46513ce733-5685-4e38-9151-749cb5ca0e28",
+          "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4687a235e1-18e9-46ac-9f0c-75584a1a46c6"
+        ],
+        "description": "推荐清单开始删除，撤掉旧方向"
+      },
+      {
+        "word_id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065",
+        "cue_word_ids": [
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ac7e215e-5071-4b5a-9e3e-6e502cdd0993",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2042e808b-c716-43a9-85eb-1b3108020558",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a22032b8b6-da91-4850-bbda-db1d8f884bc4",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a25aa4dc03-936e-47e5-aa94-1aaa0494d798"
+        ],
+        "description": "同一槽位打入找方法，明确新方向"
+      },
+      {
+        "word_id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a258517f83-9003-412c-9c79-7108a56fdd13",
+        "cue_word_ids": [
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a258517f83-9003-412c-9c79-7108a56fdd13",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c84d63fb-8c44-4d43-a979-378296e0da65",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a20bf8f618-e017-48c9-a865-a6fef06dacc2",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2155b6bc6-4322-4fe6-b45a-96c9f710729e",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c7d9c747-3abe-4a3f-92a5-82f0bdfd58ff",
+          "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a290d7a150-92d4-4a5e-bed7-944ffd489744"
+        ],
+        "description": "光标摘除，找方法静置供阅读"
+      }
+    ],
+    "final_state": "找方法留在同一位置，光标摘除，文字短暂停留后退出",
+    "materials": "当前项目实拍与原口播；图形为解释性示意，不使用网页截图。人物脸部和底部字幕区保留。",
+    "reason": "难点：这一期的价值从给清单转向教方法；画面补充：用同一个文字槽删掉推荐清单、改写为找方法，保留模板的打删速度差与光标停留，不复述整句口播。",
+    "revision_reason": "按用户要求仅重做前20秒，优先采用TalkCraft现有动效；从图标关系图改为短语转折、真实素材和字形强调。"
+  },
+  {
+    "id": "ref20-wait",
+    "title": "不必等待分享 · 克制收束",
+    "mode": "visual",
+    "packaging_rule": "single_focus",
+    "source_word_ids": [
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf57786858fb60-edd7-4a5c-94d7-6ae5ee292d5e",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778f888d84b-f6f1-468b-aa43-6ec04e67cec1",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf57780dbc1fd8-1cc5-4853-8809-19bd0b1b8ad8",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ed7e845f-d1d9-421e-84f0-adf04a20555e",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778e1e243b2-a1b4-44b7-8998-23fc98c5e57d",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf57784c77890b-adbb-48f5-acd3-4e3a61f0cd81",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf57788ed4335f-4c20-4e35-ad5b-1fedc7f607ef",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778af917839-d7aa-4db9-9e8e-b923ce78820b",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf577805dbbeb6-7a48-4946-9526-e77ab83bae67",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf577828bb8309-8560-4b50-86d0-89d5e1821e78",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ff415a70-9993-4604-b50b-55ce92eb6a49",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778b2c3b87a-5457-4519-ad91-6cdbf758373f",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf577832f5ed34-d9a7-4094-a3a3-38e20aed402c",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ba3e3a97-9aee-4c6a-8a84-1e850592eb41",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778a50061fa-87af-4749-bf22-521768637055",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778166a71de-bb0c-428f-809a-a9edba2ed67c",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ac52e8e2-e780-4c08-96b9-189dfca71d5c",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf577826972c88-eac8-42e9-b935-0b5c3baac13e",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf57785116d0ac-1be4-474d-919c-b3c2c91e276d",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf577844414202-c8a1-4c39-b6f5-181977740b38",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778d1f0638e-2722-41e9-9a77-2b7508a27a63",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf57785e46541e-5a81-438f-9567-cfcafb7683c9",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778e3f8a5ad-1623-4671-91fc-5b0ec7a6f83a",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf577882cf231b-6a1a-44c1-a086-2d519aaa0d18",
+      "36:e581f946-2f4d-47c2-a807-b5a27ddf5778b4caf506-d71b-40a3-ae40-81644a86643f"
+    ],
+    "viewer_goal": "看懂找工具不必一直依赖别人更新分享",
+    "initial_state": "先保留人物，给上一段动效留出呼吸",
+    "actions": [
+      {
+        "word_id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f",
+        "cue_word_ids": [
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f",
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf577805dbbeb6-7a48-4946-9526-e77ab83bae67",
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf577828bb8309-8560-4b50-86d0-89d5e1821e78"
+        ],
+        "description": "不必等分享出现，等分享用衬线字形成重音，运动轻微"
+      },
+      {
+        "word_id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577844414202-c8a1-4c39-b6f5-181977740b38",
+        "cue_word_ids": [
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf577844414202-c8a1-4c39-b6f5-181977740b38",
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf5778d1f0638e-2722-41e9-9a77-2b7508a27a63",
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf57785e46541e-5a81-438f-9567-cfcafb7683c9",
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf5778e3f8a5ad-1623-4671-91fc-5b0ec7a6f83a",
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf577882cf231b-6a1a-44c1-a086-2d519aaa0d18",
+          "36:e581f946-2f4d-47c2-a807-b5a27ddf5778b4caf506-d71b-40a3-ae40-81644a86643f"
+        ],
+        "description": "短语静置，留出原口播阅读空间；段尾退出"
+      }
+    ],
+    "final_state": "不必等分享短语静置后退出，20秒处保留后文衔接",
+    "materials": "当前项目实拍与原口播；图形为解释性示意，不使用网页截图。人物脸部和底部字幕区保留。",
+    "reason": "难点：不需要是这一句的否定重音，后半句较长；画面补充：只把不必等分享压缩为短强调，以无衬线小字与衬线大字形成主次。取消时钟和断线图标，不提前演示尚未说到的AI查找。",
+    "revision_reason": "按用户要求仅重做前20秒，优先采用TalkCraft现有动效；从图标关系图改为短语转折、真实素材和字形强调。"
+  }
+]

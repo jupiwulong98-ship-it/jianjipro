@@ -1,0 +1,34 @@
+{
+  "gate": "D",
+  "status": "needs_visual_review",
+  "source_kind": "actual_chatcut_frontend_composed_frames",
+  "video": "/Users/jupiwulong/Downloads/AI剪辑流程-动画包装-小窗修订-v2-20261008.mp4",
+  "sample_count": 15,
+  "pages_reviewed": [
+    "../pip-cleanup-chatcut-15-shots.jpg"
+  ],
+  "shots_observed": 15,
+  "blocking_issues_observed": [],
+  "sampled_visual_review": "complete",
+  "checks": {
+    "face_safety": "no_blocking_issue_observed",
+    "subtitle_clearance": "no_blocking_issue_observed",
+    "clipping_overlap": "no_blocking_issue_observed",
+    "semantic_fit": "approved_relations_preserved_in_samples",
+    "continuity": "original_video_and_captions_equal",
+    "evidence_integrity": "diagrams_are_illustrative",
+    "presenter_decoration": "label_and_border_removed"
+  },
+  "continuous_playback_review": "not_verified",
+  "continuous_listening_review": "not_verified",
+  "human_aesthetic_acceptance": "pending",
+  "limitation": "本次删除两层装饰，15受影响片段逐段核对当前ChatCut真实合成；旧版172帧整片复核单独保留。新版完整解码不等同连续播放、声音或人工审美验收。",
+  "revision": "pip-cleanup-v2",
+  "actual_preview": "../pip-cleanup-chatcut-15-shots.jpg",
+  "prior_full_video_review": {
+    "revision": "before-pip-cleanup",
+    "sample_count": 172,
+    "shots_observed": 55,
+    "report": "visual-qc.before-pip-cleanup.json"
+  }
+}

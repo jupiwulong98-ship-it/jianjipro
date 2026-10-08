@@ -1,14 +1,16 @@
-version: 0.3
+version: 0.4
 project_id: string
 style_id: string
 source_video: string
 semantic_segments: []
+visual_concepts_source: string
 
 events:
   - id: edit-event-id
     start: 0.0
     end: 0.0
     source_segment_id: segment-id
+    visual_concept_id: visual-event-id
     intent: emphasis|explain|compare|show_entity|show_number|pace_change|transition|evidence|none
     rationale: ""
     style_rule_id: ""
@@ -17,6 +19,7 @@ events:
       required: true
       family: emphasis|number|section|list|process|comparison|evidence|screen-demo|entity|statement|checklist|equation|quote
       subtype: string
+      visual_structure: string
       content:
         text: null
         items: []
@@ -66,3 +69,4 @@ rules:
   - "具体安全区、运镜、标注、转场在Shotbook Planner落实。"
   - "resolution由Motion Router填写。"
   - "若motion_request.required=false，可保持干净口播。"
+  - "motion_request必须由先前画面概念推导，visual_structure保持一致。"

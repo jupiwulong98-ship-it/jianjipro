@@ -1,0 +1,390 @@
+{
+  "version": "0.1",
+  "project_id": "ai-tools-real-20260930",
+  "gate": "B",
+  "stage": "shotbook",
+  "status": "needs_revision",
+  "scope": "规划标注的启发式预检，不证明成片视觉通过",
+  "timeline_digest": "0b352b1fbc2bab48838f0ce2ac4196f6a7f633331d3689bf31bf3eff9dd75eb1",
+  "policy": {
+    "long_static_seconds": 12,
+    "repeated_shots": 3,
+    "mechanical_cycles": 3,
+    "density_window_seconds": 20,
+    "dense_strong_events": 3,
+    "overpacked_shots": 3
+  },
+  "duration": 113.66666666666667,
+  "visual_timeline": [
+    {
+      "shot_id": "scene-01",
+      "start": 0,
+      "end": 8.7,
+      "presentation_mode": "full_screen",
+      "visual_structure": "not_equal",
+      "primary_family": "comparison",
+      "layout": "not_equal",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.7,
+      "visualizable": true,
+      "visual_focus": "工具产出仍需要人判断",
+      "event_ids": [
+        "visual-opening"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-02",
+      "start": 8.7,
+      "end": 18.666666666666668,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "center_branches",
+      "primary_family": "entity",
+      "layout": "center_branches",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.7,
+      "visualizable": true,
+      "visual_focus": "产品介绍可包含哪些内容",
+      "event_ids": [
+        "visual-hyperframes"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-03",
+      "start": 18.666666666666668,
+      "end": 25.466666666666665,
+      "presentation_mode": "full_screen",
+      "visual_structure": "input_process_output",
+      "primary_family": "process",
+      "layout": "input_process_output",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.7,
+      "visualizable": true,
+      "visual_focus": "从描述到视频的处理关系",
+      "event_ids": [
+        "visual-hyperframes-pipeline"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-04",
+      "start": 25.466666666666665,
+      "end": 38.266666666666666,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "comparison",
+      "primary_family": "comparison",
+      "layout": "comparison",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.7,
+      "visualizable": true,
+      "visual_focus": "优势和代价是一组取舍",
+      "event_ids": [
+        "visual-hyperframes-tradeoff"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-05",
+      "start": 38.266666666666666,
+      "end": 50.233333333333334,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "one_to_many",
+      "primary_family": "process",
+      "layout": "template_replication",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.9,
+      "visualizable": true,
+      "visual_focus": "一次投入形成多次复用，模板元素只是母模板的内容",
+      "event_ids": [
+        "visual-remotion-reuse"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-06",
+      "start": 50.233333333333334,
+      "end": 56.93333333333333,
+      "presentation_mode": "full_screen",
+      "visual_structure": "one_to_many",
+      "primary_family": "process",
+      "layout": "template_replication",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.9,
+      "visualizable": true,
+      "visual_focus": "一次投入形成多次复用，模板元素只是母模板的内容",
+      "event_ids": [
+        "visual-remotion-reuse"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-07",
+      "start": 56.93333333333333,
+      "end": 60.46666666666667,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter",
+      "primary_family": null,
+      "layout": "presenter_clean",
+      "visual_intensity": "low",
+      "visual_subject": "presenter",
+      "motion_strength": "none",
+      "information_change": "none",
+      "importance": 0.7,
+      "visualizable": false,
+      "visual_focus": "回到人物解释，让观众消化信息",
+      "event_ids": [],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-08",
+      "start": 60.46666666666667,
+      "end": 66.76666666666667,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter",
+      "primary_family": null,
+      "layout": "presenter_clean",
+      "visual_intensity": "low",
+      "visual_subject": "presenter",
+      "motion_strength": "none",
+      "information_change": "none",
+      "importance": 0.7,
+      "visualizable": false,
+      "visual_focus": "回到人物解释，让观众消化信息",
+      "event_ids": [],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-09",
+      "start": 66.76666666666667,
+      "end": 72.6,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "parallel",
+      "primary_family": "list",
+      "layout": "parallel",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.7,
+      "visualizable": true,
+      "visual_focus": "已有两类素材可以进入剪辑",
+      "event_ids": [
+        "visual-chatcut-inputs"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-10",
+      "start": 72.6,
+      "end": 76.26666666666667,
+      "presentation_mode": "full_screen",
+      "visual_structure": "input_process_output",
+      "primary_family": "process",
+      "layout": "timeline_processing",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.9,
+      "visualizable": true,
+      "visual_focus": "三项操作改变同一时间线，制作现场B-roll不能解释处理关系",
+      "event_ids": [
+        "visual-chatcut-processing"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-11",
+      "start": 76.26666666666667,
+      "end": 81.1,
+      "presentation_mode": "full_screen",
+      "visual_structure": "timeline",
+      "primary_family": "screen-demo",
+      "layout": "timeline_focus",
+      "visual_intensity": "medium",
+      "visual_subject": "screen",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.7,
+      "visualizable": true,
+      "visual_focus": "能在真实时间线上进一步修改",
+      "event_ids": [
+        "visual-chatcut-timeline"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-12",
+      "start": 81.1,
+      "end": 88.2,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter",
+      "primary_family": null,
+      "layout": "presenter_clean",
+      "visual_intensity": "low",
+      "visual_subject": "presenter",
+      "motion_strength": "none",
+      "information_change": "none",
+      "importance": 0.7,
+      "visualizable": false,
+      "visual_focus": "回到人物解释，让观众消化信息",
+      "event_ids": [],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-13",
+      "start": 88.2,
+      "end": 96.13333333333334,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter",
+      "primary_family": null,
+      "layout": "presenter_clean",
+      "visual_intensity": "low",
+      "visual_subject": "presenter",
+      "motion_strength": "none",
+      "information_change": "none",
+      "importance": 0.7,
+      "visualizable": false,
+      "visual_focus": "回到人物解释，让观众消化信息",
+      "event_ids": [],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-14",
+      "start": 96.13333333333334,
+      "end": 99.13333333333334,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter",
+      "primary_family": null,
+      "layout": "presenter_clean",
+      "visual_intensity": "low",
+      "visual_subject": "presenter",
+      "motion_strength": "none",
+      "information_change": "none",
+      "importance": 0.7,
+      "visualizable": false,
+      "visual_focus": "回到人物解释，让观众消化信息",
+      "event_ids": [],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-15",
+      "start": 99.13333333333334,
+      "end": 108.06666666666666,
+      "presentation_mode": "full_screen",
+      "visual_structure": "parallel",
+      "primary_family": "list",
+      "layout": "three_columns",
+      "visual_intensity": "medium",
+      "visual_subject": "diagram",
+      "motion_strength": "medium",
+      "information_change": "new_state",
+      "importance": 0.7,
+      "visualizable": true,
+      "visual_focus": "先确定任务再选工具，没有先后顺序",
+      "event_ids": [
+        "visual-tool-choice"
+      ],
+      "annotation_source": "shotbook"
+    },
+    {
+      "shot_id": "scene-16",
+      "start": 108.06666666666666,
+      "end": 113.66666666666667,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter",
+      "primary_family": null,
+      "layout": "presenter_clean",
+      "visual_intensity": "low",
+      "visual_subject": "presenter",
+      "motion_strength": "none",
+      "information_change": "none",
+      "importance": 0.7,
+      "visualizable": false,
+      "visual_focus": "回到人物解释，让观众消化信息",
+      "event_ids": [],
+      "annotation_source": "shotbook"
+    }
+  ],
+  "windows": [
+    {
+      "start": 0,
+      "end": 20,
+      "strong_fraction": 0,
+      "strong_events": 0,
+      "new_states": 3
+    },
+    {
+      "start": 20,
+      "end": 40,
+      "strong_fraction": 0,
+      "strong_events": 0,
+      "new_states": 2
+    },
+    {
+      "start": 40,
+      "end": 60,
+      "strong_fraction": 0,
+      "strong_events": 0,
+      "new_states": 1
+    },
+    {
+      "start": 60,
+      "end": 80,
+      "strong_fraction": 0,
+      "strong_events": 0,
+      "new_states": 3
+    },
+    {
+      "start": 80,
+      "end": 100,
+      "strong_fraction": 0,
+      "strong_events": 0,
+      "new_states": 1
+    },
+    {
+      "start": 100,
+      "end": 113.66666666666667,
+      "strong_fraction": 0,
+      "strong_events": 0,
+      "new_states": 0
+    }
+  ],
+  "issues": [
+    {
+      "issue_id": "903bb786f61f",
+      "start": 81.1,
+      "end": 99.13333333333334,
+      "severity": "low",
+      "type": "long_static_presenter",
+      "shot_ids": [
+        "scene-12",
+        "scene-13",
+        "scene-14"
+      ],
+      "event_ids": [],
+      "reason": "连续 18.0 秒主要保持人物构图，只有弱变化；其中 0 段标注为可视觉化的重要信息。",
+      "suggestion": "确认这段是否需要人物停留和信息消化；没有新视觉任务可以保留。",
+      "evidence": "shotbook_annotation"
+    }
+  ]
+}

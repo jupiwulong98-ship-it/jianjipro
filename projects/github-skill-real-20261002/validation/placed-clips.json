@@ -1,0 +1,139 @@
+{
+  "adds": [
+    {
+      "durationFrames": 87,
+      "startFrame": 239,
+      "id": "0d265619-6aab-43b8-b174-106f883ceef5",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 75,
+      "startFrame": 605,
+      "id": "78e7c61c-0d1f-4bab-a3a7-0fe9e530d030",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 277,
+      "startFrame": 1004,
+      "id": "0672199d-d093-4bdc-a8e3-6e402597b3ce",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 145,
+      "startFrame": 1393,
+      "id": "5b1bc44c-e723-45d3-a06b-39ea6610db43",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 186,
+      "startFrame": 1584,
+      "id": "c402f53a-79e9-4b28-9587-1aa73819a4d0",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 201,
+      "startFrame": 1770,
+      "id": "a48dc2ce-d12d-4ebe-9ba0-3524946106a9",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 101,
+      "startFrame": 1971,
+      "id": "8501bacd-6e7f-449e-91d5-f74125825d85",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 152,
+      "startFrame": 2072,
+      "id": "785d841f-0d30-4aba-b285-b039190a698f",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 435,
+      "startFrame": 2363,
+      "id": "7f15d888-ce2b-486b-85f1-9874767ec0d2",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 377,
+      "startFrame": 2859,
+      "id": "3ea1c2d2-ab23-4f4a-a35e-5695920e12ed",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 132,
+      "startFrame": 3269,
+      "id": "1a9f72a3-4b9f-4251-9f29-86546e61bdc3",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 135,
+      "startFrame": 3500,
+      "id": "f69ea42f-8845-4b8d-b4be-e57174d28500",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 146,
+      "startFrame": 3677,
+      "id": "4119d3a0-4423-4f6e-bf53-c45925581584",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 146,
+      "startFrame": 4048,
+      "id": "46ba8291-f70f-4786-8936-0fc73edf281d",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 360,
+      "startFrame": 4194,
+      "id": "75404b50-8048-44ac-a0ea-c291c04c0e02",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 161,
+      "startFrame": 4600,
+      "id": "eeb54ae1-8292-4c46-9da1-3540262b087f",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 262,
+      "startFrame": 4761,
+      "id": "edd71132-c6d6-402a-8faf-f1eda4799396",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 90,
+      "startFrame": 5051,
+      "id": "79ba9685-0c28-423b-8d12-da00171c70eb",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    },
+    {
+      "durationFrames": 251,
+      "startFrame": 5228,
+      "id": "8319654f-6191-480b-a7c7-0cdee8c4a21b",
+      "trackId": "f2b15683-8676-414a-a5ca-250aa75ac11e",
+      "type": "video"
+    }
+  ],
+  "deletes": [],
+  "updates": []
+}

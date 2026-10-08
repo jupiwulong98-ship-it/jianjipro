@@ -1,0 +1,1139 @@
+{
+  "version": "0.2",
+  "visual_contract_version": "0.1",
+  "project_id": "ai-tools-real-20260930",
+  "source_video": "/Users/jupiwulong/视频制作/jianying-headless/work/real-talkcraft-20260930/sample/remotion/public/source-normalized.mp4",
+  "visual_concepts_source": "visual-concepts.json",
+  "style_id": "ai-talkinghead-editorial-v0.1",
+  "fps": 30,
+  "duration_frames": 3410,
+  "width": 1920,
+  "height": 1080,
+  "public_dir": "../../motion-library/public/review-projects/ai-tools-real-20260930",
+  "status": "ai_proposal_not_rendered",
+  "shots": [
+    {
+      "id": "scene-01",
+      "start_frame": 0,
+      "duration_frames": 261,
+      "start": 0.0,
+      "end": 8.7,
+      "source_segment_ids": [
+        "scene-01"
+      ],
+      "source_edit_event_id": "edit-scene-01",
+      "visual_concept_ids": [
+        "visual-opening"
+      ],
+      "spoken_text": "现在刷到 AI 剪辑，感觉只需要把视频丢给 AI 就能够自动剪好了。今天给大家分享几个常用的 AI 动效包装的工具。",
+      "primary_visual_job": "工具产出仍需要人判断",
+      "visual_structure": "not_equal",
+      "importance": 0.7,
+      "clean_presenter": false,
+      "presentation_mode": "full_screen",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "not_equal",
+        "content": {
+          "text": "工具产出仍需要人判断"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "not_equal",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-02",
+      "start_frame": 261,
+      "duration_frames": 299,
+      "start": 8.7,
+      "end": 18.666666666666668,
+      "source_segment_ids": [
+        "scene-02"
+      ],
+      "source_edit_event_id": "edit-scene-02",
+      "visual_concept_ids": [
+        "visual-hyperframes"
+      ],
+      "spoken_text": "第一个 HyperFrames。如果你要做产品介绍，画面主要是文字、图片和动画的情况下，可以看 HyperFrames。",
+      "primary_visual_job": "产品介绍可包含哪些内容",
+      "visual_structure": "center_branches",
+      "importance": 0.7,
+      "clean_presenter": false,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "entity",
+        "subtype": "ecosystem-map",
+        "visual_structure": "center_branches",
+        "content": {
+          "text": "产品介绍可包含哪些内容"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "center_branches",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-03",
+      "start_frame": 560,
+      "duration_frames": 204,
+      "start": 18.666666666666668,
+      "end": 25.466666666666665,
+      "source_segment_ids": [
+        "scene-03"
+      ],
+      "source_edit_event_id": "edit-scene-03",
+      "visual_concept_ids": [
+        "visual-hyperframes-pipeline"
+      ],
+      "spoken_text": "你描述你想要的画面。AI 通过网页生成的技术把它做成视频。它的优势是动效很灵活。",
+      "primary_visual_job": "从描述到视频的处理关系",
+      "visual_structure": "input_process_output",
+      "importance": 0.7,
+      "clean_presenter": false,
+      "presentation_mode": "full_screen",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "content": {
+          "text": "从描述到视频的处理关系"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "input_process_output",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-04",
+      "start_frame": 764,
+      "duration_frames": 384,
+      "start": 25.466666666666665,
+      "end": 38.266666666666666,
+      "source_segment_ids": [
+        "scene-04"
+      ],
+      "source_edit_event_id": "edit-scene-04",
+      "visual_concept_ids": [
+        "visual-hyperframes-tradeoff"
+      ],
+      "spoken_text": "它的优势是动效很灵活。然后做完还有工程文件可以让你去修改。它的代价就是你要和 AI 一起去调整项目。它能够出片，但是不代表它每次出片都是你想要的方向，所以它稳定性可能稍微会差一点。",
+      "primary_visual_job": "优势和代价是一组取舍",
+      "visual_structure": "comparison",
+      "importance": 0.7,
+      "clean_presenter": false,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "comparison",
+        "subtype": "group-contrast",
+        "visual_structure": "comparison",
+        "content": {
+          "text": "优势和代价是一组取舍"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "comparison",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-05",
+      "start_frame": 1148,
+      "duration_frames": 359,
+      "start": 38.266666666666666,
+      "end": 50.233333333333334,
+      "source_segment_ids": [
+        "scene-05"
+      ],
+      "source_edit_event_id": "edit-scene-05",
+      "visual_concept_ids": [
+        "visual-remotion-reuse"
+      ],
+      "spoken_text": "第二个是 Remotion。如果你每次都做同一种风格，同一种模板的视频。可以重点看一下 Remotion。你可以把标题、字幕。品牌颜色和动画全部都做成模板。下次你换内容就只需要在模板里面改改里面的参数就可以了。",
+      "primary_visual_job": "一次投入形成多次复用，模板元素只是母模板的内容",
+      "visual_structure": "one_to_many",
+      "importance": 0.9,
+      "clean_presenter": false,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "replication-map",
+        "visual_structure": "one_to_many",
+        "content": {
+          "text": "一次投入形成多次复用，模板元素只是母模板的内容"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "template_replication",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "本镜建立一个母模板，标题/字幕/品牌色/动画是模板内部元素；不画为步骤或三个平级成品。结尾保留母模板供下一镜承接。"
+    },
+    {
+      "id": "scene-06",
+      "start_frame": 1507,
+      "duration_frames": 201,
+      "start": 50.233333333333334,
+      "end": 56.93333333333333,
+      "source_segment_ids": [
+        "scene-06"
+      ],
+      "source_edit_event_id": "edit-scene-06",
+      "visual_concept_ids": [
+        "visual-remotion-reuse"
+      ],
+      "spoken_text": "下次你换内容就只需要在模板里面改改里面的参数就可以了。它就非常适合重复做和批量做。",
+      "primary_visual_job": "一次投入形成多次复用，模板元素只是母模板的内容",
+      "visual_structure": "one_to_many",
+      "importance": 0.9,
+      "clean_presenter": false,
+      "presentation_mode": "full_screen",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "replication-map",
+        "visual_structure": "one_to_many",
+        "content": {
+          "text": "一次投入形成多次复用，模板元素只是母模板的内容"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "template_replication",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "承接上一镜母模板，替换内容/参数并复制出视频01/02/03；不重新从头解释整个概念，不以官网截图替代复用关系。"
+    },
+    {
+      "id": "scene-07",
+      "start_frame": 1708,
+      "duration_frames": 106,
+      "start": 56.93333333333333,
+      "end": 60.46666666666667,
+      "source_segment_ids": [
+        "scene-07"
+      ],
+      "source_edit_event_id": null,
+      "visual_concept_ids": [],
+      "spoken_text": "它就非常适合重复做和批量做。它的代价是前期搭一个模板是比较耗时间的。如果你只用这个风格剪一条片子，",
+      "primary_visual_job": "回到人物解释，让观众消化信息",
+      "visual_structure": "clean_presenter",
+      "importance": 0.7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": null,
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "presenter_clean",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-08",
+      "start_frame": 1814,
+      "duration_frames": 189,
+      "start": 60.46666666666667,
+      "end": 66.76666666666667,
+      "source_segment_ids": [
+        "scene-08"
+      ],
+      "source_edit_event_id": null,
+      "visual_concept_ids": [],
+      "spoken_text": "如果你只用这个风格剪一条片子，那么你可能用不上 Remotion。它不是特别划算。",
+      "primary_visual_job": "回到人物解释，让观众消化信息",
+      "visual_structure": "clean_presenter",
+      "importance": 0.7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": null,
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "presenter_clean",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-09",
+      "start_frame": 2003,
+      "duration_frames": 175,
+      "start": 66.76666666666667,
+      "end": 72.6,
+      "source_segment_ids": [
+        "scene-09"
+      ],
+      "source_edit_event_id": "edit-scene-09",
+      "visual_concept_ids": [
+        "visual-chatcut-inputs"
+      ],
+      "spoken_text": "第三个， ChatCut。如果你已经拍好了你真人口播，或者是有一段录屏。",
+      "primary_visual_job": "已有两类素材可以进入剪辑",
+      "visual_structure": "parallel",
+      "importance": 0.7,
+      "clean_presenter": false,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "list",
+        "subtype": "key-points",
+        "visual_structure": "parallel",
+        "content": {
+          "text": "已有两类素材可以进入剪辑"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "parallel",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-10",
+      "start_frame": 2178,
+      "duration_frames": 110,
+      "start": 72.6,
+      "end": 76.26666666666667,
+      "source_segment_ids": [
+        "scene-10"
+      ],
+      "source_edit_event_id": "edit-scene-10",
+      "visual_concept_ids": [
+        "visual-chatcut-processing"
+      ],
+      "spoken_text": "想去剪掉废话，然后排字幕，或者是补一些画面。",
+      "primary_visual_job": "三项操作改变同一时间线，制作现场B-roll不能解释处理关系",
+      "visual_structure": "input_process_output",
+      "importance": 0.9,
+      "clean_presenter": false,
+      "presentation_mode": "full_screen",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "timeline-processing",
+        "visual_structure": "input_process_output",
+        "content": {
+          "text": "三项操作改变同一时间线，制作现场B-roll不能解释处理关系"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "timeline_processing",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-11",
+      "start_frame": 2288,
+      "duration_frames": 145,
+      "start": 76.26666666666667,
+      "end": 81.1,
+      "source_segment_ids": [
+        "scene-11"
+      ],
+      "source_edit_event_id": "edit-scene-11",
+      "visual_concept_ids": [
+        "visual-chatcut-timeline"
+      ],
+      "spoken_text": "优先看一下 ChatCut。它是直接在视频时间线上进行修改。",
+      "primary_visual_job": "能在真实时间线上进一步修改",
+      "visual_structure": "timeline",
+      "importance": 0.7,
+      "clean_presenter": false,
+      "presentation_mode": "full_screen",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "timeline",
+        "content": {
+          "text": "能在真实时间线上进一步修改"
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": true,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": true,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [
+        {
+          "id": "chatcut-real-timeline",
+          "required": true,
+          "status": "missing",
+          "evidence_role": "product_interface"
+        }
+      ],
+      "rhythm": {
+        "layout": "timeline_focus",
+        "visual_intensity": "medium",
+        "visual_subject": "screen",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-12",
+      "start_frame": 2433,
+      "duration_frames": 213,
+      "start": 81.1,
+      "end": 88.2,
+      "source_segment_ids": [
+        "scene-12"
+      ],
+      "source_edit_event_id": null,
+      "visual_concept_ids": [],
+      "spoken_text": "AI 剪完之后，你还能自己进去微调。但是最终结果还是要你自己亲手去过一遍，然后才能够验证。",
+      "primary_visual_job": "回到人物解释，让观众消化信息",
+      "visual_structure": "clean_presenter",
+      "importance": 0.7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": null,
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "presenter_clean",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-13",
+      "start_frame": 2646,
+      "duration_frames": 238,
+      "start": 88.2,
+      "end": 96.13333333333334,
+      "source_segment_ids": [
+        "scene-13"
+      ],
+      "source_edit_event_id": null,
+      "visual_concept_ids": [],
+      "spoken_text": "那么这三个工具安装其实都很简单，你只需要告诉你的 agent 帮你安装某一个就可以，或者你三个都装上，自己去尝试一下。其实选什么工具，",
+      "primary_visual_job": "回到人物解释，让观众消化信息",
+      "visual_structure": "clean_presenter",
+      "importance": 0.7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": null,
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "presenter_clean",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-14",
+      "start_frame": 2884,
+      "duration_frames": 90,
+      "start": 96.13333333333334,
+      "end": 99.13333333333334,
+      "source_segment_ids": [
+        "scene-14"
+      ],
+      "source_edit_event_id": null,
+      "visual_concept_ids": [],
+      "spoken_text": "其实选什么工具，最后都是看你有什么样的需求。",
+      "primary_visual_job": "回到人物解释，让观众消化信息",
+      "visual_structure": "clean_presenter",
+      "importance": 0.7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": null,
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "presenter_clean",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-15",
+      "start_frame": 2974,
+      "duration_frames": 268,
+      "start": 99.13333333333334,
+      "end": 108.06666666666666,
+      "source_segment_ids": [
+        "scene-15"
+      ],
+      "source_edit_event_id": "edit-scene-15",
+      "visual_concept_ids": [
+        "visual-tool-choice"
+      ],
+      "spoken_text": "最后都是看你有什么样的需求。做这种动效可以重点看一下 HyperFrames。然后做固定的栏目，可以看一下 Remotion 。如果你主要是真人口播主要可以看一下 ChatCut。",
+      "primary_visual_job": "先确定任务再选工具，没有先后顺序",
+      "visual_structure": "parallel",
+      "importance": 0.7,
+      "clean_presenter": false,
+      "presentation_mode": "full_screen",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": false,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": {
+        "family": "list",
+        "subtype": "key-points",
+        "visual_structure": "parallel",
+        "content": {
+          "items": [
+            "动效 · HyperFrames",
+            "栏目 · Remotion",
+            "口播 · ChatCut"
+          ],
+          "srcs": [
+            "asset:hyperframes.svg",
+            "asset:remotion.png",
+            "asset:chatcut-app.png"
+          ],
+          "layout": "vertical-strips",
+          "fullScreen": true,
+          "entryTimes": [
+            0.4,
+            3.5,
+            6.2
+          ]
+        }
+      },
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "three_columns",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      }
+    },
+    {
+      "id": "scene-16",
+      "start_frame": 3242,
+      "duration_frames": 168,
+      "start": 108.06666666666666,
+      "end": 113.66666666666667,
+      "source_segment_ids": [
+        "scene-16"
+      ],
+      "source_edit_event_id": null,
+      "visual_concept_ids": [],
+      "spoken_text": "工具可以帮你省一些操作步骤和时间，但是最终结果一定要你自己去进行判断。",
+      "primary_visual_job": "回到人物解释，让观众消化信息",
+      "visual_structure": "clean_presenter",
+      "importance": 0.7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "box": {
+        "left": 96,
+        "top": 180,
+        "width": 600,
+        "height": 600
+      },
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 820,
+            "top": 40,
+            "width": 1000,
+            "height": 900
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 18
+        }
+      },
+      "primary_motion_request": null,
+      "supporting_layers": {
+        "camera": {
+          "enabled": false,
+          "mode": "focus_callout"
+        },
+        "annotation": {
+          "enabled": false,
+          "target": "timeline"
+        },
+        "sfx": {
+          "enabled": false
+        }
+      },
+      "asset_slots": [],
+      "rhythm": {
+        "layout": "presenter_clean",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "none",
+        "information_change": "none",
+        "visualizable": false,
+        "annotation_source": "shotbook"
+      }
+    }
+  ]
+}

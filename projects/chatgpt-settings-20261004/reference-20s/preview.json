@@ -1,0 +1,31 @@
+{
+  "status": "candidate",
+  "title": "完整口播 · 11段动效候选",
+  "duration_seconds": 149.16666666666666,
+  "transcript_revision": "bfa9253e69f717c0058472d3fd44feb33f868165da73ea4f437de2bf070765ed",
+  "scene_ids": [
+    "meaning-01",
+    "meaning-02",
+    "meaning-03",
+    "meaning-04",
+    "meaning-05",
+    "meaning-06",
+    "meaning-07",
+    "meaning-08",
+    "meaning-09",
+    "meaning-10",
+    "meaning-11",
+    "meaning-12",
+    "meaning-13",
+    "meaning-14",
+    "meaning-15",
+    "meaning-16",
+    "meaning-17",
+    "meaning-18",
+    "meaning-19",
+    "meaning-20",
+    "meaning-21"
+  ],
+  "scene_hash": "4ce33aa36d0cddcd52a2ac41679a2f2dfc04b1527d56d5b1a4e8104248bcd699",
+  "video_sha256": "91c4be13baa0590f6ca1e3ac782f8607f8180ff3c5ee214a147ba1d8a1a05617"
+}

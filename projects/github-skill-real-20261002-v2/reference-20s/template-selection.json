@@ -1,0 +1,53 @@
+{
+  "priority": "TalkCraft first",
+  "scope_seconds": [
+    0,
+    20
+  ],
+  "custom_animation": false,
+  "templates": [
+    {
+      "id": "talkcraft:number-counter",
+      "source": "motion-library/adapters/talkcraft/full/cards/number-counter.tsx",
+      "source_sha256": "81e423537e055fd155b762ea7c1bc215a9ef31089f7cbeb883b8e347ffc1ddf8",
+      "project_adaptation": "templates/number-counter.tsx：金额格式换为人数，落定时点随计数时长"
+    },
+    {
+      "id": "talkcraft:strike-and-replace",
+      "source": "motion-library/adapters/talkcraft/full/cards/strike-and-replace.tsx",
+      "source_sha256": "276e13ef99f42091aaa54385ae81ada74249fd9dd77fd50489b9348cccf660e7",
+      "project_adaptation": "直接导入原适配组件；只绑定内容、时点和人物旁排版"
+    },
+    {
+      "id": "talkcraft:tilt-3d-page",
+      "source": "motion-library/adapters/talkcraft/full/cards/tilt-3d-page.tsx",
+      "source_sha256": "e696fdb87fb73396544478f3a3cfd7222c31166c953f4b7b5974c17942f3f346",
+      "project_adaptation": "直接导入原适配组件；只绑定内容、时点和人物旁排版"
+    },
+    {
+      "id": "talkcraft:error-retype",
+      "source": "motion-library/adapters/talkcraft/full/cards/error-retype.tsx",
+      "source_sha256": "cb11161191d60c7108ba23eaca260a1fd7a50014993c62fa5c2b759f704cd58a",
+      "project_adaptation": "直接导入原适配组件；只绑定内容、时点和人物旁排版"
+    },
+    {
+      "id": "talkcraft:type-contrast-emphasis",
+      "source": "motion-library/adapters/talkcraft/full/cards/type-contrast-emphasis.tsx",
+      "source_sha256": "df269f3835d8a2670cd88864be87296cbc6e0512eda9fb7b339304d8e1347fe9",
+      "project_adaptation": "直接导入原适配组件；只绑定内容、时点和人物旁排版"
+    }
+  ],
+  "missing_original_effects": [
+    "没有文件夹开锁和时钟断线的直接模板，已先告知用户；用户授权缺模板时自行制作，本候选仍采用现有模板表达。"
+  ],
+  "style_changes": [
+    "取消亮青色大字与厚阴影",
+    "保留原数字落定、替换槽、光标节奏、衬线重音",
+    "加入已打码真实搜索页面，避免全片重复图标"
+  ],
+  "asset": {
+    "file": "assets/search-codex.png",
+    "sha256": "2845a6e87bbec64ec51623badf48d5fba87c1db9a0e7d5845db63801b3e26989",
+    "pixel_redaction": "实际图片已查看，链接与仓库标题已写入像素遮盖；动画使用该文件，不临时盖图"
+  }
+}

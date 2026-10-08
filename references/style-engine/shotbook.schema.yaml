@@ -1,11 +1,16 @@
-version: 0.1
+version: 0.2
 project_id: string
 style_id: string
 source_video: string
+visual_contract_version: "0.1"
+visual_concepts_source: string
+# 执行JSON须内联visual_concepts文档；schema YAML仍是字段说明，不是JSON Schema。
+visual_concepts: {}
 
 global:
   aspect_ratio: "16:9"
   fps: 30
+  duration: 0.0
   caption_mode: burned_in|generated|none
   presenter_default_position: center
   layout_rhythm: []
@@ -16,8 +21,13 @@ shots:
     start: 0.0
     end: 0.0
     source_segment_ids: []
+    source_edit_event_id: edit-event-id
+    visual_concept_ids: []
+    visual_structure: string
+    clean_presenter: false
     spoken_text: ""
     primary_visual_job: ""
+    implementation_notes: "" # 同概念跨镜时明确当前阶段与承接，避免重复演完整关系
     semantic_role: ""
     importance: 0.0
 
@@ -35,6 +45,7 @@ shots:
     primary_motion_request:
       family: string
       subtype: string
+      visual_structure: string
       content: {}
       constraints: {}
       visual_intent: {}
@@ -67,6 +78,15 @@ shots:
       media_bindings: {}
       status: unresolved
 
+    rhythm:
+      layout: string
+      visual_intensity: low|medium|high
+      visual_subject: presenter|screen|real_asset|diagram|mixed
+      motion_strength: none|low|medium|high
+      information_change: none|text_only|new_state
+      visualizable: false
+      annotation_source: shotbook
+
     rhythm_context:
       previous_primary_family: null
       same_structure_run: 0
@@ -84,3 +104,10 @@ shots:
         semantic_fit: pending
         evidence_integrity: pending
       issues: []
+
+# 必须覆盖整条主画面时间轴，包括干净口播；辅助层不另造重叠镜头。
+# 执行JSON用start_frame / duration_frames；与秒时间用30fps端点转换，不累计取整。
+rhythm_policy: {}
+rhythm_review:
+  timeline_digest: string
+  decisions: [] # {issue_id, decision: accepted_context, reason}，由实际审阅者填写

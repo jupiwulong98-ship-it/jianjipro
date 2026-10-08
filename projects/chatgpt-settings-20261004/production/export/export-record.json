@@ -1,0 +1,95 @@
+{
+  "project_id": "cc3387e2-a642-406a-acea-d4ec922e0740",
+  "timeline_id": "3669cee6-df62-48bb-afa3-aa1239b79ae1",
+  "native_export_task_id": "90ef82fb-1097-481d-97aa-458aeb8bace0",
+  "native_source": "/Users/jupiwulong/Movies/ChatCut/ChatGPT先改这4个设置_原速合成_20261004.mp4",
+  "speed": 1.08,
+  "user_visual_acceptance": "效果可以",
+  "user_export_authorization": "现在做完整导出，1.08倍速，整个视频，包括动画效果",
+  "scope": "Global temporal transform of native ChatCut composite including captions and all 11 animation clips",
+  "audio_pitch": "preserved with atempo",
+  "source_frames": 4475,
+  "source_fps": 30,
+  "expected_seconds": 138.11728395061726,
+  "status": "complete",
+  "final_file": "/Users/jupiwulong/Downloads/ChatGPT先改这4个设置_1.08倍速_20261004.mp4",
+  "final_sha256": "2d4c0d9f9ddae312dd922f9bd7bfb28ca9a6af33710fc05a05b36905234f3188",
+  "native_sha256": "018a7a60da2d9bb950abf92b51dfc735e9fbea2b7be257a5cd15badf883aa041",
+  "final_video_seconds": 138.133333,
+  "final_audio_seconds": 138.119,
+  "final_frames": 4144,
+  "final_size": 59052994,
+  "checks": {
+    "complete_video_audio_decode": "pass",
+    "duration": "pass",
+    "dimensions_fps": "pass",
+    "start_times": "pass",
+    "visual_samples": [
+      [
+        "first",
+        0.1
+      ],
+      [
+        "meaning-02",
+        4.549382716049381
+      ],
+      [
+        "meaning-04",
+        14.549382716049381
+      ],
+      [
+        "meaning-05",
+        22.653086419753084
+      ],
+      [
+        "meaning-07",
+        38.602469135802465
+      ],
+      [
+        "meaning-10",
+        55.11604938271605
+      ],
+      [
+        "meaning-11",
+        65.06666666666665
+      ],
+      [
+        "meaning-12",
+        70.3037037037037
+      ],
+      [
+        "meaning-13",
+        76.96666666666665
+      ],
+      [
+        "meaning-15",
+        91.08765432098764
+      ],
+      [
+        "meaning-17",
+        105.70493827160493
+      ],
+      [
+        "meaning-20",
+        128.64320987654318
+      ],
+      [
+        "last",
+        138.01728395061727
+      ]
+    ]
+  },
+  "visual_review": {
+    "status": "pass_sampled_frames",
+    "sample_count": 13,
+    "checks": [
+      "Original presenter preserved",
+      "All 11 motion segments present in global speed transform",
+      "Captions present and scaled with the same composite",
+      "Privacy masks persist in exported pixels",
+      "First and last frames present"
+    ],
+    "scope": "Representative static frames; not a new human listening acceptance"
+  },
+  "moved_to_downloads": true
+}

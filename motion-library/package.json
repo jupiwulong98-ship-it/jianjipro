@@ -15,7 +15,15 @@
     "talkcraft:render": "node runtime-talkcraft/render.mjs render",
     "talkcraft:index": "node scripts/index-talkcraft.mjs",
     "test:talkcraft": "node --test tests/talkcraft.test.mjs",
-    "validate": "npm run talkcraft:index && npm run test:talkcraft"
+    "validate": "npm run talkcraft:index && npm run test:talkcraft && npm run test:style",
+    "style:review": "node scripts/style-review.mjs",
+    "transcript:build": "node scripts/post-cut-transcript.mjs",
+    "test:transcript": "node --test tests/post-cut-transcript.test.mjs",
+    "test:planning": "node --test tests/planning-projects.test.mjs tests/review-store.test.mjs",
+    "style:frames": "node scripts/rhythm-frames.mjs",
+    "test:style": "node --test tests/style-engine.test.mjs",
+    "talkcraft:adapt": "node scripts/adapt-talkcraft-all.mjs",
+    "talkcraft:verify-all": "node scripts/verify-talkcraft-all.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.522",

@@ -10,11 +10,7 @@ import Quote from '../adapters/talkcraft/cards/quote-hold-arrow';
 import Push from '../adapters/talkcraft/cards/slow-push-in';
 import {Skin, defaultTheme} from '../adapters/talkcraft/theme';
 
-const cards: Record<string, React.ComponentType<any>> = {
-  'split-text-stagger': Split, 'keyword-pop-highlight': Keyword, 'title-demote-to-label': Title,
-  'numbered-step-stack': Steps, 'word-slot-cycle': Words, 'parallel-items-with-host': Parallel,
-  'quote-hold-arrow': Quote, 'slow-push-in': Push,
-};
+import {allCards as cards} from '../adapters/talkcraft/full/index';
 function bind(value: any): any {
   if (typeof value === 'string' && value.startsWith('asset:')) return staticFile(value.slice(6));
   if (Array.isArray(value)) return value.map(bind);

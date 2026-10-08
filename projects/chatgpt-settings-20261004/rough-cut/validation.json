@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-04",
+  "projectId": "cc3387e2-a642-406a-acea-d4ec922e0740",
+  "timelineId": "3669cee6-df62-48bb-afa3-aa1239b79ae1",
+  "beforeFrames": 8405,
+  "durationFrames": 4475,
+  "seconds": 149.16666666666666,
+  "itemCount": 69,
+  "discontinuities": [],
+  "coverage": [
+    {
+      "asset": "2788d4fc59",
+      "wordCount": 488,
+      "removed": [
+        {
+          "endUs": 143300000,
+          "speaker": "Speaker 2",
+          "startUs": 143180000,
+          "text": "重"
+        },
+        {
+          "endUs": 143460000,
+          "speaker": "Speaker 2",
+          "startUs": 143300000,
+          "text": "新"
+        }
+      ]
+    },
+    {
+      "asset": "ae3235fe7f",
+      "wordCount": 272,
+      "removed": [
+        {
+          "endUs": 81840000,
+          "speaker": "Speaker 1",
+          "startUs": 81560000,
+          "text": "你，"
+        }
+      ]
+    }
+  ],
+  "silence": {
+    "compressed": 69,
+    "removedMs": 130197,
+    "rule": "compress:250"
+  },
+  "semanticCuts": [
+    "重新重复 -> 重复",
+    "了解你，你希望 -> 了解你希望"
+  ],
+  "review": {
+    "timelineContiguous": true,
+    "sourceWordCoverage": "all source words preserved except 3 intentionally deleted tokens",
+    "viewerFrames": [
+      0,
+      2293,
+      2294,
+      2875,
+      2876,
+      4149,
+      4150,
+      4474
+    ],
+    "viewerInspection": "8 sampled frames contain presenter; no black frames in samples",
+    "fullListening": "pending_user_review"
+  },
+  "scope": "rough_cut_only",
+  "captionCorrection": "pending",
+  "postCutTranscriptHandoff": "not_finalized"
+}

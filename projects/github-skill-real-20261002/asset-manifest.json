@@ -1,0 +1,31 @@
+{
+  "captured_for": "GitHub finding Skills walkthrough",
+  "assets": [
+    {
+      "file": "signup.png",
+      "source": "https://github.com/",
+      "kind": "real_web_screenshot"
+    },
+    {
+      "file": "search-codex.png",
+      "source": "https://github.com/search?q=codex+skills&type=repositories",
+      "kind": "real_web_screenshot"
+    },
+    {
+      "file": "search-ppt.png",
+      "source": "https://github.com/search?q=ppt+skill&type=repositories",
+      "kind": "real_web_screenshot"
+    },
+    {
+      "file": "search-awesome.png",
+      "source": "https://github.com/search?q=awesome+codex+skills&type=repositories&s=stars&o=desc",
+      "kind": "real_web_screenshot"
+    },
+    {
+      "file": "readme-body.png",
+      "source": "https://github.com/op7418/guizang-ppt-skill",
+      "kind": "real_web_screenshot"
+    }
+  ],
+  "note": "真实公开页面截图。网页结果随时间变化；未登录、未安装示例项目、未制作示例成品。"
+}

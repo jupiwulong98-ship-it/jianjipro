@@ -1,0 +1,235 @@
+{
+  "version": "0.1",
+  "project_id": "ai-tools-real-20260930",
+  "source_video": "/Users/jupiwulong/视频制作/jianying-headless/work/real-talkcraft-20260930/sample/remotion/public/source-normalized.mp4",
+  "semantic_map_source": "semantic-map.json",
+  "status": "ai_proposal_not_user_approved",
+  "concepts": [
+    {
+      "event_id": "visual-opening",
+      "source_segment_ids": [
+        "scene-01"
+      ],
+      "start": 0.0,
+      "end": 8.7,
+      "spoken_text": "现在刷到 AI 剪辑，感觉只需要把视频丢给 AI 就能够自动剪好了。今天给大家分享几个常用的 AI 动效包装的工具。",
+      "meaning": "反转：自动出片仍需要判断",
+      "visual_concept": "左侧视频投入AI，右侧是期望成片，中间出现不等于，最后落到人工判断。",
+      "visual_structure": "not_equal",
+      "structure_description": "自动出片 != 自动符合预期",
+      "visual_focus": "工具产出仍需要人判断",
+      "presentation": "either",
+      "real_asset_need": "none",
+      "asset_description": "",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "以示意节点/箭头保留关系；无法验证时回到干净人物解释，并记录未实现的视觉任务。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-hyperframes",
+      "source_segment_ids": [
+        "scene-02"
+      ],
+      "start": 8.7,
+      "end": 18.666666666666668,
+      "spoken_text": "第一个 HyperFrames。如果你要做产品介绍，画面主要是文字、图片和动画的情况下，可以看 HyperFrames。",
+      "meaning": "产品表达展开为文字图片动画",
+      "visual_concept": "产品介绍居中，向外展开文字、图片和动画三条支路。",
+      "visual_structure": "center_branches",
+      "structure_description": "产品介绍 -> 文字 / 图片 / 动画",
+      "visual_focus": "产品介绍可包含哪些内容",
+      "presentation": "presenter_safe",
+      "real_asset_need": "recommended",
+      "asset_description": "官方标识用于实体识别，不作功能验证。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "以示意节点/箭头保留关系；无法验证时回到干净人物解释，并记录未实现的视觉任务。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-hyperframes-pipeline",
+      "source_segment_ids": [
+        "scene-03"
+      ],
+      "start": 18.666666666666668,
+      "end": 25.466666666666665,
+      "spoken_text": "你描述你想要的画面。AI 通过网页生成的技术把它做成视频。它的优势是动效很灵活。",
+      "meaning": "描述转成网页动效并输出视频",
+      "visual_concept": "描述气泡进入网页画面，页面组件形成动画，最后输出视频缩略图。",
+      "visual_structure": "input_process_output",
+      "structure_description": "描述 -> 网页动效 -> 视频",
+      "visual_focus": "从描述到视频的处理关系",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "以示意节点/箭头保留关系；无法验证时回到干净人物解释，并记录未实现的视觉任务。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-hyperframes-tradeoff",
+      "source_segment_ids": [
+        "scene-04"
+      ],
+      "start": 25.466666666666665,
+      "end": 38.266666666666666,
+      "spoken_text": "它的优势是动效很灵活。然后做完还有工程文件可以让你去修改。它的代价就是你要和 AI 一起去调整项目。它能够出片，但是不代表它每次出片都是你想要的方向，所以它稳定性可能稍微会差一点。",
+      "meaning": "灵活动效与调试成本的取舍",
+      "visual_concept": "两列展示动效灵活、工程可改和需要调整、方向要判断，最后强调判断成本。",
+      "visual_structure": "comparison",
+      "structure_description": "灵活/可改 vs 调整/判断成本",
+      "visual_focus": "优势和代价是一组取舍",
+      "presentation": "either",
+      "real_asset_need": "none",
+      "asset_description": "",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "以示意节点/箭头保留关系；无法验证时回到干净人物解释，并记录未实现的视觉任务。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-remotion-reuse",
+      "source_segment_ids": [
+        "scene-05",
+        "scene-06"
+      ],
+      "start": 38.266666666666666,
+      "end": 56.93333333333333,
+      "spoken_text": "第二个是 Remotion。如果你每次都做同一种风格，同一种模板的视频。可以重点看一下 Remotion。你可以把标题、字幕。品牌颜色和动画全部都做成模板。下次你换内容就只需要在模板里面改改里面的参数就可以了。\n下次你换内容就只需要在模板里面改改里面的参数就可以了。它就非常适合重复做和批量做。",
+      "meaning": "一次搭建母模板，换内容参数可多次复用",
+      "visual_concept": "先建立母模板，里面包含标题、字幕、品牌颜色和动画；随后换内容/参数，从同一模板复制出视频01、02、03，保留共同外观。",
+      "visual_structure": "one_to_many",
+      "structure_description": "母模板 -> 换内容/参数 -> 视频01 / 视频02 / 视频03",
+      "visual_focus": "一次投入形成多次复用，模板元素只是母模板的内容",
+      "presentation": "either",
+      "real_asset_need": "none",
+      "asset_description": "",
+      "importance": "critical",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "以示意节点/箭头保留关系；无法验证时回到干净人物解释，并记录未实现的视觉任务。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-chatcut-inputs",
+      "source_segment_ids": [
+        "scene-09"
+      ],
+      "start": 66.76666666666667,
+      "end": 72.6,
+      "spoken_text": "第三个， ChatCut。如果你已经拍好了你真人口播，或者是有一段录屏。",
+      "meaning": "真人口播和录屏是两类输入",
+      "visual_concept": "口播和录屏两个平级入口汇入剪辑时间线，不表现为先拍口播再录屏。",
+      "visual_structure": "parallel",
+      "structure_description": "口播 / 录屏 -> 剪辑输入",
+      "visual_focus": "已有两类素材可以进入剪辑",
+      "presentation": "presenter_safe",
+      "real_asset_need": "recommended",
+      "asset_description": "真实口播缩略图；无录屏时使用标注示意的入口图标。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "以示意节点/箭头保留关系；无法验证时回到干净人物解释，并记录未实现的视觉任务。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-chatcut-processing",
+      "source_segment_ids": [
+        "scene-10"
+      ],
+      "start": 72.6,
+      "end": 76.26666666666667,
+      "spoken_text": "想去剪掉废话，然后排字幕，或者是补一些画面。",
+      "meaning": "在时间线上处理冗余、字幕和补充画面",
+      "visual_concept": "先展示口播时间线，删除冗余块并收拢空隙，随后出现字幕轨，再新增画面轨；最后保留完整结果。",
+      "visual_structure": "input_process_output",
+      "structure_description": "口播时间线 -> 剪废话 -> 字幕轨 -> 画面轨 -> 结果",
+      "visual_focus": "三项操作改变同一时间线，制作现场B-roll不能解释处理关系",
+      "presentation": "full_screen",
+      "real_asset_need": "recommended",
+      "asset_description": "推荐真实ChatCut操作录屏；现有官网和场景素材不满足演示，无录屏时注明流程示意。",
+      "importance": "critical",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "以示意节点/箭头保留关系；无法验证时回到干净人物解释，并记录未实现的视觉任务。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-chatcut-timeline",
+      "source_segment_ids": [
+        "scene-11"
+      ],
+      "start": 76.26666666666667,
+      "end": 81.1,
+      "spoken_text": "优先看一下 ChatCut。它是直接在视频时间线上进行修改。",
+      "meaning": "修改发生在真实时间线上",
+      "visual_concept": "真实软件时间线接管画面，标注片段与轨道，局部放大修改位置；官网首页不冒充操作界面。",
+      "visual_structure": "timeline",
+      "structure_description": "真实时间线 -> 局部标注/修改位置",
+      "visual_focus": "能在真实时间线上进一步修改",
+      "presentation": "full_screen",
+      "real_asset_need": "required",
+      "asset_description": "真实ChatCut时间线截图或录屏；已有官网概览不满足素材槽。",
+      "importance": "high",
+      "evidence_need": "supporting",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "block_until_assets",
+        "description": "补齐真实时间线后执行；缺素材保留人物解释，声明未展示实际操作。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-tool-choice",
+      "source_segment_ids": [
+        "scene-15"
+      ],
+      "start": 99.13333333333334,
+      "end": 108.06666666666666,
+      "spoken_text": "最后都是看你有什么样的需求。做这种动效可以重点看一下 HyperFrames。然后做固定的栏目，可以看一下 Remotion 。如果你主要是真人口播主要可以看一下 ChatCut。",
+      "meaning": "三种平级需求对应三种工具",
+      "visual_concept": "动效、固定栏目、真人口播三个平级栏，逐项连线到HyperFrames、Remotion、ChatCut，最后同时保留三组关系。",
+      "visual_structure": "parallel",
+      "structure_description": "动效:HyperFrames / 栏目:Remotion / 口播:ChatCut",
+      "visual_focus": "先确定任务再选工具，没有先后顺序",
+      "presentation": "full_screen",
+      "real_asset_need": "recommended",
+      "asset_description": "沿用已登记的三个官方标识。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "generated_motion",
+        "description": "以示意节点/箭头保留关系；无法验证时回到干净人物解释，并记录未实现的视觉任务。"
+      },
+      "revision_reason": null
+    }
+  ]
+}

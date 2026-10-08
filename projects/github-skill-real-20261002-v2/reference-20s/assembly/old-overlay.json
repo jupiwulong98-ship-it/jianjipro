@@ -1,0 +1,54 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"asset\": {\n    \"id\": \"996fc5ea63\",\n    \"name\": \"github\",\n    \"type\": \"video\"\n  },\n  \"attachedEffects\": [],\n  \"item\": {\n    \"blendingMode\": \"normal\",\n    \"durationFrames\": 87,\n    \"fadeInDurationFrames\": 0,\n    \"fadeOutDurationFrames\": 0,\n    \"height\": 1080,\n    \"id\": \"7811ec6ec7\",\n    \"left\": 0,\n    \"opacity\": 1,\n    \"rotation\": 0,\n    \"startFrame\": 239,\n    \"top\": 0,\n    \"width\": 1920,\n    \"assetId\": \"996fc5ea63\",\n    \"borderRadius\": 0,\n    \"cropBottom\": 0,\n    \"cropLeft\": 0,\n    \"cropRight\": 0,\n    \"cropTop\": 0,\n    \"keepAspectRatio\": true,\n    \"audioPitchMode\": \"preservePitch\",\n    \"playbackRate\": 1,\n    \"sourceIn\": 0,\n    \"type\": \"video\",\n    \"decibelAdjustment\": -60\n  },\n  \"timeline\": {\n    \"id\": \"1bb570e080\",\n    \"name\": \"Timeline\"\n  },\n  \"track\": {\n    \"id\": \"d79fba961b\",\n    \"name\": \"jianjipro｜GitHub视觉包装\",\n    \"trackType\": \"video\"\n  },\n  \"transitions\": []\n}"
+    }
+  ],
+  "structuredContent": {
+    "item": {
+      "asset": {
+        "id": "996fc5ea63",
+        "name": "github",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 87,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "7811ec6ec7",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 239,
+        "top": 0,
+        "width": 1920,
+        "assetId": "996fc5ea63",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "1bb570e080",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "d79fba961b",
+        "name": "jianjipro｜GitHub视觉包装",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  }
+}

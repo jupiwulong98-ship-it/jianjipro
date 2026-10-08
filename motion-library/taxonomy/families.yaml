@@ -2,6 +2,7 @@ version: 0.2
 
 selection_model:
   order:
+    - visual_concept_structure
     - semantic_relationship
     - information_shape
     - item_count
@@ -40,6 +41,8 @@ families:
     description: "存在明确先后、流程、步骤关系。"
     subtypes:
       process-map: {use_for: [workflow, steps, pipeline]}
+      replication-map: {use_for: [one_to_many_reuse], status: missing_exact_card}
+      timeline-processing: {use_for: [input_process_output_on_timeline], status: missing_exact_card}
 
   comparison:
     description: "不同结果、指标、状态或路径之间的关系。"

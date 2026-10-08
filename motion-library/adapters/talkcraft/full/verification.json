@@ -1,0 +1,1094 @@
+{
+  "version": 1,
+  "status": "render_and_replacement_and_native_stills_pass",
+  "total": 108,
+  "render_passed": 108,
+  "replacement_passed": 108,
+  "native_composed_samples": 108,
+  "native_project_id": "39dc6de3-d263-4650-abe2-b20f06b07df1",
+  "native_timeline_id": "c0951353-e5a7-4519-b9ca-119119fc1d01",
+  "fixture": "SYNTHETIC QA SOURCES, not real project evidence",
+  "limitation": "Per-project visual fit, actual content coordinates, dynamic viewing and audio acceptance remain required. Adapter access does not mean every card suits every concept.",
+  "cards": {
+    "split-text-stagger": {
+      "adapter_sha256": "cb63999df278ad3c386086b27349ae9c7b98ed0a4cd636f83dc149405c07b512",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 54
+    },
+    "keyword-pop-highlight": {
+      "adapter_sha256": "8d8d20581a4fef2529e6a915a77cfae2e57be2300dbd5aa1fc3cb5451f6a22f4",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 174
+    },
+    "title-demote-to-label": {
+      "adapter_sha256": "c3dc382266f9d02b4bbb29c72adbfd92e1037fb2bc049bb6b3df49ca1c0701a4",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 180,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 321
+    },
+    "numbered-step-stack": {
+      "adapter_sha256": "1c5651306e43ab8c3a473562780e52db24481fcf975377c598213b1529a75c4d",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 474
+    },
+    "word-slot-cycle": {
+      "adapter_sha256": "13213d35658cd0a5da472775a73d5136f464158dc020d3a6318db6fbd8a4aad8",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 210,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 634
+    },
+    "parallel-items-with-host": {
+      "adapter_sha256": "f784531345a32a6a6471792662df85bdba66c1000fd47a68fcd9a2ac7219dba9",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 804
+    },
+    "quote-hold-arrow": {
+      "adapter_sha256": "85e7bf56a1da9ac5406af0684ccc74c87308a9e7f4c253dcd9805fb6e1a3da7f",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 924
+    },
+    "slow-push-in": {
+      "adapter_sha256": "2e53e84bdcf5db9ba1dbc7e4551115cf9701c19554cced09830da67e1b882958",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 1044
+    },
+    "alt-block-lines": {
+      "adapter_sha256": "0c99e28c71e02d984bff8b04eb8824726a75e8d631381edd7932bc10d501461e",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 1164
+    },
+    "bar-chart-growth": {
+      "adapter_sha256": "b4bf55e7356648a4a41d79c411d1064cd672f30be4c2e636e4b983eaf940b86a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 1284
+    },
+    "bed-echo-blur": {
+      "adapter_sha256": "3b1728632718b53ebb2e888c68355898d3740471c30fc2032374d45f4facd79c",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 243,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 1459
+    },
+    "behind-text-title": {
+      "adapter_sha256": "37260bc3206b0b32ab478c86754631d69b70111102caf1cb8cbec46dddd3db22",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 1647
+    },
+    "black-slam-transition": {
+      "adapter_sha256": "324592a02b66aa6fd24d5a4e6fb7273755947be6536432ea43844baf90d4c7f7",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 1767
+    },
+    "callout-line-label": {
+      "adapter_sha256": "3872899b909838c61f1cc6ee9e342609df6ed89b796745cbb811985496575f04",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 148,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 1899
+    },
+    "caret-wipe-transition": {
+      "adapter_sha256": "ffbaa960f4f3ce89cfded5178f827e8849f8a6593b852a7f67d3357e8d78b2c8",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 2035
+    },
+    "chapter-progress-list": {
+      "adapter_sha256": "2fd79ffea8dbb98bb08b7a508b82b7e617bd44f745d3d007feaf4ac809af725a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 2155
+    },
+    "chapter-title-card": {
+      "adapter_sha256": "e16b8e9e8b035accf649d34edb86dd862643ebcfb217c16ca1540c4d877de92f",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 201,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 2311
+    },
+    "chart-grow": {
+      "adapter_sha256": "50f4283867f8b08ea524ad17c1b9e808ed03b28050771da1ac26308639dc714a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 2476
+    },
+    "chat-gpt": {
+      "adapter_sha256": "06fe459549d1c179ef6d98330d8e7b50dbc4b6111f9d0515476369ffeda0793a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 204,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 2633
+    },
+    "chat-message-flow": {
+      "adapter_sha256": "48e6606f3904a995c9aeab5a0274e2a3595fb55701d1364d9779b70b56485004",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 277,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 2870
+    },
+    "chevron-lower-third": {
+      "adapter_sha256": "bc4c928f20adbbd9b78e23ae6e229a61181a1f988b26932cefe6f7ffb28dbb47",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 3077
+    },
+    "chip-grid-single-select": {
+      "adapter_sha256": "7ba537e87dbff18425fda954119b6e036c42a8913199b82b180a5e56fa4ced59",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 216,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 3240
+    },
+    "claude-code": {
+      "adapter_sha256": "1a4e9790c280ccbca12bbb43c263e32606dce4afc8da2b38484fd47a08d087cb",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 310,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 3498
+    },
+    "color-slam-beat-card": {
+      "adapter_sha256": "840437996bbf1dd690fdb7fea017c4c4d18b46691d8d750d9c9177fa90b2d6a1",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 215,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 3765
+    },
+    "converging-arrows": {
+      "adapter_sha256": "585e59c7bb73704a73ca613da96e5ec3d3f9d517651ad921420ade7c7ff20d51",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 3938
+    },
+    "corner-bracket-frame": {
+      "adapter_sha256": "79329079a8742305a68b56a50adec8bca976505ebc260bbcc20d5a0371e86b8c",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 4058
+    },
+    "count-badge-title": {
+      "adapter_sha256": "5fc18a8ceac7bbdf927a3443dbc010468b4c3cb40fbdf613ad213849a72809d7",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 4178
+    },
+    "countdown-arc-scatter": {
+      "adapter_sha256": "b3842ff85ba4a2d66b253a6623d56e02234c567a68543041b671d432fe16ef36",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 162,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 4316
+    },
+    "crash-zoom-punch": {
+      "adapter_sha256": "1b08098677447bec52b78e121b3e9d774d23199c4fba0a22d31332aabb610903",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 144,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 4470
+    },
+    "cursor-actor-demo": {
+      "adapter_sha256": "20e40bc3f8e95d4be34bf4dd8f097e96eae23efba7382cdabf4ee6fb7db56d16",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 135,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 4610
+    },
+    "cursor-locked-zoom": {
+      "adapter_sha256": "206e262e387bc9f4def3e9836da290c64be518c430dc1870d4dcb4275992a3bc",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 192,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 4771
+    },
+    "danmu-bubble-praise": {
+      "adapter_sha256": "057ba51a99c9890dba553d1b02cbd722f77adbb02fdfbcaece3fbd335e672dbb",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 131,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 4935
+    },
+    "doc-park-left-pill-deal": {
+      "adapter_sha256": "4278be85210bbe9744895a8209c4ebecf1a7e4245bfc742ea182766c8e34da31",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 222,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 5107
+    },
+    "douyin-follow-card": {
+      "adapter_sha256": "a2010bd926fea96ca9f4ecacd9bbbd8800bd338e59218ca5206b41c4f97cf180",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 133,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 5289
+    },
+    "error-retype": {
+      "adapter_sha256": "cb11161191d60c7108ba23eaca260a1fd7a50014993c62fa5c2b759f704cd58a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 177,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 5442
+    },
+    "evidence-scroll-tour": {
+      "adapter_sha256": "193a05925051490145c756bb85e7a66d9891fff87f10c5fde46f0aca51a1c825",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 320,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 5684
+    },
+    "filmstrip-conveyor": {
+      "adapter_sha256": "1bb3db4727909d28982dfd6bc4e707203c9fa95edd1a1921bfe4246e355b661b",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 250,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 5972
+    },
+    "flying-words": {
+      "adapter_sha256": "50ba40adfd99d3dc4616b7075c0094d1eceb2919c346bc3dc69cb6da6a9efc72",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 192,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 6196
+    },
+    "focus-dim-spotlight": {
+      "adapter_sha256": "ed490546fb7a67d466af24e41160c89cac4228f788777ebeb2349b9016bae2ed",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 275,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 6425
+    },
+    "gallery-wall-dolly": {
+      "adapter_sha256": "5b1c1a76e208a7d0f429c0fa4af916d70cdfefd3bec107933f572fce19f507b8",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 258,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 6693
+    },
+    "glass-code-walk": {
+      "adapter_sha256": "dc7e1ca6423549522ebba9fe331bb1a68ad6158bbd1a53a97924bbee235a4ce9",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 259,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 6951
+    },
+    "gooey-morph": {
+      "adapter_sha256": "bcfb442b22215d3dcdd89c440501dda90de7d6a52fbd97a249db73542f0b6272",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 7148
+    },
+    "grid-to-hero": {
+      "adapter_sha256": "438b1c70d018b9d1ff44d6e365ca9500f32f9c5a993d1b423bcc2178edc9d871",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 232,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 7318
+    },
+    "hand-drawn-ellipse": {
+      "adapter_sha256": "e24b0046b4a8d4a0ecabb23a4c0ff888d3c842bbe9af2525927a5d22708c0f99",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 7500
+    },
+    "highlighter-sweep": {
+      "adapter_sha256": "ca9a7ea6da9282f6534e6d37fb62c9812cf4608192bb1c00153b6b51e625cf6a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 7620
+    },
+    "host-card-glass-board": {
+      "adapter_sha256": "b84b44b21c1780273056679b4e2efa18174909e7fac680f213c9bc3333181606",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 210,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 7780
+    },
+    "host-shrink-to-chip": {
+      "adapter_sha256": "8dd11b9a5b4f9df0818e155d1806d20d6a0e42a5caad3e81336b9ed091bb0b38",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 7950
+    },
+    "impact-open-title": {
+      "adapter_sha256": "28bb2be74987c8ad5fe95d8abc5592f2a7372a71228def86fd6156e616ac5976",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 8070
+    },
+    "info-card-assemble": {
+      "adapter_sha256": "519c3422edeb048bf34006a94d229e06b6c1497b4fdc6b3d4545d130bd55e490",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 216,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 8233
+    },
+    "info-term-card": {
+      "adapter_sha256": "118ae34f6b8b926431225a9afb221e4f592dfb18df8898aaea631066e55c39ac",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 197,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 8440
+    },
+    "ink-underline": {
+      "adapter_sha256": "db633a7e4f1d774f9efa9e8e1751dc09b0385f8713ef16f46989d91a78202da0",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 8603
+    },
+    "lead-word-zoom-assemble": {
+      "adapter_sha256": "15b258b09ed2f32b939e8b75b08f6490bb2106bd5d5d0a5d992e38ed93fbd5c9",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 156,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 8739
+    },
+    "line-by-line-slide": {
+      "adapter_sha256": "496a0cf2b8b2bc5d545900995b765a7396a54150326cfb75ee25fb03102ac360",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 8879
+    },
+    "line-carry-transition": {
+      "adapter_sha256": "7208517a476a7bae814f0b14b3372a9fdfea0f70375575e414d537541ed013ed",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 204,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 2,
+      "native_frame": 9036
+    },
+    "line-chart-story-draw": {
+      "adapter_sha256": "fbcbf9db440830c038e687c9dff143932c4a1b896b1d95f5c7fb0cfc65f2aa1c",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 156,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 9219
+    },
+    "logo-enter": {
+      "adapter_sha256": "f6ad015372a9f342b44e9662cc32cd0f02d050221e5d98a896615c7049332c40",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 9359
+    },
+    "long-take-world": {
+      "adapter_sha256": "2361b110ed7867b3637751dce44a227d37e98dde856421b2c7badda54d8d5512",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 213,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 9520
+    },
+    "lower-third-nameplate": {
+      "adapter_sha256": "b630dc743643d96a98256e8ea05400759851c09e12a08b5d4617b36501c0e2f6",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 9692
+    },
+    "magnifier-detail": {
+      "adapter_sha256": "ab7f268fa661d0e35cde0d90f1aab7b4cebcba44b5ebd5256dcb8dcf8938c9c0",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 9812
+    },
+    "map-route-pin": {
+      "adapter_sha256": "d225a2803ca51ac0e6322794714d7178e4853dcc8b00175057fcfddf4dbf595a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 155,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 9947
+    },
+    "media-pop-in": {
+      "adapter_sha256": "0ca3b7110e54bde7f98b311d05ba9083f60e8e176ce685cab88fc4a68ed1d29d",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 10087
+    },
+    "metric-with-sparkline": {
+      "adapter_sha256": "a2548774671beb29146766f362fd40d4b166ee1dea875be1bb5290e9a072f33a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 10207
+    },
+    "motion-blur-slam-in": {
+      "adapter_sha256": "2dd963d831c225c3c4eb71027f7f7a72b96eda0077221dc55b1da848ed17ecae",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 10327
+    },
+    "news-card-desk": {
+      "adapter_sha256": "712084cf6453ef325b4645b3be6fb7974128a5e69a767ced485f2d55fb0c19b3",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 321,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 10537
+    },
+    "number-counter": {
+      "adapter_sha256": "81e423537e055fd155b762ea7c1bc215a9ef31089f7cbeb883b8e347ffc1ddf8",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 10768
+    },
+    "number-slab-pop": {
+      "adapter_sha256": "8722e3be7d4846d1d13ad412fffbd9f324de43a1a50bd757a4aea82e85d13e3e",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 10888
+    },
+    "orbit-drift": {
+      "adapter_sha256": "79d0831a7c79a10e22f1798728660f8dcb9ee9b647a52f3270b0d3537a699720",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 180,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 11035
+    },
+    "outline-box-title": {
+      "adapter_sha256": "8ced6fadb29e6ed021d5262bc9a3a86094e96f40d12a4814061d1342585798fe",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 11188
+    },
+    "overexpose-flip-transition": {
+      "adapter_sha256": "3e5cee337b1ec2911e7827196e39eebed1ca4f6ce38783862640780ca57f8828",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 11308
+    },
+    "particle-weld-transition": {
+      "adapter_sha256": "e12c20c10c2d7e090ac3f2434e19c0f6fe0de77d15128d1185e2b988ac93d77b",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 11428
+    },
+    "pencil-sketch-draw": {
+      "adapter_sha256": "4c7af684aafbc9eb1ee7dbfcf0777d8e43aba9fae7ad6f2198c6912a82f79ccb",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 134,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 11554
+    },
+    "per-character-rise": {
+      "adapter_sha256": "3347e71cb46d601554989ae56202281b2f50414fba445f8c0c670037c175b762",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 11682
+    },
+    "pip-zoom-box": {
+      "adapter_sha256": "ae5e46b10bbc4c3c767907cd38cca0d29ad8516aa8b829eab7a16b76b3291b87",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 11802
+    },
+    "pullback-cool-transition": {
+      "adapter_sha256": "ad193268857d2f7ee28549c138686a9beed0273a320b5a736bf6b538bad9fed3",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 11922
+    },
+    "push-through-transition": {
+      "adapter_sha256": "212fcf22070ce726bdd3a3460b043b8e3b87191f5c5622c9637c6ee07d984175",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 12042
+    },
+    "quote-bracket-pull": {
+      "adapter_sha256": "30505dfd465e208515e58582927d4dcdc6617366abe2a9b065d66b1e3d064b29",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 12162
+    },
+    "quote-card": {
+      "adapter_sha256": "8992c2484f256f7536c9e9172f9e44c0e5f8980988f406f5f55c8aa8fff9a731",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 123,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 12283
+    },
+    "rack-focus-pair": {
+      "adapter_sha256": "a7cedc3ede04a410790742567cc7b022ff37d34ce74b4879b9954fd3257307ba",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 216,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 12448
+    },
+    "reticle-lock-on": {
+      "adapter_sha256": "127f09f1e14faff71ce91252756a96da044da166a755070f4d4aa585fce30db8",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 192,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 12653
+    },
+    "scanline-annotate": {
+      "adapter_sha256": "88211930ccba0cade5fd9ed316e630068c0f3482117a8680bc6e240d1bb4d7e9",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 180,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 12840
+    },
+    "scribble-annotation": {
+      "adapter_sha256": "f89ed1941eb81e92c75885b155cec9d00f4d5f64e5a37af9228adf6f0b6e8569",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 12993
+    },
+    "shape-wipe-transition": {
+      "adapter_sha256": "a70a4b6e301e60cc12352be8e0bb0fefaf217c1a908479f6dfe1c490d4caba09",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 13113
+    },
+    "slab-punch-title": {
+      "adapter_sha256": "15a9bf329cc1a0c83e4e069911c127d14ff6b2162ae92a9ad77464d40a65788c",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 13233
+    },
+    "slow-pull-reveal": {
+      "adapter_sha256": "2a01ed51382937a57098904c7c8eb400f167ada05f23284aa5953029781cddb9",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 189,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 13384
+    },
+    "soft-blur-in": {
+      "adapter_sha256": "babb5999e56c79734e01398de8363894f9f9b2b4e84f13189e3f874a050fc87a",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 13542
+    },
+    "source-converge": {
+      "adapter_sha256": "6a58b30ae94afe7dc75da7f7b1f127e0350b4de28f7390db2a72f9cb3802c663",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 198,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 13697
+    },
+    "speed-slab-title": {
+      "adapter_sha256": "ed039df656ff86e0bae3acacd0b20bda242cbc96654b84e8c3bb73ab97126f34",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 13860
+    },
+    "split-60-40-story": {
+      "adapter_sha256": "4450acd702e4c063db617619b1589be5a3fdadc3736c6dcd3bb4d980df4979ff",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 216,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 14023
+    },
+    "split-compare-slider": {
+      "adapter_sha256": "88b4c116d58515915a25db64e29740b32bcc0ff28bbfa542df289c58dc2ce267",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 296,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 14275
+    },
+    "stack-fan-out": {
+      "adapter_sha256": "ccca8e90a05ade713691cb127e481b7474966c7353bd7ac492ae5a5ebc6d9186",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 204,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 14529
+    },
+    "stage-keyframe-tour": {
+      "adapter_sha256": "998a54f8bad5d6955aa657ebf484f6d8a2e97a2dbf95589e9a49dee77010d194",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 275,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 14765
+    },
+    "step-timeline-vertical": {
+      "adapter_sha256": "84f2fb50a7b034f74ea5937736a32bffc58936466a25180791893db829cf42f5",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 14971
+    },
+    "still-layout-relay": {
+      "adapter_sha256": "17c17cbfb4704492c3824cfafbfec79ea01073ad80d6ef5d2225f727b81f7f83",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 467,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 15247
+    },
+    "strike-and-replace": {
+      "adapter_sha256": "276e13ef99f42091aaa54385ae81ada74249fd9dd77fd50489b9348cccf660e7",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 15558
+    },
+    "subscribe-cta": {
+      "adapter_sha256": "b8ab7a5cdcb92463108ba4a293f3e4861734e6100083f8155dcb4ae5871cd55f",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 304,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 15760
+    },
+    "sway-parallax": {
+      "adapter_sha256": "fd7b7854c03b96da20c89208249716b650ced52068826d71af7d5c952e8b7e42",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 198,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 16017
+    },
+    "terminal-typing-log": {
+      "adapter_sha256": "b87df041b91bbceae8c52c532f642825ba77afa9454bee6b850c1257698efaf4",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 258,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 16242
+    },
+    "tilt-3d-page": {
+      "adapter_sha256": "e696fdb87fb73396544478f3a3cfd7222c31166c953f4b7b5974c17942f3f346",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 162,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 16456
+    },
+    "timeline-photo-strip": {
+      "adapter_sha256": "bd24980c254b4160ba0428ca967965888b6c0986e5554951a106dc0ceb1f3585",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 309,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 16685
+    },
+    "tracking-in": {
+      "adapter_sha256": "c30171ca92b89a811a93568beea0ac43203fef940a3b08b8f1176545a0b871bf",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 16909
+    },
+    "type-contrast-emphasis": {
+      "adapter_sha256": "df269f3835d8a2670cd88864be87296cbc6e0512eda9fb7b339304d8e1347fe9",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 17029
+    },
+    "typewriter-reveal": {
+      "adapter_sha256": "0f45392f7bbcf9b60651ff48d2bb21ee108692db970bbfacec4596dbb3662c25",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 187,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 17179
+    },
+    "ui-flow-theater": {
+      "adapter_sha256": "82baef7ac9650b6456e9dbfd255c303ebaf678f7b14e81391395ae68624c2f95",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 281,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 17408
+    },
+    "ui-prop-theater": {
+      "adapter_sha256": "989c209a12e2374fb26440101209a4c0c280cd8f7b0421a7c4e25b4ffa69551d",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 179,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 17643
+    },
+    "unit-grid-proportion": {
+      "adapter_sha256": "ee8d0c0e8c2796d5b4422465751ed4fa5483c467883c5c91295379cde59fc14b",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 195,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 17829
+    },
+    "whip-pan-transition": {
+      "adapter_sha256": "f09fbd1b73b10a661a20cfd8d04391dfe7dc068c36cbdd330db087c4c0d7fbf2",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 120,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 17991
+    },
+    "word-relay-filmstrip": {
+      "adapter_sha256": "319774c9f5fdab095f600d89bef7bd3c45cd1dc649eb586670c10d24a1ea24bf",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 204,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 18148
+    },
+    "x-follow-card": {
+      "adapter_sha256": "00e11c634579aeb5d60dcf2c2a7f702c54ec2bc9cfacb065c6f70d6bff506a57",
+      "support_sha256": "f264c3042cfc3267807e40ba1aebfe162d0b5fb8ec8dc879fcdba22bab5cfd71",
+      "frames": 133,
+      "fps": 30,
+      "render": "pass",
+      "replacement": "pass",
+      "replacement_baseline_index": 1,
+      "native_frame": 18320
+    }
+  }
+}

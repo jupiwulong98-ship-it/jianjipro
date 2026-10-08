@@ -1,0 +1,810 @@
+{
+  "version": "0.2",
+  "project_id": "github-skill-real-20261002",
+  "source_video": "ChatCut a396a30a-4803-48d8-8351-772e19397011",
+  "transcript_source": "validation/captions.json",
+  "segments": [
+    {
+      "id": "clean-0",
+      "start": 0.0,
+      "end": 7.966666666666667,
+      "text": "我之前分享的 Codex Skill 的那条视频，已经有十多万人看过了。但其实那几个 Skill 都不是我私藏的。",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [
+        {
+          "value": "十多万",
+          "status": "speaker_claim"
+        }
+      ],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-github",
+      "start": 7.966666666666667,
+      "end": 10.866666666666667,
+      "text": "它们基本上都能够在 GitHub 上面找到。",
+      "primary_intent": "claim",
+      "semantic_role": "definition",
+      "importance": 0.85,
+      "entities": [
+        "GitHub",
+        "Codex"
+      ],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "工具可被主动找到",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:161a8f8e-b2e0-4dfa-be0c-7b32e6c3dab5a884f4ab-918b-4926-9a7b-829e5c1233e1"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-326",
+      "start": 10.866666666666667,
+      "end": 20.166666666666668,
+      "text": "所以这期我不继续给你推荐 Skill 了。我直接教你一个更有用的方法。以后你缺什么工具，不需要去找别人的分享或者等别人去分享，",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-find",
+      "start": 20.166666666666668,
+      "end": 22.666666666666668,
+      "text": "直接让 AI 去 GitHub 上面帮你找。",
+      "primary_intent": "claim",
+      "semantic_role": "definition",
+      "importance": 0.85,
+      "entities": [
+        "GitHub",
+        "Codex"
+      ],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "把寻找工具变成可执行行动",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:da88657b-9834-4623-999c-be93374fc4b60e69b8bc-dd10-45d9-9aec-6bd0858d0ad8"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-680",
+      "start": 22.666666666666668,
+      "end": 33.46666666666667,
+      "text": "比如你想找 Codex、Skill、 PPT 工具。视频处理工具，甚至一个非常具体的一个小功能，都可以用这个方法。先跟大家讲一下 GitHub 是什么？",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-repository",
+      "start": 33.46666666666667,
+      "end": 42.7,
+      "text": "你可以把它理解成一个巨大的项目仓库。很多开发者会把自己做的 AI 工具、开源项目、学习资料还有各种 Skill 都放到里面。",
+      "primary_intent": "claim",
+      "semantic_role": "definition",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "GitHub 汇集不同项目类型",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:7d0270e0-acdd-42c0-bb71-b66db8da438500375f9d-63b4-4c47-a1c2-c3c6adae1879",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:c7c3db14-6954-4b59-ae55-36702d0484f67b71ed4c-5938-4f20-9e4c-ce2fd079f929",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:595ddc49-9777-479d-b080-4162503ce1154a75bc05-eab2-4f56-b57b-c6a1b74dd348",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:595ddc49-9777-479d-b080-4162503ce1151a6d5623-f6c2-44c5-99c1-607aeeaafb06",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:6c71ac09-a9a3-48f9-9c41-090bf68c2c9adc9e6b90-bd3e-4547-b341-547338ea3fc2"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-1281",
+      "start": 42.7,
+      "end": 46.43333333333333,
+      "text": "但是其实普通人不用学 GitHub 这么复杂。你只需要会三件事情，",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-three-actions",
+      "start": 46.43333333333333,
+      "end": 51.266666666666666,
+      "text": "你只需要会三件事情，会搜，会看。会复制链接。",
+      "primary_intent": "process",
+      "semantic_role": "process",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "初学者只需要掌握三项连续动作",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:bd8dfff8-5e9e-4cf7-b37f-65f167bc953aff10c8a2-4077-4de0-b896-b74e27b14666",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:58b2afe1-c2e5-4389-ac06-0d18097883535708789e-bfa0-4190-9a9e-f99d875350d9",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:a91bad29-56da-479f-9cbf-3d5cb08c87e2152ae0f2-29fa-4867-8d7a-0b47589d7449"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-1538",
+      "start": 51.266666666666666,
+      "end": 52.8,
+      "text": "先打开 GitHub",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-signup",
+      "start": 52.8,
+      "end": 59.0,
+      "text": "没有账号的话点击右上角的 Sign up按照提示注册一个免费账号就可以了。",
+      "primary_intent": "example",
+      "semantic_role": "tutorial_step",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "无账号先找注册入口",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": true,
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "suggested_inputs": [
+        "screenshot"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:36f5a2ae-0055-45b6-9792-31eed2bd4cb482b6cf08-a2cd-4c3a-876e-f3a7eb74d870",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:7bcb6c99-e4de-4c78-bf88-6c93bf4337882fca2692-4ae0-4d22-847b-8de28ce0b326"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "semantic-search-codex",
+      "start": 59.0,
+      "end": 65.7,
+      "text": "接下来我们直接看顶部这个搜索框。比如我要找 Codex 能用的 Skill 可以先搜 Codex Skills。",
+      "primary_intent": "example",
+      "semantic_role": "tutorial_step",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "按要解决的需求输入关键词",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": true,
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "suggested_inputs": [
+        "screenshot"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:7d5eb290-1af6-4c0c-829b-7632d373b7bf92d4dd39-4e68-435f-9202-52c4bde04856",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:05ace908-64b5-43d2-9fbd-218f166d3825aba1e053-5de6-4294-9312-8d779b356874"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "semantic-search-ppt",
+      "start": 65.7,
+      "end": 69.06666666666666,
+      "text": "想找 PPT 相关的，就搜 PPT Skill。",
+      "primary_intent": "example",
+      "semantic_role": "tutorial_step",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "同样方法可搜索 PPT 工具",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": true,
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "suggested_inputs": [
+        "screenshot"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:2af7e34a-0805-4137-b30a-c486e5503a5079107643-d34c-4b5c-94fc-d20ace6b9b08",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:2af7e34a-0805-4137-b30a-c486e5503a50470cb3a6-6745-4270-b2d7-97d80f6bf0c1"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "semantic-repositories",
+      "start": 69.06666666666666,
+      "end": 74.13333333333334,
+      "text": "搜索之后记得点击 Repositories。Repositories 就是项目仓库。",
+      "primary_intent": "example",
+      "semantic_role": "tutorial_step",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "筛选的是项目仓库",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": true,
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "suggested_inputs": [
+        "screenshot"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:7bdd9fb1-d9d1-4846-80d2-e7319f81d26eff819f10-b540-4cc4-aa87-6e303404eec7",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:e6ceeb4f-7738-4d18-a445-1508756fd47e60ac13fb-0390-4cb4-8906-7ed132c07ea7"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-2224",
+      "start": 74.13333333333334,
+      "end": 78.76666666666667,
+      "text": "如果你不是想找某一个工具。",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-awesome",
+      "start": 78.76666666666667,
+      "end": 93.26666666666667,
+      "text": "而是想一次性找一批同类型的项目，可以在关键词面前加。Awesome比如 Awesome Codex Skills。你经常会看到这种项目，里面已经帮你整理好了几十个甚至上百个同类型的工具。",
+      "primary_intent": "claim",
+      "semantic_role": "definition",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "一个合集指向多个同类项目",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:acf3bd49-9758-4809-bc4b-291aa0c42b0562b0b507-da89-4bfa-9d07-55eb825b1134",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:c8470d4e-4010-48aa-a4ff-f837556feb8f05bd499c-6783-4f06-9e3a-fc5273e5b9f9",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:e2d8600f-3ccb-4352-8281-45d0a340fe0b253bcc19-e8cd-449f-aa9e-62b4bd60ca32",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:e7b8afb9-0123-4876-9945-8b432fa645e369a3f4cb-a947-4fef-a1a3-afe503c170ae",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:96936bab-1851-4b82-a7b6-8713ca55f9b7227aa1d7-adcb-4845-883e-d77acc7ebaaa",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:4ff50c2a-7e76-416d-8cfa-9792d05692bf2e01f44b-736a-41f2-9a70-28e5e600d3a6"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-2798",
+      "start": 93.26666666666667,
+      "end": 95.3,
+      "text": "看到感兴趣的你再点进去。",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-stars",
+      "start": 95.3,
+      "end": 107.86666666666666,
+      "text": "然后看搜索旁边结果这个 star你可以简单的把它理解成项目在 GitHub 上有多少人关注和收藏。可以先按照Most stars 排序，看看关注度比较高的项目。",
+      "primary_intent": "example",
+      "semantic_role": "tutorial_step",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "Star 可以辅助发现高关注项目",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": true,
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "suggested_inputs": [
+        "screenshot"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:6db59385-ba97-415b-aae4-9ed6366d2041712abca4-6867-43e7-8f15-f4cb2f7705dd",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:c3bd0917-fce5-48aa-9444-173939ba03a8b929a6bb-839d-4424-b1e6-8e20f12ad913",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:0aa6abed-f8e6-4701-8025-0de73a4893987a9afdf0-ff6f-4f02-9818-40c905333b7a",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:d082ba9a-411f-4bfb-9c99-e11e630aa22610f6c08c-5c7f-49f9-9f8e-03b64dd647f1",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:d082ba9a-411f-4bfb-9c99-e11e630aa226cd16e931-dd9b-437c-a969-031c11469120"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-3236",
+      "start": 107.86666666666666,
+      "end": 108.96666666666667,
+      "text": "但值得注意，",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-star-not-fit",
+      "start": 108.96666666666667,
+      "end": 113.36666666666666,
+      "text": "Star 多只代表关注的人多，不代表它一定适合你。",
+      "primary_intent": "contrast",
+      "semantic_role": "comparison",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [
+        "高 Star",
+        "适合你的需求"
+      ],
+      "rhetorical_function": "高关注度不保证适合自己的需求",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:426054f4-d05e-492d-8ff2-938444b3c60d1b4f90e6-a526-4f5b-99c7-5efb8dfda7e7",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:426054f4-d05e-492d-8ff2-938444b3c60d42c22588-5b65-410f-aba2-b7f096530480"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-3401",
+      "start": 113.36666666666666,
+      "end": 116.66666666666667,
+      "text": "所以真正重要的是点进去看它的。",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-readme",
+      "start": 116.66666666666667,
+      "end": 121.16666666666667,
+      "text": "README。README 就是这个项目的说明书。",
+      "primary_intent": "example",
+      "semantic_role": "tutorial_step",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "阅读说明书才能判断项目用途",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": true,
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "suggested_inputs": [
+        "screenshot"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:57929db9-f797-40ef-9f5c-d5a1dce88dd73be91540-b524-4d77-ad56-2d3e56dbfcbd",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:92a7c60e-b951-4a3b-989d-d5cfee72a4f67872bf0e-7fa0-425b-bb68-6ea2227e0eaa"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-3635",
+      "start": 121.16666666666667,
+      "end": 122.56666666666666,
+      "text": "英文不用全部看懂，",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-readme-checks",
+      "start": 122.56666666666666,
+      "end": 127.43333333333334,
+      "text": "你先找三个东西。它是干什么的？效果是什么样的？然后怎么安装和使用？",
+      "primary_intent": "claim",
+      "semantic_role": "definition",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "用途、效果、使用方式是三个判断维度",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:a079aac9-0723-445e-a5af-f22376112952caa9709d-59d6-4f14-a382-86fd20eb951a",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:75bc8d96-f2e5-4e49-88aa-54bdd49b9c71ffce591e-0a55-4c9f-9956-967b2950b088",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:75bc8d96-f2e5-4e49-88aa-54bdd49b9c7102a5928e-d8c3-4edc-a851-132df4e0d384",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:75bc8d96-f2e5-4e49-88aa-54bdd49b9c7147ca5e4a-c3ef-4cc8-80d3-666a303ea58a"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-3823",
+      "start": 127.43333333333334,
+      "end": 134.93333333333334,
+      "text": "然后或者把项目链接直接丢给 AI 让它告诉你这个项目是干什么的。确定这个项目可能有用之后，我们复制浏览器的地址，",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-copy-link",
+      "start": 134.93333333333334,
+      "end": 139.8,
+      "text": "我们复制浏览器的地址，你的 GitHub 的链接，然后直接发给 Codex",
+      "primary_intent": "process",
+      "semantic_role": "process",
+      "importance": 0.85,
+      "entities": [
+        "GitHub",
+        "Codex"
+      ],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "项目链接连接选择结果与 AI",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:9ec5afd7-ad88-4a6b-ba21-68fb2c6d2ad31a07785a-17d3-48e6-a17c-ec00f2373b55",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:4081cffd-aa33-4d98-b709-a2963126de490481f218-d967-4d49-b0a8-ae3572bcfacc",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:ef73f958-9fdc-4e9c-95ec-3494436b0ae9efb89d6d-80a3-4ad7-b57e-c0bba1f3c8ee"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "semantic-check-before-install",
+      "start": 139.8,
+      "end": 151.8,
+      "text": "我们只需要告诉 Codex 帮我检查一下这个项目能不能够在 Codex 里面进行使用。需要安装什么，有没有额外的费用，如果可以，帮我安装好。用一个简单的例子告诉我怎样去使用。",
+      "primary_intent": "process",
+      "semantic_role": "process",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "先检查条件，满足后安装并教用",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:e9555ef9-e6f9-4d66-98d5-a533c39510bceb16ae37-2f6f-4314-ab20-7b8e5ccf282e",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:1ff32fbf-dd68-412d-a40f-d22e352e5d0a5243f642-d7d4-48ad-b9a4-54398206f3c5",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:1ff32fbf-dd68-412d-a40f-d22e352e5d0abc843c29-2651-4ede-bac9-b72a22e93bc2",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:1ff32fbf-dd68-412d-a40f-d22e352e5d0a35282e1c-bad2-4ac1-ae99-5e59fbb24494",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:1ff32fbf-dd68-412d-a40f-d22e352e5d0aba50c2fb-9799-4aa8-8d8a-83a389b2001c",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:97f42e6a-465f-4ec8-bca4-a0e7d3c2a40b5d8cfeaa-3375-4c5d-b462-17a8bd93d138"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-4554",
+      "start": 151.8,
+      "end": 153.33333333333334,
+      "text": "到这里其实还没有结束，安装成功不代表这个工具真的就有用，",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-install-not-use",
+      "start": 153.33333333333334,
+      "end": 158.7,
+      "text": "安装成功不代表这个工具真的就有用，一定要让 Codex 再实际跑一次。",
+      "primary_intent": "contrast",
+      "semantic_role": "comparison",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [
+        "安装成功",
+        "实际有用"
+      ],
+      "rhetorical_function": "安装完成与实际有效是不同验收条件",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:38ff754c-5a87-450a-b33a-45b7586914ec79b5047e-3287-4d75-8f42-6421a1cbe33d",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:013b73e7-c486-457c-b914-16708d04b9852dd109a8-6136-4fd3-9df7-31b894641391"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "semantic-real-task",
+      "start": 158.7,
+      "end": 167.43333333333334,
+      "text": "比如这是一个 PPT Skill 你就把一段内容丢给它。让它生成一份真正的 PPT。这是一个视频工具，你就真正让它处理一次视频。",
+      "primary_intent": "claim",
+      "semantic_role": "definition",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "工具要在自己的材料上完成一次处理",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:e51cd30e-6a77-4eab-9f33-da697d991f8db9874089-0103-4be9-8476-bd1d2e0712ad",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:f99a4e91-b2e6-4722-a33f-cc9ffc35a7b0eada0642-0fc4-47bf-be6a-ba7718a92caa",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:4b15191c-043f-4d4d-8d9b-679f23f8aa394169deaf-73b9-4fe1-89ad-2bd8bfa4e70a",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:4b15191c-043f-4d4d-8d9b-679f23f8aa39e7236ea2-0dab-42e4-8516-4e3683ec8f0b"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-5023",
+      "start": 167.43333333333334,
+      "end": 168.36666666666667,
+      "text": "而且结果符合了要求，",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-acceptance",
+      "start": 168.36666666666667,
+      "end": 171.36666666666667,
+      "text": "而且结果符合了要求，这才是你需要的一个工具。",
+      "primary_intent": "claim",
+      "semantic_role": "definition",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "可运行且符合需求，两项共同成立才有用",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:818a0edb-ca69-42de-9ed7-c75450c5e4ae5fe3ebb2-315b-43c4-aad0-04c0742230e9",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:818a0edb-ca69-42de-9ed7-c75450c5e4ae3748421c-fcc9-409c-b12f-38c080e656f4"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-5141",
+      "start": 171.36666666666667,
+      "end": 174.26666666666668,
+      "text": "所以以后你再找 AI 工具，记住这个流程。",
+      "primary_intent": "setup",
+      "semantic_role": "clean_explanation",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "人物讲述、衔接或消化信息",
+      "emotional_intensity": 0.3,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "保留人物与自然节奏，不强制加包装。"
+    },
+    {
+      "id": "semantic-summary",
+      "start": 174.26666666666668,
+      "end": 182.63333333333333,
+      "text": "先搜需求，找到项目，然后看它的项目介绍，然后复制链接，把它发送给你的 AI。去检查、安装和测试。",
+      "primary_intent": "process",
+      "semantic_role": "process",
+      "importance": 0.85,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "找到工具到实际验收的完整动作链",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [
+        "text"
+      ],
+      "source_caption_ids": [
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:d6047733-742c-46ee-b77e-232830fb0b277b4bcb8a-0779-45f7-8863-6c96add7f356",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:d6047733-742c-46ee-b77e-232830fb0b279210019e-b5ae-48a1-ad8b-5be851129a70",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:d6047733-742c-46ee-b77e-232830fb0b27434f52c4-1bee-4ddf-b5b7-70e45f88a8e3",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:d2ccefdf-e5a2-49a7-9dc9-00358c5ec123aebbc200-33b2-4c97-bff1-74487e822e93",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:d2ccefdf-e5a2-49a7-9dc9-00358c5ec123a78da0f6-8a3b-4b3f-bf9d-1585a7971441",
+        "36:9b1a0337-10ca-41ee-ab22-28527c1d676136:7ce2be4a-6599-4b13-97b7-d5445b0ed321fffa5d70-bdd7-4694-a490-62e31635d30e"
+      ],
+      "notes": "按实际剪后口播时间锚定；与 Obsidian 最终稿对照，不改写录音。"
+    },
+    {
+      "id": "clean-outro",
+      "start": 182.63333333333333,
+      "end": 199.8,
+      "text": "你就不用天天等别人告诉你，最近又出了一个新的 Skill 你完全可以自己去找。OK， 我们今天又学了 GitHub 那么我是乌龙，分享 AI 工具和实操。和大家一起把 AI 真正用进工作和项目里。",
+      "primary_intent": "conclusion",
+      "semantic_role": "conclusion",
+      "importance": 0.4,
+      "entities": [],
+      "numbers": [],
+      "contrast_pair": [],
+      "rhetorical_function": "结尾回到本人表达",
+      "emotional_intensity": 0.4,
+      "visual_evidence_useful": false,
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "suggested_inputs": [],
+      "notes": "片尾人物停留有意保留。"
+    }
+  ]
+}

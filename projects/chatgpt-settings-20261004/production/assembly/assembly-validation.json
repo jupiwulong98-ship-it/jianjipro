@@ -1,0 +1,363 @@
+{
+  "status": "assembled_verified_static",
+  "project_id": "cc3387e2-a642-406a-acea-d4ec922e0740",
+  "timeline_id": "3669cee6-df62-48bb-afa3-aa1239b79ae1",
+  "track_id": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+  "track_name": "TalkCraft 动效 · 11段",
+  "duration_frames": 4475,
+  "fps": 30,
+  "original_item_count": 69,
+  "original_mapping_unchanged": true,
+  "captions_count": 81,
+  "captions_unchanged": true,
+  "clips": [
+    {
+      "durationFrames": 95,
+      "startFrame": 79,
+      "id": "329545ff-8457-4926-8108-91bc9b0187a5",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-02",
+      "asset": {
+        "id": "d4d6e259a5",
+        "name": "meaning-02",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 95,
+      "startFrame": 403,
+      "id": "786bafb9-6aa0-42c2-932b-b282272c5de4",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-04",
+      "asset": {
+        "id": "6980c1d30a",
+        "name": "meaning-04",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 143,
+      "startFrame": 631,
+      "id": "7c115474-7da4-4da5-a21f-2000a2579c11",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-05",
+      "asset": {
+        "id": "4802d59363",
+        "name": "meaning-05",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 226,
+      "startFrame": 1088,
+      "id": "d7843aa1-ef86-40d3-9fe7-dbf7c38f0393",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-07",
+      "asset": {
+        "id": "475664f9cc",
+        "name": "meaning-07",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 283,
+      "startFrame": 1582,
+      "id": "1f272c7c-08fb-415a-9303-6236868de331",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-10",
+      "asset": {
+        "id": "2dca50ad53",
+        "name": "meaning-10",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 328,
+      "startFrame": 1872,
+      "id": "75fb6589-e147-4bba-87e6-5cc6249f2542",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-11",
+      "asset": {
+        "id": "46a24c7159",
+        "name": "meaning-11",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 97,
+      "startFrame": 2208,
+      "id": "f4a8f2df-d055-4875-bc18-1711caed0fd3",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-12",
+      "asset": {
+        "id": "57d0c5e2e9",
+        "name": "meaning-12",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 251,
+      "startFrame": 2313,
+      "id": "d7a2c50d-3ebe-44ec-8d4a-f19ddbc2d1c1",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-13",
+      "asset": {
+        "id": "fe9702fee5",
+        "name": "meaning-13",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 292,
+      "startFrame": 2741,
+      "id": "d99bed3d-e56d-45c7-b49b-4bdac476701d",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-15",
+      "asset": {
+        "id": "e3582275cf",
+        "name": "meaning-15",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 372,
+      "startFrame": 3157,
+      "id": "a8c1140f-a076-4a77-85dd-0bdbe6da95b6",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-17",
+      "asset": {
+        "id": "8e9c0259bf",
+        "name": "meaning-17",
+        "type": "video"
+      }
+    },
+    {
+      "durationFrames": 132,
+      "startFrame": 4073,
+      "id": "57fc13db-4d12-489d-ae08-6e196090a50b",
+      "trackId": "9bd8760c-fe64-4f70-937f-28e133ed4bad",
+      "type": "video",
+      "meaning_id": "meaning-20",
+      "asset": {
+        "id": "1c3bccd8e2",
+        "name": "meaning-20",
+        "type": "video"
+      }
+    }
+  ],
+  "duration_probe_fixes": [
+    {
+      "clip": "meaning-07",
+      "before": 7533000,
+      "after": 7533334
+    },
+    {
+      "clip": "meaning-10",
+      "before": 9433000,
+      "after": 9433334
+    },
+    {
+      "clip": "meaning-11",
+      "before": 10933000,
+      "after": 10933334
+    },
+    {
+      "clip": "meaning-12",
+      "before": 3233000,
+      "after": 3233334
+    },
+    {
+      "clip": "meaning-15",
+      "before": 9733000,
+      "after": 9733334
+    }
+  ],
+  "viewer": {
+    "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/cc3387e2-a642-406a-acea-d4ec922e0740/previews/79aa28bd-d7c1-4d7c-a7ec-e9be53501eed.jpg",
+    "cells": [
+      {
+        "col": 0,
+        "frame": 0,
+        "row": 0
+      },
+      {
+        "col": 1,
+        "frame": 147,
+        "row": 0
+      },
+      {
+        "col": 2,
+        "frame": 403,
+        "row": 0
+      },
+      {
+        "col": 0,
+        "frame": 421,
+        "row": 1
+      },
+      {
+        "col": 1,
+        "frame": 432,
+        "row": 1
+      },
+      {
+        "col": 2,
+        "frame": 471,
+        "row": 1
+      },
+      {
+        "col": 0,
+        "frame": 498,
+        "row": 2
+      },
+      {
+        "col": 1,
+        "frame": 767,
+        "row": 2
+      },
+      {
+        "col": 2,
+        "frame": 1251,
+        "row": 2
+      },
+      {
+        "col": 0,
+        "frame": 1850,
+        "row": 3
+      },
+      {
+        "col": 1,
+        "frame": 2108,
+        "row": 3
+      },
+      {
+        "col": 2,
+        "frame": 2278,
+        "row": 3
+      },
+      {
+        "col": 0,
+        "frame": 2494,
+        "row": 4
+      },
+      {
+        "col": 1,
+        "frame": 2951,
+        "row": 4
+      },
+      {
+        "col": 2,
+        "frame": 3425,
+        "row": 4
+      },
+      {
+        "col": 0,
+        "frame": 4168,
+        "row": 5
+      },
+      {
+        "col": 1,
+        "frame": 4474,
+        "row": 5
+      }
+    ],
+    "fps": 30,
+    "frames": [
+      {
+        "frame": 0,
+        "timelineTimeMs": 0
+      },
+      {
+        "frame": 147,
+        "timelineTimeMs": 4900
+      },
+      {
+        "frame": 403,
+        "timelineTimeMs": 13433
+      },
+      {
+        "frame": 421,
+        "timelineTimeMs": 14033
+      },
+      {
+        "frame": 432,
+        "timelineTimeMs": 14400
+      },
+      {
+        "frame": 471,
+        "timelineTimeMs": 15700
+      },
+      {
+        "frame": 498,
+        "timelineTimeMs": 16600
+      },
+      {
+        "frame": 767,
+        "timelineTimeMs": 25567
+      },
+      {
+        "frame": 1251,
+        "timelineTimeMs": 41700
+      },
+      {
+        "frame": 1850,
+        "timelineTimeMs": 61667
+      },
+      {
+        "frame": 2108,
+        "timelineTimeMs": 70267
+      },
+      {
+        "frame": 2278,
+        "timelineTimeMs": 75933
+      },
+      {
+        "frame": 2494,
+        "timelineTimeMs": 83133
+      },
+      {
+        "frame": 2951,
+        "timelineTimeMs": 98367
+      },
+      {
+        "frame": 3425,
+        "timelineTimeMs": 114167
+      },
+      {
+        "frame": 4168,
+        "timelineTimeMs": 138933
+      },
+      {
+        "frame": 4474,
+        "timelineTimeMs": 149133
+      }
+    ],
+    "grid": {
+      "cols": 3,
+      "rows": 6
+    },
+    "height": 1560,
+    "renderableDurationInFrames": 4475,
+    "renderedBy": "frontend",
+    "status": "available",
+    "timelineId": "3669cee6-df62-48bb-afa3-aa1239b79ae1",
+    "width": 1242
+  },
+  "checks": [
+    "11 clips source-in=0, exact frames, full canvas; silent",
+    "17 native composed frames inspected",
+    "ProRes alpha reveals original footage",
+    "Original A-roll mappings and caption state unchanged"
+  ],
+  "limitation": "抽帧核对不等同于整片动态审片或听音验收；未执行最终导出"
+}

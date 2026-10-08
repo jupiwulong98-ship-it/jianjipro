@@ -2,8 +2,10 @@ version: 0.2
 project_id: string
 source_video: string
 transcript_source: string
+transcript_revision: string # 新口播项目引用剪后全文JSON的revision；旧记录不伪装为已迁移。
 segments:
   - id: segment-001
+    source_word_ids: [] # 来自剪后全文JSON，保留动作锚点与文本来源。
     start: 0.0
     end: 0.0
     text: ""

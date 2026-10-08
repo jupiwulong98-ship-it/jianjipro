@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "main_video_clips": 87,
+  "main_video_snapshot_equal": true,
+  "duration_frames": 7253,
+  "motion_clips": 20,
+  "presenter_clips": 46,
+  "frame_placement_equal": true,
+  "presenter_coverage_equal": true,
+  "visible_original_captions": 143,
+  "caption_text_and_times_equal_to_approved_transcript": true,
+  "tests": {
+    "talkcraft": {
+      "passed": 11
+    },
+    "style": {
+      "passed": 14
+    }
+  },
+  "actual_preview": "chatcut-composite-20-shots.jpg",
+  "continuous_listening_review": "not_verified"
+}

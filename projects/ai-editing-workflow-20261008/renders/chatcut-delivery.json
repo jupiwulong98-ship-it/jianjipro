@@ -1,0 +1,171 @@
+{
+  "project_id": "ai-editing-workflow-20261008",
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "status": "assembled_and_exported",
+  "clips": [
+    {
+      "shot_id": "scene-01",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-01-ce4cca2857d0.mov",
+      "start_frame": 8,
+      "duration_frames": 133,
+      "presentation_mode": "presenter_safe",
+      "hash": "ce4cca2857d0aa217d9cf31881e08f886341b774239e78788bfd934fe3a768c5"
+    },
+    {
+      "shot_id": "scene-02",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-02-b4f56828afe9.mov",
+      "start_frame": 143,
+      "duration_frames": 277,
+      "presentation_mode": "full_screen",
+      "hash": "b4f56828afe95278475a924154035aa5241a09ee7201de430ab143abd1f2bb0a"
+    },
+    {
+      "shot_id": "scene-04",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-04-8e193f66f63c.mov",
+      "start_frame": 740,
+      "duration_frames": 169,
+      "presentation_mode": "full_screen",
+      "hash": "8e193f66f63c922c79c9ef8cab7237a21aade238fe0fbe67c9762d713139960b"
+    },
+    {
+      "shot_id": "scene-05",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-05-ab84daca2698.mov",
+      "start_frame": 917,
+      "duration_frames": 345,
+      "presentation_mode": "full_screen",
+      "hash": "ab84daca269855059ca5cb1d457cd47f4f028241aaa9fc17cc0b026db2941966"
+    },
+    {
+      "shot_id": "scene-06",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-06-a92a3381b389.mov",
+      "start_frame": 1268,
+      "duration_frames": 275,
+      "presentation_mode": "full_screen",
+      "hash": "a92a3381b389645663c923fef74ba06d4e3faf942e20af45c43edc2b384ba265"
+    },
+    {
+      "shot_id": "scene-08",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-08-98f96fa5b318.mov",
+      "start_frame": 1802,
+      "duration_frames": 179,
+      "presentation_mode": "presenter_safe",
+      "hash": "98f96fa5b3183a62d442c4cb51907d799483c470cc86d39087ca3634881d0c42"
+    },
+    {
+      "shot_id": "scene-09",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-09-196f1fe6f72d.mov",
+      "start_frame": 1982,
+      "duration_frames": 176,
+      "presentation_mode": "full_screen",
+      "hash": "196f1fe6f72d99b42c0b1a62167d1957e25672ffd870dad4249d0684d2396e65"
+    },
+    {
+      "shot_id": "scene-10",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-10-6fff3142d02b.mov",
+      "start_frame": 2166,
+      "duration_frames": 293,
+      "presentation_mode": "full_screen",
+      "hash": "6fff3142d02b5631817f4e87ae827f08084c9fd1dbdb1407970a130b28bb6429"
+    },
+    {
+      "shot_id": "scene-11",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-11-3d1e1c4d9ef4.mov",
+      "start_frame": 2462,
+      "duration_frames": 464,
+      "presentation_mode": "full_screen",
+      "hash": "3d1e1c4d9ef4872dc7f870c21c2ddc4c8da329952e6706884504acf1550d9776"
+    },
+    {
+      "shot_id": "scene-12",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-12-9abccc205735.mov",
+      "start_frame": 2934,
+      "duration_frames": 239,
+      "presentation_mode": "full_screen",
+      "hash": "9abccc20573548332d133cfe7c87911df180fbb78409c1aaa96d7e12e66fd45c"
+    },
+    {
+      "shot_id": "scene-14",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-14-328088381d3d.mov",
+      "start_frame": 3366,
+      "duration_frames": 236,
+      "presentation_mode": "full_screen",
+      "hash": "328088381d3d3735fc939c6fc835d87eb07596c29526c7fb0601112afd983ab7"
+    },
+    {
+      "shot_id": "scene-15",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-15-b44357bd2dd1.mov",
+      "start_frame": 3610,
+      "duration_frames": 307,
+      "presentation_mode": "full_screen",
+      "hash": "b44357bd2dd128bbfa50776a16e7b774e21dc47a432865cdd7c4c6aff6357ecf"
+    },
+    {
+      "shot_id": "scene-16",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-16-095cda9ba8af.mov",
+      "start_frame": 3925,
+      "duration_frames": 165,
+      "presentation_mode": "presenter_safe",
+      "hash": "095cda9ba8af4887818b4bb37e44c3bfd5430c6c28b005cb63fe4dc1a1e013d2"
+    },
+    {
+      "shot_id": "scene-18",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-18-49f2a1976256.mov",
+      "start_frame": 4394,
+      "duration_frames": 407,
+      "presentation_mode": "full_screen",
+      "hash": "49f2a19762561b2c7f6d8b175f72d398bf851c8d9a05bbb169c9b01c7fafbb72"
+    },
+    {
+      "shot_id": "scene-19",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-19-ec1503134901.mov",
+      "start_frame": 4810,
+      "duration_frames": 131,
+      "presentation_mode": "full_screen",
+      "hash": "ec15031349013742d89dbd2986bfc05d6dfcd6f139dbce672743a8199ad6bc2e"
+    },
+    {
+      "shot_id": "scene-21",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-21-462acfef2c3b.mov",
+      "start_frame": 5260,
+      "duration_frames": 309,
+      "presentation_mode": "full_screen",
+      "hash": "462acfef2c3b508bbffa27e92f25f2b40035e89dcc133e71a8c734a2c7d23be3"
+    },
+    {
+      "shot_id": "scene-23",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-23-f6863e0e48e6.mov",
+      "start_frame": 5877,
+      "duration_frames": 234,
+      "presentation_mode": "presenter_safe",
+      "hash": "f6863e0e48e6f962b75c2c4226384f093492c893390904be85ee341f2241b4f1"
+    },
+    {
+      "shot_id": "scene-24",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-24-f5c5b35429b5.mov",
+      "start_frame": 6112,
+      "duration_frames": 218,
+      "presentation_mode": "full_screen",
+      "hash": "f5c5b35429b5e297f1e828b1ed8f04a9f61a7c4f791b6ed1ffdef3dfccabf5b3"
+    },
+    {
+      "shot_id": "scene-26",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-26-4f5b026a829d.mov",
+      "start_frame": 6560,
+      "duration_frames": 190,
+      "presentation_mode": "full_screen",
+      "hash": "4f5b026a829dba1bef85b96be6561925c352ec89071ede502915f3029c63cbe6"
+    },
+    {
+      "shot_id": "scene-27",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-27-ba78b2c52de4.mov",
+      "start_frame": 6758,
+      "duration_frames": 407,
+      "presentation_mode": "presenter_safe",
+      "hash": "ba78b2c52de486b0a78dafe6830e7c42e924f5fa30aa90fce975f0fca5e3ba60"
+    }
+  ],
+  "assembly_record": "../assembly-record.json",
+  "revision": "pip-cleanup-v2"
+}

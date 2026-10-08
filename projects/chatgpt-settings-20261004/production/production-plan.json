@@ -1,0 +1,622 @@
+{
+  "project_id": "chatgpt-settings-20261004",
+  "transcript_revision": "bfa9253e69f717c0058472d3fd44feb33f868165da73ea4f437de2bf070765ed",
+  "authorization": {
+    "source": "current_user_message",
+    "text": "现在开始制作动画效果；优先使用自带模板；真实截图隐私打码",
+    "planning_comment": {
+      "scene": "meaning-04",
+      "text": "从0%到95%，在讲到95%的时候",
+      "preserved_in_history": true
+    }
+  },
+  "jobs": [
+    {
+      "id": "meaning-02",
+      "n": 2,
+      "start": 2.633333,
+      "end": 5.793333,
+      "start_frame": 79,
+      "duration_frames": 95,
+      "mode": "presenter_safe",
+      "card": "talkcraft:rack-focus-pair",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        2.633333,
+        5.193333
+      ],
+      "structure": "comparison"
+    },
+    {
+      "id": "meaning-04",
+      "n": 4,
+      "start": 13.433333,
+      "end": 16.6,
+      "start_frame": 403,
+      "duration_frames": 95,
+      "mode": "presenter_safe",
+      "card": "talkcraft:number-counter",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        13.433333
+      ],
+      "structure": "single_focus"
+    },
+    {
+      "id": "meaning-05",
+      "n": 5,
+      "start": 21.033333,
+      "end": 25.793333,
+      "start_frame": 631,
+      "duration_frames": 143,
+      "mode": "full_screen",
+      "card": "talkcraft:focus-dim-spotlight",
+      "asset": "style-screen",
+      "status": "candidate",
+      "cue_seconds": [
+        21.033333,
+        23.633333,
+        25.113333
+      ],
+      "structure": "sequence"
+    },
+    {
+      "id": "meaning-07",
+      "n": 7,
+      "start": 36.253333,
+      "end": 43.793333,
+      "start_frame": 1088,
+      "duration_frames": 226,
+      "mode": "full_screen",
+      "card": "talkcraft:rack-focus-pair",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        36.253333,
+        37.86,
+        39.233333,
+        42.913333
+      ],
+      "structure": "comparison"
+    },
+    {
+      "id": "meaning-10",
+      "n": 10,
+      "start": 52.733333,
+      "end": 62.16,
+      "start_frame": 1582,
+      "duration_frames": 283,
+      "mode": "full_screen",
+      "card": "talkcraft:error-retype",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        53.773333,
+        55.066667,
+        60.16
+      ],
+      "structure": "before_after"
+    },
+    {
+      "id": "meaning-11",
+      "n": 11,
+      "start": 62.4,
+      "end": 73.346667,
+      "start_frame": 1872,
+      "duration_frames": 328,
+      "mode": "full_screen",
+      "card": "talkcraft:focus-dim-spotlight",
+      "asset": "instructions-screen",
+      "status": "candidate",
+      "cue_seconds": [
+        63.933333,
+        66.066667,
+        68.366667,
+        71.066667
+      ],
+      "structure": "sequence"
+    },
+    {
+      "id": "meaning-12",
+      "n": 12,
+      "start": 73.6,
+      "end": 76.826667,
+      "start_frame": 2208,
+      "duration_frames": 97,
+      "mode": "full_screen",
+      "card": "talkcraft:host-card-glass-board",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        73.6,
+        75.386667,
+        76.466667
+      ],
+      "structure": "one_to_many"
+    },
+    {
+      "id": "meaning-13",
+      "n": 13,
+      "start": 77.1,
+      "end": 85.48,
+      "start_frame": 2313,
+      "duration_frames": 251,
+      "mode": "full_screen",
+      "card": "talkcraft:focus-dim-spotlight",
+      "asset": "memory-screen",
+      "status": "candidate",
+      "cue_seconds": [
+        81.04,
+        82.356667,
+        84.64
+      ],
+      "structure": "sequence"
+    },
+    {
+      "id": "meaning-15",
+      "n": 15,
+      "start": 91.366667,
+      "end": 101.106667,
+      "start_frame": 2741,
+      "duration_frames": 292,
+      "mode": "full_screen",
+      "card": "talkcraft:strike-and-replace",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        92.833333,
+        95.12,
+        97.368796,
+        100.426667
+      ],
+      "structure": "before_after"
+    },
+    {
+      "id": "meaning-17",
+      "n": 17,
+      "start": 105.233333,
+      "end": 117.646667,
+      "start_frame": 3157,
+      "duration_frames": 372,
+      "mode": "full_screen",
+      "card": "talkcraft:focus-dim-spotlight",
+      "asset": "data-screen",
+      "status": "candidate",
+      "cue_seconds": [
+        108.333333,
+        109.433333,
+        113.766667,
+        116.726667
+      ],
+      "structure": "sequence"
+    },
+    {
+      "id": "meaning-20",
+      "n": 20,
+      "start": 135.766667,
+      "end": 140.173333,
+      "start_frame": 4073,
+      "duration_frames": 132,
+      "mode": "full_screen",
+      "card": "talkcraft:rack-focus-pair",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        135.766667,
+        137.973333,
+        139.213333
+      ],
+      "structure": "comparison"
+    }
+  ],
+  "captions": [
+    {
+      "text": "为什么你的 AI 没有别人的好用呢？",
+      "start": 0.25,
+      "end": 2.37
+    },
+    {
+      "text": "同样的模型，",
+      "start": 2.633333,
+      "end": 3.513333
+    },
+    {
+      "text": "差距全在这些不起眼的设置里面。",
+      "start": 3.513333,
+      "end": 5.793333
+    },
+    {
+      "text": "GPT 官方承认",
+      "start": 6.033333,
+      "end": 7.433333
+    },
+    {
+      "text": "AI 太会拍马屁了。",
+      "start": 7.666667,
+      "end": 9.306667
+    },
+    {
+      "text": "而他们给出了解决方案。",
+      "start": 9.566667,
+      "end": 11.086667
+    },
+    {
+      "text": "都藏在你的设置按钮里面。",
+      "start": 11.333333,
+      "end": 13.173333
+    },
+    {
+      "text": "95% 的人从来都没有打开过这些设置按钮。",
+      "start": 13.433333,
+      "end": 16.593333
+    },
+    {
+      "text": "尤其是最后一个，",
+      "start": 16.833333,
+      "end": 17.873333
+    },
+    {
+      "text": "很多人用了几年都不知道。",
+      "start": 17.873333,
+      "end": 19.273333
+    },
+    {
+      "text": "现在直接跟着我改。",
+      "start": 19.533333,
+      "end": 20.773333
+    },
+    {
+      "text": "第一个，我们先改 GPT 的说话风格。",
+      "start": 21.033333,
+      "end": 23.393333
+    },
+    {
+      "text": "打开设置，",
+      "start": 23.633333,
+      "end": 24.573333
+    },
+    {
+      "text": "找到个性化。",
+      "start": 24.673333,
+      "end": 25.793333
+    },
+    {
+      "text": "如果你平时拿它工作，",
+      "start": 26.033333,
+      "end": 27.543333
+    },
+    {
+      "text": "我更建议你",
+      "start": 27.593333,
+      "end": 28.753333
+    },
+    {
+      "text": "选择偏专业、高效、",
+      "start": 29,
+      "end": 30.88
+    },
+    {
+      "text": "直截了当的风格。",
+      "start": 31.133333,
+      "end": 32.613333
+    },
+    {
+      "text": "为什么？",
+      "start": 32.866667,
+      "end": 33.466667
+    },
+    {
+      "text": "因为很多人最烦的一点就是，",
+      "start": 33.733333,
+      "end": 35.373333
+    },
+    {
+      "text": "你说什么它都先夸你两句。",
+      "start": 35.373333,
+      "end": 37.253333
+    },
+    {
+      "text": "例如，你的想法很棒。",
+      "start": 37.5,
+      "end": 38.98
+    },
+    {
+      "text": "这个方向非常有潜力。",
+      "start": 39.233333,
+      "end": 40.593333
+    },
+    {
+      "text": "听着很舒服，",
+      "start": 40.833333,
+      "end": 41.633333
+    },
+    {
+      "text": "但是对你解决问题没有任何帮助。",
+      "start": 41.633333,
+      "end": 43.793333
+    },
+    {
+      "text": "所以我自己给它的原则很简单，",
+      "start": 44.033333,
+      "end": 46.153333
+    },
+    {
+      "text": "少哄我，多找出问题。",
+      "start": 46.4,
+      "end": 48.32
+    },
+    {
+      "text": "第二个，把自定义指令设置好。",
+      "start": 48.566667,
+      "end": 51.006667
+    },
+    {
+      "text": "这一步非常重要。",
+      "start": 51.266667,
+      "end": 52.466667
+    },
+    {
+      "text": "不要每打开一个新会话就告诉它，",
+      "start": 52.733333,
+      "end": 54.813333
+    },
+    {
+      "text": "简洁一点。",
+      "start": 55.066667,
+      "end": 55.906667
+    },
+    {
+      "text": "不要说废话，",
+      "start": 56.133333,
+      "end": 57.093333
+    },
+    {
+      "text": "如果我错了就直接指出来。",
+      "start": 57.366667,
+      "end": 59.166667
+    },
+    {
+      "text": "这些要求一次性写进指令里面。",
+      "start": 59.4,
+      "end": 62.16
+    },
+    {
+      "text": "比如我会告诉它。",
+      "start": 62.4,
+      "end": 63.67
+    },
+    {
+      "text": "不要为了认同我而认同我。",
+      "start": 63.933333,
+      "end": 65.813333
+    },
+    {
+      "text": "发现我的逻辑有问题，",
+      "start": 66.066667,
+      "end": 67.266667
+    },
+    {
+      "text": "直接指出来。",
+      "start": 67.266667,
+      "end": 68.106667
+    },
+    {
+      "text": "回答优先给我结论，",
+      "start": 68.366667,
+      "end": 69.726667
+    },
+    {
+      "text": "再给我解释原因。",
+      "start": 69.726667,
+      "end": 70.846667
+    },
+    {
+      "text": "不要堆砌一堆正确但没用的废话。",
+      "start": 71.066667,
+      "end": 73.346667
+    },
+    {
+      "text": "设置一次之后。",
+      "start": 73.6,
+      "end": 74.82
+    },
+    {
+      "text": "以后大量的对话都不用",
+      "start": 75.066667,
+      "end": 76.466667
+    },
+    {
+      "text": "重复。",
+      "start": 76.466667,
+      "end": 76.826667
+    },
+    {
+      "text": "第三个就是检查它到底记住了你什么。",
+      "start": 77.1,
+      "end": 80.14
+    },
+    {
+      "text": "还是进入个性化，",
+      "start": 80.4,
+      "end": 81.72
+    },
+    {
+      "text": "找到记忆相关的设置。",
+      "start": 81.966667,
+      "end": 83.366667
+    },
+    {
+      "text": "这里你一定要定期去看。",
+      "start": 83.6,
+      "end": 85.48
+    },
+    {
+      "text": "因为你半年前随口说的一句话，",
+      "start": 85.733333,
+      "end": 87.923333
+    },
+    {
+      "text": "它可能就给你记住了。",
+      "start": 87.933333,
+      "end": 89.093333
+    },
+    {
+      "text": "可能不是你现在的真实情况了。",
+      "start": 89.366667,
+      "end": 91.126667
+    },
+    {
+      "text": "比如你以前告诉它，",
+      "start": 91.366667,
+      "end": 92.586667
+    },
+    {
+      "text": "我最近在减肥。",
+      "start": 92.833333,
+      "end": 94.153333
+    },
+    {
+      "text": "后来你已经不减了。",
+      "start": 94.4,
+      "end": 95.76
+    },
+    {
+      "text": "但这个信息一直影响它后面的回答。",
+      "start": 96.008796,
+      "end": 98.808796
+    },
+    {
+      "text": "它给你的建议就可能会越来越偏。",
+      "start": 99.066667,
+      "end": 101.106667
+    },
+    {
+      "text": "所以它的记忆不是越多越好。",
+      "start": 101.333333,
+      "end": 103.133333
+    },
+    {
+      "text": "准确的记忆才有价值。",
+      "start": 103.4,
+      "end": 105
+    },
+    {
+      "text": "最后一个。",
+      "start": 105.233333,
+      "end": 106.073333
+    },
+    {
+      "text": "检查你的数据控制设置。",
+      "start": 106.333333,
+      "end": 108.093333
+    },
+    {
+      "text": "打开设置。",
+      "start": 108.333333,
+      "end": 109.173333
+    },
+    {
+      "text": "进入数据控制或者相关的隐私选项。",
+      "start": 109.433333,
+      "end": 112.353333
+    },
+    {
+      "text": "看看类似，",
+      "start": 112.6,
+      "end": 113.5
+    },
+    {
+      "text": "帮助改进模型。",
+      "start": 113.766667,
+      "end": 115.316667
+    },
+    {
+      "text": "这一类选项是不是符合你的需求？",
+      "start": 115.566667,
+      "end": 117.646667
+    },
+    {
+      "text": "尤其是你经常往 GPT 里面放。",
+      "start": 117.9,
+      "end": 120.26
+    },
+    {
+      "text": "公司资料、",
+      "start": 120.5,
+      "end": 121.26
+    },
+    {
+      "text": "客户信息、",
+      "start": 121.26,
+      "end": 121.9
+    },
+    {
+      "text": "商业方案。",
+      "start": 121.94,
+      "end": 122.74
+    },
+    {
+      "text": "或者比较私人的内容。",
+      "start": 123,
+      "end": 124.52
+    },
+    {
+      "text": "那你应该至少知道这些开关在哪里，",
+      "start": 124.766667,
+      "end": 127.206667
+    },
+    {
+      "text": "而不是一直用默认设置。",
+      "start": 127.433333,
+      "end": 129.193333
+    },
+    {
+      "text": "这 4 个地方全部都检查完以后，",
+      "start": 129.466667,
+      "end": 131.466667
+    },
+    {
+      "text": "你会发现。",
+      "start": 131.466667,
+      "end": 132.106667
+    },
+    {
+      "text": "真正让 ChatGPT 越来越好用的，",
+      "start": 132.333333,
+      "end": 134.493333
+    },
+    {
+      "text": "不只是换一个更强的模型。",
+      "start": 134.766667,
+      "end": 136.486667
+    },
+    {
+      "text": "而是让它越来越了解",
+      "start": 136.733333,
+      "end": 138.333333
+    },
+    {
+      "text": "你希望它怎么样和你工作。",
+      "start": 138.333333,
+      "end": 140.173333
+    },
+    {
+      "text": "如果你还在裸用 AI 先把这 4 个设置改了。",
+      "start": 140.4,
+      "end": 143.28
+    },
+    {
+      "text": "关注我，接下来我还会继续把这些 AI 工具。",
+      "start": 143.533333,
+      "end": 146.453333
+    },
+    {
+      "text": "一个一个调成真正能干活的助手。",
+      "start": 146.7,
+      "end": 148.9
+    }
+  ],
+  "duration_frames": 4475
+}

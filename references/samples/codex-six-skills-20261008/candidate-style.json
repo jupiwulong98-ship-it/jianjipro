@@ -1,0 +1,84 @@
+{
+  "version": 0.1,
+  "status": "single_reference_candidate_not_production_profile",
+  "video_id": "codex-six-skills-20261008",
+  "proposed_scope": {
+    "content_purpose": "知识分享",
+    "content_structure": "工具清单/能力介绍→工作流总结",
+    "presentation": "真人口播+图解+演示",
+    "skin": "暗蓝紫科技舞台+浅色流程插画"
+  },
+  "stable_rule_min_videos": 2,
+  "source_sample_count": 1,
+  "rules": [
+    {
+      "rule_id": "R01",
+      "title": "先给价值承诺与总览，再逐章介绍，结尾重新组织为工作流",
+      "evidence_events": [
+        "codex-six-skills-20261008-e001",
+        "codex-six-skills-20261008-e003",
+        "codex-six-skills-20261008-e006",
+        "codex-six-skills-20261008-e028",
+        "codex-six-skills-20261008-e030"
+      ],
+      "limit": "适用于工具清单/方法合集；不是所有知识分享的统一开头",
+      "status": "candidate"
+    },
+    {
+      "rule_id": "R02",
+      "title": "章节介绍复用身份版式；主体解释按并列、示例或流程选择不同结构",
+      "evidence_events": [
+        "codex-six-skills-20261008-e006",
+        "codex-six-skills-20261008-e010",
+        "codex-six-skills-20261008-e014",
+        "codex-six-skills-20261008-e017",
+        "codex-six-skills-20261008-e020",
+        "codex-six-skills-20261008-e025"
+      ],
+      "limit": "仅片内六次重复观察，尚未跨片验证",
+      "status": "candidate"
+    },
+    {
+      "rule_id": "R03",
+      "title": "需要观众看产物或操作时，把真实媒体放大并配短结论",
+      "evidence_events": [
+        "codex-six-skills-20261008-e009",
+        "codex-six-skills-20261008-e013",
+        "codex-six-skills-20261008-e015",
+        "codex-six-skills-20261008-e023"
+      ],
+      "limit": "必须校验素材相关性，截图不自动证明口播主张",
+      "status": "candidate"
+    },
+    {
+      "rule_id": "R04",
+      "title": "换结构由信息关系触发；强大字用于关键结果，而非每句话",
+      "evidence_events": [
+        "codex-six-skills-20261008-e008",
+        "codex-six-skills-20261008-e019",
+        "codex-six-skills-20261008-e026",
+        "codex-six-skills-20261008-e027"
+      ],
+      "limit": "未测量流量、理解或留存效果",
+      "status": "candidate"
+    },
+    {
+      "rule_id": "R05",
+      "title": "底字幕、章节导航、主舞台、媒体内部运动、强调与退出转场分层",
+      "evidence_events": [
+        "codex-six-skills-20261008-e031",
+        "codex-six-skills-20261008-e032",
+        "codex-six-skills-20261008-e035",
+        "codex-six-skills-20261008-e046"
+      ],
+      "limit": "避免把每一次字幕替换都算成主画面切换",
+      "status": "candidate"
+    }
+  ],
+  "unverified": [
+    "流量/转化/留存表现",
+    "精确字体与缓动",
+    "音效与BGM设计",
+    "成片逆向无法恢复的源组件实现"
+  ]
+}

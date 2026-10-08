@@ -1,0 +1,2644 @@
+version: 0.1
+video_id: codex-six-skills-20261008
+source_file: /Users/jupiwulong/Downloads/6个skill立刻实现Codex做视频全流程 _ai新星计划 _vibecoding大赏
+  _前沿科技趋势发布月 _我在抖音聊科技 _codex.mp4
+duration_sec: 61.3239
+sampling:
+  overview_every_sec: 1
+  dense_every_sec: 0.2
+  boundary_precision: approximate
+  no_frame_exact_claim: true
+notes:
+- 成片逆向观察；无法恢复原始项目、精确字体、缓动参数或分层素材。
+- 旁白主张仅为源片内容，不视为工具能力或流量表现已验证。
+- 音效/音乐尚未做独立听音核验。
+events:
+- event_id: codex-six-skills-20261008-e001
+  id: codex-six-skills-20261008-e001
+  name: 结果承诺开场
+  start: 0
+  end: 1.8
+  spoken_text: 装Codex不知道干什么
+  semantic_role: claim
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 装Codex不知道干什么
+    inferred_reason: 用结果承诺建立观看理由
+  visual:
+    layout:
+      description: 大白字 Codex 做视频搞钱，真人画面压暗
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 标题由较淡、小的状态变清晰；小标签补入
+    hold: 标题保持，真人继续口播
+    exit: 演示窗口进入后标题消失
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p001.jpg
+    sample_times:
+    - 0.0
+    - 1.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: codex-six-skills-20261008-e002
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P01
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e002
+  id: codex-six-skills-20261008-e002
+  name: 先露出制作结果
+  start: 1.8
+  end: 3.8
+  spoken_text: 当然是拿来做视频搞钱
+  semantic_role: example
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 当然是拿来做视频搞钱
+    inferred_reason: 在介绍工具前展示成片工作环境；不能据此验证工具能力
+  visual:
+    layout:
+      description: 编辑器窗口覆盖画面中右部，真人为底
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 窗口从较小、偏右下变大
+    hold: 窗口内可见时间线与预览
+    exit: 旋转成斜向薄片退场
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p001.jpg
+    sample_times:
+    - 1.8
+    - 3.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e001
+    next_event: codex-six-skills-20261008-e003
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e003
+  id: codex-six-skills-20261008-e003
+  name: 六项总览
+  start: 3.8
+  end: 5.8
+  spoken_text: 给Codex装上这6个skills
+  semantic_role: number
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 给Codex装上这6个skills
+    inferred_reason: 先建立全片地图，让后续编号有上下文
+  visual:
+    layout:
+      description: 蓝紫网格舞台，三列两行编号卡
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 背景与六卡从半透明叠加变成全屏
+    hold: 六项同时展示，不逐项讲解
+    exit: 录屏窗口从右下区域放大进入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p001.jpg
+    sample_times:
+    - 3.8
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p002.jpg
+    sample_times:
+    - 5.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e002
+    next_event: codex-six-skills-20261008-e004
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P03
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e004
+  id: codex-six-skills-20261008-e004
+  name: 制作界面展示
+  start: 5.8
+  end: 8.2
+  spoken_text: 直接让它参与整条视频制作流程
+  semantic_role: example
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 直接让它参与整条视频制作流程
+    inferred_reason: 把流程承诺与可见界面联系起来；界面不等于完成运行证据
+  visual:
+    layout:
+      description: 白底聊天/编辑界面包住深色预览与底部时间线
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 窗口由小变大覆盖总览
+    hold: 窗口内预览从六项网格切到单工具卡
+    exit: 整个外层窗口倾斜、收窄退出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p002.jpg
+    sample_times:
+    - 5.8
+    - 8.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e003
+    next_event: codex-six-skills-20261008-e005
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e005
+  id: codex-six-skills-20261008-e005
+  name: 真人桥接一
+  start: 8.2
+  end: 8.6
+  spoken_text: 第一个
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第一个
+    inferred_reason: 章与章之间短暂回到讲述者
+  visual:
+    layout:
+      description: 短暂干净真人画面
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 前一窗口离开
+    hold: 人物手势和口播保持
+    exit: 编号卡淡入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p002.jpg
+    sample_times:
+    - 8.2
+    - 8.4
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e004
+    next_event: codex-six-skills-20261008-e006
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P00
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e006
+  id: codex-six-skills-20261008-e006
+  name: 章节一：HyperFrames
+  start: 8.6
+  end: 10.2
+  spoken_text: 第一个，Hyperframes
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第一个，Hyperframes
+    inferred_reason: 建立工具身份；重复版式降低阅读成本
+  visual:
+    layout:
+      description: 左侧描边01，中间名称/用途/标签，右侧截图；紫色曲面背景
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 截图与编号先可见，名称和副文案随后变清晰
+    hold: 同版式保持，顶部当前章节高亮
+    exit: 与真人背景交叠淡出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p002.jpg
+    sample_times:
+    - 8.6
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p003.jpg
+    sample_times:
+    - 10.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e005
+    next_event: codex-six-skills-20261008-e007
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P02
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e007
+  id: codex-six-skills-20261008-e007
+  name: 真人桥接二
+  start: 10.2
+  end: 10.4
+  spoken_text: 一句话
+  semantic_role: claim
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 一句话
+    inferred_reason: 连接工具身份和用途
+  visual:
+    layout:
+      description: 真人画面，顶部导航与字幕保持
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 章节卡消退
+    hold: 非常短的桥接
+    exit: 能力卡组进入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p003.jpg
+    sample_times:
+    - 10.2
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e006
+    next_event: codex-six-skills-20261008-e008
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P00
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e008
+  id: codex-six-skills-20261008-e008
+  name: 五张用途卡展开
+  start: 10.4
+  end: 12.8
+  spoken_text: 一句话，生成动效视频，知识科普
+  semantic_role: example
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 一句话，生成动效视频，知识科普
+    inferred_reason: 将抽象用途展开为并列场景；五项未与口播逐项完全对齐
+  visual:
+    layout:
+      description: 五张倾斜圆角卡，上二下三，紫色一张更亮
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 卡片从中心堆叠展开，至约10.8秒形成两排
+    hold: 知识科普/产品介绍/动态视频/自动工作流/AI能力同时保持
+    exit: 切换为真人上的演示叠层
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p003.jpg
+    sample_times:
+    - 10.4
+    - 12.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e007
+    next_event: codex-six-skills-20261008-e009
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P04
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e009
+  id: codex-six-skills-20261008-e009
+  name: 结论牌配白底演示
+  start: 12.8
+  end: 16.2
+  spoken_text: 产品介绍，还能直接渲染成MP4成片
+  semantic_role: example
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 产品介绍，还能直接渲染成MP4成片
+    inferred_reason: 口播说用途，画面给出输出示例；演示只是源片展示内容
+  visual:
+    layout:
+      description: 左侧KEY TAKEAWAY结论牌，右侧白色示例，真人压暗为背景
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 两侧内容淡入/放大到稳定位置
+    hold: 演示内部有图标、路径和中部卡片变化；结论牌底线伸长
+    exit: 结论先淡去，右侧演示收成斜片退场
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p003.jpg
+    sample_times:
+    - 12.8
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 16.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e008
+    next_event: codex-six-skills-20261008-e010
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e010
+  id: codex-six-skills-20261008-e010
+  name: 章节二：Video Use
+  start: 16.2
+  end: 17.4
+  spoken_text: 第二个，Video use
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第二个，Video use
+    inferred_reason: 统一章节识别方式
+  visual:
+    layout:
+      description: 沿用编号介绍卡，02和右侧截图
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 截图/编号先出现，名称随后清晰
+    hold: 布局保持
+    exit: 交叠真人淡出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 16.2
+    - 17.2
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e009
+    next_event: codex-six-skills-20261008-e011
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P02
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e011
+  id: codex-six-skills-20261008-e011
+  name: 真人桥接三
+  start: 17.4
+  end: 17.6
+  spoken_text: 把拍摄素材
+  semantic_role: process
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 把拍摄素材
+    inferred_reason: 连接名称与功能
+  visual:
+    layout:
+      description: 真人短暂恢复亮度
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 介绍卡退去
+    hold: 短暂口播
+    exit: 能力窗口叠入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 17.4
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e010
+    next_event: codex-six-skills-20261008-e012
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P00
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e012
+  id: codex-six-skills-20261008-e012
+  name: 自动后期能力窗口
+  start: 17.6
+  end: 18.8
+  spoken_text: 把拍摄素材交给它
+  semantic_role: process
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 把拍摄素材交给它
+    inferred_reason: 用抽象窗口表达自动后期类别
+  visual:
+    layout:
+      description: 左侧主标题与四小标签，右侧模拟桌面窗口/三张白卡
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 标题、四标签和窗口建立
+    hold: 窗口中白卡略移动；它是功能示意，不是真实操作证据
+    exit: 切成真人上的真实编辑器叠层
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 17.6
+    - 18.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e011
+    next_event: codex-six-skills-20261008-e013
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P06
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e013
+  id: codex-six-skills-20261008-e013
+  name: 自动后期界面展示
+  start: 18.8
+  end: 21.8
+  spoken_text: 自动删除停顿，添加字幕调色做动效
+  semantic_role: example
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 自动删除停顿，添加字幕调色做动效
+    inferred_reason: 把功能清单与编辑界面并列；具体功能完成情况未验证
+  visual:
+    layout:
+      description: 左侧结论牌，右侧深色编辑器大窗口
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 窗口从偏下较小状态放大
+    hold: 编辑器和左侧结论牌保持；底线伸长
+    exit: 右侧窗口约21.4秒开始斜片退出，结论牌淡去
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 18.8
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p005.jpg
+    sample_times:
+    - 21.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e012
+    next_event: codex-six-skills-20261008-e014
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e014
+  id: codex-six-skills-20261008-e014
+  name: 章节三：Remotion
+  start: 21.8
+  end: 23.2
+  spoken_text: 第三个，Remotion
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第三个，Remotion
+    inferred_reason: 统一章节识别方式
+  visual:
+    layout:
+      description: 03编号介绍卡，右侧仓库类截图
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 编号/截图先出现，再补名称
+    hold: 统一介绍版式
+    exit: 交叠真人淡出，随后演示进入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p005.jpg
+    sample_times:
+    - 21.8
+    - 23.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e013
+    next_event: codex-six-skills-20261008-e015
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P02
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e015
+  id: codex-six-skills-20261008-e015
+  name: 代码批量视频展示
+  start: 23.2
+  end: 28.9
+  spoken_text: 用代码批量制作视频，比如排行榜、数据周报、固定栏目
+  semantic_role: example
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 用代码批量制作视频，比如排行榜、数据周报、固定栏目
+    inferred_reason: 示意代码制作，但未直接展示排行榜/周报成品；复用时素材需更贴合
+  visual:
+    layout:
+      description: 白底制作界面，预览内播放六项介绍卡
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 窗口由下方小状态放大
+    hold: 嵌套预览从总览切HyperFrames再Video Use后回总览；有光标圆圈
+    exit: 约28.8秒窗口斜片退场
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p005.jpg
+    sample_times:
+    - 23.2
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p006.jpg
+    sample_times:
+    - 28.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e014
+    next_event: codex-six-skills-20261008-e016
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e016
+  id: codex-six-skills-20261008-e016
+  name: 真人桥接四
+  start: 28.9
+  end: 29.2
+  spoken_text: 第四个
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第四个
+    inferred_reason: 给新章一点辨识空间
+  visual:
+    layout:
+      description: 真人手势与原景
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 窗口退出恢复真人
+    hold: 短暂桥接
+    exit: 04编号卡进入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p006.jpg
+    sample_times:
+    - 29.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e015
+    next_event: codex-six-skills-20261008-e017
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P00
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e017
+  id: codex-six-skills-20261008-e017
+  name: 章节四：Generative Media
+  start: 29.2
+  end: 31.0
+  spoken_text: 第四个，Generative media
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第四个，Generative media
+    inferred_reason: 介绍新实体；长标题需要自适应而非照抄原比例
+  visual:
+    layout:
+      description: 04编号卡；名称右端与截图接近/部分遮挡
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 截图/编号出现，名称随后
+    hold: 统一版式，但长名称空间不足
+    exit: 交叠真人淡出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p006.jpg
+    sample_times:
+    - 29.2
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p007.jpg
+    sample_times:
+    - 30.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e016
+    next_event: codex-six-skills-20261008-e018
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P02
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e018
+  id: codex-six-skills-20261008-e018
+  name: 真人桥接五
+  start: 31.0
+  end: 31.2
+  spoken_text: 视频生成工具箱
+  semantic_role: claim
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 视频生成工具箱
+    inferred_reason: 从实体转入能力关系
+  visual:
+    layout:
+      description: 真人短暂恢复
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 卡片退去
+    hold: 短暂口播
+    exit: 多媒体能力舞台进入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p007.jpg
+    sample_times:
+    - 31.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e017
+    next_event: codex-six-skills-20261008-e019
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P00
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e019
+  id: codex-six-skills-20261008-e019
+  name: 图片/视频/音频能力矩阵
+  start: 31.2
+  end: 34.8
+  spoken_text: 视频生成工具箱，图片视频音频全覆盖
+  semantic_role: claim
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 视频生成工具箱，图片视频音频全覆盖
+    inferred_reason: 用不同媒体载体表现覆盖范围；波形是示意，不是已提取的源音轨
+  visual:
+    layout:
+      description: 暗网格舞台；左截图，中部图片/视频/波形，右资产列表
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 矩阵由淡变实
+    hold: 约32.6秒起图片示例替换抽象图；横向示例和右侧竖版蛋糕动图入场
+    exit: 约34.6秒与真人交叠淡出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p007.jpg
+    sample_times:
+    - 31.2
+    - 34.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e018
+    next_event: codex-six-skills-20261008-e020
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P07
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e020
+  id: codex-six-skills-20261008-e020
+  name: 章节五：Video Cut
+  start: 34.8
+  end: 36.2
+  spoken_text: 第五个，Video Cut
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第五个，Video Cut
+    inferred_reason: 统一章节识别方式
+  visual:
+    layout:
+      description: 05编号介绍卡，右侧仓库/插件截图
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 截图/编号先出现，名称随后
+    hold: 统一版式保持
+    exit: 淡回真人
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p007.jpg
+    sample_times:
+    - 34.8
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p008.jpg
+    sample_times:
+    - 36.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e019
+    next_event: codex-six-skills-20261008-e021
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P02
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e021
+  id: codex-six-skills-20261008-e021
+  name: 真人桥接六
+  start: 36.2
+  end: 36.4
+  spoken_text: 专门为中文创作者
+  semantic_role: claim
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 专门为中文创作者
+    inferred_reason: 连接介绍和需求
+  visual:
+    layout:
+      description: 干净真人
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 编号卡退去
+    hold: 短暂口播
+    exit: 中文需求能力舞台进入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p008.jpg
+    sample_times:
+    - 36.2
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e020
+    next_event: codex-six-skills-20261008-e022
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P00
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e022
+  id: codex-six-skills-20261008-e022
+  name: 中文剪辑需求示意
+  start: 36.4
+  end: 39.0
+  spoken_text: 专门为中文创作者做的剪辑Skill
+  semantic_role: claim
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 专门为中文创作者做的剪辑Skill
+    inferred_reason: 表达差异化需求；窗口图解不算功能验证
+  visual:
+    layout:
+      description: 左主标题/四标签，右模拟桌面窗口/白卡
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 复用第二章能力窗口结构，更换文案
+    hold: 白卡保持轻微移动；需求标签可见
+    exit: 切为左结论牌+右真实截图
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p008.jpg
+    sample_times:
+    - 36.4
+    - 38.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e021
+    next_event: codex-six-skills-20261008-e023
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P06
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e023
+  id: codex-six-skills-20261008-e023
+  name: 中文能力结论配截图
+  start: 39.0
+  end: 40.6
+  spoken_text: 更懂中文剪辑需求
+  semantic_role: conclusion
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 更懂中文剪辑需求
+    inferred_reason: 保持同一总结语法；静态仓库截图只能证明画面中展示了它
+  visual:
+    layout:
+      description: 左结论牌+右仓库/插件截图，真人仍可见
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 两侧叠层由淡到实
+    hold: 结论和截图保持，进度底线伸长
+    exit: 约40.4秒开始淡去
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p008.jpg
+    sample_times:
+    - 39.0
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p009.jpg
+    sample_times:
+    - 40.4
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e022
+    next_event: codex-six-skills-20261008-e024
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e024
+  id: codex-six-skills-20261008-e024
+  name: 真人桥接七
+  start: 40.6
+  end: 41.0
+  spoken_text: 第六个
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第六个
+    inferred_reason: 章间桥接
+  visual:
+    layout:
+      description: 真人恢复原景
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 叠层消退
+    hold: 短暂口播
+    exit: 06编号卡进入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p009.jpg
+    sample_times:
+    - 40.6
+    - 40.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e023
+    next_event: codex-six-skills-20261008-e025
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P00
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e025
+  id: codex-six-skills-20261008-e025
+  name: 章节六：Seedance 2
+  start: 41.0
+  end: 42.8
+  spoken_text: 第六个，Seedance 2 skill
+  semantic_role: entity
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 第六个，Seedance 2 skill
+    inferred_reason: 新实体用后续解释图提前预告
+  visual:
+    layout:
+      description: 06编号卡，右侧变成浅色流程插画缩略图
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 截图先出现，编号/标题随后
+    hold: 统一章节版式
+    exit: 与真人交叠后浅色流程板进入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p009.jpg
+    sample_times:
+    - 41.0
+    - 42.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e024
+    next_event: codex-six-skills-20261008-e026
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P02
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e026
+  id: codex-six-skills-20261008-e026
+  name: 创意到分镜到成片
+  start: 42.8
+  end: 47.6
+  spoken_text: 你只需要告诉它一个视频创意，它就能帮你设计15秒分镜和提示词
+  semantic_role: process
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 你只需要告诉它一个视频创意，它就能帮你设计15秒分镜和提示词
+    inferred_reason: 用空间顺序解释输入到输出；不应把它误读成逐词推进动画
+  visual:
+    layout:
+      description: 浅米色全屏横向流程插画：灯泡→分镜→摄像机/成片
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 浅色板由淡变实，约43秒稳定
+    hold: 布局基本稳定，插画有微小位置/装饰变化；未见各节点按口播逐项新增
+    exit: 约47.6秒退回真人
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p009.jpg
+    sample_times:
+    - 42.8
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p010.jpg
+    sample_times:
+    - 47.4
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e025
+    next_event: codex-six-skills-20261008-e027
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P08
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e027
+  id: codex-six-skills-20261008-e027
+  name: 结果大字强调
+  start: 47.6
+  end: 49.9
+  spoken_text: 直接交给Seedance生成视频
+  semantic_role: conclusion
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 直接交给Seedance生成视频
+    inferred_reason: 把输入流程的结果作为一处强强调
+  visual:
+    layout:
+      description: 真人前景大白字“直接生成视频”
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 约47.8秒文字超大裁边，约48.2秒缩到可读大小
+    hold: 文字在真人胸口上方保持，字幕另在底部
+    exit: 约49.8秒向右移出并变淡
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p010.jpg
+    sample_times:
+    - 47.6
+    - 49.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e026
+    next_event: codex-six-skills-20261008-e028
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P09
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e028
+  id: codex-six-skills-20261008-e028
+  name: 回到六工具并收束观点
+  start: 49.9
+  end: 55.6
+  spoken_text: 这六个skill最大的作用不是单独使用，而是串成自己的视频工作流脚本
+  semantic_role: conclusion
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 这六个skill最大的作用不是单独使用，而是串成自己的视频工作流脚本
+    inferred_reason: 复用开场地图，把并列工具收束成协同观点；当前网格没有连线表达依赖
+  visual:
+    layout:
+      description: 六项网格回归，标题改为最大价值：串成工作流
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 网格与标题淡入
+    hold: 约52.8秒右上加入“专属工作流”白标签/绿色勾；约54.2秒勾重复出现一次
+    exit: 网格约55.4秒淡回真人，标签短暂保留
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p011.jpg
+    sample_times:
+    - 50.0
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p012.jpg
+    sample_times:
+    - 55.4
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e027
+    next_event: codex-six-skills-20261008-e029
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P03
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e029
+  id: codex-six-skills-20261008-e029
+  name: 真人桥接八
+  start: 55.6
+  end: 55.8
+  spoken_text: 从选题
+  semantic_role: process
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 从选题
+    inferred_reason: 切入最终结构
+  visual:
+    layout:
+      description: 真人和右上工作流标签
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 网格淡出
+    hold: 短暂桥接
+    exit: 深色五步生产链进入，标签移除
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p012.jpg
+    sample_times:
+    - 55.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e028
+    next_event: codex-six-skills-20261008-e030
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P00
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e030
+  id: codex-six-skills-20261008-e030
+  name: 五步生产链结尾
+  start: 55.8
+  end: 61.3239
+  spoken_text: 从选题、分镜、提示词到剪辑字幕、包装，都可以交给Codex，一步一步完成
+  semantic_role: process
+  event_type: motion_graphic
+  track: main-stage
+  trigger:
+    evidence_text: 从选题、分镜、提示词到剪辑字幕、包装，都可以交给Codex，一步一步完成
+    inferred_reason: 把六个工具重新组织为生产步骤；源片没有明确的互动CTA
+  visual:
+    layout:
+      description: 五张等宽编号卡横向并排：选题/分镜/提示词/剪辑字幕/动效包装
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 五卡快速依次补齐，约56.2秒已有完整五卡
+    hold: 卡片和空间顺序保持；没有见到每个口播词对应单独高亮
+    exit: 结束处维持流程板，源文件终止
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p012.jpg
+    sample_times:
+    - 55.8
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p013.jpg
+    sample_times:
+    - 61.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: codex-six-skills-20261008-e029
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P10
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e031
+  id: codex-six-skills-20261008-e031
+  name: 顶部章节导航
+  start: 0
+  end: 61.3239
+  spoken_text: 开场/六个工具/串成工作流
+  semantic_role: other
+  event_type: background
+  track: navigation
+  trigger:
+    evidence_text: 开场/六个工具/串成工作流
+    inferred_reason: 维持章节位置感；是否同一源组件未知
+  visual:
+    layout:
+      description: 顶部窄条持续导航；章节介绍内部也有自身导航版式
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 源视频第一帧已可见
+    hold: 当前章节在不同段落高亮；源界面导航与外层导航存在样式更替
+    exit: 随源视频结束
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p001.jpg
+    sample_times:
+    - 0.0
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p013.jpg
+    sample_times:
+    - 61.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P11
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e032
+  id: codex-six-skills-20261008-e032
+  name: 底部字幕系统
+  start: 0
+  end: 61.3239
+  spoken_text: 见字幕校正记录
+  semantic_role: other
+  event_type: caption
+  track: captions
+  trigger:
+    evidence_text: 见字幕校正记录
+    inferred_reason: 保证讲话内容可读，和大字强调分层
+  visual:
+    layout:
+      description: 底部居中白字、黑色圆角底板
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 字幕按语句换行替换
+    hold: 与主包装并存；它不是关键词大字层
+    exit: 随语句替换/结束
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p001.jpg
+    sample_times:
+    - 0.0
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p013.jpg
+    sample_times:
+    - 61.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P12
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e033
+  id: codex-six-skills-20261008-e033
+  name: 开场标题补充标签
+  start: 0.2
+  end: 1.8
+  spoken_text: Codex 做视频搞钱
+  semantic_role: claim
+  event_type: emphasis
+  track: annotation
+  trigger:
+    evidence_text: Codex 做视频搞钱
+    inferred_reason: 主标题与补充说明有阅读优先级；小字内容未完全校读
+  visual:
+    layout:
+      description: 主标题下青色小字和描边小标签
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 主标题先可见，补充标签随后补齐
+    hold: 小标签保持
+    exit: 被编辑器叠层替换
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p001.jpg
+    sample_times:
+    - 0.2
+    - 1.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.82
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P01
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e034
+  id: codex-six-skills-20261008-e034
+  name: 编辑器窗口放大进入
+  start: 1.8
+  end: 2.2
+  spoken_text: 当然是拿来做视频搞钱
+  semantic_role: example
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 当然是拿来做视频搞钱
+    inferred_reason: 结果句出现时让演示成为视觉主体
+  visual:
+    layout:
+      description: 编辑器从右下放大居中
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 约1.8秒窗口较小，至2.2秒更大
+    hold: 进入后大窗口保持
+    exit: 由所在场景统一退出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p001.jpg
+    sample_times:
+    - 1.8
+    - 2.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e035
+  id: codex-six-skills-20261008-e035
+  name: 第一处斜片退出
+  start: 3.6
+  end: 4.0
+  spoken_text: 给Codex装上
+  semantic_role: other
+  event_type: transition
+  track: transition
+  trigger:
+    evidence_text: 给Codex装上
+    inferred_reason: 从演示返回新结构；几何似翻页，但无法由成片推断实际3D实现
+  visual:
+    layout:
+      description: 编辑器整体变斜/变窄退离
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 大窗口先稳定
+    hold: 短转场
+    exit: 真人显露后六项舞台出现
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p001.jpg
+    sample_times:
+    - 3.6
+    - 3.8
+  - kind: micro_grid
+    path: evidence/micro/001-screen-exit.jpg
+    requested_sampling_sec: 0.05
+    actual_clock: 源视频30fps；请求时点按实际帧就近采样
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P13
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e036
+  id: codex-six-skills-20261008-e036
+  name: 制作界面放大进入
+  start: 5.8
+  end: 6.2
+  spoken_text: 参与整条视频制作流程
+  semantic_role: example
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 参与整条视频制作流程
+    inferred_reason: 承诺句切到演示
+  visual:
+    layout:
+      description: 白底外层界面从下方放大
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 先在右下/中下可见
+    hold: 进入后保持
+    exit: 所在场景退出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p002.jpg
+    sample_times:
+    - 5.8
+    - 6.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e037
+  id: codex-six-skills-20261008-e037
+  name: 制作界面斜片退出
+  start: 7.85
+  end: 8.25
+  spoken_text: 第一个
+  semantic_role: other
+  event_type: transition
+  track: transition
+  trigger:
+    evidence_text: 第一个
+    inferred_reason: 主窗口退出动作与窗口内部播放动效要分开记录
+  visual:
+    layout:
+      description: 外层录屏旋转、收窄退出
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 整张录屏从稳定状态开始变斜
+    hold: 短转场
+    exit: 露出真人
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p002.jpg
+    sample_times:
+    - 8.0
+    - 8.2
+  - kind: micro_grid
+    path: evidence/micro/002-studio-exit.jpg
+    requested_sampling_sec: 0.05
+    actual_clock: 源视频30fps；请求时点按实际帧就近采样
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P13
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e038
+  id: codex-six-skills-20261008-e038
+  name: 五卡由堆叠到展开
+  start: 10.4
+  end: 10.8
+  spoken_text: 一句话生成动效视频
+  semantic_role: example
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 一句话生成动效视频
+    inferred_reason: 揭示并列用途而非顺序步骤
+  visual:
+    layout:
+      description: 中心卡叠成两排并列场景
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 先堆叠，后展开
+    hold: 展开后保持至12.8秒
+    exit: 主场景更换
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p003.jpg
+    sample_times:
+    - 10.4
+    - 10.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P04
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e039
+  id: codex-six-skills-20261008-e039
+  name: 白底演示内部构建
+  start: 13.0
+  end: 15.4
+  spoken_text: 知识科普、产品介绍
+  semantic_role: example
+  event_type: motion_graphic
+  track: embedded-media
+  trigger:
+    evidence_text: 知识科普、产品介绍
+    inferred_reason: 源演示本身的动作，不应复制为外层固定字幕动作
+  visual:
+    layout:
+      description: 白底录屏内小图标、路径、中部面板陆续出现
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 空白/背景先可见
+    hold: 图标、弧线与中部卡片在录屏内部构建
+    exit: 随外层演示退出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p003.jpg
+    sample_times:
+    - 13.0
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 15.2
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.85
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e040
+  id: codex-six-skills-20261008-e040
+  name: 第一处结论牌底线
+  start: 12.8
+  end: 15.6
+  spoken_text: 一句话生成动态内容
+  semantic_role: other
+  event_type: motion_graphic
+  track: annotation
+  trigger:
+    evidence_text: 一句话生成动态内容
+    inferred_reason: 提供持续运动；是否表达真实时间进度未知
+  visual:
+    layout:
+      description: 左结论牌底部青到黄绿色细线
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 先短线
+    hold: 横向变长
+    exit: 结论牌消退
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p003.jpg
+    sample_times:
+    - 12.8
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 15.4
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P14
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e041
+  id: codex-six-skills-20261008-e041
+  name: 白底演示斜片退出
+  start: 15.8
+  end: 16.2
+  spoken_text: 第二个
+  semantic_role: other
+  event_type: transition
+  track: transition
+  trigger:
+    evidence_text: 第二个
+    inferred_reason: 结束演示与换章解耦
+  visual:
+    layout:
+      description: 右侧白底演示窗口收窄斜退
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 结论牌先退去
+    hold: 窗口短暂单独保留
+    exit: 恢复真人并进02卡
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 15.8
+    - 16.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P13
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e042
+  id: codex-six-skills-20261008-e042
+  name: 后期示意窗口建立
+  start: 17.6
+  end: 18.0
+  spoken_text: 把拍摄素材交给它
+  semantic_role: process
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 把拍摄素材交给它
+    inferred_reason: 抽象功能总览，不假定是逐项执行流程
+  visual:
+    layout:
+      description: 四需求小标签+右侧三张白卡
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 标题/标签与窗口入场
+    hold: 白卡及细线轻微运动
+    exit: 切到界面演示
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 17.6
+    - 17.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P06
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e043
+  id: codex-six-skills-20261008-e043
+  name: 第二处演示放大
+  start: 18.8
+  end: 19.2
+  spoken_text: 自动删除停顿
+  semantic_role: example
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 自动删除停顿
+    inferred_reason: 让功能口播切换到演示
+  visual:
+    layout:
+      description: 编辑器窗口从偏下放大至主展示位置
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 较小窗口进入
+    hold: 稳定
+    exit: 场景退出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 18.8
+    - 19.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e044
+  id: codex-six-skills-20261008-e044
+  name: 第二处结论牌底线
+  start: 18.8
+  end: 21.4
+  spoken_text: 拍摄素材自动完成后期
+  semantic_role: other
+  event_type: motion_graphic
+  track: annotation
+  trigger:
+    evidence_text: 拍摄素材自动完成后期
+    inferred_reason: 同第一处底线的视觉语法；用途是推断
+  visual:
+    layout:
+      description: 左结论牌底线伸长
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 短线
+    hold: 逐渐变长
+    exit: 牌子淡去
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p004.jpg
+    sample_times:
+    - 18.8
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p005.jpg
+    sample_times:
+    - 21.2
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P14
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e045
+  id: codex-six-skills-20261008-e045
+  name: 第二处编辑器斜片退出
+  start: 21.4
+  end: 21.8
+  spoken_text: 第三个
+  semantic_role: other
+  event_type: transition
+  track: transition
+  trigger:
+    evidence_text: 第三个
+    inferred_reason: 把主展示窗口和总结层分别管理
+  visual:
+    layout:
+      description: 大编辑器变窄斜向退出
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 右侧大窗稳定状态打破
+    hold: 退出期间左牌仍短暂保留
+    exit: 真人和下一章
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p005.jpg
+    sample_times:
+    - 21.4
+    - 21.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P13
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e046
+  id: codex-six-skills-20261008-e046
+  name: 批量制作录屏内部切换
+  start: 23.4
+  end: 28.4
+  spoken_text: 排行榜、数据周报、固定栏目
+  semantic_role: example
+  event_type: motion_graphic
+  track: embedded-media
+  trigger:
+    evidence_text: 排行榜、数据周报、固定栏目
+    inferred_reason: 说明这是带内部时间线的媒体素材，不能每帧当成独立包装模板
+  visual:
+    layout:
+      description: 外层白界面不变，内层预览换卡，有光标圆圈
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 六项预览→01介绍卡→02介绍卡→六项预览
+    hold: 外层窗口尺寸保持
+    exit: 外层转场另处理
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p005.jpg
+    sample_times:
+    - 23.4
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p006.jpg
+    sample_times:
+    - 28.2
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P05
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e047
+  id: codex-six-skills-20261008-e047
+  name: 第三处录屏斜片退出
+  start: 28.6
+  end: 29.0
+  spoken_text: 第四个
+  semantic_role: other
+  event_type: transition
+  track: transition
+  trigger:
+    evidence_text: 第四个
+    inferred_reason: 演示结束的重复转场语法
+  visual:
+    layout:
+      description: 白界面整体倾斜收窄
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 开始退出
+    hold: 短转场
+    exit: 真人恢复
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p006.jpg
+    sample_times:
+    - 28.6
+    - 28.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P13
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e048
+  id: codex-six-skills-20261008-e048
+  name: 多媒体示例替换抽象占位
+  start: 32.6
+  end: 33.0
+  spoken_text: 图片视频音频全覆盖
+  semantic_role: example
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 图片视频音频全覆盖
+    inferred_reason: 先讲类别后给对应示例；波形不证明音频实际播放
+  visual:
+    layout:
+      description: 蛋糕海报替换图片占位，横向示例与竖版动图进入
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 原有矩阵先建立
+    hold: 示例叠入并保持同一矩阵位置
+    exit: 与舞台一起退
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p007.jpg
+    sample_times:
+    - 32.6
+    - 32.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P07
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e049
+  id: codex-six-skills-20261008-e049
+  name: 右侧竖版示例内部运动
+  start: 33.0
+  end: 34.6
+  spoken_text: 图片视频音频全覆盖
+  semantic_role: example
+  event_type: motion_graphic
+  track: embedded-media
+  trigger:
+    evidence_text: 图片视频音频全覆盖
+    inferred_reason: 把动态媒体与外层包装区分
+  visual:
+    layout:
+      description: 蛋糕房子动图内容变化，外框基本不变
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 跟随示例进入
+    hold: 图内运动持续
+    exit: 整体舞台淡出
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p007.jpg
+    sample_times:
+    - 33.0
+    - 34.4
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P07
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e050
+  id: codex-six-skills-20261008-e050
+  name: 中文需求窗口建立
+  start: 36.4
+  end: 36.8
+  spoken_text: 专门为中文创作者
+  semantic_role: claim
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 专门为中文创作者
+    inferred_reason: 重复结构更换内容，证明同一包装模式在片内重复
+  visual:
+    layout:
+      description: 复用四标签+右侧白卡窗口
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 主标题、标签和窗口由淡变实
+    hold: 稍微运动
+    exit: 切到截图总结
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p008.jpg
+    sample_times:
+    - 36.4
+    - 36.6
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P06
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e051
+  id: codex-six-skills-20261008-e051
+  name: 第三处结论牌底线
+  start: 39.0
+  end: 40.4
+  spoken_text: 更懂中文剪辑需求
+  semantic_role: other
+  event_type: motion_graphic
+  track: annotation
+  trigger:
+    evidence_text: 更懂中文剪辑需求
+    inferred_reason: 与前两个总结牌一致；不可直接视为语音进度条
+  visual:
+    layout:
+      description: 左总结牌细线伸长
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 短线
+    hold: 伸长
+    exit: 结论牌淡去
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p008.jpg
+    sample_times:
+    - 39.0
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p009.jpg
+    sample_times:
+    - 40.2
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P14
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e052
+  id: codex-six-skills-20261008-e052
+  name: 浅色流程舞台建立
+  start: 42.8
+  end: 43.2
+  spoken_text: 你只需要告诉它一个视频创意
+  semantic_role: process
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 你只需要告诉它一个视频创意
+    inferred_reason: 概念关系变化时换视觉舞台
+  visual:
+    layout:
+      description: 暗舞台转浅米色全屏流程图
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 浅板先透明，后完整
+    hold: 流程整图保持
+    exit: 主场景统一退
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p009.jpg
+    sample_times:
+    - 42.8
+    - 43.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P08
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e053
+  id: codex-six-skills-20261008-e053
+  name: 巨字缩小至可读
+  start: 47.6
+  end: 48.25
+  spoken_text: 直接交给Seedance生成视频
+  semantic_role: conclusion
+  event_type: emphasis
+  track: internal-motion
+  trigger:
+    evidence_text: 直接交给Seedance生成视频
+    inferred_reason: 在结果句制造强弱对比；不能据此证明提高留存
+  visual:
+    layout:
+      description: 白字由巨大裁边缩到可读大小
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 大字强入场
+    hold: 约48.2秒后保持可读形态
+    exit: 后续动作独立记录
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p010.jpg
+    sample_times:
+    - 47.6
+    - 48.2
+  - kind: micro_grid
+    path: evidence/micro/003-result-emphasis.jpg
+    requested_sampling_sec: 0.05
+    actual_clock: 源视频30fps；请求时点按实际帧就近采样
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P09
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e054
+  id: codex-six-skills-20261008-e054
+  name: 巨字右移退出
+  start: 49.6
+  end: 50.0
+  spoken_text: 这六个skill最大的作用
+  semantic_role: conclusion
+  event_type: emphasis
+  track: internal-motion
+  trigger:
+    evidence_text: 这六个skill最大的作用
+    inferred_reason: 强强调结束后进入总结
+  visual:
+    layout:
+      description: 大字向右离场并变淡
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 从稳定字开始退出
+    hold: 短退出
+    exit: 六项舞台淡入
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p010.jpg
+    sample_times:
+    - 49.6
+    - 49.8
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P09
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e055
+  id: codex-six-skills-20261008-e055
+  name: 工作流标签与勾入场
+  start: 52.8
+  end: 53.2
+  spoken_text: 而是串成你自己的视频工作流脚本
+  semantic_role: conclusion
+  event_type: emphasis
+  track: annotation
+  trigger:
+    evidence_text: 而是串成你自己的视频工作流脚本
+    inferred_reason: 将总结判断再提炼为一个标签
+  visual:
+    layout:
+      description: 右上白色牌“专属工作流”和绿色勾
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 标签进入，勾出现
+    hold: 与六项网格共存
+    exit: 标签在55.6秒真人桥接仍短暂存在，五步舞台建立时去掉
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p011.jpg
+    sample_times:
+    - 52.8
+    - 53.0
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P15
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e056
+  id: codex-six-skills-20261008-e056
+  name: 绿色勾的重复绘入
+  start: 54.15
+  end: 54.5
+  spoken_text: 而是串成你自己的视频工作流脚本
+  semantic_role: other
+  event_type: emphasis
+  track: internal-motion
+  trigger:
+    evidence_text: 而是串成你自己的视频工作流脚本
+    inferred_reason: 源片出现重复动作；未见新增语义，不建议默认循环照搬
+  visual:
+    layout:
+      description: 白牌保留，绿色勾一度消失/部分出现后恢复
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 已有勾消失
+    hold: 勾再显现
+    exit: 恢复稳定标签
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p011.jpg
+    sample_times:
+    - 54.2
+    - 54.4
+  - kind: micro_grid
+    path: evidence/micro/004-check-repeat.jpg
+    requested_sampling_sec: 0.05
+    actual_clock: 源视频30fps；请求时点按实际帧就近采样
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.85
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P15
+  reuse_status: candidate_not_implemented
+- event_id: codex-six-skills-20261008-e057
+  id: codex-six-skills-20261008-e057
+  name: 五步骤快速补齐
+  start: 55.8
+  end: 56.3
+  spoken_text: 从选题、分镜、提示词
+  semantic_role: process
+  event_type: motion_graphic
+  track: internal-motion
+  trigger:
+    evidence_text: 从选题、分镜、提示词
+    inferred_reason: 入口快速建立整体流程；不是五个词各触发一次逐项入场
+  visual:
+    layout:
+      description: 横向五个编号卡
+    typography:
+      exact_font: unknown
+    color:
+      description: 见原帧；未做精确色值测量
+  motion:
+    entrance: 卡片按横向位置快速出现
+    hold: 约56.2秒五项完整
+    exit: 保持到源片结束
+    timing:
+      clock: reference_source
+      boundary_status: sample_estimate
+      tolerance_sec: 0.2
+      easing: unverified
+  assets:
+  - kind: reference_grid
+    path: evidence/dense/001-0_000s-61_200s-p012.jpg
+    sample_times:
+    - 55.8
+    - 56.2
+  sound:
+    speech: 已用本地ASR检测口播；文字修正依据画面字幕
+    music: unverified
+    sfx: unverified
+  context:
+    previous_event: null
+    next_event: null
+  confidence: 0.9
+  confidence_basis: 视觉观察可信度；不表示源口播主张真实，也不表示观众效果已测量
+  candidate_pattern_id: P10
+  reuse_status: candidate_not_implemented

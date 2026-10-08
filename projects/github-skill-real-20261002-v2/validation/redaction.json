@@ -1,0 +1,205 @@
+{
+  "version": 1,
+  "policy": "网页链接、仓库地址、具体 Skill 名称先打码，再做动画；画面不显示来源脚注。",
+  "status": "visual_readback_pass",
+  "assets": [
+    {
+      "file": "signup.png",
+      "source_sha256": "805b51f7d6db213d88f2607725a6b6ccb805f164a9176647a5710072b6be5885",
+      "sanitized_sha256": "499a3f0a4688ca38cb0ec05bb81dfd1d0bb28d8d0866c1c89072fb1886e290d9",
+      "rectangles": [],
+      "method": "opaque_pixel_masks_flattened_into_png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "search-codex.png",
+      "source_sha256": "6054f3b014339f8603fcd83453a27ea561268b9d7afb99071066ef98df17ffe0",
+      "sanitized_sha256": "2845a6e87bbec64ec51623badf48d5fba87c1db9a0e7d5845db63801b3e26989",
+      "rectangles": [
+        [
+          330,
+          145,
+          1070,
+          34
+        ],
+        [
+          330,
+          270,
+          1070,
+          34
+        ],
+        [
+          330,
+          429,
+          990,
+          35
+        ],
+        [
+          330,
+          550,
+          1060,
+          39
+        ],
+        [
+          330,
+          710,
+          1060,
+          42
+        ],
+        [
+          330,
+          865,
+          1060,
+          39
+        ],
+        [
+          330,
+          985,
+          1060,
+          44
+        ]
+      ],
+      "method": "opaque_pixel_masks_flattened_into_png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "search-ppt.png",
+      "source_sha256": "184c1c21b06c2271aef240ecb045104c7bccdcbdb29374c10be46d67a98c92b8",
+      "sanitized_sha256": "09d88e88511affddab38dff496e18328b0eeabd3c220a526092bad21e84eeaaa",
+      "rectangles": [
+        [
+          320,
+          133,
+          1180,
+          947
+        ],
+        [
+          1500,
+          74,
+          420,
+          1006
+        ]
+      ],
+      "method": "opaque_pixel_masks_flattened_into_png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "search-awesome.png",
+      "source_sha256": "b28dceb8a59ea7604ba813fc8ef92bef5e4a9ba921a2843b6e5b0a294b03064a",
+      "sanitized_sha256": "4e2a9db02cea4915bbee969f3e1dcf7a1885145477d0142f259e68dcb79e8e8a",
+      "rectangles": [
+        [
+          330,
+          144,
+          1050,
+          35
+        ],
+        [
+          330,
+          302,
+          1050,
+          35
+        ],
+        [
+          330,
+          459,
+          1050,
+          35
+        ],
+        [
+          330,
+          617,
+          1050,
+          35
+        ],
+        [
+          330,
+          775,
+          1050,
+          35
+        ],
+        [
+          330,
+          933,
+          1050,
+          35
+        ],
+        [
+          1502,
+          128,
+          405,
+          220
+        ]
+      ],
+      "method": "opaque_pixel_masks_flattened_into_png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "readme-body.png",
+      "source_sha256": "783f2e0180a13ac7ce134509d5ee4aae5182562fba20a9f479ed82a4d04fc2ab",
+      "sanitized_sha256": "cb46b0e16b1aec21ea46f0d10e81716f14194be4f4a4ec7c623339eb0257f5ff",
+      "rectangles": [
+        [
+          350,
+          70,
+          930,
+          510
+        ],
+        [
+          350,
+          20,
+          300,
+          48
+        ],
+        [
+          1280,
+          0,
+          640,
+          1080
+        ],
+        [
+          383,
+          655,
+          850,
+          59
+        ],
+        [
+          383,
+          729,
+          850,
+          57
+        ],
+        [
+          383,
+          1035,
+          850,
+          45
+        ]
+      ],
+      "method": "opaque_pixel_masks_flattened_into_png",
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "file": "readme-visible.png",
+      "source_sha256": "cb46b0e16b1aec21ea46f0d10e81716f14194be4f4a4ec7c623339eb0257f5ff",
+      "sanitized_sha256": "3c3bd835fa12a27aed716f5a68eaf490836accf5ce86b04dbb25be2851b9b710",
+      "rectangles": [],
+      "method": "crop_of_flattened_sanitized_source",
+      "derived_from": "readme-body.png",
+      "crop": [
+        355,
+        795,
+        905,
+        285
+      ],
+      "width": 905,
+      "height": 285
+    }
+  ],
+  "review_note": "补遮完整文件列表/提交记录，衍生文档窗只来自扁平打码像素，已看源及衍生图。"
+}

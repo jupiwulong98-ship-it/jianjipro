@@ -1,0 +1,176 @@
+{
+  "video_id": "codex-six-skills-20261008",
+  "status": "screen_corrected_not_listening_approved",
+  "clock": "reference_source_not_post_cut_production",
+  "segments": [
+    {
+      "id": "s01",
+      "start": 0.0,
+      "end": 3.8,
+      "raw_text": "装Codex不知道干什么?当然是拿来做视频搞钱。",
+      "screen_corrected_text": "装Codex不知道干什么？当然是拿来做视频搞钱。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p001.jpg",
+        "evidence/dense/001-0_000s-61_200s-p001.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s02",
+      "start": 3.8,
+      "end": 8.4,
+      "raw_text": "给Codex装上这6个skill,直接让它参与整条视频制作流程。",
+      "screen_corrected_text": "给Codex装上这6个skill，直接让它参与整条视频制作流程。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p001.jpg",
+        "evidence/dense/001-0_000s-61_200s-p002.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s03",
+      "start": 8.4,
+      "end": 12.0,
+      "raw_text": "第一个,Hyperframes,一句话成人动潮视频。",
+      "screen_corrected_text": "第一个，Hyperframes。一句话，生成动效视频。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p002.jpg",
+        "evidence/dense/001-0_000s-61_200s-p003.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s04",
+      "start": 12.0,
+      "end": 16.1,
+      "raw_text": "这是科普产品介绍,还能直接缺乏成MP4成片。",
+      "screen_corrected_text": "知识科普、产品介绍，还能直接渲染成MP4成片。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p003.jpg",
+        "evidence/dense/001-0_000s-61_200s-p004.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s05",
+      "start": 16.1,
+      "end": 21.8,
+      "raw_text": "第二,Video Use,把拍摄素材交给它自动删除停顿,添加字幕调色、做动效。",
+      "screen_corrected_text": "第二个，Video Use。把拍摄素材交给它，自动删除停顿，添加字幕、调色、做动效。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p004.jpg",
+        "evidence/dense/001-0_000s-61_200s-p005.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s06",
+      "start": 21.8,
+      "end": 25.0,
+      "raw_text": "第三个,Remotion,用代码批量制作视频。",
+      "screen_corrected_text": "第三个，Remotion。用代码批量制作视频。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p005.jpg",
+        "evidence/dense/001-0_000s-61_200s-p005.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s07",
+      "start": 25.0,
+      "end": 29.0,
+      "raw_text": "比如排行榜、数据周报、固定栏目都可以批量出片。",
+      "screen_corrected_text": "比如排行榜、数据周报、固定栏目，都可以批量出片。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p006.jpg",
+        "evidence/dense/001-0_000s-61_200s-p006.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s08",
+      "start": 29.0,
+      "end": 34.8,
+      "raw_text": "第四个,Generative Media,视频生成工具箱,图片视频音频全覆盖。",
+      "screen_corrected_text": "第四个，Generative Media。视频生成工具箱，图片、视频、音频全覆盖。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p006.jpg",
+        "evidence/dense/001-0_000s-61_200s-p007.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s09",
+      "start": 34.8,
+      "end": 40.8,
+      "raw_text": "第五个,Video Cut,专门为中文创作者做的剪辑skill,更懂中文剪辑需求。",
+      "screen_corrected_text": "第五个，Video Cut。专门为中文创作者做的剪辑skill，更懂中文剪辑需求。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p007.jpg",
+        "evidence/dense/001-0_000s-61_200s-p009.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s10",
+      "start": 40.8,
+      "end": 44.8,
+      "raw_text": "第六个,Zdans2skill,你只需要告诉它一个视频创意,",
+      "screen_corrected_text": "第六个，Seedance 2 skill。你只需要告诉它一个视频创意，",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p009.jpg",
+        "evidence/dense/001-0_000s-61_200s-p009.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s11",
+      "start": 44.8,
+      "end": 49.8,
+      "raw_text": "它就会帮你设计15秒分镜和提示词,直接交给Zdans生成视频。",
+      "screen_corrected_text": "它就能帮你设计15秒分镜和提示词，直接交给Seedance生成视频。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p009.jpg",
+        "evidence/dense/001-0_000s-61_200s-p010.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s12",
+      "start": 49.8,
+      "end": 55.5,
+      "raw_text": "这6个skill最大的作用,不是单独使用,而是串全你自己视频的工作流脚本。",
+      "screen_corrected_text": "这六个skill最大的作用不是单独使用，而是串成你自己的视频工作流脚本。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p010.jpg",
+        "evidence/dense/001-0_000s-61_200s-p012.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    },
+    {
+      "id": "s13",
+      "start": 55.5,
+      "end": 61.3,
+      "raw_text": "从选批、分镜、提示词、到剪辑、字幕、包装都可以交给Codex,一步一步完成。",
+      "screen_corrected_text": "从选题、分镜、提示词到剪辑、字幕、包装，都可以交给Codex，一步一步完成。",
+      "text_evidence": [
+        "evidence/dense/001-0_000s-61_200s-p012.jpg",
+        "evidence/dense/001-0_000s-61_200s-p013.jpg"
+      ],
+      "timing_status": "asr_segment_estimate_not_word_aligned",
+      "correction_basis": "可见烧录字幕及章节标题；补充标点；没有完成逐字听音校正"
+    }
+  ]
+}

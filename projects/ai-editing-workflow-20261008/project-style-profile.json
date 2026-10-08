@@ -1,0 +1,16 @@
+{
+  "version": "0.1",
+  "style_id": "ai-editing-workflow-20261008-approved",
+  "base_profile": "../../styles/ai-talkinghead-editorial-v0.1/style-profile.yaml",
+  "base_profile_status": "candidate",
+  "rule_id": "project-dark-relations",
+  "description": "已批准的项目画面规则：人物作为口播锚点；有关系表达才用抽象图示；轻强调放人物左侧留白；全屏关系图保留人物小窗；暗色工作面、白字和青黄重点，保护底部原字幕。",
+  "source": "visual-concepts.json",
+  "approval_source": "validation/user-approval.json",
+  "evidence_boundary": "参考 profile 提供一般剪辑语法；项目关系图、配色和右侧小窗来自本轮批准的视觉方案，不声称逐镜复刻参考视频。",
+  "presenter_revision": {
+    "source": "用户截图反馈",
+    "request": "删除口播讲解和蓝色实线框",
+    "presentation": "保留无外框、无文字的圆角人物视频"
+  }
+}

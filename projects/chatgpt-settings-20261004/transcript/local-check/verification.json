@@ -1,0 +1,131 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | Metal : EMBED_LIBRARY = 1 | CPU : ARM_FMA = 1 | FP16_VA = 1 | DOTPROD = 1 | ACCELERATE = 1 | AARCH64_REPACK = 1 | ",
+	"model": {
+		"type": "small",
+		"multilingual": true,
+		"vocab": 51865,
+		"audio": {
+			"ctx": 1500,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"text": {
+			"ctx": 448,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/jupiwulong/.cache/whisper-cpp/ggml-small.bin",
+		"language": "zh",
+		"translate": false
+	},
+	"result": {
+		"language": "zh"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:01,600"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 1600
+			},
+			"text": "设置一次之后"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,600",
+				"to": "00:00:04,920"
+			},
+			"offsets": {
+				"from": 1600,
+				"to": 4920
+			},
+			"text": "以后大量的绘画都不用重新重复"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,920",
+				"to": "00:00:08,160"
+			},
+			"offsets": {
+				"from": 4920,
+				"to": 8160
+			},
+			"text": "比如你以前告诉他"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,160",
+				"to": "00:00:10,160"
+			},
+			"offsets": {
+				"from": 8160,
+				"to": 10160
+			},
+			"text": "我最近在减肥"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:10,160",
+				"to": "00:00:14,160"
+			},
+			"offsets": {
+				"from": 10160,
+				"to": 14160
+			},
+			"text": "后来你已经不减了"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:14,160",
+				"to": "00:00:20,240"
+			},
+			"offsets": {
+				"from": 14160,
+				"to": 20240
+			},
+			"text": "尤其是你经常往GP里面放"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:20,240",
+				"to": "00:00:23,720"
+			},
+			"offsets": {
+				"from": 20240,
+				"to": 23720
+			},
+			"text": "关注我"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:23,720",
+				"to": "00:00:26,240"
+			},
+			"offsets": {
+				"from": 23720,
+				"to": 26240
+			},
+			"text": "接下来我还机会继续把这些AI工具"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:28,840",
+				"to": "00:00:31,120"
+			},
+			"offsets": {
+				"from": 28840,
+				"to": 31120
+			},
+			"text": "一个一个调成真正能干活的助手"
+		}
+	]
+}

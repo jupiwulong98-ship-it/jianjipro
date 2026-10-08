@@ -4,10 +4,12 @@
 
 参考视频 → Reference Analyzer → reference-events → Style Synthesizer → Style Profile
 
-自己的口播 → Transcript / Alignment → Semantic Mapper → Edit Planner → Asset Gate / Asset Workspace → Shotbook Planner → Motion Router → Primary Card + Annotation / Camera / Transition / SFX → ChatCut Executor → Stable Frame Gate → Render → Final Visual QC → Revision Loop
+自己的口播 → ChatCut 初剪与字幕校正 → 剪后全文抽取（全文 + 字词时间）→ Semantic Mapper → Visual Conceiver（画面构思）→ Edit Planner → Asset Gate / Asset Workspace → Shotbook Planner → Gate B Rhythm Review → Motion Router → Primary Card + Annotation / Camera / Transition / SFX → ChatCut Executor → Stable Frame Gate → Render → Final Visual QC（整片时间带 + 动态审片） → Revision Loop
+
+新增输入交接规则见 [剪后全文抽取](post-cut-transcript.md)。全文及字词时间来自最终剪辑的原文字幕，后续语义段和动作时点引用这个来源版本；SRT保留字幕条时间，字词JSON保留更细的时间。初剪或字幕文字变更后重新抽取并复核下游计划。
 
 ## Planner 与 Card 的边界
-Planner 不知道具体卡片名，只描述信息关系、输入与视觉意图。
+Semantic Mapper理解口播含义；Visual Conceiver先独立构思理想画面与关系，不读取模板目录。Planner依据概念安排导演事件，不知道具体卡片名。Shotbook把同一概念落实成逐镜合同；Router只检验候选是否保留结构，不能修改概念。没有合适实现时Generated Motion接收完整原概念。
 
 ## Shotbook 的角色
 Edit Plan 是导演决策，Shotbook 是逐镜施工单：
@@ -40,3 +42,7 @@ Semantic Map / Asset Gate必须保存 claim_status 和 evidence_role。
 - 不因只有现成模板而强行使用错误的信息结构。
 - 不逐字复制参考创作者的独创视觉资产。
 - 不为运动而运动。
+
+## 新增合同与Review位置
+
+画面构思新增独立Skill和轻量visual-concepts文档；复用现有segment id、时间、人物模式、证据字段与素材槽。Edit Plan v0.4、Shotbook v0.2通过概念引用保持跨层一致。Gate B使用完整Shotbook形成视觉时间轴；Gate C保留单镜稳定帧安全检查；Gate D增加整页连续抽样观察，不用单帧通过代替整片节奏。实现与兼容边界见 [画面构思与节奏](visual-concepts-and-rhythm.md)。

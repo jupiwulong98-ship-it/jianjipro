@@ -1,0 +1,691 @@
+{
+  "state": {
+    "canvas": {
+      "height": 1080,
+      "width": 1920
+    },
+    "durationFrames": 7253,
+    "editor": {
+      "activeTimelineId": "c2c179b7-e4b1-47c9-9786-69334a8fa3d9",
+      "asOf": "turn-start",
+      "selectedItemIds": [],
+      "trackLocks": [
+        {
+          "hidden": false,
+          "id": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "e203202b-69f8-449a-aca6-aace1600f0c9",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "f52606c2-e35b-4858-aa65-58e80d446470",
+          "locked": false,
+          "muted": false
+        }
+      ]
+    },
+    "fps": 30,
+    "id": "c2c179b7-e4b1-47c9-9786-69334a8fa3d9",
+    "name": "Timeline",
+    "range": {
+      "fromFrame": 0,
+      "toFrame": 7253
+    }
+  },
+  "views": [
+    "timeline"
+  ],
+  "timeline": {
+    "entries": [
+      {
+        "fromFrame": 0,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 0,
+          "toFrame": 8
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "2bdbae15-90bc-4e23-8ed6-fce09d140896",
+          "name": "jianjiPro · scene-01",
+          "type": "video"
+        },
+        "startFrame": 8,
+        "id": "e61b71cb-e10b-47d0-a021-4dbb8324dc17",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 4433333,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 8,
+          "toFrame": 141
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 141,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 141,
+          "toFrame": 143
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "c60cb880-2e43-4d6b-9e08-01a0bd376539",
+          "name": "jianjiPro · scene-02 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 143,
+        "id": "a9ae3a40-a4d8-4151-9824-6c4c1a36d441",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 9233333,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 143,
+          "toFrame": 420
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 420,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 420,
+          "toFrame": 740
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "3e1695f1-2927-4f83-9d15-4f17e22e4189",
+          "name": "jianjiPro · scene-04 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 740,
+        "id": "385fdd12-b913-442e-9f99-643e50c52add",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 5633333,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 740,
+          "toFrame": 909
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 909,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 909,
+          "toFrame": 917
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "5fcf9a65-56eb-411f-829a-3791f2268144",
+          "name": "jianjiPro · scene-05 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 917,
+        "id": "780ca62b-2570-4cdc-b336-ccf9a5da63de",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 11500000,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 917,
+          "toFrame": 1262
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 1262,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 1262,
+          "toFrame": 1268
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "4017c952-a5c8-45a1-bd60-5bcf712d17c9",
+          "name": "jianjiPro · scene-06 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 1268,
+        "id": "99e3a3d3-cadd-4c38-9b24-06da42bab14b",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 9166666,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 1268,
+          "toFrame": 1543
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 1543,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 1543,
+          "toFrame": 1802
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "472f5222-7c2c-4e42-9c77-85834d8ad6fc",
+          "name": "jianjiPro · scene-08",
+          "type": "video"
+        },
+        "startFrame": 1802,
+        "id": "8ca9e122-00fc-48d3-9d2e-237558d92a92",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 5966666,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 1802,
+          "toFrame": 1981
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 1981,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 1981,
+          "toFrame": 1982
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "53fcf03f-1f9a-4054-854d-728e97652732",
+          "name": "jianjiPro · scene-09 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 1982,
+        "id": "749c6e17-c57e-44d0-868c-b13aca4c6f78",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 5866666,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 1982,
+          "toFrame": 2158
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 2158,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 2158,
+          "toFrame": 2166
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "5fb540fd-cac4-4752-8350-1cd0cc854f4f",
+          "name": "jianjiPro · scene-10 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 2166,
+        "id": "1cd5bdee-4bb1-4767-9261-a70b44c32b5f",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 9766667,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 2166,
+          "toFrame": 2459
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 2459,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 2459,
+          "toFrame": 2462
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "1c331e52-8e41-486a-beec-b351ecd241e1",
+          "name": "jianjiPro · scene-11 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 2462,
+        "id": "50cec8c4-2ac5-4a79-812f-177201633742",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 15466666,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 2462,
+          "toFrame": 2926
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 2926,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 2926,
+          "toFrame": 2934
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "9faaa04c-02e8-472d-8106-872c2eb53ca9",
+          "name": "jianjiPro · scene-12 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 2934,
+        "id": "6d9848a6-a2be-48b6-b637-32c318013fb6",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 7966667,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 2934,
+          "toFrame": 3173
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 3173,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 3173,
+          "toFrame": 3366
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "971f62f8-5567-4bbc-b82e-324f4937338b",
+          "name": "jianjiPro · scene-14 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 3366,
+        "id": "752af2dd-3f1a-4a88-bbf0-65ea6bd3ce17",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 7866667,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 3366,
+          "toFrame": 3602
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 3602,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 3602,
+          "toFrame": 3610
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "88ef5081-5eb8-49a8-bafb-19511a264e4d",
+          "name": "jianjiPro · scene-15 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 3610,
+        "id": "3d9f36f1-cd92-4067-ab61-96b5e136e38d",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 10233334,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 3610,
+          "toFrame": 3917
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 3917,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 3917,
+          "toFrame": 3925
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "5c78a664-605c-48fc-8514-54ab397a18c5",
+          "name": "jianjiPro · scene-16",
+          "type": "video"
+        },
+        "startFrame": 3925,
+        "id": "6ccdfb38-47d9-4d97-870d-0f5d57fa333f",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 5500000,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 3925,
+          "toFrame": 4090
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 4090,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 4090,
+          "toFrame": 4394
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "61d62960-745b-4e33-a9b0-a3e40c8e0f62",
+          "name": "jianjiPro · scene-18 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 4394,
+        "id": "af058868-a212-48c4-86aa-731a45e2c010",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 13566666,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 4394,
+          "toFrame": 4801
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 4801,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 4801,
+          "toFrame": 4810
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "79bf519c-18b5-4a51-9496-ae0262930494",
+          "name": "jianjiPro · scene-19 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 4810,
+        "id": "327470df-e6a3-4fef-8473-18aef412d7d0",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 4366667,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 4810,
+          "toFrame": 4941
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 4941,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 4941,
+          "toFrame": 5260
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "caf57711-aa0c-45e3-9e36-2d6d22766177",
+          "name": "jianjiPro · scene-21 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 5260,
+        "id": "13a14c62-e187-4c36-91e0-e9b635c7faf2",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 10300000,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 5260,
+          "toFrame": 5569
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 5569,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 5569,
+          "toFrame": 5877
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "d6cd12cb-a1ff-4856-ad5e-f0b79cd59392",
+          "name": "jianjiPro · scene-23",
+          "type": "video"
+        },
+        "startFrame": 5877,
+        "id": "aff5d230-4133-46d2-a1e4-4cf0c56fdd47",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 7800000,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 5877,
+          "toFrame": 6111
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 6111,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 6111,
+          "toFrame": 6112
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "59288573-d2d2-430e-a168-1586232e858e",
+          "name": "jianjiPro · scene-24 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 6112,
+        "id": "bf893091-6499-4805-aafb-9aeb1ac378ed",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 7266667,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 6112,
+          "toFrame": 6330
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 6330,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 6330,
+          "toFrame": 6560
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "fe8cd55d-3e8f-4260-955c-82b512368b36",
+          "name": "jianjiPro · scene-26 · 干净小窗",
+          "type": "video"
+        },
+        "startFrame": 6560,
+        "id": "1483b5be-574d-4f59-b5d2-4831f6913eb2",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 6333333,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 6560,
+          "toFrame": 6750
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 6750,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 6750,
+          "toFrame": 6758
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "asset": {
+          "id": "7350208a-8c92-4b54-99c1-b1990ea92bc8",
+          "name": "jianjiPro · scene-27",
+          "type": "video"
+        },
+        "startFrame": 6758,
+        "id": "9935e427-f5fc-40f1-b89f-be57f4125909",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 13566666,
+          "start": 0
+        },
+        "timelineRange": {
+          "fromFrame": 6758,
+          "toFrame": 7165
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      },
+      {
+        "fromFrame": 7165,
+        "kind": "gap",
+        "timelineRange": {
+          "fromFrame": 7165,
+          "toFrame": 7253
+        },
+        "trackAlias": "V2",
+        "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9"
+      }
+    ],
+    "totalEntries": 41,
+    "tracks": [
+      {
+        "alias": "V2",
+        "hidden": false,
+        "id": "e203202b-69f8-449a-aca6-aace1600f0c9",
+        "locked": false,
+        "muted": false,
+        "name": "jianjiPro · 动画包装",
+        "order": 1,
+        "trackType": "video"
+      }
+    ]
+  }
+}

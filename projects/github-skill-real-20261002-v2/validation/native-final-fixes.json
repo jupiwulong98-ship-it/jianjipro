@@ -1,0 +1,76 @@
+{
+  "captionNameMasked": true,
+  "identityEmptyPanelRemoved": true,
+  "viewer": {
+    "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/3d96aaae-2026-4693-9e2a-259e38bb996d/previews/807bb2f4-180a-47c8-bd65-7c4bb87b04b5.jpg",
+    "cells": [
+      {
+        "col": 0,
+        "frame": 2580,
+        "row": 0
+      },
+      {
+        "col": 1,
+        "frame": 2590,
+        "row": 0
+      },
+      {
+        "col": 0,
+        "frame": 5933,
+        "row": 1
+      },
+      {
+        "col": 1,
+        "frame": 5972,
+        "row": 1
+      },
+      {
+        "col": 0,
+        "frame": 5988,
+        "row": 2
+      },
+      {
+        "col": 1,
+        "frame": 5993,
+        "row": 2
+      }
+    ],
+    "fps": 30,
+    "frames": [
+      {
+        "frame": 2580,
+        "timelineTimeMs": 86000
+      },
+      {
+        "frame": 2590,
+        "timelineTimeMs": 86333
+      },
+      {
+        "frame": 5933,
+        "timelineTimeMs": 197767
+      },
+      {
+        "frame": 5972,
+        "timelineTimeMs": 199067
+      },
+      {
+        "frame": 5988,
+        "timelineTimeMs": 199600
+      },
+      {
+        "frame": 5993,
+        "timelineTimeMs": 199767
+      }
+    ],
+    "grid": {
+      "cols": 2,
+      "rows": 3
+    },
+    "height": 1407,
+    "renderableDurationInFrames": 5994,
+    "renderedBy": "frontend",
+    "status": "available",
+    "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+    "width": 1568
+  }
+}

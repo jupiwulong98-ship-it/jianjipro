@@ -1,3 +1,8 @@
+---
+name: generated-motion
+description: 当模板不能保留画面概念时生成候选，并通过素材及稳定帧验证。
+---
+
 # Generated Motion Skill
 
 ## 任务
@@ -9,6 +14,7 @@
 - 强行降级会破坏语义关系。
 
 ## 输入
+- 完整visual_concept（核心输入，不得修改关系或焦点）
 - motion_request
 - shotbook shot
 - style_profile.visual_skin
@@ -25,13 +31,14 @@
 ## Deliver-and-Verify
 1. 先生成最小可渲染候选。
 2. 渲染稳定帧，不先渲整条视频。
-3. 检查：语义是否正确、人物/字幕安全、文字可读、素材不失真、运动是否seek-safe。
+3. 先确认真实required素材就绪；检查：原画面概念/关系是否保留、语义是否正确、人物/字幕安全、文字可读、素材不失真、运动是否seek-safe。
 4. 有问题先改候选，再重新渲染稳定帧。
 5. 候选通过后才进入当前项目。
 6. 同类需求在多个真实项目重复出现并通过QC后，才晋升为正式 Motion Library Card。
 
 ## 禁止
 - 随机值/依赖实时时钟导致同帧不确定。
-- 为了视觉炫技改变原来的信息关系。
+- 为了视觉炫技或复用模板改变原画面概念、信息关系。
+- 因有流程卡就把one_to_many或timeline-processing改为普通编号步骤。
 - 伪造证据素材。
 - 未经QC直接写入正式卡库。

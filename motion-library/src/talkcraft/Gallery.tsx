@@ -9,11 +9,11 @@ export function TalkCraftGallery({onBack,onOpenProject}: {onBack: () => void;onO
     && `${card.title} ${card.slug} ${card.oneliner} ${card.semantics.join(' ')}`.toLowerCase().includes(query.toLowerCase()));
   const active = catalog.find(card => card.slug === selected);
   return <main className="shell">
-    <button className="back" onClick={onBack}>打开口播项目审阅</button>
+    <button className="back" onClick={onBack}>打开口播制作工作台</button>
     {onOpenProject&&<button style={{float:'right'}} onClick={onOpenProject}>返回项目审阅</button>}
     <p className="eyebrow">JIANJIPRO · TALKCRAFT</p>
     <h1>TalkCraft 模板库</h1>
-    <p className="description">{catalog.length} 张动效模板，按用途找效果。已有 {catalog.filter(c => c.adapter).length} 张实拍适配卡；其余模板可参考、修改后接入制作。</p>
+    <p className="description">{catalog.length} 张动效模板，按用途找效果。已有 {catalog.filter(c => c.adapter).length} 张已接入统一渲染器。实际制作需要替换文案、绑定素材，并检查镜头版式与声画。</p>
     <div className="tc-filters">
       <input aria-label="搜索 TalkCraft 模板" placeholder="搜索：标题、并列、步骤、截图…" value={query} onChange={e => setQuery(e.target.value)} />
       <select aria-label="模板类别" value={category} onChange={e => setCategory(e.target.value)}>
@@ -26,7 +26,7 @@ export function TalkCraftGallery({onBack,onOpenProject}: {onBack: () => void;onO
       <p className="description">预览使用上游演示内容；真实制作时替换为你的文案和素材。</p>
     </section>}
     <section className="grid">{shown.map(card => <article className="card tc-card" key={card.slug}>
-      <p className="eyebrow">{card.category} · {card.adapter ? '实拍适配' : '模板参考'}</p>
+      <p className="eyebrow">{card.category} · {card.adapter ? card.adapter.verification?'渲染 · 替换 · 原生抽帧通过':card.adapter.status==='adapted_pending_verification'?'待渲染验收':'已接入' : '模板参考'}</p>
       <h2>{card.title}</h2><p className="description">{card.oneliner}</p>
       <p>{card.semantics.join(' · ')}</p><button onClick={() => setSelected(card.slug)}>查看动效</button>
     </article>)}</section>

@@ -1,0 +1,631 @@
+{
+  "version": "0.1",
+  "project_id": "github-skill-real-20261002-v2",
+  "gate": "D",
+  "status": "needs_visual_review",
+  "source_kind": "rendered_full_video",
+  "video": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/validation/review-proxy.mp4",
+  "source_size": 13573026,
+  "source_mtime": "2026-10-02T08:17:22.556Z",
+  "duration": 199.8,
+  "interval": 4,
+  "sample_count": 123,
+  "samples": [
+    {
+      "time": 0.15,
+      "shot_id": "clean-0",
+      "file": "frame-000.jpg"
+    },
+    {
+      "time": 0.2,
+      "shot_id": "clean-0",
+      "file": "frame-001.jpg"
+    },
+    {
+      "time": 4.15,
+      "shot_id": "clean-0",
+      "file": "frame-002.jpg"
+    },
+    {
+      "time": 5.736,
+      "shot_id": "clean-0",
+      "file": "frame-003.jpg"
+    },
+    {
+      "time": 8.15,
+      "shot_id": "github",
+      "file": "frame-004.jpg"
+    },
+    {
+      "time": 8.167,
+      "shot_id": "github",
+      "file": "frame-005.jpg"
+    },
+    {
+      "time": 10.055,
+      "shot_id": "github",
+      "file": "frame-006.jpg"
+    },
+    {
+      "time": 11.067,
+      "shot_id": "clean-326",
+      "file": "frame-007.jpg"
+    },
+    {
+      "time": 12.15,
+      "shot_id": "clean-326",
+      "file": "frame-008.jpg"
+    },
+    {
+      "time": 16.15,
+      "shot_id": "clean-326",
+      "file": "frame-009.jpg"
+    },
+    {
+      "time": 17.563,
+      "shot_id": "clean-326",
+      "file": "frame-010.jpg"
+    },
+    {
+      "time": 20.15,
+      "shot_id": "clean-326",
+      "file": "frame-011.jpg"
+    },
+    {
+      "time": 20.367,
+      "shot_id": "find",
+      "file": "frame-012.jpg"
+    },
+    {
+      "time": 21.967,
+      "shot_id": "find",
+      "file": "frame-013.jpg"
+    },
+    {
+      "time": 22.867,
+      "shot_id": "clean-680",
+      "file": "frame-014.jpg"
+    },
+    {
+      "time": 24.15,
+      "shot_id": "clean-680",
+      "file": "frame-015.jpg"
+    },
+    {
+      "time": 28.15,
+      "shot_id": "clean-680",
+      "file": "frame-016.jpg"
+    },
+    {
+      "time": 30.443,
+      "shot_id": "clean-680",
+      "file": "frame-017.jpg"
+    },
+    {
+      "time": 32.15,
+      "shot_id": "clean-680",
+      "file": "frame-018.jpg"
+    },
+    {
+      "time": 33.667,
+      "shot_id": "repository",
+      "file": "frame-019.jpg"
+    },
+    {
+      "time": 36.15,
+      "shot_id": "repository",
+      "file": "frame-020.jpg"
+    },
+    {
+      "time": 40.115,
+      "shot_id": "repository",
+      "file": "frame-021.jpg"
+    },
+    {
+      "time": 40.15,
+      "shot_id": "repository",
+      "file": "frame-022.jpg"
+    },
+    {
+      "time": 42.9,
+      "shot_id": "clean-1281",
+      "file": "frame-023.jpg"
+    },
+    {
+      "time": 44.15,
+      "shot_id": "clean-1281",
+      "file": "frame-024.jpg"
+    },
+    {
+      "time": 45.388,
+      "shot_id": "clean-1281",
+      "file": "frame-025.jpg"
+    },
+    {
+      "time": 46.633,
+      "shot_id": "three-actions",
+      "file": "frame-026.jpg"
+    },
+    {
+      "time": 48.15,
+      "shot_id": "three-actions",
+      "file": "frame-027.jpg"
+    },
+    {
+      "time": 49.913,
+      "shot_id": "three-actions",
+      "file": "frame-028.jpg"
+    },
+    {
+      "time": 51.42,
+      "shot_id": "clean-1538",
+      "file": "frame-029.jpg"
+    },
+    {
+      "time": 52.15,
+      "shot_id": "clean-1538",
+      "file": "frame-030.jpg"
+    },
+    {
+      "time": 52.371,
+      "shot_id": "clean-1538",
+      "file": "frame-031.jpg"
+    },
+    {
+      "time": 53,
+      "shot_id": "signup",
+      "file": "frame-032.jpg"
+    },
+    {
+      "time": 56.15,
+      "shot_id": "signup",
+      "file": "frame-033.jpg"
+    },
+    {
+      "time": 57.264,
+      "shot_id": "signup",
+      "file": "frame-034.jpg"
+    },
+    {
+      "time": 59.2,
+      "shot_id": "search-codex",
+      "file": "frame-035.jpg"
+    },
+    {
+      "time": 60.15,
+      "shot_id": "search-codex",
+      "file": "frame-036.jpg"
+    },
+    {
+      "time": 63.824,
+      "shot_id": "search-codex",
+      "file": "frame-037.jpg"
+    },
+    {
+      "time": 64.15,
+      "shot_id": "search-codex",
+      "file": "frame-038.jpg"
+    },
+    {
+      "time": 65.9,
+      "shot_id": "search-ppt",
+      "file": "frame-039.jpg"
+    },
+    {
+      "time": 68.124,
+      "shot_id": "search-ppt",
+      "file": "frame-040.jpg"
+    },
+    {
+      "time": 68.15,
+      "shot_id": "search-ppt",
+      "file": "frame-041.jpg"
+    },
+    {
+      "time": 69.267,
+      "shot_id": "repositories",
+      "file": "frame-042.jpg"
+    },
+    {
+      "time": 72.15,
+      "shot_id": "repositories",
+      "file": "frame-043.jpg"
+    },
+    {
+      "time": 72.715,
+      "shot_id": "repositories",
+      "file": "frame-044.jpg"
+    },
+    {
+      "time": 74.333,
+      "shot_id": "clean-2224",
+      "file": "frame-045.jpg"
+    },
+    {
+      "time": 76.15,
+      "shot_id": "clean-2224",
+      "file": "frame-046.jpg"
+    },
+    {
+      "time": 77.469,
+      "shot_id": "clean-2224",
+      "file": "frame-047.jpg"
+    },
+    {
+      "time": 78.967,
+      "shot_id": "awesome",
+      "file": "frame-048.jpg"
+    },
+    {
+      "time": 80.15,
+      "shot_id": "awesome",
+      "file": "frame-049.jpg"
+    },
+    {
+      "time": 84.15,
+      "shot_id": "awesome",
+      "file": "frame-050.jpg"
+    },
+    {
+      "time": 88.15,
+      "shot_id": "awesome",
+      "file": "frame-051.jpg"
+    },
+    {
+      "time": 89.207,
+      "shot_id": "awesome",
+      "file": "frame-052.jpg"
+    },
+    {
+      "time": 92.15,
+      "shot_id": "awesome",
+      "file": "frame-053.jpg"
+    },
+    {
+      "time": 93.467,
+      "shot_id": "clean-2798",
+      "file": "frame-054.jpg"
+    },
+    {
+      "time": 94.731,
+      "shot_id": "clean-2798",
+      "file": "frame-055.jpg"
+    },
+    {
+      "time": 95.5,
+      "shot_id": "stars",
+      "file": "frame-056.jpg"
+    },
+    {
+      "time": 96.15,
+      "shot_id": "stars",
+      "file": "frame-057.jpg"
+    },
+    {
+      "time": 100.15,
+      "shot_id": "stars",
+      "file": "frame-058.jpg"
+    },
+    {
+      "time": 104.15,
+      "shot_id": "stars",
+      "file": "frame-059.jpg"
+    },
+    {
+      "time": 104.348,
+      "shot_id": "stars",
+      "file": "frame-060.jpg"
+    },
+    {
+      "time": 107.977,
+      "shot_id": "clean-3236",
+      "file": "frame-061.jpg"
+    },
+    {
+      "time": 108.15,
+      "shot_id": "clean-3236",
+      "file": "frame-062.jpg"
+    },
+    {
+      "time": 108.659,
+      "shot_id": "clean-3236",
+      "file": "frame-063.jpg"
+    },
+    {
+      "time": 109.167,
+      "shot_id": "star-not-fit",
+      "file": "frame-064.jpg"
+    },
+    {
+      "time": 112.135,
+      "shot_id": "star-not-fit",
+      "file": "frame-065.jpg"
+    },
+    {
+      "time": 112.15,
+      "shot_id": "star-not-fit",
+      "file": "frame-066.jpg"
+    },
+    {
+      "time": 113.567,
+      "shot_id": "clean-3401",
+      "file": "frame-067.jpg"
+    },
+    {
+      "time": 115.743,
+      "shot_id": "clean-3401",
+      "file": "frame-068.jpg"
+    },
+    {
+      "time": 116.15,
+      "shot_id": "clean-3401",
+      "file": "frame-069.jpg"
+    },
+    {
+      "time": 116.867,
+      "shot_id": "readme",
+      "file": "frame-070.jpg"
+    },
+    {
+      "time": 119.907,
+      "shot_id": "readme",
+      "file": "frame-071.jpg"
+    },
+    {
+      "time": 120.15,
+      "shot_id": "readme",
+      "file": "frame-072.jpg"
+    },
+    {
+      "time": 121.307,
+      "shot_id": "clean-3635",
+      "file": "frame-073.jpg"
+    },
+    {
+      "time": 122.175,
+      "shot_id": "clean-3635",
+      "file": "frame-074.jpg"
+    },
+    {
+      "time": 122.767,
+      "shot_id": "readme-checks",
+      "file": "frame-075.jpg"
+    },
+    {
+      "time": 124.15,
+      "shot_id": "readme-checks",
+      "file": "frame-076.jpg"
+    },
+    {
+      "time": 126.071,
+      "shot_id": "readme-checks",
+      "file": "frame-077.jpg"
+    },
+    {
+      "time": 127.633,
+      "shot_id": "clean-3823",
+      "file": "frame-078.jpg"
+    },
+    {
+      "time": 128.15,
+      "shot_id": "clean-3823",
+      "file": "frame-079.jpg"
+    },
+    {
+      "time": 132.15,
+      "shot_id": "clean-3823",
+      "file": "frame-080.jpg"
+    },
+    {
+      "time": 132.833,
+      "shot_id": "clean-3823",
+      "file": "frame-081.jpg"
+    },
+    {
+      "time": 135.133,
+      "shot_id": "copy-link",
+      "file": "frame-082.jpg"
+    },
+    {
+      "time": 136.15,
+      "shot_id": "copy-link",
+      "file": "frame-083.jpg"
+    },
+    {
+      "time": 138.437,
+      "shot_id": "copy-link",
+      "file": "frame-084.jpg"
+    },
+    {
+      "time": 140,
+      "shot_id": "check-before-install",
+      "file": "frame-085.jpg"
+    },
+    {
+      "time": 140.15,
+      "shot_id": "check-before-install",
+      "file": "frame-086.jpg"
+    },
+    {
+      "time": 144.15,
+      "shot_id": "check-before-install",
+      "file": "frame-087.jpg"
+    },
+    {
+      "time": 148.15,
+      "shot_id": "check-before-install",
+      "file": "frame-088.jpg"
+    },
+    {
+      "time": 148.44,
+      "shot_id": "check-before-install",
+      "file": "frame-089.jpg"
+    },
+    {
+      "time": 151.953,
+      "shot_id": "clean-4554",
+      "file": "frame-090.jpg"
+    },
+    {
+      "time": 152.15,
+      "shot_id": "clean-4554",
+      "file": "frame-091.jpg"
+    },
+    {
+      "time": 152.904,
+      "shot_id": "clean-4554",
+      "file": "frame-092.jpg"
+    },
+    {
+      "time": 153.533,
+      "shot_id": "install-not-use",
+      "file": "frame-093.jpg"
+    },
+    {
+      "time": 156.15,
+      "shot_id": "install-not-use",
+      "file": "frame-094.jpg"
+    },
+    {
+      "time": 157.197,
+      "shot_id": "install-not-use",
+      "file": "frame-095.jpg"
+    },
+    {
+      "time": 158.9,
+      "shot_id": "real-task",
+      "file": "frame-096.jpg"
+    },
+    {
+      "time": 160.15,
+      "shot_id": "real-task",
+      "file": "frame-097.jpg"
+    },
+    {
+      "time": 164.15,
+      "shot_id": "real-task",
+      "file": "frame-098.jpg"
+    },
+    {
+      "time": 164.988,
+      "shot_id": "real-task",
+      "file": "frame-099.jpg"
+    },
+    {
+      "time": 167.527,
+      "shot_id": "clean-5023",
+      "file": "frame-100.jpg"
+    },
+    {
+      "time": 168.105,
+      "shot_id": "clean-5023",
+      "file": "frame-101.jpg"
+    },
+    {
+      "time": 168.15,
+      "shot_id": "clean-5023",
+      "file": "frame-102.jpg"
+    },
+    {
+      "time": 168.567,
+      "shot_id": "acceptance",
+      "file": "frame-103.jpg"
+    },
+    {
+      "time": 170.527,
+      "shot_id": "acceptance",
+      "file": "frame-104.jpg"
+    },
+    {
+      "time": 171.567,
+      "shot_id": "clean-5141",
+      "file": "frame-105.jpg"
+    },
+    {
+      "time": 172.15,
+      "shot_id": "clean-5141",
+      "file": "frame-106.jpg"
+    },
+    {
+      "time": 173.455,
+      "shot_id": "clean-5141",
+      "file": "frame-107.jpg"
+    },
+    {
+      "time": 174.467,
+      "shot_id": "summary",
+      "file": "frame-108.jpg"
+    },
+    {
+      "time": 176.15,
+      "shot_id": "summary",
+      "file": "frame-109.jpg"
+    },
+    {
+      "time": 180.15,
+      "shot_id": "summary",
+      "file": "frame-110.jpg"
+    },
+    {
+      "time": 180.291,
+      "shot_id": "summary",
+      "file": "frame-111.jpg"
+    },
+    {
+      "time": 182.833,
+      "shot_id": "clean-outro",
+      "file": "frame-112.jpg"
+    },
+    {
+      "time": 184.15,
+      "shot_id": "clean-outro",
+      "file": "frame-113.jpg"
+    },
+    {
+      "time": 188.15,
+      "shot_id": "clean-outro",
+      "file": "frame-114.jpg"
+    },
+    {
+      "time": 190.121,
+      "shot_id": "clean-outro",
+      "file": "frame-115.jpg"
+    },
+    {
+      "time": 192.15,
+      "shot_id": "clean-outro",
+      "file": "frame-116.jpg"
+    },
+    {
+      "time": 193.233,
+      "shot_id": "identity",
+      "file": "frame-117.jpg"
+    },
+    {
+      "time": 196.15,
+      "shot_id": "identity",
+      "file": "frame-118.jpg"
+    },
+    {
+      "time": 197.785,
+      "shot_id": "identity",
+      "file": "frame-119.jpg"
+    },
+    {
+      "time": 199.65,
+      "shot_id": "clean-tail",
+      "file": "frame-120.jpg"
+    },
+    {
+      "time": 199.7,
+      "shot_id": "clean-tail",
+      "file": "frame-121.jpg"
+    },
+    {
+      "time": 199.75,
+      "shot_id": "clean-tail",
+      "file": "frame-122.jpg"
+    }
+  ],
+  "limitation": "抽样静帧不能证明动态节奏、阅读停留和声音通过，仍需整片播放。"
+}

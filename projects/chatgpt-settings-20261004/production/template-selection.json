@@ -1,0 +1,126 @@
+{
+  "policy": "优先现有TalkCraft动画，仅项目级布局/参数升级；不改公共模板",
+  "selections": [
+    {
+      "scene_id": "meaning-02",
+      "primary_card": "talkcraft:rack-focus-pair",
+      "visual_structure": "comparison",
+      "source": "motion-library/adapters/talkcraft/full/cards/rack-focus-pair.tsx",
+      "adaptation": "人物左侧透明皮及3.16秒时点升级",
+      "project_qc": "pending",
+      "registry_supports_structure": true,
+      "execution": "project_local_adapter",
+      "capability_note": "复用已有结构；项目文案/透明皮/时点仍需复验"
+    },
+    {
+      "scene_id": "meaning-04",
+      "primary_card": "talkcraft:number-counter",
+      "visual_structure": "single_focus",
+      "source": "motion-library/adapters/talkcraft/full/cards/number-counter.tsx",
+      "adaptation": "计数格式改为百分比，0→95；原缓动/落定",
+      "project_qc": "pending",
+      "registry_supports_structure": true,
+      "execution": "project_local_adapter",
+      "capability_note": "复用已有结构；项目文案/透明皮/时点仍需复验"
+    },
+    {
+      "scene_id": "meaning-05",
+      "primary_card": "talkcraft:focus-dim-spotlight",
+      "visual_structure": "sequence",
+      "source": "motion-library/adapters/talkcraft/full/cards/focus-dim-spotlight.tsx",
+      "adaptation": "文案/字词时点/安全区",
+      "project_qc": "pending",
+      "registry_supports_structure": false,
+      "execution": "project_local_adapter",
+      "capability_note": "本次布局与时点经项目稳定帧复验，不冒充公共卡能力"
+    },
+    {
+      "scene_id": "meaning-07",
+      "primary_card": "talkcraft:rack-focus-pair",
+      "visual_structure": "comparison",
+      "source": "motion-library/adapters/talkcraft/full/cards/rack-focus-pair.tsx",
+      "adaptation": "文案/字词时点/安全区",
+      "project_qc": "pending",
+      "registry_supports_structure": true,
+      "execution": "project_local_adapter",
+      "capability_note": "复用已有结构；项目文案/透明皮/时点仍需复验"
+    },
+    {
+      "scene_id": "meaning-10",
+      "primary_card": "talkcraft:error-retype",
+      "visual_structure": "before_after",
+      "source": "motion-library/adapters/talkcraft/full/cards/error-retype.tsx",
+      "adaptation": "文案/字词时点/安全区",
+      "project_qc": "pending",
+      "registry_supports_structure": true,
+      "execution": "project_local_adapter",
+      "capability_note": "复用已有结构；项目文案/透明皮/时点仍需复验"
+    },
+    {
+      "scene_id": "meaning-11",
+      "primary_card": "talkcraft:focus-dim-spotlight",
+      "visual_structure": "sequence",
+      "source": "motion-library/adapters/talkcraft/full/cards/focus-dim-spotlight.tsx",
+      "adaptation": "文案/字词时点/安全区",
+      "project_qc": "pending",
+      "registry_supports_structure": false,
+      "execution": "project_local_adapter",
+      "capability_note": "本次布局与时点经项目稳定帧复验，不冒充公共卡能力"
+    },
+    {
+      "scene_id": "meaning-12",
+      "primary_card": "talkcraft:host-card-glass-board",
+      "visual_structure": "one_to_many",
+      "source": "motion-library/adapters/talkcraft/full/cards/host-card-glass-board.tsx",
+      "adaptation": "one_to_many连接布局升级，保留原板/道具pop/连线grow动画",
+      "project_qc": "pending",
+      "registry_supports_structure": false,
+      "execution": "project_local_adapter",
+      "capability_note": "本次布局与时点经项目稳定帧复验，不冒充公共卡能力"
+    },
+    {
+      "scene_id": "meaning-13",
+      "primary_card": "talkcraft:focus-dim-spotlight",
+      "visual_structure": "sequence",
+      "source": "motion-library/adapters/talkcraft/full/cards/focus-dim-spotlight.tsx",
+      "adaptation": "文案/字词时点/安全区",
+      "project_qc": "pending",
+      "registry_supports_structure": false,
+      "execution": "project_local_adapter",
+      "capability_note": "本次布局与时点经项目稳定帧复验，不冒充公共卡能力"
+    },
+    {
+      "scene_id": "meaning-15",
+      "primary_card": "talkcraft:strike-and-replace",
+      "visual_structure": "before_after",
+      "source": "motion-library/adapters/talkcraft/full/cards/strike-and-replace.tsx",
+      "adaptation": "当前状态替换，旧记忆固定，保留可能性",
+      "project_qc": "pending",
+      "registry_supports_structure": true,
+      "execution": "project_local_adapter",
+      "capability_note": "复用已有结构；项目文案/透明皮/时点仍需复验"
+    },
+    {
+      "scene_id": "meaning-17",
+      "primary_card": "talkcraft:focus-dim-spotlight",
+      "visual_structure": "sequence",
+      "source": "motion-library/adapters/talkcraft/full/cards/focus-dim-spotlight.tsx",
+      "adaptation": "文案/字词时点/安全区",
+      "project_qc": "pending",
+      "registry_supports_structure": false,
+      "execution": "project_local_adapter",
+      "capability_note": "本次布局与时点经项目稳定帧复验，不冒充公共卡能力"
+    },
+    {
+      "scene_id": "meaning-20",
+      "primary_card": "talkcraft:rack-focus-pair",
+      "visual_structure": "comparison",
+      "source": "motion-library/adapters/talkcraft/full/cards/rack-focus-pair.tsx",
+      "adaptation": "文案/字词时点/安全区",
+      "project_qc": "pending",
+      "registry_supports_structure": true,
+      "execution": "project_local_adapter",
+      "capability_note": "复用已有结构；项目文案/透明皮/时点仍需复验"
+    }
+  ]
+}

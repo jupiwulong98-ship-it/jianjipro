@@ -1,0 +1,232 @@
+[
+  {
+    "shot": "github",
+    "at": 7.966666666666667,
+    "anchor": "GitHub"
+  },
+  {
+    "shot": "find",
+    "at": 20.166666666666668,
+    "anchor": "AI 帮你找"
+  },
+  {
+    "shot": "repository",
+    "at": 37.766666666666666,
+    "anchor": "AI 工具"
+  },
+  {
+    "shot": "repository",
+    "at": 38.766666666666666,
+    "anchor": "开源项目"
+  },
+  {
+    "shot": "repository",
+    "at": 39.68666666666667,
+    "anchor": "学习资料"
+  },
+  {
+    "shot": "repository",
+    "at": 41.34666666666667,
+    "anchor": "Skill"
+  },
+  {
+    "shot": "three-actions",
+    "at": 48.42333333333333,
+    "anchor": "搜需求"
+  },
+  {
+    "shot": "three-actions",
+    "at": 49.25333333333333,
+    "anchor": "看介绍"
+  },
+  {
+    "shot": "three-actions",
+    "at": 50.13333333333333,
+    "anchor": "复制链接"
+  },
+  {
+    "shot": "signup",
+    "at": 52.8,
+    "anchor": "右上角 Sign up"
+  },
+  {
+    "shot": "search-codex",
+    "at": 59,
+    "anchor": "codex skills"
+  },
+  {
+    "shot": "search-ppt",
+    "at": 65.7,
+    "anchor": "ppt skill"
+  },
+  {
+    "shot": "repositories",
+    "at": 69.06666666666666,
+    "anchor": "Repositories = 项目仓库"
+  },
+  {
+    "shot": "awesome",
+    "at": 83.61666666666666,
+    "anchor": "项目 A"
+  },
+  {
+    "shot": "awesome",
+    "at": 84.76666666666667,
+    "anchor": "项目 B"
+  },
+  {
+    "shot": "awesome",
+    "at": 89.06666666666666,
+    "anchor": "项目 C"
+  },
+  {
+    "shot": "stars",
+    "at": 95.3,
+    "anchor": "Most stars · 星标最多"
+  },
+  {
+    "shot": "stars",
+    "at": 104.27,
+    "anchor": "Most stars · 星标最多"
+  },
+  {
+    "shot": "star-not-fit",
+    "at": 108.96666666666667,
+    "anchor": "Star 多只代表关注的人多，不代表它一定适合你。"
+  },
+  {
+    "shot": "star-not-fit",
+    "at": 111.41666666666667,
+    "anchor": "Star 多只代表关注的人多，不代表它一定适合你。"
+  },
+  {
+    "shot": "readme",
+    "at": 116.66666666666667,
+    "anchor": "先看用途与输出"
+  },
+  {
+    "shot": "readme-checks",
+    "at": 123.96666666666667,
+    "anchor": "干什么的"
+  },
+  {
+    "shot": "readme-checks",
+    "at": 124.72666666666666,
+    "anchor": "效果长什么样"
+  },
+  {
+    "shot": "readme-checks",
+    "at": 125.68666666666667,
+    "anchor": "怎么安装和使用"
+  },
+  {
+    "shot": "copy-link",
+    "at": 134.93333333333334,
+    "anchor": "项目链接"
+  },
+  {
+    "shot": "copy-link",
+    "at": 136.70333333333335,
+    "anchor": "复制"
+  },
+  {
+    "shot": "copy-link",
+    "at": 138.37333333333333,
+    "anchor": "Codex"
+  },
+  {
+    "shot": "check-before-install",
+    "at": 139.8,
+    "anchor": "兼容性"
+  },
+  {
+    "shot": "check-before-install",
+    "at": 145.06,
+    "anchor": "依赖与费用"
+  },
+  {
+    "shot": "check-before-install",
+    "at": 148.15,
+    "anchor": "可用时安装"
+  },
+  {
+    "shot": "check-before-install",
+    "at": 149.33,
+    "anchor": "用例教学"
+  },
+  {
+    "shot": "install-not-use",
+    "at": 153.33333333333334,
+    "anchor": "安装成功不代表这个工具真的就有用，一定要让 Codex 再实际跑一次。"
+  },
+  {
+    "shot": "install-not-use",
+    "at": 153.94033333333334,
+    "anchor": "安装成功不代表这个工具真的就有用，一定要让 Codex 再实际跑一次。"
+  },
+  {
+    "shot": "real-task",
+    "at": 161.14999999999998,
+    "anchor": "你的内容"
+  },
+  {
+    "shot": "real-task",
+    "at": 159.56,
+    "anchor": "演示文稿工具"
+  },
+  {
+    "shot": "real-task",
+    "at": 163.48999999999998,
+    "anchor": "演示文稿"
+  },
+  {
+    "shot": "acceptance",
+    "at": 168.36666666666667,
+    "anchor": "跑得出来"
+  },
+  {
+    "shot": "acceptance",
+    "at": 169.26666666666668,
+    "anchor": "符合需求"
+  },
+  {
+    "shot": "summary",
+    "at": 174.26666666666668,
+    "anchor": "搜需求"
+  },
+  {
+    "shot": "summary",
+    "at": 175.68666666666667,
+    "anchor": "找项目"
+  },
+  {
+    "shot": "summary",
+    "at": 176.4466666666667,
+    "anchor": "看介绍"
+  },
+  {
+    "shot": "summary",
+    "at": 177.99666666666667,
+    "anchor": "复制链接"
+  },
+  {
+    "shot": "summary",
+    "at": 178.95666666666668,
+    "anchor": "交给 AI"
+  },
+  {
+    "shot": "summary",
+    "at": 180.66666666666669,
+    "anchor": "检查·安装·实测"
+  },
+  {
+    "shot": "identity",
+    "at": 193.03333333333333,
+    "anchor": "乌龙"
+  },
+  {
+    "shot": "identity",
+    "at": 193.58333333333334,
+    "anchor": "乌龙"
+  }
+]

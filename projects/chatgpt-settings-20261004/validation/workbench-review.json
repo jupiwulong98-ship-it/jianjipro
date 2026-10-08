@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "checked_on": "2026-10-04",
+  "url": "http://127.0.0.1:5201/#planning",
+  "project_id": "chatgpt-settings-20261004",
+  "binding": "c74dde78cf2a089f70b90169619f4b9758535ba2f9544b94dfb346d149b96830",
+  "observed": {
+    "selected_project_title": "ChatGPT先改这4个设置 · 画面策划",
+    "source_cards": 81,
+    "source_words": 756,
+    "meaning_scenes": 21,
+    "visual_scenes": 10,
+    "clean_scenes": 11,
+    "approved_scenes": 0,
+    "plan_tab": "visible",
+    "native_action_times": "visible",
+    "rule_preview_scene": "meaning-12",
+    "rule_preview": "one_to_many",
+    "preview_disclaimer": "通用动态示意 · 本段成片尚未制作。界面与人物使用占位，最终素材和构图另行审阅。",
+    "preview_visual": "共享母体向多个关联节点连接，界面正常显示",
+    "preview_closed": true,
+    "tab_kept_open": true,
+    "user_review_controls": "available_not_used"
+  },
+  "screenshot": "planning-workbench.jpg",
+  "scope": "项目数据合同与工作台显示核验；没有修改应用代码，未运行整仓构建或回归测试。",
+  "limitations": ["4组真实中文界面未采集", "规则示意不是本段成片", "整片听音验收未完成", "用户尚未确认策划"]
+}

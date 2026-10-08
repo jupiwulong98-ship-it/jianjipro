@@ -1,10 +1,15 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const metadata = JSON.parse(fs.readFileSync(path.join(root,'vendor/talkcraft/references/cards-index.json'),'utf8'));
 const adapters = JSON.parse(fs.readFileSync(path.join(root,'adapters/talkcraft/registry.json'),'utf8'));
+const verificationPath=path.join(root,'adapters/talkcraft/full/verification.json');
+const verified=fs.existsSync(verificationPath)?JSON.parse(fs.readFileSync(verificationPath,'utf8')):null;
+for(const card of adapters){const proof=verified?.cards?.[card.slug];if(proof&&proof.render==='pass'&&proof.replacement==='pass'&&proof.adapter_sha256===crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'adapters/talkcraft',card.source))).digest('hex')&&proof.support_sha256===crypto.createHash('sha256').update(fs.readFileSync(path.join(root,'adapters/talkcraft/full/support.tsx'))).digest('hex'))card.verification=proof;}
+
 const ids = new Set();
 const cards = metadata.cards.map(card => {
   if (ids.has(card.slug)) throw new Error(`重复模板：${card.slug}`);

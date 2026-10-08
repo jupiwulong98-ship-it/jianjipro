@@ -1,0 +1,162 @@
+{
+  "gate": "C",
+  "status": "pass",
+  "component_hash": "b5dedca55f58e90db4ed1db16e335c40966025bf6e64b4cb7fe1359b6ca02f6e",
+  "reviewed_contact_sheets": [
+    "stable-phase-1.jpg",
+    "stable-phase-2.jpg"
+  ],
+  "review_method": "agent_visual_inspection",
+  "checks": {
+    "structure_preservation": "pass",
+    "semantic_fit": "pass",
+    "clipping": "pass",
+    "contrast": "pass",
+    "caption_reserved_region": "pass",
+    "evidence_integrity": "pass"
+  },
+  "limitations": [
+    "透明轻强调与人物小窗需在实际ChatCut合成复核",
+    "静帧通过不等同连续播放验收"
+  ],
+  "shots": [
+    {
+      "id": "scene-01",
+      "status": "pass",
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "single_focus"
+    },
+    {
+      "id": "scene-02",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "input_process_output"
+    },
+    {
+      "id": "scene-04",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "input_process_output"
+    },
+    {
+      "id": "scene-05",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "one_to_many"
+    },
+    {
+      "id": "scene-06",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "input_process_output"
+    },
+    {
+      "id": "scene-08",
+      "status": "pass",
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "single_focus"
+    },
+    {
+      "id": "scene-09",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "comparison"
+    },
+    {
+      "id": "scene-10",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "hierarchy"
+    },
+    {
+      "id": "scene-11",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "input_process_output"
+    },
+    {
+      "id": "scene-12",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "sequence"
+    },
+    {
+      "id": "scene-14",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "decision_tree"
+    },
+    {
+      "id": "scene-15",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "timeline"
+    },
+    {
+      "id": "scene-16",
+      "status": "pass",
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "sequence"
+    },
+    {
+      "id": "scene-18",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "hierarchy"
+    },
+    {
+      "id": "scene-19",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "input_process_output"
+    },
+    {
+      "id": "scene-21",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "before_after"
+    },
+    {
+      "id": "scene-23",
+      "status": "pass",
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "single_focus"
+    },
+    {
+      "id": "scene-24",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "one_to_many"
+    },
+    {
+      "id": "scene-26",
+      "status": "pass",
+      "presentation_mode": "full_screen",
+      "visual_structure": "comparison"
+    },
+    {
+      "id": "scene-27",
+      "status": "pass",
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "sequence"
+    }
+  ],
+  "repaired_issue": {
+    "shot": "scene-04",
+    "issue": "HTML代码与说明行挤在一起",
+    "fix": "代码块下移35px并设置独立行高",
+    "recheck": "scene-04-2.png"
+  },
+  "presenter_safe_repair": {
+    "shot": "scene-08",
+    "fix": "文字到效果的对应关系放入左侧独立面板",
+    "reviewed_frame": "renders/scene-08-2.png"
+  },
+  "pip_cleanup": {
+    "request": "去掉口播讲解标注和人物小窗蓝色外框",
+    "affected_shots": 15,
+    "reviewed_contact_sheet": "pip-cleanup-stable.jpg",
+    "result": "pass",
+    "scope": "仅删除全屏动画里的两层装饰，原人物圆角视频和关系图保持"
+  }
+}

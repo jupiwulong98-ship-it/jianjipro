@@ -1,0 +1,8 @@
+{
+  "original": "transcript-auto.json",
+  "readable_copy": "transcript-auto-readable.json",
+  "original_bytes_preserved": true,
+  "replacement_character_count": 98,
+  "reason": "原始full JSON的部分字节级token含不完整UTF-8；仅可读副本用替换字符处理，句文本另行按画面校正。",
+  "token_times_not_forced_aligned": true
+}

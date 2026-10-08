@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-04",
+  "basis": {
+    "vault": "AI第二大脑_内容创作系统",
+    "path": "06_内容生产/2026/10/2026-10-04_ChatGPT先改这4个设置.md",
+    "userConfirmedClosing": "接下来我还会继续把这些 AI 工具"
+  },
+  "method": "Source transcription repaired through ChatCut manage_transcript; native caption words paginated and read back",
+  "commands": [
+    {
+      "asset": "2788d4fc59",
+      "content": "FIX [s12]: 16 -> \"它\"\nFIX [s16]: 6 -> \"它\"\nFIX [s19]: 13 -> \"它，\"\nFIX [s22]: 6 -> \"它。\"\nFIX [s28]: 5 -> \"对\"\nFIX [s28]: 6 -> \"话\"\nFIX [s29]: 7 -> \"它\"\nFIX [s30]: 6 -> \"化，\"\nFIX [s33]: 13 -> \"它\"\nFIX [s35]: 7 -> \"它，\"\nFIX [s36]: 6 -> \"减\""
+    },
+    {
+      "asset": "ae3235fe7f",
+      "content": "FIX [s1]: 9 -> \"它\"\nFIX [s2]: 0 -> \"它\"\nFIX [s3]: 2 -> \"它\"\nFIX [s11]: 7 -> \"GPT\"\nFIX [s17]: 3 -> \"它\"\nFIX [s17]: 13 -> \"它\"\nFIX [s17]: 20 -> \"作。\"\nFIX [s19]: 8 -> \"\""
+    }
+  ],
+  "changes": [
+    {
+      "before": "你说什么他都先夸你两句。",
+      "after": "你说什么它都先夸你两句。"
+    },
+    {
+      "before": "所以我自己给她的原则很简单，",
+      "after": "所以我自己给它的原则很简单，"
+    },
+    {
+      "before": "不要每打开一个新会话就告诉他，",
+      "after": "不要每打开一个新会话就告诉它，"
+    },
+    {
+      "before": "比如我会告诉他。",
+      "after": "比如我会告诉它。"
+    },
+    {
+      "before": "以后大量的绘画都不用",
+      "after": "以后大量的对话都不用"
+    },
+    {
+      "before": "第三个就是检查他到底记住了你什么。",
+      "after": "第三个就是检查它到底记住了你什么。"
+    },
+    {
+      "before": "还是进入个性化？",
+      "after": "还是进入个性化，"
+    },
+    {
+      "before": "他可能就给你记住了。",
+      "after": "它可能就给你记住了。"
+    },
+    {
+      "before": "比如你以前告诉他，",
+      "after": "比如你以前告诉它，"
+    },
+    {
+      "before": "后来你已经不剪了。",
+      "after": "后来你已经不减了。"
+    },
+    {
+      "before": "但这个信息一直影响他后面的回答。",
+      "after": "但这个信息一直影响它后面的回答。"
+    },
+    {
+      "before": "他给你的建议就可能会越来越偏。",
+      "after": "它给你的建议就可能会越来越偏。"
+    },
+    {
+      "before": "所以他的记忆不是越多越好。",
+      "after": "所以它的记忆不是越多越好。"
+    },
+    {
+      "before": "尤其是你经常往 GP 里面放。",
+      "after": "尤其是你经常往 GPT 里面放。"
+    },
+    {
+      "before": "而是让他越来越了解",
+      "after": "而是让它越来越了解"
+    },
+    {
+      "before": "你希望他怎么样和你工作？",
+      "after": "你希望它怎么样和你工作。"
+    },
+    {
+      "before": "关注我，接下来我还机会继续把这些 AI 工具。",
+      "after": "关注我，接下来我还会继续把这些 AI 工具。"
+    }
+  ],
+  "preservedSpokenVariants": [
+    "我最近在减肥（文案为减脂）",
+    "它可能就给你记住了",
+    "少哄我，多找出问题",
+    "没有任何帮助",
+    "还会继续"
+  ],
+  "captionCount": 81,
+  "wordCount": 756,
+  "timelineFrames": 4475,
+  "timing": "Native edited-timeline word timestamps preserved; no word timing adjustment",
+  "audio": "No playback/audio content changed during caption correction",
+  "listeningReview": "not_verified",
+  "localAsr": "Whisper small supported 减 and repeated other errors; not used as final editorial authority. Script comparison and user confirmation determine correction."
+}

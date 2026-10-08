@@ -1,0 +1,162 @@
+{
+  "status": "pass",
+  "checks": [
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/assets/base.mp4",
+      "frames": 4475,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": true,
+      "pixel_format": "yuv420p",
+      "sha256": "af6b0983625b815998923344e234fb2f0c2c669758634a95e693dc64339c55fd"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-02.mov",
+      "frames": 95,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuva444p12le",
+      "sha256": "5b1a6751cafd504324564aa84b2e2ac0ec3cab9166ae895c74a659af82ea5eed"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-04.mov",
+      "frames": 95,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuva444p12le",
+      "sha256": "ffe43ac1a9572508148315f3ce6b1ba51a5be1eacf8f769a3d0eb7221a65181b"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-05.mp4",
+      "frames": 143,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "f323cf6b24eafb68ff41f6c2d76887d489b89ba1a710d881be20431499e43235"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-07.mp4",
+      "frames": 226,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "991a1b95e61de1548944117d1b860a42c15d13a5434e8955b0169cf22dd973cc"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-10.mp4",
+      "frames": 283,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "033cbf42a7985d385816c7a2438e687092a413039e41341d7817da2bce8368d2"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-11.mp4",
+      "frames": 328,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "8703cddf686ee1279d60535243e8c8a27a04f2cacc0c77ce554bb50d0b991f0c"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-12.mp4",
+      "frames": 97,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "b1c9735ff972d3de2ab0b99de726f27e34122c730a56c427cd86a4d95b700ea5"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-13.mp4",
+      "frames": 251,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "6703f4c12ea6cba0ba35e7fed3684a3ebf65ef9ed7a5e5ebdb6f3bab985aa5ae"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-15.mp4",
+      "frames": 292,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "827dc6c53e98a855c08dbc897ef122af362e678d3a032dc2c598a5cba7479f6a"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-17.mp4",
+      "frames": 372,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "118bb16b1bfe32bb7cfe1dfa3a7b1be112ae1861a89b94a4c7e954d650485103"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-20.mp4",
+      "frames": 132,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": false,
+      "pixel_format": "yuvj420p",
+      "sha256": "0f9e36e0841621ff1716477a294c4f3540957fa30af1038032589c4318aa35c7"
+    },
+    {
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/candidate.mp4",
+      "frames": 4475,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": 30,
+      "audio": true,
+      "pixel_format": "yuvj420p",
+      "sha256": "91c4be13baa0590f6ca1e3ac782f8607f8180ff3c5ee214a147ba1d8a1a05617"
+    }
+  ],
+  "scope": "帧数/画幅/音轨/透明格式；不是动态审片或听音验收"
+}

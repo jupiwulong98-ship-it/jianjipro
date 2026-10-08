@@ -1,0 +1,352 @@
+{
+  "projectId": "cd090e4b-1060-42c2-9b26-4bb286b4ed1c",
+  "timelineId": "c2c179b7-e4b1-47c9-9786-69334a8fa3d9",
+  "sourceProjectId": "1ab95a6d-f88a-416b-9d93-a669d1a63ef3",
+  "status": "assembled",
+  "motionTrackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+  "presenterTrackId": "f52606c2-e35b-4858-aa65-58e80d446470",
+  "motionMapping": [
+    {
+      "shot_id": "scene-01",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-01-ce4cca2857d0.mov",
+      "start_frame": 8,
+      "duration_frames": 133,
+      "presentation_mode": "presenter_safe",
+      "hash": "ce4cca2857d0aa217d9cf31881e08f886341b774239e78788bfd934fe3a768c5",
+      "assetId": "2bdbae1590"
+    },
+    {
+      "shot_id": "scene-02",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-02-b4f56828afe9.mov",
+      "start_frame": 143,
+      "duration_frames": 277,
+      "presentation_mode": "full_screen",
+      "hash": "b4f56828afe95278475a924154035aa5241a09ee7201de430ab143abd1f2bb0a",
+      "assetId": "c60cb8802e"
+    },
+    {
+      "shot_id": "scene-04",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-04-8e193f66f63c.mov",
+      "start_frame": 740,
+      "duration_frames": 169,
+      "presentation_mode": "full_screen",
+      "hash": "8e193f66f63c922c79c9ef8cab7237a21aade238fe0fbe67c9762d713139960b",
+      "assetId": "3e1695f129"
+    },
+    {
+      "shot_id": "scene-05",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-05-ab84daca2698.mov",
+      "start_frame": 917,
+      "duration_frames": 345,
+      "presentation_mode": "full_screen",
+      "hash": "ab84daca269855059ca5cb1d457cd47f4f028241aaa9fc17cc0b026db2941966",
+      "assetId": "5fcf9a6556"
+    },
+    {
+      "shot_id": "scene-06",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-06-a92a3381b389.mov",
+      "start_frame": 1268,
+      "duration_frames": 275,
+      "presentation_mode": "full_screen",
+      "hash": "a92a3381b389645663c923fef74ba06d4e3faf942e20af45c43edc2b384ba265",
+      "assetId": "4017c952a5"
+    },
+    {
+      "shot_id": "scene-08",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-08-98f96fa5b318.mov",
+      "start_frame": 1802,
+      "duration_frames": 179,
+      "presentation_mode": "presenter_safe",
+      "hash": "98f96fa5b3183a62d442c4cb51907d799483c470cc86d39087ca3634881d0c42",
+      "assetId": "472f5222-7c2c-4e42-9c77-85834d8ad6fc"
+    },
+    {
+      "shot_id": "scene-09",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-09-196f1fe6f72d.mov",
+      "start_frame": 1982,
+      "duration_frames": 176,
+      "presentation_mode": "full_screen",
+      "hash": "196f1fe6f72d99b42c0b1a62167d1957e25672ffd870dad4249d0684d2396e65",
+      "assetId": "53fcf03f1f"
+    },
+    {
+      "shot_id": "scene-10",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-10-6fff3142d02b.mov",
+      "start_frame": 2166,
+      "duration_frames": 293,
+      "presentation_mode": "full_screen",
+      "hash": "6fff3142d02b5631817f4e87ae827f08084c9fd1dbdb1407970a130b28bb6429",
+      "assetId": "5fb540fdca"
+    },
+    {
+      "shot_id": "scene-11",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-11-3d1e1c4d9ef4.mov",
+      "start_frame": 2462,
+      "duration_frames": 464,
+      "presentation_mode": "full_screen",
+      "hash": "3d1e1c4d9ef4872dc7f870c21c2ddc4c8da329952e6706884504acf1550d9776",
+      "assetId": "1c331e528e"
+    },
+    {
+      "shot_id": "scene-12",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-12-9abccc205735.mov",
+      "start_frame": 2934,
+      "duration_frames": 239,
+      "presentation_mode": "full_screen",
+      "hash": "9abccc20573548332d133cfe7c87911df180fbb78409c1aaa96d7e12e66fd45c",
+      "assetId": "9faaa04c02"
+    },
+    {
+      "shot_id": "scene-14",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-14-328088381d3d.mov",
+      "start_frame": 3366,
+      "duration_frames": 236,
+      "presentation_mode": "full_screen",
+      "hash": "328088381d3d3735fc939c6fc835d87eb07596c29526c7fb0601112afd983ab7",
+      "assetId": "971f62f855"
+    },
+    {
+      "shot_id": "scene-15",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-15-b44357bd2dd1.mov",
+      "start_frame": 3610,
+      "duration_frames": 307,
+      "presentation_mode": "full_screen",
+      "hash": "b44357bd2dd128bbfa50776a16e7b774e21dc47a432865cdd7c4c6aff6357ecf",
+      "assetId": "88ef50815e"
+    },
+    {
+      "shot_id": "scene-16",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-16-095cda9ba8af.mov",
+      "start_frame": 3925,
+      "duration_frames": 165,
+      "presentation_mode": "presenter_safe",
+      "hash": "095cda9ba8af4887818b4bb37e44c3bfd5430c6c28b005cb63fe4dc1a1e013d2",
+      "assetId": "5c78a66460"
+    },
+    {
+      "shot_id": "scene-18",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-18-49f2a1976256.mov",
+      "start_frame": 4394,
+      "duration_frames": 407,
+      "presentation_mode": "full_screen",
+      "hash": "49f2a19762561b2c7f6d8b175f72d398bf851c8d9a05bbb169c9b01c7fafbb72",
+      "assetId": "61d6296074"
+    },
+    {
+      "shot_id": "scene-19",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-19-ec1503134901.mov",
+      "start_frame": 4810,
+      "duration_frames": 131,
+      "presentation_mode": "full_screen",
+      "hash": "ec15031349013742d89dbd2986bfc05d6dfcd6f139dbce672743a8199ad6bc2e",
+      "assetId": "79bf519c18"
+    },
+    {
+      "shot_id": "scene-21",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-21-462acfef2c3b.mov",
+      "start_frame": 5260,
+      "duration_frames": 309,
+      "presentation_mode": "full_screen",
+      "hash": "462acfef2c3b508bbffa27e92f25f2b40035e89dcc133e71a8c734a2c7d23be3",
+      "assetId": "caf57711aa"
+    },
+    {
+      "shot_id": "scene-23",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-23-f6863e0e48e6.mov",
+      "start_frame": 5877,
+      "duration_frames": 234,
+      "presentation_mode": "presenter_safe",
+      "hash": "f6863e0e48e6f962b75c2c4226384f093492c893390904be85ee341f2241b4f1",
+      "assetId": "d6cd12cba1"
+    },
+    {
+      "shot_id": "scene-24",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-24-f5c5b35429b5.mov",
+      "start_frame": 6112,
+      "duration_frames": 218,
+      "presentation_mode": "full_screen",
+      "hash": "f5c5b35429b5e297f1e828b1ed8f04a9f61a7c4f791b6ed1ffdef3dfccabf5b3",
+      "assetId": "59288573d2"
+    },
+    {
+      "shot_id": "scene-26",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-26-4f5b026a829d.mov",
+      "start_frame": 6560,
+      "duration_frames": 190,
+      "presentation_mode": "full_screen",
+      "hash": "4f5b026a829dba1bef85b96be6561925c352ec89071ede502915f3029c63cbe6",
+      "assetId": "fe8cd55d3e"
+    },
+    {
+      "shot_id": "scene-27",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/ai-editing-workflow-20261008/renders/scene-27-ba78b2c52de4.mov",
+      "start_frame": 6758,
+      "duration_frames": 407,
+      "presentation_mode": "presenter_safe",
+      "hash": "ba78b2c52de486b0a78dafe6830e7c42e924f5fa30aa90fce975f0fca5e3ba60",
+      "assetId": "7350208a-8c92-4b54-99c1-b1990ea92bc8"
+    }
+  ],
+  "motionItems": [
+    {
+      "durationFrames": 133,
+      "startFrame": 8,
+      "id": "e61b71cb-e10b-47d0-a021-4dbb8324dc17",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 277,
+      "startFrame": 143,
+      "id": "a9ae3a40-a4d8-4151-9824-6c4c1a36d441",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 169,
+      "startFrame": 740,
+      "id": "385fdd12-b913-442e-9f99-643e50c52add",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 345,
+      "startFrame": 917,
+      "id": "780ca62b-2570-4cdc-b336-ccf9a5da63de",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 275,
+      "startFrame": 1268,
+      "id": "99e3a3d3-cadd-4c38-9b24-06da42bab14b",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 179,
+      "startFrame": 1802,
+      "id": "8ca9e122-00fc-48d3-9d2e-237558d92a92",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 176,
+      "startFrame": 1982,
+      "id": "749c6e17-c57e-44d0-868c-b13aca4c6f78",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 293,
+      "startFrame": 2166,
+      "id": "1cd5bdee-4bb1-4767-9261-a70b44c32b5f",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 464,
+      "startFrame": 2462,
+      "id": "50cec8c4-2ac5-4a79-812f-177201633742",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 239,
+      "startFrame": 2934,
+      "id": "6d9848a6-a2be-48b6-b637-32c318013fb6",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 236,
+      "startFrame": 3366,
+      "id": "752af2dd-3f1a-4a88-bbf0-65ea6bd3ce17",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 307,
+      "startFrame": 3610,
+      "id": "3d9f36f1-cd92-4067-ab61-96b5e136e38d",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 165,
+      "startFrame": 3925,
+      "id": "6ccdfb38-47d9-4d97-870d-0f5d57fa333f",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 407,
+      "startFrame": 4394,
+      "id": "af058868-a212-48c4-86aa-731a45e2c010",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 131,
+      "startFrame": 4810,
+      "id": "327470df-e6a3-4fef-8473-18aef412d7d0",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 309,
+      "startFrame": 5260,
+      "id": "13a14c62-e187-4c36-91e0-e9b635c7faf2",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 234,
+      "startFrame": 5877,
+      "id": "aff5d230-4133-46d2-a1e4-4cf0c56fdd47",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 218,
+      "startFrame": 6112,
+      "id": "bf893091-6499-4805-aafb-9aeb1ac378ed",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 190,
+      "startFrame": 6560,
+      "id": "1483b5be-574d-4f59-b5d2-4831f6913eb2",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    },
+    {
+      "durationFrames": 407,
+      "startFrame": 6758,
+      "id": "9935e427-f5fc-40f1-b89f-be57f4125909",
+      "trackId": "e203202b-69f8-449a-aca6-aace1600f0c9",
+      "type": "video"
+    }
+  ],
+  "pipCaptionTrackHidden": true,
+  "reviewExport": {
+    "status": "complete",
+    "revision": "pip-cleanup-v2",
+    "output_path": "/Users/jupiwulong/Downloads/AI剪辑流程-动画包装-小窗修订-v2-20261008.mp4",
+    "native_output_path": "/Users/jupiwulong/Movies/ChatCut/AI剪辑流程-动画包装-小窗修订-v2.mp4",
+    "task_id": "6bb3258d-7bbb-4f67-a1ad-d3536b36f18f",
+    "sha256": "1925ed4eae886a5333aeda1fbae6900f4bc0d452cf2afef1bd8ffc0ba43bac31",
+    "frames": 7253,
+    "duration_seconds": 241.766667,
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "full_decode": "pass",
+    "audio_video_end_difference_seconds": 0.0,
+    "continuous_listening_review": "not_verified"
+  },
+  "final_visual_qc": "validation/gate-d/visual-qc.json",
+  "delivery_manifest": "renders/chatcut-delivery.json",
+  "pip_revision": "validation/pip-cleanup-applied.json"
+}

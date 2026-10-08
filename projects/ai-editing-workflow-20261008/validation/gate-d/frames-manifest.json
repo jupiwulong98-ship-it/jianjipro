@@ -1,0 +1,876 @@
+{
+  "version": "0.1",
+  "project_id": "ai-editing-workflow-20261008",
+  "gate": "D",
+  "status": "needs_visual_review",
+  "source_kind": "rendered_full_video",
+  "video": "/Users/jupiwulong/Movies/ChatCut/AI剪辑流程-动画包装-审阅版.mp4",
+  "source_size": 246101209,
+  "source_mtime": "2026-10-08T06:05:46.067Z",
+  "duration": 241.76666666666668,
+  "interval": 4,
+  "sample_count": 172,
+  "samples": [
+    {
+      "time": 0.027,
+      "shot_id": "breath-1",
+      "file": "frame-000.jpg"
+    },
+    {
+      "time": 0.15,
+      "shot_id": "breath-1",
+      "file": "frame-001.jpg"
+    },
+    {
+      "time": 0.192,
+      "shot_id": "breath-1",
+      "file": "frame-002.jpg"
+    },
+    {
+      "time": 0.467,
+      "shot_id": "scene-01",
+      "file": "frame-003.jpg"
+    },
+    {
+      "time": 3.459,
+      "shot_id": "scene-01",
+      "file": "frame-004.jpg"
+    },
+    {
+      "time": 4.15,
+      "shot_id": "scene-01",
+      "file": "frame-005.jpg"
+    },
+    {
+      "time": 4.707,
+      "shot_id": "breath-2",
+      "file": "frame-006.jpg"
+    },
+    {
+      "time": 4.748,
+      "shot_id": "breath-2",
+      "file": "frame-007.jpg"
+    },
+    {
+      "time": 4.967,
+      "shot_id": "scene-02",
+      "file": "frame-008.jpg"
+    },
+    {
+      "time": 8.15,
+      "shot_id": "scene-02",
+      "file": "frame-009.jpg"
+    },
+    {
+      "time": 11.415,
+      "shot_id": "scene-02",
+      "file": "frame-010.jpg"
+    },
+    {
+      "time": 12.15,
+      "shot_id": "scene-02",
+      "file": "frame-011.jpg"
+    },
+    {
+      "time": 14.03,
+      "shot_id": "breath-3",
+      "file": "frame-012.jpg"
+    },
+    {
+      "time": 14.216,
+      "shot_id": "breath-3",
+      "file": "frame-013.jpg"
+    },
+    {
+      "time": 14.5,
+      "shot_id": "scene-03",
+      "file": "frame-014.jpg"
+    },
+    {
+      "time": 16.15,
+      "shot_id": "scene-03",
+      "file": "frame-015.jpg"
+    },
+    {
+      "time": 20.15,
+      "shot_id": "scene-03",
+      "file": "frame-016.jpg"
+    },
+    {
+      "time": 21.74,
+      "shot_id": "scene-03",
+      "file": "frame-017.jpg"
+    },
+    {
+      "time": 24.15,
+      "shot_id": "scene-03",
+      "file": "frame-018.jpg"
+    },
+    {
+      "time": 24.637,
+      "shot_id": "breath-4",
+      "file": "frame-019.jpg"
+    },
+    {
+      "time": 24.657,
+      "shot_id": "breath-4",
+      "file": "frame-020.jpg"
+    },
+    {
+      "time": 24.867,
+      "shot_id": "scene-04",
+      "file": "frame-021.jpg"
+    },
+    {
+      "time": 28.15,
+      "shot_id": "scene-04",
+      "file": "frame-022.jpg"
+    },
+    {
+      "time": 28.723,
+      "shot_id": "scene-04",
+      "file": "frame-023.jpg"
+    },
+    {
+      "time": 30.327,
+      "shot_id": "breath-5",
+      "file": "frame-024.jpg"
+    },
+    {
+      "time": 30.492,
+      "shot_id": "breath-5",
+      "file": "frame-025.jpg"
+    },
+    {
+      "time": 30.767,
+      "shot_id": "scene-05",
+      "file": "frame-026.jpg"
+    },
+    {
+      "time": 32.15,
+      "shot_id": "scene-05",
+      "file": "frame-027.jpg"
+    },
+    {
+      "time": 36.15,
+      "shot_id": "scene-05",
+      "file": "frame-028.jpg"
+    },
+    {
+      "time": 38.847,
+      "shot_id": "scene-05",
+      "file": "frame-029.jpg"
+    },
+    {
+      "time": 40.15,
+      "shot_id": "scene-05",
+      "file": "frame-030.jpg"
+    },
+    {
+      "time": 42.087,
+      "shot_id": "breath-6",
+      "file": "frame-031.jpg"
+    },
+    {
+      "time": 42.211,
+      "shot_id": "breath-6",
+      "file": "frame-032.jpg"
+    },
+    {
+      "time": 42.467,
+      "shot_id": "scene-06",
+      "file": "frame-033.jpg"
+    },
+    {
+      "time": 44.15,
+      "shot_id": "scene-06",
+      "file": "frame-034.jpg"
+    },
+    {
+      "time": 48.15,
+      "shot_id": "scene-06",
+      "file": "frame-035.jpg"
+    },
+    {
+      "time": 48.867,
+      "shot_id": "scene-06",
+      "file": "frame-036.jpg"
+    },
+    {
+      "time": 51.463,
+      "shot_id": "breath-7",
+      "file": "frame-037.jpg"
+    },
+    {
+      "time": 51.649,
+      "shot_id": "breath-7",
+      "file": "frame-038.jpg"
+    },
+    {
+      "time": 51.933,
+      "shot_id": "scene-07",
+      "file": "frame-039.jpg"
+    },
+    {
+      "time": 52.15,
+      "shot_id": "scene-07",
+      "file": "frame-040.jpg"
+    },
+    {
+      "time": 56.15,
+      "shot_id": "scene-07",
+      "file": "frame-041.jpg"
+    },
+    {
+      "time": 57.517,
+      "shot_id": "scene-07",
+      "file": "frame-042.jpg"
+    },
+    {
+      "time": 59.797,
+      "shot_id": "breath-8",
+      "file": "frame-043.jpg"
+    },
+    {
+      "time": 59.983,
+      "shot_id": "breath-8",
+      "file": "frame-044.jpg"
+    },
+    {
+      "time": 60.15,
+      "shot_id": "scene-08",
+      "file": "frame-045.jpg"
+    },
+    {
+      "time": 60.267,
+      "shot_id": "scene-08",
+      "file": "frame-046.jpg"
+    },
+    {
+      "time": 64.15,
+      "shot_id": "scene-08",
+      "file": "frame-047.jpg"
+    },
+    {
+      "time": 64.363,
+      "shot_id": "scene-08",
+      "file": "frame-048.jpg"
+    },
+    {
+      "time": 66.037,
+      "shot_id": "breath-9",
+      "file": "frame-049.jpg"
+    },
+    {
+      "time": 66.057,
+      "shot_id": "breath-9",
+      "file": "frame-050.jpg"
+    },
+    {
+      "time": 66.267,
+      "shot_id": "scene-09",
+      "file": "frame-051.jpg"
+    },
+    {
+      "time": 68.15,
+      "shot_id": "scene-09",
+      "file": "frame-052.jpg"
+    },
+    {
+      "time": 70.291,
+      "shot_id": "scene-09",
+      "file": "frame-053.jpg"
+    },
+    {
+      "time": 71.96,
+      "shot_id": "breath-10",
+      "file": "frame-054.jpg"
+    },
+    {
+      "time": 72.125,
+      "shot_id": "breath-10",
+      "file": "frame-055.jpg"
+    },
+    {
+      "time": 72.15,
+      "shot_id": "breath-10",
+      "file": "frame-056.jpg"
+    },
+    {
+      "time": 72.4,
+      "shot_id": "scene-10",
+      "file": "frame-057.jpg"
+    },
+    {
+      "time": 76.15,
+      "shot_id": "scene-10",
+      "file": "frame-058.jpg"
+    },
+    {
+      "time": 79.232,
+      "shot_id": "scene-10",
+      "file": "frame-059.jpg"
+    },
+    {
+      "time": 80.15,
+      "shot_id": "scene-10",
+      "file": "frame-060.jpg"
+    },
+    {
+      "time": 81.977,
+      "shot_id": "breath-11",
+      "file": "frame-061.jpg"
+    },
+    {
+      "time": 82.039,
+      "shot_id": "breath-11",
+      "file": "frame-062.jpg"
+    },
+    {
+      "time": 82.267,
+      "shot_id": "scene-11",
+      "file": "frame-063.jpg"
+    },
+    {
+      "time": 84.15,
+      "shot_id": "scene-11",
+      "file": "frame-064.jpg"
+    },
+    {
+      "time": 88.15,
+      "shot_id": "scene-11",
+      "file": "frame-065.jpg"
+    },
+    {
+      "time": 92.15,
+      "shot_id": "scene-11",
+      "file": "frame-066.jpg"
+    },
+    {
+      "time": 93.203,
+      "shot_id": "scene-11",
+      "file": "frame-067.jpg"
+    },
+    {
+      "time": 96.15,
+      "shot_id": "scene-11",
+      "file": "frame-068.jpg"
+    },
+    {
+      "time": 97.56,
+      "shot_id": "breath-12",
+      "file": "frame-069.jpg"
+    },
+    {
+      "time": 97.725,
+      "shot_id": "breath-12",
+      "file": "frame-070.jpg"
+    },
+    {
+      "time": 98,
+      "shot_id": "scene-12",
+      "file": "frame-071.jpg"
+    },
+    {
+      "time": 100.15,
+      "shot_id": "scene-12",
+      "file": "frame-072.jpg"
+    },
+    {
+      "time": 103.536,
+      "shot_id": "scene-12",
+      "file": "frame-073.jpg"
+    },
+    {
+      "time": 104.15,
+      "shot_id": "scene-12",
+      "file": "frame-074.jpg"
+    },
+    {
+      "time": 105.773,
+      "shot_id": "breath-13",
+      "file": "frame-075.jpg"
+    },
+    {
+      "time": 105.815,
+      "shot_id": "breath-13",
+      "file": "frame-076.jpg"
+    },
+    {
+      "time": 106.033,
+      "shot_id": "scene-13",
+      "file": "frame-077.jpg"
+    },
+    {
+      "time": 108.15,
+      "shot_id": "scene-13",
+      "file": "frame-078.jpg"
+    },
+    {
+      "time": 110.201,
+      "shot_id": "scene-13",
+      "file": "frame-079.jpg"
+    },
+    {
+      "time": 111.93,
+      "shot_id": "breath-14",
+      "file": "frame-080.jpg"
+    },
+    {
+      "time": 112.116,
+      "shot_id": "breath-14",
+      "file": "frame-081.jpg"
+    },
+    {
+      "time": 112.15,
+      "shot_id": "breath-14",
+      "file": "frame-082.jpg"
+    },
+    {
+      "time": 112.4,
+      "shot_id": "scene-14",
+      "file": "frame-083.jpg"
+    },
+    {
+      "time": 116.15,
+      "shot_id": "scene-14",
+      "file": "frame-084.jpg"
+    },
+    {
+      "time": 117.864,
+      "shot_id": "scene-14",
+      "file": "frame-085.jpg"
+    },
+    {
+      "time": 120.093,
+      "shot_id": "breath-15",
+      "file": "frame-086.jpg"
+    },
+    {
+      "time": 120.15,
+      "shot_id": "breath-15",
+      "file": "frame-087.jpg"
+    },
+    {
+      "time": 120.259,
+      "shot_id": "breath-15",
+      "file": "frame-088.jpg"
+    },
+    {
+      "time": 120.533,
+      "shot_id": "scene-15",
+      "file": "frame-089.jpg"
+    },
+    {
+      "time": 124.15,
+      "shot_id": "scene-15",
+      "file": "frame-090.jpg"
+    },
+    {
+      "time": 127.701,
+      "shot_id": "scene-15",
+      "file": "frame-091.jpg"
+    },
+    {
+      "time": 128.15,
+      "shot_id": "scene-15",
+      "file": "frame-092.jpg"
+    },
+    {
+      "time": 130.593,
+      "shot_id": "breath-16",
+      "file": "frame-093.jpg"
+    },
+    {
+      "time": 130.759,
+      "shot_id": "breath-16",
+      "file": "frame-094.jpg"
+    },
+    {
+      "time": 131.033,
+      "shot_id": "scene-16",
+      "file": "frame-095.jpg"
+    },
+    {
+      "time": 132.15,
+      "shot_id": "scene-16",
+      "file": "frame-096.jpg"
+    },
+    {
+      "time": 134.793,
+      "shot_id": "scene-16",
+      "file": "frame-097.jpg"
+    },
+    {
+      "time": 136.15,
+      "shot_id": "scene-16",
+      "file": "frame-098.jpg"
+    },
+    {
+      "time": 136.357,
+      "shot_id": "breath-17",
+      "file": "frame-099.jpg"
+    },
+    {
+      "time": 136.501,
+      "shot_id": "breath-17",
+      "file": "frame-100.jpg"
+    },
+    {
+      "time": 136.767,
+      "shot_id": "scene-17",
+      "file": "frame-101.jpg"
+    },
+    {
+      "time": 140.15,
+      "shot_id": "scene-17",
+      "file": "frame-102.jpg"
+    },
+    {
+      "time": 143.527,
+      "shot_id": "scene-17",
+      "file": "frame-103.jpg"
+    },
+    {
+      "time": 144.15,
+      "shot_id": "scene-17",
+      "file": "frame-104.jpg"
+    },
+    {
+      "time": 146.257,
+      "shot_id": "breath-18",
+      "file": "frame-105.jpg"
+    },
+    {
+      "time": 146.401,
+      "shot_id": "breath-18",
+      "file": "frame-106.jpg"
+    },
+    {
+      "time": 146.667,
+      "shot_id": "scene-18",
+      "file": "frame-107.jpg"
+    },
+    {
+      "time": 148.15,
+      "shot_id": "scene-18",
+      "file": "frame-108.jpg"
+    },
+    {
+      "time": 152.15,
+      "shot_id": "scene-18",
+      "file": "frame-109.jpg"
+    },
+    {
+      "time": 156.15,
+      "shot_id": "scene-18",
+      "file": "frame-110.jpg"
+    },
+    {
+      "time": 156.235,
+      "shot_id": "scene-18",
+      "file": "frame-111.jpg"
+    },
+    {
+      "time": 160.063,
+      "shot_id": "breath-19",
+      "file": "frame-112.jpg"
+    },
+    {
+      "time": 160.15,
+      "shot_id": "breath-19",
+      "file": "frame-113.jpg"
+    },
+    {
+      "time": 160.249,
+      "shot_id": "breath-19",
+      "file": "frame-114.jpg"
+    },
+    {
+      "time": 160.533,
+      "shot_id": "scene-19",
+      "file": "frame-115.jpg"
+    },
+    {
+      "time": 163.477,
+      "shot_id": "scene-19",
+      "file": "frame-116.jpg"
+    },
+    {
+      "time": 164.15,
+      "shot_id": "scene-19",
+      "file": "frame-117.jpg"
+    },
+    {
+      "time": 164.9,
+      "shot_id": "scene-20",
+      "file": "frame-118.jpg"
+    },
+    {
+      "time": 168.15,
+      "shot_id": "scene-20",
+      "file": "frame-119.jpg"
+    },
+    {
+      "time": 172.15,
+      "shot_id": "scene-20",
+      "file": "frame-120.jpg"
+    },
+    {
+      "time": 172.164,
+      "shot_id": "scene-20",
+      "file": "frame-121.jpg"
+    },
+    {
+      "time": 175.093,
+      "shot_id": "breath-21",
+      "file": "frame-122.jpg"
+    },
+    {
+      "time": 175.259,
+      "shot_id": "breath-21",
+      "file": "frame-123.jpg"
+    },
+    {
+      "time": 175.533,
+      "shot_id": "scene-21",
+      "file": "frame-124.jpg"
+    },
+    {
+      "time": 176.15,
+      "shot_id": "scene-21",
+      "file": "frame-125.jpg"
+    },
+    {
+      "time": 180.15,
+      "shot_id": "scene-21",
+      "file": "frame-126.jpg"
+    },
+    {
+      "time": 182.749,
+      "shot_id": "scene-21",
+      "file": "frame-127.jpg"
+    },
+    {
+      "time": 184.15,
+      "shot_id": "scene-21",
+      "file": "frame-128.jpg"
+    },
+    {
+      "time": 185.637,
+      "shot_id": "breath-22",
+      "file": "frame-129.jpg"
+    },
+    {
+      "time": 185.657,
+      "shot_id": "breath-22",
+      "file": "frame-130.jpg"
+    },
+    {
+      "time": 185.867,
+      "shot_id": "scene-22",
+      "file": "frame-131.jpg"
+    },
+    {
+      "time": 188.15,
+      "shot_id": "scene-22",
+      "file": "frame-132.jpg"
+    },
+    {
+      "time": 192.15,
+      "shot_id": "scene-22",
+      "file": "frame-133.jpg"
+    },
+    {
+      "time": 192.843,
+      "shot_id": "scene-22",
+      "file": "frame-134.jpg"
+    },
+    {
+      "time": 195.66,
+      "shot_id": "breath-23",
+      "file": "frame-135.jpg"
+    },
+    {
+      "time": 195.825,
+      "shot_id": "breath-23",
+      "file": "frame-136.jpg"
+    },
+    {
+      "time": 196.1,
+      "shot_id": "scene-23",
+      "file": "frame-137.jpg"
+    },
+    {
+      "time": 196.15,
+      "shot_id": "scene-23",
+      "file": "frame-138.jpg"
+    },
+    {
+      "time": 200.15,
+      "shot_id": "scene-23",
+      "file": "frame-139.jpg"
+    },
+    {
+      "time": 201.516,
+      "shot_id": "scene-23",
+      "file": "frame-140.jpg"
+    },
+    {
+      "time": 203.703,
+      "shot_id": "breath-24",
+      "file": "frame-141.jpg"
+    },
+    {
+      "time": 203.724,
+      "shot_id": "breath-24",
+      "file": "frame-142.jpg"
+    },
+    {
+      "time": 203.933,
+      "shot_id": "scene-24",
+      "file": "frame-143.jpg"
+    },
+    {
+      "time": 204.15,
+      "shot_id": "scene-24",
+      "file": "frame-144.jpg"
+    },
+    {
+      "time": 208.15,
+      "shot_id": "scene-24",
+      "file": "frame-145.jpg"
+    },
+    {
+      "time": 208.965,
+      "shot_id": "scene-24",
+      "file": "frame-146.jpg"
+    },
+    {
+      "time": 211.027,
+      "shot_id": "breath-25",
+      "file": "frame-147.jpg"
+    },
+    {
+      "time": 211.192,
+      "shot_id": "breath-25",
+      "file": "frame-148.jpg"
+    },
+    {
+      "time": 211.467,
+      "shot_id": "scene-25",
+      "file": "frame-149.jpg"
+    },
+    {
+      "time": 212.15,
+      "shot_id": "scene-25",
+      "file": "frame-150.jpg"
+    },
+    {
+      "time": 216.15,
+      "shot_id": "scene-25",
+      "file": "frame-151.jpg"
+    },
+    {
+      "time": 216.595,
+      "shot_id": "scene-25",
+      "file": "frame-152.jpg"
+    },
+    {
+      "time": 218.867,
+      "shot_id": "scene-26",
+      "file": "frame-153.jpg"
+    },
+    {
+      "time": 220.15,
+      "shot_id": "scene-26",
+      "file": "frame-154.jpg"
+    },
+    {
+      "time": 223.227,
+      "shot_id": "scene-26",
+      "file": "frame-155.jpg"
+    },
+    {
+      "time": 224.15,
+      "shot_id": "scene-26",
+      "file": "frame-156.jpg"
+    },
+    {
+      "time": 225.027,
+      "shot_id": "breath-27",
+      "file": "frame-157.jpg"
+    },
+    {
+      "time": 225.192,
+      "shot_id": "breath-27",
+      "file": "frame-158.jpg"
+    },
+    {
+      "time": 225.467,
+      "shot_id": "scene-27",
+      "file": "frame-159.jpg"
+    },
+    {
+      "time": 228.15,
+      "shot_id": "scene-27",
+      "file": "frame-160.jpg"
+    },
+    {
+      "time": 232.15,
+      "shot_id": "scene-27",
+      "file": "frame-161.jpg"
+    },
+    {
+      "time": 235.035,
+      "shot_id": "scene-27",
+      "file": "frame-162.jpg"
+    },
+    {
+      "time": 236.15,
+      "shot_id": "scene-27",
+      "file": "frame-163.jpg"
+    },
+    {
+      "time": 238.86,
+      "shot_id": "breath-28",
+      "file": "frame-164.jpg"
+    },
+    {
+      "time": 239.025,
+      "shot_id": "breath-28",
+      "file": "frame-165.jpg"
+    },
+    {
+      "time": 239.3,
+      "shot_id": "scene-28",
+      "file": "frame-166.jpg"
+    },
+    {
+      "time": 240.15,
+      "shot_id": "scene-28",
+      "file": "frame-167.jpg"
+    },
+    {
+      "time": 240.852,
+      "shot_id": "scene-28",
+      "file": "frame-168.jpg"
+    },
+    {
+      "time": 241.557,
+      "shot_id": "breath-tail",
+      "file": "frame-169.jpg"
+    },
+    {
+      "time": 241.667,
+      "shot_id": "breath-tail",
+      "file": "frame-170.jpg"
+    },
+    {
+      "time": 241.701,
+      "shot_id": "breath-tail",
+      "file": "frame-171.jpg"
+    }
+  ],
+  "limitation": "抽样静帧不能证明动态节奏、阅读停留和声音通过，仍需整片播放。"
+}

@@ -3,6 +3,8 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import {execFileSync} from 'node:child_process';
 import {fileURLToPath} from 'node:url';
+import {validateFullProps} from './full-contract.mjs';
+import {validateVisualPlan, conceptForShot, structureFits, generatedRequest} from '../scripts/style-contract.mjs';
 
 export const runtimeDir = path.dirname(fileURLToPath(import.meta.url));
 export const libraryDir = path.dirname(runtimeDir);
@@ -15,6 +17,7 @@ const strings = value => Array.isArray(value) && value.every(x => typeof x === '
 export function validateProps(card, props) {
   assert(props && typeof props === 'object' && !Array.isArray(props), 'props 必须是对象');
   for (const key of Object.keys(props)) assert(card.props.includes(key), `${card.slug}: 不支持参数 ${key}`);
+  if (card.adapter_mode === 'full_source') {validateFullProps(card,props); return;}
   for (const key of card.required) assert(props[key] !== undefined && props[key] !== null && props[key] !== '', `${card.slug}: 缺少 ${key}`);
   for (const key of ['text', 'sub', 'keyword', 'before', 'after', 'title', 'stem', 'final', 'src', 'logoSrc', 'hostSrc']) {
     if (key in props) assert(typeof props[key] === 'string' && (key === 'before' || key === 'after' || props[key].trim()), `${key} 必须是文字或素材引用`);
@@ -38,6 +41,7 @@ export function validateProps(card, props) {
 
 export function resolvePlan(plan) {
   assert(plan && safeId(plan.project_id), 'project_id 只能使用字母、数字、下划线或连字符');
+  const contract = validateVisualPlan(plan);
   let preset;
   if (plan.style_id) {
     assert(/^[a-zA-Z0-9_.-]+$/.test(plan.style_id) && !plan.style_id.includes('..'), 'style_id 无效');
@@ -57,15 +61,17 @@ export function resolvePlan(plan) {
     assert(Number.isInteger(shot.start_frame) && shot.start_frame >= 0 && Number.isInteger(shot.duration_frames) && shot.duration_frames > 0, `${shot.id}: 帧范围无效`);
     assert(['presenter_safe', 'full_screen'].includes(shot.presentation_mode), `${shot.id}: 需明确人物/全屏模式`);
     const layer = shot.layer ?? 'primary';
-    assert(['primary', 'camera'].includes(layer), '当前只渲染 primary 或 camera 层');
+    assert(['primary', 'camera', 'transition'].includes(layer), '当前渲染 primary、camera 或 transition 层');
     if (shot.clean_presenter) {recent.push('clean_presenter'); return {...shot, resolution: {primary_card: null, status: 'clean_presenter'}};}
+    const concept = contract.legacy ? null : conceptForShot(plan, shot);
     const request = shot.primary_motion_request;
     assert(layer === 'camera' || request?.family && request?.subtype, `${shot.id}: 缺少 Motion Request`);
-    const props = {...(request?.content ?? shot.props ?? {})};
-    const requested = layer === 'camera' ? shot.resolution?.camera?.card_id : shot.resolution?.primary_card;
+    const props = {...(shot.resolution?.adapter_props ?? request?.content ?? shot.props ?? {})};
+    const requested = layer === 'camera' ? shot.resolution?.camera?.card_id : layer === 'transition' ? shot.resolution?.transition?.card_id : shot.resolution?.primary_card;
     const rejections = [];
     const candidates = registry.filter(card => card.layer === layer && (!requested || card.id === requested)).filter(card => {
       try {
+        assert(!concept || layer === 'primary' && structureFits(card, concept), '实现不保留画面概念的结构；Camera不能替代主关系画面');
         assert(layer !== 'primary' || card.family === request.family && card.subtype === request.subtype, '语义关系不匹配');
         assert(!card.full_screen || shot.presentation_mode === 'full_screen', '需要全屏模式');
         validateProps(card, props);
@@ -81,10 +87,15 @@ export function resolvePlan(plan) {
         }
         if (card.slug === 'parallel-items-with-host' && props.entryTimes) assert(props.entryTimes.at(-1) + .45 + .5 <= activeSeconds, '最后一个并列项没有足够阅读时间');
         if (card.slug === 'word-slot-cycle') assert(1.1 + (props.words.length-2)*.7 + .7 + .35 + .12 + .47 + 1.5 <= activeSeconds, '词槽结论需要至少 1.5 秒停留，请延长镜头');
-        assert(recent.length < 2 || recent.slice(-2).some(x => x !== `${card.family}/${card.subtype}`), '同一主结构已连续使用两次，应换布局或回到干净口播');
+        assert(!contract.legacy || recent.length < 2 || recent.slice(-2).some(x => x !== `${card.family}/${card.subtype}`), '同一主结构已连续使用两次，应换布局或回到干净口播');
         return true;
       } catch (error) {rejections.push({card: card.id, reason: error.message}); return false;}
     });
+    if (!candidates.length && concept) {
+      recent.push(`generated/${concept.visual_structure}`);
+      return {...shot, resolution:{primary_card:null,status:'needs_generation',rejections},
+        generated_motion_request:generatedRequest(shot,concept,rejections)};
+    }
     assert(candidates.length > 0, `${shot.id}: 没有合适模板，需升级/生成或回到干净口播。${JSON.stringify(rejections)}`);
     const card = candidates[0];
     if (layer === 'primary') recent.push(`${card.family}/${card.subtype}`);
@@ -95,11 +106,14 @@ export function resolvePlan(plan) {
     return {...shot, box, props, card, resolution: {
       provider: 'talkcraft', primary_card: layer === 'primary' ? card.id : null,
       ...(layer === 'camera' ? {camera: {card_id: card.id}} : {}),
+      ...(layer === 'transition' ? {transition: {card_id: card.id}} : {}),
       card_version: card.version, status: 'resolved',
+      ...(shot.resolution?.adapter_props?{adapter_props:props}:{}),
       reason: '语义与实际参数匹配；符合已开放版式、素材与时长约束', rejections,
     }};
   });
-  return {...plan, ...(preset ? {style_status:preset.status}: {}), shots};
+  return {...plan, ...(preset ? {style_status:preset.status}: {}),
+    visual_contract_status:contract.legacy?'legacy_unverified':'validated', shots};
 }
 
 export function assetRefs(value) {
@@ -110,6 +124,8 @@ export function assetRefs(value) {
 
 export function validateAssets(plan, publicDir) {
   for (const shot of plan.shots) {
+    if(plan.visual_contract_version && shot.resolution?.status==='resolved')
+      for(const slot of shot.asset_slots ?? []) if(slot.required) assert(slot.status==='ready', `${shot.id}: required素材 ${slot.id} 未就绪`);
     for (const key of ['src', 'srcs', 'logoSrc', 'hostSrc']) {
       const values = Array.isArray(shot.props?.[key]) ? shot.props[key] : shot.props?.[key] ? [shot.props[key]] : [];
       assert(values.every(x => typeof x === 'string' && x.startsWith('asset:')), `${shot.id}: ${key} 只接受 asset: 本地素材引用`);
@@ -131,6 +147,8 @@ export function fingerprint(shot, plan, publicDir) {
   });
   walk(path.join(libraryDir, 'adapters/talkcraft'));
   for (const file of ['Root.tsx', 'package-lock.json', 'core.mjs', 'render.mjs']) hash.update(fs.readFileSync(path.join(runtimeDir, file)));
+  hash.update(fs.readFileSync(path.join(libraryDir,'scripts/style-contract.mjs')));
+  hash.update(fs.readFileSync(path.join(runtimeDir,'full-contract.mjs')));
   for (const ref of assetRefs(shot.props)) hash.update(fs.readFileSync(path.join(publicDir, ref)));
   return hash.digest('hex');
 }

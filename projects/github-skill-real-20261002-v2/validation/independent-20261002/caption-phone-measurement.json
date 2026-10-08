@@ -1,0 +1,22 @@
+{
+  "native-fresh-6": {
+    "phone_width": 390,
+    "caption_bands": [
+      {
+        "from_y": 192,
+        "to_y": 200,
+        "height": 9
+      }
+    ]
+  },
+  "captions-after": {
+    "phone_width": 390,
+    "caption_bands": [
+      {
+        "from_y": 188,
+        "to_y": 203,
+        "height": 16
+      }
+    ]
+  }
+}

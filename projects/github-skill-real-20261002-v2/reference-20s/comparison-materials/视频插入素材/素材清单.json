@@ -1,0 +1,68 @@
+[
+  {
+    "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/comparison-materials/视频插入素材/00_完整20秒_前后对比_静音.mp4",
+    "original_range_frames": [
+      0,
+      600
+    ],
+    "duration_frames": 600,
+    "duration_seconds": 20.0,
+    "muted": true,
+    "sha256": "ffcaa87aa2980a7461925998c739d3b113cd688bac688b766611ab0dc7787ab0"
+  },
+  {
+    "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/comparison-materials/视频插入素材/01_数字层级_前后对比_静音.mp4",
+    "original_range_frames": [
+      96,
+      151
+    ],
+    "duration_frames": 55,
+    "duration_seconds": 1.8333333333333333,
+    "muted": true,
+    "sha256": "f89e36349553fef627bcff5fc18644bd4a5525b51d10972cc40bb6a6e8d27f3b"
+  },
+  {
+    "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/comparison-materials/视频插入素材/02_划线替换_前后对比_静音.mp4",
+    "original_range_frames": [
+      159,
+      263
+    ],
+    "duration_frames": 104,
+    "duration_seconds": 3.466666666666667,
+    "muted": true,
+    "sha256": "56de7641e258c741e86811b3f47ea4e55b1975716bcdecc40cdb6667f2191522"
+  },
+  {
+    "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/comparison-materials/视频插入素材/03_真实页面_前后对比_静音.mp4",
+    "original_range_frames": [
+      264,
+      325
+    ],
+    "duration_frames": 61,
+    "duration_seconds": 2.033333333333333,
+    "muted": true,
+    "sha256": "29ad470431dbcd9d438ae054a22d5a9d4292b4819f6903f305ff213a527b8ad2"
+  },
+  {
+    "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/comparison-materials/视频插入素材/04_打字改口_前后对比_静音.mp4",
+    "original_range_frames": [
+      327,
+      473
+    ],
+    "duration_frames": 146,
+    "duration_seconds": 4.866666666666666,
+    "muted": true,
+    "sha256": "d5bd98164eb07e249372d88c939afbea746c56780c8078a96b855514c97c3dfb"
+  },
+  {
+    "file": "/Users/jupiwulong/视频制作/jianjipro/projects/github-skill-real-20261002-v2/reference-20s/comparison-materials/视频插入素材/05_字体重音_前后对比_静音.mp4",
+    "original_range_frames": [
+      510,
+      599
+    ],
+    "duration_frames": 89,
+    "duration_seconds": 2.966666666666667,
+    "muted": true,
+    "sha256": "2795e84478b0b7055e7241b3a5cc5fec653f6ad3f7bebf77234116c92d33bdd2"
+  }
+]

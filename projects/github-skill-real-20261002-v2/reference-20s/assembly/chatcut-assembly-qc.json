@@ -1,0 +1,167 @@
+{
+  "before": {
+    "canvas": {
+      "height": 1080,
+      "width": 1920
+    },
+    "durationFrames": 5994,
+    "editor": {
+      "activeTimelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "asOf": "turn-start",
+      "selectedItemIds": [],
+      "trackLocks": [
+        {
+          "hidden": false,
+          "id": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+          "locked": false,
+          "muted": false
+        }
+      ]
+    },
+    "fps": 30,
+    "id": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+    "name": "Timeline",
+    "range": {
+      "fromFrame": 0,
+      "toFrame": 5994
+    }
+  },
+  "after": {
+    "canvas": {
+      "height": 1080,
+      "width": 1920
+    },
+    "durationFrames": 5994,
+    "editor": {
+      "activeTimelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "asOf": "turn-start",
+      "selectedItemIds": [],
+      "trackLocks": [
+        {
+          "hidden": false,
+          "id": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+          "locked": false,
+          "muted": false
+        }
+      ]
+    },
+    "fps": 30,
+    "id": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+    "name": "Timeline",
+    "range": {
+      "fromFrame": 0,
+      "toFrame": 5994
+    }
+  },
+  "unchangedOriginalItems": 85,
+  "originalItemsIdentical": true,
+  "sourceTrackIdentical": true,
+  "laterItemsIdentical": true,
+  "allCaptionCardsIdentical": true,
+  "user_reference_acceptance": "用户：不错，把这20秒效果放入chatcut时间线",
+  "scope_frames": [
+    0,
+    600
+  ],
+  "backup_timeline": {
+    "active": false,
+    "compositionHeight": 1080,
+    "compositionWidth": 1920,
+    "hidden": false,
+    "id": "05b3e47747",
+    "name": "备份｜前20秒TalkCraft装配前｜2026-10-03"
+  },
+  "asset_id": "842287d3-4451-444e-8526-fc41f592d34f",
+  "placed_items": [
+    {
+      "durationFrames": 55,
+      "startFrame": 96,
+      "id": "a32019f7-d925-4479-865b-98fb1d7e95b7",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    },
+    {
+      "durationFrames": 104,
+      "startFrame": 159,
+      "id": "086916d8-6fdd-48b7-8f72-1582eb62ba37",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    },
+    {
+      "durationFrames": 61,
+      "startFrame": 264,
+      "id": "aad94547-2bcd-4865-91c1-105519578777",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    },
+    {
+      "durationFrames": 146,
+      "startFrame": 327,
+      "id": "27535638-e2e5-4d04-b2e6-6a9c262b79c9",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    },
+    {
+      "durationFrames": 89,
+      "startFrame": 510,
+      "id": "f41b651c-599c-488f-83c1-e2962edd7ebd",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    }
+  ],
+  "removed_old_overlay": [
+    {
+      "id": "7811ec6e-c76a-4507-88aa-5a0fbf75a7fc"
+    }
+  ],
+  "composed_visual_qc": {
+    "status": "pass",
+    "reviewer": "primary_agent",
+    "sample_frames": [
+      95,
+      105,
+      132,
+      151,
+      195,
+      206,
+      249,
+      281,
+      295,
+      325,
+      339,
+      366,
+      414,
+      455,
+      473,
+      509,
+      530,
+      585,
+      599,
+      600,
+      605,
+      620
+    ],
+    "contact_sheet": "chatcut-first20-contact-sheet.jpg",
+    "frame_132": "chatcut-frame-132.jpg",
+    "checks": [
+      "透明层正常",
+      "动效位置及时间与已确认版本一致",
+      "人物与原字幕可见",
+      "20秒边界没有残留新动效"
+    ]
+  },
+  "chatcut_final_export": false,
+  "chatcut_continuous_playback": "未执行，用户可在ChatCut播放"
+}

@@ -1,0 +1,33 @@
+{
+  "revision": "pip-cleanup-v2",
+  "request": "删除人物小窗的口播讲解文字和蓝色实线框",
+  "source": "用户截图与本轮文字反馈",
+  "affected_fullscreen_scenes": [
+    "scene-02",
+    "scene-04",
+    "scene-05",
+    "scene-06",
+    "scene-09",
+    "scene-10",
+    "scene-11",
+    "scene-12",
+    "scene-14",
+    "scene-15",
+    "scene-18",
+    "scene-19",
+    "scene-21",
+    "scene-24",
+    "scene-26"
+  ],
+  "kept": "小窗位置、尺寸、圆角和静音人物源片段保持；口播与原字幕不改",
+  "status": "complete",
+  "code_source": "motion/Root.tsx",
+  "actual_composite_review": "pass",
+  "actual_preview": "pip-cleanup-chatcut-15-shots.jpg",
+  "main_timeline_equal": true,
+  "duration_frames": 7253,
+  "motion_count": 20,
+  "replaced_count": 15,
+  "placement_equal": true,
+  "export_record": "export-record.json"
+}

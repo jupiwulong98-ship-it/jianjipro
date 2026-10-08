@@ -1,0 +1,1339 @@
+{
+  "projectId": "3d96aaae-2026-4693-9e2a-259e38bb996d",
+  "projectName": "找工具｜V2 审片｜截图已打码·无来源脚注",
+  "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+  "durationFrames": 5994,
+  "fps": 30,
+  "packagingCount": 20,
+  "arollCutCount": 66,
+  "captions": 95,
+  "samples": [
+    {
+      "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/3d96aaae-2026-4693-9e2a-259e38bb996d/previews/14a61fbb-0edf-46ae-881b-c21706fade2a.jpg",
+      "cells": [
+        {
+          "col": 0,
+          "frame": 301,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "frame": 659,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "frame": 1203,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "frame": 1497,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "frame": 1717,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "frame": 1914,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "frame": 2043,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "frame": 2181,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "frame": 2676,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "frame": 3130,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "frame": 3364,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "frame": 3597,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "frame": 3782,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "frame": 4153,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "frame": 4453,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "frame": 4715,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "frame": 4949,
+          "row": 4
+        },
+        {
+          "col": 1,
+          "frame": 5115,
+          "row": 4
+        },
+        {
+          "col": 2,
+          "frame": 5408,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "frame": 5933,
+          "row": 4
+        }
+      ],
+      "fps": 30,
+      "frames": [
+        {
+          "frame": 301,
+          "timelineTimeMs": 10033
+        },
+        {
+          "frame": 659,
+          "timelineTimeMs": 21967
+        },
+        {
+          "frame": 1203,
+          "timelineTimeMs": 40100
+        },
+        {
+          "frame": 1497,
+          "timelineTimeMs": 49900
+        },
+        {
+          "frame": 1717,
+          "timelineTimeMs": 57233
+        },
+        {
+          "frame": 1914,
+          "timelineTimeMs": 63800
+        },
+        {
+          "frame": 2043,
+          "timelineTimeMs": 68100
+        },
+        {
+          "frame": 2181,
+          "timelineTimeMs": 72700
+        },
+        {
+          "frame": 2676,
+          "timelineTimeMs": 89200
+        },
+        {
+          "frame": 3130,
+          "timelineTimeMs": 104333
+        },
+        {
+          "frame": 3364,
+          "timelineTimeMs": 112133
+        },
+        {
+          "frame": 3597,
+          "timelineTimeMs": 119900
+        },
+        {
+          "frame": 3782,
+          "timelineTimeMs": 126067
+        },
+        {
+          "frame": 4153,
+          "timelineTimeMs": 138433
+        },
+        {
+          "frame": 4453,
+          "timelineTimeMs": 148433
+        },
+        {
+          "frame": 4715,
+          "timelineTimeMs": 157167
+        },
+        {
+          "frame": 4949,
+          "timelineTimeMs": 164967
+        },
+        {
+          "frame": 5115,
+          "timelineTimeMs": 170500
+        },
+        {
+          "frame": 5408,
+          "timelineTimeMs": 180267
+        },
+        {
+          "frame": 5933,
+          "timelineTimeMs": 197767
+        }
+      ],
+      "grid": {
+        "cols": 4,
+        "rows": 5
+      },
+      "height": 1240,
+      "renderableDurationInFrames": 5994,
+      "renderedBy": "frontend",
+      "status": "available",
+      "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "width": 1568
+    },
+    {
+      "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/3d96aaae-2026-4693-9e2a-259e38bb996d/previews/0b074a11-08ff-4e42-b866-ada63104d1d4.jpg",
+      "cells": [
+        {
+          "col": 0,
+          "frame": 20,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "frame": 119,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "frame": 238,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "frame": 259,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "frame": 282,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "frame": 325,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "frame": 346,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "frame": 465,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "frame": 604,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "frame": 625,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "frame": 642,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "frame": 679,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "frame": 700,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "frame": 842,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "frame": 1003,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "frame": 1024,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "frame": 1142,
+          "row": 4
+        },
+        {
+          "col": 1,
+          "frame": 1280,
+          "row": 4
+        },
+        {
+          "col": 2,
+          "frame": 1301,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "frame": 1337,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "frame": 1392,
+          "row": 5
+        },
+        {
+          "col": 1,
+          "frame": 1413,
+          "row": 5
+        },
+        {
+          "col": 2,
+          "frame": 1465,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "frame": 1537,
+          "row": 5
+        }
+      ],
+      "fps": 30,
+      "frames": [
+        {
+          "frame": 20,
+          "timelineTimeMs": 667
+        },
+        {
+          "frame": 119,
+          "timelineTimeMs": 3967
+        },
+        {
+          "frame": 238,
+          "timelineTimeMs": 7933
+        },
+        {
+          "frame": 259,
+          "timelineTimeMs": 8633
+        },
+        {
+          "frame": 282,
+          "timelineTimeMs": 9400
+        },
+        {
+          "frame": 325,
+          "timelineTimeMs": 10833
+        },
+        {
+          "frame": 346,
+          "timelineTimeMs": 11533
+        },
+        {
+          "frame": 465,
+          "timelineTimeMs": 15500
+        },
+        {
+          "frame": 604,
+          "timelineTimeMs": 20133
+        },
+        {
+          "frame": 625,
+          "timelineTimeMs": 20833
+        },
+        {
+          "frame": 642,
+          "timelineTimeMs": 21400
+        },
+        {
+          "frame": 679,
+          "timelineTimeMs": 22633
+        },
+        {
+          "frame": 700,
+          "timelineTimeMs": 23333
+        },
+        {
+          "frame": 842,
+          "timelineTimeMs": 28067
+        },
+        {
+          "frame": 1003,
+          "timelineTimeMs": 33433
+        },
+        {
+          "frame": 1024,
+          "timelineTimeMs": 34133
+        },
+        {
+          "frame": 1142,
+          "timelineTimeMs": 38067
+        },
+        {
+          "frame": 1280,
+          "timelineTimeMs": 42667
+        },
+        {
+          "frame": 1301,
+          "timelineTimeMs": 43367
+        },
+        {
+          "frame": 1337,
+          "timelineTimeMs": 44567
+        },
+        {
+          "frame": 1392,
+          "timelineTimeMs": 46400
+        },
+        {
+          "frame": 1413,
+          "timelineTimeMs": 47100
+        },
+        {
+          "frame": 1465,
+          "timelineTimeMs": 48833
+        },
+        {
+          "frame": 1537,
+          "timelineTimeMs": 51233
+        }
+      ],
+      "grid": {
+        "cols": 4,
+        "rows": 6
+      },
+      "height": 1488,
+      "renderableDurationInFrames": 5994,
+      "renderedBy": "frontend",
+      "status": "available",
+      "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "width": 1568
+    },
+    {
+      "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/3d96aaae-2026-4693-9e2a-259e38bb996d/previews/3b475f29-b998-43e9-ab43-1372ba085731.jpg",
+      "cells": [
+        {
+          "col": 0,
+          "frame": 1558,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "frame": 1561,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "frame": 1583,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "frame": 1604,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "frame": 1677,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "frame": 1769,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "frame": 1790,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "frame": 1870,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "frame": 1970,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "frame": 1991,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "frame": 2021,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "frame": 2071,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "frame": 2092,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "frame": 2148,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "frame": 2223,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "frame": 2244,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "frame": 2293,
+          "row": 4
+        },
+        {
+          "col": 1,
+          "frame": 2362,
+          "row": 4
+        },
+        {
+          "col": 2,
+          "frame": 2383,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "frame": 2580,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "frame": 2797,
+          "row": 5
+        },
+        {
+          "col": 1,
+          "frame": 2818,
+          "row": 5
+        },
+        {
+          "col": 2,
+          "frame": 2828,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "frame": 2858,
+          "row": 5
+        }
+      ],
+      "fps": 30,
+      "frames": [
+        {
+          "frame": 1558,
+          "timelineTimeMs": 51933
+        },
+        {
+          "frame": 1561,
+          "timelineTimeMs": 52033
+        },
+        {
+          "frame": 1583,
+          "timelineTimeMs": 52767
+        },
+        {
+          "frame": 1604,
+          "timelineTimeMs": 53467
+        },
+        {
+          "frame": 1677,
+          "timelineTimeMs": 55900
+        },
+        {
+          "frame": 1769,
+          "timelineTimeMs": 58967
+        },
+        {
+          "frame": 1790,
+          "timelineTimeMs": 59667
+        },
+        {
+          "frame": 1870,
+          "timelineTimeMs": 62333
+        },
+        {
+          "frame": 1970,
+          "timelineTimeMs": 65667
+        },
+        {
+          "frame": 1991,
+          "timelineTimeMs": 66367
+        },
+        {
+          "frame": 2021,
+          "timelineTimeMs": 67367
+        },
+        {
+          "frame": 2071,
+          "timelineTimeMs": 69033
+        },
+        {
+          "frame": 2092,
+          "timelineTimeMs": 69733
+        },
+        {
+          "frame": 2148,
+          "timelineTimeMs": 71600
+        },
+        {
+          "frame": 2223,
+          "timelineTimeMs": 74100
+        },
+        {
+          "frame": 2244,
+          "timelineTimeMs": 74800
+        },
+        {
+          "frame": 2293,
+          "timelineTimeMs": 76433
+        },
+        {
+          "frame": 2362,
+          "timelineTimeMs": 78733
+        },
+        {
+          "frame": 2383,
+          "timelineTimeMs": 79433
+        },
+        {
+          "frame": 2580,
+          "timelineTimeMs": 86000
+        },
+        {
+          "frame": 2797,
+          "timelineTimeMs": 93233
+        },
+        {
+          "frame": 2818,
+          "timelineTimeMs": 93933
+        },
+        {
+          "frame": 2828,
+          "timelineTimeMs": 94267
+        },
+        {
+          "frame": 2858,
+          "timelineTimeMs": 95267
+        }
+      ],
+      "grid": {
+        "cols": 4,
+        "rows": 6
+      },
+      "height": 1488,
+      "renderableDurationInFrames": 5994,
+      "renderedBy": "frontend",
+      "status": "available",
+      "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "width": 1568
+    },
+    {
+      "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/3d96aaae-2026-4693-9e2a-259e38bb996d/previews/bc3f5646-6e38-4e92-8e65-5ce00ba27e65.jpg",
+      "cells": [
+        {
+          "col": 0,
+          "frame": 2879,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "frame": 3047,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "frame": 3235,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "frame": 3252,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "frame": 3256,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "frame": 3268,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "frame": 3289,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "frame": 3335,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "frame": 3400,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "frame": 3421,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "frame": 3450,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "frame": 3499,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "frame": 3520,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "frame": 3567,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "frame": 3634,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "frame": 3655,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "frame": 3656,
+          "row": 4
+        },
+        {
+          "col": 1,
+          "frame": 3676,
+          "row": 4
+        },
+        {
+          "col": 2,
+          "frame": 3697,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "frame": 3750,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "frame": 3822,
+          "row": 5
+        },
+        {
+          "col": 1,
+          "frame": 3843,
+          "row": 5
+        },
+        {
+          "col": 2,
+          "frame": 3935,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "frame": 4047,
+          "row": 5
+        }
+      ],
+      "fps": 30,
+      "frames": [
+        {
+          "frame": 2879,
+          "timelineTimeMs": 95967
+        },
+        {
+          "frame": 3047,
+          "timelineTimeMs": 101567
+        },
+        {
+          "frame": 3235,
+          "timelineTimeMs": 107833
+        },
+        {
+          "frame": 3252,
+          "timelineTimeMs": 108400
+        },
+        {
+          "frame": 3256,
+          "timelineTimeMs": 108533
+        },
+        {
+          "frame": 3268,
+          "timelineTimeMs": 108933
+        },
+        {
+          "frame": 3289,
+          "timelineTimeMs": 109633
+        },
+        {
+          "frame": 3335,
+          "timelineTimeMs": 111167
+        },
+        {
+          "frame": 3400,
+          "timelineTimeMs": 113333
+        },
+        {
+          "frame": 3421,
+          "timelineTimeMs": 114033
+        },
+        {
+          "frame": 3450,
+          "timelineTimeMs": 115000
+        },
+        {
+          "frame": 3499,
+          "timelineTimeMs": 116633
+        },
+        {
+          "frame": 3520,
+          "timelineTimeMs": 117333
+        },
+        {
+          "frame": 3567,
+          "timelineTimeMs": 118900
+        },
+        {
+          "frame": 3634,
+          "timelineTimeMs": 121133
+        },
+        {
+          "frame": 3655,
+          "timelineTimeMs": 121833
+        },
+        {
+          "frame": 3656,
+          "timelineTimeMs": 121867
+        },
+        {
+          "frame": 3676,
+          "timelineTimeMs": 122533
+        },
+        {
+          "frame": 3697,
+          "timelineTimeMs": 123233
+        },
+        {
+          "frame": 3750,
+          "timelineTimeMs": 125000
+        },
+        {
+          "frame": 3822,
+          "timelineTimeMs": 127400
+        },
+        {
+          "frame": 3843,
+          "timelineTimeMs": 128100
+        },
+        {
+          "frame": 3935,
+          "timelineTimeMs": 131167
+        },
+        {
+          "frame": 4047,
+          "timelineTimeMs": 134900
+        }
+      ],
+      "grid": {
+        "cols": 4,
+        "rows": 6
+      },
+      "height": 1488,
+      "renderableDurationInFrames": 5994,
+      "renderedBy": "frontend",
+      "status": "available",
+      "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "width": 1568
+    },
+    {
+      "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/3d96aaae-2026-4693-9e2a-259e38bb996d/previews/968da43e-d6f9-4ec5-8192-620e26798d7c.jpg",
+      "cells": [
+        {
+          "col": 0,
+          "frame": 4068,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "frame": 4121,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "frame": 4193,
+          "row": 0
+        },
+        {
+          "col": 3,
+          "frame": 4214,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "frame": 4374,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "frame": 4553,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "frame": 4574,
+          "row": 1
+        },
+        {
+          "col": 3,
+          "frame": 4577,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "frame": 4599,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "frame": 4620,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "frame": 4680,
+          "row": 2
+        },
+        {
+          "col": 3,
+          "frame": 4760,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "frame": 4781,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "frame": 4892,
+          "row": 3
+        },
+        {
+          "col": 2,
+          "frame": 5022,
+          "row": 3
+        },
+        {
+          "col": 3,
+          "frame": 5037,
+          "row": 3
+        },
+        {
+          "col": 0,
+          "frame": 5043,
+          "row": 4
+        },
+        {
+          "col": 1,
+          "frame": 5050,
+          "row": 4
+        },
+        {
+          "col": 2,
+          "frame": 5071,
+          "row": 4
+        },
+        {
+          "col": 3,
+          "frame": 5096,
+          "row": 4
+        },
+        {
+          "col": 0,
+          "frame": 5140,
+          "row": 5
+        },
+        {
+          "col": 1,
+          "frame": 5161,
+          "row": 5
+        },
+        {
+          "col": 2,
+          "frame": 5184,
+          "row": 5
+        },
+        {
+          "col": 3,
+          "frame": 5227,
+          "row": 5
+        }
+      ],
+      "fps": 30,
+      "frames": [
+        {
+          "frame": 4068,
+          "timelineTimeMs": 135600
+        },
+        {
+          "frame": 4121,
+          "timelineTimeMs": 137367
+        },
+        {
+          "frame": 4193,
+          "timelineTimeMs": 139767
+        },
+        {
+          "frame": 4214,
+          "timelineTimeMs": 140467
+        },
+        {
+          "frame": 4374,
+          "timelineTimeMs": 145800
+        },
+        {
+          "frame": 4553,
+          "timelineTimeMs": 151767
+        },
+        {
+          "frame": 4574,
+          "timelineTimeMs": 152467
+        },
+        {
+          "frame": 4577,
+          "timelineTimeMs": 152567
+        },
+        {
+          "frame": 4599,
+          "timelineTimeMs": 153300
+        },
+        {
+          "frame": 4620,
+          "timelineTimeMs": 154000
+        },
+        {
+          "frame": 4680,
+          "timelineTimeMs": 156000
+        },
+        {
+          "frame": 4760,
+          "timelineTimeMs": 158667
+        },
+        {
+          "frame": 4781,
+          "timelineTimeMs": 159367
+        },
+        {
+          "frame": 4892,
+          "timelineTimeMs": 163067
+        },
+        {
+          "frame": 5022,
+          "timelineTimeMs": 167400
+        },
+        {
+          "frame": 5037,
+          "timelineTimeMs": 167900
+        },
+        {
+          "frame": 5043,
+          "timelineTimeMs": 168100
+        },
+        {
+          "frame": 5050,
+          "timelineTimeMs": 168333
+        },
+        {
+          "frame": 5071,
+          "timelineTimeMs": 169033
+        },
+        {
+          "frame": 5096,
+          "timelineTimeMs": 169867
+        },
+        {
+          "frame": 5140,
+          "timelineTimeMs": 171333
+        },
+        {
+          "frame": 5161,
+          "timelineTimeMs": 172033
+        },
+        {
+          "frame": 5184,
+          "timelineTimeMs": 172800
+        },
+        {
+          "frame": 5227,
+          "timelineTimeMs": 174233
+        }
+      ],
+      "grid": {
+        "cols": 4,
+        "rows": 6
+      },
+      "height": 1488,
+      "renderableDurationInFrames": 5994,
+      "renderedBy": "frontend",
+      "status": "available",
+      "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "width": 1568
+    },
+    {
+      "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/3d96aaae-2026-4693-9e2a-259e38bb996d/previews/27caa517-e904-4249-a989-33b9117ec89b.jpg",
+      "cells": [
+        {
+          "col": 0,
+          "frame": 5248,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "frame": 5353,
+          "row": 0
+        },
+        {
+          "col": 2,
+          "frame": 5478,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "frame": 5499,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "frame": 5635,
+          "row": 1
+        },
+        {
+          "col": 2,
+          "frame": 5790,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "frame": 5811,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "frame": 5890,
+          "row": 2
+        },
+        {
+          "col": 2,
+          "frame": 5988,
+          "row": 2
+        },
+        {
+          "col": 0,
+          "frame": 5991,
+          "row": 3
+        },
+        {
+          "col": 1,
+          "frame": 5993,
+          "row": 3
+        }
+      ],
+      "fps": 30,
+      "frames": [
+        {
+          "frame": 5248,
+          "timelineTimeMs": 174933
+        },
+        {
+          "frame": 5353,
+          "timelineTimeMs": 178433
+        },
+        {
+          "frame": 5478,
+          "timelineTimeMs": 182600
+        },
+        {
+          "frame": 5499,
+          "timelineTimeMs": 183300
+        },
+        {
+          "frame": 5635,
+          "timelineTimeMs": 187833
+        },
+        {
+          "frame": 5790,
+          "timelineTimeMs": 193000
+        },
+        {
+          "frame": 5811,
+          "timelineTimeMs": 193700
+        },
+        {
+          "frame": 5890,
+          "timelineTimeMs": 196333
+        },
+        {
+          "frame": 5988,
+          "timelineTimeMs": 199600
+        },
+        {
+          "frame": 5991,
+          "timelineTimeMs": 199700
+        },
+        {
+          "frame": 5993,
+          "timelineTimeMs": 199767
+        }
+      ],
+      "grid": {
+        "cols": 3,
+        "rows": 4
+      },
+      "height": 1284,
+      "renderableDurationInFrames": 5994,
+      "renderedBy": "frontend",
+      "status": "available",
+      "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "width": 1566
+    },
+    {
+      "workspacePath": "/private/var/folders/_z/rc09kq2x6wz7529n_4lz96wr0000gn/T/chatcut-mcp-workspaces/3d96aaae-2026-4693-9e2a-259e38bb996d/previews/807bb2f4-180a-47c8-bd65-7c4bb87b04b5.jpg",
+      "cells": [
+        {
+          "col": 0,
+          "frame": 2580,
+          "row": 0
+        },
+        {
+          "col": 1,
+          "frame": 2590,
+          "row": 0
+        },
+        {
+          "col": 0,
+          "frame": 5933,
+          "row": 1
+        },
+        {
+          "col": 1,
+          "frame": 5972,
+          "row": 1
+        },
+        {
+          "col": 0,
+          "frame": 5988,
+          "row": 2
+        },
+        {
+          "col": 1,
+          "frame": 5993,
+          "row": 2
+        }
+      ],
+      "fps": 30,
+      "frames": [
+        {
+          "frame": 2580,
+          "timelineTimeMs": 86000
+        },
+        {
+          "frame": 2590,
+          "timelineTimeMs": 86333
+        },
+        {
+          "frame": 5933,
+          "timelineTimeMs": 197767
+        },
+        {
+          "frame": 5972,
+          "timelineTimeMs": 199067
+        },
+        {
+          "frame": 5988,
+          "timelineTimeMs": 199600
+        },
+        {
+          "frame": 5993,
+          "timelineTimeMs": 199767
+        }
+      ],
+      "grid": {
+        "cols": 2,
+        "rows": 3
+      },
+      "height": 1407,
+      "renderableDurationInFrames": 5994,
+      "renderedBy": "frontend",
+      "status": "available",
+      "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "width": 1568
+    }
+  ],
+  "status": "ready_for_user_review_not_final_acceptance",
+  "independent_review": "not obtained: three reviewers interrupted by account usage limit",
+  "dynamic_review": "pending",
+  "audio_review": "pending"
+}

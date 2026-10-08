@@ -1,0 +1,1888 @@
+{
+  "state": {
+    "canvas": {
+      "height": 1080,
+      "width": 1920
+    },
+    "durationFrames": 7253,
+    "editor": {
+      "activeTimelineId": "c2c179b7-e4b1-47c9-9786-69334a8fa3d9",
+      "asOf": "turn-start",
+      "selectedItemIds": [],
+      "trackLocks": [
+        {
+          "hidden": false,
+          "id": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "e203202b-69f8-449a-aca6-aace1600f0c9",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "f52606c2-e35b-4858-aa65-58e80d446470",
+          "locked": false,
+          "muted": false
+        }
+      ]
+    },
+    "fps": 30,
+    "id": "c2c179b7-e4b1-47c9-9786-69334a8fa3d9",
+    "name": "Timeline",
+    "range": {
+      "fromFrame": 0,
+      "toFrame": 7253
+    }
+  },
+  "views": [
+    "timeline"
+  ],
+  "timeline": {
+    "entries": [
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 0,
+        "id": "13fb30bb-9dcc-45f5-a1bd-3efa9b8f7de0",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 6983333,
+          "start": 550000
+        },
+        "timelineRange": {
+          "fromFrame": 0,
+          "toFrame": 193
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 193,
+        "id": "eaa13323-6f68-40fb-8f68-be64d8574ae6",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 12000000,
+          "start": 7000000
+        },
+        "timelineRange": {
+          "fromFrame": 193,
+          "toFrame": 343
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 343,
+        "id": "a9b31074-fc41-4336-946e-7114d939c014",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 13423334,
+          "start": 12290000
+        },
+        "timelineRange": {
+          "fromFrame": 343,
+          "toFrame": 377
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 377,
+        "id": "ca08274d-3439-42b4-a4b6-1147ec0cad01",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 15380000,
+          "start": 14680000
+        },
+        "timelineRange": {
+          "fromFrame": 377,
+          "toFrame": 398
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 398,
+        "id": "e1f8c175-9390-4c0c-b578-bba1915bdd1f",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 16643333,
+          "start": 15610000
+        },
+        "timelineRange": {
+          "fromFrame": 398,
+          "toFrame": 429
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 429,
+        "id": "1c5a1177-389e-45b5-8c12-bf60703a9537",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 22376667,
+          "start": 16810000
+        },
+        "timelineRange": {
+          "fromFrame": 429,
+          "toFrame": 596
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 596,
+        "id": "5576a06e-4f3d-4399-a58f-a15158491d7d",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 25406666,
+          "start": 22540000
+        },
+        "timelineRange": {
+          "fromFrame": 596,
+          "toFrame": 682
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 682,
+        "id": "6063d7e5-5d7e-483e-bb4a-f52e54790bd0",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 29793334,
+          "start": 25460000
+        },
+        "timelineRange": {
+          "fromFrame": 682,
+          "toFrame": 812
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 812,
+        "id": "fc2eaf7f-61ba-4d2a-aa29-dd2ec7c2199f",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 33400000,
+          "start": 29900000
+        },
+        "timelineRange": {
+          "fromFrame": 812,
+          "toFrame": 917
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 917,
+        "id": "e7637f40-9f75-4637-8cbf-faddad417eea",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 40706666,
+          "start": 33540000
+        },
+        "timelineRange": {
+          "fromFrame": 917,
+          "toFrame": 1132
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1132,
+        "id": "3210e631-1737-450b-b9a7-14c0d3268fd9",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 44676667,
+          "start": 41210000
+        },
+        "timelineRange": {
+          "fromFrame": 1132,
+          "toFrame": 1236
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1236,
+        "id": "ad99126b-0a1b-4dab-b916-ce193b9cc480",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 46146667,
+          "start": 45080000
+        },
+        "timelineRange": {
+          "fromFrame": 1236,
+          "toFrame": 1268
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1268,
+        "id": "a499ac31-23ec-45e7-92dc-b1c94dbf7f27",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 47416666,
+          "start": 46150000
+        },
+        "timelineRange": {
+          "fromFrame": 1268,
+          "toFrame": 1306
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1306,
+        "id": "5d5229ae-1181-4cf4-a527-b2bca2da67bd",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 55940000,
+          "start": 47740000
+        },
+        "timelineRange": {
+          "fromFrame": 1306,
+          "toFrame": 1552
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1552,
+        "id": "cff64ab4-dfdf-4c39-be41-1da79a258aa7",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 58893334,
+          "start": 55960000
+        },
+        "timelineRange": {
+          "fromFrame": 1552,
+          "toFrame": 1640
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1640,
+        "id": "965a16ba-661f-45ad-9022-d40601370024",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 64746666,
+          "start": 60080000
+        },
+        "timelineRange": {
+          "fromFrame": 1640,
+          "toFrame": 1780
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1780,
+        "id": "d12d1b7b-4ba9-40a7-9c95-0c69e69c1352",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 65573334,
+          "start": 64840000
+        },
+        "timelineRange": {
+          "fromFrame": 1780,
+          "toFrame": 1802
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1802,
+        "id": "7ac2d883-1e43-4455-be09-db038cea5815",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 65973333,
+          "start": 65640000
+        },
+        "timelineRange": {
+          "fromFrame": 1802,
+          "toFrame": 1812
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1812,
+        "id": "6f618b2d-e557-4042-8472-3582daca48d8",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 67126667,
+          "start": 66760000
+        },
+        "timelineRange": {
+          "fromFrame": 1812,
+          "toFrame": 1823
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1823,
+        "id": "4503a209-863d-45e2-88cd-ac7331ec84c1",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 69293333,
+          "start": 67360000
+        },
+        "timelineRange": {
+          "fromFrame": 1823,
+          "toFrame": 1881
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1881,
+        "id": "ee619b45-5d1e-4971-885e-e5ff6cb2ba4b",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 71810000,
+          "start": 69410000
+        },
+        "timelineRange": {
+          "fromFrame": 1881,
+          "toFrame": 1953
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 1953,
+        "id": "309143fb-0c77-4b5b-a8b9-b593b476dea4",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 79230000,
+          "start": 72130000
+        },
+        "timelineRange": {
+          "fromFrame": 1953,
+          "toFrame": 2166
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2166,
+        "id": "e32460e5-3a50-421e-a9d7-7af2bba0f165",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 82316667,
+          "start": 79350000
+        },
+        "timelineRange": {
+          "fromFrame": 2166,
+          "toFrame": 2255
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2255,
+        "id": "f5de2751-d72d-4297-b628-fa612985388b",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 83376666,
+          "start": 82510000
+        },
+        "timelineRange": {
+          "fromFrame": 2255,
+          "toFrame": 2281
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2281,
+        "id": "e2f57d40-7452-4e61-b149-b45efeda46ca",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 88103334,
+          "start": 86570000
+        },
+        "timelineRange": {
+          "fromFrame": 2281,
+          "toFrame": 2327
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2327,
+        "id": "705c7777-9e7e-4142-85c1-7f0a221e2a22",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 90330000,
+          "start": 89130000
+        },
+        "timelineRange": {
+          "fromFrame": 2327,
+          "toFrame": 2363
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2363,
+        "id": "124df133-2820-40e6-890e-a8d80ff9fd64",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 97906666,
+          "start": 90340000
+        },
+        "timelineRange": {
+          "fromFrame": 2363,
+          "toFrame": 2590
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2590,
+        "id": "799385d2-0f0f-43fe-9ed8-28c44f074ad2",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 107723334,
+          "start": 105690000
+        },
+        "timelineRange": {
+          "fromFrame": 2590,
+          "toFrame": 2651
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2651,
+        "id": "361703fd-952f-481b-a2c5-bc5b24bb9c37",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 111430000,
+          "start": 108330000
+        },
+        "timelineRange": {
+          "fromFrame": 2651,
+          "toFrame": 2744
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2744,
+        "id": "b0e51402-d6c8-40d0-9523-0d862ef71dc2",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 115050000,
+          "start": 112250000
+        },
+        "timelineRange": {
+          "fromFrame": 2744,
+          "toFrame": 2828
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2828,
+        "id": "3d8b25b0-665f-40eb-a66e-29c213794732",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 116983333,
+          "start": 115450000
+        },
+        "timelineRange": {
+          "fromFrame": 2828,
+          "toFrame": 2874
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2874,
+        "id": "c40ec199-3f2c-4e85-9e2a-8e4bcb9e7011",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 117476667,
+          "start": 117010000
+        },
+        "timelineRange": {
+          "fromFrame": 2874,
+          "toFrame": 2888
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2888,
+        "id": "5ff8f367-93df-4b21-a79e-d88b44112b1e",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 119313333,
+          "start": 117780000
+        },
+        "timelineRange": {
+          "fromFrame": 2888,
+          "toFrame": 2934
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2934,
+        "id": "f37e72d3-eecf-4c03-8458-7bf23ec41b07",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 120556667,
+          "start": 119490000
+        },
+        "timelineRange": {
+          "fromFrame": 2934,
+          "toFrame": 2966
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2966,
+        "id": "35040fe1-6f34-494b-83a6-c9ba6f8a963a",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 122136666,
+          "start": 121570000
+        },
+        "timelineRange": {
+          "fromFrame": 2966,
+          "toFrame": 2983
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 2983,
+        "id": "a1e2d5da-06e8-4115-94f7-6e180230e325",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 123356667,
+          "start": 122390000
+        },
+        "timelineRange": {
+          "fromFrame": 2983,
+          "toFrame": 3012
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3012,
+        "id": "7358895c-8603-47e8-8005-8e0447f066f2",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 125743333,
+          "start": 123510000
+        },
+        "timelineRange": {
+          "fromFrame": 3012,
+          "toFrame": 3079
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3079,
+        "id": "b3c80080-96df-4c67-9fa7-4183f25a4bd5",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 131083334,
+          "start": 126150000
+        },
+        "timelineRange": {
+          "fromFrame": 3079,
+          "toFrame": 3227
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3227,
+        "id": "b8bf2d03-fd29-40b6-bf20-5562721a3874",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 133296666,
+          "start": 132430000
+        },
+        "timelineRange": {
+          "fromFrame": 3227,
+          "toFrame": 3253
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3253,
+        "id": "b6d97736-d274-4856-8417-eb2c537f5aba",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 137316667,
+          "start": 133550000
+        },
+        "timelineRange": {
+          "fromFrame": 3253,
+          "toFrame": 3366
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3366,
+        "id": "54262c26-91ab-4c90-81b6-b6d5c55ee43d",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 141520000,
+          "start": 137320000
+        },
+        "timelineRange": {
+          "fromFrame": 3366,
+          "toFrame": 3492
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3492,
+        "id": "dcc6ac1b-9eb7-48e4-a6a9-ef81c5795117",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 146053333,
+          "start": 142120000
+        },
+        "timelineRange": {
+          "fromFrame": 3492,
+          "toFrame": 3610
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3610,
+        "id": "f279c5c5-3e1c-4dab-883f-4bcb644424b4",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 152293334,
+          "start": 150660000
+        },
+        "timelineRange": {
+          "fromFrame": 3610,
+          "toFrame": 3659
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3659,
+        "id": "21ed867c-07a1-4b99-91f6-440e0bec17da",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 159686666,
+          "start": 152820000
+        },
+        "timelineRange": {
+          "fromFrame": 3659,
+          "toFrame": 3865
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3865,
+        "id": "25e10548-989c-4ad8-8ecf-fad55a66b1aa",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 162420000,
+          "start": 160420000
+        },
+        "timelineRange": {
+          "fromFrame": 3865,
+          "toFrame": 3925
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3925,
+        "id": "6fdbc383-cdbe-458e-b90f-6b75aafaf876",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 163316667,
+          "start": 162650000
+        },
+        "timelineRange": {
+          "fromFrame": 3925,
+          "toFrame": 3945
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 3945,
+        "id": "548f5171-f394-498c-9a4e-3de4a254a256",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 166730000,
+          "start": 163730000
+        },
+        "timelineRange": {
+          "fromFrame": 3945,
+          "toFrame": 4035
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 4035,
+        "id": "cc8aa6e5-f6f8-46fd-8cf5-c97dff900ec8",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 168796667,
+          "start": 166730000
+        },
+        "timelineRange": {
+          "fromFrame": 4035,
+          "toFrame": 4097
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 4097,
+        "id": "060cabe3-2483-4baf-a1d0-fa8ee095de87",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 171036666,
+          "start": 169370000
+        },
+        "timelineRange": {
+          "fromFrame": 4097,
+          "toFrame": 4147
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "b740ea77-c64d-4407-92e6-525c8f889156",
+          "name": "0e255b4ffc3243b686a40f3f160fe54e",
+          "type": "video"
+        },
+        "startFrame": 4147,
+        "id": "84a3a331-ac57-4280-9271-e87e10416229",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 176503334,
+          "start": 173370000
+        },
+        "timelineRange": {
+          "fromFrame": 4147,
+          "toFrame": 4241
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 4241,
+        "id": "f7709321-9478-4057-8d25-a047bdbabdf5",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 3231923,
+          "start": 1431923
+        },
+        "timelineRange": {
+          "fromFrame": 4241,
+          "toFrame": 4295
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 4295,
+        "id": "a85d37dd-6c7c-48c0-bc15-ab114017e164",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 7710000,
+          "start": 4410000
+        },
+        "timelineRange": {
+          "fromFrame": 4295,
+          "toFrame": 4394
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 4394,
+        "id": "81e456e3-8265-4728-80af-5aac9378c234",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 8653333,
+          "start": 7720000
+        },
+        "timelineRange": {
+          "fromFrame": 4394,
+          "toFrame": 4422
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 4422,
+        "id": "a62fedc9-8348-4ee8-8435-f2f38b5316e3",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 15396667,
+          "start": 8730000
+        },
+        "timelineRange": {
+          "fromFrame": 4422,
+          "toFrame": 4622
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 4622,
+        "id": "9e239af0-933e-4616-afe8-1e6b461608be",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 16013333,
+          "start": 15780000
+        },
+        "timelineRange": {
+          "fromFrame": 4622,
+          "toFrame": 4629
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 4629,
+        "id": "05d7cdfe-8285-4d52-8746-3d760d630069",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 22853333,
+          "start": 16820000
+        },
+        "timelineRange": {
+          "fromFrame": 4629,
+          "toFrame": 4810
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 4810,
+        "id": "f06480dc-469e-4af9-839a-49c54d1d6c36",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 28326667,
+          "start": 23960000
+        },
+        "timelineRange": {
+          "fromFrame": 4810,
+          "toFrame": 4941
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 4941,
+        "id": "d85c7680-80de-4a07-9d3b-da88829a6b98",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 33063333,
+          "start": 28330000
+        },
+        "timelineRange": {
+          "fromFrame": 4941,
+          "toFrame": 5083
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5083,
+        "id": "bbc99ced-248a-441e-938a-69315309a821",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 35016667,
+          "start": 33950000
+        },
+        "timelineRange": {
+          "fromFrame": 5083,
+          "toFrame": 5115
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5115,
+        "id": "68ed861c-2044-4a8d-8daa-2516c6b924d1",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 36443333,
+          "start": 35510000
+        },
+        "timelineRange": {
+          "fromFrame": 5115,
+          "toFrame": 5143
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5143,
+        "id": "a4734638-da90-4d25-9841-e963d0aa4f68",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 37463334,
+          "start": 36630000
+        },
+        "timelineRange": {
+          "fromFrame": 5143,
+          "toFrame": 5168
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5168,
+        "id": "2f20afe6-e33e-4b36-ac71-63b01e4eee16",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 40906666,
+          "start": 37840000
+        },
+        "timelineRange": {
+          "fromFrame": 5168,
+          "toFrame": 5260
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5260,
+        "id": "18b419fa-a3be-419f-a72f-e98daaa4f616",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 42196667,
+          "start": 41330000
+        },
+        "timelineRange": {
+          "fromFrame": 5260,
+          "toFrame": 5286
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5286,
+        "id": "b73b8a93-f617-4d11-b1e2-d8473dbe0d9b",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 48390000,
+          "start": 43490000
+        },
+        "timelineRange": {
+          "fromFrame": 5286,
+          "toFrame": 5433
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5433,
+        "id": "6c0fd981-c259-4bcc-b1bb-c4537cfd8447",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 53346667,
+          "start": 48780000
+        },
+        "timelineRange": {
+          "fromFrame": 5433,
+          "toFrame": 5570
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5570,
+        "id": "64f2afcc-633e-4fbc-ab86-284e97ab4fe6",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 55006666,
+          "start": 53340000
+        },
+        "timelineRange": {
+          "fromFrame": 5570,
+          "toFrame": 5620
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5620,
+        "id": "044f601f-3549-4e26-af42-124c1c2869c4",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 58573334,
+          "start": 56740000
+        },
+        "timelineRange": {
+          "fromFrame": 5620,
+          "toFrame": 5675
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5675,
+        "id": "3825e987-010d-4414-abdc-df561055901b",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 61030000,
+          "start": 58630000
+        },
+        "timelineRange": {
+          "fromFrame": 5675,
+          "toFrame": 5747
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5747,
+        "id": "f4520c7e-068e-4e54-8274-a2906dfaf3a2",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 66453333,
+          "start": 62120000
+        },
+        "timelineRange": {
+          "fromFrame": 5747,
+          "toFrame": 5877
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5877,
+        "id": "9cc13530-402d-4e56-bdfc-2097b78925b5",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 67480000,
+          "start": 66680000
+        },
+        "timelineRange": {
+          "fromFrame": 5877,
+          "toFrame": 5901
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5901,
+        "id": "7e4ac1c6-bf68-4e92-bdd1-a91fffb65e50",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 69520000,
+          "start": 67520000
+        },
+        "timelineRange": {
+          "fromFrame": 5901,
+          "toFrame": 5961
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 5961,
+        "id": "9db7c839-e4df-4257-9090-30b85694bb1e",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 73026667,
+          "start": 70760000
+        },
+        "timelineRange": {
+          "fromFrame": 5961,
+          "toFrame": 6029
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6029,
+        "id": "bdc4d41e-1acc-4bb0-bb52-9fbaca07c796",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 73866666,
+          "start": 73200000
+        },
+        "timelineRange": {
+          "fromFrame": 6029,
+          "toFrame": 6049
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6049,
+        "id": "891d2de6-8b55-44ed-9ed3-bbff6eaabe91",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 73913334,
+          "start": 73880000
+        },
+        "timelineRange": {
+          "fromFrame": 6049,
+          "toFrame": 6050
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6050,
+        "id": "e5de2ec8-d151-4b9c-906a-a95da644266e",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 75473333,
+          "start": 74240000
+        },
+        "timelineRange": {
+          "fromFrame": 6050,
+          "toFrame": 6087
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6087,
+        "id": "94efd30a-59b6-49f9-8180-4519d3bd6c6d",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 83846667,
+          "start": 75480000
+        },
+        "timelineRange": {
+          "fromFrame": 6087,
+          "toFrame": 6338
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6338,
+        "id": "170cd1c7-09bb-4cb0-870d-506eb659d3ef",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 84450000,
+          "start": 84050000
+        },
+        "timelineRange": {
+          "fromFrame": 6338,
+          "toFrame": 6350
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6350,
+        "id": "325bfa0a-8385-4524-9b8b-0ce82fb3b286",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 85706666,
+          "start": 84640000
+        },
+        "timelineRange": {
+          "fromFrame": 6350,
+          "toFrame": 6382
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6382,
+        "id": "42a7e7c8-776b-461d-b798-9403a5d9c856",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 92063334,
+          "start": 86130000
+        },
+        "timelineRange": {
+          "fromFrame": 6382,
+          "toFrame": 6560
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6560,
+        "id": "0f8fcb7f-59ab-4918-8e21-d7887d761594",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 97403333,
+          "start": 92070000
+        },
+        "timelineRange": {
+          "fromFrame": 6560,
+          "toFrame": 6720
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6720,
+        "id": "a0645de8-e849-424e-ab83-c236920e6fe3",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 98956667,
+          "start": 97690000
+        },
+        "timelineRange": {
+          "fromFrame": 6720,
+          "toFrame": 6758
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6758,
+        "id": "f5c4ad17-cebd-4766-b91d-bb50580694ee",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 106623333,
+          "start": 102490000
+        },
+        "timelineRange": {
+          "fromFrame": 6758,
+          "toFrame": 6882
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6882,
+        "id": "99ab08e7-7c1e-4f9d-876b-eb00191dcef8",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 110036667,
+          "start": 108670000
+        },
+        "timelineRange": {
+          "fromFrame": 6882,
+          "toFrame": 6923
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 6923,
+        "id": "a84e56af-bb4f-4ce9-9c49-fa10a7662b1b",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 113716666,
+          "start": 110150000
+        },
+        "timelineRange": {
+          "fromFrame": 6923,
+          "toFrame": 7030
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 7030,
+        "id": "206115a9-5632-42bb-af63-849a291e3e7c",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 115646667,
+          "start": 113780000
+        },
+        "timelineRange": {
+          "fromFrame": 7030,
+          "toFrame": 7086
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 7086,
+        "id": "eb4b1168-1a76-45bb-9112-fe58c412bc8f",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 118640000,
+          "start": 115740000
+        },
+        "timelineRange": {
+          "fromFrame": 7086,
+          "toFrame": 7173
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      },
+      {
+        "asset": {
+          "id": "a902052b-4edd-4c3f-b981-b42b371b67d0",
+          "name": "b00496acf377475b9305f0bb900f862d",
+          "type": "video"
+        },
+        "startFrame": 7173,
+        "id": "a60c5734-526c-4691-a591-f809ab51543c",
+        "itemType": "video",
+        "kind": "item",
+        "sourceRange": {
+          "end": 122856667,
+          "start": 120190000
+        },
+        "timelineRange": {
+          "fromFrame": 7173,
+          "toFrame": 7253
+        },
+        "trackAlias": "V1",
+        "trackId": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1"
+      }
+    ],
+    "totalEntries": 87,
+    "tracks": [
+      {
+        "alias": "V1",
+        "hidden": false,
+        "id": "48ef3cfb-9dc2-49b0-9d50-c2ee23172ff1",
+        "locked": false,
+        "muted": false,
+        "name": null,
+        "order": 0,
+        "trackType": "video"
+      }
+    ]
+  }
+}

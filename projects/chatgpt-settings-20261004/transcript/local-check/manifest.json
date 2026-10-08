@@ -1,0 +1,30 @@
+[
+  {
+    "label": "dialogue",
+    "source": "9ac428c9eed44b2099cbfdf39dae706f.MOV",
+    "sourceStart": 139,
+    "sourceDuration": 6.0,
+    "joinedStart": 0
+  },
+  {
+    "label": "diet",
+    "source": "9ac428c9eed44b2099cbfdf39dae706f.MOV",
+    "sourceStart": 168,
+    "sourceDuration": 9.0,
+    "joinedStart": 6.5
+  },
+  {
+    "label": "gpt",
+    "source": "4a33841950f84a398b8974e08425bf3b.MOV",
+    "sourceStart": 47,
+    "sourceDuration": 6.0,
+    "joinedStart": 16.0
+  },
+  {
+    "label": "closing",
+    "source": "4a33841950f84a398b8974e08425bf3b.MOV",
+    "sourceStart": 91,
+    "sourceDuration": 10.0,
+    "joinedStart": 22.5
+  }
+]

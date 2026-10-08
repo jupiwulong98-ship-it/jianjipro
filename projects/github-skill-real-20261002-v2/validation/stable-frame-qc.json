@@ -1,0 +1,17 @@
+{
+  "status": "pass",
+  "source_hash": "d273c3398477021e72eddd59ac49b1240790d31a60664c0ced6970fcbe881344",
+  "reviewer": "primary_agent",
+  "checks": [
+    "20 scenes at entry/stable/end inspected in regenerated contact sheets",
+    "all source footers removed",
+    "flattened masks inspected before animation",
+    "Sign up target isolated",
+    "Search label avoids covering result",
+    "Repositories and sort controls enlarged",
+    "transparent identity card verified",
+    "Identity entire background fades with text; no empty residual panel at final frame"
+  ],
+  "independent_review": "incomplete: three reviewers stopped by account usage limit; do not count as independent acceptance",
+  "limitation": "Still-frame quality only; native assembled composition and dynamic/audio review remain pending"
+}

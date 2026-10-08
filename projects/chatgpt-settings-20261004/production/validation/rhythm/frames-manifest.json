@@ -1,0 +1,376 @@
+{
+  "version": "0.1",
+  "project_id": "chatgpt-settings-20261004",
+  "gate": "D",
+  "status": "needs_visual_review",
+  "source_kind": "rendered_full_video",
+  "video": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/candidate.mp4",
+  "source_size": 45301077,
+  "source_mtime": "2026-10-04T08:33:48.912Z",
+  "duration": 149.16666666666666,
+  "interval": 6,
+  "sample_count": 72,
+  "samples": [
+    {
+      "time": 0.15,
+      "shot_id": "presenter-0",
+      "file": "frame-000.jpg"
+    },
+    {
+      "time": 0.2,
+      "shot_id": "presenter-0",
+      "file": "frame-001.jpg"
+    },
+    {
+      "time": 1.896,
+      "shot_id": "presenter-0",
+      "file": "frame-002.jpg"
+    },
+    {
+      "time": 2.833,
+      "shot_id": "meaning-02",
+      "file": "frame-003.jpg"
+    },
+    {
+      "time": 4.913,
+      "shot_id": "meaning-02",
+      "file": "frame-004.jpg"
+    },
+    {
+      "time": 6,
+      "shot_id": "presenter-174",
+      "file": "frame-005.jpg"
+    },
+    {
+      "time": 6.15,
+      "shot_id": "presenter-174",
+      "file": "frame-006.jpg"
+    },
+    {
+      "time": 11.296,
+      "shot_id": "presenter-174",
+      "file": "frame-007.jpg"
+    },
+    {
+      "time": 12.15,
+      "shot_id": "presenter-174",
+      "file": "frame-008.jpg"
+    },
+    {
+      "time": 13.633,
+      "shot_id": "meaning-04",
+      "file": "frame-009.jpg"
+    },
+    {
+      "time": 15.713,
+      "shot_id": "meaning-04",
+      "file": "frame-010.jpg"
+    },
+    {
+      "time": 16.8,
+      "shot_id": "presenter-498",
+      "file": "frame-011.jpg"
+    },
+    {
+      "time": 18.15,
+      "shot_id": "presenter-498",
+      "file": "frame-012.jpg"
+    },
+    {
+      "time": 19.792,
+      "shot_id": "presenter-498",
+      "file": "frame-013.jpg"
+    },
+    {
+      "time": 21.233,
+      "shot_id": "meaning-05",
+      "file": "frame-014.jpg"
+    },
+    {
+      "time": 24.15,
+      "shot_id": "meaning-05",
+      "file": "frame-015.jpg"
+    },
+    {
+      "time": 24.465,
+      "shot_id": "meaning-05",
+      "file": "frame-016.jpg"
+    },
+    {
+      "time": 26,
+      "shot_id": "presenter-774",
+      "file": "frame-017.jpg"
+    },
+    {
+      "time": 30.15,
+      "shot_id": "presenter-774",
+      "file": "frame-018.jpg"
+    },
+    {
+      "time": 33.336,
+      "shot_id": "presenter-774",
+      "file": "frame-019.jpg"
+    },
+    {
+      "time": 36.15,
+      "shot_id": "presenter-774",
+      "file": "frame-020.jpg"
+    },
+    {
+      "time": 36.467,
+      "shot_id": "meaning-07",
+      "file": "frame-021.jpg"
+    },
+    {
+      "time": 41.691,
+      "shot_id": "meaning-07",
+      "file": "frame-022.jpg"
+    },
+    {
+      "time": 42.15,
+      "shot_id": "meaning-07",
+      "file": "frame-023.jpg"
+    },
+    {
+      "time": 44,
+      "shot_id": "presenter-1314",
+      "file": "frame-024.jpg"
+    },
+    {
+      "time": 48.15,
+      "shot_id": "presenter-1314",
+      "file": "frame-025.jpg"
+    },
+    {
+      "time": 50.232,
+      "shot_id": "presenter-1314",
+      "file": "frame-026.jpg"
+    },
+    {
+      "time": 52.933,
+      "shot_id": "meaning-10",
+      "file": "frame-027.jpg"
+    },
+    {
+      "time": 54.15,
+      "shot_id": "meaning-10",
+      "file": "frame-028.jpg"
+    },
+    {
+      "time": 59.525,
+      "shot_id": "meaning-10",
+      "file": "frame-029.jpg"
+    },
+    {
+      "time": 60.15,
+      "shot_id": "meaning-10",
+      "file": "frame-030.jpg"
+    },
+    {
+      "time": 62.19,
+      "shot_id": "presenter-1865",
+      "file": "frame-031.jpg"
+    },
+    {
+      "time": 62.335,
+      "shot_id": "presenter-1865",
+      "file": "frame-032.jpg"
+    },
+    {
+      "time": 62.6,
+      "shot_id": "meaning-11",
+      "file": "frame-033.jpg"
+    },
+    {
+      "time": 66.15,
+      "shot_id": "meaning-11",
+      "file": "frame-034.jpg"
+    },
+    {
+      "time": 70.272,
+      "shot_id": "meaning-11",
+      "file": "frame-035.jpg"
+    },
+    {
+      "time": 72.15,
+      "shot_id": "meaning-11",
+      "file": "frame-036.jpg"
+    },
+    {
+      "time": 73.36,
+      "shot_id": "presenter-2200",
+      "file": "frame-037.jpg"
+    },
+    {
+      "time": 73.525,
+      "shot_id": "presenter-2200",
+      "file": "frame-038.jpg"
+    },
+    {
+      "time": 73.8,
+      "shot_id": "meaning-12",
+      "file": "frame-039.jpg"
+    },
+    {
+      "time": 75.928,
+      "shot_id": "meaning-12",
+      "file": "frame-040.jpg"
+    },
+    {
+      "time": 76.86,
+      "shot_id": "presenter-2305",
+      "file": "frame-041.jpg"
+    },
+    {
+      "time": 77.025,
+      "shot_id": "presenter-2305",
+      "file": "frame-042.jpg"
+    },
+    {
+      "time": 77.3,
+      "shot_id": "meaning-13",
+      "file": "frame-043.jpg"
+    },
+    {
+      "time": 78.15,
+      "shot_id": "meaning-13",
+      "file": "frame-044.jpg"
+    },
+    {
+      "time": 83.124,
+      "shot_id": "meaning-13",
+      "file": "frame-045.jpg"
+    },
+    {
+      "time": 84.15,
+      "shot_id": "meaning-13",
+      "file": "frame-046.jpg"
+    },
+    {
+      "time": 85.667,
+      "shot_id": "presenter-2564",
+      "file": "frame-047.jpg"
+    },
+    {
+      "time": 89.715,
+      "shot_id": "presenter-2564",
+      "file": "frame-048.jpg"
+    },
+    {
+      "time": 90.15,
+      "shot_id": "presenter-2564",
+      "file": "frame-049.jpg"
+    },
+    {
+      "time": 91.567,
+      "shot_id": "meaning-15",
+      "file": "frame-050.jpg"
+    },
+    {
+      "time": 96.15,
+      "shot_id": "meaning-15",
+      "file": "frame-051.jpg"
+    },
+    {
+      "time": 98.375,
+      "shot_id": "meaning-15",
+      "file": "frame-052.jpg"
+    },
+    {
+      "time": 101.3,
+      "shot_id": "presenter-3033",
+      "file": "frame-053.jpg"
+    },
+    {
+      "time": 102.15,
+      "shot_id": "presenter-3033",
+      "file": "frame-054.jpg"
+    },
+    {
+      "time": 104.076,
+      "shot_id": "presenter-3033",
+      "file": "frame-055.jpg"
+    },
+    {
+      "time": 105.433,
+      "shot_id": "meaning-17",
+      "file": "frame-056.jpg"
+    },
+    {
+      "time": 108.15,
+      "shot_id": "meaning-17",
+      "file": "frame-057.jpg"
+    },
+    {
+      "time": 114.15,
+      "shot_id": "meaning-17",
+      "file": "frame-058.jpg"
+    },
+    {
+      "time": 114.161,
+      "shot_id": "meaning-17",
+      "file": "frame-059.jpg"
+    },
+    {
+      "time": 117.833,
+      "shot_id": "presenter-3529",
+      "file": "frame-060.jpg"
+    },
+    {
+      "time": 120.15,
+      "shot_id": "presenter-3529",
+      "file": "frame-061.jpg"
+    },
+    {
+      "time": 126.15,
+      "shot_id": "presenter-3529",
+      "file": "frame-062.jpg"
+    },
+    {
+      "time": 130.689,
+      "shot_id": "presenter-3529",
+      "file": "frame-063.jpg"
+    },
+    {
+      "time": 132.15,
+      "shot_id": "presenter-3529",
+      "file": "frame-064.jpg"
+    },
+    {
+      "time": 135.967,
+      "shot_id": "meaning-20",
+      "file": "frame-065.jpg"
+    },
+    {
+      "time": 138.15,
+      "shot_id": "meaning-20",
+      "file": "frame-066.jpg"
+    },
+    {
+      "time": 138.935,
+      "shot_id": "meaning-20",
+      "file": "frame-067.jpg"
+    },
+    {
+      "time": 140.367,
+      "shot_id": "presenter-4205",
+      "file": "frame-068.jpg"
+    },
+    {
+      "time": 144.15,
+      "shot_id": "presenter-4205",
+      "file": "frame-069.jpg"
+    },
+    {
+      "time": 146.647,
+      "shot_id": "presenter-4205",
+      "file": "frame-070.jpg"
+    },
+    {
+      "time": 149.067,
+      "shot_id": "presenter-4205",
+      "file": "frame-071.jpg"
+    }
+  ],
+  "limitation": "抽样静帧不能证明动态节奏、阅读停留和声音通过，仍需整片播放。"
+}

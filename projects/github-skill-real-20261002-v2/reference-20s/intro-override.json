@@ -1,0 +1,64 @@
+{
+  "id": "ref20-intro",
+  "title": "建立话题 · 观看人数规模",
+  "mode": "visual",
+  "packaging_rule": "number_emphasis",
+  "source_word_ids": [
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f82436595-7f8d-4339-9e10-f4463837aa2b",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f1efb1d31-b850-4693-88e1-5c5ec2070940",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512fee502518-41e1-45e2-973e-f98cfdc32762",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f02dc6247-419f-4a3d-9486-e208179563cf",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f48dd04d8-8ae4-459a-a09e-cd1ea1ad6cc6",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512fa11bb959-711b-4288-bbec-1bf6897c3812",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512fd6646655-83d5-45ab-ab5b-d672e1217b97",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f2ad15a0e-5667-40d1-b1a3-4a961fcba388",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512fa628406f-662b-49ec-af8a-aba20befff0c",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512ff3679ae3-81a2-482b-9258-5d55613c2385",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512fb59a1a83-5211-4671-87cd-ecb525932585",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f5388a0d5-3b14-4a2c-980f-a626f4d7eb0a",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512fac58bcd9-94a2-4bc4-8d48-4b70a8da7c5f",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512fdd4ec3d9-7144-46b6-a668-cd0ba3fe4893",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f8eabbbb4-140f-405b-9938-d8f797a75d4b",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f4e489614-7e70-4ae8-bf15-d708be49e33d",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512ff0a2f900-87b8-4704-8ada-ed1d151f3375",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f6bb4506a-f605-40d6-b95d-92b66c246d6c",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f60c534aa-20d5-470e-9656-1a81f2fe7e71",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb",
+    "36:023537de-90bb-4e20-a1da-31bfbb74512f219aed79-aa17-4362-bd9f-306a5f660f84"
+  ],
+  "viewer_goal": "让十多万人看过的规模成为一个直观记忆点",
+  "initial_state": "保留人物；观看人数在左侧留白以深色大字出现",
+  "actions": [
+    {
+      "word_id": "36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+      "cue_word_ids": [
+        "36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+        "36:023537de-90bb-4e20-a1da-31bfbb74512fdd4ec3d9-7144-46b6-a668-cd0ba3fe4893",
+        "36:023537de-90bb-4e20-a1da-31bfbb74512f8eabbbb4-140f-405b-9938-d8f797a75d4b"
+      ],
+      "description": "数字从0递增，使用模板原有先快后慢的节奏"
+    },
+    {
+      "word_id": "36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c",
+      "cue_word_ids": [
+        "36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c",
+        "36:023537de-90bb-4e20-a1da-31bfbb74512f6bb4506a-f605-40d6-b95d-92b66c246d6c"
+      ],
+      "description": "数字落在10，轻微放大后收住，万+随后出现"
+    },
+    {
+      "word_id": "36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb",
+      "cue_word_ids": [
+        "36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb",
+        "36:023537de-90bb-4e20-a1da-31bfbb74512f219aed79-aa17-4362-bd9f-306a5f660f84"
+      ],
+      "description": "10万+驻留后在下一句前退出"
+    }
+  ],
+  "final_state": "10万+完成轻微落定，随后退出，人物与字幕始终保留",
+  "materials": "当前项目实拍与原口播；图形为解释性示意，不使用网页截图。人物脸部和底部字幕区保留。",
+  "reason": "难点：十多万是本句的数量重音，字幕中容易略过；画面补充：沿用已有计数缓动与落定，数字与单位分层出现，去掉亮青色和厚阴影。数量仅来自口播自述，不画增长曲线。",
+  "revision_reason": "按用户要求仅重做前20秒，优先采用TalkCraft现有动效；从图标关系图改为短语转折、真实素材和字形强调。"
+}

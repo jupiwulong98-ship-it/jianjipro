@@ -1,0 +1,232 @@
+[
+  {
+    "item": {
+      "asset": {
+        "id": "842287d344",
+        "name": "TalkCraft｜已确认前20秒｜透明动效",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 55,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 394,
+        "id": "a32019f7d9",
+        "left": 62,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 96,
+        "top": 226,
+        "width": 700,
+        "assetId": "842287d344",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 3200000,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "1bb570e080",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "d79fba961b",
+        "name": "jianjipro｜GitHub视觉包装",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "842287d344",
+        "name": "TalkCraft｜已确认前20秒｜透明动效",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 104,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 394,
+        "id": "086916d86f",
+        "left": 62,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 159,
+        "top": 226,
+        "width": 700,
+        "assetId": "842287d344",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 5300000,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "1bb570e080",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "d79fba961b",
+        "name": "jianjipro｜GitHub视觉包装",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "842287d344",
+        "name": "TalkCraft｜已确认前20秒｜透明动效",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 61,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 394,
+        "id": "aad945472b",
+        "left": 62,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 264,
+        "top": 226,
+        "width": 700,
+        "assetId": "842287d344",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 8800000,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "1bb570e080",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "d79fba961b",
+        "name": "jianjipro｜GitHub视觉包装",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "842287d344",
+        "name": "TalkCraft｜已确认前20秒｜透明动效",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 146,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 394,
+        "id": "27535638e2",
+        "left": 62,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 327,
+        "top": 226,
+        "width": 700,
+        "assetId": "842287d344",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 10900000,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "1bb570e080",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "d79fba961b",
+        "name": "jianjipro｜GitHub视觉包装",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "842287d344",
+        "name": "TalkCraft｜已确认前20秒｜透明动效",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 89,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 394,
+        "id": "f41b651c59",
+        "left": 62,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 510,
+        "top": 226,
+        "width": 700,
+        "assetId": "842287d344",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 17000000,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "1bb570e080",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "d79fba961b",
+        "name": "jianjipro｜GitHub视觉包装",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  }
+]

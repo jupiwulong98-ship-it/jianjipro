@@ -1,0 +1,363 @@
+{
+  "version": "0.2",
+  "project_id": "ai-tools-real-20260930",
+  "fps": 30,
+  "duration_frames": 3410,
+  "width": 1920,
+  "height": 1080,
+  "provenance": "本轮AI已查看按时间排序的62帧历史v2重建合成：人物右侧、文字左侧；官网为同类全屏缓推。无最终字幕/声音，仅为静帧节奏复核。",
+  "shots": [
+    {
+      "id": "scene-01",
+      "start_frame": 0,
+      "duration_frames": 261,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "现在刷到 AI 剪辑，感觉只需要把视频丢给 AI 就能够自动剪好了。今天给大家分享几个常用的 AI 动效包装的工具。",
+      "primary_visual_job": "先建立本片主题",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "medium",
+        "visual_subject": "presenter",
+        "motion_strength": "medium",
+        "information_change": "text_only",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-02",
+      "start_frame": 261,
+      "duration_frames": 299,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "第一个 HyperFrames。如果你要做产品介绍，画面主要是文字、图片和动画的情况下，可以看 HyperFrames。",
+      "primary_visual_job": "记住名称，再接用途",
+      "visual_structure": "parallel",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "medium",
+        "visual_subject": "presenter",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-03",
+      "start_frame": 560,
+      "duration_frames": 204,
+      "presentation_mode": "full_screen",
+      "spoken_text": "你描述你想要的画面。AI 通过网页生成的技术把它做成视频。它的优势是动效很灵活。",
+      "primary_visual_job": "让观众看见实际产品",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "website_slow_push",
+        "visual_intensity": "low",
+        "visual_subject": "screen",
+        "motion_strength": "low",
+        "information_change": "new_state",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-04",
+      "start_frame": 764,
+      "duration_frames": 384,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "它的优势是动效很灵活。然后做完还有工程文件可以让你去修改。它的代价就是你要和 AI 一起去调整项目。它能够出片，但是不代表它每次出片都是你想要的方向，所以它稳定性可能稍微会差一点。",
+      "primary_visual_job": "突出优势与代价",
+      "visual_structure": "single_focus",
+      "importance": 0.9,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "low",
+        "information_change": "text_only",
+        "visualizable": true,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-05",
+      "start_frame": 1148,
+      "duration_frames": 359,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "第二个是 Remotion。如果你每次都做同一种风格，同一种模板的视频。可以重点看一下 Remotion。你可以把标题、字幕。品牌颜色和动画全部都做成模板。下次你换内容就只需要在模板里面改改里面的参数就可以了。",
+      "primary_visual_job": "解释哪些东西可做成模板",
+      "visual_structure": "sequence",
+      "importance": 0.9,
+      "primary_motion_request": {
+        "family": "process"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "medium",
+        "visual_subject": "presenter",
+        "motion_strength": "medium",
+        "information_change": "text_only",
+        "visualizable": true,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-06",
+      "start_frame": 1507,
+      "duration_frames": 201,
+      "presentation_mode": "full_screen",
+      "spoken_text": "下次你换内容就只需要在模板里面改改里面的参数就可以了。它就非常适合重复做和批量做。",
+      "primary_visual_job": "展示工具及复用方向",
+      "visual_structure": "single_focus",
+      "importance": 0.9,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "website_slow_push",
+        "visual_intensity": "low",
+        "visual_subject": "screen",
+        "motion_strength": "low",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-07",
+      "start_frame": 1708,
+      "duration_frames": 106,
+      "presentation_mode": "full_screen",
+      "spoken_text": "它就非常适合重复做和批量做。它的代价是前期搭一个模板是比较耗时间的。如果你只用这个风格剪一条片子，",
+      "primary_visual_job": "用动作素材承接时间投入",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "broll_border",
+        "visual_intensity": "low",
+        "visual_subject": "real_asset",
+        "motion_strength": "low",
+        "information_change": "new_state",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-08",
+      "start_frame": 1814,
+      "duration_frames": 189,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "如果你只用这个风格剪一条片子，那么你可能用不上 Remotion。它不是特别划算。",
+      "primary_visual_job": "强调使用成本判断",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "low",
+        "information_change": "text_only",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-09",
+      "start_frame": 2003,
+      "duration_frames": 175,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "第三个， ChatCut。如果你已经拍好了你真人口播，或者是有一段录屏。",
+      "primary_visual_job": "建立适用场景",
+      "visual_structure": "parallel",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "entity"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "low",
+        "information_change": "new_state",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-10",
+      "start_frame": 2178,
+      "duration_frames": 110,
+      "presentation_mode": "full_screen",
+      "spoken_text": "想去剪掉废话，然后排字幕，或者是补一些画面。",
+      "primary_visual_job": "让画面节奏发生变化",
+      "visual_structure": "single_focus",
+      "importance": 0.9,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "broll_border",
+        "visual_intensity": "low",
+        "visual_subject": "real_asset",
+        "motion_strength": "low",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-11",
+      "start_frame": 2288,
+      "duration_frames": 145,
+      "presentation_mode": "full_screen",
+      "spoken_text": "优先看一下 ChatCut。它是直接在视频时间线上进行修改。",
+      "primary_visual_job": "展示产品界面方向",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "website_slow_push",
+        "visual_intensity": "low",
+        "visual_subject": "screen",
+        "motion_strength": "low",
+        "information_change": "new_state",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-12",
+      "start_frame": 2433,
+      "duration_frames": 213,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "AI 剪完之后，你还能自己进去微调。但是最终结果还是要你自己亲手去过一遍，然后才能够验证。",
+      "primary_visual_job": "强调人工过片",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "low",
+        "information_change": "text_only",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-13",
+      "start_frame": 2646,
+      "duration_frames": 238,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "那么这三个工具安装其实都很简单，你只需要告诉你的 agent 帮你安装某一个就可以，或者你三个都装上，自己去尝试一下。其实选什么工具，",
+      "primary_visual_job": "串起三个工具名称",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "medium",
+        "visual_subject": "presenter",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-14",
+      "start_frame": 2884,
+      "duration_frames": 90,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "其实选什么工具，最后都是看你有什么样的需求。",
+      "primary_visual_job": "给出选择原则",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "low",
+        "visual_subject": "presenter",
+        "motion_strength": "low",
+        "information_change": "text_only",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-15",
+      "start_frame": 2974,
+      "duration_frames": 268,
+      "presentation_mode": "full_screen",
+      "spoken_text": "最后都是看你有什么样的需求。做这种动效可以重点看一下 HyperFrames。然后做固定的栏目，可以看一下 Remotion 。如果你主要是真人口播主要可以看一下 ChatCut。",
+      "primary_visual_job": "帮助观众快速做选择",
+      "visual_structure": "parallel",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "list"
+      },
+      "rhythm": {
+        "layout": "three_columns",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    },
+    {
+      "id": "scene-16",
+      "start_frame": 3242,
+      "duration_frames": 168,
+      "presentation_mode": "presenter_safe",
+      "spoken_text": "工具可以帮你省一些操作步骤和时间，但是最终结果一定要你自己去进行判断。",
+      "primary_visual_job": "让结论落定",
+      "visual_structure": "single_focus",
+      "importance": 0.7,
+      "primary_motion_request": {
+        "family": "emphasis"
+      },
+      "rhythm": {
+        "layout": "presenter_left_text",
+        "visual_intensity": "medium",
+        "visual_subject": "presenter",
+        "motion_strength": "low",
+        "information_change": "text_only",
+        "visualizable": false,
+        "annotation_source": "sampled_visual_observation"
+      }
+    }
+  ]
+}

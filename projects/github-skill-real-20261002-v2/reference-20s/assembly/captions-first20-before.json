@@ -1,0 +1,1357 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"captionsItemId\": \"e3398963-19da-41b5-9e0c-099f687d81a7\",\n  \"cards\": [\n    {\n      \"end\": 3210000,\n      \"id\": \"36:e3398963-19da-41b5-9e0c-099f687d81a736:023537de-90bb-4e20-a1da-31bfbb74512f82436595-7f8d-4339-9e10-f4463837aa2b\",\n      \"languageCode\": null,\n      \"layout\": {},\n      \"start\": 250000,\n      \"style\": {\n        \"color\": \"#F7F7F7\",\n        \"fontFamily\": \"HarmonyOS Sans\",\n        \"fontSize\": 0.084,\n        \"fontStyle\": {\n          \"variant\": \"normal\",\n          \"weight\": \"900\"\n        },\n        \"highlightBackground\": null,\n        \"highlightColor\": \"#F7F7F7\",\n        \"highlightUnit\": \"off\",\n        \"letterSpacing\": -0.01,\n        \"normalBackground\": null,\n        \"stackedActiveOnTop\": false,\n        \"stackedGap\": null,\n        \"stackedLineTiltDeg\": null,\n        \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n        \"strokeWidth\": 0.8,\n        \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n        \"preset\": \"clean-heavy\",\n        \"lineHeight\": 1.02,\n        \"maxCharactersPerLine\": 18,\n        \"maxLines\": 2\n      },\n      \"text\": \"我之前分享的 Codex Skill 的那条视频，\",\n      \"trackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n      \"words\": [\n        {\n          \"end\": 530000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f82436595-7f8d-4339-9e10-f4463837aa2b\",\n          \"sourceTokenIds\": [\n            \"82436595-7f8d-4339-9e10-f4463837aa2b\"\n          ],\n          \"start\": 250000,\n          \"text\": \"我\"\n        },\n        {\n          \"end\": 650000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f1efb1d31-b850-4693-88e1-5c5ec2070940\",\n          \"sourceTokenIds\": [\n            \"1efb1d31-b850-4693-88e1-5c5ec2070940\"\n          ],\n          \"start\": 530000,\n          \"text\": \"之\"\n        },\n        {\n          \"end\": 770000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512fee502518-41e1-45e2-973e-f98cfdc32762\",\n          \"sourceTokenIds\": [\n            \"ee502518-41e1-45e2-973e-f98cfdc32762\"\n          ],\n          \"start\": 650000,\n          \"text\": \"前\"\n        },\n        {\n          \"end\": 970000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f02dc6247-419f-4a3d-9486-e208179563cf\",\n          \"sourceTokenIds\": [\n            \"02dc6247-419f-4a3d-9486-e208179563cf\"\n          ],\n          \"start\": 770000,\n          \"text\": \"分\"\n        },\n        {\n          \"end\": 1090000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f48dd04d8-8ae4-459a-a09e-cd1ea1ad6cc6\",\n          \"sourceTokenIds\": [\n            \"48dd04d8-8ae4-459a-a09e-cd1ea1ad6cc6\"\n          ],\n          \"start\": 970000,\n          \"text\": \"享\"\n        },\n        {\n          \"end\": 1360000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512fa11bb959-711b-4288-bbec-1bf6897c3812\",\n          \"sourceTokenIds\": [\n            \"a11bb959-711b-4288-bbec-1bf6897c3812\"\n          ],\n          \"start\": 1090000,\n          \"text\": \"的\"\n        },\n        {\n          \"end\": 1900000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512fd6646655-83d5-45ab-ab5b-d672e1217b97\",\n          \"sourceTokenIds\": [\n            \"d6646655-83d5-45ab-ab5b-d672e1217b97\"\n          ],\n          \"start\": 1360000,\n          \"text\": \" Codex\"\n        },\n        {\n          \"end\": 2450000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f2ad15a0e-5667-40d1-b1a3-4a961fcba388\",\n          \"sourceTokenIds\": [\n            \"2ad15a0e-5667-40d1-b1a3-4a961fcba388\"\n          ],\n          \"start\": 2020000,\n          \"text\": \" Skill\"\n        },\n        {\n          \"end\": 2650000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512fa628406f-662b-49ec-af8a-aba20befff0c\",\n          \"sourceTokenIds\": [\n            \"a628406f-662b-49ec-af8a-aba20befff0c\"\n          ],\n          \"start\": 2450000,\n          \"text\": \" 的\"\n        },\n        {\n          \"end\": 2770000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512ff3679ae3-81a2-482b-9258-5d55613c2385\",\n          \"sourceTokenIds\": [\n            \"f3679ae3-81a2-482b-9258-5d55613c2385\"\n          ],\n          \"start\": 2650000,\n          \"text\": \"那\"\n        },\n        {\n          \"end\": 2930000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512fb59a1a83-5211-4671-87cd-ecb525932585\",\n          \"sourceTokenIds\": [\n            \"b59a1a83-5211-4671-87cd-ecb525932585\"\n          ],\n          \"start\": 2770000,\n          \"text\": \"条\"\n        },\n        {\n          \"end\": 3050000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f5388a0d5-3b14-4a2c-980f-a626f4d7eb0a\",\n          \"sourceTokenIds\": [\n            \"5388a0d5-3b14-4a2c-980f-a626f4d7eb0a\"\n          ],\n          \"start\": 2930000,\n          \"text\": \"视\"\n        },\n        {\n          \"end\": 3210000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512fac58bcd9-94a2-4bc4-8d48-4b70a8da7c5f\",\n          \"sourceTokenIds\": [\n            \"ac58bcd9-94a2-4bc4-8d48-4b70a8da7c5f\"\n          ],\n          \"start\": 3050000,\n          \"text\": \"频，\"\n        }\n      ]\n    },\n    {\n      \"end\": 4810000,\n      \"id\": \"36:e3398963-19da-41b5-9e0c-099f687d81a736:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a\",\n      \"languageCode\": null,\n      \"layout\": {},\n      \"start\": 3210000,\n      \"style\": {\n        \"color\": \"#F7F7F7\",\n        \"fontFamily\": \"HarmonyOS Sans\",\n        \"fontSize\": 0.084,\n        \"fontStyle\": {\n          \"variant\": \"normal\",\n          \"weight\": \"900\"\n        },\n        \"highlightBackground\": null,\n        \"highlightColor\": \"#F7F7F7\",\n        \"highlightUnit\": \"off\",\n        \"letterSpacing\": -0.01,\n        \"normalBackground\": null,\n        \"stackedActiveOnTop\": false,\n        \"stackedGap\": null,\n        \"stackedLineTiltDeg\": null,\n        \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n        \"strokeWidth\": 0.8,\n        \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n        \"preset\": \"clean-heavy\",\n        \"lineHeight\": 1.02,\n        \"maxCharactersPerLine\": 18,\n        \"maxLines\": 2\n      },\n      \"text\": \"已经有十多万人看过了。\",\n      \"trackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n      \"words\": [\n        {\n          \"end\": 3370000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a\",\n          \"sourceTokenIds\": [\n            \"e1742436-4e91-4331-94fb-cf7797835d1a\"\n          ],\n          \"start\": 3210000,\n          \"text\": \"已\"\n        },\n        {\n          \"end\": 3450000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512fdd4ec3d9-7144-46b6-a668-cd0ba3fe4893\",\n          \"sourceTokenIds\": [\n            \"dd4ec3d9-7144-46b6-a668-cd0ba3fe4893\"\n          ],\n          \"start\": 3370000,\n          \"text\": \"经\"\n        },\n        {\n          \"end\": 3650000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f8eabbbb4-140f-405b-9938-d8f797a75d4b\",\n          \"sourceTokenIds\": [\n            \"8eabbbb4-140f-405b-9938-d8f797a75d4b\"\n          ],\n          \"start\": 3450000,\n          \"text\": \"有\"\n        },\n        {\n          \"end\": 3770000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f4e489614-7e70-4ae8-bf15-d708be49e33d\",\n          \"sourceTokenIds\": [\n            \"4e489614-7e70-4ae8-bf15-d708be49e33d\"\n          ],\n          \"start\": 3650000,\n          \"text\": \"十\"\n        },\n        {\n          \"end\": 3890000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512ff0a2f900-87b8-4704-8ada-ed1d151f3375\",\n          \"sourceTokenIds\": [\n            \"f0a2f900-87b8-4704-8ada-ed1d151f3375\"\n          ],\n          \"start\": 3770000,\n          \"text\": \"多\"\n        },\n        {\n          \"end\": 4050000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c\",\n          \"sourceTokenIds\": [\n            \"60ba1a3a-b241-45a9-b03c-a62159edca6c\"\n          ],\n          \"start\": 3890000,\n          \"text\": \"万\"\n        },\n        {\n          \"end\": 4210000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f6bb4506a-f605-40d6-b95d-92b66c246d6c\",\n          \"sourceTokenIds\": [\n            \"6bb4506a-f605-40d6-b95d-92b66c246d6c\"\n          ],\n          \"start\": 4050000,\n          \"text\": \"人\"\n        },\n        {\n          \"end\": 4370000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f60c534aa-20d5-470e-9656-1a81f2fe7e71\",\n          \"sourceTokenIds\": [\n            \"60c534aa-20d5-470e-9656-1a81f2fe7e71\"\n          ],\n          \"start\": 4210000,\n          \"text\": \"看\"\n        },\n        {\n          \"end\": 4570000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb\",\n          \"sourceTokenIds\": [\n            \"78007b4b-26a3-4a21-b3e3-96caf17d51bb\"\n          ],\n          \"start\": 4370000,\n          \"text\": \"过\"\n        },\n        {\n          \"end\": 4810000,\n          \"id\": \"36:023537de-90bb-4e20-a1da-31bfbb74512f219aed79-aa17-4362-bd9f-306a5f660f84\",\n          \"sourceTokenIds\": [\n            \"219aed79-aa17-4362-bd9f-306a5f660f84\"\n          ],\n          \"start\": 4570000,\n          \"text\": \"了。\"\n        }\n      ]\n    },\n    {\n      \"end\": 7706667,\n      \"id\": \"36:e3398963-19da-41b5-9e0c-099f687d81a736:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d68be9126-d9f1-4dd0-bdc2-c0d26678881f\",\n      \"languageCode\": null,\n      \"layout\": {},\n      \"start\": 5066667,\n      \"style\": {\n        \"color\": \"#F7F7F7\",\n        \"fontFamily\": \"HarmonyOS Sans\",\n        \"fontSize\": 0.084,\n        \"fontStyle\": {\n          \"variant\": \"normal\",\n          \"weight\": \"900\"\n        },\n        \"highlightBackground\": null,\n        \"highlightColor\": \"#F7F7F7\",\n        \"highlightUnit\": \"off\",\n        \"letterSpacing\": -0.01,\n        \"normalBackground\": null,\n        \"stackedActiveOnTop\": false,\n        \"stackedGap\": null,\n        \"stackedLineTiltDeg\": null,\n        \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n        \"strokeWidth\": 0.8,\n        \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n        \"preset\": \"clean-heavy\",\n        \"lineHeight\": 1.02,\n        \"maxCharactersPerLine\": 18,\n        \"maxLines\": 2\n      },\n      \"text\": \"但其实那几个 Skill 都不是我私藏的。\",\n      \"trackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n      \"words\": [\n        {\n          \"end\": 5386667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d68be9126-d9f1-4dd0-bdc2-c0d26678881f\",\n          \"sourceTokenIds\": [\n            \"68be9126-d9f1-4dd0-bdc2-c0d26678881f\"\n          ],\n          \"start\": 5066667,\n          \"text\": \"但\"\n        },\n        {\n          \"end\": 5546667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d9fc3910f-09c8-4be0-9431-236313391aa4\",\n          \"sourceTokenIds\": [\n            \"9fc3910f-09c8-4be0-9431-236313391aa4\"\n          ],\n          \"start\": 5386667,\n          \"text\": \"其\"\n        },\n        {\n          \"end\": 5666667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d1c0e1947-d776-4d07-a3a8-8fa35197db2e\",\n          \"sourceTokenIds\": [\n            \"1c0e1947-d776-4d07-a3a8-8fa35197db2e\"\n          ],\n          \"start\": 5546667,\n          \"text\": \"实\"\n        },\n        {\n          \"end\": 5866667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dad596c28-7e0d-4a98-bd5e-daac24c3bfbd\",\n          \"sourceTokenIds\": [\n            \"ad596c28-7e0d-4a98-bd5e-daac24c3bfbd\"\n          ],\n          \"start\": 5666667,\n          \"text\": \"那\"\n        },\n        {\n          \"end\": 5986667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d670a9fe3-7cf8-43d5-a668-586f5211aa7f\",\n          \"sourceTokenIds\": [\n            \"670a9fe3-7cf8-43d5-a668-586f5211aa7f\"\n          ],\n          \"start\": 5866667,\n          \"text\": \"几\"\n        },\n        {\n          \"end\": 6106667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d53dd6fff-4088-4efe-9335-9bf02cd7c740\",\n          \"sourceTokenIds\": [\n            \"53dd6fff-4088-4efe-9335-9bf02cd7c740\"\n          ],\n          \"start\": 5986667,\n          \"text\": \"个\"\n        },\n        {\n          \"end\": 6456667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dee63aba7-34da-4514-a139-188d9c180613\",\n          \"sourceTokenIds\": [\n            \"ee63aba7-34da-4514-a139-188d9c180613\"\n          ],\n          \"start\": 6106667,\n          \"text\": \" Skill\"\n        },\n        {\n          \"end\": 6626667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dba197ec4-1798-4e95-bf7c-8ad2cfab84d4\",\n          \"sourceTokenIds\": [\n            \"ba197ec4-1798-4e95-bf7c-8ad2cfab84d4\"\n          ],\n          \"start\": 6456667,\n          \"text\": \" 都\"\n        },\n        {\n          \"end\": 6746667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d01bb9075-81d8-4c99-a0a1-9906ead5d801\",\n          \"sourceTokenIds\": [\n            \"01bb9075-81d8-4c99-a0a1-9906ead5d801\"\n          ],\n          \"start\": 6626667,\n          \"text\": \"不\"\n        },\n        {\n          \"end\": 6826667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3db69051b5-3301-4134-86f7-16cad260c869\",\n          \"sourceTokenIds\": [\n            \"b69051b5-3301-4134-86f7-16cad260c869\"\n          ],\n          \"start\": 6746667,\n          \"text\": \"是\"\n        },\n        {\n          \"end\": 6986667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d017075e6-eb9a-4db9-8bd8-27b0718269c1\",\n          \"sourceTokenIds\": [\n            \"017075e6-eb9a-4db9-8bd8-27b0718269c1\"\n          ],\n          \"start\": 6826667,\n          \"text\": \"我\"\n        },\n        {\n          \"end\": 7186667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d48290fa8-6283-44ba-bb4f-26d4ed0a7a99\",\n          \"sourceTokenIds\": [\n            \"48290fa8-6283-44ba-bb4f-26d4ed0a7a99\"\n          ],\n          \"start\": 6986667,\n          \"text\": \"私\"\n        },\n        {\n          \"end\": 7386667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3daa4df19c-9abd-4300-9cb1-dc3abc3ea4ab\",\n          \"sourceTokenIds\": [\n            \"aa4df19c-9abd-4300-9cb1-dc3abc3ea4ab\"\n          ],\n          \"start\": 7186667,\n          \"text\": \"藏\"\n        },\n        {\n          \"end\": 7706667,\n          \"id\": \"36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d66b84af0-6876-4df2-887e-f0ad2bfd659f\",\n          \"sourceTokenIds\": [\n            \"66b84af0-6876-4df2-887e-f0ad2bfd659f\"\n          ],\n          \"start\": 7386667,\n          \"text\": \"的。\"\n        }\n      ]\n    },\n    {\n      \"end\": 10646667,\n      \"id\": \"36:e3398963-19da-41b5-9e0c-099f687d81a736:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800\",\n      \"languageCode\": null,\n      \"layout\": {},\n      \"start\": 7966667,\n      \"style\": {\n        \"color\": \"#F7F7F7\",\n        \"fontFamily\": \"HarmonyOS Sans\",\n        \"fontSize\": 0.084,\n        \"fontStyle\": {\n          \"variant\": \"normal\",\n          \"weight\": \"900\"\n        },\n        \"highlightBackground\": null,\n        \"highlightColor\": \"#F7F7F7\",\n        \"highlightUnit\": \"off\",\n        \"letterSpacing\": -0.01,\n        \"normalBackground\": null,\n        \"stackedActiveOnTop\": false,\n        \"stackedGap\": null,\n        \"stackedLineTiltDeg\": null,\n        \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n        \"strokeWidth\": 0.8,\n        \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n        \"preset\": \"clean-heavy\",\n        \"lineHeight\": 1.02,\n        \"maxCharactersPerLine\": 18,\n        \"maxLines\": 2\n      },\n      \"text\": \"它们基本上都能够在 GitHub 上面找到。\",\n      \"trackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n      \"words\": [\n        {\n          \"end\": 8086667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800\",\n          \"sourceTokenIds\": [\n            \"956011ad-2036-453d-8775-ae32c9a4c800\"\n          ],\n          \"start\": 7966667,\n          \"text\": \"它\"\n        },\n        {\n          \"end\": 8356667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c079e2e0897-ad16-4b2b-84f6-b147258e5db4\",\n          \"sourceTokenIds\": [\n            \"9e2e0897-ad16-4b2b-84f6-b147258e5db4\"\n          ],\n          \"start\": 8086667,\n          \"text\": \"们\"\n        },\n        {\n          \"end\": 8566667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c0749b5ee36-3b37-4ade-810a-4a7e38c34c8b\",\n          \"sourceTokenIds\": [\n            \"49b5ee36-3b37-4ade-810a-4a7e38c34c8b\"\n          ],\n          \"start\": 8366667,\n          \"text\": \"基\"\n        },\n        {\n          \"end\": 8646667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c07f9ea9a6a-3774-45ff-b7c8-298299d05e7a\",\n          \"sourceTokenIds\": [\n            \"f9ea9a6a-3774-45ff-b7c8-298299d05e7a\"\n          ],\n          \"start\": 8566667,\n          \"text\": \"本\"\n        },\n        {\n          \"end\": 8806667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c072a70a074-1088-4379-8b64-900bb140464d\",\n          \"sourceTokenIds\": [\n            \"2a70a074-1088-4379-8b64-900bb140464d\"\n          ],\n          \"start\": 8646667,\n          \"text\": \"上\"\n        },\n        {\n          \"end\": 9006667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c07c9ae6442-5c1c-497c-ba31-f6ca8eacfe8f\",\n          \"sourceTokenIds\": [\n            \"c9ae6442-5c1c-497c-ba31-f6ca8eacfe8f\"\n          ],\n          \"start\": 8806667,\n          \"text\": \"都\"\n        },\n        {\n          \"end\": 9126667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c07e20c2c96-c6f8-411b-83ee-36af7ac6aa09\",\n          \"sourceTokenIds\": [\n            \"e20c2c96-c6f8-411b-83ee-36af7ac6aa09\"\n          ],\n          \"start\": 9006667,\n          \"text\": \"能\"\n        },\n        {\n          \"end\": 9206667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c07232122db-9a26-482f-b7ac-de5fac00e222\",\n          \"sourceTokenIds\": [\n            \"232122db-9a26-482f-b7ac-de5fac00e222\"\n          ],\n          \"start\": 9126667,\n          \"text\": \"够\"\n        },\n        {\n          \"end\": 9366667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c07dba9911c-42c9-4e7c-9a20-04578745b030\",\n          \"sourceTokenIds\": [\n            \"dba9911c-42c9-4e7c-9a20-04578745b030\"\n          ],\n          \"start\": 9206667,\n          \"text\": \"在\"\n        },\n        {\n          \"end\": 9966667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c079c4a1462-dfbe-402c-9686-0676f7243b26\",\n          \"sourceTokenIds\": [\n            \"9c4a1462-dfbe-402c-9686-0676f7243b26\"\n          ],\n          \"start\": 9366667,\n          \"text\": \" GitHub\"\n        },\n        {\n          \"end\": 10126667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c07330539b5-e054-4e9e-a42c-4be6c824da4d\",\n          \"sourceTokenIds\": [\n            \"330539b5-e054-4e9e-a42c-4be6c824da4d\"\n          ],\n          \"start\": 9966667,\n          \"text\": \" 上\"\n        },\n        {\n          \"end\": 10246667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c0722c1605e-f3a0-4761-81ed-9ecc73651b5a\",\n          \"sourceTokenIds\": [\n            \"22c1605e-f3a0-4761-81ed-9ecc73651b5a\"\n          ],\n          \"start\": 10126667,\n          \"text\": \"面\"\n        },\n        {\n          \"end\": 10406667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c0771b74a5e-ae4c-422c-a9f8-6fc686183012\",\n          \"sourceTokenIds\": [\n            \"71b74a5e-ae4c-422c-a9f8-6fc686183012\"\n          ],\n          \"start\": 10246667,\n          \"text\": \"找\"\n        },\n        {\n          \"end\": 10646667,\n          \"id\": \"36:369d9eb4-9142-41e9-8b22-cd3b0b130c079a99b0ab-1595-45af-9416-14205a7aeefe\",\n          \"sourceTokenIds\": [\n            \"9a99b0ab-1595-45af-9416-14205a7aeefe\"\n          ],\n          \"start\": 10406667,\n          \"text\": \"到。\"\n        }\n      ]\n    },\n    {\n      \"end\": 13266667,\n      \"id\": \"36:e3398963-19da-41b5-9e0c-099f687d81a736:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5821da7-a424-4c91-80c3-0cee56af758c\",\n      \"languageCode\": null,\n      \"layout\": {},\n      \"start\": 10866667,\n      \"style\": {\n        \"color\": \"#F7F7F7\",\n        \"fontFamily\": \"HarmonyOS Sans\",\n        \"fontSize\": 0.084,\n        \"fontStyle\": {\n          \"variant\": \"normal\",\n          \"weight\": \"900\"\n        },\n        \"highlightBackground\": null,\n        \"highlightColor\": \"#F7F7F7\",\n        \"highlightUnit\": \"off\",\n        \"letterSpacing\": -0.01,\n        \"normalBackground\": null,\n        \"stackedActiveOnTop\": false,\n        \"stackedGap\": null,\n        \"stackedLineTiltDeg\": null,\n        \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n        \"strokeWidth\": 0.8,\n        \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n        \"preset\": \"clean-heavy\",\n        \"lineHeight\": 1.02,\n        \"maxCharactersPerLine\": 18,\n        \"maxLines\": 2\n      },\n      \"text\": \"所以这期我不继续给你推荐 Skill 了。\",\n      \"trackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n      \"words\": [\n        {\n          \"end\": 11026667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5821da7-a424-4c91-80c3-0cee56af758c\",\n          \"sourceTokenIds\": [\n            \"a5821da7-a424-4c91-80c3-0cee56af758c\"\n          ],\n          \"start\": 10866667,\n          \"text\": \"所\"\n        },\n        {\n          \"end\": 11146667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5a17f3a-17a7-4567-8c2e-a915cc84f7be\",\n          \"sourceTokenIds\": [\n            \"a5a17f3a-17a7-4567-8c2e-a915cc84f7be\"\n          ],\n          \"start\": 11026667,\n          \"text\": \"以\"\n        },\n        {\n          \"end\": 11386667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b461d28f447-3a15-4dba-a283-86eaa51d50c6\",\n          \"sourceTokenIds\": [\n            \"1d28f447-3a15-4dba-a283-86eaa51d50c6\"\n          ],\n          \"start\": 11146667,\n          \"text\": \"这\"\n        },\n        {\n          \"end\": 11546667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b464f9dd28b-75c8-4997-8300-092c4d365494\",\n          \"sourceTokenIds\": [\n            \"4f9dd28b-75c8-4997-8300-092c4d365494\"\n          ],\n          \"start\": 11386667,\n          \"text\": \"期\"\n        },\n        {\n          \"end\": 11706667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46ad4b95f4-1817-4240-985c-309ed3e51d7b\",\n          \"sourceTokenIds\": [\n            \"ad4b95f4-1817-4240-985c-309ed3e51d7b\"\n          ],\n          \"start\": 11546667,\n          \"text\": \"我\"\n        },\n        {\n          \"end\": 11866667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4680e65013-2897-4fcd-8c25-461532cdafc0\",\n          \"sourceTokenIds\": [\n            \"80e65013-2897-4fcd-8c25-461532cdafc0\"\n          ],\n          \"start\": 11706667,\n          \"text\": \"不\"\n        },\n        {\n          \"end\": 11986667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46513ce733-5685-4e38-9151-749cb5ca0e28\",\n          \"sourceTokenIds\": [\n            \"513ce733-5685-4e38-9151-749cb5ca0e28\"\n          ],\n          \"start\": 11866667,\n          \"text\": \"继\"\n        },\n        {\n          \"end\": 12066667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4687a235e1-18e9-46ac-9f0c-75584a1a46c6\",\n          \"sourceTokenIds\": [\n            \"87a235e1-18e9-46ac-9f0c-75584a1a46c6\"\n          ],\n          \"start\": 11986667,\n          \"text\": \"续\"\n        },\n        {\n          \"end\": 12186667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46527c5508-b7e7-4603-8487-620b3a7f0362\",\n          \"sourceTokenIds\": [\n            \"527c5508-b7e7-4603-8487-620b3a7f0362\"\n          ],\n          \"start\": 12066667,\n          \"text\": \"给\"\n        },\n        {\n          \"end\": 12306667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b466d4e377b-4b6f-4da4-a53a-f228e3a58c1b\",\n          \"sourceTokenIds\": [\n            \"6d4e377b-4b6f-4da4-a53a-f228e3a58c1b\"\n          ],\n          \"start\": 12186667,\n          \"text\": \"你\"\n        },\n        {\n          \"end\": 12426667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b461d0fec58-6db8-4c67-8b97-b2f94555d976\",\n          \"sourceTokenIds\": [\n            \"1d0fec58-6db8-4c67-8b97-b2f94555d976\"\n          ],\n          \"start\": 12306667,\n          \"text\": \"推\"\n        },\n        {\n          \"end\": 12506667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46ad4cfaa5-cfb2-4451-924f-96544dbaf4bc\",\n          \"sourceTokenIds\": [\n            \"ad4cfaa5-cfb2-4451-924f-96544dbaf4bc\"\n          ],\n          \"start\": 12426667,\n          \"text\": \"荐\"\n        },\n        {\n          \"end\": 13026667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b469dff3aad-e374-486a-a4ed-f2838441fc3e\",\n          \"sourceTokenIds\": [\n            \"9dff3aad-e374-486a-a4ed-f2838441fc3e\"\n          ],\n          \"start\": 12546667,\n          \"text\": \" Skill\"\n        },\n        {\n          \"end\": 13266667,\n          \"id\": \"36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4696029e9f-21c5-4cd3-af29-7ae802d9958b\",\n          \"sourceTokenIds\": [\n            \"96029e9f-21c5-4cd3-af29-7ae802d9958b\"\n          ],\n          \"start\": 13026667,\n          \"text\": \" 了。\"\n        }\n      ]\n    },\n    {\n      \"end\": 15533333,\n      \"id\": \"36:e3398963-19da-41b5-9e0c-099f687d81a736:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065\",\n      \"languageCode\": null,\n      \"layout\": {},\n      \"start\": 13533333,\n      \"style\": {\n        \"color\": \"#F7F7F7\",\n        \"fontFamily\": \"HarmonyOS Sans\",\n        \"fontSize\": 0.084,\n        \"fontStyle\": {\n          \"variant\": \"normal\",\n          \"weight\": \"900\"\n        },\n        \"highlightBackground\": null,\n        \"highlightColor\": \"#F7F7F7\",\n        \"highlightUnit\": \"off\",\n        \"letterSpacing\": -0.01,\n        \"normalBackground\": null,\n        \"stackedActiveOnTop\": false,\n        \"stackedGap\": null,\n        \"stackedLineTiltDeg\": null,\n        \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n        \"strokeWidth\": 0.8,\n        \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n        \"preset\": \"clean-heavy\",\n        \"lineHeight\": 1.02,\n        \"maxCharactersPerLine\": 18,\n        \"maxLines\": 2\n      },\n      \"text\": \"我直接教你一个更有用的方法。\",\n      \"trackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n      \"words\": [\n        {\n          \"end\": 13773333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065\",\n          \"sourceTokenIds\": [\n            \"b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065\"\n          ],\n          \"start\": 13533333,\n          \"text\": \"我\"\n        },\n        {\n          \"end\": 13933333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ac7e215e-5071-4b5a-9e3e-6e502cdd0993\",\n          \"sourceTokenIds\": [\n            \"ac7e215e-5071-4b5a-9e3e-6e502cdd0993\"\n          ],\n          \"start\": 13773333,\n          \"text\": \"直\"\n        },\n        {\n          \"end\": 14053333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2042e808b-c716-43a9-85eb-1b3108020558\",\n          \"sourceTokenIds\": [\n            \"042e808b-c716-43a9-85eb-1b3108020558\"\n          ],\n          \"start\": 13933333,\n          \"text\": \"接\"\n        },\n        {\n          \"end\": 14213333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a22032b8b6-da91-4850-bbda-db1d8f884bc4\",\n          \"sourceTokenIds\": [\n            \"2032b8b6-da91-4850-bbda-db1d8f884bc4\"\n          ],\n          \"start\": 14053333,\n          \"text\": \"教\"\n        },\n        {\n          \"end\": 14373333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a25aa4dc03-936e-47e5-aa94-1aaa0494d798\",\n          \"sourceTokenIds\": [\n            \"5aa4dc03-936e-47e5-aa94-1aaa0494d798\"\n          ],\n          \"start\": 14213333,\n          \"text\": \"你\"\n        },\n        {\n          \"end\": 14453333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ab674000-29ba-4f22-9660-1a6100f2c73c\",\n          \"sourceTokenIds\": [\n            \"ab674000-29ba-4f22-9660-1a6100f2c73c\"\n          ],\n          \"start\": 14373333,\n          \"text\": \"一\"\n        },\n        {\n          \"end\": 14573333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a29a65776d-8f49-4293-9f81-988d905f3154\",\n          \"sourceTokenIds\": [\n            \"9a65776d-8f49-4293-9f81-988d905f3154\"\n          ],\n          \"start\": 14453333,\n          \"text\": \"个\"\n        },\n        {\n          \"end\": 14733333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a258517f83-9003-412c-9c79-7108a56fdd13\",\n          \"sourceTokenIds\": [\n            \"58517f83-9003-412c-9c79-7108a56fdd13\"\n          ],\n          \"start\": 14573333,\n          \"text\": \"更\"\n        },\n        {\n          \"end\": 14893333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c84d63fb-8c44-4d43-a979-378296e0da65\",\n          \"sourceTokenIds\": [\n            \"c84d63fb-8c44-4d43-a979-378296e0da65\"\n          ],\n          \"start\": 14733333,\n          \"text\": \"有\"\n        },\n        {\n          \"end\": 15013333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a20bf8f618-e017-48c9-a865-a6fef06dacc2\",\n          \"sourceTokenIds\": [\n            \"0bf8f618-e017-48c9-a865-a6fef06dacc2\"\n          ],\n          \"start\": 14893333,\n          \"text\": \"用\"\n        },\n        {\n          \"end\": 15173333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2155b6bc6-4322-4fe6-b45a-96c9f710729e\",\n          \"sourceTokenIds\": [\n            \"155b6bc6-4322-4fe6-b45a-96c9f710729e\"\n          ],\n          \"start\": 15013333,\n          \"text\": \"的\"\n        },\n        {\n          \"end\": 15333333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c7d9c747-3abe-4a3f-92a5-82f0bdfd58ff\",\n          \"sourceTokenIds\": [\n            \"c7d9c747-3abe-4a3f-92a5-82f0bdfd58ff\"\n          ],\n          \"start\": 15173333,\n          \"text\": \"方\"\n        },\n        {\n          \"end\": 15533333,\n          \"id\": \"36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a290d7a150-92d4-4a5e-bed7-944ffd489744\",\n          \"sourceTokenIds\": [\n            \"90d7a150-92d4-4a5e-bed7-944ffd489744\"\n          ],\n          \"start\": 15333333,\n          \"text\": \"法。\"\n        }\n      ]\n    },\n    {\n      \"end\": 16996667,\n      \"id\": \"36:e3398963-19da-41b5-9e0c-099f687d81a736:e581f946-2f4d-47c2-a807-b5a27ddf57786858fb60-edd7-4a5c-94d7-6ae5ee292d5e\",\n      \"languageCode\": null,\n      \"layout\": {},\n      \"start\": 15766667,\n      \"style\": {\n        \"color\": \"#F7F7F7\",\n        \"fontFamily\": \"HarmonyOS Sans\",\n        \"fontSize\": 0.084,\n        \"fontStyle\": {\n          \"variant\": \"normal\",\n          \"weight\": \"900\"\n        },\n        \"highlightBackground\": null,\n        \"highlightColor\": \"#F7F7F7\",\n        \"highlightUnit\": \"off\",\n        \"letterSpacing\": -0.01,\n        \"normalBackground\": null,\n        \"stackedActiveOnTop\": false,\n        \"stackedGap\": null,\n        \"stackedLineTiltDeg\": null,\n        \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n        \"strokeWidth\": 0.8,\n        \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n        \"preset\": \"clean-heavy\",\n        \"lineHeight\": 1.02,\n        \"maxCharactersPerLine\": 18,\n        \"maxLines\": 2\n      },\n      \"text\": \"以后你缺什么工具，\",\n      \"trackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n      \"words\": [\n        {\n          \"end\": 15926667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf57786858fb60-edd7-4a5c-94d7-6ae5ee292d5e\",\n          \"sourceTokenIds\": [\n            \"6858fb60-edd7-4a5c-94d7-6ae5ee292d5e\"\n          ],\n          \"start\": 15766667,\n          \"text\": \"以\"\n        },\n        {\n          \"end\": 16046667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778f888d84b-f6f1-468b-aa43-6ec04e67cec1\",\n          \"sourceTokenIds\": [\n            \"f888d84b-f6f1-468b-aa43-6ec04e67cec1\"\n          ],\n          \"start\": 15926667,\n          \"text\": \"后\"\n        },\n        {\n          \"end\": 16246667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf57780dbc1fd8-1cc5-4853-8809-19bd0b1b8ad8\",\n          \"sourceTokenIds\": [\n            \"0dbc1fd8-1cc5-4853-8809-19bd0b1b8ad8\"\n          ],\n          \"start\": 16046667,\n          \"text\": \"你\"\n        },\n        {\n          \"end\": 16446667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778ed7e845f-d1d9-421e-84f0-adf04a20555e\",\n          \"sourceTokenIds\": [\n            \"ed7e845f-d1d9-421e-84f0-adf04a20555e\"\n          ],\n          \"start\": 16246667,\n          \"text\": \"缺\"\n        },\n        {\n          \"end\": 16566667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778e1e243b2-a1b4-44b7-8998-23fc98c5e57d\",\n          \"sourceTokenIds\": [\n            \"e1e243b2-a1b4-44b7-8998-23fc98c5e57d\"\n          ],\n          \"start\": 16446667,\n          \"text\": \"什\"\n        },\n        {\n          \"end\": 16646667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf57784c77890b-adbb-48f5-acd3-4e3a61f0cd81\",\n          \"sourceTokenIds\": [\n            \"4c77890b-adbb-48f5-acd3-4e3a61f0cd81\"\n          ],\n          \"start\": 16566667,\n          \"text\": \"么\"\n        },\n        {\n          \"end\": 16806667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf57788ed4335f-4c20-4e35-ad5b-1fedc7f607ef\",\n          \"sourceTokenIds\": [\n            \"8ed4335f-4c20-4e35-ad5b-1fedc7f607ef\"\n          ],\n          \"start\": 16646667,\n          \"text\": \"工\"\n        },\n        {\n          \"end\": 16996667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778af917839-d7aa-4db9-9e8e-b923ce78820b\",\n          \"sourceTokenIds\": [\n            \"af917839-d7aa-4db9-9e8e-b923ce78820b\"\n          ],\n          \"start\": 16806667,\n          \"text\": \"具，\"\n        }\n      ]\n    },\n    {\n      \"end\": 19886667,\n      \"id\": \"36:e3398963-19da-41b5-9e0c-099f687d81a736:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f\",\n      \"languageCode\": null,\n      \"layout\": {},\n      \"start\": 17006667,\n      \"style\": {\n        \"color\": \"#F7F7F7\",\n        \"fontFamily\": \"HarmonyOS Sans\",\n        \"fontSize\": 0.084,\n        \"fontStyle\": {\n          \"variant\": \"normal\",\n          \"weight\": \"900\"\n        },\n        \"highlightBackground\": null,\n        \"highlightColor\": \"#F7F7F7\",\n        \"highlightUnit\": \"off\",\n        \"letterSpacing\": -0.01,\n        \"normalBackground\": null,\n        \"stackedActiveOnTop\": false,\n        \"stackedGap\": null,\n        \"stackedLineTiltDeg\": null,\n        \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n        \"strokeWidth\": 0.8,\n        \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n        \"preset\": \"clean-heavy\",\n        \"lineHeight\": 1.02,\n        \"maxCharactersPerLine\": 18,\n        \"maxLines\": 2\n      },\n      \"text\": \"不需要去找别人的分享或者等别人去分享，\",\n      \"trackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n      \"words\": [\n        {\n          \"end\": 17206667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f\",\n          \"sourceTokenIds\": [\n            \"24f28df0-dd10-4945-b525-df8a1bc0744f\"\n          ],\n          \"start\": 17006667,\n          \"text\": \"不\"\n        },\n        {\n          \"end\": 17326667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf577805dbbeb6-7a48-4946-9526-e77ab83bae67\",\n          \"sourceTokenIds\": [\n            \"05dbbeb6-7a48-4946-9526-e77ab83bae67\"\n          ],\n          \"start\": 17206667,\n          \"text\": \"需\"\n        },\n        {\n          \"end\": 17486667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf577828bb8309-8560-4b50-86d0-89d5e1821e78\",\n          \"sourceTokenIds\": [\n            \"28bb8309-8560-4b50-86d0-89d5e1821e78\"\n          ],\n          \"start\": 17326667,\n          \"text\": \"要\"\n        },\n        {\n          \"end\": 17726667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778ff415a70-9993-4604-b50b-55ce92eb6a49\",\n          \"sourceTokenIds\": [\n            \"ff415a70-9993-4604-b50b-55ce92eb6a49\"\n          ],\n          \"start\": 17486667,\n          \"text\": \"去\"\n        },\n        {\n          \"end\": 18006667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778b2c3b87a-5457-4519-ad91-6cdbf758373f\",\n          \"sourceTokenIds\": [\n            \"b2c3b87a-5457-4519-ad91-6cdbf758373f\"\n          ],\n          \"start\": 17726667,\n          \"text\": \"找\"\n        },\n        {\n          \"end\": 18126667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf577832f5ed34-d9a7-4094-a3a3-38e20aed402c\",\n          \"sourceTokenIds\": [\n            \"32f5ed34-d9a7-4094-a3a3-38e20aed402c\"\n          ],\n          \"start\": 18006667,\n          \"text\": \"别\"\n        },\n        {\n          \"end\": 18246667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778ba3e3a97-9aee-4c6a-8a84-1e850592eb41\",\n          \"sourceTokenIds\": [\n            \"ba3e3a97-9aee-4c6a-8a84-1e850592eb41\"\n          ],\n          \"start\": 18126667,\n          \"text\": \"人\"\n        },\n        {\n          \"end\": 18406667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778a50061fa-87af-4749-bf22-521768637055\",\n          \"sourceTokenIds\": [\n            \"a50061fa-87af-4749-bf22-521768637055\"\n          ],\n          \"start\": 18246667,\n          \"text\": \"的\"\n        },\n        {\n          \"end\": 18526667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778166a71de-bb0c-428f-809a-a9edba2ed67c\",\n          \"sourceTokenIds\": [\n            \"166a71de-bb0c-428f-809a-a9edba2ed67c\"\n          ],\n          \"start\": 18406667,\n          \"text\": \"分\"\n        },\n        {\n          \"end\": 18686667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778ac52e8e2-e780-4c08-96b9-189dfca71d5c\",\n          \"sourceTokenIds\": [\n            \"ac52e8e2-e780-4c08-96b9-189dfca71d5c\"\n          ],\n          \"start\": 18526667,\n          \"text\": \"享\"\n        },\n        {\n          \"end\": 18846667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf577826972c88-eac8-42e9-b935-0b5c3baac13e\",\n          \"sourceTokenIds\": [\n            \"26972c88-eac8-42e9-b935-0b5c3baac13e\"\n          ],\n          \"start\": 18686667,\n          \"text\": \"或\"\n        },\n        {\n          \"end\": 18926667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf57785116d0ac-1be4-474d-919c-b3c2c91e276d\",\n          \"sourceTokenIds\": [\n            \"5116d0ac-1be4-474d-919c-b3c2c91e276d\"\n          ],\n          \"start\": 18846667,\n          \"text\": \"者\"\n        },\n        {\n          \"end\": 19166667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf577844414202-c8a1-4c39-b6f5-181977740b38\",\n          \"sourceTokenIds\": [\n            \"44414202-c8a1-4c39-b6f5-181977740b38\"\n          ],\n          \"start\": 18926667,\n          \"text\": \"等\"\n        },\n        {\n          \"end\": 19286667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778d1f0638e-2722-41e9-9a77-2b7508a27a63\",\n          \"sourceTokenIds\": [\n            \"d1f0638e-2722-41e9-9a77-2b7508a27a63\"\n          ],\n          \"start\": 19166667,\n          \"text\": \"别\"\n        },\n        {\n          \"end\": 19406667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf57785e46541e-5a81-438f-9567-cfcafb7683c9\",\n          \"sourceTokenIds\": [\n            \"5e46541e-5a81-438f-9567-cfcafb7683c9\"\n          ],\n          \"start\": 19286667,\n          \"text\": \"人\"\n        },\n        {\n          \"end\": 19566667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778e3f8a5ad-1623-4671-91fc-5b0ec7a6f83a\",\n          \"sourceTokenIds\": [\n            \"e3f8a5ad-1623-4671-91fc-5b0ec7a6f83a\"\n          ],\n          \"start\": 19406667,\n          \"text\": \"去\"\n        },\n        {\n          \"end\": 19686667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf577882cf231b-6a1a-44c1-a086-2d519aaa0d18\",\n          \"sourceTokenIds\": [\n            \"82cf231b-6a1a-44c1-a086-2d519aaa0d18\"\n          ],\n          \"start\": 19566667,\n          \"text\": \"分\"\n        },\n        {\n          \"end\": 19886667,\n          \"id\": \"36:e581f946-2f4d-47c2-a807-b5a27ddf5778b4caf506-d71b-40a3-ae40-81644a86643f\",\n          \"sourceTokenIds\": [\n            \"b4caf506-d71b-40a3-ae40-81644a86643f\"\n          ],\n          \"start\": 19686667,\n          \"text\": \"享，\"\n        }\n      ]\n    }\n  ],\n  \"page\": {\n    \"hasMore\": false,\n    \"limit\": 100,\n    \"offset\": 0,\n    \"returned\": 8,\n    \"total\": 8\n  },\n  \"captions\": {\n    \"visible\": true,\n    \"preset\": \"custom\",\n    \"style\": {\n      \"align\": \"center\",\n      \"color\": \"#F8FAFC\",\n      \"decorationSlot\": null,\n      \"direction\": \"ltr\",\n      \"displayMode\": \"single\",\n      \"fontFallbacks\": null,\n      \"fontFamily\": \"Noto Sans SC\",\n      \"fontSize\": 0.04,\n      \"fontStyle\": {\n        \"variant\": \"normal\",\n        \"weight\": \"800\"\n      },\n      \"highlightBackground\": {\n        \"borderRadius\": 6,\n        \"color\": \"#6EE7F9\",\n        \"paddingX\": 5,\n        \"paddingY\": 1\n      },\n      \"highlightColor\": \"#07121F\",\n      \"highlightColors\": null,\n      \"highlightUnit\": \"word\",\n      \"letterSpacing\": 0,\n      \"lineHeight\": 1.08,\n      \"maxCharactersPerLine\": null,\n      \"maxLines\": 0,\n      \"normalBackground\": {\n        \"borderRadius\": 6,\n        \"color\": \"rgba(7, 14, 28, 0.58)\",\n        \"paddingX\": 10,\n        \"paddingY\": 4\n      },\n      \"opacity\": 1,\n      \"punctuationMode\": \"default\",\n      \"strokeColor\": \"rgba(0, 0, 0, 0.78)\",\n      \"strokeWidth\": 1,\n      \"textShadow\": \"none\",\n      \"textTransform\": \"none\",\n      \"wordGlow\": null,\n      \"wordsPerPage\": null\n    },\n    \"tracks\": [\n      {\n        \"cardCount\": 95,\n        \"contentLanguageCodes\": [\n          \"zh\"\n        ],\n        \"id\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n        \"languageCode\": null,\n        \"role\": \"original\",\n        \"sourceTrackId\": \"31075d0c-3ded-4b55-ba43-f48b4bb1fbbc\",\n        \"style\": {\n          \"color\": \"#F7F7F7\",\n          \"fontFamily\": \"HarmonyOS Sans\",\n          \"fontSize\": 0.084,\n          \"fontStyle\": {\n            \"variant\": \"normal\",\n            \"weight\": \"900\"\n          },\n          \"highlightBackground\": null,\n          \"highlightColor\": \"#F7F7F7\",\n          \"highlightUnit\": \"off\",\n          \"letterSpacing\": -0.01,\n          \"normalBackground\": null,\n          \"stackedActiveOnTop\": false,\n          \"stackedGap\": null,\n          \"stackedLineTiltDeg\": null,\n          \"strokeColor\": \"rgba(44, 44, 44, 0.55)\",\n          \"strokeWidth\": 0.8,\n          \"textShadow\": \"0 2px 2px rgba(0, 0, 0, 0.42)\",\n          \"preset\": \"clean-heavy\",\n          \"lineHeight\": 1.02,\n          \"maxCharactersPerLine\": 18,\n          \"maxLines\": 2\n        },\n        \"visible\": true\n      },\n      {\n        \"cardCount\": 0,\n        \"contentLanguageCodes\": [],\n        \"id\": \"d79fba96-1b9d-4e51-9bf9-68a54fda9042\",\n        \"languageCode\": null,\n        \"role\": \"original\",\n        \"sourceTrackId\": \"d79fba96-1b9d-4e51-9bf9-68a54fda9042\",\n        \"style\": {\n          \"color\": \"#FCFCFA\",\n          \"fontFallbacks\": [\n            \"Noto Sans SC\"\n          ],\n          \"fontFamily\": \"Archivo Black\",\n          \"fontSize\": 0.042,\n          \"fontStyle\": {\n            \"variant\": \"normal\",\n            \"weight\": \"900\"\n          },\n          \"highlightBackground\": null,\n          \"highlightColor\": \"#FCFCFA\",\n          \"letterSpacing\": -0.005,\n          \"lineHeight\": 1.1,\n          \"normalBackground\": null,\n          \"stackedActiveOnTop\": false,\n          \"stackedGap\": null,\n          \"stackedLineTiltDeg\": null,\n          \"strokeColor\": \"#000000\",\n          \"strokeWidth\": 0,\n          \"textShadow\": \"1px 0 0 rgba(255, 56, 64, 0.2), -1px 0 0 rgba(56, 180, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.65), 0 0 14px rgba(0, 0, 0, 0.34)\",\n          \"textTransform\": \"uppercase\",\n          \"preset\": \"dogme\"\n        },\n        \"visible\": false,\n        \"showAction\": {\n          \"action\": \"track\",\n          \"json\": \"{\\\"trackId\\\":\\\"d79fba96-1b9d-4e51-9bf9-68a54fda9042\\\",\\\"visible\\\":true}\"\n        }\n      }\n    ]\n  },\n  \"timelineId\": \"1bb570e0-800e-43ee-a8f6-38bc56f7871b\"\n}"
+    }
+  ],
+  "structuredContent": {
+    "captionsItemId": "e3398963-19da-41b5-9e0c-099f687d81a7",
+    "cards": [
+      {
+        "end": 3210000,
+        "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:023537de-90bb-4e20-a1da-31bfbb74512f82436595-7f8d-4339-9e10-f4463837aa2b",
+        "languageCode": null,
+        "layout": {},
+        "start": 250000,
+        "style": {
+          "color": "#F7F7F7",
+          "fontFamily": "HarmonyOS Sans",
+          "fontSize": 0.084,
+          "fontStyle": {
+            "variant": "normal",
+            "weight": "900"
+          },
+          "highlightBackground": null,
+          "highlightColor": "#F7F7F7",
+          "highlightUnit": "off",
+          "letterSpacing": -0.01,
+          "normalBackground": null,
+          "stackedActiveOnTop": false,
+          "stackedGap": null,
+          "stackedLineTiltDeg": null,
+          "strokeColor": "rgba(44, 44, 44, 0.55)",
+          "strokeWidth": 0.8,
+          "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+          "preset": "clean-heavy",
+          "lineHeight": 1.02,
+          "maxCharactersPerLine": 18,
+          "maxLines": 2
+        },
+        "text": "我之前分享的 Codex Skill 的那条视频，",
+        "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+        "words": [
+          {
+            "end": 530000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f82436595-7f8d-4339-9e10-f4463837aa2b",
+            "sourceTokenIds": [
+              "82436595-7f8d-4339-9e10-f4463837aa2b"
+            ],
+            "start": 250000,
+            "text": "我"
+          },
+          {
+            "end": 650000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f1efb1d31-b850-4693-88e1-5c5ec2070940",
+            "sourceTokenIds": [
+              "1efb1d31-b850-4693-88e1-5c5ec2070940"
+            ],
+            "start": 530000,
+            "text": "之"
+          },
+          {
+            "end": 770000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fee502518-41e1-45e2-973e-f98cfdc32762",
+            "sourceTokenIds": [
+              "ee502518-41e1-45e2-973e-f98cfdc32762"
+            ],
+            "start": 650000,
+            "text": "前"
+          },
+          {
+            "end": 970000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f02dc6247-419f-4a3d-9486-e208179563cf",
+            "sourceTokenIds": [
+              "02dc6247-419f-4a3d-9486-e208179563cf"
+            ],
+            "start": 770000,
+            "text": "分"
+          },
+          {
+            "end": 1090000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f48dd04d8-8ae4-459a-a09e-cd1ea1ad6cc6",
+            "sourceTokenIds": [
+              "48dd04d8-8ae4-459a-a09e-cd1ea1ad6cc6"
+            ],
+            "start": 970000,
+            "text": "享"
+          },
+          {
+            "end": 1360000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fa11bb959-711b-4288-bbec-1bf6897c3812",
+            "sourceTokenIds": [
+              "a11bb959-711b-4288-bbec-1bf6897c3812"
+            ],
+            "start": 1090000,
+            "text": "的"
+          },
+          {
+            "end": 1900000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fd6646655-83d5-45ab-ab5b-d672e1217b97",
+            "sourceTokenIds": [
+              "d6646655-83d5-45ab-ab5b-d672e1217b97"
+            ],
+            "start": 1360000,
+            "text": " Codex"
+          },
+          {
+            "end": 2450000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f2ad15a0e-5667-40d1-b1a3-4a961fcba388",
+            "sourceTokenIds": [
+              "2ad15a0e-5667-40d1-b1a3-4a961fcba388"
+            ],
+            "start": 2020000,
+            "text": " Skill"
+          },
+          {
+            "end": 2650000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fa628406f-662b-49ec-af8a-aba20befff0c",
+            "sourceTokenIds": [
+              "a628406f-662b-49ec-af8a-aba20befff0c"
+            ],
+            "start": 2450000,
+            "text": " 的"
+          },
+          {
+            "end": 2770000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512ff3679ae3-81a2-482b-9258-5d55613c2385",
+            "sourceTokenIds": [
+              "f3679ae3-81a2-482b-9258-5d55613c2385"
+            ],
+            "start": 2650000,
+            "text": "那"
+          },
+          {
+            "end": 2930000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fb59a1a83-5211-4671-87cd-ecb525932585",
+            "sourceTokenIds": [
+              "b59a1a83-5211-4671-87cd-ecb525932585"
+            ],
+            "start": 2770000,
+            "text": "条"
+          },
+          {
+            "end": 3050000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f5388a0d5-3b14-4a2c-980f-a626f4d7eb0a",
+            "sourceTokenIds": [
+              "5388a0d5-3b14-4a2c-980f-a626f4d7eb0a"
+            ],
+            "start": 2930000,
+            "text": "视"
+          },
+          {
+            "end": 3210000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fac58bcd9-94a2-4bc4-8d48-4b70a8da7c5f",
+            "sourceTokenIds": [
+              "ac58bcd9-94a2-4bc4-8d48-4b70a8da7c5f"
+            ],
+            "start": 3050000,
+            "text": "频，"
+          }
+        ]
+      },
+      {
+        "end": 4810000,
+        "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+        "languageCode": null,
+        "layout": {},
+        "start": 3210000,
+        "style": {
+          "color": "#F7F7F7",
+          "fontFamily": "HarmonyOS Sans",
+          "fontSize": 0.084,
+          "fontStyle": {
+            "variant": "normal",
+            "weight": "900"
+          },
+          "highlightBackground": null,
+          "highlightColor": "#F7F7F7",
+          "highlightUnit": "off",
+          "letterSpacing": -0.01,
+          "normalBackground": null,
+          "stackedActiveOnTop": false,
+          "stackedGap": null,
+          "stackedLineTiltDeg": null,
+          "strokeColor": "rgba(44, 44, 44, 0.55)",
+          "strokeWidth": 0.8,
+          "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+          "preset": "clean-heavy",
+          "lineHeight": 1.02,
+          "maxCharactersPerLine": 18,
+          "maxLines": 2
+        },
+        "text": "已经有十多万人看过了。",
+        "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+        "words": [
+          {
+            "end": 3370000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+            "sourceTokenIds": [
+              "e1742436-4e91-4331-94fb-cf7797835d1a"
+            ],
+            "start": 3210000,
+            "text": "已"
+          },
+          {
+            "end": 3450000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fdd4ec3d9-7144-46b6-a668-cd0ba3fe4893",
+            "sourceTokenIds": [
+              "dd4ec3d9-7144-46b6-a668-cd0ba3fe4893"
+            ],
+            "start": 3370000,
+            "text": "经"
+          },
+          {
+            "end": 3650000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f8eabbbb4-140f-405b-9938-d8f797a75d4b",
+            "sourceTokenIds": [
+              "8eabbbb4-140f-405b-9938-d8f797a75d4b"
+            ],
+            "start": 3450000,
+            "text": "有"
+          },
+          {
+            "end": 3770000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f4e489614-7e70-4ae8-bf15-d708be49e33d",
+            "sourceTokenIds": [
+              "4e489614-7e70-4ae8-bf15-d708be49e33d"
+            ],
+            "start": 3650000,
+            "text": "十"
+          },
+          {
+            "end": 3890000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512ff0a2f900-87b8-4704-8ada-ed1d151f3375",
+            "sourceTokenIds": [
+              "f0a2f900-87b8-4704-8ada-ed1d151f3375"
+            ],
+            "start": 3770000,
+            "text": "多"
+          },
+          {
+            "end": 4050000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c",
+            "sourceTokenIds": [
+              "60ba1a3a-b241-45a9-b03c-a62159edca6c"
+            ],
+            "start": 3890000,
+            "text": "万"
+          },
+          {
+            "end": 4210000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f6bb4506a-f605-40d6-b95d-92b66c246d6c",
+            "sourceTokenIds": [
+              "6bb4506a-f605-40d6-b95d-92b66c246d6c"
+            ],
+            "start": 4050000,
+            "text": "人"
+          },
+          {
+            "end": 4370000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f60c534aa-20d5-470e-9656-1a81f2fe7e71",
+            "sourceTokenIds": [
+              "60c534aa-20d5-470e-9656-1a81f2fe7e71"
+            ],
+            "start": 4210000,
+            "text": "看"
+          },
+          {
+            "end": 4570000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb",
+            "sourceTokenIds": [
+              "78007b4b-26a3-4a21-b3e3-96caf17d51bb"
+            ],
+            "start": 4370000,
+            "text": "过"
+          },
+          {
+            "end": 4810000,
+            "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f219aed79-aa17-4362-bd9f-306a5f660f84",
+            "sourceTokenIds": [
+              "219aed79-aa17-4362-bd9f-306a5f660f84"
+            ],
+            "start": 4570000,
+            "text": "了。"
+          }
+        ]
+      },
+      {
+        "end": 7706667,
+        "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d68be9126-d9f1-4dd0-bdc2-c0d26678881f",
+        "languageCode": null,
+        "layout": {},
+        "start": 5066667,
+        "style": {
+          "color": "#F7F7F7",
+          "fontFamily": "HarmonyOS Sans",
+          "fontSize": 0.084,
+          "fontStyle": {
+            "variant": "normal",
+            "weight": "900"
+          },
+          "highlightBackground": null,
+          "highlightColor": "#F7F7F7",
+          "highlightUnit": "off",
+          "letterSpacing": -0.01,
+          "normalBackground": null,
+          "stackedActiveOnTop": false,
+          "stackedGap": null,
+          "stackedLineTiltDeg": null,
+          "strokeColor": "rgba(44, 44, 44, 0.55)",
+          "strokeWidth": 0.8,
+          "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+          "preset": "clean-heavy",
+          "lineHeight": 1.02,
+          "maxCharactersPerLine": 18,
+          "maxLines": 2
+        },
+        "text": "但其实那几个 Skill 都不是我私藏的。",
+        "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+        "words": [
+          {
+            "end": 5386667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d68be9126-d9f1-4dd0-bdc2-c0d26678881f",
+            "sourceTokenIds": [
+              "68be9126-d9f1-4dd0-bdc2-c0d26678881f"
+            ],
+            "start": 5066667,
+            "text": "但"
+          },
+          {
+            "end": 5546667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d9fc3910f-09c8-4be0-9431-236313391aa4",
+            "sourceTokenIds": [
+              "9fc3910f-09c8-4be0-9431-236313391aa4"
+            ],
+            "start": 5386667,
+            "text": "其"
+          },
+          {
+            "end": 5666667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d1c0e1947-d776-4d07-a3a8-8fa35197db2e",
+            "sourceTokenIds": [
+              "1c0e1947-d776-4d07-a3a8-8fa35197db2e"
+            ],
+            "start": 5546667,
+            "text": "实"
+          },
+          {
+            "end": 5866667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dad596c28-7e0d-4a98-bd5e-daac24c3bfbd",
+            "sourceTokenIds": [
+              "ad596c28-7e0d-4a98-bd5e-daac24c3bfbd"
+            ],
+            "start": 5666667,
+            "text": "那"
+          },
+          {
+            "end": 5986667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d670a9fe3-7cf8-43d5-a668-586f5211aa7f",
+            "sourceTokenIds": [
+              "670a9fe3-7cf8-43d5-a668-586f5211aa7f"
+            ],
+            "start": 5866667,
+            "text": "几"
+          },
+          {
+            "end": 6106667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d53dd6fff-4088-4efe-9335-9bf02cd7c740",
+            "sourceTokenIds": [
+              "53dd6fff-4088-4efe-9335-9bf02cd7c740"
+            ],
+            "start": 5986667,
+            "text": "个"
+          },
+          {
+            "end": 6456667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dee63aba7-34da-4514-a139-188d9c180613",
+            "sourceTokenIds": [
+              "ee63aba7-34da-4514-a139-188d9c180613"
+            ],
+            "start": 6106667,
+            "text": " Skill"
+          },
+          {
+            "end": 6626667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dba197ec4-1798-4e95-bf7c-8ad2cfab84d4",
+            "sourceTokenIds": [
+              "ba197ec4-1798-4e95-bf7c-8ad2cfab84d4"
+            ],
+            "start": 6456667,
+            "text": " 都"
+          },
+          {
+            "end": 6746667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d01bb9075-81d8-4c99-a0a1-9906ead5d801",
+            "sourceTokenIds": [
+              "01bb9075-81d8-4c99-a0a1-9906ead5d801"
+            ],
+            "start": 6626667,
+            "text": "不"
+          },
+          {
+            "end": 6826667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3db69051b5-3301-4134-86f7-16cad260c869",
+            "sourceTokenIds": [
+              "b69051b5-3301-4134-86f7-16cad260c869"
+            ],
+            "start": 6746667,
+            "text": "是"
+          },
+          {
+            "end": 6986667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d017075e6-eb9a-4db9-8bd8-27b0718269c1",
+            "sourceTokenIds": [
+              "017075e6-eb9a-4db9-8bd8-27b0718269c1"
+            ],
+            "start": 6826667,
+            "text": "我"
+          },
+          {
+            "end": 7186667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d48290fa8-6283-44ba-bb4f-26d4ed0a7a99",
+            "sourceTokenIds": [
+              "48290fa8-6283-44ba-bb4f-26d4ed0a7a99"
+            ],
+            "start": 6986667,
+            "text": "私"
+          },
+          {
+            "end": 7386667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3daa4df19c-9abd-4300-9cb1-dc3abc3ea4ab",
+            "sourceTokenIds": [
+              "aa4df19c-9abd-4300-9cb1-dc3abc3ea4ab"
+            ],
+            "start": 7186667,
+            "text": "藏"
+          },
+          {
+            "end": 7706667,
+            "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d66b84af0-6876-4df2-887e-f0ad2bfd659f",
+            "sourceTokenIds": [
+              "66b84af0-6876-4df2-887e-f0ad2bfd659f"
+            ],
+            "start": 7386667,
+            "text": "的。"
+          }
+        ]
+      },
+      {
+        "end": 10646667,
+        "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800",
+        "languageCode": null,
+        "layout": {},
+        "start": 7966667,
+        "style": {
+          "color": "#F7F7F7",
+          "fontFamily": "HarmonyOS Sans",
+          "fontSize": 0.084,
+          "fontStyle": {
+            "variant": "normal",
+            "weight": "900"
+          },
+          "highlightBackground": null,
+          "highlightColor": "#F7F7F7",
+          "highlightUnit": "off",
+          "letterSpacing": -0.01,
+          "normalBackground": null,
+          "stackedActiveOnTop": false,
+          "stackedGap": null,
+          "stackedLineTiltDeg": null,
+          "strokeColor": "rgba(44, 44, 44, 0.55)",
+          "strokeWidth": 0.8,
+          "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+          "preset": "clean-heavy",
+          "lineHeight": 1.02,
+          "maxCharactersPerLine": 18,
+          "maxLines": 2
+        },
+        "text": "它们基本上都能够在 GitHub 上面找到。",
+        "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+        "words": [
+          {
+            "end": 8086667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800",
+            "sourceTokenIds": [
+              "956011ad-2036-453d-8775-ae32c9a4c800"
+            ],
+            "start": 7966667,
+            "text": "它"
+          },
+          {
+            "end": 8356667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079e2e0897-ad16-4b2b-84f6-b147258e5db4",
+            "sourceTokenIds": [
+              "9e2e0897-ad16-4b2b-84f6-b147258e5db4"
+            ],
+            "start": 8086667,
+            "text": "们"
+          },
+          {
+            "end": 8566667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0749b5ee36-3b37-4ade-810a-4a7e38c34c8b",
+            "sourceTokenIds": [
+              "49b5ee36-3b37-4ade-810a-4a7e38c34c8b"
+            ],
+            "start": 8366667,
+            "text": "基"
+          },
+          {
+            "end": 8646667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07f9ea9a6a-3774-45ff-b7c8-298299d05e7a",
+            "sourceTokenIds": [
+              "f9ea9a6a-3774-45ff-b7c8-298299d05e7a"
+            ],
+            "start": 8566667,
+            "text": "本"
+          },
+          {
+            "end": 8806667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c072a70a074-1088-4379-8b64-900bb140464d",
+            "sourceTokenIds": [
+              "2a70a074-1088-4379-8b64-900bb140464d"
+            ],
+            "start": 8646667,
+            "text": "上"
+          },
+          {
+            "end": 9006667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07c9ae6442-5c1c-497c-ba31-f6ca8eacfe8f",
+            "sourceTokenIds": [
+              "c9ae6442-5c1c-497c-ba31-f6ca8eacfe8f"
+            ],
+            "start": 8806667,
+            "text": "都"
+          },
+          {
+            "end": 9126667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07e20c2c96-c6f8-411b-83ee-36af7ac6aa09",
+            "sourceTokenIds": [
+              "e20c2c96-c6f8-411b-83ee-36af7ac6aa09"
+            ],
+            "start": 9006667,
+            "text": "能"
+          },
+          {
+            "end": 9206667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07232122db-9a26-482f-b7ac-de5fac00e222",
+            "sourceTokenIds": [
+              "232122db-9a26-482f-b7ac-de5fac00e222"
+            ],
+            "start": 9126667,
+            "text": "够"
+          },
+          {
+            "end": 9366667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07dba9911c-42c9-4e7c-9a20-04578745b030",
+            "sourceTokenIds": [
+              "dba9911c-42c9-4e7c-9a20-04578745b030"
+            ],
+            "start": 9206667,
+            "text": "在"
+          },
+          {
+            "end": 9966667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079c4a1462-dfbe-402c-9686-0676f7243b26",
+            "sourceTokenIds": [
+              "9c4a1462-dfbe-402c-9686-0676f7243b26"
+            ],
+            "start": 9366667,
+            "text": " GitHub"
+          },
+          {
+            "end": 10126667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07330539b5-e054-4e9e-a42c-4be6c824da4d",
+            "sourceTokenIds": [
+              "330539b5-e054-4e9e-a42c-4be6c824da4d"
+            ],
+            "start": 9966667,
+            "text": " 上"
+          },
+          {
+            "end": 10246667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0722c1605e-f3a0-4761-81ed-9ecc73651b5a",
+            "sourceTokenIds": [
+              "22c1605e-f3a0-4761-81ed-9ecc73651b5a"
+            ],
+            "start": 10126667,
+            "text": "面"
+          },
+          {
+            "end": 10406667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0771b74a5e-ae4c-422c-a9f8-6fc686183012",
+            "sourceTokenIds": [
+              "71b74a5e-ae4c-422c-a9f8-6fc686183012"
+            ],
+            "start": 10246667,
+            "text": "找"
+          },
+          {
+            "end": 10646667,
+            "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079a99b0ab-1595-45af-9416-14205a7aeefe",
+            "sourceTokenIds": [
+              "9a99b0ab-1595-45af-9416-14205a7aeefe"
+            ],
+            "start": 10406667,
+            "text": "到。"
+          }
+        ]
+      },
+      {
+        "end": 13266667,
+        "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5821da7-a424-4c91-80c3-0cee56af758c",
+        "languageCode": null,
+        "layout": {},
+        "start": 10866667,
+        "style": {
+          "color": "#F7F7F7",
+          "fontFamily": "HarmonyOS Sans",
+          "fontSize": 0.084,
+          "fontStyle": {
+            "variant": "normal",
+            "weight": "900"
+          },
+          "highlightBackground": null,
+          "highlightColor": "#F7F7F7",
+          "highlightUnit": "off",
+          "letterSpacing": -0.01,
+          "normalBackground": null,
+          "stackedActiveOnTop": false,
+          "stackedGap": null,
+          "stackedLineTiltDeg": null,
+          "strokeColor": "rgba(44, 44, 44, 0.55)",
+          "strokeWidth": 0.8,
+          "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+          "preset": "clean-heavy",
+          "lineHeight": 1.02,
+          "maxCharactersPerLine": 18,
+          "maxLines": 2
+        },
+        "text": "所以这期我不继续给你推荐 Skill 了。",
+        "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+        "words": [
+          {
+            "end": 11026667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5821da7-a424-4c91-80c3-0cee56af758c",
+            "sourceTokenIds": [
+              "a5821da7-a424-4c91-80c3-0cee56af758c"
+            ],
+            "start": 10866667,
+            "text": "所"
+          },
+          {
+            "end": 11146667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5a17f3a-17a7-4567-8c2e-a915cc84f7be",
+            "sourceTokenIds": [
+              "a5a17f3a-17a7-4567-8c2e-a915cc84f7be"
+            ],
+            "start": 11026667,
+            "text": "以"
+          },
+          {
+            "end": 11386667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b461d28f447-3a15-4dba-a283-86eaa51d50c6",
+            "sourceTokenIds": [
+              "1d28f447-3a15-4dba-a283-86eaa51d50c6"
+            ],
+            "start": 11146667,
+            "text": "这"
+          },
+          {
+            "end": 11546667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b464f9dd28b-75c8-4997-8300-092c4d365494",
+            "sourceTokenIds": [
+              "4f9dd28b-75c8-4997-8300-092c4d365494"
+            ],
+            "start": 11386667,
+            "text": "期"
+          },
+          {
+            "end": 11706667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46ad4b95f4-1817-4240-985c-309ed3e51d7b",
+            "sourceTokenIds": [
+              "ad4b95f4-1817-4240-985c-309ed3e51d7b"
+            ],
+            "start": 11546667,
+            "text": "我"
+          },
+          {
+            "end": 11866667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4680e65013-2897-4fcd-8c25-461532cdafc0",
+            "sourceTokenIds": [
+              "80e65013-2897-4fcd-8c25-461532cdafc0"
+            ],
+            "start": 11706667,
+            "text": "不"
+          },
+          {
+            "end": 11986667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46513ce733-5685-4e38-9151-749cb5ca0e28",
+            "sourceTokenIds": [
+              "513ce733-5685-4e38-9151-749cb5ca0e28"
+            ],
+            "start": 11866667,
+            "text": "继"
+          },
+          {
+            "end": 12066667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4687a235e1-18e9-46ac-9f0c-75584a1a46c6",
+            "sourceTokenIds": [
+              "87a235e1-18e9-46ac-9f0c-75584a1a46c6"
+            ],
+            "start": 11986667,
+            "text": "续"
+          },
+          {
+            "end": 12186667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46527c5508-b7e7-4603-8487-620b3a7f0362",
+            "sourceTokenIds": [
+              "527c5508-b7e7-4603-8487-620b3a7f0362"
+            ],
+            "start": 12066667,
+            "text": "给"
+          },
+          {
+            "end": 12306667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b466d4e377b-4b6f-4da4-a53a-f228e3a58c1b",
+            "sourceTokenIds": [
+              "6d4e377b-4b6f-4da4-a53a-f228e3a58c1b"
+            ],
+            "start": 12186667,
+            "text": "你"
+          },
+          {
+            "end": 12426667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b461d0fec58-6db8-4c67-8b97-b2f94555d976",
+            "sourceTokenIds": [
+              "1d0fec58-6db8-4c67-8b97-b2f94555d976"
+            ],
+            "start": 12306667,
+            "text": "推"
+          },
+          {
+            "end": 12506667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46ad4cfaa5-cfb2-4451-924f-96544dbaf4bc",
+            "sourceTokenIds": [
+              "ad4cfaa5-cfb2-4451-924f-96544dbaf4bc"
+            ],
+            "start": 12426667,
+            "text": "荐"
+          },
+          {
+            "end": 13026667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b469dff3aad-e374-486a-a4ed-f2838441fc3e",
+            "sourceTokenIds": [
+              "9dff3aad-e374-486a-a4ed-f2838441fc3e"
+            ],
+            "start": 12546667,
+            "text": " Skill"
+          },
+          {
+            "end": 13266667,
+            "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4696029e9f-21c5-4cd3-af29-7ae802d9958b",
+            "sourceTokenIds": [
+              "96029e9f-21c5-4cd3-af29-7ae802d9958b"
+            ],
+            "start": 13026667,
+            "text": " 了。"
+          }
+        ]
+      },
+      {
+        "end": 15533333,
+        "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065",
+        "languageCode": null,
+        "layout": {},
+        "start": 13533333,
+        "style": {
+          "color": "#F7F7F7",
+          "fontFamily": "HarmonyOS Sans",
+          "fontSize": 0.084,
+          "fontStyle": {
+            "variant": "normal",
+            "weight": "900"
+          },
+          "highlightBackground": null,
+          "highlightColor": "#F7F7F7",
+          "highlightUnit": "off",
+          "letterSpacing": -0.01,
+          "normalBackground": null,
+          "stackedActiveOnTop": false,
+          "stackedGap": null,
+          "stackedLineTiltDeg": null,
+          "strokeColor": "rgba(44, 44, 44, 0.55)",
+          "strokeWidth": 0.8,
+          "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+          "preset": "clean-heavy",
+          "lineHeight": 1.02,
+          "maxCharactersPerLine": 18,
+          "maxLines": 2
+        },
+        "text": "我直接教你一个更有用的方法。",
+        "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+        "words": [
+          {
+            "end": 13773333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065",
+            "sourceTokenIds": [
+              "b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065"
+            ],
+            "start": 13533333,
+            "text": "我"
+          },
+          {
+            "end": 13933333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ac7e215e-5071-4b5a-9e3e-6e502cdd0993",
+            "sourceTokenIds": [
+              "ac7e215e-5071-4b5a-9e3e-6e502cdd0993"
+            ],
+            "start": 13773333,
+            "text": "直"
+          },
+          {
+            "end": 14053333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2042e808b-c716-43a9-85eb-1b3108020558",
+            "sourceTokenIds": [
+              "042e808b-c716-43a9-85eb-1b3108020558"
+            ],
+            "start": 13933333,
+            "text": "接"
+          },
+          {
+            "end": 14213333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a22032b8b6-da91-4850-bbda-db1d8f884bc4",
+            "sourceTokenIds": [
+              "2032b8b6-da91-4850-bbda-db1d8f884bc4"
+            ],
+            "start": 14053333,
+            "text": "教"
+          },
+          {
+            "end": 14373333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a25aa4dc03-936e-47e5-aa94-1aaa0494d798",
+            "sourceTokenIds": [
+              "5aa4dc03-936e-47e5-aa94-1aaa0494d798"
+            ],
+            "start": 14213333,
+            "text": "你"
+          },
+          {
+            "end": 14453333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ab674000-29ba-4f22-9660-1a6100f2c73c",
+            "sourceTokenIds": [
+              "ab674000-29ba-4f22-9660-1a6100f2c73c"
+            ],
+            "start": 14373333,
+            "text": "一"
+          },
+          {
+            "end": 14573333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a29a65776d-8f49-4293-9f81-988d905f3154",
+            "sourceTokenIds": [
+              "9a65776d-8f49-4293-9f81-988d905f3154"
+            ],
+            "start": 14453333,
+            "text": "个"
+          },
+          {
+            "end": 14733333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a258517f83-9003-412c-9c79-7108a56fdd13",
+            "sourceTokenIds": [
+              "58517f83-9003-412c-9c79-7108a56fdd13"
+            ],
+            "start": 14573333,
+            "text": "更"
+          },
+          {
+            "end": 14893333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c84d63fb-8c44-4d43-a979-378296e0da65",
+            "sourceTokenIds": [
+              "c84d63fb-8c44-4d43-a979-378296e0da65"
+            ],
+            "start": 14733333,
+            "text": "有"
+          },
+          {
+            "end": 15013333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a20bf8f618-e017-48c9-a865-a6fef06dacc2",
+            "sourceTokenIds": [
+              "0bf8f618-e017-48c9-a865-a6fef06dacc2"
+            ],
+            "start": 14893333,
+            "text": "用"
+          },
+          {
+            "end": 15173333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2155b6bc6-4322-4fe6-b45a-96c9f710729e",
+            "sourceTokenIds": [
+              "155b6bc6-4322-4fe6-b45a-96c9f710729e"
+            ],
+            "start": 15013333,
+            "text": "的"
+          },
+          {
+            "end": 15333333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c7d9c747-3abe-4a3f-92a5-82f0bdfd58ff",
+            "sourceTokenIds": [
+              "c7d9c747-3abe-4a3f-92a5-82f0bdfd58ff"
+            ],
+            "start": 15173333,
+            "text": "方"
+          },
+          {
+            "end": 15533333,
+            "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a290d7a150-92d4-4a5e-bed7-944ffd489744",
+            "sourceTokenIds": [
+              "90d7a150-92d4-4a5e-bed7-944ffd489744"
+            ],
+            "start": 15333333,
+            "text": "法。"
+          }
+        ]
+      },
+      {
+        "end": 16996667,
+        "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:e581f946-2f4d-47c2-a807-b5a27ddf57786858fb60-edd7-4a5c-94d7-6ae5ee292d5e",
+        "languageCode": null,
+        "layout": {},
+        "start": 15766667,
+        "style": {
+          "color": "#F7F7F7",
+          "fontFamily": "HarmonyOS Sans",
+          "fontSize": 0.084,
+          "fontStyle": {
+            "variant": "normal",
+            "weight": "900"
+          },
+          "highlightBackground": null,
+          "highlightColor": "#F7F7F7",
+          "highlightUnit": "off",
+          "letterSpacing": -0.01,
+          "normalBackground": null,
+          "stackedActiveOnTop": false,
+          "stackedGap": null,
+          "stackedLineTiltDeg": null,
+          "strokeColor": "rgba(44, 44, 44, 0.55)",
+          "strokeWidth": 0.8,
+          "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+          "preset": "clean-heavy",
+          "lineHeight": 1.02,
+          "maxCharactersPerLine": 18,
+          "maxLines": 2
+        },
+        "text": "以后你缺什么工具，",
+        "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+        "words": [
+          {
+            "end": 15926667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57786858fb60-edd7-4a5c-94d7-6ae5ee292d5e",
+            "sourceTokenIds": [
+              "6858fb60-edd7-4a5c-94d7-6ae5ee292d5e"
+            ],
+            "start": 15766667,
+            "text": "以"
+          },
+          {
+            "end": 16046667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778f888d84b-f6f1-468b-aa43-6ec04e67cec1",
+            "sourceTokenIds": [
+              "f888d84b-f6f1-468b-aa43-6ec04e67cec1"
+            ],
+            "start": 15926667,
+            "text": "后"
+          },
+          {
+            "end": 16246667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57780dbc1fd8-1cc5-4853-8809-19bd0b1b8ad8",
+            "sourceTokenIds": [
+              "0dbc1fd8-1cc5-4853-8809-19bd0b1b8ad8"
+            ],
+            "start": 16046667,
+            "text": "你"
+          },
+          {
+            "end": 16446667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ed7e845f-d1d9-421e-84f0-adf04a20555e",
+            "sourceTokenIds": [
+              "ed7e845f-d1d9-421e-84f0-adf04a20555e"
+            ],
+            "start": 16246667,
+            "text": "缺"
+          },
+          {
+            "end": 16566667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778e1e243b2-a1b4-44b7-8998-23fc98c5e57d",
+            "sourceTokenIds": [
+              "e1e243b2-a1b4-44b7-8998-23fc98c5e57d"
+            ],
+            "start": 16446667,
+            "text": "什"
+          },
+          {
+            "end": 16646667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57784c77890b-adbb-48f5-acd3-4e3a61f0cd81",
+            "sourceTokenIds": [
+              "4c77890b-adbb-48f5-acd3-4e3a61f0cd81"
+            ],
+            "start": 16566667,
+            "text": "么"
+          },
+          {
+            "end": 16806667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57788ed4335f-4c20-4e35-ad5b-1fedc7f607ef",
+            "sourceTokenIds": [
+              "8ed4335f-4c20-4e35-ad5b-1fedc7f607ef"
+            ],
+            "start": 16646667,
+            "text": "工"
+          },
+          {
+            "end": 16996667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778af917839-d7aa-4db9-9e8e-b923ce78820b",
+            "sourceTokenIds": [
+              "af917839-d7aa-4db9-9e8e-b923ce78820b"
+            ],
+            "start": 16806667,
+            "text": "具，"
+          }
+        ]
+      },
+      {
+        "end": 19886667,
+        "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f",
+        "languageCode": null,
+        "layout": {},
+        "start": 17006667,
+        "style": {
+          "color": "#F7F7F7",
+          "fontFamily": "HarmonyOS Sans",
+          "fontSize": 0.084,
+          "fontStyle": {
+            "variant": "normal",
+            "weight": "900"
+          },
+          "highlightBackground": null,
+          "highlightColor": "#F7F7F7",
+          "highlightUnit": "off",
+          "letterSpacing": -0.01,
+          "normalBackground": null,
+          "stackedActiveOnTop": false,
+          "stackedGap": null,
+          "stackedLineTiltDeg": null,
+          "strokeColor": "rgba(44, 44, 44, 0.55)",
+          "strokeWidth": 0.8,
+          "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+          "preset": "clean-heavy",
+          "lineHeight": 1.02,
+          "maxCharactersPerLine": 18,
+          "maxLines": 2
+        },
+        "text": "不需要去找别人的分享或者等别人去分享，",
+        "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+        "words": [
+          {
+            "end": 17206667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f",
+            "sourceTokenIds": [
+              "24f28df0-dd10-4945-b525-df8a1bc0744f"
+            ],
+            "start": 17006667,
+            "text": "不"
+          },
+          {
+            "end": 17326667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577805dbbeb6-7a48-4946-9526-e77ab83bae67",
+            "sourceTokenIds": [
+              "05dbbeb6-7a48-4946-9526-e77ab83bae67"
+            ],
+            "start": 17206667,
+            "text": "需"
+          },
+          {
+            "end": 17486667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577828bb8309-8560-4b50-86d0-89d5e1821e78",
+            "sourceTokenIds": [
+              "28bb8309-8560-4b50-86d0-89d5e1821e78"
+            ],
+            "start": 17326667,
+            "text": "要"
+          },
+          {
+            "end": 17726667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ff415a70-9993-4604-b50b-55ce92eb6a49",
+            "sourceTokenIds": [
+              "ff415a70-9993-4604-b50b-55ce92eb6a49"
+            ],
+            "start": 17486667,
+            "text": "去"
+          },
+          {
+            "end": 18006667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778b2c3b87a-5457-4519-ad91-6cdbf758373f",
+            "sourceTokenIds": [
+              "b2c3b87a-5457-4519-ad91-6cdbf758373f"
+            ],
+            "start": 17726667,
+            "text": "找"
+          },
+          {
+            "end": 18126667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577832f5ed34-d9a7-4094-a3a3-38e20aed402c",
+            "sourceTokenIds": [
+              "32f5ed34-d9a7-4094-a3a3-38e20aed402c"
+            ],
+            "start": 18006667,
+            "text": "别"
+          },
+          {
+            "end": 18246667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ba3e3a97-9aee-4c6a-8a84-1e850592eb41",
+            "sourceTokenIds": [
+              "ba3e3a97-9aee-4c6a-8a84-1e850592eb41"
+            ],
+            "start": 18126667,
+            "text": "人"
+          },
+          {
+            "end": 18406667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778a50061fa-87af-4749-bf22-521768637055",
+            "sourceTokenIds": [
+              "a50061fa-87af-4749-bf22-521768637055"
+            ],
+            "start": 18246667,
+            "text": "的"
+          },
+          {
+            "end": 18526667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778166a71de-bb0c-428f-809a-a9edba2ed67c",
+            "sourceTokenIds": [
+              "166a71de-bb0c-428f-809a-a9edba2ed67c"
+            ],
+            "start": 18406667,
+            "text": "分"
+          },
+          {
+            "end": 18686667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ac52e8e2-e780-4c08-96b9-189dfca71d5c",
+            "sourceTokenIds": [
+              "ac52e8e2-e780-4c08-96b9-189dfca71d5c"
+            ],
+            "start": 18526667,
+            "text": "享"
+          },
+          {
+            "end": 18846667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577826972c88-eac8-42e9-b935-0b5c3baac13e",
+            "sourceTokenIds": [
+              "26972c88-eac8-42e9-b935-0b5c3baac13e"
+            ],
+            "start": 18686667,
+            "text": "或"
+          },
+          {
+            "end": 18926667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57785116d0ac-1be4-474d-919c-b3c2c91e276d",
+            "sourceTokenIds": [
+              "5116d0ac-1be4-474d-919c-b3c2c91e276d"
+            ],
+            "start": 18846667,
+            "text": "者"
+          },
+          {
+            "end": 19166667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577844414202-c8a1-4c39-b6f5-181977740b38",
+            "sourceTokenIds": [
+              "44414202-c8a1-4c39-b6f5-181977740b38"
+            ],
+            "start": 18926667,
+            "text": "等"
+          },
+          {
+            "end": 19286667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778d1f0638e-2722-41e9-9a77-2b7508a27a63",
+            "sourceTokenIds": [
+              "d1f0638e-2722-41e9-9a77-2b7508a27a63"
+            ],
+            "start": 19166667,
+            "text": "别"
+          },
+          {
+            "end": 19406667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57785e46541e-5a81-438f-9567-cfcafb7683c9",
+            "sourceTokenIds": [
+              "5e46541e-5a81-438f-9567-cfcafb7683c9"
+            ],
+            "start": 19286667,
+            "text": "人"
+          },
+          {
+            "end": 19566667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778e3f8a5ad-1623-4671-91fc-5b0ec7a6f83a",
+            "sourceTokenIds": [
+              "e3f8a5ad-1623-4671-91fc-5b0ec7a6f83a"
+            ],
+            "start": 19406667,
+            "text": "去"
+          },
+          {
+            "end": 19686667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577882cf231b-6a1a-44c1-a086-2d519aaa0d18",
+            "sourceTokenIds": [
+              "82cf231b-6a1a-44c1-a086-2d519aaa0d18"
+            ],
+            "start": 19566667,
+            "text": "分"
+          },
+          {
+            "end": 19886667,
+            "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778b4caf506-d71b-40a3-ae40-81644a86643f",
+            "sourceTokenIds": [
+              "b4caf506-d71b-40a3-ae40-81644a86643f"
+            ],
+            "start": 19686667,
+            "text": "享，"
+          }
+        ]
+      }
+    ],
+    "page": {
+      "hasMore": false,
+      "limit": 100,
+      "offset": 0,
+      "returned": 8,
+      "total": 8
+    },
+    "captions": {
+      "visible": true,
+      "preset": "custom",
+      "style": {
+        "align": "center",
+        "color": "#F8FAFC",
+        "decorationSlot": null,
+        "direction": "ltr",
+        "displayMode": "single",
+        "fontFallbacks": null,
+        "fontFamily": "Noto Sans SC",
+        "fontSize": 0.04,
+        "fontStyle": {
+          "variant": "normal",
+          "weight": "800"
+        },
+        "highlightBackground": {
+          "borderRadius": 6,
+          "color": "#6EE7F9",
+          "paddingX": 5,
+          "paddingY": 1
+        },
+        "highlightColor": "#07121F",
+        "highlightColors": null,
+        "highlightUnit": "word",
+        "letterSpacing": 0,
+        "lineHeight": 1.08,
+        "maxCharactersPerLine": null,
+        "maxLines": 0,
+        "normalBackground": {
+          "borderRadius": 6,
+          "color": "rgba(7, 14, 28, 0.58)",
+          "paddingX": 10,
+          "paddingY": 4
+        },
+        "opacity": 1,
+        "punctuationMode": "default",
+        "strokeColor": "rgba(0, 0, 0, 0.78)",
+        "strokeWidth": 1,
+        "textShadow": "none",
+        "textTransform": "none",
+        "wordGlow": null,
+        "wordsPerPage": null
+      },
+      "tracks": [
+        {
+          "cardCount": 95,
+          "contentLanguageCodes": [
+            "zh"
+          ],
+          "id": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+          "languageCode": null,
+          "role": "original",
+          "sourceTrackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+          "style": {
+            "color": "#F7F7F7",
+            "fontFamily": "HarmonyOS Sans",
+            "fontSize": 0.084,
+            "fontStyle": {
+              "variant": "normal",
+              "weight": "900"
+            },
+            "highlightBackground": null,
+            "highlightColor": "#F7F7F7",
+            "highlightUnit": "off",
+            "letterSpacing": -0.01,
+            "normalBackground": null,
+            "stackedActiveOnTop": false,
+            "stackedGap": null,
+            "stackedLineTiltDeg": null,
+            "strokeColor": "rgba(44, 44, 44, 0.55)",
+            "strokeWidth": 0.8,
+            "textShadow": "0 2px 2px rgba(0, 0, 0, 0.42)",
+            "preset": "clean-heavy",
+            "lineHeight": 1.02,
+            "maxCharactersPerLine": 18,
+            "maxLines": 2
+          },
+          "visible": true
+        },
+        {
+          "cardCount": 0,
+          "contentLanguageCodes": [],
+          "id": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+          "languageCode": null,
+          "role": "original",
+          "sourceTrackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+          "style": {
+            "color": "#FCFCFA",
+            "fontFallbacks": [
+              "Noto Sans SC"
+            ],
+            "fontFamily": "Archivo Black",
+            "fontSize": 0.042,
+            "fontStyle": {
+              "variant": "normal",
+              "weight": "900"
+            },
+            "highlightBackground": null,
+            "highlightColor": "#FCFCFA",
+            "letterSpacing": -0.005,
+            "lineHeight": 1.1,
+            "normalBackground": null,
+            "stackedActiveOnTop": false,
+            "stackedGap": null,
+            "stackedLineTiltDeg": null,
+            "strokeColor": "#000000",
+            "strokeWidth": 0,
+            "textShadow": "1px 0 0 rgba(255, 56, 64, 0.2), -1px 0 0 rgba(56, 180, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.65), 0 0 14px rgba(0, 0, 0, 0.34)",
+            "textTransform": "uppercase",
+            "preset": "dogme"
+          },
+          "visible": false,
+          "showAction": {
+            "action": "track",
+            "json": "{\"trackId\":\"d79fba96-1b9d-4e51-9bf9-68a54fda9042\",\"visible\":true}"
+          }
+        }
+      ]
+    },
+    "timelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b"
+  }
+}

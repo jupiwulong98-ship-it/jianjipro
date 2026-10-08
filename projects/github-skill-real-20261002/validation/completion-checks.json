@@ -1,0 +1,17 @@
+{
+  "planning": {
+    "status": "pass",
+    "concept_count": 19,
+    "shot_count": 34
+  },
+  "gate_b": "pass_with_context",
+  "stable_candidate_hash_matches": true,
+  "rendered_movies": 19,
+  "actual_chatcut_samples": 137,
+  "actual_chatcut_shots": 34,
+  "gate_d": "sampled_visual_pass_with_context",
+  "final_frames": 5994,
+  "status": "ready_for_user_review",
+  "dynamic_review": "pending_user_playback",
+  "audio_review": "pending_user_listening"
+}

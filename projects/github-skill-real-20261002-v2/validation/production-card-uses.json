@@ -1,0 +1,64 @@
+{
+  "status": "parameters_and_assets_validated",
+  "uses": [
+    {
+      "shot_id": "readme-checks",
+      "slug": "doc-park-left-pill-deal",
+      "props": {
+        "texts": {
+          "t001": "",
+          "t002": "",
+          "t003": "",
+          "t004": "",
+          "t005": "",
+          "t006": "",
+          "t007": "",
+          "t008": ""
+        },
+        "docSrc": "asset:readme-body.png",
+        "docTitle": "README",
+        "pills": [
+          "干什么的",
+          "效果长什么样",
+          "怎么安装和使用"
+        ],
+        "notes": [
+          "用途与适用场景",
+          "实际输出形式",
+          "依赖与操作步骤"
+        ],
+        "hint": "README · 阅读检查",
+        "accent": "#22d3ee",
+        "data": {
+          "CONFIG": {
+            "parkAt": 0,
+            "parkDur": 0.8,
+            "T0": [
+              1.4,
+              2.16,
+              3.12
+            ],
+            "exitAt": 4.5,
+            "exitDur": 0.36
+          }
+        }
+      }
+    },
+    {
+      "shot_id": "identity",
+      "slug": "lower-third-nameplate",
+      "props": {
+        "texts": {
+          "t001": "乌龙",
+          "t002": "AI 工具 · 实操"
+        },
+        "data": {
+          "CONFIG": {
+            "hold": 5.2
+          }
+        }
+      }
+    }
+  ],
+  "scope": "口播落点与透明皮为项目级适配，仍须静帧和实际画面QC。"
+}

@@ -1,0 +1,297 @@
+{
+  "version": "0.4",
+  "project_id": "ai-tools-real-20260930",
+  "style_id": "ai-talkinghead-editorial-v0.1",
+  "source_video": "/Users/jupiwulong/视频制作/jianying-headless/work/real-talkcraft-20260930/sample/remotion/public/source-normalized.mp4",
+  "visual_concepts_source": "visual-concepts.json",
+  "events": [
+    {
+      "id": "edit-scene-01",
+      "start": 0.0,
+      "end": 8.7,
+      "source_segment_id": "scene-01",
+      "visual_concept_id": "visual-opening",
+      "intent": "explain",
+      "rationale": "反转：自动出片仍需要判断",
+      "style_rule_id": "rule-section-title",
+      "motion_request": {
+        "required": true,
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "not_equal",
+        "content": {
+          "text": "工具产出仍需要人判断"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-02",
+      "start": 8.7,
+      "end": 18.666666666666668,
+      "source_segment_id": "scene-02",
+      "visual_concept_id": "visual-hyperframes",
+      "intent": "explain",
+      "rationale": "产品表达展开为文字图片动画",
+      "style_rule_id": "rule-entity-emphasis",
+      "motion_request": {
+        "required": true,
+        "family": "entity",
+        "subtype": "ecosystem-map",
+        "visual_structure": "center_branches",
+        "content": {
+          "text": "产品介绍可包含哪些内容"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-03",
+      "start": 18.666666666666668,
+      "end": 25.466666666666665,
+      "source_segment_id": "scene-03",
+      "visual_concept_id": "visual-hyperframes-pipeline",
+      "intent": "explain",
+      "rationale": "描述转成网页动效并输出视频",
+      "style_rule_id": "rule-tutorial-screen-primary",
+      "motion_request": {
+        "required": true,
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "content": {
+          "text": "从描述到视频的处理关系"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-04",
+      "start": 25.466666666666665,
+      "end": 38.266666666666666,
+      "source_segment_id": "scene-04",
+      "visual_concept_id": "visual-hyperframes-tradeoff",
+      "intent": "explain",
+      "rationale": "灵活动效与调试成本的取舍",
+      "style_rule_id": "rule-return-to-clean-talking-head",
+      "motion_request": {
+        "required": true,
+        "family": "comparison",
+        "subtype": "group-contrast",
+        "visual_structure": "comparison",
+        "content": {
+          "text": "优势和代价是一组取舍"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-05",
+      "start": 38.266666666666666,
+      "end": 50.233333333333334,
+      "source_segment_id": "scene-05",
+      "visual_concept_id": "visual-remotion-reuse",
+      "intent": "explain",
+      "rationale": "一次搭建母模板，换内容参数可多次复用",
+      "style_rule_id": "rule-list-tags",
+      "motion_request": {
+        "required": true,
+        "family": "process",
+        "subtype": "replication-map",
+        "visual_structure": "one_to_many",
+        "content": {
+          "text": "一次投入形成多次复用，模板元素只是母模板的内容"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-06",
+      "start": 50.233333333333334,
+      "end": 56.93333333333333,
+      "source_segment_id": "scene-06",
+      "visual_concept_id": "visual-remotion-reuse",
+      "intent": "explain",
+      "rationale": "一次搭建母模板，换内容参数可多次复用",
+      "style_rule_id": "rule-tutorial-screen-primary",
+      "motion_request": {
+        "required": true,
+        "family": "process",
+        "subtype": "replication-map",
+        "visual_structure": "one_to_many",
+        "content": {
+          "text": "一次投入形成多次复用，模板元素只是母模板的内容"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-09",
+      "start": 66.76666666666667,
+      "end": 72.6,
+      "source_segment_id": "scene-09",
+      "visual_concept_id": "visual-chatcut-inputs",
+      "intent": "explain",
+      "rationale": "真人口播和录屏是两类输入",
+      "style_rule_id": "rule-entity-emphasis",
+      "motion_request": {
+        "required": true,
+        "family": "list",
+        "subtype": "key-points",
+        "visual_structure": "parallel",
+        "content": {
+          "text": "已有两类素材可以进入剪辑"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "presenter_safe"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-10",
+      "start": 72.6,
+      "end": 76.26666666666667,
+      "source_segment_id": "scene-10",
+      "visual_concept_id": "visual-chatcut-processing",
+      "intent": "explain",
+      "rationale": "在时间线上处理冗余、字幕和补充画面",
+      "style_rule_id": "rule-example-broll",
+      "motion_request": {
+        "required": true,
+        "family": "process",
+        "subtype": "timeline-processing",
+        "visual_structure": "input_process_output",
+        "content": {
+          "text": "三项操作改变同一时间线，制作现场B-roll不能解释处理关系"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-11",
+      "start": 76.26666666666667,
+      "end": 81.1,
+      "source_segment_id": "scene-11",
+      "visual_concept_id": "visual-chatcut-timeline",
+      "intent": "explain",
+      "rationale": "修改发生在真实时间线上",
+      "style_rule_id": "rule-tutorial-screen-primary",
+      "motion_request": {
+        "required": true,
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "timeline",
+        "content": {
+          "text": "能在真实时间线上进一步修改"
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen"
+      },
+      "asset_requirements": [
+        "chatcut-real-timeline"
+      ],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    },
+    {
+      "id": "edit-scene-15",
+      "start": 99.13333333333334,
+      "end": 108.06666666666666,
+      "source_segment_id": "scene-15",
+      "visual_concept_id": "visual-tool-choice",
+      "intent": "explain",
+      "rationale": "三种平级需求对应三种工具",
+      "style_rule_id": "rule-list-tags",
+      "motion_request": {
+        "required": true,
+        "family": "list",
+        "subtype": "key-points",
+        "visual_structure": "parallel",
+        "content": {
+          "items": [
+            "动效 · HyperFrames",
+            "栏目 · Remotion",
+            "口播 · ChatCut"
+          ],
+          "srcs": [
+            "asset:hyperframes.svg",
+            "asset:remotion.png",
+            "asset:chatcut-app.png"
+          ],
+          "layout": "vertical-strips",
+          "fullScreen": true,
+          "entryTimes": [
+            0.4,
+            3.5,
+            6.2
+          ]
+        }
+      },
+      "presentation_hint": {
+        "preferred_mode": "full_screen"
+      },
+      "asset_requirements": [],
+      "resolution": {
+        "status": "unresolved",
+        "card_id": null
+      }
+    }
+  ]
+}

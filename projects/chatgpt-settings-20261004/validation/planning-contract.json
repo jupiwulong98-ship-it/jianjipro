@@ -1,0 +1,31 @@
+{
+  "status": "pass",
+  "project_id": "chatgpt-settings-20261004",
+  "transcript_revision": "bfa9253e69f717c0058472d3fd44feb33f868165da73ea4f437de2bf070765ed",
+  "binding": "8097139d6131bc5b0709a702aabebe2cdebba8125fe68387cab8e08035605ccb",
+  "source_words": 756,
+  "covered_words": 756,
+  "scene_count": 21,
+  "visual_scenes": 11,
+  "clean_scenes": 10,
+  "actions": 34,
+  "checks": [
+    "原文756字词按顺序恰好覆盖一次",
+    "语义起止均引用原生剪后字词时间",
+    "动作短语连续引用本段原文",
+    "动作按口播顺序排列",
+    "概念关系与语义来源对应",
+    "概念无模板标识",
+    "工作台加载无合同错误",
+    "已读取当前binding意见"
+  ],
+  "current_review": {
+    "revision": 0,
+    "shots": {}
+  },
+  "unresolved_comments": 0,
+  "listening_review": "not_verified",
+  "production_status": "production_authorized",
+  "visual_acceptance": "pending_user_review",
+  "materials_status": "four_real_interface_sets_pending"
+}

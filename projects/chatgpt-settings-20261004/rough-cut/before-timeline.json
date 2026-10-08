@@ -1,0 +1,126 @@
+{
+  "capturedAt": "2026-10-04",
+  "project": {
+    "activeTimeline": {
+      "captionsPresent": false,
+      "compositionHeight": 1080,
+      "compositionWidth": 1920,
+      "durationFrames": 8405,
+      "id": "3669cee6-df62-48bb-afa3-aa1239b79ae1",
+      "markerCount": 0,
+      "name": "Timeline"
+    },
+    "assets": {
+      "byType": {
+        "video": 2
+      },
+      "total": 2
+    },
+    "project": {
+      "description": null,
+      "name": "Empirical Blush Aardwolf",
+      "projectId": "cc3387e2-a642-406a-acea-d4ec922e0740",
+      "readOnly": false,
+      "schemaVersion": 4
+    },
+    "timelines": [
+      {
+        "active": true,
+        "hidden": false,
+        "id": "3669cee6-df62-48bb-afa3-aa1239b79ae1",
+        "name": "Timeline"
+      }
+    ]
+  },
+  "timeline": {
+    "state": {
+      "canvas": {
+        "height": 1080,
+        "width": 1920
+      },
+      "durationFrames": 8405,
+      "editor": {
+        "activeTimelineId": "3669cee6-df62-48bb-afa3-aa1239b79ae1",
+        "asOf": "turn-start",
+        "selectedItemIds": [],
+        "trackLocks": [
+          {
+            "hidden": false,
+            "id": "9a24c58c-8111-493e-b3d8-573fad333bf5",
+            "locked": false,
+            "muted": false
+          }
+        ]
+      },
+      "fps": 30,
+      "id": "3669cee6-df62-48bb-afa3-aa1239b79ae1",
+      "name": "Timeline",
+      "range": {
+        "fromFrame": 0,
+        "toFrame": 8405
+      }
+    },
+    "views": [
+      "timeline"
+    ],
+    "timeline": {
+      "entries": [
+        {
+          "asset": {
+            "id": "2788d4fc-5959-4454-8951-3333ea869340",
+            "name": "9ac428c9eed44b2099cbfdf39dae706f",
+            "type": "video"
+          },
+          "startFrame": 0,
+          "id": "051ff965-7d3e-4856-90dc-2649da338cc6",
+          "itemType": "video",
+          "kind": "item",
+          "sourceRange": {
+            "end": 179066667,
+            "start": 0
+          },
+          "timelineRange": {
+            "fromFrame": 0,
+            "toFrame": 5372
+          },
+          "trackAlias": "V1",
+          "trackId": "9a24c58c-8111-493e-b3d8-573fad333bf5"
+        },
+        {
+          "asset": {
+            "id": "ae3235fe-7f60-473e-9601-9b9e82adaf7a",
+            "name": "4a33841950f84a398b8974e08425bf3b",
+            "type": "video"
+          },
+          "startFrame": 5372,
+          "id": "2e429e8d-f5b9-459d-a093-81c5459bba27",
+          "itemType": "video",
+          "kind": "item",
+          "sourceRange": {
+            "end": 101100000,
+            "start": 0
+          },
+          "timelineRange": {
+            "fromFrame": 5372,
+            "toFrame": 8405
+          },
+          "trackAlias": "V1",
+          "trackId": "9a24c58c-8111-493e-b3d8-573fad333bf5"
+        }
+      ],
+      "totalEntries": 2,
+      "tracks": [
+        {
+          "alias": "V1",
+          "hidden": false,
+          "id": "9a24c58c-8111-493e-b3d8-573fad333bf5",
+          "locked": false,
+          "muted": false,
+          "name": null,
+          "order": 0,
+          "trackType": "video"
+        }
+      ]
+    }
+  }
+}

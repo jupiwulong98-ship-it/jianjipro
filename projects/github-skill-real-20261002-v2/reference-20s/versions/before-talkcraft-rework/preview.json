@@ -1,0 +1,12 @@
+{
+  "status": "candidate",
+  "transcript_revision": "9499f81b9eed99c19096740613a8211957f26c6a439e7014a74a3a2cb7803201",
+  "scene_ids": [
+    "ref20-intro",
+    "ref20-public",
+    "ref20-method",
+    "ref20-wait"
+  ],
+  "scene_hash": "ba289c53c48ea92e8f48c340448e07b1feda32aef92fdfcc06de955751b02d37",
+  "video_sha256": "17078c03af6b4e89a28ac18a8dcad07bbd523fe635659704471b90f8ee5143b6"
+}

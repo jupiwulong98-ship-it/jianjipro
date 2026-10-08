@@ -1,0 +1,828 @@
+{
+  "project_id": "3d96aaae-2026-4693-9e2a-259e38bb996d",
+  "timeline_id": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+  "fps": 30,
+  "range_frames": [
+    0,
+    600
+  ],
+  "native_cards": [
+    {
+      "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:023537de-90bb-4e20-a1da-31bfbb74512f82436595-7f8d-4339-9e10-f4463837aa2b",
+      "start": 250000,
+      "end": 3210000,
+      "text": "我之前分享的 Codex Skill 的那条视频，",
+      "words": [
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f82436595-7f8d-4339-9e10-f4463837aa2b",
+          "text": "我",
+          "start": 250000,
+          "end": 530000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f1efb1d31-b850-4693-88e1-5c5ec2070940",
+          "text": "之",
+          "start": 530000,
+          "end": 650000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fee502518-41e1-45e2-973e-f98cfdc32762",
+          "text": "前",
+          "start": 650000,
+          "end": 770000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f02dc6247-419f-4a3d-9486-e208179563cf",
+          "text": "分",
+          "start": 770000,
+          "end": 970000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f48dd04d8-8ae4-459a-a09e-cd1ea1ad6cc6",
+          "text": "享",
+          "start": 970000,
+          "end": 1090000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fa11bb959-711b-4288-bbec-1bf6897c3812",
+          "text": "的",
+          "start": 1090000,
+          "end": 1360000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fd6646655-83d5-45ab-ab5b-d672e1217b97",
+          "text": " Codex",
+          "start": 1360000,
+          "end": 1900000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f2ad15a0e-5667-40d1-b1a3-4a961fcba388",
+          "text": " Skill",
+          "start": 2020000,
+          "end": 2450000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fa628406f-662b-49ec-af8a-aba20befff0c",
+          "text": " 的",
+          "start": 2450000,
+          "end": 2650000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512ff3679ae3-81a2-482b-9258-5d55613c2385",
+          "text": "那",
+          "start": 2650000,
+          "end": 2770000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fb59a1a83-5211-4671-87cd-ecb525932585",
+          "text": "条",
+          "start": 2770000,
+          "end": 2930000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f5388a0d5-3b14-4a2c-980f-a626f4d7eb0a",
+          "text": "视",
+          "start": 2930000,
+          "end": 3050000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fac58bcd9-94a2-4bc4-8d48-4b70a8da7c5f",
+          "text": "频，",
+          "start": 3050000,
+          "end": 3210000
+        }
+      ]
+    },
+    {
+      "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+      "start": 3210000,
+      "end": 4810000,
+      "text": "已经有十多万人看过了。",
+      "words": [
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fe1742436-4e91-4331-94fb-cf7797835d1a",
+          "text": "已",
+          "start": 3210000,
+          "end": 3370000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512fdd4ec3d9-7144-46b6-a668-cd0ba3fe4893",
+          "text": "经",
+          "start": 3370000,
+          "end": 3450000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f8eabbbb4-140f-405b-9938-d8f797a75d4b",
+          "text": "有",
+          "start": 3450000,
+          "end": 3650000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f4e489614-7e70-4ae8-bf15-d708be49e33d",
+          "text": "十",
+          "start": 3650000,
+          "end": 3770000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512ff0a2f900-87b8-4704-8ada-ed1d151f3375",
+          "text": "多",
+          "start": 3770000,
+          "end": 3890000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f60ba1a3a-b241-45a9-b03c-a62159edca6c",
+          "text": "万",
+          "start": 3890000,
+          "end": 4050000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f6bb4506a-f605-40d6-b95d-92b66c246d6c",
+          "text": "人",
+          "start": 4050000,
+          "end": 4210000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f60c534aa-20d5-470e-9656-1a81f2fe7e71",
+          "text": "看",
+          "start": 4210000,
+          "end": 4370000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f78007b4b-26a3-4a21-b3e3-96caf17d51bb",
+          "text": "过",
+          "start": 4370000,
+          "end": 4570000
+        },
+        {
+          "id": "36:023537de-90bb-4e20-a1da-31bfbb74512f219aed79-aa17-4362-bd9f-306a5f660f84",
+          "text": "了。",
+          "start": 4570000,
+          "end": 4810000
+        }
+      ]
+    },
+    {
+      "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d68be9126-d9f1-4dd0-bdc2-c0d26678881f",
+      "start": 5066667,
+      "end": 7706667,
+      "text": "但其实那几个 Skill 都不是我私藏的。",
+      "words": [
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d68be9126-d9f1-4dd0-bdc2-c0d26678881f",
+          "text": "但",
+          "start": 5066667,
+          "end": 5386667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d9fc3910f-09c8-4be0-9431-236313391aa4",
+          "text": "其",
+          "start": 5386667,
+          "end": 5546667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d1c0e1947-d776-4d07-a3a8-8fa35197db2e",
+          "text": "实",
+          "start": 5546667,
+          "end": 5666667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dad596c28-7e0d-4a98-bd5e-daac24c3bfbd",
+          "text": "那",
+          "start": 5666667,
+          "end": 5866667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d670a9fe3-7cf8-43d5-a668-586f5211aa7f",
+          "text": "几",
+          "start": 5866667,
+          "end": 5986667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d53dd6fff-4088-4efe-9335-9bf02cd7c740",
+          "text": "个",
+          "start": 5986667,
+          "end": 6106667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dee63aba7-34da-4514-a139-188d9c180613",
+          "text": " Skill",
+          "start": 6106667,
+          "end": 6456667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3dba197ec4-1798-4e95-bf7c-8ad2cfab84d4",
+          "text": " 都",
+          "start": 6456667,
+          "end": 6626667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d01bb9075-81d8-4c99-a0a1-9906ead5d801",
+          "text": "不",
+          "start": 6626667,
+          "end": 6746667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3db69051b5-3301-4134-86f7-16cad260c869",
+          "text": "是",
+          "start": 6746667,
+          "end": 6826667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d017075e6-eb9a-4db9-8bd8-27b0718269c1",
+          "text": "我",
+          "start": 6826667,
+          "end": 6986667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d48290fa8-6283-44ba-bb4f-26d4ed0a7a99",
+          "text": "私",
+          "start": 6986667,
+          "end": 7186667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3daa4df19c-9abd-4300-9cb1-dc3abc3ea4ab",
+          "text": "藏",
+          "start": 7186667,
+          "end": 7386667
+        },
+        {
+          "id": "36:01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d66b84af0-6876-4df2-887e-f0ad2bfd659f",
+          "text": "的。",
+          "start": 7386667,
+          "end": 7706667
+        }
+      ]
+    },
+    {
+      "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800",
+      "start": 7966667,
+      "end": 10646667,
+      "text": "它们基本上都能够在 GitHub 上面找到。",
+      "words": [
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07956011ad-2036-453d-8775-ae32c9a4c800",
+          "text": "它",
+          "start": 7966667,
+          "end": 8086667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079e2e0897-ad16-4b2b-84f6-b147258e5db4",
+          "text": "们",
+          "start": 8086667,
+          "end": 8356667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0749b5ee36-3b37-4ade-810a-4a7e38c34c8b",
+          "text": "基",
+          "start": 8366667,
+          "end": 8566667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07f9ea9a6a-3774-45ff-b7c8-298299d05e7a",
+          "text": "本",
+          "start": 8566667,
+          "end": 8646667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c072a70a074-1088-4379-8b64-900bb140464d",
+          "text": "上",
+          "start": 8646667,
+          "end": 8806667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07c9ae6442-5c1c-497c-ba31-f6ca8eacfe8f",
+          "text": "都",
+          "start": 8806667,
+          "end": 9006667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07e20c2c96-c6f8-411b-83ee-36af7ac6aa09",
+          "text": "能",
+          "start": 9006667,
+          "end": 9126667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07232122db-9a26-482f-b7ac-de5fac00e222",
+          "text": "够",
+          "start": 9126667,
+          "end": 9206667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07dba9911c-42c9-4e7c-9a20-04578745b030",
+          "text": "在",
+          "start": 9206667,
+          "end": 9366667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079c4a1462-dfbe-402c-9686-0676f7243b26",
+          "text": " GitHub",
+          "start": 9366667,
+          "end": 9966667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c07330539b5-e054-4e9e-a42c-4be6c824da4d",
+          "text": " 上",
+          "start": 9966667,
+          "end": 10126667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0722c1605e-f3a0-4761-81ed-9ecc73651b5a",
+          "text": "面",
+          "start": 10126667,
+          "end": 10246667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c0771b74a5e-ae4c-422c-a9f8-6fc686183012",
+          "text": "找",
+          "start": 10246667,
+          "end": 10406667
+        },
+        {
+          "id": "36:369d9eb4-9142-41e9-8b22-cd3b0b130c079a99b0ab-1595-45af-9416-14205a7aeefe",
+          "text": "到。",
+          "start": 10406667,
+          "end": 10646667
+        }
+      ]
+    },
+    {
+      "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5821da7-a424-4c91-80c3-0cee56af758c",
+      "start": 10866667,
+      "end": 13266667,
+      "text": "所以这期我不继续给你推荐 Skill 了。",
+      "words": [
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5821da7-a424-4c91-80c3-0cee56af758c",
+          "text": "所",
+          "start": 10866667,
+          "end": 11026667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46a5a17f3a-17a7-4567-8c2e-a915cc84f7be",
+          "text": "以",
+          "start": 11026667,
+          "end": 11146667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b461d28f447-3a15-4dba-a283-86eaa51d50c6",
+          "text": "这",
+          "start": 11146667,
+          "end": 11386667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b464f9dd28b-75c8-4997-8300-092c4d365494",
+          "text": "期",
+          "start": 11386667,
+          "end": 11546667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46ad4b95f4-1817-4240-985c-309ed3e51d7b",
+          "text": "我",
+          "start": 11546667,
+          "end": 11706667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4680e65013-2897-4fcd-8c25-461532cdafc0",
+          "text": "不",
+          "start": 11706667,
+          "end": 11866667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46513ce733-5685-4e38-9151-749cb5ca0e28",
+          "text": "继",
+          "start": 11866667,
+          "end": 11986667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4687a235e1-18e9-46ac-9f0c-75584a1a46c6",
+          "text": "续",
+          "start": 11986667,
+          "end": 12066667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46527c5508-b7e7-4603-8487-620b3a7f0362",
+          "text": "给",
+          "start": 12066667,
+          "end": 12186667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b466d4e377b-4b6f-4da4-a53a-f228e3a58c1b",
+          "text": "你",
+          "start": 12186667,
+          "end": 12306667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b461d0fec58-6db8-4c67-8b97-b2f94555d976",
+          "text": "推",
+          "start": 12306667,
+          "end": 12426667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46ad4cfaa5-cfb2-4451-924f-96544dbaf4bc",
+          "text": "荐",
+          "start": 12426667,
+          "end": 12506667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b469dff3aad-e374-486a-a4ed-f2838441fc3e",
+          "text": " Skill",
+          "start": 12546667,
+          "end": 13026667
+        },
+        {
+          "id": "36:6a8d23cb-2b23-4ab6-b9b0-c35a935a0b4696029e9f-21c5-4cd3-af29-7ae802d9958b",
+          "text": " 了。",
+          "start": 13026667,
+          "end": 13266667
+        }
+      ]
+    },
+    {
+      "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065",
+      "start": 13533333,
+      "end": 15533333,
+      "text": "我直接教你一个更有用的方法。",
+      "words": [
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2b50c3b8e-eaaf-4a75-ab40-bb7d08ef2065",
+          "text": "我",
+          "start": 13533333,
+          "end": 13773333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ac7e215e-5071-4b5a-9e3e-6e502cdd0993",
+          "text": "直",
+          "start": 13773333,
+          "end": 13933333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2042e808b-c716-43a9-85eb-1b3108020558",
+          "text": "接",
+          "start": 13933333,
+          "end": 14053333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a22032b8b6-da91-4850-bbda-db1d8f884bc4",
+          "text": "教",
+          "start": 14053333,
+          "end": 14213333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a25aa4dc03-936e-47e5-aa94-1aaa0494d798",
+          "text": "你",
+          "start": 14213333,
+          "end": 14373333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2ab674000-29ba-4f22-9660-1a6100f2c73c",
+          "text": "一",
+          "start": 14373333,
+          "end": 14453333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a29a65776d-8f49-4293-9f81-988d905f3154",
+          "text": "个",
+          "start": 14453333,
+          "end": 14573333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a258517f83-9003-412c-9c79-7108a56fdd13",
+          "text": "更",
+          "start": 14573333,
+          "end": 14733333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c84d63fb-8c44-4d43-a979-378296e0da65",
+          "text": "有",
+          "start": 14733333,
+          "end": 14893333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a20bf8f618-e017-48c9-a865-a6fef06dacc2",
+          "text": "用",
+          "start": 14893333,
+          "end": 15013333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2155b6bc6-4322-4fe6-b45a-96c9f710729e",
+          "text": "的",
+          "start": 15013333,
+          "end": 15173333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a2c7d9c747-3abe-4a3f-92a5-82f0bdfd58ff",
+          "text": "方",
+          "start": 15173333,
+          "end": 15333333
+        },
+        {
+          "id": "36:f1fd55da-cdd1-42db-9b6b-b0ede01b74a290d7a150-92d4-4a5e-bed7-944ffd489744",
+          "text": "法。",
+          "start": 15333333,
+          "end": 15533333
+        }
+      ]
+    },
+    {
+      "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:e581f946-2f4d-47c2-a807-b5a27ddf57786858fb60-edd7-4a5c-94d7-6ae5ee292d5e",
+      "start": 15766667,
+      "end": 16996667,
+      "text": "以后你缺什么工具，",
+      "words": [
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57786858fb60-edd7-4a5c-94d7-6ae5ee292d5e",
+          "text": "以",
+          "start": 15766667,
+          "end": 15926667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778f888d84b-f6f1-468b-aa43-6ec04e67cec1",
+          "text": "后",
+          "start": 15926667,
+          "end": 16046667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57780dbc1fd8-1cc5-4853-8809-19bd0b1b8ad8",
+          "text": "你",
+          "start": 16046667,
+          "end": 16246667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ed7e845f-d1d9-421e-84f0-adf04a20555e",
+          "text": "缺",
+          "start": 16246667,
+          "end": 16446667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778e1e243b2-a1b4-44b7-8998-23fc98c5e57d",
+          "text": "什",
+          "start": 16446667,
+          "end": 16566667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57784c77890b-adbb-48f5-acd3-4e3a61f0cd81",
+          "text": "么",
+          "start": 16566667,
+          "end": 16646667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57788ed4335f-4c20-4e35-ad5b-1fedc7f607ef",
+          "text": "工",
+          "start": 16646667,
+          "end": 16806667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778af917839-d7aa-4db9-9e8e-b923ce78820b",
+          "text": "具，",
+          "start": 16806667,
+          "end": 16996667
+        }
+      ]
+    },
+    {
+      "id": "36:e3398963-19da-41b5-9e0c-099f687d81a736:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f",
+      "start": 17006667,
+      "end": 19886667,
+      "text": "不需要去找别人的分享或者等别人去分享，",
+      "words": [
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577824f28df0-dd10-4945-b525-df8a1bc0744f",
+          "text": "不",
+          "start": 17006667,
+          "end": 17206667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577805dbbeb6-7a48-4946-9526-e77ab83bae67",
+          "text": "需",
+          "start": 17206667,
+          "end": 17326667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577828bb8309-8560-4b50-86d0-89d5e1821e78",
+          "text": "要",
+          "start": 17326667,
+          "end": 17486667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ff415a70-9993-4604-b50b-55ce92eb6a49",
+          "text": "去",
+          "start": 17486667,
+          "end": 17726667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778b2c3b87a-5457-4519-ad91-6cdbf758373f",
+          "text": "找",
+          "start": 17726667,
+          "end": 18006667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577832f5ed34-d9a7-4094-a3a3-38e20aed402c",
+          "text": "别",
+          "start": 18006667,
+          "end": 18126667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ba3e3a97-9aee-4c6a-8a84-1e850592eb41",
+          "text": "人",
+          "start": 18126667,
+          "end": 18246667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778a50061fa-87af-4749-bf22-521768637055",
+          "text": "的",
+          "start": 18246667,
+          "end": 18406667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778166a71de-bb0c-428f-809a-a9edba2ed67c",
+          "text": "分",
+          "start": 18406667,
+          "end": 18526667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778ac52e8e2-e780-4c08-96b9-189dfca71d5c",
+          "text": "享",
+          "start": 18526667,
+          "end": 18686667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577826972c88-eac8-42e9-b935-0b5c3baac13e",
+          "text": "或",
+          "start": 18686667,
+          "end": 18846667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57785116d0ac-1be4-474d-919c-b3c2c91e276d",
+          "text": "者",
+          "start": 18846667,
+          "end": 18926667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577844414202-c8a1-4c39-b6f5-181977740b38",
+          "text": "等",
+          "start": 18926667,
+          "end": 19166667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778d1f0638e-2722-41e9-9a77-2b7508a27a63",
+          "text": "别",
+          "start": 19166667,
+          "end": 19286667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf57785e46541e-5a81-438f-9567-cfcafb7683c9",
+          "text": "人",
+          "start": 19286667,
+          "end": 19406667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778e3f8a5ad-1623-4671-91fc-5b0ec7a6f83a",
+          "text": "去",
+          "start": 19406667,
+          "end": 19566667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf577882cf231b-6a1a-44c1-a086-2d519aaa0d18",
+          "text": "分",
+          "start": 19566667,
+          "end": 19686667
+        },
+        {
+          "id": "36:e581f946-2f4d-47c2-a807-b5a27ddf5778b4caf506-d71b-40a3-ae40-81644a86643f",
+          "text": "享，",
+          "start": 19686667,
+          "end": 19886667
+        }
+      ]
+    }
+  ],
+  "base_cuts": [
+    {
+      "asset": {
+        "id": "9da3b2de-641f-460d-ac65-7fd9a080d3eb",
+        "name": "a0403da25a9a47d989b54194c4b8ac8a",
+        "type": "video"
+      },
+      "startFrame": 0,
+      "id": "023537de-90bb-4e20-a1da-31bfbb74512f",
+      "itemType": "video",
+      "kind": "item",
+      "sourceRange": {
+        "end": 8226667,
+        "start": 3160000
+      },
+      "timelineRange": {
+        "fromFrame": 0,
+        "toFrame": 152
+      },
+      "trackAlias": "V1",
+      "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc"
+    },
+    {
+      "asset": {
+        "id": "9da3b2de-641f-460d-ac65-7fd9a080d3eb",
+        "name": "a0403da25a9a47d989b54194c4b8ac8a",
+        "type": "video"
+      },
+      "startFrame": 152,
+      "id": "01db4fcf-47c7-4c3d-9f88-99f0ccd9cd3d",
+      "itemType": "video",
+      "kind": "item",
+      "sourceRange": {
+        "end": 11390000,
+        "start": 8490000
+      },
+      "timelineRange": {
+        "fromFrame": 152,
+        "toFrame": 239
+      },
+      "trackAlias": "V1",
+      "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc"
+    },
+    {
+      "asset": {
+        "id": "9da3b2de-641f-460d-ac65-7fd9a080d3eb",
+        "name": "a0403da25a9a47d989b54194c4b8ac8a",
+        "type": "video"
+      },
+      "startFrame": 239,
+      "id": "369d9eb4-9142-41e9-8b22-cd3b0b130c07",
+      "itemType": "video",
+      "kind": "item",
+      "sourceRange": {
+        "end": 16260000,
+        "start": 13360000
+      },
+      "timelineRange": {
+        "fromFrame": 239,
+        "toFrame": 326
+      },
+      "trackAlias": "V1",
+      "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc"
+    },
+    {
+      "asset": {
+        "id": "9da3b2de-641f-460d-ac65-7fd9a080d3eb",
+        "name": "a0403da25a9a47d989b54194c4b8ac8a",
+        "type": "video"
+      },
+      "startFrame": 326,
+      "id": "6a8d23cb-2b23-4ab6-b9b0-c35a935a0b46",
+      "itemType": "video",
+      "kind": "item",
+      "sourceRange": {
+        "end": 19976666,
+        "start": 17310000
+      },
+      "timelineRange": {
+        "fromFrame": 326,
+        "toFrame": 406
+      },
+      "trackAlias": "V1",
+      "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc"
+    },
+    {
+      "asset": {
+        "id": "9da3b2de-641f-460d-ac65-7fd9a080d3eb",
+        "name": "a0403da25a9a47d989b54194c4b8ac8a",
+        "type": "video"
+      },
+      "startFrame": 406,
+      "id": "f1fd55da-cdd1-42db-9b6b-b0ede01b74a2",
+      "itemType": "video",
+      "kind": "item",
+      "sourceRange": {
+        "end": 23393334,
+        "start": 21160000
+      },
+      "timelineRange": {
+        "fromFrame": 406,
+        "toFrame": 473
+      },
+      "trackAlias": "V1",
+      "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc"
+    },
+    {
+      "asset": {
+        "id": "9da3b2de-641f-460d-ac65-7fd9a080d3eb",
+        "name": "a0403da25a9a47d989b54194c4b8ac8a",
+        "type": "video"
+      },
+      "startFrame": 473,
+      "id": "e581f946-2f4d-47c2-a807-b5a27ddf5778",
+      "itemType": "video",
+      "kind": "item",
+      "sourceRange": {
+        "end": 29610000,
+        "start": 25210000
+      },
+      "timelineRange": {
+        "fromFrame": 473,
+        "toFrame": 600
+      },
+      "trackAlias": "V1",
+      "trackId": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc"
+    }
+  ],
+  "captured_at": "2026-10-02T17:25:36.833Z"
+}

@@ -1,0 +1,20 @@
+[
+  {"id":"clean_presenter","label":"保留人物 · 留出呼吸","description":"让观众跟随讲述，不增加解释性动画。","kind":"presenter"},
+  {"id":"single_focus","label":"人物旁单点强调","description":"保留人物，短重点在留白处出现，阅读焦点保持单一。","kind":"focus"},
+  {"id":"number_emphasis","label":"数字递增 · 规模强调","description":"数字从零递增至口播中的数量，落点后短暂停留；中间值是动画过渡，不代表真实增长记录。","kind":"number"},
+  {"id":"sequence","label":"顺序接力","description":"固定路线，按讲述顺序推进当前步骤，保留已经走过的路径。","kind":"sequence"},
+  {"id":"center_branches","label":"中心与多分支","description":"核心对象固定，关联对象逐步连接到核心。","kind":"branches"},
+  {"id":"one_to_many","label":"一个母体 · 多个产物","description":"保留共享母体，再派生多个结果，强调复用关系。","kind":"branches"},
+  {"id":"parallel","label":"多任务并行","description":"多个任务同时在场，逐个聚焦，避免误读为先后执行。","kind":"parallel"},
+  {"id":"screen_focus","label":"真实界面 · 局部聚焦","description":"保留界面位置关系，再指向或放大操作目标。","kind":"screen"},
+  {"id":"document_checks","label":"文档驻留 · 焦点走读","description":"文档保持在场，阅读焦点按口播从一处移动到下一处。","kind":"screen"},
+  {"id":"collection","label":"合集入口 · 多项展开","description":"同一入口连接多个同类结果，用数量与展开表达合集。","kind":"collection"},
+  {"id":"not_equal","label":"两项对照 · 不等于","description":"两个概念分列，中间出现不等号，帮助分清边界。","kind":"contrast"},
+  {"id":"comparison","label":"同一维度 · 对照","description":"对象在同一观察维度下比较，差异逐步突出。","kind":"contrast"},
+  {"id":"handoff","label":"交接路径","description":"一个对象从来源位置移动到接收位置，交接过程连续可见。","kind":"handoff"},
+  {"id":"conditional_sequence","label":"先检查 · 通过后推进","description":"检查条件通过后才开放下一步，不能把条件和结果做成普通并列。","kind":"conditional"},
+  {"id":"input_process_output","label":"输入 → 处理 → 输出","description":"材料进入工具，处理后出现待核验结果，三个位置持续相连。","kind":"sequence"},
+  {"id":"all_conditions","label":"两项同时满足","description":"两个条件分别成立，全部满足后才汇合成最终结论。","kind":"conditions"},
+  {"id":"before_after","label":"同一对象 · 前后变化","description":"保持主体位置，让改变前后的状态可比较。","kind":"contrast"},
+  {"id":"hierarchy","label":"层级展开","description":"从整体向细节或更深层系统展开，保留层级关系。","kind":"branches"}
+]

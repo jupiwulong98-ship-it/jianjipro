@@ -1,0 +1,904 @@
+{
+  "version": "0.4",
+  "project_id": "github-skill-real-20261002-v2",
+  "events": [
+    {
+      "id": "edit-github",
+      "start": 7.966666666666667,
+      "end": 10.866666666666667,
+      "visual_concept_id": "visual-github",
+      "source_segment_ids": [
+        "semantic-github"
+      ],
+      "motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "visual_structure": "single_focus",
+        "content": {
+          "keyword": "GitHub"
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "人物左侧强调 GitHub，保留讲述者和下一句转折。",
+      "presentation_hint": "presenter_safe",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-find",
+      "start": 20.166666666666668,
+      "end": 22.666666666666668,
+      "visual_concept_id": "visual-find",
+      "source_segment_ids": [
+        "semantic-find"
+      ],
+      "motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "visual_structure": "single_focus",
+        "content": {
+          "keyword": "AI 帮你找"
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "人物左侧短标题“让 AI 帮你找”，与核心方法同时落点。",
+      "presentation_hint": "presenter_safe",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-repository",
+      "start": 33.46666666666667,
+      "end": 42.7,
+      "visual_concept_id": "visual-repository",
+      "source_segment_ids": [
+        "semantic-repository"
+      ],
+      "motion_request": {
+        "family": "process",
+        "subtype": "center_branches",
+        "visual_structure": "center_branches",
+        "content": {
+          "title": "一个巨大的项目仓库",
+          "center": "GitHub",
+          "items": [
+            "AI 工具",
+            "开源项目",
+            "学习资料",
+            "Skill"
+          ],
+          "entryTimes": [
+            0,
+            2.65,
+            5.4,
+            7.3
+          ]
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "中心仓库连接环形分布的四类内容；随口播依次高亮，使用图标和连线减少盒子。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-three-actions",
+      "start": 46.43333333333333,
+      "end": 51.266666666666666,
+      "visual_concept_id": "visual-three-actions",
+      "source_segment_ids": [
+        "semantic-three-actions"
+      ],
+      "motion_request": {
+        "family": "process",
+        "subtype": "cinematic-route",
+        "visual_structure": "sequence",
+        "content": {
+          "title": "你只需要会三件事",
+          "items": [
+            "搜需求",
+            "看介绍",
+            "复制链接"
+          ],
+          "entryTimes": [
+            0,
+            1.9,
+            3.5
+          ]
+        }
+      },
+      "visual_intent": "沿搜索、看介绍、复制链接的连续路线推进，当前步骤放大，最后看完整順序。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-signup",
+      "start": 52.8,
+      "end": 59.0,
+      "visual_concept_id": "visual-signup",
+      "source_segment_ids": [
+        "semantic-signup"
+      ],
+      "motion_request": {
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "single_focus",
+        "content": {
+          "kind": "screen",
+          "title": "没有账号：先注册",
+          "src": "asset:signup.png",
+          "focus": [
+            1785,
+            12,
+            110,
+            56
+          ],
+          "caption": "右上角 Sign up",
+          "source": ""
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "真实页面顶栏与 Sign up 局部放大窗并排，定位线交代按钮在右上角。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "screenshot"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": true,
+        "sfx": false
+      },
+      "asset_requirements": [
+        "asset:signup.png"
+      ],
+      "rationale": {
+        "style_rule_id": "rule-tutorial-screen-primary"
+      }
+    },
+    {
+      "id": "edit-search-codex",
+      "start": 59.0,
+      "end": 65.7,
+      "visual_concept_id": "visual-search-codex",
+      "source_segment_ids": [
+        "semantic-search-codex"
+      ],
+      "motion_request": {
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "single_focus",
+        "content": {
+          "kind": "screen",
+          "title": "按需求搜索",
+          "src": "asset:search-codex.png",
+          "focus": [
+            320,
+            125,
+            1130,
+            260
+          ],
+          "caption": "codex skills",
+          "source": ""
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "左侧真实搜索结果近景，右侧同步人物小窗，查询词直接连接结果。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "screenshot"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": true,
+        "sfx": false
+      },
+      "asset_requirements": [
+        "asset:search-codex.png"
+      ],
+      "rationale": {
+        "style_rule_id": "rule-tutorial-screen-primary"
+      }
+    },
+    {
+      "id": "edit-search-ppt",
+      "start": 65.7,
+      "end": 69.06666666666666,
+      "visual_concept_id": "visual-search-ppt",
+      "source_segment_ids": [
+        "semantic-search-ppt"
+      ],
+      "motion_request": {
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "single_focus",
+        "content": {
+          "kind": "screen",
+          "title": "换一个具体需求",
+          "src": "asset:search-ppt.png",
+          "focus": [
+            320,
+            125,
+            1130,
+            260
+          ],
+          "caption": "ppt skill",
+          "source": ""
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "横向搜索条与真实项目结果特写，具体检索词成为主体。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "screenshot"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": true,
+        "sfx": false
+      },
+      "asset_requirements": [
+        "asset:search-ppt.png"
+      ],
+      "rationale": {
+        "style_rule_id": "rule-tutorial-screen-primary"
+      }
+    },
+    {
+      "id": "edit-repositories",
+      "start": 69.06666666666666,
+      "end": 74.13333333333334,
+      "visual_concept_id": "visual-repositories",
+      "source_segment_ids": [
+        "semantic-repositories"
+      ],
+      "motion_request": {
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "single_focus",
+        "content": {
+          "kind": "screen",
+          "title": "选择项目仓库",
+          "src": "asset:search-codex.png",
+          "focus": [
+            0,
+            72,
+            297,
+            230
+          ],
+          "caption": "Repositories = 项目仓库",
+          "source": ""
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "左栏 Repositories 局部放大，旁边仅保留中文释义。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "screenshot"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": true,
+        "sfx": false
+      },
+      "asset_requirements": [
+        "asset:search-codex.png"
+      ],
+      "rationale": {
+        "style_rule_id": "rule-tutorial-screen-primary"
+      }
+    },
+    {
+      "id": "edit-awesome",
+      "start": 78.76666666666667,
+      "end": 93.26666666666667,
+      "visual_concept_id": "visual-awesome",
+      "source_segment_ids": [
+        "semantic-awesome"
+      ],
+      "motion_request": {
+        "family": "process",
+        "subtype": "one_to_many",
+        "visual_structure": "one_to_many",
+        "content": {
+          "title": "想一次找一批工具",
+          "center": "awesome 合集",
+          "items": [
+            "项目 A",
+            "项目 B",
+            "项目 C"
+          ],
+          "entryTimes": [
+            4.85,
+            6,
+            10.3
+          ],
+          "footer": "awesome codex skills · 合集入口示意"
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "真实 awesome 搜索结果为入口，三张抽象工具卡从入口向外展开，标注合集结构示意。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-stars",
+      "start": 95.3,
+      "end": 107.86666666666666,
+      "visual_concept_id": "visual-stars",
+      "source_segment_ids": [
+        "semantic-stars"
+      ],
+      "motion_request": {
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "single_focus",
+        "content": {
+          "kind": "screen",
+          "title": "先看关注度，再判断",
+          "src": "asset:search-awesome.png",
+          "focus": [
+            1288,
+            82,
+            200,
+            40
+          ],
+          "caption": "Most stars · 星标最多",
+          "source": "",
+          "entryTimes": [
+            0,
+            8.97
+          ]
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "先拍真实 Most stars 排序入口，再随新口播移到同页项目列表，保持真实内容。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "screenshot"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": true,
+        "sfx": false
+      },
+      "asset_requirements": [
+        "asset:search-awesome.png"
+      ],
+      "rationale": {
+        "style_rule_id": "rule-tutorial-screen-primary"
+      }
+    },
+    {
+      "id": "edit-star-not-fit",
+      "start": 108.96666666666667,
+      "end": 113.36666666666666,
+      "visual_concept_id": "visual-star-not-fit",
+      "source_segment_ids": [
+        "semantic-star-not-fit"
+      ],
+      "motion_request": {
+        "family": "comparison",
+        "subtype": "not-equal",
+        "visual_structure": "not_equal",
+        "content": {
+          "title": "别把关注度当适用性",
+          "left": "高 Star",
+          "right": "适合你的需求",
+          "entryTimes": [
+            0,
+            2.45
+          ]
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "星标群和需求靶心分列两侧，中间大号不等号；保留关注度不等于适用性。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-comparison-graphic"
+      }
+    },
+    {
+      "id": "edit-readme",
+      "start": 116.66666666666667,
+      "end": 121.16666666666667,
+      "visual_concept_id": "visual-readme",
+      "source_segment_ids": [
+        "semantic-readme"
+      ],
+      "motion_request": {
+        "family": "screen-demo",
+        "subtype": "focus-callout",
+        "visual_structure": "single_focus",
+        "content": {
+          "kind": "screen",
+          "title": "README：项目说明书",
+          "src": "asset:readme-body.png",
+          "focus": null,
+          "caption": "先看用途与输出",
+          "source": ""
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "真实 README 纵向文档卡与人物小窗同屏，慢移到用途与输出段落。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "screenshot"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": true,
+        "sfx": false
+      },
+      "asset_requirements": [
+        "asset:readme-body.png"
+      ],
+      "rationale": {
+        "style_rule_id": "rule-tutorial-screen-primary"
+      }
+    },
+    {
+      "id": "edit-readme-checks",
+      "start": 122.56666666666666,
+      "end": 127.43333333333334,
+      "visual_concept_id": "visual-readme-checks",
+      "source_segment_ids": [
+        "semantic-readme-checks"
+      ],
+      "motion_request": {
+        "family": "list",
+        "subtype": "document-questions",
+        "visual_structure": "parallel",
+        "content": {
+          "title": "看 README，先找三件事",
+          "items": [
+            "干什么的",
+            "效果长什么样",
+            "怎么安装和使用"
+          ],
+          "entryTimes": [
+            1.4,
+            2.16,
+            3.12
+          ]
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "README 向左驻留，右侧三个平级阅读问题按口播出现，保留真实文档来源。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-copy-link",
+      "start": 134.93333333333334,
+      "end": 139.8,
+      "visual_concept_id": "visual-copy-link",
+      "source_segment_ids": [
+        "semantic-copy-link"
+      ],
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "content": {
+          "title": "把具体项目交给 Codex",
+          "items": [
+            "项目链接",
+            "复制",
+            "Codex"
+          ],
+          "entryTimes": [
+            0,
+            1.77,
+            3.44
+          ],
+          "footer": ""
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "真实项目地址从浏览器地址条复制到标明请求示意的 Codex 输入区，表现连续交接。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-check-before-install",
+      "start": 139.8,
+      "end": 151.8,
+      "visual_concept_id": "visual-check-before-install",
+      "source_segment_ids": [
+        "semantic-check-before-install"
+      ],
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "content": {
+          "title": "先检查，再安装",
+          "items": [
+            "兼容性",
+            "依赖与费用",
+            "可用时安装",
+            "用例教学"
+          ],
+          "entryTimes": [
+            0,
+            5.26,
+            8.35,
+            9.53
+          ],
+          "footer": "给 Codex 的请求 · 不是已执行的结果"
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "连续检查台按兼容性、依赖费用、安装、用例推进；当前项成为主角，其余留编号。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-install-not-use",
+      "start": 153.33333333333334,
+      "end": 158.7,
+      "visual_concept_id": "visual-install-not-use",
+      "source_segment_ids": [
+        "semantic-install-not-use"
+      ],
+      "motion_request": {
+        "family": "comparison",
+        "subtype": "not-equal",
+        "visual_structure": "not_equal",
+        "content": {
+          "title": "到这里还没结束",
+          "left": "安装成功",
+          "right": "实际有用",
+          "entryTimes": [
+            0,
+            2.94
+          ],
+          "footer": "一定要拿自己的任务跑一次"
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "安装成功状态章与待实测任务之间保留大号不等号，提醒自己的任务才是验收。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-comparison-graphic"
+      }
+    },
+    {
+      "id": "edit-real-task",
+      "start": 158.7,
+      "end": 167.43333333333334,
+      "visual_concept_id": "visual-real-task",
+      "source_segment_ids": [
+        "semantic-real-task"
+      ],
+      "motion_request": {
+        "family": "process",
+        "subtype": "input_process_output",
+        "visual_structure": "input_process_output",
+        "content": {
+          "title": "用自己的材料验收",
+          "items": [
+            "你的内容",
+            "演示文稿工具",
+            "演示文稿"
+          ],
+          "second": [
+            "你的视频",
+            "视频工具",
+            "处理结果"
+          ],
+          "entryTimes": [
+            0,
+            3.53,
+            5.7
+          ],
+          "footer": "实测方法示意 · 本段不声称已经生成结果"
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "输入材料进入工具，落在待核验结果位；PPT 和视频两组实例在同一位置接力，注明示意。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-acceptance",
+      "start": 168.36666666666667,
+      "end": 171.36666666666667,
+      "visual_concept_id": "visual-acceptance",
+      "source_segment_ids": [
+        "semantic-acceptance"
+      ],
+      "motion_request": {
+        "family": "process",
+        "subtype": "custom",
+        "visual_structure": "custom",
+        "content": {
+          "title": "两个条件都要满足",
+          "items": [
+            "跑得出来",
+            "符合需求"
+          ],
+          "result": "你需要的工具",
+          "entryTimes": [
+            0,
+            0.9
+          ]
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "两个独立验收条件分别亮起，两项都成立才汇合成需要的工具，保留 AND。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-summary",
+      "start": 174.26666666666668,
+      "end": 182.63333333333333,
+      "visual_concept_id": "visual-summary",
+      "source_segment_ids": [
+        "semantic-summary"
+      ],
+      "motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "content": {
+          "title": "下次找工具，照这个顺序",
+          "items": [
+            "搜需求",
+            "找项目",
+            "看介绍",
+            "复制链接",
+            "交给 AI",
+            "检查·安装·实测"
+          ],
+          "entryTimes": [
+            0,
+            1.42,
+            2.18,
+            3.73,
+            4.69,
+            6.4
+          ]
+        },
+        "constraints": {
+          "preserve_structure": true,
+          "caption_bottom_reserve_px": 195
+        }
+      },
+      "visual_intent": "六个连续站点随口播依次进入主画面，底部路线记录已走步骤，最后看完整搜索到实测链。",
+      "presentation_hint": "full_screen",
+      "input_types_required": [
+        "text"
+      ],
+      "input_types_optional": [],
+      "supporting_layer_hints": {
+        "camera": false,
+        "annotation": false,
+        "sfx": false
+      },
+      "asset_requirements": [],
+      "rationale": {
+        "style_rule_id": "rule-entity-emphasis"
+      }
+    },
+    {
+      "id": "edit-identity",
+      "start": 193.03333333333333,
+      "end": 199.63333333333333,
+      "visual_concept_id": "visual-identity",
+      "source_segment_ids": [
+        "clean-outro"
+      ],
+      "motion_request": {
+        "family": "entity",
+        "subtype": "identity-overlay",
+        "visual_structure": "single_focus",
+        "content": {
+          "name": "乌龙",
+          "title": "AI 工具 · 实操",
+          "entryTimes": [
+            0,
+            0.55
+          ]
+        }
+      },
+      "visual_intent": "人物左侧色条展开，姓名先出现，内容方向随后跟进，避开脸部和字幕。",
+      "presentation_hint": "presenter_safe"
+    }
+  ]
+}

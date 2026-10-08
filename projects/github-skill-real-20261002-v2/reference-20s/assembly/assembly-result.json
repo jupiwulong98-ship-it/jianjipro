@@ -1,0 +1,45 @@
+{
+  "adds": [
+    {
+      "durationFrames": 55,
+      "startFrame": 96,
+      "id": "a32019f7-d925-4479-865b-98fb1d7e95b7",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    },
+    {
+      "durationFrames": 104,
+      "startFrame": 159,
+      "id": "086916d8-6fdd-48b7-8f72-1582eb62ba37",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    },
+    {
+      "durationFrames": 61,
+      "startFrame": 264,
+      "id": "aad94547-2bcd-4865-91c1-105519578777",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    },
+    {
+      "durationFrames": 146,
+      "startFrame": 327,
+      "id": "27535638-e2e5-4d04-b2e6-6a9c262b79c9",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    },
+    {
+      "durationFrames": 89,
+      "startFrame": 510,
+      "id": "f41b651c-599c-488f-83c1-e2962edd7ebd",
+      "trackId": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+      "type": "video"
+    }
+  ],
+  "deletes": [
+    {
+      "id": "7811ec6e-c76a-4507-88aa-5a0fbf75a7fc"
+    }
+  ],
+  "updates": []
+}

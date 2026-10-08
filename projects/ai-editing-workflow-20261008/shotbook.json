@@ -1,0 +1,3961 @@
+{
+  "version": "0.2",
+  "project_id": "ai-editing-workflow-20261008",
+  "visual_contract_version": "0.1",
+  "visual_concepts": {
+    "version": "0.1",
+    "project_id": "ai-editing-workflow-20261008",
+    "source_video": "ChatCut 1ab95a6d-f88a-416b-9d93-a669d1a63ef3",
+    "semantic_map_source": "semantic-map.json",
+    "concepts": [
+      {
+        "event_id": "visual-01",
+        "source_segment_ids": [
+          "meaning-01"
+        ],
+        "start": 0.25,
+        "end": 4.73,
+        "spoken_text": "哈喽，今天这个视频给大家分享一下，就是我最近一直在研究的 AI 剪辑。",
+        "meaning": "开场只点明主题",
+        "visual_concept": "人物保持主画面，说到 AI 剪辑时，短标题在左侧实际留白出现。 显出短题“AI 剪辑”，人物与字幕保持清晰。 主题引入后标题轻退场，回到人物。",
+        "visual_structure": "single_focus",
+        "structure_description": "主题引入后标题轻退场，回到人物。",
+        "visual_focus": "开场只点明主题：主题引入后标题轻退场，回到人物。",
+        "presentation": "presenter_safe",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-02",
+        "source_segment_ids": [
+          "meaning-02"
+        ],
+        "start": 4.75,
+        "end": 14.026667,
+        "spoken_text": "然后我也交付过一些客户，那么基本上都是按照他的一个对标的一个格式，然后我去给他。搭建一个模板，复刻，对标的内容。",
+        "meaning": "对标到客户模板",
+        "visual_concept": "同一条路径先出现“对标风格”输入位，旁边保留人物小窗。 建立风格输入位，只画抽象特征，不冒充真实客户案例。 输入汇入模板母体。 母体右侧出现新内容结果，连接线保持。 对标特征流入模板，模板输出同风格内容；示意标签常驻。",
+        "visual_structure": "input_process_output",
+        "structure_description": "对标特征流入模板，模板输出同风格内容；示意标签常驻。",
+        "visual_focus": "对标到客户模板：对标特征流入模板，模板输出同风格内容；示意标签常驻。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-04",
+        "source_segment_ids": [
+          "meaning-04"
+        ],
+        "start": 24.653333,
+        "end": 30.306667,
+        "spoken_text": "第一个我是使用的 Hyperframes就是直接去生成 HTML 的动画效果，然后渲染出去。",
+        "meaning": "HTML 动画如何变成片段",
+        "visual_concept": "暗色工作面先放简化 HTML 文档，标注示意。 出现 Hyperframes 名称与简化文档，不用官网截图充当演示。 文档变为可识别的代码结构。 文档沿路径进入渲染位，右侧播放抽象动画预览。 代码经过渲染成为一个动画片段，路径保持连续。",
+        "visual_structure": "input_process_output",
+        "structure_description": "代码经过渲染成为一个动画片段，路径保持连续。",
+        "visual_focus": "HTML 动画如何变成片段：代码经过渲染成为一个动画片段，路径保持连续。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-05",
+        "source_segment_ids": [
+          "meaning-05"
+        ],
+        "start": 30.566667,
+        "end": 42.07,
+        "spoken_text": "然后后面我去用了Remotion Remotion就是更加组件化的一种设计，它能够把你生成的一个效果，然后持续复用，只用改里面的一些。参数就行了。",
+        "meaning": "组件母体与重复输出",
+        "visual_concept": "中央保留一个组件母体，周围暂为空。 建立带 Remotion 标识的组件母体。 从同一母体派生多个结果，连接不断开。 只让参数输入变化，母体的结构与样式保持。 母体不变、内容参数改变，派生不同内容的多个结果。",
+        "visual_structure": "one_to_many",
+        "structure_description": "母体不变、内容参数改变，派生不同内容的多个结果。",
+        "visual_focus": "组件母体与重复输出：母体不变、内容参数改变，派生不同内容的多个结果。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-06",
+        "source_segment_ids": [
+          "meaning-06"
+        ],
+        "start": 42.266667,
+        "end": 51.463333,
+        "spoken_text": "然后最后呢，我使用了 Cha t Cu t，Cha t Cu t 就是比较适用于口播剪辑这种类型，那么我最后是把它做了一个结合。",
+        "meaning": "ChatCut 与生成动画的交接",
+        "visual_concept": "保留一条口播时间线，旁边是已生成动画片段。 建立标注 ChatCut 的解释性时间线。 聚焦口播轨道，不展示未经录屏证明的按钮。 生成片段移入画面轨，与口播轨对齐。 生成片段进入上层轨道，与口播并行，表现组合关系。",
+        "visual_structure": "input_process_output",
+        "structure_description": "生成片段进入上层轨道，与口播并行，表现组合关系。",
+        "visual_focus": "ChatCut 与生成动画的交接：生成片段进入上层轨道，与口播并行，表现组合关系。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-08",
+        "source_segment_ids": [
+          "meaning-08"
+        ],
+        "start": 60.066667,
+        "end": 66.06,
+        "spoken_text": "那么第一步肯就是拆解对标风格，就是对标他在这句话的时候，他用的什么样的效果？",
+        "meaning": "第一步：拆解风格对应关系",
+        "visual_concept": "人物旁出现“01 拆解风格”的短标记，下方保留一句话与效果之间的连线。 出现步骤标记和待分析的一句话。 连线从这句话移动到效果位，焦点转移。 说到具体效果，连线从口播文字落到动画结果位。",
+        "visual_structure": "single_focus",
+        "structure_description": "说到具体效果，连线从口播文字落到动画结果位。",
+        "visual_focus": "第一步：拆解风格对应关系：说到具体效果，连线从口播文字落到动画结果位。",
+        "presentation": "presenter_safe",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-09",
+        "source_segment_ids": [
+          "meaning-09"
+        ],
+        "start": 66.06,
+        "end": 71.95,
+        "spoken_text": "比方说他讲到数字，是不是有一个数字增长，或者说数字下降这种数字的一种动画效果。",
+        "meaning": "数字变化的动画例子",
+        "visual_concept": "同一图形主体先保持中性，不显示精确数值。 主体向上展开，出现向上箭头。 相同主体向下收拢，对照上升与下降。 增长与下降各自改变方向，回到对称的两个状态。",
+        "visual_structure": "comparison",
+        "structure_description": "增长与下降各自改变方向，回到对称的两个状态。",
+        "visual_focus": "数字变化的动画例子：增长与下降各自改变方向，回到对称的两个状态。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-10",
+        "source_segment_ids": [
+          "meaning-10"
+        ],
+        "start": 72.2,
+        "end": 81.986667,
+        "spoken_text": "这个时候，那我第一个 skill 就是去拆解，怎么样让 AI 懂我们这对标账号。他每句话加的什么样的一个动画效果，这是第一步。",
+        "meaning": "让 AI 学会句子与画面的对应",
+        "visual_concept": "只出现对标内容的抽象一行文字。 从单行展开分析层。 注明分析对象是对标表达，不是客户成果。 逐行连接对应效果位，让对应关系可追踪。 文字展开为几行，逐行连接各自的动画类型，再汇成风格规则。",
+        "visual_structure": "hierarchy",
+        "structure_description": "文字展开为几行，逐行连接各自的动画类型，再汇成风格规则。",
+        "visual_focus": "让 AI 学会句子与画面的对应：文字展开为几行，逐行连接各自的动画类型，再汇成风格规则。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-11",
+        "source_segment_ids": [
+          "meaning-11"
+        ],
+        "start": 82.036667,
+        "end": 97.536667,
+        "spoken_text": "这一步做完之后，第二步，那么就是让 AI 根据。第一个拆解出来的对标效果，然后用我们的口播文案去输出一版。效果预览，那么这个效果预览，它是轻微的渲染，就是它只是一个截图，一个占位。",
+        "meaning": "第二步：口播和风格变成方案预览",
+        "visual_concept": "左侧保留风格规则与自己的口播两个输入，输出位为空。 切入同一工作面，突出方案预览阶段。 保留风格规则输入位。 加入文案输入，与规则共同进入处理位。 输出一个明确标注示意的布局预览。 预览冻结为静态线框，保持阅读时间。 强调素材槽位为空，不展示虚构实拍或客户结果。 两个输入汇合成布局预览，最后只保留线框截图与占位轮廓。",
+        "visual_structure": "input_process_output",
+        "structure_description": "两个输入汇合成布局预览，最后只保留线框截图与占位轮廓。",
+        "visual_focus": "第二步：口播和风格变成方案预览：两个输入汇合成布局预览，最后只保留线框截图与占位轮廓。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-12",
+        "source_segment_ids": [
+          "meaning-12"
+        ],
+        "start": 97.8,
+        "end": 105.783333,
+        "spoken_text": "那么还有很多博主，他用比方说视频呃图片生成模型去生成这种效果，然后呢再交给 AI 去复刻，这是一个方法，",
+        "meaning": "图片模型方案的交接",
+        "visual_concept": "一张概念画面处于生成端，复刻端为空。 只建立生成端与解释性画面。 画面沿连接移动到复刻端，明确交接对象。 概念画面被交给复刻端，保留两端对象和连接。",
+        "visual_structure": "sequence",
+        "structure_description": "概念画面被交给复刻端，保留两端对象和连接。",
+        "visual_focus": "图片模型方案的交接：概念画面被交给复刻端，保留两端对象和连接。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-14",
+        "source_segment_ids": [
+          "meaning-14"
+        ],
+        "start": 112.2,
+        "end": 120.09,
+        "spoken_text": "那么我的第二步是直接让他输出文字占位，然后我看一下觉得OK 之后第三步，那么就是复刻对标账号的动画组件。",
+        "meaning": "预览确认后再复刻",
+        "visual_concept": "方案预览保持在左侧，右侧复刻阶段尚未开放。 显出待检查的文字方案。 确认标记落下，后续路径才亮。 焦点沿路径进入“复刻组件”。 预览通过后路径亮起，焦点进入动画组件阶段。",
+        "visual_structure": "decision_tree",
+        "structure_description": "预览通过后路径亮起，焦点进入动画组件阶段。",
+        "visual_focus": "预览确认后再复刻：预览通过后路径亮起，焦点进入动画组件阶段。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-15",
+        "source_segment_ids": [
+          "meaning-15"
+        ],
+        "start": 120.333333,
+        "end": 130.593333,
+        "spoken_text": "我会先让他逐帧的去把它拆解出来，就是这个效果，他从第几帧出现到第几帧结束，然后这每一帧都要有效果，比方说他是跳入还是跳出。",
+        "meaning": "逐帧拆解入场与退场",
+        "visual_concept": "横向帧带固定，主预览主体尚未入场，注明示意。 建立连续帧带和游标。 游标到入场节点，主体进入。 游标到退场节点，主体离开；随后回看这两个端点。 短暂重放入场状态。 短暂重放退场状态并收住。 游标从入场经过保持再到退场，主预览随状态变化。",
+        "visual_structure": "timeline",
+        "structure_description": "游标从入场经过保持再到退场，主预览随状态变化。",
+        "visual_focus": "逐帧拆解入场与退场：游标从入场经过保持再到退场，主预览随状态变化。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-16",
+        "source_segment_ids": [
+          "meaning-16"
+        ],
+        "start": 130.833333,
+        "end": 136.34,
+        "spoken_text": "那么拿到这个逐帧的一个效果之后，交给 AI 去复刻。复刻完之后让它自己做审核。",
+        "meaning": "复刻后审核",
+        "visual_concept": "人物恢复主画面，留白处放“复刻”与“审核”两个相连状态。 复刻状态亮起。 焦点移向审核位，只表达开始审核。 焦点从复刻推进到审核，审核后保持待复核状态。",
+        "visual_structure": "sequence",
+        "structure_description": "焦点从复刻推进到审核，审核后保持待复核状态。",
+        "visual_focus": "复刻后审核：焦点从复刻推进到审核，审核后保持待复核状态。",
+        "presentation": "presenter_safe",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-18",
+        "source_segment_ids": [
+          "meaning-18"
+        ],
+        "start": 146.466667,
+        "end": 160.06,
+        "spoken_text": "复刻之后，你可以让它创建一个组件库，那么这个组件库你要分类，比方说是卡片是什么样子的，比方说呃录屏的时候是什么样的一个效果？比方说你真人口播的时候是什么样的一个效果？这些把它分好类。",
+        "meaning": "组件库按使用场景归档",
+        "visual_concept": "库容器保持在中心，内部目录尚未展开。 库容器建立。 容器内部出现分类目录。 第一个目录收纳抽象卡片组件。 第二个目录展示屏幕内容组件的缩略轮廓。 第三个目录展示人物安全区域组件。 容器展开为卡片、录屏、真人三类，每类放入抽象组件并保留归属。",
+        "visual_structure": "hierarchy",
+        "structure_description": "容器展开为卡片、录屏、真人三类，每类放入抽象组件并保留归属。",
+        "visual_focus": "组件库按使用场景归档：容器展开为卡片、录屏、真人三类，每类放入抽象组件并保留归属。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-19",
+        "source_segment_ids": [
+          "meaning-19"
+        ],
+        "start": 160.333333,
+        "end": 164.7,
+        "spoken_text": "然后其实就后面你就甩给他一个视频，他就能够产出。",
+        "meaning": "新视频调用已有库",
+        "visual_concept": "已建立的库保持在原位置，新口播片段位于输入端。 新口播进入已有库，不重新搭库。 显示标注示意的包装片段结果。 新片段经过库调用成为包装片段，突出既有库。",
+        "visual_structure": "input_process_output",
+        "structure_description": "新片段经过库调用成为包装片段，突出既有库。",
+        "visual_focus": "新视频调用已有库：新片段经过库调用成为包装片段，突出既有库。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-21",
+        "source_segment_ids": [
+          "meaning-21"
+        ],
+        "start": 175.333333,
+        "end": 185.66,
+        "spoken_text": "你让 AI根据你原来的口播文案，让它给你输出一篇更适合加动画包装效果的口播文案。它不会改变你整个内容的意思，而且它可以让你的条理变得更加有序。",
+        "meaning": "意思不变，文案更适合动画",
+        "visual_concept": "同一份原文作为固定主体，右侧保持待整理状态。 建立原文主体。 同一文案重新分段并对齐画面槽位。 两侧的核心含义连接保持，标出“意思保留”。 焦点移到分段与层级，突出更有序。 原文被分成更清楚的结构段，语义连接保留，右侧出现可绑定的画面槽位。",
+        "visual_structure": "before_after",
+        "structure_description": "原文被分成更清楚的结构段，语义连接保留，右侧出现可绑定的画面槽位。",
+        "visual_focus": "意思不变，文案更适合动画：原文被分成更清楚的结构段，语义连接保留，右侧出现可绑定的画面槽位。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-23",
+        "source_segment_ids": [
+          "meaning-23"
+        ],
+        "start": 195.9,
+        "end": 203.73,
+        "spoken_text": "后面确实，如果这样子去做之后，你的剪辑的效率会提高很多。而且它消耗的 token 特别少。为什么消耗的少？",
+        "meaning": "效率与消耗的定性结果",
+        "visual_concept": "人物保持，两枚短标识暂不出现。 短标识“提高效率”进入实际留白。 替换为“减少重复生成”，保留为讲述者的经验解释。 先出现“提高效率”，再转成“减少重复生成”，不显示量化刻度。",
+        "visual_structure": "single_focus",
+        "structure_description": "先出现“提高效率”，再转成“减少重复生成”，不显示量化刻度。",
+        "visual_focus": "效率与消耗的定性结果：先出现“提高效率”，再转成“减少重复生成”，不显示量化刻度。",
+        "presentation": "presenter_safe",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-24",
+        "source_segment_ids": [
+          "meaning-24"
+        ],
+        "start": 203.73,
+        "end": 211.02,
+        "spoken_text": "就是因为你其实把其他的风格这些东西已经固定了。AI 它相当于只是去改里面的参数，因为是用的 Remotion 去制作的。",
+        "meaning": "固定风格，只替换参数",
+        "visual_concept": "风格框架固定，新内容参数位待更新。 框架锁定，突出不变部分。 参数卡换入，结果内容随之变化。 只补工具标识，不改变母体关系。 参数替换推动结果变化，框架、字体和运动规则持续不变。",
+        "visual_structure": "one_to_many",
+        "structure_description": "参数替换推动结果变化，框架、字体和运动规则持续不变。",
+        "visual_focus": "固定风格，只替换参数：参数替换推动结果变化，框架、字体和运动规则持续不变。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-26",
+        "source_segment_ids": [
+          "meaning-26"
+        ],
+        "start": 218.666667,
+        "end": 225,
+        "spoken_text": "但是这个东西它有一个不稳定性，并且 token 的消耗量非常大，而且很多人用不上Opus 5.5。",
+        "meaning": "另一种做法的三个局限",
+        "visual_concept": "一侧保留“一句话生成”标签，另一侧空出观察维度。 稳定性维度显出“需反复检查”。 消耗维度显出“生成成本”。 可用性维度显出“访问条件”。 依次显出稳定性、消耗、可用性三个维度，均不打分。",
+        "visual_structure": "comparison",
+        "structure_description": "依次显出稳定性、消耗、可用性三个维度，均不打分。",
+        "visual_focus": "另一种做法的三个局限：依次显出稳定性、消耗、可用性三个维度，均不打分。",
+        "presentation": "full_screen",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      },
+      {
+        "event_id": "visual-27",
+        "source_segment_ids": [
+          "meaning-27"
+        ],
+        "start": 225.266667,
+        "end": 238.84,
+        "spoken_text": "那么，这就是我今天想讲的，就是如果大家有 AI 剪辑这种需求，你可以把我这个视频下载下来，然后告诉 AI 让它提取逐字稿之后。然后来帮你进行完成。那么我自己也是有一套完整的流程。",
+        "meaning": "观众怎样照着视频复用流程",
+        "visual_concept": "从这条视频出发的路径先只有起点，人物保留在旁。 视频移到本地输入位。 输入转成文字，路径亮到逐字稿节点。 逐字稿连接到步骤实践位，强调依次执行。 短暂回显拆解、预览、复刻、复用四阶段，作为回顾。 视频经过逐字稿进入流程理解，最后停在可按步骤实践的入口。",
+        "visual_structure": "sequence",
+        "structure_description": "视频经过逐字稿进入流程理解，最后停在可按步骤实践的入口。",
+        "visual_focus": "观众怎样照着视频复用流程：视频经过逐字稿进入流程理解，最后停在可按步骤实践的入口。",
+        "presentation": "presenter_safe",
+        "real_asset_need": "none",
+        "asset_description": "解释性示意，不能冒充真实软件操作、客户成果或性能证据。暗色工作面、白字与青黄重点；全屏关系图保留人物小窗，轻强调放实际留白；面部与现有字幕保护区需稳定帧复核。",
+        "importance": "high",
+        "evidence_need": "none",
+        "claim_status": "speaker_claim",
+        "fallback": {
+          "strategy": "generated_motion",
+          "description": "现有实现无法保留此关系时按概念生成；素材证据缺失时保留解释性示意或人物。"
+        },
+        "revision_reason": null
+      }
+    ]
+  },
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration_frames": 7253,
+  "theme": {
+    "accent": "#55dfce",
+    "ink": "#ffffff",
+    "panelInk": "#102027",
+    "panel": "#14212b"
+  },
+  "global": {
+    "fps": 30,
+    "duration": 241.76666666666668,
+    "caption_mode": "generated",
+    "presenter_default_position": "center"
+  },
+  "shots": [
+    {
+      "id": "breath-1",
+      "start_frame": 0,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-01",
+      "start_frame": 8,
+      "duration_frames": 133,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-01"
+      ],
+      "spoken_text": "哈喽，今天这个视频给大家分享一下，就是我最近一直在研究的 AI 剪辑。",
+      "primary_visual_job": "开场只点明主题：主题引入后标题轻退场，回到人物。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-1",
+      "visual_concept_ids": [
+        "visual-01"
+      ],
+      "visual_structure": "single_focus",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "visual_structure": "single_focus",
+        "required": true,
+        "content": {
+          "keyword": "AI 剪辑"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "keyword"
+          ]
+        }
+      },
+      "box": {
+        "left": 70,
+        "top": 180,
+        "width": 465,
+        "height": 500
+      },
+      "rhythm": {
+        "layout": "keyword",
+        "visual_intensity": "low",
+        "visual_subject": "mixed",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "keyword",
+        "title": "AI 剪辑",
+        "labels": [
+          "AI 剪辑"
+        ],
+        "no": 1,
+        "cues": [
+          {
+            "word_id": "36:6a525153-6471-4b97-80d4-1ac4ac453d26b2aef0a9-76d9-4cfa-acc5-168499c512df",
+            "description": "显出短题“AI 剪辑”，人物与字幕保持清晰。",
+            "text": " AI 剪辑。",
+            "start": 4.01,
+            "end": 4.73,
+            "frame": 112
+          }
+        ],
+        "provider": "talkcraft-adapted-timing",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-2",
+      "start_frame": 141,
+      "duration_frames": 2,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-02",
+      "start_frame": 143,
+      "duration_frames": 277,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-02"
+      ],
+      "spoken_text": "然后我也交付过一些客户，那么基本上都是按照他的一个对标的一个格式，然后我去给他。搭建一个模板，复刻，对标的内容。",
+      "primary_visual_job": "对标到客户模板：对标特征流入模板，模板输出同风格内容；示意标签常驻。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-2",
+      "visual_concept_ids": [
+        "visual-02"
+      ],
+      "visual_structure": "input_process_output",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "对标风格",
+            "模板母体",
+            "新内容"
+          ],
+          "title": "把对标风格变成可复用模板"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "pipeline"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "pipeline",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "pipeline",
+        "title": "把对标风格变成可复用模板",
+        "labels": [
+          "对标风格",
+          "模板母体",
+          "新内容"
+        ],
+        "details": [
+          "提取编辑语言",
+          "固定结构与动效",
+          "更换内容再输出"
+        ],
+        "no": 2,
+        "cues": [
+          {
+            "word_id": "36:7966e31d-3842-424e-9740-a0d85c8760dd6fc8c66f-1e24-4f35-b7cb-dfe0d46aacc2",
+            "description": "建立风格输入位，只画抽象特征，不冒充真实客户案例。",
+            "text": "对标",
+            "start": 9.153333,
+            "end": 9.593333,
+            "frame": 132
+          },
+          {
+            "word_id": "36:d3e3165a-d9b2-44e0-97af-68fe6087b1f8669a4f4c-20c9-44fb-b8de-b2cb38606318",
+            "description": "输入汇入模板母体。",
+            "text": "搭建一个模板，",
+            "start": 11.433333,
+            "end": 12.313333,
+            "frame": 200
+          },
+          {
+            "word_id": "36:69427848-285f-4d7c-9b17-c3de113120302cfb4498-01f2-4a95-a68f-3eb1f69ba498",
+            "description": "母体右侧出现新内容结果，连接线保持。",
+            "text": "复刻，",
+            "start": 12.566667,
+            "end": 13.026667,
+            "frame": 234
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-3",
+      "start_frame": 420,
+      "duration_frames": 9,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-03",
+      "start_frame": 429,
+      "duration_frames": 310,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-03"
+      ],
+      "spoken_text": "他自己可以选择数字人，或者是直接真人口播出镜，然后 AI 给他完成后续一切的步骤。那么我最开始自己使用下来，然后做了前面几个调整。",
+      "primary_visual_job": "拍摄方式与个人使用经历：人物完成数字人、真人及试用过程的交代。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "clean_presenter": true,
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "breath-4",
+      "start_frame": 739,
+      "duration_frames": 1,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-04",
+      "start_frame": 740,
+      "duration_frames": 169,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-04"
+      ],
+      "spoken_text": "第一个我是使用的 Hyperframes就是直接去生成 HTML 的动画效果，然后渲染出去。",
+      "primary_visual_job": "HTML 动画如何变成片段：代码经过渲染成为一个动画片段，路径保持连续。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-4",
+      "visual_concept_ids": [
+        "visual-04"
+      ],
+      "visual_structure": "input_process_output",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "HTML",
+            "渲染",
+            "动画片段"
+          ],
+          "title": "Hyperframes：HTML → 动画片段"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "code"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "code",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "code",
+        "title": "Hyperframes：HTML → 动画片段",
+        "labels": [
+          "HTML",
+          "渲染",
+          "动画片段"
+        ],
+        "no": 4,
+        "cues": [
+          {
+            "word_id": "36:da6e3ff7-d64e-49e6-acc5-db20df09b02fff10f1a2-a080-45e1-bef5-b6476bf753b2",
+            "description": "出现 Hyperframes 名称与简化文档，不用官网截图充当演示。",
+            "text": " Hyperframes",
+            "start": 25.813333,
+            "end": 26.843333,
+            "frame": 34
+          },
+          {
+            "word_id": "36:4729ab4e-33d6-4696-a596-a402afbf1fb3483ee587-1890-462b-a1b1-f568de367620",
+            "description": "文档变为可识别的代码结构。",
+            "text": " HTML",
+            "start": 28.216667,
+            "end": 28.786667,
+            "frame": 107
+          },
+          {
+            "word_id": "36:4729ab4e-33d6-4696-a596-a402afbf1fb3b6a1bfe4-320e-4556-ad15-32aed6a88b8c",
+            "description": "文档沿路径进入渲染位，右侧播放抽象动画预览。",
+            "text": "渲染",
+            "start": 29.716667,
+            "end": 29.986667,
+            "frame": 152
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-5",
+      "start_frame": 909,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-05",
+      "start_frame": 917,
+      "duration_frames": 345,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-05"
+      ],
+      "spoken_text": "然后后面我去用了Remotion Remotion就是更加组件化的一种设计，它能够把你生成的一个效果，然后持续复用，只用改里面的一些。参数就行了。",
+      "primary_visual_job": "组件母体与重复输出：母体不变、内容参数改变，派生不同内容的多个结果。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-5",
+      "visual_concept_ids": [
+        "visual-05"
+      ],
+      "visual_structure": "one_to_many",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "one_to_many",
+        "required": true,
+        "content": {
+          "labels": [
+            "组件母体",
+            "片段 A",
+            "片段 B",
+            "片段 C"
+          ],
+          "title": "Remotion：一套组件，多次复用"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "branch"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "branch",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "branch",
+        "title": "Remotion：一套组件，多次复用",
+        "labels": [
+          "组件母体",
+          "片段 A",
+          "片段 B",
+          "片段 C"
+        ],
+        "details": [
+          "结构 · 样式 · 动画",
+          "新文案",
+          "新参数",
+          "新内容"
+        ],
+        "no": 5,
+        "cues": [
+          {
+            "word_id": "36:a5ca6157-e772-4cc9-b744-6d931c1267be47e36e44-3e5f-44b2-8129-6ce65c54f3d7",
+            "description": "建立带 Remotion 标识的组件母体。",
+            "text": "Remotion",
+            "start": 32.816667,
+            "end": 33.206667,
+            "frame": 68
+          },
+          {
+            "word_id": "36:3f18b68d-af59-4aaf-b72b-9ef02afde68f62766d55-fb5a-4b27-965c-26f9b4b542e9",
+            "description": "从同一母体派生多个结果，连接不断开。",
+            "text": "持续复用，",
+            "start": 39.103333,
+            "end": 39.823333,
+            "frame": 256
+          },
+          {
+            "word_id": "36:699b5ae5-8360-4b3b-9945-16fdc19bbdb35d870423-8e38-4000-996e-9916a0800ba1",
+            "description": "只让参数输入变化，母体的结构与样式保持。",
+            "text": "参数",
+            "start": 41.2,
+            "end": 41.59,
+            "frame": 319
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-6",
+      "start_frame": 1262,
+      "duration_frames": 6,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-06",
+      "start_frame": 1268,
+      "duration_frames": 275,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-06"
+      ],
+      "spoken_text": "然后最后呢，我使用了 Cha t Cu t，Cha t Cu t 就是比较适用于口播剪辑这种类型，那么我最后是把它做了一个结合。",
+      "primary_visual_job": "ChatCut 与生成动画的交接：生成片段进入上层轨道，与口播并行，表现组合关系。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-6",
+      "visual_concept_ids": [
+        "visual-06"
+      ],
+      "visual_structure": "input_process_output",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "生成动画",
+            "画面轨",
+            "口播轨"
+          ],
+          "title": "ChatCut：口播与动画在时间线上相遇"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "tracks"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "tracks",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "tracks",
+        "title": "ChatCut：口播与动画在时间线上相遇",
+        "labels": [
+          "生成动画",
+          "画面轨",
+          "口播轨"
+        ],
+        "no": 6,
+        "cues": [
+          {
+            "word_id": "36:c6caccf7-80ca-497b-be73-079a651d4948439fbc26-62dd-43cb-aad4-b04adcc4ef9b",
+            "description": "建立标注 ChatCut 的解释性时间线。",
+            "text": " Cha t Cu t，",
+            "start": 44.803333,
+            "end": 45.523333,
+            "frame": 76
+          },
+          {
+            "word_id": "36:c6caccf7-80ca-497b-be73-079a651d4948e98d79dc-8fa1-4913-8457-8b01aca38a73",
+            "description": "聚焦口播轨道，不展示未经录屏证明的按钮。",
+            "text": "口播剪辑",
+            "start": 47.943333,
+            "end": 48.663333,
+            "frame": 170
+          },
+          {
+            "word_id": "36:c6caccf7-80ca-497b-be73-079a651d49487e7af664-0aa2-421c-977e-863f5c2875f2",
+            "description": "生成片段移入画面轨，与口播轨对齐。",
+            "text": "结合。",
+            "start": 51.183333,
+            "end": 51.463333,
+            "frame": 267
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-7",
+      "start_frame": 1543,
+      "duration_frames": 9,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-07",
+      "start_frame": 1552,
+      "duration_frames": 241,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-07"
+      ],
+      "spoken_text": "我现在交付给客户的主要是一个链路，就是我自己有一套剪辑流程，我这个剪辑流程就是里面有些规则啊，一些skill",
+      "primary_visual_job": "先交代整体链路：人物顺接第一步。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "clean_presenter": true,
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "breath-8",
+      "start_frame": 1793,
+      "duration_frames": 9,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-08",
+      "start_frame": 1802,
+      "duration_frames": 179,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-08"
+      ],
+      "spoken_text": "那么第一步肯就是拆解对标风格，就是对标他在这句话的时候，他用的什么样的效果？",
+      "primary_visual_job": "第一步：拆解风格对应关系：说到具体效果，连线从口播文字落到动画结果位。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-8",
+      "visual_concept_ids": [
+        "visual-08"
+      ],
+      "visual_structure": "single_focus",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "visual_structure": "single_focus",
+        "required": true,
+        "content": {
+          "labels": [
+            "这句话",
+            "这个效果"
+          ],
+          "title": "01 / 拆解风格"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "mapping"
+          ]
+        }
+      },
+      "box": {
+        "left": 70,
+        "top": 180,
+        "width": 465,
+        "height": 500
+      },
+      "rhythm": {
+        "layout": "mapping",
+        "visual_intensity": "medium",
+        "visual_subject": "mixed",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "mapping",
+        "title": "01 / 拆解风格",
+        "labels": [
+          "这句话",
+          "这个效果"
+        ],
+        "details": [
+          "先理解表达",
+          "再追踪画面"
+        ],
+        "no": 8,
+        "cues": [
+          {
+            "word_id": "36:81f1c9be-79cf-41b3-ade1-8c6edb2375861851e1cf-2c87-48e0-98c9-2057999bca96",
+            "description": "出现步骤标记和待分析的一句话。",
+            "text": "第一步",
+            "start": 60.4,
+            "end": 60.76,
+            "frame": 10
+          },
+          {
+            "word_id": "36:cb2c5fa6-3dc4-45ca-b560-cd96e60668e83cca327e-42b3-475a-8910-c46eeba491c7",
+            "description": "连线从这句话移动到效果位，焦点转移。",
+            "text": "什么样的效果？",
+            "start": 65.5,
+            "end": 66.06,
+            "frame": 163
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-9",
+      "start_frame": 1981,
+      "duration_frames": 1,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-09",
+      "start_frame": 1982,
+      "duration_frames": 176,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-09"
+      ],
+      "spoken_text": "比方说他讲到数字，是不是有一个数字增长，或者说数字下降这种数字的一种动画效果。",
+      "primary_visual_job": "数字变化的动画例子：增长与下降各自改变方向，回到对称的两个状态。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-9",
+      "visual_concept_ids": [
+        "visual-09"
+      ],
+      "visual_structure": "comparison",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "comparison",
+        "required": true,
+        "content": {
+          "labels": [
+            "增长",
+            "下降"
+          ],
+          "title": "同一个主体，不同变化方向"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "direction"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "direction",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "direction",
+        "title": "同一个主体，不同变化方向",
+        "labels": [
+          "增长",
+          "下降"
+        ],
+        "no": 9,
+        "cues": [
+          {
+            "word_id": "36:cb2c5fa6-3dc4-45ca-b560-cd96e60668e85b27d704-cf73-4f4b-9829-3e1e7305cd2f",
+            "description": "主体向上展开，出现向上箭头。",
+            "text": "数字增长，",
+            "start": 68.74,
+            "end": 69.49,
+            "frame": 80
+          },
+          {
+            "word_id": "36:cb2c5fa6-3dc4-45ca-b560-cd96e60668e8e62bf945-1b3f-4112-bf59-15d256afc0ce",
+            "description": "相同主体向下收拢，对照上升与下降。",
+            "text": "数字下降",
+            "start": 69.9,
+            "end": 70.54,
+            "frame": 115
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-10",
+      "start_frame": 2158,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-10",
+      "start_frame": 2166,
+      "duration_frames": 293,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-10"
+      ],
+      "spoken_text": "这个时候，那我第一个 skill 就是去拆解，怎么样让 AI 懂我们这对标账号。他每句话加的什么样的一个动画效果，这是第一步。",
+      "primary_visual_job": "让 AI 学会句子与画面的对应：文字展开为几行，逐行连接各自的动画类型，再汇成风格规则。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-10",
+      "visual_concept_ids": [
+        "visual-10"
+      ],
+      "visual_structure": "hierarchy",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "hierarchy",
+        "required": true,
+        "content": {
+          "labels": [
+            "口播表达",
+            "对应效果",
+            "风格规则"
+          ],
+          "title": "从一句话，整理成一组风格规则"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "rules"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "rules",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "rules",
+        "title": "从一句话，整理成一组风格规则",
+        "labels": [
+          "口播表达",
+          "对应效果",
+          "风格规则"
+        ],
+        "details": [
+          "出现关键词",
+          "关键词强调",
+          "表达 → 画面"
+        ],
+        "illustration": true,
+        "no": 10,
+        "cues": [
+          {
+            "word_id": "36:34b41191-7fd1-4ddb-8422-e080232001ae0848dffa-862d-447d-9662-6372709ccbf9",
+            "description": "从单行展开分析层。",
+            "text": "让 AI 懂",
+            "start": 76.033333,
+            "end": 77.193333,
+            "frame": 115
+          },
+          {
+            "word_id": "36:22715154-7633-4cf8-b761-cbd322adc0343c320892-58ff-4235-a75d-82be02a4d8a4",
+            "description": "注明分析对象是对标表达，不是客户成果。",
+            "text": "对标账号。",
+            "start": 77.566667,
+            "end": 78.536667,
+            "frame": 161
+          },
+          {
+            "word_id": "36:830a3aed-f45d-4afe-9973-842c6eff0c274a5591ae-98e3-4fb2-88ea-9cf828d05f9c",
+            "description": "逐行连接对应效果位，让对应关系可追踪。",
+            "text": "每句话",
+            "start": 79.156667,
+            "end": 79.756667,
+            "frame": 209
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-11",
+      "start_frame": 2459,
+      "duration_frames": 3,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-11",
+      "start_frame": 2462,
+      "duration_frames": 464,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-11"
+      ],
+      "spoken_text": "这一步做完之后，第二步，那么就是让 AI 根据。第一个拆解出来的对标效果，然后用我们的口播文案去输出一版。效果预览，那么这个效果预览，它是轻微的渲染，就是它只是一个截图，一个占位。",
+      "primary_visual_job": "第二步：口播和风格变成方案预览：两个输入汇合成布局预览，最后只保留线框截图与占位轮廓。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-11",
+      "visual_concept_ids": [
+        "visual-11"
+      ],
+      "visual_structure": "input_process_output",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "风格规则",
+            "口播文案",
+            "方案预览"
+          ],
+          "title": "02 / 先看方案，再做动画"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "preview"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "preview",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "preview",
+        "title": "02 / 先看方案，再做动画",
+        "labels": [
+          "风格规则",
+          "口播文案",
+          "方案预览"
+        ],
+        "no": 11,
+        "cues": [
+          {
+            "word_id": "36:830a3aed-f45d-4afe-9973-842c6eff0c27a21666e4-5ac2-4502-9db8-47052588f97a",
+            "description": "切入同一工作面，突出方案预览阶段。",
+            "text": "第二步，",
+            "start": 83.236667,
+            "end": 83.746667,
+            "frame": 35
+          },
+          {
+            "word_id": "36:5a39db41-49dd-489a-9c53-4fcab4f8eabcad1232f6-b9b8-4cf8-931a-9e756f21dbc0",
+            "description": "保留风格规则输入位。",
+            "text": "对标效果，",
+            "start": 87.773333,
+            "end": 88.366667,
+            "frame": 171
+          },
+          {
+            "word_id": "36:a86aa841-6920-4d0a-a4b2-ab6a75adfb3cca169545-dc36-4620-8c59-e9379a7f9b18",
+            "description": "加入文案输入，与规则共同进入处理位。",
+            "text": "口播文案",
+            "start": 89.406667,
+            "end": 90.056667,
+            "frame": 220
+          },
+          {
+            "word_id": "36:b1375b16-472c-4e7e-b394-201350bc587c41e7cf87-b2ac-4342-ad7e-ad0ca79f223b",
+            "description": "输出一个明确标注示意的布局预览。",
+            "text": "效果预览，",
+            "start": 91.466667,
+            "end": 92.266667,
+            "frame": 282
+          },
+          {
+            "word_id": "36:2dd68000-d468-482f-a49b-1f7809df6f815ddd355d-8aa1-416b-8abb-839bb67c5f8a",
+            "description": "预览冻结为静态线框，保持阅读时间。",
+            "text": "截图，",
+            "start": 96.616667,
+            "end": 96.896667,
+            "frame": 437
+          },
+          {
+            "word_id": "36:2dd68000-d468-482f-a49b-1f7809df6f818f137f9f-0be2-445e-9f2e-0033bca2ac53",
+            "description": "强调素材槽位为空，不展示虚构实拍或客户结果。",
+            "text": "占位。",
+            "start": 97.136667,
+            "end": 97.536667,
+            "frame": 452
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-12",
+      "start_frame": 2926,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-12",
+      "start_frame": 2934,
+      "duration_frames": 239,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-12"
+      ],
+      "spoken_text": "那么还有很多博主，他用比方说视频呃图片生成模型去生成这种效果，然后呢再交给 AI 去复刻，这是一个方法，",
+      "primary_visual_job": "图片模型方案的交接：概念画面被交给复刻端，保留两端对象和连接。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-12",
+      "visual_concept_ids": [
+        "visual-12"
+      ],
+      "visual_structure": "sequence",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "required": true,
+        "content": {
+          "labels": [
+            "图片模型",
+            "概念画面",
+            "复刻端"
+          ],
+          "title": "把概念画面交给 AI 复刻"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "handoff"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "handoff",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "handoff",
+        "title": "把概念画面交给 AI 复刻",
+        "labels": [
+          "图片模型",
+          "概念画面",
+          "复刻端"
+        ],
+        "no": 12,
+        "cues": [
+          {
+            "word_id": "36:86fa38ce-7a20-4ccd-b18b-e47a0c60a74313238d71-b81b-49ea-a61f-e6aaf1bcdd03",
+            "description": "只建立生成端与解释性画面。",
+            "text": "生成模型",
+            "start": 100.76,
+            "end": 101.34,
+            "frame": 89
+          },
+          {
+            "word_id": "36:90143492-3c9a-45e6-a0c2-3c82df51ca740dffd027-43bf-40cc-ba21-a30a389d00ca",
+            "description": "画面沿连接移动到复刻端，明确交接对象。",
+            "text": "交给 AI 去复刻，",
+            "start": 103.713333,
+            "end": 104.713333,
+            "frame": 177
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-13",
+      "start_frame": 3173,
+      "duration_frames": 2,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-13",
+      "start_frame": 3175,
+      "duration_frames": 182,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-13"
+      ],
+      "spoken_text": "但是对我来说，我是想要通过几次剪辑就能够让它完全沉淀出我的剪辑风格。",
+      "primary_visual_job": "讲述沉淀个人风格的动机：人物说完自己的取舍。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "clean_presenter": true,
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "breath-14",
+      "start_frame": 3357,
+      "duration_frames": 9,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-14",
+      "start_frame": 3366,
+      "duration_frames": 236,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-14"
+      ],
+      "spoken_text": "那么我的第二步是直接让他输出文字占位，然后我看一下觉得OK 之后第三步，那么就是复刻对标账号的动画组件。",
+      "primary_visual_job": "预览确认后再复刻：预览通过后路径亮起，焦点进入动画组件阶段。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-14",
+      "visual_concept_ids": [
+        "visual-14"
+      ],
+      "visual_structure": "decision_tree",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "decision_tree",
+        "required": true,
+        "content": {
+          "labels": [
+            "文字占位",
+            "检查方案",
+            "复刻组件"
+          ],
+          "title": "确认之后，再进入复刻"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "decision"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "decision",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "decision",
+        "title": "确认之后，再进入复刻",
+        "labels": [
+          "文字占位",
+          "检查方案",
+          "复刻组件"
+        ],
+        "no": 14,
+        "cues": [
+          {
+            "word_id": "36:0b551045-4f1c-4ce1-acfd-998bec8adb7e43b71a98-443b-4f80-b994-4a904e3ab1c3",
+            "description": "显出待检查的文字方案。",
+            "text": "文字占位，",
+            "start": 114.32,
+            "end": 115.16,
+            "frame": 64
+          },
+          {
+            "word_id": "36:2e9d924c-0b6c-4e61-96f6-5c1ba9be116861a93910-aa72-4b26-a6e1-ba3a08b22168",
+            "description": "确认标记落下，后续路径才亮。",
+            "text": "OK",
+            "start": 116.4,
+            "end": 116.82,
+            "frame": 126
+          },
+          {
+            "word_id": "36:2e9d924c-0b6c-4e61-96f6-5c1ba9be11682fe9b97e-9561-404d-8562-9f3c3b8f0116",
+            "description": "焦点沿路径进入“复刻组件”。",
+            "text": "第三步，",
+            "start": 117.16,
+            "end": 117.65,
+            "frame": 149
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-15",
+      "start_frame": 3602,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-15",
+      "start_frame": 3610,
+      "duration_frames": 307,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-15"
+      ],
+      "spoken_text": "我会先让他逐帧的去把它拆解出来，就是这个效果，他从第几帧出现到第几帧结束，然后这每一帧都要有效果，比方说他是跳入还是跳出。",
+      "primary_visual_job": "逐帧拆解入场与退场：游标从入场经过保持再到退场，主预览随状态变化。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-15",
+      "visual_concept_ids": [
+        "visual-15"
+      ],
+      "visual_structure": "timeline",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "timeline",
+        "required": true,
+        "content": {
+          "labels": [
+            "入场",
+            "停留",
+            "退场"
+          ],
+          "title": "03 / 逐帧看清入场与退场"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "timeline"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "timeline",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "timeline",
+        "title": "03 / 逐帧看清入场与退场",
+        "labels": [
+          "入场",
+          "停留",
+          "退场"
+        ],
+        "no": 15,
+        "cues": [
+          {
+            "word_id": "36:7c953e25-4427-4bea-b3fe-8fdda44c235ab119eafd-a2b6-4502-bb46-297f1fd06a25",
+            "description": "建立连续帧带和游标。",
+            "text": "逐帧",
+            "start": 121.966667,
+            "end": 122.436667,
+            "frame": 49
+          },
+          {
+            "word_id": "36:7c953e25-4427-4bea-b3fe-8fdda44c235a01a39c40-632e-460e-b90e-d72c80a8553f",
+            "description": "游标到入场节点，主体进入。",
+            "text": "第几帧出现",
+            "start": 125.006667,
+            "end": 125.846667,
+            "frame": 140
+          },
+          {
+            "word_id": "36:7c953e25-4427-4bea-b3fe-8fdda44c235ae78f1539-002f-479e-9648-88696750b67d",
+            "description": "游标到退场节点，主体离开；随后回看这两个端点。",
+            "text": "第几帧结束，",
+            "start": 126.166667,
+            "end": 126.936667,
+            "frame": 175
+          },
+          {
+            "word_id": "36:d57b4ef5-012c-48c5-8a70-68dc45d23bab20c6a664-d1a7-4fd5-ac2a-16df7b770b9e",
+            "description": "短暂重放入场状态。",
+            "text": "跳入",
+            "start": 129.433333,
+            "end": 129.873333,
+            "frame": 273
+          },
+          {
+            "word_id": "36:d57b4ef5-012c-48c5-8a70-68dc45d23bab1abc73d9-6521-4907-851d-e469af4a49c2",
+            "description": "短暂重放退场状态并收住。",
+            "text": "跳出。",
+            "start": 130.113333,
+            "end": 130.593333,
+            "frame": 293
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-16",
+      "start_frame": 3917,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-16",
+      "start_frame": 3925,
+      "duration_frames": 165,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-16"
+      ],
+      "spoken_text": "那么拿到这个逐帧的一个效果之后，交给 AI 去复刻。复刻完之后让它自己做审核。",
+      "primary_visual_job": "复刻后审核：焦点从复刻推进到审核，审核后保持待复核状态。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-16",
+      "visual_concept_ids": [
+        "visual-16"
+      ],
+      "visual_structure": "sequence",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "required": true,
+        "content": {
+          "labels": [
+            "复刻",
+            "审核"
+          ],
+          "title": "复刻 → 审核"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "mini"
+          ]
+        }
+      },
+      "box": {
+        "left": 70,
+        "top": 180,
+        "width": 465,
+        "height": 500
+      },
+      "rhythm": {
+        "layout": "mini",
+        "visual_intensity": "medium",
+        "visual_subject": "mixed",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "mini",
+        "title": "复刻 → 审核",
+        "labels": [
+          "复刻",
+          "审核"
+        ],
+        "details": [
+          "按方案制作",
+          "检查实现"
+        ],
+        "no": 16,
+        "cues": [
+          {
+            "word_id": "36:5d3f69a4-9b58-46fc-a292-a640d62bd0903e929203-f9ff-4818-bef0-b3f105c71411",
+            "description": "复刻状态亮起。",
+            "text": "交给 AI 去复刻。",
+            "start": 133.22,
+            "end": 134.27,
+            "frame": 72
+          },
+          {
+            "word_id": "36:5d3f69a4-9b58-46fc-a292-a640d62bd0905c6fe5b1-6ca3-4978-893c-55f26973642e",
+            "description": "焦点移向审核位，只表达开始审核。",
+            "text": "做审核。",
+            "start": 135.82,
+            "end": 136.34,
+            "frame": 150
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-17",
+      "start_frame": 4090,
+      "duration_frames": 7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-17",
+      "start_frame": 4097,
+      "duration_frames": 290,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-17"
+      ],
+      "spoken_text": "这个时候就模型越强越好。目前最好的模型 Claude 的模型，那么它的效果是最好的。当然，如果你没有 Clau de 的也没关系，都是挑你目前能用到最好的模型去复刻这个效果。",
+      "primary_visual_job": "模型选择的个人判断：人物顺接组件库，不显示模型排名。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "clean_presenter": true,
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "breath-18",
+      "start_frame": 4387,
+      "duration_frames": 7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-18",
+      "start_frame": 4394,
+      "duration_frames": 407,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-18"
+      ],
+      "spoken_text": "复刻之后，你可以让它创建一个组件库，那么这个组件库你要分类，比方说是卡片是什么样子的，比方说呃录屏的时候是什么样的一个效果？比方说你真人口播的时候是什么样的一个效果？这些把它分好类。",
+      "primary_visual_job": "组件库按使用场景归档：容器展开为卡片、录屏、真人三类，每类放入抽象组件并保留归属。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-18",
+      "visual_concept_ids": [
+        "visual-18"
+      ],
+      "visual_structure": "hierarchy",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "hierarchy",
+        "required": true,
+        "content": {
+          "labels": [
+            "组件库",
+            "卡片",
+            "录屏",
+            "真人口播"
+          ],
+          "title": "把组件按使用场景归档"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "library"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "library",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "library",
+        "title": "把组件按使用场景归档",
+        "labels": [
+          "组件库",
+          "卡片",
+          "录屏",
+          "真人口播"
+        ],
+        "no": 18,
+        "cues": [
+          {
+            "word_id": "36:0d2a37d5-5333-4bb5-a571-7ca07118e269687f8e48-22fa-4a12-896c-0c9c29602da3",
+            "description": "库容器建立。",
+            "text": "组件库，",
+            "start": 148.76,
+            "end": 149.44,
+            "frame": 69
+          },
+          {
+            "word_id": "36:0d2a37d5-5333-4bb5-a571-7ca07118e269b345510a-832d-43bf-8ad6-f5dc8392fa2c",
+            "description": "容器内部出现分类目录。",
+            "text": "分类，",
+            "start": 150.44,
+            "end": 150.8,
+            "frame": 119
+          },
+          {
+            "word_id": "36:0d2a37d5-5333-4bb5-a571-7ca07118e2691d2f4bbc-42b0-4558-9daf-1f59c15b133d",
+            "description": "第一个目录收纳抽象卡片组件。",
+            "text": "卡片",
+            "start": 152.04,
+            "end": 152.68,
+            "frame": 167
+          },
+          {
+            "word_id": "36:3d726125-338b-4e0b-b5a0-03d518b5bd7470488181-8676-475b-9c79-bf2299085927",
+            "description": "第二个目录展示屏幕内容组件的缩略轮廓。",
+            "text": "录屏",
+            "start": 154.3,
+            "end": 154.74,
+            "frame": 235
+          },
+          {
+            "word_id": "36:3d726125-338b-4e0b-b5a0-03d518b5bd744186eaa4-70ef-4dd6-bbfa-6400e10420bd",
+            "description": "第三个目录展示人物安全区域组件。",
+            "text": "真人口播",
+            "start": 156.74,
+            "end": 157.34,
+            "frame": 308
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-19",
+      "start_frame": 4801,
+      "duration_frames": 9,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-19",
+      "start_frame": 4810,
+      "duration_frames": 131,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-19"
+      ],
+      "spoken_text": "然后其实就后面你就甩给他一个视频，他就能够产出。",
+      "primary_visual_job": "新视频调用已有库：新片段经过库调用成为包装片段，突出既有库。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-19",
+      "visual_concept_ids": [
+        "visual-19"
+      ],
+      "visual_structure": "input_process_output",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "input_process_output",
+        "required": true,
+        "content": {
+          "labels": [
+            "新口播",
+            "已有组件库",
+            "包装片段"
+          ],
+          "title": "新视频调用已有组件库"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "reuse"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "reuse",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "reuse",
+        "title": "新视频调用已有组件库",
+        "labels": [
+          "新口播",
+          "已有组件库",
+          "包装片段"
+        ],
+        "no": 19,
+        "cues": [
+          {
+            "word_id": "36:f3f17f7c-4b46-48db-a29f-8756743b3f0aaade6455-21b9-47ae-85e5-429de7f427e6",
+            "description": "新口播进入已有库，不重新搭库。",
+            "text": "甩给他一个视频，",
+            "start": 162.683333,
+            "end": 163.673333,
+            "frame": 70
+          },
+          {
+            "word_id": "36:f3f17f7c-4b46-48db-a29f-8756743b3f0a42cc0148-6f9c-4896-8ba5-dc1399de14e0",
+            "description": "显示标注示意的包装片段结果。",
+            "text": "产出。",
+            "start": 164.163333,
+            "end": 164.7,
+            "frame": 115
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "scene-20",
+      "start_frame": 4941,
+      "duration_frames": 311,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-20"
+      ],
+      "spoken_text": "但是这里有个很核心的一个观点，就是我在给一个客户交付的时候，我发现一个能够提高你，动画包装效果的一能力，就是你在做好前置铺垫，就是前面那些效果之后。",
+      "primary_visual_job": "引出交付中发现的经验：人物提出先做好前置准备。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "clean_presenter": true,
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "breath-21",
+      "start_frame": 5252,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-21",
+      "start_frame": 5260,
+      "duration_frames": 309,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-21"
+      ],
+      "spoken_text": "你让 AI根据你原来的口播文案，让它给你输出一篇更适合加动画包装效果的口播文案。它不会改变你整个内容的意思，而且它可以让你的条理变得更加有序。",
+      "primary_visual_job": "意思不变，文案更适合动画：原文被分成更清楚的结构段，语义连接保留，右侧出现可绑定的画面槽位。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-21",
+      "visual_concept_ids": [
+        "visual-21"
+      ],
+      "visual_structure": "before_after",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "before_after",
+        "required": true,
+        "content": {
+          "labels": [
+            "原口播文案",
+            "整理后的文案",
+            "画面槽位"
+          ],
+          "title": "核心意思保留，结构更清楚"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "rewrite"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "rewrite",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "rewrite",
+        "title": "核心意思保留，结构更清楚",
+        "labels": [
+          "原口播文案",
+          "整理后的文案",
+          "画面槽位"
+        ],
+        "no": 21,
+        "cues": [
+          {
+            "word_id": "36:209b057f-e0b0-45f7-8630-6f81b53b8d332469c151-7820-4d9c-abd5-5a21b1371e67",
+            "description": "建立原文主体。",
+            "text": "原来的口播文案，",
+            "start": 176.76,
+            "end": 177.8,
+            "frame": 43
+          },
+          {
+            "word_id": "36:209b057f-e0b0-45f7-8630-6f81b53b8d3399f8a314-85ce-42d3-8a03-4a000ff81e63",
+            "description": "同一文案重新分段并对齐画面槽位。",
+            "text": "更适合加动画包装",
+            "start": 178.8,
+            "end": 179.96,
+            "frame": 104
+          },
+          {
+            "word_id": "36:d84fe1c6-1174-472c-b72b-55586963a1c98c7a6c08-171d-4e69-86ec-62eaf6c306a2",
+            "description": "两侧的核心含义连接保持，标出“意思保留”。",
+            "text": "不会改变",
+            "start": 181.18,
+            "end": 181.7,
+            "frame": 175
+          },
+          {
+            "word_id": "36:d84fe1c6-1174-472c-b72b-55586963a1c9285480a2-5865-4b70-a385-7b086dbc3b75",
+            "description": "焦点移到分段与层级，突出更有序。",
+            "text": "条理",
+            "start": 184.42,
+            "end": 184.78,
+            "frame": 273
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-22",
+      "start_frame": 5569,
+      "duration_frames": 1,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-22",
+      "start_frame": 5570,
+      "duration_frames": 299,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-22"
+      ],
+      "spoken_text": "这这是我给一个客户交付的时候，客户有一个问题，然后呢他告诉我，我就突然想到，我们是不是可以所有步骤都交给 AI 来，然后让 AI 来给我们返回这样的一个结果。",
+      "primary_visual_job": "客户问题启发了流程调整：人物说明自己的思考，不放虚构客户对话。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "clean_presenter": true,
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "breath-23",
+      "start_frame": 5869,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-23",
+      "start_frame": 5877,
+      "duration_frames": 234,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-23"
+      ],
+      "spoken_text": "后面确实，如果这样子去做之后，你的剪辑的效率会提高很多。而且它消耗的 token 特别少。为什么消耗的少？",
+      "primary_visual_job": "效率与消耗的定性结果：先出现“提高效率”，再转成“减少重复生成”，不显示量化刻度。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-23",
+      "visual_concept_ids": [
+        "visual-23"
+      ],
+      "visual_structure": "single_focus",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "emphasis",
+        "subtype": "keyword",
+        "visual_structure": "single_focus",
+        "required": true,
+        "content": {
+          "labels": [
+            "提高效率",
+            "减少重复生成"
+          ],
+          "title": "减少重复制作"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "keywordSwap"
+          ]
+        }
+      },
+      "box": {
+        "left": 70,
+        "top": 180,
+        "width": 465,
+        "height": 500
+      },
+      "rhythm": {
+        "layout": "keywordSwap",
+        "visual_intensity": "low",
+        "visual_subject": "mixed",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "keywordSwap",
+        "title": "减少重复制作",
+        "labels": [
+          "提高效率",
+          "减少重复生成"
+        ],
+        "no": 23,
+        "cues": [
+          {
+            "word_id": "36:f0887826-dee5-4ec2-b93a-40545aeb958bc18ca7b8-68e6-4958-b724-b4987e057ece",
+            "description": "短标识“提高效率”进入实际留白。",
+            "text": "效率会提高",
+            "start": 199.58,
+            "end": 200.42,
+            "frame": 110
+          },
+          {
+            "word_id": "36:b44440e5-014c-4634-b451-f52963ad73e00fca94f0-3e4c-4df8-a332-2e0fc118d051",
+            "description": "替换为“减少重复生成”，保留为讲述者的经验解释。",
+            "text": "消耗的 token 特别少。",
+            "start": 201.666667,
+            "end": 202.706667,
+            "frame": 173
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-24",
+      "start_frame": 6111,
+      "duration_frames": 1,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-24",
+      "start_frame": 6112,
+      "duration_frames": 218,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-24"
+      ],
+      "spoken_text": "就是因为你其实把其他的风格这些东西已经固定了。AI 它相当于只是去改里面的参数，因为是用的 Remotion 去制作的。",
+      "primary_visual_job": "固定风格，只替换参数：参数替换推动结果变化，框架、字体和运动规则持续不变。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-24",
+      "visual_concept_ids": [
+        "visual-24"
+      ],
+      "visual_structure": "one_to_many",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "one_to_many",
+        "required": true,
+        "content": {
+          "labels": [
+            "固定框架",
+            "文案 A",
+            "文案 B",
+            "文案 C"
+          ],
+          "title": "固定风格，只替换内容参数"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "parameters"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "parameters",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "parameters",
+        "title": "固定风格，只替换内容参数",
+        "labels": [
+          "固定框架",
+          "文案 A",
+          "文案 B",
+          "文案 C"
+        ],
+        "no": 24,
+        "cues": [
+          {
+            "word_id": "36:27c1065c-5291-46b5-80af-29bdf40473c644475817-c1e0-464b-8db7-b6a4425674fc",
+            "description": "框架锁定，突出不变部分。",
+            "text": "风格",
+            "start": 205.5,
+            "end": 205.74,
+            "frame": 53
+          },
+          {
+            "word_id": "36:27c1065c-5291-46b5-80af-29bdf40473c619e5b66c-9210-4fed-a44e-706e06a5ca87",
+            "description": "参数卡换入，结果内容随之变化。",
+            "text": "改里面的参数，",
+            "start": 208.22,
+            "end": 209.11,
+            "frame": 135
+          },
+          {
+            "word_id": "36:27c1065c-5291-46b5-80af-29bdf40473c6ff8ba7a5-1790-4a9f-bad9-5b14c5b3391a",
+            "description": "只补工具标识，不改变母体关系。",
+            "text": " Remotion",
+            "start": 209.94,
+            "end": 210.28,
+            "frame": 186
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-25",
+      "start_frame": 6330,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-25",
+      "start_frame": 6338,
+      "duration_frames": 222,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-25"
+      ],
+      "spoken_text": "但是现在很多博主讲，他们用 Claude 的那个 Opus 5.5，就不用再去做这些东西，就直接给他一句话让成片。",
+      "primary_visual_job": "一句话成片的另一种做法：人物准备说明局限。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "clean_presenter": true,
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-26",
+      "start_frame": 6560,
+      "duration_frames": 190,
+      "presentation_mode": "full_screen",
+      "source_segment_ids": [
+        "meaning-26"
+      ],
+      "spoken_text": "但是这个东西它有一个不稳定性，并且 token 的消耗量非常大，而且很多人用不上Opus 5.5。",
+      "primary_visual_job": "另一种做法的三个局限：依次显出稳定性、消耗、可用性三个维度，均不打分。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 1510,
+            "top": 585,
+            "width": 330,
+            "height": 220
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-26",
+      "visual_concept_ids": [
+        "visual-26"
+      ],
+      "visual_structure": "comparison",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "comparison",
+        "subtype": "misconception",
+        "visual_structure": "comparison",
+        "required": true,
+        "content": {
+          "labels": [
+            "稳定性",
+            "消耗",
+            "可用性"
+          ],
+          "title": "一句话生成：需要考虑的三个维度"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "dimensions"
+          ]
+        }
+      },
+      "rhythm": {
+        "layout": "dimensions",
+        "visual_intensity": "medium",
+        "visual_subject": "diagram",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "dimensions",
+        "title": "一句话生成：需要考虑的三个维度",
+        "labels": [
+          "稳定性",
+          "消耗",
+          "可用性"
+        ],
+        "details": [
+          "需反复检查",
+          "生成成本",
+          "访问条件"
+        ],
+        "no": 26,
+        "cues": [
+          {
+            "word_id": "36:cc9a2968-2a2f-401f-b7ab-c3625b814dbb27c69450-40bc-4bd0-9b70-a83928558730",
+            "description": "稳定性维度显出“需反复检查”。",
+            "text": "不稳定性，",
+            "start": 220.206667,
+            "end": 220.806667,
+            "frame": 46
+          },
+          {
+            "word_id": "36:cc9a2968-2a2f-401f-b7ab-c3625b814dbb64d5b1ce-a659-42de-af98-0986a6676bea",
+            "description": "消耗维度显出“生成成本”。",
+            "text": "消耗量非常大，",
+            "start": 221.846667,
+            "end": 222.646667,
+            "frame": 95
+          },
+          {
+            "word_id": "36:cc9a2968-2a2f-401f-b7ab-c3625b814dbb6957ac4b-ef32-4e8d-989a-5906a8c07517",
+            "description": "可用性维度显出“访问条件”。",
+            "text": "用不上",
+            "start": 223.246667,
+            "end": 223.766667,
+            "frame": 137
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-27",
+      "start_frame": 6750,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-27",
+      "start_frame": 6758,
+      "duration_frames": 407,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-27"
+      ],
+      "spoken_text": "那么，这就是我今天想讲的，就是如果大家有 AI 剪辑这种需求，你可以把我这个视频下载下来，然后告诉 AI 让它提取逐字稿之后。然后来帮你进行完成。那么我自己也是有一套完整的流程。",
+      "primary_visual_job": "观众怎样照着视频复用流程：视频经过逐字稿进入流程理解，最后停在可按步骤实践的入口。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "source_edit_event_id": "edit-27",
+      "visual_concept_ids": [
+        "visual-27"
+      ],
+      "visual_structure": "sequence",
+      "importance": "high",
+      "primary_motion_request": {
+        "family": "process",
+        "subtype": "process-map",
+        "visual_structure": "sequence",
+        "required": true,
+        "content": {
+          "labels": [
+            "下载视频",
+            "提取逐字稿",
+            "按步骤实践"
+          ],
+          "title": "照着这条视频，按步骤实践"
+        },
+        "constraints": {
+          "input_types_required": [
+            "text"
+          ],
+          "input_types_optional": [],
+          "media_required": []
+        },
+        "visual_intent": {
+          "energy": "medium",
+          "density": "low",
+          "preferred_layouts": [
+            "recap"
+          ]
+        }
+      },
+      "box": {
+        "left": 70,
+        "top": 180,
+        "width": 465,
+        "height": 500
+      },
+      "rhythm": {
+        "layout": "recap",
+        "visual_intensity": "medium",
+        "visual_subject": "mixed",
+        "motion_strength": "medium",
+        "information_change": "new_state",
+        "visualizable": true,
+        "annotation_source": "shotbook"
+      },
+      "implementation_notes": "保持已批准的关系与动作顺序；每次变化由剪后字词触发。全屏关系图保留右侧口播小窗，底部20%留给原字幕。",
+      "production": {
+        "kind": "recap",
+        "title": "照着这条视频，按步骤实践",
+        "labels": [
+          "下载视频",
+          "提取逐字稿",
+          "按步骤实践"
+        ],
+        "details": [
+          "拆解",
+          "预览",
+          "复刻",
+          "复用"
+        ],
+        "no": 27,
+        "cues": [
+          {
+            "word_id": "36:dc0c7cd8-dcb6-4e51-bf86-f4c644fe5e8f3d158510-f3f6-40f5-9e34-b2226477c2b4",
+            "description": "视频移到本地输入位。",
+            "text": "下载下来，",
+            "start": 230.766667,
+            "end": 231.526667,
+            "frame": 165
+          },
+          {
+            "word_id": "36:dc0c7cd8-dcb6-4e51-bf86-f4c644fe5e8f01a61093-5c92-4360-bc27-68c267347438",
+            "description": "输入转成文字，路径亮到逐字稿节点。",
+            "text": "提取逐字稿",
+            "start": 232.926667,
+            "end": 233.766667,
+            "frame": 230
+          },
+          {
+            "word_id": "36:970d1043-9d55-4691-be2c-9a3a01d71b57d0dc847a-cce2-4026-9403-5ce7094c4783",
+            "description": "逐字稿连接到步骤实践位，强调依次执行。",
+            "text": "帮你进行完成。",
+            "start": 234.773333,
+            "end": 235.953333,
+            "frame": 285
+          },
+          {
+            "word_id": "36:ee93300d-37a5-43f7-85a2-840a929d1d0d94c696e4-049e-4288-88ec-6eac6a340f97",
+            "description": "短暂回显拆解、预览、复刻、复用四阶段，作为回顾。",
+            "text": "完整的流程。",
+            "start": 237.96,
+            "end": 238.84,
+            "frame": 381
+          }
+        ],
+        "provider": "generated-motion",
+        "exit_frames": 4
+      }
+    },
+    {
+      "id": "breath-28",
+      "start_frame": 7165,
+      "duration_frames": 8,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "scene-28",
+      "start_frame": 7173,
+      "duration_frames": 73,
+      "presentation_mode": "presenter_safe",
+      "source_segment_ids": [
+        "meaning-28"
+      ],
+      "spoken_text": "我们下期分享另外的东西，谢谢大家。",
+      "primary_visual_job": "自然收尾：人物道谢，画面自然结束。",
+      "safe_zones": {
+        "presenter": {
+          "enabled": true,
+          "region": {
+            "left": 550,
+            "top": 80,
+            "width": 850,
+            "height": 750
+          }
+        },
+        "captions": {
+          "enabled": true,
+          "bottom_reserve_pct": 20
+        }
+      },
+      "asset_slots": [],
+      "supporting_layers": {
+        "sfx": {
+          "enabled": false
+        },
+        "camera": {
+          "enabled": false
+        },
+        "transition_in": {
+          "enabled": false,
+          "mode": "hard_cut"
+        },
+        "transition_out": {
+          "enabled": false,
+          "mode": "hard_cut"
+        }
+      },
+      "review": {
+        "checks": {
+          "face_safety": "pending",
+          "subtitle_clearance": "pending",
+          "clipping": "pending",
+          "contrast": "pending",
+          "semantic_fit": "pending"
+        }
+      },
+      "clean_presenter": true,
+      "visual_structure": "clean_presenter"
+    },
+    {
+      "id": "breath-tail",
+      "start_frame": 7246,
+      "duration_frames": 7,
+      "clean_presenter": true,
+      "presentation_mode": "presenter_safe",
+      "visual_structure": "clean_presenter"
+    }
+  ],
+  "base_timeline": {
+    "canvas": {
+      "height": 1080,
+      "width": 1920
+    },
+    "durationFrames": 7253,
+    "editor": {
+      "activeTimelineId": "6664305a-06af-45b6-b5e7-daf69cde44d2",
+      "asOf": "turn-start",
+      "selectedItemIds": [],
+      "trackLocks": [
+        {
+          "hidden": false,
+          "id": "963bff49-7dd0-4997-8a71-c30b1b00a33d",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "4af3d8f5-7b5d-4a20-b976-1273f6d991ee",
+          "locked": false,
+          "muted": false
+        }
+      ]
+    },
+    "fps": 30,
+    "id": "6664305a-06af-45b6-b5e7-daf69cde44d2",
+    "name": "Timeline",
+    "range": {
+      "fromFrame": 0,
+      "toFrame": 7253
+    }
+  },
+  "rhythm_review": {
+    "timeline_digest": "94a1f7e52c4d8e080571bd064e70a97a1e8534c7e79af604c8afb2fb5432191b",
+    "decisions": []
+  }
+}

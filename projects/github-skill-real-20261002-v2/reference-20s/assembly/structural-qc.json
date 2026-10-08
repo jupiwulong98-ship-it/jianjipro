@@ -1,0 +1,73 @@
+{
+  "before": {
+    "canvas": {
+      "height": 1080,
+      "width": 1920
+    },
+    "durationFrames": 5994,
+    "editor": {
+      "activeTimelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "asOf": "turn-start",
+      "selectedItemIds": [],
+      "trackLocks": [
+        {
+          "hidden": false,
+          "id": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+          "locked": false,
+          "muted": false
+        }
+      ]
+    },
+    "fps": 30,
+    "id": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+    "name": "Timeline",
+    "range": {
+      "fromFrame": 0,
+      "toFrame": 5994
+    }
+  },
+  "after": {
+    "canvas": {
+      "height": 1080,
+      "width": 1920
+    },
+    "durationFrames": 5994,
+    "editor": {
+      "activeTimelineId": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+      "asOf": "turn-start",
+      "selectedItemIds": [],
+      "trackLocks": [
+        {
+          "hidden": false,
+          "id": "31075d0c-3ded-4b55-ba43-f48b4bb1fbbc",
+          "locked": false,
+          "muted": false
+        },
+        {
+          "hidden": false,
+          "id": "d79fba96-1b9d-4e51-9bf9-68a54fda9042",
+          "locked": false,
+          "muted": false
+        }
+      ]
+    },
+    "fps": 30,
+    "id": "1bb570e0-800e-43ee-a8f6-38bc56f7871b",
+    "name": "Timeline",
+    "range": {
+      "fromFrame": 0,
+      "toFrame": 5994
+    }
+  },
+  "unchangedOriginalItems": 85,
+  "originalItemsIdentical": true,
+  "sourceTrackIdentical": true,
+  "laterItemsIdentical": true,
+  "allCaptionCardsIdentical": true
+}

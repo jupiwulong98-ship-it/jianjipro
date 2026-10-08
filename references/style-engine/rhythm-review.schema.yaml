@@ -1,0 +1,42 @@
+version: 0.1
+project_id: string
+gate: B|D
+stage: shotbook|rendered
+status: pass|needs_revision|needs_visual_review|pass_with_context
+scope: string
+timeline_digest: string
+policy: {}
+duration: 0.0
+visual_timeline:
+  - shot_id: string
+    start: 0.0
+    end: 1.0
+    presentation_mode: presenter_safe|full_screen
+    visual_structure: string
+    primary_family: null
+    layout: string
+    visual_intensity: low|medium|high
+    visual_subject: presenter|screen|real_asset|diagram|mixed
+    motion_strength: none|low|medium|high
+    information_change: none|text_only|new_state
+    visualizable: false
+    importance: 0.0
+    event_ids: []
+    annotation_source: shotbook|historical_implementation|sampled_visual_observation
+windows: []
+issues:
+  - issue_id: string
+    start: 0.0
+    end: 1.0
+    severity: low|medium|high
+    type: long_static_presenter|repeated_layout|repeated_screen_layout|mechanical_cycle|uneven_density|repeated_structure|overpacked|timeline_gap|insufficient_rhythm_metadata
+    shot_ids: []
+    event_ids: []
+    reason: string
+    suggestion: string
+    evidence: shotbook_annotation|sampled_visual_annotation
+rules:
+  - "启发式阈值是提示，不是每隔固定秒数强制切换。"
+  - "有问题要修订，或在Shotbook.rhythm_review.decisions记录accepted_context与具体理由；缺失标注和时间轴空缺不可豁免。"
+  - "timeline_digest绑定完整时间轴与policy；计划变更后必须复查。"
+  - "无规划问题不等于成片通过；Gate D抽帧始终先标needs_visual_review。"

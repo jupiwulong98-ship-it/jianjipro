@@ -1,0 +1,19 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"duplicated\":{\"active\":false,\"compositionHeight\":1080,\"compositionWidth\":1920,\"hidden\":false,\"id\":\"05b3e47747\",\"name\":\"备份｜前20秒TalkCraft装配前｜2026-10-03\"},\"sourceId\":\"1bb570e080\"}"
+    }
+  ],
+  "structuredContent": {
+    "duplicated": {
+      "active": false,
+      "compositionHeight": 1080,
+      "compositionWidth": 1920,
+      "hidden": false,
+      "id": "05b3e47747",
+      "name": "备份｜前20秒TalkCraft装配前｜2026-10-03"
+    },
+    "sourceId": "1bb570e080"
+  }
+}

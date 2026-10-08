@@ -1,0 +1,508 @@
+[
+  {
+    "item": {
+      "asset": {
+        "id": "d4d6e259a5",
+        "name": "meaning-02",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 95,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "329545ff84",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 79,
+        "top": 0,
+        "width": 1920,
+        "assetId": "d4d6e259a5",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "6980c1d30a",
+        "name": "meaning-04",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 95,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "786bafb96a",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 403,
+        "top": 0,
+        "width": 1920,
+        "assetId": "6980c1d30a",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "4802d59363",
+        "name": "meaning-05",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 143,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "7c1154747d",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 631,
+        "top": 0,
+        "width": 1920,
+        "assetId": "4802d59363",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "475664f9cc",
+        "name": "meaning-07",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 226,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "d7843aa1ef",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 1088,
+        "top": 0,
+        "width": 1920,
+        "assetId": "475664f9cc",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "2dca50ad53",
+        "name": "meaning-10",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 283,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "1f272c7c08",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 1582,
+        "top": 0,
+        "width": 1920,
+        "assetId": "2dca50ad53",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "46a24c7159",
+        "name": "meaning-11",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 328,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "75fb6589e1",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 1872,
+        "top": 0,
+        "width": 1920,
+        "assetId": "46a24c7159",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "57d0c5e2e9",
+        "name": "meaning-12",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 97,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "f4a8f2dfd0",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 2208,
+        "top": 0,
+        "width": 1920,
+        "assetId": "57d0c5e2e9",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "fe9702fee5",
+        "name": "meaning-13",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 251,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "d7a2c50d3e",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 2313,
+        "top": 0,
+        "width": 1920,
+        "assetId": "fe9702fee5",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "e3582275cf",
+        "name": "meaning-15",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 292,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "d99bed3de5",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 2741,
+        "top": 0,
+        "width": 1920,
+        "assetId": "e3582275cf",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "8e9c0259bf",
+        "name": "meaning-17",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 372,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "a8c1140fa0",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 3157,
+        "top": 0,
+        "width": 1920,
+        "assetId": "8e9c0259bf",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  },
+  {
+    "item": {
+      "asset": {
+        "id": "1c3bccd8e2",
+        "name": "meaning-20",
+        "type": "video"
+      },
+      "attachedEffects": [],
+      "item": {
+        "blendingMode": "normal",
+        "durationFrames": 132,
+        "fadeInDurationFrames": 0,
+        "fadeOutDurationFrames": 0,
+        "height": 1080,
+        "id": "57fc13db4d",
+        "left": 0,
+        "opacity": 1,
+        "rotation": 0,
+        "startFrame": 4073,
+        "top": 0,
+        "width": 1920,
+        "assetId": "1c3bccd8e2",
+        "borderRadius": 0,
+        "cropBottom": 0,
+        "cropLeft": 0,
+        "cropRight": 0,
+        "cropTop": 0,
+        "keepAspectRatio": true,
+        "audioPitchMode": "preservePitch",
+        "playbackRate": 1,
+        "sourceIn": 0,
+        "type": "video",
+        "decibelAdjustment": -60
+      },
+      "timeline": {
+        "id": "3669cee6df",
+        "name": "Timeline"
+      },
+      "track": {
+        "id": "9bd8760cfe",
+        "name": "TalkCraft 动效 · 11段",
+        "trackType": "video"
+      },
+      "transitions": []
+    }
+  }
+]

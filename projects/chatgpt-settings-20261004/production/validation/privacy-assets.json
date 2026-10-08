@@ -1,0 +1,124 @@
+{
+  "status": "pass",
+  "assets": [
+    {
+      "id": "menu",
+      "source": "Tabbit ChatGPT live screenshot",
+      "crop": [
+        30,
+        995,
+        640,
+        1285
+      ],
+      "opaque_masks": [],
+      "source_pixels_sha256": "a20b54940e854a2de3596676a26e576d1f0d5b0f5c58f2547d5039cce6b81f56",
+      "sha256": "00f969969c296cefa88edc63d938eaeff428ca0fbdca72136bf9a7b73da3607f",
+      "file": "assets/screen-menu.png",
+      "privacy_check": "pass"
+    },
+    {
+      "id": "personalization",
+      "source": "Tabbit ChatGPT live screenshot",
+      "crop": [
+        35,
+        245,
+        2480,
+        1320
+      ],
+      "opaque_masks": [],
+      "source_pixels_sha256": "ea97969f162ddfb4114cd82c23682840c197326502cea6ac0cce5057ef754269",
+      "sha256": "cd0c7d62c1639f1166282a90224eed89eb9ce69797c380202d487a1e3ef837a4",
+      "file": "assets/screen-personalization.png",
+      "privacy_check": "pass"
+    },
+    {
+      "id": "style",
+      "source": "Tabbit ChatGPT live screenshot",
+      "crop": [
+        35,
+        245,
+        2480,
+        1470
+      ],
+      "opaque_masks": [],
+      "source_pixels_sha256": "4d57e10c592b12a8f2153b37556de19b5ba09dc86808f8d975c25e0ef5f9acec",
+      "sha256": "86aa8ff8b6d139d5e26a6110be5db4e4c598c82184705dc7d360749ea2c019ae",
+      "file": "assets/screen-style.png",
+      "privacy_check": "pass"
+    },
+    {
+      "id": "style-options",
+      "source": "Tabbit ChatGPT live screenshot",
+      "crop": [
+        35,
+        245,
+        2480,
+        1550
+      ],
+      "opaque_masks": [],
+      "source_pixels_sha256": "053c7455a9711b7164a283ebaffc3ff16d2fa27305d7530722ba514087d02be5",
+      "sha256": "64afcdd6635bfd43fac38ab901d850f573b09f712796b18bce69dafb4f08ddb3",
+      "file": "assets/screen-style-options.png",
+      "privacy_check": "pass"
+    },
+    {
+      "id": "instructions",
+      "source": "Tabbit ChatGPT live screenshot",
+      "crop": [
+        915,
+        380,
+        2480,
+        1120
+      ],
+      "opaque_masks": [
+        [
+          928,
+          540,
+          2470,
+          1120
+        ]
+      ],
+      "source_pixels_sha256": "bdedb3ae685a2298104c8e9d523169c255f2731053c52774b84552a08c35acef",
+      "sha256": "0974125f452f93a99fbb63ef696155b7d2c18a05d693d4736b7cb23ce4b78fa4",
+      "file": "assets/screen-instructions.png",
+      "privacy_check": "pass"
+    },
+    {
+      "id": "memory",
+      "source": "Tabbit ChatGPT live screenshot",
+      "crop": [
+        670,
+        315,
+        2025,
+        1545
+      ],
+      "opaque_masks": [
+        [
+          680,
+          425,
+          2020,
+          1545
+        ]
+      ],
+      "source_pixels_sha256": "8b12b675e3775c0c4a09f6264d0f4688dd1b719c9b4046d0c1753534e73926c6",
+      "sha256": "f17accc5245e4d675a646b92eede041b1d215f8f903fec88bb1ffc1e9a55c7aa",
+      "file": "assets/screen-memory.png",
+      "privacy_check": "pass"
+    },
+    {
+      "id": "data",
+      "source": "Tabbit ChatGPT live screenshot",
+      "crop": [
+        35,
+        245,
+        2480,
+        1310
+      ],
+      "opaque_masks": [],
+      "source_pixels_sha256": "371de4d36c35239e8c0f65d6e859605b1d141e3c2e13573c33380b35c738f90e",
+      "sha256": "638ad55e58a508b0812caebab2568129c596026f661f0a37c00d0c856a129105",
+      "file": "assets/screen-data.png",
+      "privacy_check": "pass"
+    }
+  ]
+}

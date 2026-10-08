@@ -1,0 +1,13 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';import {execFileSync} from 'node:child_process';
+const p=path.dirname(fileURLToPath(import.meta.url));const hash=value=>crypto.createHash('sha256').update(value).digest('hex');
+const plan=JSON.parse(fs.readFileSync(p+'/reference-plan.json'));const project=JSON.parse(fs.readFileSync(p+'/../visual-planning.json'));
+const video=p+'/reference.mp4';
+const probe=JSON.parse(execFileSync('ffprobe',['-v','error','-show_entries','stream=codec_name,codec_type,width,height,r_frame_rate,nb_frames:format=duration','-of','json',video],{encoding:'utf8'}));
+const v=probe.streams.find(s=>s.codec_type==='video'),a=probe.streams.find(s=>s.codec_type==='audio');
+if(v?.width!==1920||v?.height!==1080||v?.r_frame_rate!=='30/1'||Number(v?.nb_frames)!==600||!a||Math.abs(Number(probe.format.duration)-20)>.06)throw Error('参考输出格式或时长不正确');
+const scenes=project.scenes.filter(s=>plan.scene_ids.includes(s.id));
+if(JSON.stringify(scenes)!==JSON.stringify(plan.scenes))throw Error('当前策划与渲染样段不一致');
+const preview={status:'candidate',transcript_revision:plan.transcript_revision,scene_ids:plan.scene_ids,scene_hash:hash(JSON.stringify(scenes)),video_sha256:hash(fs.readFileSync(video))};
+fs.writeFileSync(p+'/preview.json',JSON.stringify(preview,null,2)+'\n');
+fs.writeFileSync(p+'/validation/media-verification.json',JSON.stringify({status:'technical_pass',probe,video_sha256:preview.video_sha256,stable_frame_qc:'primary_agent_pass',dynamic_listening_review:'pending_user_review',native_chatcut_export:false,assembled_to_chatcut:false},null,2)+'\n');
+console.log('Published candidate metadata: 600 frames, 1920×1080, 30 fps, source speech.');

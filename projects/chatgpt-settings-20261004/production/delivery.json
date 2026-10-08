@@ -1,0 +1,338 @@
+{
+  "project_id": "chatgpt-settings-20261004",
+  "status": "candidate_not_human_accepted",
+  "source_hash": "71a2080608a783566e493956ec75e36e7ecc59126803c448c31e144172b39e73",
+  "clips": [
+    {
+      "id": "meaning-02",
+      "n": 2,
+      "start": 2.633333,
+      "end": 5.793333,
+      "start_frame": 79,
+      "duration_frames": 95,
+      "mode": "presenter_safe",
+      "card": "talkcraft:rack-focus-pair",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        2.633333,
+        5.193333
+      ],
+      "structure": "comparison",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-02.mov",
+      "alpha": true,
+      "audio": false,
+      "sha256": "5b1a6751cafd504324564aa84b2e2ac0ec3cab9166ae895c74a659af82ea5eed",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-04",
+      "n": 4,
+      "start": 13.433333,
+      "end": 16.6,
+      "start_frame": 403,
+      "duration_frames": 95,
+      "mode": "presenter_safe",
+      "card": "talkcraft:number-counter",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        13.433333
+      ],
+      "structure": "single_focus",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-04.mov",
+      "alpha": true,
+      "audio": false,
+      "sha256": "ffe43ac1a9572508148315f3ce6b1ba51a5be1eacf8f769a3d0eb7221a65181b",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-05",
+      "n": 5,
+      "start": 21.033333,
+      "end": 25.793333,
+      "start_frame": 631,
+      "duration_frames": 143,
+      "mode": "full_screen",
+      "card": "talkcraft:focus-dim-spotlight",
+      "asset": "style-screen",
+      "status": "candidate",
+      "cue_seconds": [
+        21.033333,
+        23.633333,
+        25.113333
+      ],
+      "structure": "sequence",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-05.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "f323cf6b24eafb68ff41f6c2d76887d489b89ba1a710d881be20431499e43235",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-07",
+      "n": 7,
+      "start": 36.253333,
+      "end": 43.793333,
+      "start_frame": 1088,
+      "duration_frames": 226,
+      "mode": "full_screen",
+      "card": "talkcraft:rack-focus-pair",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        36.253333,
+        37.86,
+        39.233333,
+        42.913333
+      ],
+      "structure": "comparison",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-07.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "991a1b95e61de1548944117d1b860a42c15d13a5434e8955b0169cf22dd973cc",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-10",
+      "n": 10,
+      "start": 52.733333,
+      "end": 62.16,
+      "start_frame": 1582,
+      "duration_frames": 283,
+      "mode": "full_screen",
+      "card": "talkcraft:error-retype",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        53.773333,
+        55.066667,
+        60.16
+      ],
+      "structure": "before_after",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-10.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "033cbf42a7985d385816c7a2438e687092a413039e41341d7817da2bce8368d2",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-11",
+      "n": 11,
+      "start": 62.4,
+      "end": 73.346667,
+      "start_frame": 1872,
+      "duration_frames": 328,
+      "mode": "full_screen",
+      "card": "talkcraft:focus-dim-spotlight",
+      "asset": "instructions-screen",
+      "status": "candidate",
+      "cue_seconds": [
+        63.933333,
+        66.066667,
+        68.366667,
+        71.066667
+      ],
+      "structure": "sequence",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-11.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "8703cddf686ee1279d60535243e8c8a27a04f2cacc0c77ce554bb50d0b991f0c",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-12",
+      "n": 12,
+      "start": 73.6,
+      "end": 76.826667,
+      "start_frame": 2208,
+      "duration_frames": 97,
+      "mode": "full_screen",
+      "card": "talkcraft:host-card-glass-board",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        73.6,
+        75.386667,
+        76.466667
+      ],
+      "structure": "one_to_many",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-12.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "b1c9735ff972d3de2ab0b99de726f27e34122c730a56c427cd86a4d95b700ea5",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-13",
+      "n": 13,
+      "start": 77.1,
+      "end": 85.48,
+      "start_frame": 2313,
+      "duration_frames": 251,
+      "mode": "full_screen",
+      "card": "talkcraft:focus-dim-spotlight",
+      "asset": "memory-screen",
+      "status": "candidate",
+      "cue_seconds": [
+        81.04,
+        82.356667,
+        84.64
+      ],
+      "structure": "sequence",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-13.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "6703f4c12ea6cba0ba35e7fed3684a3ebf65ef9ed7a5e5ebdb6f3bab985aa5ae",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-15",
+      "n": 15,
+      "start": 91.366667,
+      "end": 101.106667,
+      "start_frame": 2741,
+      "duration_frames": 292,
+      "mode": "full_screen",
+      "card": "talkcraft:strike-and-replace",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        92.833333,
+        95.12,
+        97.368796,
+        100.426667
+      ],
+      "structure": "before_after",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-15.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "827dc6c53e98a855c08dbc897ef122af362e678d3a032dc2c598a5cba7479f6a",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-17",
+      "n": 17,
+      "start": 105.233333,
+      "end": 117.646667,
+      "start_frame": 3157,
+      "duration_frames": 372,
+      "mode": "full_screen",
+      "card": "talkcraft:focus-dim-spotlight",
+      "asset": "data-screen",
+      "status": "candidate",
+      "cue_seconds": [
+        108.333333,
+        109.433333,
+        113.766667,
+        116.726667
+      ],
+      "structure": "sequence",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-17.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "118bb16b1bfe32bb7cfe1dfa3a7b1be112ae1861a89b94a4c7e954d650485103",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    },
+    {
+      "id": "meaning-20",
+      "n": 20,
+      "start": 135.766667,
+      "end": 140.173333,
+      "start_frame": 4073,
+      "duration_frames": 132,
+      "mode": "full_screen",
+      "card": "talkcraft:rack-focus-pair",
+      "asset": null,
+      "status": "candidate",
+      "cue_seconds": [
+        135.766667,
+        137.973333,
+        139.213333
+      ],
+      "structure": "comparison",
+      "file": "/Users/jupiwulong/视频制作/jianjipro/projects/chatgpt-settings-20261004/production/renders/meaning-20.mp4",
+      "alpha": false,
+      "audio": false,
+      "sha256": "0f9e36e0841621ff1716477a294c4f3540957fa30af1038032589c4318aa35c7",
+      "source_in_frames": 0,
+      "placement": {
+        "left": 0,
+        "top": 0,
+        "width": 1920,
+        "height": 1080
+      },
+      "verified_media": true
+    }
+  ]
+}

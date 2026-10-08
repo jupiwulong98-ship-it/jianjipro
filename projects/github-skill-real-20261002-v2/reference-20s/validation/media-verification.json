@@ -1,0 +1,62 @@
+{
+  "status": "technical_pass",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1920,
+        "height": 1080,
+        "r_frame_rate": "30/1",
+        "nb_frames": "600",
+        "side_data_list": [
+          {}
+        ]
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_frames": "940"
+      }
+    ],
+    "format": {
+      "duration": "20.053333"
+    }
+  },
+  "video_sha256": "0931895a075694d86e2809dc19846151d6c7ba3bc90dcf53818624c8fbc410a0",
+  "stable_frame_qc": "primary_agent_pass",
+  "dynamic_listening_review": "pending_user_review",
+  "native_chatcut_export": false,
+  "assembled_to_chatcut": true,
+  "full_decode": "pass",
+  "decoded_audio_unchanged": true,
+  "scope_seconds": [
+    0,
+    20
+  ],
+  "later_plan_unchanged": true,
+  "source_base_unchanged": true,
+  "existing_tests": {
+    "frontend": 13,
+    "backend": 17,
+    "failures": 0
+  },
+  "production_build": "pass",
+  "template_provenance": "template-selection.json",
+  "user_visual_acceptance": "用户确认前20秒参考：不错，把这20秒效果放入chatcut时间线",
+  "browser_playback": {
+    "status": "pass",
+    "ended": true,
+    "current_time": 20.053333,
+    "duration": 20.053333,
+    "ready_state": 4,
+    "media_error": null,
+    "video_hash_matches_preview": true,
+    "proof": "validation/workbench-talkcraft-preview.jpg",
+    "workbench_url": "http://127.0.0.1:5173/#planning"
+  },
+  "chatcut_assembly_record": "assembly/chatcut-assembly-qc.json"
+}

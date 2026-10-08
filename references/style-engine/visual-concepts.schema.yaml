@@ -1,0 +1,29 @@
+version: 0.1
+project_id: string
+source_video: string
+semantic_map_source: string
+concepts:
+  - event_id: visual-event-id
+    source_segment_ids: []
+    start: 0.0
+    end: 1.0
+    spoken_text: ""
+    meaning: ""
+    visual_concept: ""
+    visual_structure: not_equal|sequence|parallel|center_branches|one_to_many|before_after|input_process_output|comparison|hierarchy|timeline|decision_tree|single_focus|custom
+    structure_description: ""
+    visual_focus: ""
+    presentation: presenter_safe|full_screen|either
+    real_asset_need: required|recommended|none
+    asset_description: ""
+    importance: critical|high|normal
+    evidence_need: none|supporting|required
+    claim_status: not_applicable|speaker_claim|owner_confirmed|sourced|estimate
+    fallback:
+      strategy: generated_motion|simplify_preserving_structure|clean_presenter|block_until_assets
+      description: ""
+    revision_reason: null
+rules:
+  - "先构思、后模板检索；概念不得包含card_id、family、subtype或talkcraft引用。"
+  - "不需要包装的段落不强制生成concept；保留干净口播。"
+  - "JSON执行载体同字段；代码验证关系标识、必填字段、时间及跨层一致性。"

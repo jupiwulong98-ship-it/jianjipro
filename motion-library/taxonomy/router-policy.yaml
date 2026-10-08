@@ -1,6 +1,7 @@
 version: 0.2
 
 selection_order:
+  - visual_concept_structure
   - input_types
   - family
   - subtype
@@ -12,6 +13,7 @@ selection_order:
   - repetition_and_layout_rhythm
 
 hard_filters:
+  - "visual_structure必须被候选visual_structures支持；不得改写画面概念"
   - "required input_types必须由Shotbook/Asset Workspace满足"
   - "family必须匹配motion_request.family"
   - "subtype优先精确匹配；无精确候选时才允许同family降级"
@@ -38,7 +40,7 @@ selection:
   min_score: 0.55
   max_consecutive_same_primary_structure: 2
   if_no_candidate:
-    - "尝试同family的fallback subtype"
+    - "仅在保留visual_structure时尝试同family的fallback subtype"
     - "尝试参数化/升级候选卡"
     - "返回generated_motion_request"
   never:

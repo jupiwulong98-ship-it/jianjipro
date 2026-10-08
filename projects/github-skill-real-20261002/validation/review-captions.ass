@@ -1,0 +1,103 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1280
+PlayResY: 720
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,PingFang SC,29,&H00F8FAFC,&H00F8FAFC,&H00000000,&H70070E1C,-1,0,0,0,100,100,0,0,3,1,0,2,90,90,36,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.25,0:00:03.21,Default,,0,0,0,,我之前分享的 Codex Skill 的那条视频，
+Dialogue: 0,0:00:03.21,0:00:04.81,Default,,0,0,0,,已经有十多万人看过了。
+Dialogue: 0,0:00:05.07,0:00:07.71,Default,,0,0,0,,但其实那几个 Skill 都不是我私藏的。
+Dialogue: 0,0:00:07.97,0:00:10.65,Default,,0,0,0,,它们基本上都能够在 GitHub 上面找到。
+Dialogue: 0,0:00:10.87,0:00:13.27,Default,,0,0,0,,所以这期我不继续给你推荐 Skill 了。
+Dialogue: 0,0:00:13.53,0:00:15.53,Default,,0,0,0,,我直接教你一个更有用的方法。
+Dialogue: 0,0:00:15.77,0:00:17.00,Default,,0,0,0,,以后你缺什么工具，
+Dialogue: 0,0:00:17.01,0:00:19.89,Default,,0,0,0,,不需要去找别人的分享或者等别人去分享，
+Dialogue: 0,0:00:20.17,0:00:22.45,Default,,0,0,0,,直接让 AI 去 GitHub 上面帮你找。
+Dialogue: 0,0:00:22.67,0:00:24.27,Default,,0,0,0,,比如你想找 Codex、
+Dialogue: 0,0:00:24.31,0:00:25.85,Default,,0,0,0,,Skill、 PPT 工具。
+Dialogue: 0,0:00:26.10,0:00:27.19,Default,,0,0,0,,视频处理工具，
+Dialogue: 0,0:00:27.47,0:00:29.63,Default,,0,0,0,,甚至一个非常具体的一个小功能，
+Dialogue: 0,0:00:29.87,0:00:31.07,Default,,0,0,0,,都可以用这个方法。
+Dialogue: 0,0:00:31.30,0:00:33.22,Default,,0,0,0,,先跟大家讲一下 GitHub 是什么？
+Dialogue: 0,0:00:33.47,0:00:35.88,Default,,0,0,0,,你可以把它理解成一个巨大的项目仓库。
+Dialogue: 0,0:00:36.13,0:00:38.59,Default,,0,0,0,,很多开发者会把自己做的 AI 工具、
+Dialogue: 0,0:00:38.87,0:00:39.75,Default,,0,0,0,,开源项目、
+Dialogue: 0,0:00:39.79,0:00:40.57,Default,,0,0,0,,学习资料
+Dialogue: 0,0:00:40.80,0:00:42.44,Default,,0,0,0,,还有各种 Skill 都放到里面。
+Dialogue: 0,0:00:42.70,0:00:46.18,Default,,0,0,0,,但是其实普通人不用学 GitHub 这么复杂。
+Dialogue: 0,0:00:46.43,0:00:48.03,Default,,0,0,0,,你只需要会三件事情，
+Dialogue: 0,0:00:48.27,0:00:49.79,Default,,0,0,0,,会搜，会看。
+Dialogue: 0,0:00:50.03,0:00:50.99,Default,,0,0,0,,会复制链接。
+Dialogue: 0,0:00:51.27,0:00:52.58,Default,,0,0,0,,先打开 GitHub
+Dialogue: 0,0:00:52.80,0:00:56.06,Default,,0,0,0,,没有账号的话点击右上角的 Sign up
+Dialogue: 0,0:00:56.33,0:00:58.77,Default,,0,0,0,,按照提示注册一个免费账号就可以了。
+Dialogue: 0,0:00:59.00,0:01:01.33,Default,,0,0,0,,接下来我们直接看顶部这个搜索框。
+Dialogue: 0,0:01:01.60,0:01:05.46,Default,,0,0,0,,比如我要找 Codex 能用的 Skill 可以先搜 Codex Skills。
+Dialogue: 0,0:01:05.70,0:01:07.64,Default,,0,0,0,,想找 PPT 相关的，
+Dialogue: 0,0:01:07.64,0:01:08.80,Default,,0,0,0,,就搜 PPT Skill。
+Dialogue: 0,0:01:09.07,0:01:11.75,Default,,0,0,0,,搜索之后记得点击 Repositories。
+Dialogue: 0,0:01:11.97,0:01:13.86,Default,,0,0,0,,Repositories 就是项目仓库。
+Dialogue: 0,0:01:14.13,0:01:16.29,Default,,0,0,0,,这里再教你一个非常好用的小技巧。
+Dialogue: 0,0:01:16.53,0:01:18.52,Default,,0,0,0,,如果你不是想找某一个工具。
+Dialogue: 0,0:01:18.77,0:01:21.29,Default,,0,0,0,,而是想一次性找一批同类型的项目，
+Dialogue: 0,0:01:21.53,0:01:23.37,Default,,0,0,0,,可以在关键词面前加。
+Dialogue: 0,0:01:23.63,0:01:24.44,Default,,0,0,0,,Awesome
+Dialogue: 0,0:01:24.70,0:01:26.98,Default,,0,0,0,,比如 Awesome Codex Skills。
+Dialogue: 0,0:01:27.23,0:01:28.84,Default,,0,0,0,,你经常会看到这种项目，
+Dialogue: 0,0:01:29.07,0:01:32.99,Default,,0,0,0,,里面已经帮你整理好了几十个甚至上百个同类型的工具。
+Dialogue: 0,0:01:33.27,0:01:35.07,Default,,0,0,0,,看到感兴趣的你再点进去。
+Dialogue: 0,0:01:35.30,0:01:37.52,Default,,0,0,0,,然后看搜索旁边结果这个 star
+Dialogue: 0,0:01:37.77,0:01:42.61,Default,,0,0,0,,你可以简单的把它理解成项目在 GitHub 上有多少人关注和收藏。
+Dialogue: 0,0:01:42.87,0:01:44.03,Default,,0,0,0,,可以先按照
+Dialogue: 0,0:01:44.27,0:01:45.64,Default,,0,0,0,,Most stars 排序，
+Dialogue: 0,0:01:45.87,0:01:47.63,Default,,0,0,0,,看看关注度比较高的项目。
+Dialogue: 0,0:01:47.87,0:01:48.98,Default,,0,0,0,,但值得注意，
+Dialogue: 0,0:01:48.98,0:01:51.42,Default,,0,0,0,,Star 多只代表关注的人多，
+Dialogue: 0,0:01:51.43,0:01:53.11,Default,,0,0,0,,不代表它一定适合你。
+Dialogue: 0,0:01:53.37,0:01:56.41,Default,,0,0,0,,所以真正重要的是点进去看它的。
+Dialogue: 0,0:01:56.67,0:01:58.16,Default,,0,0,0,,README。
+Dialogue: 0,0:01:58.39,0:02:00.91,Default,,0,0,0,,README 就是这个项目的说明书。
+Dialogue: 0,0:02:01.17,0:02:02.50,Default,,0,0,0,,英文不用全部看懂，
+Dialogue: 0,0:02:02.57,0:02:03.73,Default,,0,0,0,,你先找三个东西。
+Dialogue: 0,0:02:03.97,0:02:04.73,Default,,0,0,0,,它是干什么的？
+Dialogue: 0,0:02:04.73,0:02:05.69,Default,,0,0,0,,效果是什么样的？
+Dialogue: 0,0:02:05.69,0:02:07.17,Default,,0,0,0,,然后怎么安装和使用？
+Dialogue: 0,0:02:07.43,0:02:09.20,Default,,0,0,0,,看不懂的我们直接让浏览器翻译，
+Dialogue: 0,0:02:09.43,0:02:12.91,Default,,0,0,0,,然后或者把项目链接直接丢给 AI 让它告诉你这个项目是干什么的。
+Dialogue: 0,0:02:13.17,0:02:14.88,Default,,0,0,0,,确定这个项目可能有用之后，
+Dialogue: 0,0:02:14.93,0:02:16.45,Default,,0,0,0,,我们复制浏览器的地址，
+Dialogue: 0,0:02:16.70,0:02:18.13,Default,,0,0,0,,你的 GitHub 的链接，
+Dialogue: 0,0:02:18.37,0:02:19.80,Default,,0,0,0,,然后直接发给 Codex
+Dialogue: 0,0:02:19.80,0:02:25.07,Default,,0,0,0,,我们只需要告诉 Codex 帮我检查一下这个项目能不能够在 Codex 里面进行使用。
+Dialogue: 0,0:02:25.07,0:02:26.07,Default,,0,0,0,,需要安装什么，
+Dialogue: 0,0:02:26.07,0:02:27.15,Default,,0,0,0,,有没有额外的费用，
+Dialogue: 0,0:02:27.27,0:02:28.05,Default,,0,0,0,,如果可以，
+Dialogue: 0,0:02:28.15,0:02:29.33,Default,,0,0,0,,帮我安装好。
+Dialogue: 0,0:02:29.33,0:02:31.55,Default,,0,0,0,,用一个简单的例子告诉我怎样去使用。
+Dialogue: 0,0:02:31.80,0:02:33.08,Default,,0,0,0,,到这里其实还没有结束，
+Dialogue: 0,0:02:33.32,0:02:36.00,Default,,0,0,0,,安装成功不代表这个工具真的就有用，
+Dialogue: 0,0:02:36.27,0:02:38.48,Default,,0,0,0,,一定要让 Codex 再实际跑一次。
+Dialogue: 0,0:02:38.70,0:02:41.98,Default,,0,0,0,,比如这是一个 PPT Skill 你就把一段内容丢给它。
+Dialogue: 0,0:02:42.23,0:02:44.15,Default,,0,0,0,,让它生成一份真正的 PPT。
+Dialogue: 0,0:02:44.40,0:02:45.51,Default,,0,0,0,,这是一个视频工具，
+Dialogue: 0,0:02:45.52,0:02:47.16,Default,,0,0,0,,你就真正让它处理一次视频。
+Dialogue: 0,0:02:47.43,0:02:48.36,Default,,0,0,0,,跑出来了之后，
+Dialogue: 0,0:02:48.36,0:02:49.59,Default,,0,0,0,,而且结果符合了要求，
+Dialogue: 0,0:02:49.60,0:02:51.12,Default,,0,0,0,,这才是你需要的一个工具。
+Dialogue: 0,0:02:51.37,0:02:53.12,Default,,0,0,0,,所以以后你再找 AI 工具，
+Dialogue: 0,0:02:53.12,0:02:54.01,Default,,0,0,0,,记住这个流程。
+Dialogue: 0,0:02:54.27,0:02:55.58,Default,,0,0,0,,先搜需求，
+Dialogue: 0,0:02:55.69,0:02:56.44,Default,,0,0,0,,找到项目，
+Dialogue: 0,0:02:56.45,0:02:57.78,Default,,0,0,0,,然后看它的项目介绍，
+Dialogue: 0,0:02:58.00,0:02:58.96,Default,,0,0,0,,然后复制链接，
+Dialogue: 0,0:02:58.96,0:03:00.42,Default,,0,0,0,,把它发送给你的 AI。
+Dialogue: 0,0:03:00.67,0:03:02.37,Default,,0,0,0,,去检查、安装和测试。
+Dialogue: 0,0:03:02.63,0:03:04.37,Default,,0,0,0,,学会了这个之后，
+Dialogue: 0,0:03:04.37,0:03:06.37,Default,,0,0,0,,你就不用天天等别人告诉你，
+Dialogue: 0,0:03:06.61,0:03:10.21,Default,,0,0,0,,最近又出了一个新的 Skill 你完全可以自己去找。
+Dialogue: 0,0:03:10.29,0:03:14.72,Default,,0,0,0,,OK， 我们今天又学了 GitHub 那么我是乌龙，
+Dialogue: 0,0:03:14.74,0:03:16.32,Default,,0,0,0,,分享 AI 工具和实操。
+Dialogue: 0,0:03:16.57,0:03:19.57,Default,,0,0,0,,和大家一起把 AI 真正用进工作和项目里。

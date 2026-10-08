@@ -1,0 +1,286 @@
+{
+  "version": "0.1",
+  "project_id": "chatgpt-settings-20261004",
+  "source_video": "ChatCut cc3387e2-a642-406a-acea-d4ec922e0740",
+  "semantic_map_source": "semantic-map.json",
+  "transcript_revision": "bfa9253e69f717c0058472d3fd44feb33f868165da73ea4f437de2bf070765ed",
+  "style_profile_source": "../../styles/ai-talkinghead-editorial-v0.1/style-profile.yaml",
+  "status": "draft_for_review",
+  "concepts": [
+    {
+      "event_id": "visual-02",
+      "source_segment_ids": [
+        "meaning-02"
+      ],
+      "start": 2.633333,
+      "end": 5.793333,
+      "spoken_text": "同样的模型，差距全在这些不起眼的设置里面。",
+      "meaning": "看懂相同模型仍有不同设置这一对照维度",
+      "visual_concept": "开始：人物和字幕保持；左侧小区域放两行相同的模型标识，暂不增加结果评分。 变化：两行模型标识保持一致，用同一括线说明模型相同。；下方仅显出两个不同的设置状态，焦点从模型移向设置，收在“设置不同”。 结束：只保留模型相同、设置不同的关系，下一段回到人物。",
+      "visual_structure": "comparison",
+      "structure_description": "难点：观众容易把体验差异全部归因于模型；画面补充：固定模型标识，只改变设置这一维度。不做好用度评分，也不把“全在设置”扩大成排除其他因素的证据。",
+      "visual_focus": "看懂相同模型仍有不同设置这一对照维度",
+      "presentation": "presenter_safe",
+      "real_asset_need": "none",
+      "asset_description": "抽象关系示意，无性能数值；短文字置于左侧留白，面部和底部字幕保护；需稳定帧再核对实际边界。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "simplify_preserving_structure",
+        "description": "减少辅助文字和装饰，保留同一主体及原有关系；仍不能清楚表达时回本层修订并重新审阅。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-04",
+      "source_segment_ids": [
+        "meaning-04"
+      ],
+      "start": 13.433333,
+      "end": 20.773333,
+      "spoken_text": "95% 的人从来都没有打开过这些设置按钮。尤其是最后一个，很多人用了几年都不知道。现在直接跟着我改。",
+      "meaning": "在讲到95%时同步强调口播数字，再返回人物操作引导",
+      "visual_concept": "开始：左侧留白显示0%，人物和原字幕保持。 变化：从0%滚动到95%，在这一个字词的口播区间内落定；保持短暂阅读后退出。 结束：95%落定后退出，后半段回人物交代最后一项并引导操作。",
+      "visual_structure": "single_focus",
+      "structure_description": "用户在meaning-04明确要求0%滚到95%，并在本轮授权制作；数字只作为原话强调，内部证据记录仍为未核实的口播主张。",
+      "visual_focus": "在讲到95%时同步强调口播数字，再返回人物操作引导",
+      "presentation": "presenter_safe",
+      "real_asset_need": "none",
+      "asset_description": "仅使用口播数字，不增加统计图、调查来源或认证图标；人物和字幕保护。",
+      "importance": "normal",
+      "evidence_need": "supporting",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "simplify_preserving_structure",
+        "description": "减少辅助文字和装饰，保留同一主体及原有关系；仍不能清楚表达时回本层修订并重新审阅。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-05",
+      "source_segment_ids": [
+        "meaning-05"
+      ],
+      "start": 21.033333,
+      "end": 25.793333,
+      "spoken_text": "第一个，我们先改 GPT 的说话风格。打开设置，找到个性化。",
+      "meaning": "找到设置与个性化的位置，不把说话风格当成模型切换",
+      "visual_concept": "开始：真实 ChatGPT 中文界面作为主画面；左上角短标识“1 / 说话风格”，先保留账户菜单到设置的上下文。 变化：显示第1项标识，界面大面积可读，人物暂时退出主画面。；聚焦真实菜单中的设置入口，随后进入设置。；定位真实个性化选项，再停留在基础风格与语气区域；不提前自动修改用户设置。 结束：个性化页面的风格区域保持可读，下一段回人物解释选择。",
+      "visual_structure": "sequence",
+      "structure_description": "难点：只听“找到个性化”无法知道按钮在哪里；画面补充：保留菜单和目标页面的连续位置关系，每次只圈当前目标。借鉴 R02 顺序接力，具体名称以真实界面为准。",
+      "visual_focus": "找到设置与个性化的位置，不把说话风格当成模型切换",
+      "presentation": "full_screen",
+      "real_asset_need": "required",
+      "asset_description": "必需真实当前中文界面录屏/截图：设置→个性化→基础风格与语气。素材未采集；账户名、邮箱、历史会话等私人内容先裁切或像素遮盖。短章标识与底部字幕分区。",
+      "importance": "high",
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "fallback": {
+        "strategy": "block_until_assets",
+        "description": "真实界面缺失时暂停本段界面制作，原口播保留；不得用伪界面冒充操作证据。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-07",
+      "source_segment_ids": [
+        "meaning-07"
+      ],
+      "start": 32.866667,
+      "end": 43.793333,
+      "spoken_text": "为什么？因为很多人最烦的一点就是，你说什么它都先夸你两句。例如，你的想法很棒。这个方向非常有潜力。听着很舒服，但是对你解决问题没有任何帮助。",
+      "meaning": "看懂赞美回复没有推进问题处理这一落差",
+      "visual_concept": "开始：先让“为什么”落在人物上；说到夸赞再切入标有“口播例子”的简洁对话示意，问题栏保持“待解决”。 变化：建立一条赞美回复与一栏待解决问题，问题状态暂时不变化。；逐句显出这一短回复，不补写真实用户问题或假聊天记录。；第二句替换第一句成为阅读焦点，保持问题栏没有推进。；将焦点移到仍待解决的问题栏，标“没有具体建议”，赞美回复退为次要。 结束：一个具体落差：有夸赞、问题仍待解决；下句回人物给原则。",
+      "visual_structure": "comparison",
+      "structure_description": "难点：舒服和有效的区别是结果，不是两种颜色；画面补充：赞美回复变化而问题状态不动，转折时让未推进的结果成为焦点。一个对话对象足够，不放双屏全文。",
+      "visual_focus": "看懂赞美回复没有推进问题处理这一落差",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "仅用口播原有两句例子构成解释性对话，持续标“口播例子”；不是实际模型输出，不冒充真实截图。主内容在上部，字幕在底部原安全区。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "simplify_preserving_structure",
+        "description": "减少辅助文字和装饰，保留同一主体及原有关系；仍不能清楚表达时回本层修订并重新审阅。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-10",
+      "source_segment_ids": [
+        "meaning-10"
+      ],
+      "start": 52.733333,
+      "end": 62.16,
+      "spoken_text": "不要每打开一个新会话就告诉它，简洁一点。不要说废话，如果我错了就直接指出来。这些要求一次性写进指令里面。",
+      "meaning": "分清每次新会话重说和保存一次指令两种做法",
+      "visual_concept": "开始：解释性示意里一张新会话页在左，三条要求暂为空；右侧保留一个固定指令容器，标“示意”。 变化：左侧出现新会话，每次提醒的三条要求依次叠在同一页。；第一条要求填入当前会话，后续原文“不要说废话”“直接指出来”逐句填入同一区域，阅读焦点随字幕推进。；把同一组要求从临时会话移入固定指令容器，左侧重复输入淡出。 结束：固定指令容器成为下一段示例的同一主体，保持位置不变。",
+      "visual_structure": "before_after",
+      "structure_description": "难点：观众可能知道指令内容却不懂保存位置与重复提醒的差别；画面补充：同一组要求从临时会话转入固定容器，用位置和持久状态说明“一次写好”，与下一段维持同一文档主体。",
+      "visual_focus": "分清每次新会话重说和保存一次指令两种做法",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，不画真实产品按钮；三条文字只来自本段口播。复杂内容全屏，字幕安全区不叠文字。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "not_applicable",
+      "fallback": {
+        "strategy": "simplify_preserving_structure",
+        "description": "减少辅助文字和装饰，保留同一主体及原有关系；仍不能清楚表达时回本层修订并重新审阅。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-11",
+      "source_segment_ids": [
+        "meaning-11"
+      ],
+      "start": 62.4,
+      "end": 73.346667,
+      "spoken_text": "比如我会告诉它。不要为了认同我而认同我。发现我的逻辑有问题，直接指出来。回答优先给我结论，再给我解释原因。不要堆砌一堆正确但没用的废话。",
+      "meaning": "看清四条要求写成什么，而不是一次读整屏长文",
+      "visual_concept": "开始：真实自定义指令输入区域为主画面；用单独标为“口播示例”的文档内容呈现本段要求，初始只亮第一行。 变化：聚焦第1行“不为认同而认同”，其他行保持弱化，完整要求由口播与字幕解释。；焦点移到第2行“逻辑有问题，直接指出”，不额外生成回答示例。；第3行“先结论，再原因”亮起，沿同一行从结论移向原因，明确先后。；第4行“少说正确但无用的话”亮起，最后四行保持，准备解释复用。 结束：同一个固定指令文档保留四条短要求，下一段从这份母指令向多个会话派生。",
+      "visual_structure": "sequence",
+      "structure_description": "难点：连续四条长要求同时显示会抢口播；画面补充：文档不换页，沿原文逐行移动焦点，把“先结论再原因”表现为行内顺序。承接上段固定容器，避免连续换不同版式。",
+      "visual_focus": "看清四条要求写成什么，而不是一次读整屏长文",
+      "presentation": "full_screen",
+      "real_asset_need": "required",
+      "asset_description": "需要真实当前中文自定义指令输入区截图，未采集。示例文本另绘并明确“口播示例”，不读写用户实际指令。真实输入区中既有私人内容先像素遮盖；文档展示上部，字幕底部。",
+      "importance": "high",
+      "evidence_need": "required",
+      "claim_status": "not_applicable",
+      "fallback": {
+        "strategy": "block_until_assets",
+        "description": "真实界面缺失时暂停本段界面制作，原口播保留；不得用伪界面冒充操作证据。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-12",
+      "source_segment_ids": [
+        "meaning-12"
+      ],
+      "start": 73.6,
+      "end": 76.826667,
+      "spoken_text": "设置一次之后。以后大量的对话都不用重复。",
+      "meaning": "看懂同一套已保存指令可以影响后续多次对话",
+      "visual_concept": "开始：承接上一段的固定指令文档，不重新打四条文字；文档保持为共享母体。 变化：固定指令文档落定为母体，说明只写一次。；从母体向两个新会话框连接，框内只写“沿用要求”，不展开答案全文。；两个会话框保持同一连接，重复输入的空位收起，随后回到第三项入口。 结束：一份指令连接多个会话，关系完成后退出；不声称模型必然逐条完美遵守。",
+      "visual_structure": "one_to_many",
+      "structure_description": "难点：只列“简洁、指出错误”看不出一次设置的长期收益；画面补充：母指令持续在场并连接多个会话，强调共享来源。借鉴 R10 复用关系，短段只做一次派生，避免又堆清单。",
+      "visual_focus": "看懂同一套已保存指令可以影响后续多次对话",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "同一份指令示意和两个会话轮廓即可，不需要新的真实聊天记录；字词锚点仍须制作后听音对齐。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "sourced",
+      "fallback": {
+        "strategy": "simplify_preserving_structure",
+        "description": "减少辅助文字和装饰，保留同一主体及原有关系；仍不能清楚表达时回本层修订并重新审阅。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-13",
+      "source_segment_ids": [
+        "meaning-13"
+      ],
+      "start": 77.1,
+      "end": 85.48,
+      "spoken_text": "第三个就是检查它到底记住了你什么。还是进入个性化，找到记忆相关的设置。这里你一定要定期去看。",
+      "meaning": "找到记忆管理入口并知道要检查内容",
+      "visual_concept": "开始：真实设置界面延续第1项的视觉基准，短标识“3 / 记忆”，先显示个性化入口。 变化：焦点回到真实个性化页，保留页面导航。；移向真实记忆控制或管理入口，展开可查看记忆的区域；以当前账号实际名称为准。；框住内容检查区，停住让观众看位置，示例不出现真实私人记忆。 结束：管理入口和内容检查位置保持，下一段回到人物解释过期风险。",
+      "visual_structure": "sequence",
+      "structure_description": "难点：观众可能只找到记忆开关却不知道去哪看具体记忆；画面补充：入口和管理内容位置连续呈现，最后焦点停在检查区。与第1项使用同一导航基准，真实界面优先于装饰。",
+      "visual_focus": "找到记忆管理入口并知道要检查内容",
+      "presentation": "full_screen",
+      "real_asset_need": "required",
+      "asset_description": "必需真实中文设置→个性化→记忆/管理内容的录屏或截图，未采集；不能显示用户现有私人记忆，采集时先裁切或像素遮盖，仅保留入口和空内容区域。",
+      "importance": "high",
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "fallback": {
+        "strategy": "block_until_assets",
+        "description": "真实界面缺失时暂停本段界面制作，原口播保留；不得用伪界面冒充操作证据。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-15",
+      "source_segment_ids": [
+        "meaning-15"
+      ],
+      "start": 91.366667,
+      "end": 101.106667,
+      "spoken_text": "比如你以前告诉它，我最近在减肥。后来你已经不减了。但这个信息一直影响它后面的回答。它给你的建议就可能会越来越偏。",
+      "meaning": "看懂当前情况已经改变，而记录仍旧的错位",
+      "visual_concept": "开始：标“口播例子”的同一信息条：左边“当时：在减肥”，右边“现在”还未显出；记忆栏保留旧状态。 变化：当时的信息进入记忆栏，形成“在减肥”这一条记录。；当前情况改成“不再减肥”，记忆栏仍显示旧状态，两个位置形成明显错位。；旧记忆栏连接到后续建议轮廓，箭头旁写“可能影响”，不编造饮食建议或医学结论。；焦点收在“现在情况”和“旧记录不一致”，保留可能性，不做偏差数值或增长曲线。 结束：当前情况与旧记录错位清晰，下一段回人物强调准确。",
+      "visual_structure": "before_after",
+      "structure_description": "难点：观众看不出为什么曾经正确的记忆会后来影响回答；画面补充：当前状态先改变，记忆栏保持不变，再连接到可能受影响的建议。对照维度是同一条信息的时效，不是两个工具能力排名。",
+      "visual_focus": "看懂当前情况已经改变，而记录仍旧的错位",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性示意，标“口播例子”；无真实用户记忆或真实模型回答，无量化偏差。上下分区保护底部原字幕。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "simplify_preserving_structure",
+        "description": "减少辅助文字和装饰，保留同一主体及原有关系；仍不能清楚表达时回本层修订并重新审阅。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-17",
+      "source_segment_ids": [
+        "meaning-17"
+      ],
+      "start": 105.233333,
+      "end": 117.646667,
+      "spoken_text": "最后一个。检查你的数据控制设置。打开设置。进入数据控制或者相关的隐私选项。看看类似，帮助改进模型。这一类选项是不是符合你的需求？",
+      "meaning": "找到数据控制中的模型改进选项，按自己需求检查",
+      "visual_concept": "开始：真实设置页面为主画面，短标识“4 / 数据控制”，保留侧边导航而不是只截孤立开关。 变化：显示真实设置入口，不添加锁头或“绝对安全”标签。；焦点移到真实数据控制导航，进入该页面并保留位置上下文。；定位当前界面对应的 Improve the model for everyone 中文选项，先显示真实现状。；让开关和说明保持可读；只表示“按需求检查”，不替用户切换，也不虚构已经关闭。 结束：目标开关和相关说明驻留，随后回人物说明哪些场景应关注。",
+      "visual_structure": "sequence",
+      "structure_description": "难点：听到隐私选项仍可能不知道检查哪一个；画面补充：保留导航关系后聚焦一个真实开关，末尾只停留供判断。官方说明模型训练偏好与记忆设置不同，不把开关画成删除历史或保密认证。",
+      "visual_focus": "找到数据控制中的模型改进选项，按自己需求检查",
+      "presentation": "full_screen",
+      "real_asset_need": "required",
+      "asset_description": "必需真实中文设置→数据控制→对应模型改进选项截图/录屏，未采集；具体译名以素材为准。账号与其他私人信息先像素遮盖，不采集上传文件。",
+      "importance": "high",
+      "evidence_need": "required",
+      "claim_status": "sourced",
+      "fallback": {
+        "strategy": "block_until_assets",
+        "description": "真实界面缺失时暂停本段界面制作，原口播保留；不得用伪界面冒充操作证据。"
+      },
+      "revision_reason": null
+    },
+    {
+      "event_id": "visual-20",
+      "source_segment_ids": [
+        "meaning-20"
+      ],
+      "start": 129.466667,
+      "end": 140.173333,
+      "spoken_text": "这 4 个地方全部都检查完以后，你会发现。真正让 ChatGPT 越来越好用的，不只是换一个更强的模型。而是让它越来越了解你希望它怎么样和你工作。",
+      "meaning": "分清模型能力与贴合个人工作方式是两个维度",
+      "visual_concept": "开始：先在人物上说“四个地方”；说到真正好用再切两栏简洁关系图，上方“模型能力”，下方“工作方式”，不做等号或取代关系。 变化：突出模型能力这一维度，保持工作方式栏尚未展开，不打叉否定模型。；把焦点移向工作方式维度，出现“偏好 / 指令 / 准确记忆”三个已有设置作用的短标签。；两个维度共同指向“更贴合任务”，仅用定性结论，不画能力提升百分比。 结束：模型能力与工作适配并存，回人物收尾；数据控制不画成提高能力的原因。",
+      "visual_structure": "comparison",
+      "structure_description": "难点：观众可能把“不是只换模型”理解成模型能力没有用；画面补充：保留模型能力一栏，同时展开工作适配这一额外维度，两者共同指向贴合任务。数据控制承担隐私选择而非能力增益，避免错误因果。",
+      "visual_focus": "分清模型能力与贴合个人工作方式是两个维度",
+      "presentation": "full_screen",
+      "real_asset_need": "none",
+      "asset_description": "解释性关系图，最多三条短标签，只有一个主焦点；四项设置已经在前文出现，不重放四张截图。",
+      "importance": "high",
+      "evidence_need": "none",
+      "claim_status": "speaker_claim",
+      "fallback": {
+        "strategy": "simplify_preserving_structure",
+        "description": "减少辅助文字和装饰，保留同一主体及原有关系；仍不能清楚表达时回本层修订并重新审阅。"
+      },
+      "revision_reason": null
+    }
+  ]
+}

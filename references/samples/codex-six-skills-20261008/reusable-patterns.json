@@ -1,0 +1,303 @@
+{
+  "version": 0.1,
+  "video_id": "codex-six-skills-20261008",
+  "patterns": [
+    {
+      "pattern_id": "P00",
+      "name": "真人桥接/呼吸",
+      "status": "candidate_not_implemented",
+      "trigger": "承接或建立可信讲述关系，没有新增需图解的信息",
+      "required_inputs": "人物视频、字幕、字幕安全区",
+      "behavior": "保留原景；进入/退出包装时恢复人物可读性",
+      "retiming": "按语义段保留，不复制源片0.2秒桥接时长",
+      "limits": "不能靠卡片密度替代解释清楚",
+      "evidence_events": [
+        "codex-six-skills-20261008-e005",
+        "codex-six-skills-20261008-e007",
+        "codex-six-skills-20261008-e011",
+        "codex-six-skills-20261008-e016",
+        "codex-six-skills-20261008-e018",
+        "codex-six-skills-20261008-e021",
+        "codex-six-skills-20261008-e024",
+        "codex-six-skills-20261008-e029"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P01",
+      "name": "结果承诺标题",
+      "status": "candidate_not_implemented",
+      "trigger": "开头同时说明主题和观看收益",
+      "required_inputs": "主标题、可选短副标题、标签、人物视频",
+      "behavior": "主标题先清晰，小标签随后；整体为一个开场系统",
+      "retiming": "锚定自己的结果句；按可读长度决定停留",
+      "limits": "流量/搞钱类承诺不自动继承；长小字可省略",
+      "evidence_events": [
+        "codex-six-skills-20261008-e001",
+        "codex-six-skills-20261008-e033"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P02",
+      "name": "编号章节介绍",
+      "status": "candidate_not_implemented",
+      "trigger": "首次引入同级工具/方法/知识点",
+      "required_inputs": "序号、名称、短定位、可选截图、章节导航",
+      "behavior": "截图/序号先进入，名称与短定位跟进，统一版式退出",
+      "retiming": "锚定自己的章节引入句；标题可读后再退",
+      "limits": "单条观点不硬套编号；长标题必须避让截图",
+      "evidence_events": [
+        "codex-six-skills-20261008-e006",
+        "codex-six-skills-20261008-e010",
+        "codex-six-skills-20261008-e014",
+        "codex-six-skills-20261008-e017",
+        "codex-six-skills-20261008-e020",
+        "codex-six-skills-20261008-e025"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P03",
+      "name": "并列总览/总结网格",
+      "status": "candidate_not_implemented",
+      "trigger": "先给总览或结尾回看同级项目",
+      "required_inputs": "items[]、总标题、每项短定位",
+      "behavior": "背景和网格建立，同一网格可更换总结标题",
+      "retiming": "总览整体进入；总结重新使用同一实体ID",
+      "limits": "网格本身不表示先后顺序或真实依赖",
+      "evidence_events": [
+        "codex-six-skills-20261008-e003",
+        "codex-six-skills-20261008-e028"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P04",
+      "name": "并列用途卡展开",
+      "status": "candidate_not_implemented",
+      "trigger": "一个工具或观点有多个并列用途",
+      "required_inputs": "items[{title,icon,description}]、可选重点项",
+      "behavior": "中心堆叠→展开→稳定；强调项可更亮",
+      "retiming": "展开对齐类别总句，不对每个词机械弹卡",
+      "limits": "不能把顺序步骤表达成无序卡片",
+      "evidence_events": [
+        "codex-six-skills-20261008-e008",
+        "codex-six-skills-20261008-e038"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P05",
+      "name": "结论牌+演示载体",
+      "status": "candidate_not_implemented",
+      "trigger": "口播提出功能/结果，需要观众看到样例或过程",
+      "required_inputs": "短结论、子点、真实媒体、可读区域、人物模式",
+      "behavior": "结论层、媒体容器层、媒体内部播放分别管理；可放大进入",
+      "retiming": "容器动作锚定自己的语句；媒体段需剪选，音轨另处理",
+      "limits": "网页截图不能证明已运行；对应具体例子，不拿无关页面充数",
+      "evidence_events": [
+        "codex-six-skills-20261008-e002",
+        "codex-six-skills-20261008-e004",
+        "codex-six-skills-20261008-e009",
+        "codex-six-skills-20261008-e013",
+        "codex-six-skills-20261008-e015",
+        "codex-six-skills-20261008-e023",
+        "codex-six-skills-20261008-e034",
+        "codex-six-skills-20261008-e036",
+        "codex-six-skills-20261008-e039",
+        "codex-six-skills-20261008-e043",
+        "codex-six-skills-20261008-e046"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P06",
+      "name": "能力/需求窗口图解",
+      "status": "candidate_not_implemented",
+      "trigger": "讲抽象能力或需求集合，不是操作教程",
+      "required_inputs": "主标题、需求标签、抽象窗口元素",
+      "behavior": "左摘要+右窗口；内部卡/线轻微变化",
+      "retiming": "按自己的能力段组织状态，不声明是真实操作",
+      "limits": "真实教程需实际操作录屏；示意图不得冒充证据",
+      "evidence_events": [
+        "codex-six-skills-20261008-e012",
+        "codex-six-skills-20261008-e022",
+        "codex-six-skills-20261008-e042",
+        "codex-six-skills-20261008-e050"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P07",
+      "name": "多类型能力矩阵",
+      "status": "candidate_not_implemented",
+      "trigger": "解释图片/视频/音频等不同载体的覆盖",
+      "required_inputs": "类型列表、各类示例媒体、可选资产列表",
+      "behavior": "先建立分类空间，再把占位替换成对应实例",
+      "retiming": "替换锚定自己的具体举例；示例各有播放策略",
+      "limits": "波形示意与真实音频分开；无需每片固定四列",
+      "evidence_events": [
+        "codex-six-skills-20261008-e019",
+        "codex-six-skills-20261008-e048",
+        "codex-six-skills-20261008-e049"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P08",
+      "name": "输入到输出的流程图",
+      "status": "candidate_not_implemented",
+      "trigger": "明确存在输入、处理阶段、产出关系",
+      "required_inputs": "nodes[]、edges[]、输入输出、图标或插画",
+      "behavior": "先画关系再考虑节点的强调或媒体运动",
+      "retiming": "源片基本整图保持；新版本可按已对齐语义逐段强调",
+      "limits": "使用有向流程，不能用并列网格代替",
+      "evidence_events": [
+        "codex-six-skills-20261008-e026",
+        "codex-six-skills-20261008-e052"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P09",
+      "name": "结果大字缩放强调",
+      "status": "candidate_not_implemented",
+      "trigger": "真正的转折、关键结果或短结论",
+      "required_inputs": "短强调文字、人物画面、安全区",
+      "behavior": "大字进入→缩到完整可读→保持→右移退出",
+      "retiming": "进入对齐自己的结果词，停留满足完整阅读",
+      "limits": "源片故意裁边仅为入场态；稳定态不得裁字；不要每句都用",
+      "evidence_events": [
+        "codex-six-skills-20261008-e027",
+        "codex-six-skills-20261008-e053",
+        "codex-six-skills-20261008-e054"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P10",
+      "name": "横向生产步骤",
+      "status": "candidate_not_implemented",
+      "trigger": "讲有顺序的工作链路",
+      "required_inputs": "steps[]、短标题、可选链接/强调状态",
+      "behavior": "快速建立完整步骤列，保持空间顺序",
+      "retiming": "入口建立全局；逐项强调另由新口播锚点决定",
+      "limits": "六个工具和五个步骤是两套关系，不能简单一对一映射",
+      "evidence_events": [
+        "codex-six-skills-20261008-e030",
+        "codex-six-skills-20261008-e057"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P11",
+      "name": "章节导航",
+      "status": "candidate_not_implemented",
+      "trigger": "多个同级章节需要持续位置感",
+      "required_inputs": "chapters[]、activeChapterId、保留区",
+      "behavior": "内容换章时更新当前状态，主体可共用",
+      "retiming": "从自己的章节边界更新，不复制源片秒数",
+      "limits": "短片/单章可关闭；竖屏须重新排版，不压缩小字",
+      "evidence_events": [
+        "codex-six-skills-20261008-e031"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P12",
+      "name": "字幕底层",
+      "status": "candidate_not_implemented",
+      "trigger": "口播持续",
+      "required_inputs": "真实剪后全文、校正文字和时间、安全区",
+      "behavior": "底部独立字幕层，按语句替换",
+      "retiming": "最终剪后字词时间驱动；源ASR不可作为目标时间",
+      "limits": "不把字幕变化计成全新的主镜头",
+      "evidence_events": [
+        "codex-six-skills-20261008-e032"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P13",
+      "name": "演示窗口斜片退出",
+      "status": "candidate_not_implemented",
+      "trigger": "演示结束，需要回到人物或新章节",
+      "required_inputs": "媒体容器、退出锚点、后续画面",
+      "behavior": "整个外层窗口倾斜/收窄后离场；不必复制具体3D实现",
+      "retiming": "结束词或段落边界驱动",
+      "limits": "低优先级，先解决可读性；精确透视与缓动未知",
+      "evidence_events": [
+        "codex-six-skills-20261008-e035",
+        "codex-six-skills-20261008-e037",
+        "codex-six-skills-20261008-e041",
+        "codex-six-skills-20261008-e045",
+        "codex-six-skills-20261008-e047"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P14",
+      "name": "结论牌细线",
+      "status": "candidate_not_implemented",
+      "trigger": "总结牌保持期间需要温和动态",
+      "required_inputs": "结论牌、装饰线、可选语义进度",
+      "behavior": "短线逐渐伸长，随牌统一退出",
+      "retiming": "若仅装饰使用时间进度；若表达语义进度需独立锚定",
+      "limits": "源片无法证明它代表真实任务完成度",
+      "evidence_events": [
+        "codex-six-skills-20261008-e040",
+        "codex-six-skills-20261008-e044",
+        "codex-six-skills-20261008-e051"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    },
+    {
+      "pattern_id": "P15",
+      "name": "总结标签与勾",
+      "status": "candidate_not_implemented",
+      "trigger": "在解释后提炼一个明确判断",
+      "required_inputs": "短标签、确认图形、判断依据",
+      "behavior": "标签入场→勾出现→稳定；单独管理退出",
+      "retiming": "锚定自己的总结判断，不默认重复循环",
+      "limits": "勾不能暗示未经验证的能力；源片重复勾不是必须继承的规则",
+      "evidence_events": [
+        "codex-six-skills-20261008-e055",
+        "codex-six-skills-20261008-e056"
+      ],
+      "source_sample_count": 1,
+      "stable_across_videos": false,
+      "renderer_choice": "未选择；先确认结构和输入，再检索模板或生成"
+    }
+  ]
+}

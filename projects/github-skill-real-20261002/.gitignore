@@ -1,0 +1,11 @@
+assets/
+renders/
+validation/frames/
+validation/web-captures.json
+validation/resolved-plan.json
+validation/proxy-parts/
+validation/native-frames/
+validation/*.mp4
+validation/*.jpg
+validation/*.png
+validation/readme-capture.json

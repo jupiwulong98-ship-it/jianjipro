@@ -1,0 +1,58 @@
+{
+  "version": "0.1",
+  "project_id": "chatgpt-settings-20261004",
+  "transcript_revision": "bfa9253e69f717c0058472d3fd44feb33f868165da73ea4f437de2bf070765ed",
+  "status": "captured_redacted",
+  "assets": [
+    {
+      "id": "style-screen",
+      "scene_ids": [
+        "meaning-05"
+      ],
+      "required": true,
+      "status": "ready",
+      "description": "真实当前中文 ChatGPT 设置→个性化→基础风格与语气的连续界面",
+      "privacy": "已裁切浏览器栏/聊天侧栏，并遮盖私人文本",
+      "acceptance": "可读导航与当前真实中文标签，不实际改变账户风格；不得用官网介绍代替操作界面",
+      "source": "Tabbit ChatGPT live 2026-10-04"
+    },
+    {
+      "id": "instructions-screen",
+      "scene_ids": [
+        "meaning-11"
+      ],
+      "required": true,
+      "status": "ready",
+      "description": "真实当前中文自定义指令输入区；口播示例作为独立标注内容呈现",
+      "privacy": "已裁切浏览器栏/聊天侧栏，并遮盖私人文本",
+      "acceptance": "入口位置真实，示例明确标注，并与四条口播要求对应；全文不是一次性全屏阅读",
+      "source": "Tabbit ChatGPT live 2026-10-04"
+    },
+    {
+      "id": "memory-screen",
+      "scene_ids": [
+        "meaning-13"
+      ],
+      "required": true,
+      "status": "ready",
+      "description": "真实当前中文个性化→记忆控制→可查看管理内容的入口",
+      "privacy": "已裁切浏览器栏/聊天侧栏，并遮盖私人文本",
+      "acceptance": "不是只有开关；体现如何查看记忆。没有素材就暂停界面制作，不伪造记忆条目",
+      "source": "Tabbit ChatGPT live 2026-10-04"
+    },
+    {
+      "id": "data-screen",
+      "scene_ids": [
+        "meaning-17"
+      ],
+      "required": true,
+      "status": "ready",
+      "description": "真实当前中文设置→数据控制→Improve the model for everyone 对应选项",
+      "privacy": "已裁切浏览器栏/聊天侧栏，并遮盖私人文本",
+      "acceptance": "以当前真实中文译名为准，开关现状真实；不替用户操作，不出现绝对保密或删除历史的暗示",
+      "source": "Tabbit ChatGPT live 2026-10-04"
+    }
+  ],
+  "other_visuals": "其余关系图只用口播已有文字和定性关系；对话与减肥记忆例子明确标示示意，不冒充实际模型输出。",
+  "capture_stage": "已通过Tabbit采集真实设置并像素遮盖；未改设置、未保存指令"
+}

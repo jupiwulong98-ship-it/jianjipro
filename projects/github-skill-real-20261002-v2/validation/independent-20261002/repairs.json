@@ -1,0 +1,11 @@
+{
+  "phase": "in_progress",
+  "caption_font_before": 0.052,
+  "caption_font_after": 0.084,
+  "caption_max_lines": 2,
+  "caption_before": "native-fresh-6.jpg",
+  "caption_after": "captions-after.jpg",
+  "candidate_source": "Generated.review-fix.tsx",
+  "candidate_plan": "shotbook.review-fix.json",
+  "applied_generated": false
+}

@@ -1,0 +1,14 @@
+{
+  "status": "complete",
+  "output_path": "/Users/jupiwulong/Downloads/AI剪辑流程-动画包装-审阅版-20261008.mp4",
+  "native_output_path": "/Users/jupiwulong/Movies/ChatCut/AI剪辑流程-动画包装-审阅版.mp4",
+  "task_id": "c8a5b74f-53cb-4e61-832a-3706ecb90135",
+  "sha256": "9c19bbce536386cece1a8753c7c39a4092156620b268fb196d7525b89dc79ac2",
+  "frames": 7253,
+  "duration_seconds": 241.766667,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audio_video_end_difference_seconds": 0.0,
+  "continuous_listening_review": "not_verified"
+}

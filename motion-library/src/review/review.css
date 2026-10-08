@@ -36,3 +36,5 @@
   .rb-shot { min-width:220px; padding:10px; }.rb-shot-top { margin-bottom:6px; }.rb-shot-body img { width:48px; height:30px; }
   .rb-scene-heading h2 { font-size:17px; }.rb-scene-heading { margin-bottom:11px; }
 }
+/* Planning diagnostics share the existing review panel, without changing approvals. */
+.rb-rhythm{margin:0 0 24px}.rb-rhythm summary{cursor:pointer;font-weight:700;font-size:13px}.rb-rhythm article{padding:12px 0;border-top:1px solid #303745}.rb-rhythm a{color:#8bc5ff}.rb-rhythm button{background:#1c212a;border:1px solid #3d4653;border-radius:8px;padding:9px 14px;font-size:12px}.rb-concept small{color:var(--rb-muted)}.rb-concept p{line-height:1.65}

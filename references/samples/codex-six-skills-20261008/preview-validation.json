@@ -1,0 +1,14 @@
+{
+  "status": "verified_in_local_browser",
+  "url": "http://127.0.0.1:5293/review.html",
+  "source_duration": 61.3239,
+  "tested_segment": {
+    "start": 12.8,
+    "end": 16.2,
+    "seek_verified": true,
+    "play_verified": true,
+    "pause_at_end_verified": true
+  },
+  "pattern_cards_visible": 16,
+  "human_approved": false
+}

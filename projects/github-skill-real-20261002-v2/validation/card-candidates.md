@@ -1,0 +1,22 @@
+# V2 实现关系
+先有画面概念再判断模板。现有模板不能保留关系时使用 Generated Motion。
+- github: TalkCraft keyword-pop-highlight
+- find: TalkCraft keyword-pop-highlight
+- repository: Generated Motion，保留 center_branches
+- three-actions: Generated Motion，保留 sequence
+- signup: Generated Motion，保留 single_focus
+- search-codex: Generated Motion，保留 single_focus
+- search-ppt: Generated Motion，保留 single_focus
+- repositories: Generated Motion，保留 single_focus
+- awesome: Generated Motion，保留 one_to_many
+- stars: Generated Motion，保留 single_focus
+- star-not-fit: Generated Motion，保留 not_equal
+- readme: Generated Motion，保留 single_focus
+- readme-checks: TalkCraft doc-park-left-pill-deal + 调整口播落点
+- copy-link: Generated Motion，保留 sequence
+- check-before-install: Generated Motion，保留 sequence
+- install-not-use: Generated Motion，保留 not_equal
+- real-task: Generated Motion，保留 input_process_output
+- acceptance: Generated Motion，保留 custom
+- summary: Generated Motion，保留 sequence
+- identity: TalkCraft lower-third-nameplate + 透明人物旁版
