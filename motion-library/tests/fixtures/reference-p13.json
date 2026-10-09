@@ -9,6 +9,7 @@
     "mediaSrc": "reference-ui-demo.svg",
     "mediaType": "image",
     "label": "真实应用窗口的退场结构",
-    "durationFrames": 90
+    "durationFrames": 90,
+    "backgroundMode": "media_first"
   }
 }
