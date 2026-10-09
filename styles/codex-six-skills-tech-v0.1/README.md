@@ -46,6 +46,18 @@ npm --prefix motion-library run style:reference -- --project ../projects/<projec
 - **P09，47.6–50.0s 参考动作**：真人画面上一次强结果大字，快速进入、缩回可读、保持、右侧离场，不是逐句巨字。
 - **P02**：连续工具章节统一编号风格、变化内容和实际演示媒介。不能让整片变成相同卡片。
 
+## 可复用的第一版 Remotion 视觉组件
+
+源码：`motion-library/src/reference-style/TechReferenceMotions.tsx`
+
+- `TechMediaTakeaway`：P05 的原生实现。输入 `{title, subtitle?, mediaSrc, mediaType:'image'|'video', durationFrames, label?}`。全屏深蓝紫舞台，左侧结论牌，右侧真实用户截图/视频演示；外层容器独立进入、停留与退出。人物小窗应由 ChatCut 上层轨道叠加。
+- `TechResultPunch`：P09 的原生实现。输入 `{text, durationFrames, accent?}`。透明背景，叠加到真人口播上，大字先夸张进入，再缩到完整可读，最后离场。
+
+在新项目 Remotion `motion/Root.tsx` 中按需 import 这些组件，将其包到独立 `Composition` 或原有镜头组件，**使用新口播实际的时间戳**。`mediaSrc` 指向你自己录制并通过 Remotion 可访问方式提供的媒体；缺失时会明确报错。不能把原参考视频截图充当你自己的演示素材。
+
+严格风格选择验证成功后会额外输出 `style-production-brief.json`（命令行）或 `validation/style-production-brief.json`（style:review），Codex 在制作前必须读取，其中包含逐镜参考事件、视觉目标、原始动效行为、时点适配、限制和需要补充的素材。
+
+注意：组件提供的是根据参考画面语言独立编写的初版实现，**不是从作者原视频提取的源码，也不能代替实际样段验收**。
 ## 能力边界
 
 - Reference Analyzer 的 16 种候选并不意味着 16 个对应模板已经实现。TalkCraft 的 108 卡通过合成数据渲染测试，也不代表已自动复刻原视频。
