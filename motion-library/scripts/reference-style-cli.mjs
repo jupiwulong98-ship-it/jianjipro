@@ -31,7 +31,7 @@ if(argv.includes('--validate')) {
   if(!old) throw Error('先生成 style-selection.json 并审阅每条候选');
   const checked=validateStyleBindings({loaded,concepts,selection:old,assetIntent:intent,edit:from('edit-plan.json'),shotbook:from('shotbook.json')});
   output('style-binding-audit.json',checked);
-  output('style-production-brief.json',buildReferenceProductionBrief({loaded,concepts,selection:old,edit:from('edit-plan.json'),shotbook:from('shotbook.json')}));
+  output('style-production-brief.json',buildReferenceProductionBrief({loaded,concepts,selection:old,assetIntent:intent,edit:from('edit-plan.json'),shotbook:from('shotbook.json')}));
   console.log('风格来源校验通过：'+checked.selected_count+' 条引用；'+checked.no_match_count+' 条保留独立导演方案');
 } else {
   output('style-recommendations.json',proposals);
