@@ -46,8 +46,8 @@ export function ReferenceChapter({chapter,title,subtitle='',mediaSrc,mediaType,d
  </AbsoluteFill>;
 }
 
-export type CardsProps=Base&{title:string;items:{title:string;description?:string}[];backgroundMode?:'light_explainer'|'dark_tech'};
-export function ReferenceCardFan({title,items,durationFrames,backgroundMode='light_explainer'}:CardsProps){
+export type CardsProps=Base&{title:string;items:{title:string;description?:string}[];backgroundMode?:'light_explainer'|'dark_tech';demoOnly?:boolean};
+export function ReferenceCardFan({title,items,durationFrames,backgroundMode='light_explainer',demoOnly=false}:CardsProps){
  if(items.length<2||items.length>4)throw Error('P04 requires 2-4 use cards');
  const f=useCurrentFrame(),dark=backgroundMode==='dark_tech',intro=progress(f,0,12);
  const spread=progress(f,12,47),end=progress(f,Math.max(54,durationFrames-16),Math.max(57,durationFrames-1));
@@ -58,6 +58,7 @@ export function ReferenceCardFan({title,items,durationFrames,backgroundMode='lig
   background:dark?'linear-gradient(135deg,#19223C,#293455)':'linear-gradient(125deg,#FBF5E9,#EDEDF3)',
   color:dark?'#F4F6FE':'#243149'}}>
   <div style={{position:'absolute',top:88,left:113,fontWeight:900,fontSize:55,opacity:intro*(1-end)}}>{title}</div>
+  {demoOnly&&<div style={{position:'absolute',right:90,top:105,color:'#8F3355',fontSize:24,fontWeight:900}}>SYNTHETIC QA · NOT PRODUCTION</div>}
   <div style={{position:'absolute',top:177,left:115,width:progress(f,10,46)*320,height:6,background:'#887EE5',borderRadius:8}}/>
   {items.map((item,i)=>{
    const dx=(1920-span)/2+i*(cw+gap),x=960-cw/2+(dx-960+cw/2)*spread;
