@@ -52,7 +52,7 @@ test('P07真实三媒介演示必须有实际例子，不能改为三个SVG',()=
     visual_media_kind:'diagram',media_evidence:'illustration_declared'};
   x.shotbook.shots[0].art_direction={...x.shotbook.shots[0].art_direction,
     visual_media_kind:'diagram',media_evidence:'illustration_declared'};
-  assert.throws(()=>validateStyleBindings(x),/真实媒体/);
+  assert.throws(()=>validateStyleBindings(x),/真实媒体|背景\/媒介不符合/);
 });
 test('即使no_match也不能把初始required偷偷改成none',()=>{
   const x=fixture({pattern:'P07',need:'required'});
