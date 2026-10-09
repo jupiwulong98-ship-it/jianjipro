@@ -23,3 +23,5 @@ jobs:
       - run: node --check motion-library/scripts/reference-style-cli.mjs
       - run: node --check motion-library/scripts/style-review.mjs
       - run: node --test motion-library/tests/reference-style.test.mjs
+      - run: npm ci --prefix motion-library --no-audit --no-fund
+      - run: npm --prefix motion-library run build
