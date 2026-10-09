@@ -1,12 +1,15 @@
 name: Reference style checks
 on:
   push:
-    branches: [feat/reference-style-v1]
+    branches: [feat/reference-style-v1, fix/reference-visual-diversity-v0.2, main]
     paths:
       - 'styles/codex-six-skills-tech-v0.1/**'
+      - 'styles/codex-six-skills-tech-v0.2/**'
       - 'motion-library/scripts/reference-style*.mjs'
+      - 'motion-library/scripts/reference-art-direction.mjs'
       - 'motion-library/scripts/style-review.mjs'
       - 'motion-library/tests/reference-style.test.mjs'
+      - 'motion-library/tests/reference-art-direction.test.mjs'
       - '.github/workflows/reference-style.yml'
   workflow_dispatch:
 permissions:
@@ -19,9 +22,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - run: node --check motion-library/scripts/reference-art-direction.mjs
       - run: node --check motion-library/scripts/reference-style.mjs
       - run: node --check motion-library/scripts/reference-style-cli.mjs
       - run: node --check motion-library/scripts/style-review.mjs
-      - run: node --test motion-library/tests/reference-style.test.mjs
+      - run: node --test motion-library/tests/reference-style.test.mjs motion-library/tests/reference-art-direction.test.mjs
       - run: npm ci --prefix motion-library --no-audit --no-fund
       - run: npm --prefix motion-library run build
