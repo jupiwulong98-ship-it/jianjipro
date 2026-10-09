@@ -67,6 +67,6 @@ test('制作交接单保留参考事件、真实素材和动效分层，而不�
   assert.equal(brief.shots[0].reference_pattern,'P05');
   assert.ok(brief.shots[0].reference_behavior);
   assert.ok(brief.shots[0].reference_timing);
-  assert.ok(brief.shots[0].suggested_primitives.some(x=>x.includes('TechMediaTakeaway')));
+  assert.equal(brief.shots[0].reference_motion_binding.component,'TechMediaTakeaway');
   assert.ok(brief.shots[0].project_asset_slots[0].asset_id);
 });

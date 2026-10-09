@@ -25,7 +25,8 @@
     "talkcraft:adapt": "node scripts/adapt-talkcraft-all.mjs",
     "talkcraft:verify-all": "node scripts/verify-talkcraft-all.mjs",
     "style:reference": "node scripts/reference-style-cli.mjs",
-    "test:reference": "node --test tests/reference-style.test.mjs tests/reference-art-direction.test.mjs"
+    "test:reference": "node --test tests/reference-style.test.mjs tests/reference-art-direction.test.mjs tests/reference-motion.test.mjs",
+    "reference:render": "node runtime-talkcraft/render-reference.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.522",

@@ -1,0 +1,26 @@
+{
+  "style_package": "styles/codex-six-skills-tech-v0.3/style-package.json",
+  "reference_package": "codex-six-skills-tech-v0.3",
+  "media_provenance": "qa_synthetic",
+  "output_purpose": "preview_only",
+  "pattern_id": "P04",
+  "reference_event": "codex-six-skills-20261008-e008",
+  "props": {
+    "title": "用途卡片 · 分层展开",
+    "durationFrames": 90,
+    "items": [
+      {
+        "title": "整理内容",
+        "description": "从真实文案中提取结构"
+      },
+      {
+        "title": "处理素材",
+        "description": "让素材具有明确的呈现目的"
+      },
+      {
+        "title": "生成动效",
+        "description": "动画与口播共同工作"
+      }
+    ]
+  }
+}

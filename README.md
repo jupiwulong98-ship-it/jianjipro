@@ -1,5 +1,11 @@
 # jianjipro
 
+## V0.3 对标效果 → 可执行动效（P02/P04/P13）
+
+已修复 V0.2 Production Brief 的素材意图参数遗漏；新增明确的参考动效绑定与渲染入口、P02章节、P04展开卡、P13窗口退出。旧P05/P09可沿用。
+
+新项目默认使用 [V0.3 参考风格与可运行的 Codex 操作说明](styles/codex-six-skills-tech-v0.3/README.md)。Reference Production Brief 会对每镜写可执行组件或 `needs_reference_implementation`，防止纯规则命中后又自由生成无关蓝色动效。CI 包含动态 QA 视频渲染，QA素材不可作为真实软件演示。
+
 ## V0.2 对标风格纠偏：防止全片统一蓝底
 
 2026-10-09全片审计指出：问题不是蓝色帧比参考更多，而是蓝色舞台内部缺少真正的软件媒体、浅暖图解、人物与透明叠加的层级反差。
