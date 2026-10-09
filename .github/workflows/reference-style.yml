@@ -49,6 +49,11 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install CJK fonts for actual screenshot QA
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          fc-match 'Noto Sans CJK SC'
       - run: npm ci --prefix motion-library/runtime-talkcraft --no-audit --no-fund
       - name: Render P02 labeled demo
         run: node motion-library/runtime-talkcraft/render-reference.mjs motion-library/tests/fixtures/reference-p02.json --out motion-library/tests/fixtures/renders/P02.mp4
