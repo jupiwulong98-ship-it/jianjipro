@@ -25,8 +25,8 @@ if(isProject) {
   // A style package is opt-in. Once selected, every visual concept must have an audited decision.
   const linked=readProjectStyle(target,path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..'));
   if(linked) {
-    write('style-binding-audit.json',validateStyleBindings({loaded:linked,concepts,selection:linked.selection,edit,shotbook}));
-    write('style-production-brief.json',buildReferenceProductionBrief({loaded:linked,concepts,selection:linked.selection,edit,shotbook}));
+    write('style-binding-audit.json',validateStyleBindings({loaded:linked,concepts,selection:linked.selection,assetIntent:linked.assetIntent,edit,shotbook}));
+    write('style-production-brief.json',buildReferenceProductionBrief({loaded:linked,concepts,selection:linked.selection,assetIntent:linked.assetIntent,edit,shotbook}));
   }
 } else shotbook=read(target);
 const framesIndex=flags.indexOf('--frames');
