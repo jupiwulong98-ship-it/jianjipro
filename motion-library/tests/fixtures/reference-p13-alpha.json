@@ -1,0 +1,15 @@
+{
+  "style_package": "styles/codex-six-skills-tech-v0.3/style-package.json",
+  "reference_package": "codex-six-skills-tech-v0.3",
+  "media_provenance": "qa_synthetic",
+  "output_purpose": "preview_only",
+  "pattern_id": "P13",
+  "reference_event": "codex-six-skills-20261008-e035",
+  "props": {
+    "mediaSrc": "reference-ui-demo.svg",
+    "mediaType": "image",
+    "label": "真实应用窗口的退场结构",
+    "durationFrames": 90,
+    "backgroundMode": "transparent_overlay"
+  }
+}
