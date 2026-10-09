@@ -45,8 +45,8 @@ export function validateArtDirection({style,concepts,selection,edit,shotbook,ass
       fail(c.event_id+': 真人原景不应被标成纯图解，需注明混合媒体或者换场景');
     if(evidenceNeedsMedia(visual_media_kind,media_evidence) && c.real_asset_need!=='required')
       fail(c.event_id+': 真实媒体要求必须反映在visual-concepts的required状态');
-    if(actualMedia.has(visual_media_kind) && media_evidence==='illustration_declared')
-      fail(c.event_id+': 真实媒体类别不能冒充已证实内容；纯示意应标为diagram');
+    if(actualMedia.has(visual_media_kind) && media_evidence!=='real_verified')
+      fail(c.event_id+': 真实媒体类别必须有已核对的实际媒体；纯示意应标为diagram');
     if(!actualMedia.has(visual_media_kind) && media_evidence==='real_verified')
       fail(c.event_id+': 该媒介类型不能被标为真实媒体证据');
     const rule=decision.decision==='use_reference'?rules.get(decision.pattern_id):null;
@@ -92,6 +92,10 @@ export function validateArtDirection({style,concepts,selection,edit,shotbook,ass
       requirement:needsReal?'real_media_gate':'illustration_or_no_claim',
       notes:decision.deviation_reason||null});
   }
+  const counts=Object.fromEntries(backgroundModes.map(m=>[m,results.filter(r=>r.background_mode===m).length]));
+  const darkFraction=results.length?counts.dark_tech/results.length:0;
+  const warnings=[];
+  if(results.length>=4 && darkFraction>=0.6) warnings.push('至少60%的视觉概念采用深蓝科技舞台；需要对照参考帧检查重复布局、颜色和真实媒体层级，不能以规划审核pass代表审美合格');
   return {status:'pass',scope:'art_direction_planning_only_not_pixel_or_dynamic_review',
-    background_modes:backgroundModes,decisions:results};
+    background_modes:backgroundModes,background_distribution:counts,repeat_warnings:warnings,decisions:results};
 }
