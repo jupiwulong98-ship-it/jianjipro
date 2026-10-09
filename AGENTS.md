@@ -21,8 +21,16 @@
 ## 决策分层
 语义 → 画面概念/信息结构 → Motion Family/Subtype → Input Requirements → Shotbook → Candidate Cards → Router Ranking → Primary Card + Annotation + Camera + Transition + SFX → ChatCut
 
+## V0.3 参考动效执行优先级（新口播默认）
+- 新项目选择 `styles/codex-six-skills-tech-v0.3/style-package.json`，老 V0.1/V0.2 项目保留已有 package hash 与选择，不静默升级。
+- `style:reference --validate` 生成的 `style-production-brief.json` 每镜有 `reference_motion_binding`。若 `component_available_not_rendered`，必须先按组件合同渲染该参考效果；不可只把 P02 写进 JSON，却在 Generated Motion 自己做小章节点缀。
+- P02/P04/P05/P09/P13 分别映射 `ReferenceChapter`/`ReferenceCardFan`/`TechMediaTakeaway`/`TechResultPunch`/`ReferenceWindowExit`。渲染命令见 `styles/codex-six-skills-tech-v0.3/README.md`。所有有 reference id 的视觉镜头优先尝试专用动效；无法满足实拍媒体或构图要求时公开记录原因。
+- 若绑定返回 `needs_reference_implementation`，不得静默转成普通蓝底 SVG/圆环/连线。返回源事件、缺失图层、需要的新动效或干净人物段的明确说明，再交真实动态样段验收。
+- P02/P13软件媒体与P05相同：使用创作者自有截图/录屏；缺素材停止索取。P04至少2～4张真实内容卡，不能为凑卡片而改写文案。QA素材带测试标记，严禁进公开成片。
+- 真人上方透明动画必须输出 `--alpha` ProRes4444 MOV，不要以 MP4 冒充透明片段。组件渲染之后，ChatCut 装配、实际声音、动态效果和审美仍需单独核查。
+
 ## 新参考风格 V0.2 的导演与素材规则（优先于旧V0.1默认背景）
-- **仅新项目默认使用** `styles/codex-six-skills-tech-v0.2/`，V0.1保持可复现、不改已认可样段。阅读V0.2 README 了解旧项目显式迁移。
+- **V0.2 老项目继续使用** `styles/codex-six-skills-tech-v0.2/`，V0.1保持可复现、不改已认可样段。阅读V0.2 README 了解旧项目显式迁移。
 - 对标的科技感不是“所有包装背景变蓝”。P05媒体优先/实景可选，P07要真实多媒体成果，P08原参考支持浅暖插画，P09透明大字叠加真人。深蓝只在确有原事件依据时使用。
 - 第一次执行 `style:reference` 时需保留 `style-asset-intent.json`，不得将初始真实素材 `required` 静默改为 `none`。在 `style-selection.json` 每镜明确 `background_mode`、`visual_media_kind`、`media_evidence`，包括 `no_match` 的镜头。
 - 把同一 `art_direction` 映射传给 Edit Plan 和 Shotbook，确保Gate B验证通过。禁止项目 CSS 统一强制把真实软件界面与浅色模板覆盖成深蓝色。
