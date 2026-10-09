@@ -2,7 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {validatePlanningChain} from './style-contract.mjs';
-import {readProjectStyle,validateStyleBindings} from './reference-style.mjs';
+import {readProjectStyle,validateStyleBindings,buildReferenceProductionBrief} from './reference-style.mjs';
 import {reviewRhythm} from './rhythm-review.mjs';
 import {resolvePlan} from '../runtime-talkcraft/core.mjs';
 
@@ -24,7 +24,10 @@ if(isProject) {
   write('planning-contract.json',validatePlanningChain(semantic,concepts,edit,shotbook));
   // A style package is opt-in. Once selected, every visual concept must have an audited decision.
   const linked=readProjectStyle(target,path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..'));
-  if(linked) write('style-binding-audit.json',validateStyleBindings({loaded:linked,concepts,selection:linked.selection,edit,shotbook}));
+  if(linked) {
+    write('style-binding-audit.json',validateStyleBindings({loaded:linked,concepts,selection:linked.selection,edit,shotbook}));
+    write('style-production-brief.json',buildReferenceProductionBrief({loaded:linked,concepts,selection:linked.selection,edit,shotbook}));
+  }
 } else shotbook=read(target);
 const framesIndex=flags.indexOf('--frames');
 const frames=framesIndex>=0?read(path.resolve(flags[framesIndex+1])):null;
