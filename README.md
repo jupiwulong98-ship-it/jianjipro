@@ -1,5 +1,12 @@
 # jianjipro
 
+## 实验参考风格包：6个Skill 科技口播（2026-10-09）
+
+新增 [16:9 真人科技口播参考风格](styles/codex-six-skills-tech-v0.1/README.md)。保留原有参考视频拆解资料及全部108张TalkCraft模板，**不覆盖任何历史 ChatCut 工程**。
+新项目在剪后语义与画面概念完成后执行 `npm --prefix motion-library run style:reference -- --project ../projects/<项目>`，逐镜审阅对标候选并记录规则、素材和来源；在 `--validate` 与 `style:review` 通过后再制作真实动态样段。
+首批可复用视觉实现：`motion-library/src/reference-style/TechReferenceMotions.tsx` 的 `TechMediaTakeaway`（P05，必须用自己的真实软件媒体）与 `TechResultPunch`（P09，叠加真人大字强调）。调用不是自动复刻原片；需按新口播逐词时间调整和真人审美验收。
+
+
 AI 口播视频风格学习、动效规划、素材装配、镜头编排、卡片路由、ChatCut 执行与视觉质检的一体化仓库。
 
 ## TalkCraft 能力接入（2026-10-02）

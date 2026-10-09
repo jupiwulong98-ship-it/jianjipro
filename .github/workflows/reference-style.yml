@@ -1,0 +1,27 @@
+name: Reference style checks
+on:
+  push:
+    branches: [feat/reference-style-v1]
+    paths:
+      - 'styles/codex-six-skills-tech-v0.1/**'
+      - 'motion-library/scripts/reference-style*.mjs'
+      - 'motion-library/scripts/style-review.mjs'
+      - 'motion-library/tests/reference-style.test.mjs'
+      - '.github/workflows/reference-style.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reference-style:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: node --check motion-library/scripts/reference-style.mjs
+      - run: node --check motion-library/scripts/reference-style-cli.mjs
+      - run: node --check motion-library/scripts/style-review.mjs
+      - run: node --test motion-library/tests/reference-style.test.mjs
+      - run: npm ci --prefix motion-library --no-audit --no-fund
+      - run: npm --prefix motion-library run build

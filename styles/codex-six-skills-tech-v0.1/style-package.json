@@ -1,0 +1,267 @@
+{
+  "version": 1,
+  "id": "codex-six-skills-tech-v0.1",
+  "status": "experimental",
+  "title": "6个Skill参考视频·科技知识口播包装V1",
+  "aspect_ratio": "16:9",
+  "speaker": "real_talking_head",
+  "reference_video_id": "codex-six-skills-20261008",
+  "pattern_source": "../../references/samples/codex-six-skills-20261008/reusable-patterns.json",
+  "source_limit": "单条参考视频候选。不能证明同创作者跨视频稳定风格；不得复用原作者的镜头或素材。",
+  "visual_skin": {
+    "status": "interpreted_not_measured",
+    "description": "深蓝紫主舞台、浅色媒体层、蓝青色强调、醒目章节编号；真人、软件画面、动画图解交替",
+    "background": [
+      "#0C1331",
+      "#161D48"
+    ],
+    "foreground": "#F7F8FF",
+    "accents": [
+      "#66E3F2",
+      "#8A79F7",
+      "#F4D966"
+    ],
+    "rules": [
+      "真实软件画面承载功能演示，不用无关卡片代替",
+      "人物缩小只为让主要媒体变得可读；优先保护字幕安全区",
+      "标题、结论、媒体各有不同层级；小字网格不能堆满画面",
+      "真实录屏、人物、图解与结果大字交替，但不得为丰富而堆特效"
+    ]
+  },
+  "motion_grammar": {
+    "status": "candidate_not_precisely_measured",
+    "layers": [
+      "presenter",
+      "media_container",
+      "internal_media_motion",
+      "takeaway",
+      "captions",
+      "chapter_navigation"
+    ],
+    "rules": [
+      "进入窗口、窗口内部演示、退出转场分层制作",
+      "入场和变化锚定新口播的逐词时点，不复制参考原视频秒数",
+      "结果强强调需要先大字入场、稳定可读，再退出",
+      "先做8-12秒完整动态样段，用户满意后再整片制作"
+    ]
+  },
+  "rules": [
+    {
+      "id": "P00",
+      "structures": [
+        "single_focus"
+      ],
+      "hints": [
+        "观点",
+        "解释",
+        "总结",
+        "过渡"
+      ],
+      "mediums": [
+        "presenter"
+      ],
+      "assets": "none",
+      "visual_goal": "真人口播桥接与视觉呼吸"
+    },
+    {
+      "id": "P01",
+      "structures": [
+        "single_focus"
+      ],
+      "hints": [
+        "今天",
+        "分享",
+        "教你",
+        "实现",
+        "学会"
+      ],
+      "mediums": [
+        "mixed",
+        "typography"
+      ],
+      "assets": "none",
+      "visual_goal": "开头人物+可得到的结果标题"
+    },
+    {
+      "id": "P02",
+      "structures": [
+        "single_focus",
+        "sequence"
+      ],
+      "hints": [
+        "第一个",
+        "第二个",
+        "第三个",
+        "工具",
+        "skill",
+        "介绍"
+      ],
+      "mediums": [
+        "mixed",
+        "typography"
+      ],
+      "assets": "optional",
+      "visual_goal": "编号章节引导，保持系列连续性，长标题要避让截图"
+    },
+    {
+      "id": "P03",
+      "structures": [
+        "parallel",
+        "hierarchy"
+      ],
+      "hints": [
+        "六个",
+        "三个",
+        "一共",
+        "总览",
+        "总结"
+      ],
+      "mediums": [
+        "diagram"
+      ],
+      "assets": "none",
+      "visual_goal": "同级工具的总览与回顾网格"
+    },
+    {
+      "id": "P05",
+      "structures": [
+        "single_focus",
+        "input_process_output"
+      ],
+      "hints": [
+        "软件",
+        "功能",
+        "演示",
+        "效果",
+        "截图",
+        "录屏",
+        "remotion",
+        "chatcut",
+        "codex",
+        "hyperframes",
+        "界面",
+        "操作"
+      ],
+      "mediums": [
+        "screen",
+        "mixed"
+      ],
+      "assets": "real_media_required",
+      "visual_goal": "结论牌+真实软件演示，媒体独立运动，整体窗口单独退出"
+    },
+    {
+      "id": "P06",
+      "structures": [
+        "hierarchy",
+        "parallel"
+      ],
+      "hints": [
+        "需求",
+        "能力",
+        "场景",
+        "用途"
+      ],
+      "mediums": [
+        "diagram"
+      ],
+      "assets": "none",
+      "visual_goal": "适合抽象能力说明的需求窗口，不能假冒实际软件操作"
+    },
+    {
+      "id": "P07",
+      "structures": [
+        "parallel",
+        "hierarchy"
+      ],
+      "hints": [
+        "图片",
+        "视频",
+        "音频",
+        "多媒体"
+      ],
+      "mediums": [
+        "mixed",
+        "diagram"
+      ],
+      "assets": "optional",
+      "visual_goal": "图片/视频/音频等多类型载体并置与真实样例"
+    },
+    {
+      "id": "P08",
+      "structures": [
+        "input_process_output",
+        "sequence"
+      ],
+      "hints": [
+        "输入",
+        "输出",
+        "经过",
+        "流程",
+        "步骤"
+      ],
+      "mediums": [
+        "diagram",
+        "mixed"
+      ],
+      "assets": "optional",
+      "visual_goal": "有真实先后关系的输入、处理与结果路径"
+    },
+    {
+      "id": "P09",
+      "structures": [
+        "single_focus"
+      ],
+      "hints": [
+        "结果",
+        "关键",
+        "重要",
+        "终于",
+        "成功"
+      ],
+      "mediums": [
+        "typography",
+        "mixed"
+      ],
+      "assets": "none",
+      "visual_goal": "人物+一次强结论大字，稳定可读后退出"
+    },
+    {
+      "id": "P10",
+      "structures": [
+        "sequence",
+        "timeline"
+      ],
+      "hints": [
+        "步骤",
+        "流程",
+        "第一步",
+        "第二步",
+        "第三步"
+      ],
+      "mediums": [
+        "diagram",
+        "mixed"
+      ],
+      "assets": "optional",
+      "visual_goal": "清楚的横向工作流，按照语义强调而非逐字闪烁"
+    },
+    {
+      "id": "P13",
+      "structures": [
+        "single_focus"
+      ],
+      "hints": [
+        "完成",
+        "退出",
+        "下一步",
+        "接下来"
+      ],
+      "mediums": [
+        "mixed",
+        "screen"
+      ],
+      "assets": "optional",
+      "visual_goal": "媒体演示结束时窗口级斜片退出，而不是逐字幕重复转场"
+    }
+  ]
+}

@@ -21,6 +21,14 @@
 ## 决策分层
 语义 → 画面概念/信息结构 → Motion Family/Subtype → Input Requirements → Shotbook → Candidate Cards → Router Ranking → Primary Card + Annotation + Camera + Transition + SFX → ChatCut
 
+## 参考风格调用（新项目选择参考风格时必须执行）
+- 参考视频拆解与日常剪辑是两条流程。已拆解《6个Skill》的来源在 `references/samples/codex-six-skills-20261008/`；实验风格包在 `styles/codex-six-skills-tech-v0.1/`。**新口播不需要重新拆视频**。
+- 新项目完成 Semantic Map 与 Visual Concepts 后，运行 `npm --prefix motion-library run style:reference -- --project ../projects/<项目>`。它生成逐段候选与 `style-selection.json`，**只给候选，不自动批准**。
+- Codex 必须按真实新口播逐段审阅候选；参考适用时填写 `use_reference`、参考 P 编号、视觉媒介和理由。不适用时填写 `no_match` 和理由。不得为了使用参考模板改变文案含义。
+- `use_reference` 的 `style_reference` 必须从 Visual Concepts 的用户选择传递到 Edit Plan 的事件和 Shotbook 的镜头。选择 `P05` 时必须使用真实可定位软件素材，缺素材则向用户索取，禁止用抽象假界面替代。
+- 制作前执行 `npm --prefix motion-library run style:reference -- --project ../projects/<项目> --validate` 和正常 `style:review`。如果 style-selection 存在，style:review 会检查每条参考绑定，失败则停止进入正式渲染。参考候选/108卡测试通过不代表最终视觉验收通过。
+- 先制作含人物、字幕、实际媒体和完整入场/退场的8~12秒动态样段；用户确认后再批量制作。动态样段不得用静帧或工作台占位预览冒充。细节见 `styles/codex-six-skills-tech-v0.1/README.md`。
+
 ## 强制原则
 - 新口播项目先完成剪后全文抽取，再做语义与画面规划。不可用录制前文案、原素材转录或仅有句级时间的SRT冒充剪后字词时间；分页未读完、原文轨道不明确或文字/时间校验失败时阻断此交接。
 - 字词时间使用剪辑后时间线；保存全文来源版本。口播剪切、顺序或字幕文字变更后重新抽取，下游旧时间与计划需复核。自动时间戳不代表已完成听音验收。
