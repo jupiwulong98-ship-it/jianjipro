@@ -1,0 +1,431 @@
+{
+  "version": 1,
+  "id": "codex-six-skills-tech-v0.2",
+  "status": "experimental",
+  "title": "6个Skill参考视频·按镜头选择材质与媒介V0.2",
+  "aspect_ratio": "16:9",
+  "speaker": "real_talking_head",
+  "reference_video_id": "codex-six-skills-20261008",
+  "pattern_source": "../../references/samples/codex-six-skills-20261008/reusable-patterns.json",
+  "source_limit": "单条参考视频候选。不能证明同创作者跨视频稳定风格；不得复用原作者的镜头或素材。 此V0.2修正了样段蓝色舞台被全片误用的问题。",
+  "visual_skin": {
+    "status": "interpreted_not_measured",
+    "description": "背景和材质由参考事件及画面任务逐镜选择；深蓝只是候选之一。保留真人原景、浅暖图解、真实界面主画面、透明叠层与深色舞台的合理切换。",
+    "background": [
+      "#0C1331",
+      "#161D48",
+      "#F6F1E8",
+      "#F7F8FF"
+    ],
+    "foreground": "#F7F8FF",
+    "accents": [
+      "#66E3F2",
+      "#8A79F7",
+      "#F4D966"
+    ],
+    "rules": [
+      "真实软件画面承载功能演示，不用无关卡片代替",
+      "人物缩小只为让主要媒体变得可读；优先保护字幕安全区",
+      "标题、结论、媒体各有不同层级；小字网格不能堆满画面",
+      "真实录屏、人物、图解与结果大字交替，但不得为丰富而堆特效",
+      "深蓝不等于科技感；每个镜头明确背景模式并说明参考来源，参考事件有浅色或实景时不能只继承全局深蓝",
+      "禁止项目CSS !important 将浅色软件界面或模板默认白底统一改深蓝，除非逐镜审批有源事件证据",
+      "与口播相关的工具/生成结果必须提供真实媒体或明确标记纯示意；缺真实素材不能把原本 required 静默改成 none"
+    ],
+    "background_mode_policy": {
+      "presenter_natural": "真实口播镜头的原有空间/肤色，不套蓝色半透明遮罩，只允许局部标题、局部标签。",
+      "dark_tech": "确实需要抽象科技舞台时允许局部深蓝；不能默认套在所有包装上，也不能用蓝色媒体嵌蓝色舞台来掩饰空内容。",
+      "light_explainer": "浅暖米白与对比强烈的图文/插画；参考 P08 e026/e052，禁止强制覆盖公共组件浅底。",
+      "media_first": "真实软件界面、截图、实际结果优先作为视觉主画面。其原始亮/暗表面不应被统一蓝色CSS覆盖。",
+      "transparent_overlay": "在真实人物镜头上以透明动效叠加结果或章节，不增加全屏蓝舞台。"
+    }
+  },
+  "motion_grammar": {
+    "status": "candidate_not_precisely_measured",
+    "layers": [
+      "presenter",
+      "media_container",
+      "internal_media_motion",
+      "takeaway",
+      "captions",
+      "chapter_navigation"
+    ],
+    "rules": [
+      "进入窗口、窗口内部演示、退出转场分层制作",
+      "入场和变化锚定新口播的逐词时点，不复制参考原视频秒数",
+      "结果强强调需要先大字入场、稳定可读，再退出",
+      "先做8-12秒完整动态样段，用户满意后再整片制作"
+    ]
+  },
+  "rules": [
+    {
+      "id": "P00",
+      "structures": [
+        "single_focus"
+      ],
+      "hints": [
+        "观点",
+        "解释",
+        "总结",
+        "过渡"
+      ],
+      "mediums": [
+        "presenter"
+      ],
+      "assets": "none",
+      "visual_goal": "真人口播桥接与视觉呼吸",
+      "art_direction": {
+        "background_modes": [
+          "presenter_natural"
+        ],
+        "preferred_background_mode": "presenter_natural",
+        "media_kinds": [
+          "presenter"
+        ],
+        "source_media_fidelity": "no_real_media",
+        "condition": "按参考事件的真实媒介和当前口播任务决定，不把默认配色当每镜背景指令"
+      }
+    },
+    {
+      "id": "P01",
+      "structures": [
+        "single_focus"
+      ],
+      "hints": [
+        "今天",
+        "分享",
+        "教你",
+        "实现",
+        "学会"
+      ],
+      "mediums": [
+        "mixed",
+        "typography"
+      ],
+      "assets": "none",
+      "visual_goal": "开头人物+可得到的结果标题",
+      "art_direction": {
+        "background_modes": [
+          "presenter_natural",
+          "transparent_overlay"
+        ],
+        "preferred_background_mode": "transparent_overlay",
+        "media_kinds": [
+          "presenter",
+          "typography"
+        ],
+        "source_media_fidelity": "no_real_media",
+        "condition": "按参考事件的真实媒介和当前口播任务决定，不把默认配色当每镜背景指令"
+      }
+    },
+    {
+      "id": "P02",
+      "structures": [
+        "single_focus",
+        "sequence"
+      ],
+      "hints": [
+        "第一个",
+        "第二个",
+        "第三个",
+        "工具",
+        "skill",
+        "介绍"
+      ],
+      "mediums": [
+        "mixed",
+        "typography"
+      ],
+      "assets": "optional",
+      "visual_goal": "编号章节引导，保持系列连续性，长标题要避让截图",
+      "art_direction": {
+        "background_modes": [
+          "presenter_natural",
+          "transparent_overlay",
+          "media_first"
+        ],
+        "preferred_background_mode": "presenter_natural",
+        "media_kinds": [
+          "presenter",
+          "typography",
+          "real_screen"
+        ],
+        "source_media_fidelity": "example_optional",
+        "condition": "按参考事件的真实媒介和当前口播任务决定，不把默认配色当每镜背景指令"
+      }
+    },
+    {
+      "id": "P03",
+      "structures": [
+        "parallel",
+        "hierarchy"
+      ],
+      "hints": [
+        "六个",
+        "三个",
+        "一共",
+        "总览",
+        "总结"
+      ],
+      "mediums": [
+        "diagram"
+      ],
+      "assets": "none",
+      "visual_goal": "同级工具的总览与回顾网格",
+      "art_direction": {
+        "background_modes": [
+          "dark_tech",
+          "light_explainer"
+        ],
+        "preferred_background_mode": "dark_tech",
+        "media_kinds": [
+          "diagram",
+          "mixed_media"
+        ],
+        "source_media_fidelity": "example_optional",
+        "condition": "按参考事件的真实媒介和当前口播任务决定，不把默认配色当每镜背景指令"
+      }
+    },
+    {
+      "id": "P05",
+      "structures": [
+        "single_focus",
+        "input_process_output"
+      ],
+      "hints": [
+        "软件",
+        "功能",
+        "演示",
+        "效果",
+        "截图",
+        "录屏",
+        "remotion",
+        "chatcut",
+        "codex",
+        "hyperframes",
+        "界面",
+        "操作"
+      ],
+      "mediums": [
+        "screen",
+        "mixed"
+      ],
+      "assets": "real_media_required",
+      "visual_goal": "结论牌+真实软件演示，媒体独立运动，整体窗口单独退出",
+      "art_direction": {
+        "background_modes": [
+          "presenter_natural",
+          "media_first",
+          "dark_tech"
+        ],
+        "preferred_background_mode": "media_first",
+        "media_kinds": [
+          "real_screen",
+          "real_output",
+          "mixed_media"
+        ],
+        "source_media_fidelity": "real_media_required",
+        "condition": "e009/e013/e023有实景/真实媒体与窗口关系；深蓝只是局部可选"
+      }
+    },
+    {
+      "id": "P06",
+      "structures": [
+        "hierarchy",
+        "parallel"
+      ],
+      "hints": [
+        "需求",
+        "能力",
+        "场景",
+        "用途"
+      ],
+      "mediums": [
+        "diagram"
+      ],
+      "assets": "none",
+      "visual_goal": "适合抽象能力说明的需求窗口，不能假冒实际软件操作",
+      "art_direction": {
+        "background_modes": [
+          "light_explainer",
+          "dark_tech",
+          "media_first"
+        ],
+        "preferred_background_mode": "light_explainer",
+        "media_kinds": [
+          "diagram",
+          "mixed_media"
+        ],
+        "source_media_fidelity": "illustration_only",
+        "condition": "按参考事件的真实媒介和当前口播任务决定，不把默认配色当每镜背景指令"
+      }
+    },
+    {
+      "id": "P07",
+      "structures": [
+        "parallel",
+        "hierarchy"
+      ],
+      "hints": [
+        "图片",
+        "视频",
+        "音频",
+        "多媒体"
+      ],
+      "mediums": [
+        "mixed",
+        "diagram"
+      ],
+      "assets": "real_media_required",
+      "visual_goal": "图片/视频/音频等多类型载体并置与真实样例",
+      "art_direction": {
+        "background_modes": [
+          "media_first",
+          "light_explainer"
+        ],
+        "preferred_background_mode": "media_first",
+        "media_kinds": [
+          "real_output",
+          "mixed_media"
+        ],
+        "source_media_fidelity": "real_media_required",
+        "condition": "必须有图片/视频/音频至少一个实质可辨样例，三张自绘SVG不能冒充结果"
+      }
+    },
+    {
+      "id": "P08",
+      "structures": [
+        "input_process_output",
+        "sequence"
+      ],
+      "hints": [
+        "输入",
+        "输出",
+        "经过",
+        "流程",
+        "步骤"
+      ],
+      "mediums": [
+        "diagram",
+        "mixed"
+      ],
+      "assets": "optional",
+      "visual_goal": "有真实先后关系的输入、处理与结果路径",
+      "art_direction": {
+        "background_modes": [
+          "light_explainer",
+          "media_first"
+        ],
+        "preferred_background_mode": "light_explainer",
+        "media_kinds": [
+          "diagram",
+          "mixed_media",
+          "real_output"
+        ],
+        "source_media_fidelity": "example_optional",
+        "condition": "e026/e052支持浅暖全屏插画；不因全局theme变深蓝"
+      }
+    },
+    {
+      "id": "P09",
+      "structures": [
+        "single_focus"
+      ],
+      "hints": [
+        "结果",
+        "关键",
+        "重要",
+        "终于",
+        "成功"
+      ],
+      "mediums": [
+        "typography",
+        "mixed"
+      ],
+      "assets": "none",
+      "visual_goal": "人物+一次强结论大字，稳定可读后退出",
+      "art_direction": {
+        "background_modes": [
+          "transparent_overlay",
+          "presenter_natural"
+        ],
+        "preferred_background_mode": "transparent_overlay",
+        "media_kinds": [
+          "typography",
+          "presenter"
+        ],
+        "source_media_fidelity": "no_real_media",
+        "condition": "透明大字覆盖人物，原P09本身不是蓝底指令"
+      }
+    },
+    {
+      "id": "P10",
+      "structures": [
+        "sequence",
+        "timeline"
+      ],
+      "hints": [
+        "步骤",
+        "流程",
+        "第一步",
+        "第二步",
+        "第三步"
+      ],
+      "mediums": [
+        "diagram",
+        "mixed"
+      ],
+      "assets": "optional",
+      "visual_goal": "清楚的横向工作流，按照语义强调而非逐字闪烁",
+      "art_direction": {
+        "background_modes": [
+          "media_first",
+          "light_explainer",
+          "dark_tech"
+        ],
+        "preferred_background_mode": "media_first",
+        "media_kinds": [
+          "mixed_media",
+          "real_screen",
+          "diagram"
+        ],
+        "source_media_fidelity": "example_optional",
+        "condition": "按参考事件的真实媒介和当前口播任务决定，不把默认配色当每镜背景指令"
+      }
+    },
+    {
+      "id": "P13",
+      "structures": [
+        "single_focus"
+      ],
+      "hints": [
+        "完成",
+        "退出",
+        "下一步",
+        "接下来"
+      ],
+      "mediums": [
+        "mixed",
+        "screen"
+      ],
+      "assets": "optional",
+      "visual_goal": "媒体演示结束时窗口级斜片退出，而不是逐字幕重复转场",
+      "art_direction": {
+        "background_modes": [
+          "media_first",
+          "presenter_natural",
+          "dark_tech"
+        ],
+        "preferred_background_mode": "media_first",
+        "media_kinds": [
+          "real_screen",
+          "real_output",
+          "mixed_media"
+        ],
+        "source_media_fidelity": "example_optional",
+        "condition": "按参考事件的真实媒介和当前口播任务决定，不把默认配色当每镜背景指令"
+      }
+    }
+  ],
+  "art_direction_contract": 1
+}
