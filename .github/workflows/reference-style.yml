@@ -1,15 +1,22 @@
 name: Reference style checks
 on:
   push:
-    branches: [feat/reference-style-v1, fix/reference-visual-diversity-v0.2, main]
+    branches: [feat/reference-style-v1, fix/reference-visual-diversity-v0.2, feat/reference-motion-bridge-p02-p04-p13, main]
     paths:
       - 'styles/codex-six-skills-tech-v0.1/**'
       - 'styles/codex-six-skills-tech-v0.2/**'
+      - 'styles/codex-six-skills-tech-v0.3/**'
       - 'motion-library/scripts/reference-style*.mjs'
+      - 'motion-library/scripts/reference-motion-bindings.mjs'
       - 'motion-library/scripts/reference-art-direction.mjs'
       - 'motion-library/scripts/style-review.mjs'
       - 'motion-library/tests/reference-style.test.mjs'
       - 'motion-library/tests/reference-art-direction.test.mjs'
+      - 'motion-library/tests/reference-motion.test.mjs'
+      - 'motion-library/tests/fixtures/reference-*'
+      - 'motion-library/package.json'
+      - 'motion-library/runtime-talkcraft/ReferenceRoot.tsx'
+      - 'motion-library/runtime-talkcraft/render-reference.mjs'
       - 'motion-library/src/reference-style/**'
       - '.github/workflows/reference-style.yml'
   workflow_dispatch:
@@ -24,9 +31,37 @@ jobs:
         with:
           node-version: '22'
       - run: node --check motion-library/scripts/reference-art-direction.mjs
+      - run: node --check motion-library/scripts/reference-motion-bindings.mjs
+      - run: node --check motion-library/runtime-talkcraft/render-reference.mjs
       - run: node --check motion-library/scripts/reference-style.mjs
       - run: node --check motion-library/scripts/reference-style-cli.mjs
       - run: node --check motion-library/scripts/style-review.mjs
-      - run: node --test motion-library/tests/reference-style.test.mjs motion-library/tests/reference-art-direction.test.mjs
+      - run: npm --prefix motion-library run test:reference
       - run: npm ci --prefix motion-library --no-audit --no-fund
       - run: npm --prefix motion-library run build
+
+  render-reference-qa:
+    needs: reference-style
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci --prefix motion-library/runtime-talkcraft --no-audit --no-fund
+      - name: Render P02 labeled demo
+        run: node motion-library/runtime-talkcraft/render-reference.mjs motion-library/tests/fixtures/reference-p02.json --out motion-library/tests/fixtures/renders/P02.mp4
+      - name: Render P04 labeled demo
+        run: node motion-library/runtime-talkcraft/render-reference.mjs motion-library/tests/fixtures/reference-p04.json --out motion-library/tests/fixtures/renders/P04.mp4
+      - name: Render P13 labeled demo
+        run: node motion-library/runtime-talkcraft/render-reference.mjs motion-library/tests/fixtures/reference-p13.json --out motion-library/tests/fixtures/renders/P13.mp4
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reference-motion-qa-preview
+          path: |
+            motion-library/tests/fixtures/renders/*.mp4
+            motion-library/tests/fixtures/renders/*.png
+            motion-library/tests/fixtures/renders/*-evidence.json
+          if-no-files-found: warn
