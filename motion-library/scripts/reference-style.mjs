@@ -90,7 +90,7 @@ export function validateStyleBindings({loaded,concepts,selection,edit,shotbook})
     for(const s of shots) {
       for(const [k,v] of Object.entries(expected))
         if(s.style_reference?.[k]!==v) fail(s.id+' 风格来源未传递到 Shotbook');
-      if(needsAsset && !s.asset_slots?.some(a=>a.required===true && present(a.asset_id||a.path||a.source)))
+      if(needsAsset && !s.asset_slots?.some(a=>a.required===true && a.status==='ready' && present(a.asset_id||a.path||a.source)))
         fail(s.id+' 缺少可追踪的真实媒体素材槽');
     }
     bindings.push({concept_id:c.event_id,...expected,reference_events:patterns.get(decision.pattern_id).evidence_events,
