@@ -39,7 +39,7 @@ export function TechMediaTakeaway({
     {showTechGrid && <AbsoluteFill style={{opacity:.24,backgroundImage:'linear-gradient(#66E3F21A 1px,transparent 1px),linear-gradient(90deg,#66E3F21A 1px,transparent 1px)',
       backgroundSize:'88px 88px',transform:'perspective(1000px) rotateX(10deg) scale(1.18)'}}/>}
     <div style={{position:'absolute',left:100,top:100,fontSize:23,letterSpacing:4,fontWeight:800,
-      color:light?'#5965BD':'#66E3F2'}>AI / TECH EXPLAINER</div>
+      color:light?'#5965BD':'#66E3F2'}}>AI / TECH EXPLAINER</div>
     <div style={{position:'absolute',left:110,top:305,width:560,
       transform:'translateY('+((1-inTitle)*34)+'px) translateX('+(-out*55)+'px)',
       opacity:inTitle*(1-out)}}>
