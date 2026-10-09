@@ -21,6 +21,15 @@
 ## 决策分层
 语义 → 画面概念/信息结构 → Motion Family/Subtype → Input Requirements → Shotbook → Candidate Cards → Router Ranking → Primary Card + Annotation + Camera + Transition + SFX → ChatCut
 
+## 新参考风格 V0.2 的导演与素材规则（优先于旧V0.1默认背景）
+- **仅新项目默认使用** `styles/codex-six-skills-tech-v0.2/`，V0.1保持可复现、不改已认可样段。阅读V0.2 README 了解旧项目显式迁移。
+- 对标的科技感不是“所有包装背景变蓝”。P05媒体优先/实景可选，P07要真实多媒体成果，P08原参考支持浅暖插画，P09透明大字叠加真人。深蓝只在确有原事件依据时使用。
+- 第一次执行 `style:reference` 时需保留 `style-asset-intent.json`，不得将初始真实素材 `required` 静默改为 `none`。在 `style-selection.json` 每镜明确 `background_mode`、`visual_media_kind`、`media_evidence`，包括 `no_match` 的镜头。
+- 把同一 `art_direction` 映射传给 Edit Plan 和 Shotbook，确保Gate B验证通过。禁止项目 CSS 统一强制把真实软件界面与浅色模板覆盖成深蓝色。
+- V0.2 的 `TechMediaTakeaway` 有显式 `backgroundMode` 可选参数；不传时仍使用旧版深蓝以保护原样段。新项目不得仅依赖组件旧默认色。
+- 即使规划pass，仍需动态实片 Contact Sheet＋逐镜媒介对照＋连续听音评审；避免通过改layout标签掩盖色材、媒介单一。
+- 真实工程实例修复建议：先检查44.633～49.367s P07、59.2～65.2s P08和72.433～78.933s P10，保护原8秒样段；完整原因见用户10月9日上传的全片诊断报告。
+
 ## 参考风格调用（新项目选择参考风格时必须执行）
 - 参考视频拆解与日常剪辑是两条流程。已拆解《6个Skill》的来源在 `references/samples/codex-six-skills-20261008/`；实验风格包在 `styles/codex-six-skills-tech-v0.1/`。**新口播不需要重新拆视频**。
 - 新项目完成 Semantic Map 与 Visual Concepts 后，运行 `npm --prefix motion-library run style:reference -- --project ../projects/<项目>`。它生成逐段候选与 `style-selection.json`，**只给候选，不自动批准**。
