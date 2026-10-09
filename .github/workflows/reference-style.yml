@@ -61,12 +61,17 @@ jobs:
         run: node motion-library/runtime-talkcraft/render-reference.mjs motion-library/tests/fixtures/reference-p04.json --out motion-library/tests/fixtures/renders/P04.mp4
       - name: Render P13 labeled demo
         run: node motion-library/runtime-talkcraft/render-reference.mjs motion-library/tests/fixtures/reference-p13.json --out motion-library/tests/fixtures/renders/P13.mp4
+      - name: Render P13 transparency check
+        run: |
+          node motion-library/runtime-talkcraft/render-reference.mjs motion-library/tests/fixtures/reference-p13-alpha.json --alpha --out motion-library/tests/fixtures/renders/P13-alpha.mov
+          ffprobe -v error -select_streams v:0 -show_entries stream=pix_fmt -of default=nw=1 motion-library/tests/fixtures/renders/P13-alpha.mov
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: reference-motion-qa-preview
           path: |
             motion-library/tests/fixtures/renders/*.mp4
+            motion-library/tests/fixtures/renders/*.mov
             motion-library/tests/fixtures/renders/*.png
             motion-library/tests/fixtures/renders/*-evidence.json
           if-no-files-found: warn
