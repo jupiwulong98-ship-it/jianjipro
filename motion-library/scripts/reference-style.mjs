@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
 import {validateArtDirection} from './reference-art-direction.mjs';
+import {bindReferencePattern} from './reference-motion-bindings.mjs';
 
 const fail = msg => { throw new Error('reference-style: ' + msg); };
 const digest = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
@@ -145,10 +146,9 @@ export function buildReferenceProductionBrief({loaded,concepts,selection,edit,sh
       project_asset_slots:shot.asset_slots ?? [],source_rule_status:p.status,
       art_direction:shot.art_direction ?? null,
       rule_art_direction:rule.art_direction ?? null,
+      reference_motion_binding:bindReferencePattern({loaded,patternId:binding.pattern_id,
+        referenceEvents:binding.reference_events,mediaKind:shot.art_direction?.visual_media_kind}),
       theme:loaded.style.visual_skin,motion_grammar:loaded.style.motion_grammar,
-      suggested_primitives:binding.pattern_id==='P05'
-        ? ['TechMediaTakeaway (requires creator-owned screen video/image)']
-        : binding.pattern_id==='P09' ? ['TechResultPunch over real presenter footage'] : [],
       production_gate:'Render original 8-12 second composite with real captions and audio; verify movement and obtain user visual approval before batch production.'
     }));
   });
