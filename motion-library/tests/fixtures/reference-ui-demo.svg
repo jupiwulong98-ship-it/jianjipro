@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="810" viewBox="0 0 1440 810">
+<rect width="1440" height="810" fill="#E9EDF5"/>
+<rect x="50" y="35" width="1340" height="730" rx="28" fill="#FFFFFF" stroke="#C4CCDB" stroke-width="4"/>
+<rect x="50" y="35" width="1340" height="93" rx="28" fill="#EEF1F7"/>
+<circle cx="93" cy="81" r="12" fill="#E17F86"/><circle cx="128" cy="81" r="12" fill="#EEC675"/><circle cx="163" cy="81" r="12" fill="#82C4A3"/>
+<text x="232" y="90" font-size="40" font-family="sans-serif" font-weight="bold" fill="#1D2C47">SYNTHETIC QA / NOT REAL SOFTWARE</text>
+<rect x="90" y="168" width="263" height="540" rx="14" fill="#E6ECF5"/>
+<rect x="400" y="167" width="947" height="370" rx="16" fill="#19223B"/>
+<rect x="436" y="208" width="490" height="40" rx="8" fill="#8F87F0"/>
+<rect x="436" y="280" width="680" height="24" rx="8" fill="#64749B"/>
+<rect x="436" y="334" width="540" height="24" rx="8" fill="#64749B"/>
+<rect x="436" y="390" width="740" height="24" rx="8" fill="#64749B"/>
+<rect x="400" y="574" width="947" height="125" rx="15" fill="#F1F3F8"/>
+<rect x="436" y="605" width="316" height="19" rx="6" fill="#93B5CD"/>
+<rect x="436" y="649" width="680" height="19" rx="6" fill="#9EA8C0"/>
+<text x="95" y="233" font-size="31" font-family="sans-serif" fill="#33425F">EXAMPLE DATA</text>
+<text x="95" y="300" font-size="24" font-family="sans-serif" fill="#566980">仅作渲染验证</text>
+<rect x="504" y="453" width="757" height="57" rx="10" fill="#EFCF78"/>
+<text x="550" y="490" font-size="29" font-weight="bold" font-family="sans-serif" fill="#1C2A42">DO NOT USE AS REAL APP FOOTAGE</text>
+</svg>
