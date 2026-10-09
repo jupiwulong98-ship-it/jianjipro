@@ -11,6 +11,8 @@ export type ReferenceMediaProps = {
   mediaType: 'image' | 'video';
   durationFrames: number;
   label?: string;
+  /** V0.2 explicit shot background; omitted keeps V0.1 dark stage exactly as before. */
+  backgroundMode?: 'dark_tech' | 'media_first' | 'presenter_natural';
 };
 
 const font = '"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif';
@@ -19,25 +21,31 @@ const between = (v:number,a:number,b:number)=>interpolate(v,[a,b],[0,1],
   {extrapolateLeft:'clamp',extrapolateRight:'clamp',easing:ease});
 
 export function TechMediaTakeaway({
-  title, subtitle='', mediaSrc, mediaType, durationFrames, label='画面演示'
+  title, subtitle='', mediaSrc, mediaType, durationFrames, label='画面演示', backgroundMode='dark_tech'
 }:ReferenceMediaProps) {
   if(!mediaSrc) throw new Error('TechMediaTakeaway requires real user media');
   const f=useCurrentFrame();
+  const light=backgroundMode==='media_first';
+  const showTechGrid=backgroundMode==='dark_tech';
+  const bg=backgroundMode==='presenter_natural'?'transparent':
+    light?'#EEF2F8':'linear-gradient(124deg,#0C1331 0%,#151D48 68%,#0D132A 100%)';
+  const ink=light?'#17213A':'#F7F8FF';
+  const supportingInk=light?'#465377':'#CACFEA';
   const inTitle=between(f,5,18);
   const inMedia=between(f,15,31);
   const out=between(f,Math.max(32,durationFrames-16),Math.max(34,durationFrames-2));
-  return <AbsoluteFill style={{fontFamily:font,background:'linear-gradient(124deg,#0C1331 0%,#151D48 68%,#0D132A 100%)',
-    color:'#F7F8FF',overflow:'hidden'}}>
-    <AbsoluteFill style={{opacity:.24,backgroundImage:'linear-gradient(#66E3F21A 1px,transparent 1px),linear-gradient(90deg,#66E3F21A 1px,transparent 1px)',
-      backgroundSize:'88px 88px',transform:'perspective(1000px) rotateX(10deg) scale(1.18)'}}/>
+  return <AbsoluteFill style={{fontFamily:font,background:bg,
+    color:ink,overflow:'hidden'}}>
+    {showTechGrid && <AbsoluteFill style={{opacity:.24,backgroundImage:'linear-gradient(#66E3F21A 1px,transparent 1px),linear-gradient(90deg,#66E3F21A 1px,transparent 1px)',
+      backgroundSize:'88px 88px',transform:'perspective(1000px) rotateX(10deg) scale(1.18)'}}/>}
     <div style={{position:'absolute',left:100,top:100,fontSize:23,letterSpacing:4,fontWeight:800,
-      color:'#66E3F2'}}>AI / TECH EXPLAINER</div>
+      color:light?'#5965BD':'#66E3F2'}}>AI / TECH EXPLAINER</div>
     <div style={{position:'absolute',left:110,top:305,width:560,
       transform:'translateY('+((1-inTitle)*34)+'px) translateX('+(-out*55)+'px)',
       opacity:inTitle*(1-out)}}>
       <div style={{fontSize:58,fontWeight:850,lineHeight:1.2,letterSpacing:-1.2,
-        textShadow:'0 10px 45px #06082555'}}>{title}</div>
-      {subtitle && <div style={{fontSize:28,color:'#CACFEA',marginTop:34,lineHeight:1.5}}>{subtitle}</div>}
+        textShadow:light?'none':'0 10px 45px #06082555'}}>{title}</div>
+      {subtitle && <div style={{fontSize:28,color:supportingInk,marginTop:34,lineHeight:1.5}}>{subtitle}</div>}
       <div style={{height:5,width:interpolate(f,[22,65],[30,280],{extrapolateLeft:'clamp',extrapolateRight:'clamp'}),
         background:'linear-gradient(90deg,#66E3F2,#8A79F7)',marginTop:38,borderRadius:10}}/>
     </div>

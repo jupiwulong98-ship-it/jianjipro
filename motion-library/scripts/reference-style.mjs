@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import {validateArtDirection} from './reference-art-direction.mjs';
 
 const fail = msg => { throw new Error('reference-style: ' + msg); };
 const digest = value => crypto.createHash('sha256').update(JSON.stringify(value)).digest('hex');
@@ -23,6 +24,13 @@ export function loadReferenceStyle(root, rel) {
     if (!Array.isArray(rule.mediums) || !rule.mediums.length ||
       !Array.isArray(rule.structures) || !Array.isArray(rule.hints) || !present(rule.visual_goal)) fail('规则缺少可执行信息: '+rule.id);
     if (!patterns.get(rule.id).evidence_events?.length) fail('缺少参考事件: '+rule.id);
+    if(style.art_direction_contract===1 && (
+      !rule.art_direction ||
+      !Array.isArray(rule.art_direction.background_modes) ||
+      !rule.art_direction.background_modes.includes(rule.art_direction.preferred_background_mode) ||
+      !Array.isArray(rule.art_direction.media_kinds) ||
+      !present(rule.art_direction.source_media_fidelity)
+    )) fail('V0.2参考导演规则缺少背景和媒介条件: '+rule.id);
   }
   return {style, patterns, hash:digest({style,source}), relativePath:path.relative(root,filename)};
 }
@@ -38,6 +46,7 @@ export function recommendReferenceStyle(loaded, concepts) {
       const score = (structureMatch ? 4 : 0) + 2*Math.min(tokens.length,3);
       return {rule_id:rule.id,score,reason:(structureMatch ? ['语义结构相容'] : []).concat(tokens.map(h=>'口播: '+h)),
         visual_goal:rule.visual_goal,mediums:rule.mediums,assets:rule.assets,
+        art_direction:rule.art_direction ?? null,
         reference_events:patterns.get(rule.id).evidence_events};
     }).filter(x=>x.score>0).sort((a,b)=>b.score-a.score || a.rule_id.localeCompare(b.rule_id)).slice(0,3);
     return {concept_id:c.event_id,spoken_text:c.spoken_text,visual_structure:c.visual_structure,
@@ -52,10 +61,11 @@ export function newStyleSelection(recommendations, relativePath) {
   return {version:1,package_path:relativePath,package_id:recommendations.package_id,
     package_hash:recommendations.package_hash,concept_hash:recommendations.concept_hash,
     decisions:recommendations.recommendations.map(x=>({concept_id:x.concept_id,decision:'pending',
-      pattern_id:null,medium:null,reason:''}))};
+      pattern_id:null,medium:null,background_mode:null,visual_media_kind:null,
+      media_evidence:null,deviation_reason:'',reason:''}))};
 }
 
-export function validateStyleBindings({loaded,concepts,selection,edit,shotbook}) {
+export function validateStyleBindings({loaded,concepts,selection,edit,shotbook,assetIntent}) {
   const {style,patterns,hash} = loaded;
   if (!selection || selection.version!==1 || selection.package_id!==style.id ||
       selection.package_hash!==hash || selection.concept_hash!==digest(concepts))
@@ -96,7 +106,9 @@ export function validateStyleBindings({loaded,concepts,selection,edit,shotbook})
     bindings.push({concept_id:c.event_id,...expected,reference_events:patterns.get(decision.pattern_id).evidence_events,
       requires_real_media:needsAsset});
   }
+  const art_direction_audit=validateArtDirection({style,concepts,selection,edit,shotbook,assetIntent});
   return {status:'pass',project_id:concepts.project_id,style_id:style.id,selected_count:bindings.length,
+    art_direction_audit,
     no_match_count:decisions.length-bindings.length,bindings,
     limitation:'规划引用通过，不代表模板已实现、素材真实可用或动态审美已通过。'};
 }
@@ -106,13 +118,16 @@ export function readProjectStyle(projectDir, root) {
   if(!fs.existsSync(filename)) return null;
   const selection=read(filename);
   if(!present(selection.package_path)) fail('style-selection.json 缺少 package_path');
-  return {...loadReferenceStyle(root,selection.package_path),selection};
+  const loaded=loadReferenceStyle(root,selection.package_path);
+  const intentFile=path.join(projectDir,'style-asset-intent.json');
+  const assetIntent=fs.existsSync(intentFile) ? read(intentFile) : null;
+  return {...loaded,selection,assetIntent};
 }
 
 export const readReferenceJson=read;
 
-export function buildReferenceProductionBrief({loaded,concepts,selection,edit,shotbook}) {
-  const report=validateStyleBindings({loaded,concepts,selection,edit,shotbook});
+export function buildReferenceProductionBrief({loaded,concepts,selection,edit,shotbook,assetIntent}) {
+  const report=validateStyleBindings({loaded,concepts,selection,edit,shotbook,assetIntent});
   const byRule=new Map(loaded.style.rules.map(r=>[r.id,r]));
   const visualConcept=new Map(concepts.concepts.map(c=>[c.event_id,c]));
   const briefs=report.bindings.flatMap(binding=>{
@@ -128,6 +143,8 @@ export function buildReferenceProductionBrief({loaded,concepts,selection,edit,sh
       reference_behavior:p.behavior,reference_timing:p.retiming,
       reference_limits:p.limits,source_inputs:p.required_inputs,
       project_asset_slots:shot.asset_slots ?? [],source_rule_status:p.status,
+      art_direction:shot.art_direction ?? null,
+      rule_art_direction:rule.art_direction ?? null,
       theme:loaded.style.visual_skin,motion_grammar:loaded.style.motion_grammar,
       suggested_primitives:binding.pattern_id==='P05'
         ? ['TechMediaTakeaway (requires creator-owned screen video/image)']
@@ -137,6 +154,7 @@ export function buildReferenceProductionBrief({loaded,concepts,selection,edit,sh
   });
   return {version:1,status:'planning_only',project_id:concepts.project_id,
     package_id:loaded.style.id,source_event_id:loaded.style.reference_video_id,
+    art_direction_audit:report.art_direction_audit,
     limitation:'This brief is not rendered output, no card selection is forced; references are inspiration, not footage licenses.',
     shots:briefs};
 }
