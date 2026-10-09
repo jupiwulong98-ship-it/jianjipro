@@ -17,7 +17,15 @@ const dir=path.dirname(source);
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const loaded=loadReferenceStyle(root,request.style_package||'styles/codex-six-skills-tech-v0.3/style-package.json');
 const binding=validateReferenceMotionRequest(request,loaded);
-const outFile=path.resolve(flagsAt('--out')||path.join(dir,'renders',request.pattern_id+'.mp4'));
+const alpha=flags.includes('--alpha');
+const outFile=path.resolve(flagsAt('--out')||path.join(dir,'renders',request.pattern_id+(alpha?'.mov':'.mp4')));
+if(alpha && path.extname(outFile).toLowerCase()!=='.mov')throw Error('--alpha requires .mov output');
+if(!alpha && path.extname(outFile).toLowerCase()!=='.mp4')throw Error('H.264 output requires .mp4');
+const transparent=(request.pattern_id==='P09' || 
+ (request.pattern_id==='P13'&&(!request.props.backgroundMode||request.props.backgroundMode==='transparent_overlay')) ||
+ (request.pattern_id==='P02'&&request.props.backgroundMode==='presenter_natural'));
+if(transparent && !alpha && !flags.includes('--stills'))
+ throw Error('Transparent overlay must use --alpha ProRes4444 .mov, not opaque H.264 mp4');
 fs.mkdirSync(path.dirname(outFile),{recursive:true});
 const temp=fs.mkdtempSync(path.join(os.tmpdir(),'jianji-reference-'));
 const publicDir=path.join(temp,'public');fs.mkdirSync(publicDir);
@@ -44,14 +52,17 @@ try{
  const composition=await selectComposition({serveUrl,id:'ReferenceStyleShot',inputProps:props});
  const stills=[];
  for(const [label,at] of [['entry',.12],['stable',.65],['exit',.91]]){
-   const dest=outFile.replace(/\.mp4$/i,'-'+label+'.png');
+   const dest=outFile.replace(/\.(mp4|mov)$/i,'-'+label+'.png');
    await renderStill({serveUrl,composition,inputProps:props,output:dest,
      frame:Math.min(props.durationFrames-1,Math.round(props.durationFrames*at)),imageFormat:'png'});
    stills.push(dest);
  }
  if(!flags.includes('--stills')){
-   await renderMedia({serveUrl,composition,inputProps:props,outputLocation:outFile,
-     codec:'h264',crf:20,muted:true,concurrency:2});
+   await renderMedia(alpha
+    ? {serveUrl,composition,inputProps:props,outputLocation:outFile,codec:'prores',
+       proResProfile:'4444',pixelFormat:'yuva444p10le',imageFormat:'png',muted:true,concurrency:2}
+    : {serveUrl,composition,inputProps:props,outputLocation:outFile,codec:'h264',
+       crf:20,muted:true,concurrency:2});
  }
  const result={status:flags.includes('--stills')?'stills_only':'rendered_needs_visual_approval',
    version:1,style_package:loaded.style.id,pattern_id:request.pattern_id,
@@ -60,7 +71,7 @@ try{
    output_sha256:flags.includes('--stills')?null:hash(outFile),
    stills,frames:props.durationFrames,
    disclaimer:'真实渲染≠对标动态审美通过。QA样例中的软件画面必须替换为创作者自己真实的截图或录屏。'};
- const manifest=outFile.replace(/\.mp4$/i,'-evidence.json');
+ const manifest=outFile.replace(/\.(mp4|mov)$/i,'-evidence.json');
  fs.writeFileSync(manifest,JSON.stringify(result,null,2)+'\n');
  console.log(JSON.stringify({manifest,...result},null,2));
 }finally{fs.rmSync(temp,{recursive:true,force:true});}
