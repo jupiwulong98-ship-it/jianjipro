@@ -110,3 +110,33 @@ export function readProjectStyle(projectDir, root) {
 }
 
 export const readReferenceJson=read;
+
+export function buildReferenceProductionBrief({loaded,concepts,selection,edit,shotbook}) {
+  const report=validateStyleBindings({loaded,concepts,selection,edit,shotbook});
+  const byRule=new Map(loaded.style.rules.map(r=>[r.id,r]));
+  const visualConcept=new Map(concepts.concepts.map(c=>[c.event_id,c]));
+  const briefs=report.bindings.flatMap(binding=>{
+    const c=visualConcept.get(binding.concept_id);
+    const p=loaded.patterns.get(binding.pattern_id);
+    const rule=byRule.get(binding.pattern_id);
+    return shotbook.shots.filter(s=>!s.clean_presenter &&
+      s.visual_concept_ids?.includes(binding.concept_id)).map(shot=>({
+      shot_id:shot.id,concept_id:c.event_id,spoken_text:c.spoken_text,
+      reference_package:loaded.style.id,reference_pattern:binding.pattern_id,
+      reference_events:binding.reference_events,visual_medium:binding.medium,
+      audience_goal:c.visual_focus,visual_goal:rule.visual_goal,
+      reference_behavior:p.behavior,reference_timing:p.retiming,
+      reference_limits:p.limits,source_inputs:p.required_inputs,
+      project_asset_slots:shot.asset_slots ?? [],source_rule_status:p.status,
+      theme:loaded.style.visual_skin,motion_grammar:loaded.style.motion_grammar,
+      suggested_primitives:binding.pattern_id==='P05'
+        ? ['TechMediaTakeaway (requires creator-owned screen video/image)']
+        : binding.pattern_id==='P09' ? ['TechResultPunch over real presenter footage'] : [],
+      production_gate:'Render original 8-12 second composite with real captions and audio; verify movement and obtain user visual approval before batch production.'
+    }));
+  });
+  return {version:1,status:'planning_only',project_id:concepts.project_id,
+    package_id:loaded.style.id,source_event_id:loaded.style.reference_video_id,
+    limitation:'This brief is not rendered output, no card selection is forced; references are inspiration, not footage licenses.',
+    shots:briefs};
+}
