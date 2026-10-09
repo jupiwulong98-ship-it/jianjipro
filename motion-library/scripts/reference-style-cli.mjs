@@ -16,7 +16,14 @@ const selectionPath=path.join(dir,'style-selection.json');
 const intentPath=path.join(dir,'style-asset-intent.json');
 const intent=fs.existsSync(intentPath)?from('style-asset-intent.json'):null;
 const old=fs.existsSync(selectionPath) ? from('style-selection.json') : null;
-const stylePath=old?.package_path || value('--style') || 'styles/codex-six-skills-tech-v0.2/style-package.json';
+const override=value('--style');
+const reset=argv.includes('--reset-selection');
+if(old && override && override!==old.package_path && !reset)
+  throw Error('迁移风格包需显式 --reset-selection 并备份旧选择；不会暗中切换');
+const stylePath=(reset&&override) ? override : old?.package_path || override ||
+  'styles/codex-six-skills-tech-v0.2/style-package.json';
+if(old && old.package_path!==stylePath && !intent)
+  throw Error('旧项目升级V0.2需先从首次规划/历史记录恢复 style-asset-intent.json；不能把最终改写后的素材要求冒充初始要求');
 const loaded=loadReferenceStyle(root,stylePath);
 const concepts=from('visual-concepts.json');
 const proposals=recommendReferenceStyle(loaded,concepts);
