@@ -1,0 +1,16 @@
+{
+  "style_package": "styles/codex-six-skills-tech-v0.3/style-package.json",
+  "reference_package": "codex-six-skills-tech-v0.3",
+  "media_provenance": "qa_synthetic",
+  "output_purpose": "preview_only",
+  "pattern_id": "P02",
+  "reference_event": "codex-six-skills-20261008-e006",
+  "props": {
+    "chapter": "01",
+    "title": "HyperFrames",
+    "subtitle": "让软件画面成为主角",
+    "mediaSrc": "reference-ui-demo.svg",
+    "mediaType": "image",
+    "durationFrames": 90
+  }
+}
