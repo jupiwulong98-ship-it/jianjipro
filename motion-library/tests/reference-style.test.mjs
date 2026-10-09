@@ -19,7 +19,7 @@ function fixture() {
   const style_reference={package_id:loaded.style.id,pattern_id:'P05',medium:'mixed'};
   const edit={events:[{id:'edit-01',visual_concept_id:'visual-01',style_reference}]};
   const shotbook={shots:[{id:'shot-01',clean_presenter:false,visual_concept_ids:['visual-01'],
-    style_reference,asset_slots:[{required:true,asset_id:'user-remotion-screencast'}]}]};
+    style_reference,asset_slots:[{required:true,status:'ready',asset_id:'user-remotion-screencast'}]}]};
   return {loaded,concepts,selection,edit,shotbook};
 }
 test('单参考风格保留实验状态，且关联原始参考事件',()=>{
