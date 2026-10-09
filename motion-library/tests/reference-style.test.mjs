@@ -2,7 +2,7 @@ import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
-import {loadReferenceStyle,recommendReferenceStyle,newStyleSelection,validateStyleBindings} from '../scripts/reference-style.mjs';
+import {loadReferenceStyle,recommendReferenceStyle,newStyleSelection,validateStyleBindings,buildReferenceProductionBrief} from '../scripts/reference-style.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const load=()=>loadReferenceStyle(root,'styles/codex-six-skills-tech-v0.1/style-package.json');
@@ -58,4 +58,15 @@ test('允许明确说明参考样式不匹配，而不是强套模板',()=>{
   const result=validateStyleBindings(x);
   assert.equal(result.selected_count,0);
   assert.equal(result.no_match_count,1);
+});
+
+test('制作交接单保留参考事件、真实素材和动效分层，而不是只存一个规则ID',()=>{
+  const x=fixture(),brief=buildReferenceProductionBrief(x);
+  assert.equal(brief.status,'planning_only');
+  assert.equal(brief.shots.length,1);
+  assert.equal(brief.shots[0].reference_pattern,'P05');
+  assert.ok(brief.shots[0].reference_behavior);
+  assert.ok(brief.shots[0].reference_timing);
+  assert.ok(brief.shots[0].suggested_primitives.some(x=>x.includes('TechMediaTakeaway')));
+  assert.ok(brief.shots[0].project_asset_slots[0].asset_id);
 });
