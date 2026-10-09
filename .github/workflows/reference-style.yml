@@ -10,6 +10,7 @@ on:
       - 'motion-library/scripts/style-review.mjs'
       - 'motion-library/tests/reference-style.test.mjs'
       - 'motion-library/tests/reference-art-direction.test.mjs'
+      - 'motion-library/src/reference-style/**'
       - '.github/workflows/reference-style.yml'
   workflow_dispatch:
 permissions:
