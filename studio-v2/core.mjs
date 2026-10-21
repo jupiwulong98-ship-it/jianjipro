@@ -148,7 +148,11 @@ function ffScene(dir,data,s,out,poster=false) {
 export function preview(dir) {
   const data=inspect(dir);
   const posters=path.join(dir,'studio/previews');mkdir(posters);
-  for(const s of data.plan.scenes)ffScene(dir,data,s,path.join(posters,s.id+'.jpg'),true);
+  for(const s of data.plan.scenes){
+    ffScene(dir,data,s,path.join(posters,s.id+'.jpg'),true);
+    cmd('ffmpeg',['-hide_banner','-loglevel','error','-nostdin','-y','-ss',String(s.start),'-t',String(s.end-s.start),'-i',data.source,
+      '-vn','-c:a','aac','-b:a','96k',path.join(posters,s.id+'.m4a')],dir);
+  }
   const state={binding:data.binding,updated_at:new Date().toISOString(),scenes:data.plan.scenes.length};
   put(path.join(dir,'studio/preview-status.json'),state);
   return state;
