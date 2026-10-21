@@ -1,0 +1,33 @@
+name: Studio V2 real-media integration
+on:
+  pull_request:
+    paths:
+      - 'studio-v2/**'
+      - '.github/workflows/studio-v2.yml'
+      - 'README.md'
+      - 'AGENTS.md'
+  push:
+    branches: [main]
+    paths:
+      - 'studio-v2/**'
+      - '.github/workflows/studio-v2.yml'
+jobs:
+  new-studio:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install real media tools
+        run: sudo apt-get update -qq && sudo apt-get install -y ffmpeg
+      - name: Run source-media, approval and full-film integration tests
+        run: node --test studio-v2/test.mjs
+      - name: Save actual rendered media and QC
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: studio-v2-real-media-sample
+          path: studio-v2/qa-output/
+          if-no-files-found: warn
