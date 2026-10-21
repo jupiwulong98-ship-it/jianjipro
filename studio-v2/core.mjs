@@ -63,7 +63,11 @@ export function inspect(dir) {
     if(s.type==='comparison'&&s.assets.length<2)throw Error('对比需要两个真实素材：'+s.id);
     if(s.type==='presenter'&&s.assets.length)throw Error('纯真人段不应硬塞素材：'+s.id);
     if(s.type==='comparison'&&s.layout==='split'&&s.assets.length>2)throw Error('对比只支持2素材，超过请用自定义HyperFrames效果');
-    if(s.custom_video)fileInside(dir,s.custom_video);
+    if(s.render_mode&&!['basic','custom'].includes(s.render_mode))throw Error('渲染方式必须为basic或custom：'+s.id);
+    if(s.focus){const {x,y,w,h}=s.focus;
+      if(![x,y,w,h].every(Number.isFinite)||x<0||y<0||w<=0||h<=0||x+w>1.001||y+h>1.001)throw Error('真实界面局部聚焦范围无效：'+s.id);
+      if(s.type==='presenter'||s.type==='comparison')throw Error('局部聚焦仅适用于单真实媒体：'+s.id);
+    }
     end=s.end;
   }
   if(plan.music){
@@ -115,21 +119,25 @@ function ffScene(dir,data,s,out,poster=false) {
   const length=s.end-s.start; // final edited transcript and presenter share the same clock
   const args=['-hide_banner','-loglevel','error','-nostdin','-y'];
   let graph='',input=0;
-  if(s.custom_video && !poster){
-    args.push('-i',fileInside(dir,s.custom_video));
+  if(s.render_mode==='custom' && !poster){
+    args.push('-i',fileInside(dir,'studio/renders/'+s.id+'.mp4'));
     graph='[0:v]scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p[v]';
   }else{
     args.push('-ss',String(s.start),'-t',String(length),'-i',data.source);
     const media=s.assets.map(id=>data.assets.get(id));
     for(const m of media)args.push(...(mimeType(m.file).startsWith('image/')?['-loop','1','-framerate',String(FPS)]:[]),'-i',m.full);
-    const fit=(idx,w,h,label)=>'['+idx+':v]scale='+w+':'+h+':force_original_aspect_ratio=decrease,pad='+w+':'+h+':(ow-iw)/2:(oh-ih)/2:color=0x171c23,setsar=1['+label+']';
+    const fit=(idx,w,h,label,focus=false)=>{
+      const f=focus?s.focus:null;
+      const crop=f?'['+idx+':v]crop=iw*'+f.w+':ih*'+f.h+':iw*'+f.x+':ih*'+f.y+'[crop'+idx+'];[crop'+idx+']':'['+idx+':v]';
+      return crop+'scale='+w+':'+h+':force_original_aspect_ratio=decrease,pad='+w+':'+h+':(ow-iw)/2:(oh-ih)/2:color=0x171c23,setsar=1['+label+']';
+    };
     if(s.type==='presenter')graph=fit(0,WIDTH,HEIGHT,'stage')+';[stage]format=yuv420p[v]';
     else if(s.type==='comparison'){
       graph=fit(1,640,720,'left')+';'+fit(2,640,720,'right')+';[left][right]hstack=inputs=2,format=yuv420p[v]';
     } else if((s.layout||'full')==='split'){
       // Cropping the source to its center half prevents placing a screenshot on top of the face.
-      graph='[0:v]crop=iw/2:ih:iw/4:0,scale=640:720:force_original_aspect_ratio=increase,crop=640:720,setsar=1[left];'+fit(1,640,720,'right')+';[left][right]hstack=inputs=2,format=yuv420p[v]';
-    } else graph=fit(1,WIDTH,HEIGHT,'stage')+';[stage]format=yuv420p[v]';
+      graph='[0:v]crop=iw/2:ih:iw/4:0,scale=640:720:force_original_aspect_ratio=increase,crop=640:720,setsar=1[left];'+fit(1,640,720,'right',true)+';[left][right]hstack=inputs=2,format=yuv420p[v]';
+    } else graph=fit(1,WIDTH,HEIGHT,'stage',true)+';[stage]format=yuv420p[v]';
   }
   args.push('-filter_complex',graph,'-map','[v]','-an');
   if(poster)args.push('-frames:v','1',out);
@@ -174,6 +182,17 @@ function makeAudio(dir,data,muteVideo) {
 function probe(file,dir) {return JSON.parse(cmd('ffprobe',['-v','error','-show_format','-show_streams','-of','json',file],dir));}
 export function produce(dir) {
   const data=inspect(dir);ensureReview(dir,data);
+  const chosen=data.plan.scenes.filter(s=>s.render_mode==='custom');
+  if(chosen.length){
+    const proof=rj(dir,'studio/renders/manifest.json');
+    if(proof.binding!==data.binding||!proof.clips)throw Error('HyperFrames实际视频对应旧素材或旧画面方案');
+    for(const s of chosen){
+      const f=fileInside(dir,'studio/renders/'+s.id+'.mp4');
+      if(proof.clips[s.id]!==sha(fs.readFileSync(f)))throw Error('动态效果缺失或文件未核验：'+s.id);
+      const meta=probe(f,dir),duration=Number(meta.format.duration);
+      if(!meta.streams.some(x=>x.codec_type==='video')||Math.abs(duration-(s.end-s.start))>0.2)throw Error('动态视频时长与剪后时间轴不符：'+s.id);
+    }
+  }
   const out=path.join(dir,'studio/output'),stage=path.join(out,'segments');mkdir(stage);
   const report={status:'running',binding:data.binding,started_at:new Date().toISOString(),stages:[],user_approved_before_render:true};
   const save=()=>put(path.join(out,'report.json'),report);save();
@@ -181,7 +200,7 @@ export function produce(dir) {
     const segments=[];
     for(const s of data.plan.scenes){
       const dest=path.join(stage,s.id+'.mp4');ffScene(dir,data,s,dest);
-      segments.push(dest);report.stages.push({id:s.id,status:'rendered',file:path.relative(dir,dest),sha256:sha(fs.readFileSync(dest))});save();
+      segments.push(dest);report.stages.push({id:s.id,renderer:s.render_mode==='custom'?'custom-hyperframes':'basic-real-media',status:'rendered',file:path.relative(dir,dest),sha256:sha(fs.readFileSync(dest))});save();
     }
     // Concatenate clips with identical encoding, codec and geometry; sound is always sourced from the final edited presenter track.
     const list=path.join(out,'concat.txt');
