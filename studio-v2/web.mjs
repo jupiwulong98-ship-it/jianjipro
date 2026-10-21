@@ -43,7 +43,7 @@ export function startServer(dir,{port=3038,autoProduce=false}={}) {
         const rel=url.searchParams.get('f');
         if(!rel||!/\.(png|jpe?g|webp|mp4|mov|wav|m4a|mp3)$/i.test(rel))return json(res,400,{error:'不支持的媒体'});
         const d=inspect(dir),allowed=new Set([...d.plan.assets.map(x=>x.file),d.plan.source.video,
-          ...d.plan.scenes.map(x=>'studio/previews/'+x.id+'.jpg')]);
+          ...d.plan.scenes.flatMap(x=>['studio/previews/'+x.id+'.jpg','studio/previews/'+x.id+'.m4a'])]);
         if(!allowed.has(rel))return json(res,403,{error:'不是本次授权查看的素材'});
         return serveMedia(req,res,fileInside(dir,rel));
       }
