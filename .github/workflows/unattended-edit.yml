@@ -1,0 +1,24 @@
+name: Unattended editing gate
+on:
+  pull_request:
+    paths:
+      - 'motion-library/scripts/unattended-edit.mjs'
+      - 'motion-library/tests/unattended-edit.test.mjs'
+      - 'motion-library/package.json'
+      - '.github/workflows/unattended-edit.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'motion-library/scripts/unattended-edit.mjs'
+      - 'motion-library/tests/unattended-edit.test.mjs'
+      - 'motion-library/package.json'
+jobs:
+  unattended-edit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test real-media storyboard and unattended batch gates
+        run: node --test motion-library/tests/unattended-edit.test.mjs

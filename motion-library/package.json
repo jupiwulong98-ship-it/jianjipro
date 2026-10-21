@@ -26,7 +26,11 @@
     "talkcraft:verify-all": "node scripts/verify-talkcraft-all.mjs",
     "style:reference": "node scripts/reference-style-cli.mjs",
     "test:reference": "node --test tests/reference-style.test.mjs tests/reference-art-direction.test.mjs tests/reference-motion.test.mjs",
-    "reference:render": "node runtime-talkcraft/render-reference.mjs"
+    "reference:render": "node runtime-talkcraft/render-reference.mjs",
+    "edit:board": "node scripts/unattended-edit.mjs board",
+    "edit:check": "node scripts/unattended-edit.mjs check",
+    "edit:run": "node scripts/unattended-edit.mjs run",
+    "test:unattended": "node --test tests/unattended-edit.test.mjs"
   },
   "dependencies": {
     "@remotion/player": "4.0.522",

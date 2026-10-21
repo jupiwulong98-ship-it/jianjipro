@@ -1,5 +1,22 @@
 # jianjipro
 
+## 新增：无值守真实素材整片制作（2026-10-22，试行）
+
+默认不再逐10秒请求用户审批。先用全片语义与声音设计确认哪些段落该用人物、真实UI/录屏或动画；Codex采集真实证据素材，生成全片画面板，自动先做粗剪再批量渲染，最后把声音、字幕、转场装配到同一时间线并做整片QC，用户只看最终版。
+
+命令：在项目准备好剪后全文、visual-planning.json、production/scene-assets.json 和 production/workflow.json 后运行：
+
+~~~bash
+npm --prefix motion-library run edit:board -- --project <项目ID>
+npm --prefix motion-library run edit:check -- --project <项目ID>
+npm --prefix motion-library run edit:run -- --project <项目ID>
+npm --prefix motion-library run test:unattended
+~~~
+
+这些命令已提供**项目证据校验、素材画面板、无中途人工门禁的五阶段执行器及QC记录**，但 ChatCut、HyperFrames、录屏获取等项目具体脚本仍需 Codex 按实际工具完成，不能把脚本合同误说成已经实现了通用端到端自动剪辑。详细格式、限制和参考对标见 docs/style-engine-v2/unattended-production.md。
+
+---
+
 ## V0.3 对标效果 → 可执行动效（P02/P04/P13）
 
 已修复 V0.2 Production Brief 的素材意图参数遗漏；新增明确的参考动效绑定与渲染入口、P02章节、P04展开卡、P13窗口退出。旧P05/P09可沿用。
