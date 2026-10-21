@@ -29,6 +29,7 @@ export function startServer(dir,{port=3038,autoProduce=false}={}) {
     if(!autoProduce||running)return;
     const d=inspect(dir),r=review(dir,d);
     if(!(r.assets_approved&&r.visual_approved))return;
+    const existing=status();if(existing.binding===d.binding&&['running','rendered_pending_visual_audio_review'].includes(existing.status))return;
     running=true;
     const child=spawn(process.execPath,[path.join(import.meta.dirname,'cli.mjs'),'produce','--project',path.basename(dir)],{cwd:repository,stdio:'inherit',env:process.env});
     child.on('close',code=>{running=false;console.log('自动剪辑退出码',code);});
@@ -37,7 +38,7 @@ export function startServer(dir,{port=3038,autoProduce=false}={}) {
   const server=http.createServer((req,res)=>{
     const url=new URL(req.url,'http://localhost'),route=url.pathname;
     try{
-      if(route==='/'&&req.method==='GET')return serveMedia(req,res,fileInside(repository,'studio-v2/board.html'));
+      if(route==='/'&&req.method==='GET'){res.writeHead(200,{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-store'});return fs.createReadStream(fileInside(repository,'studio-v2/board.html')).pipe(res);}
       if(route==='/media'&&['GET','HEAD'].includes(req.method)){
         const rel=url.searchParams.get('f');
         if(!rel||!/\.(png|jpe?g|webp|mp4|mov|wav|m4a|mp3)$/i.test(rel))return json(res,400,{error:'不支持的媒体'});
