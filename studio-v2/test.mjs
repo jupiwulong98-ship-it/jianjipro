@@ -91,7 +91,7 @@ test('真实网页接受两次全片预制作确认，拒绝旧版本，且静�
 });
 
 
-test('HyperFrames自定义分镜可在素材批准后提供，必须验证成片SHA及剪后时长，不允许静默降级成PPT',()=>{
+test('自定义动态分镜可在素材批准后提供，必须验证成片SHA及剪后时长，不允许静默降级成PPT',()=>{
  const f=fixture();try{
    f.plan.scenes[1].render_mode='custom';
    f.plan.scenes[2].focus={x:0.25,y:0.14,w:0.65,h:0.70};
@@ -106,7 +106,7 @@ test('HyperFrames自定义分镜可在素材批准后提供，必须验证成片
    const digest=crypto.createHash('sha256').update(fs.readFileSync(motion)).digest('hex');
    fs.writeFileSync(path.join(f.temp,'studio/renders/manifest.json'),JSON.stringify({binding:d.binding,clips:{s2:digest}}));
    const done=produce(f.temp);
-   assert.equal(done.stages[1].renderer,'custom-hyperframes');
+   assert.equal(done.stages[1].renderer,'custom-validated-render');
    assert.equal(done.status,'rendered_pending_visual_audio_review');
    fs.writeFileSync(path.join(f.temp,'studio/renders/manifest.json'),JSON.stringify({binding:'old',clips:{s2:digest}}));
    assert.throws(()=>produce(f.temp),/旧素材或旧画面方案/);
