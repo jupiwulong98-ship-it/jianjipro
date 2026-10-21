@@ -1,0 +1,38 @@
+name: Real-media unattended smoke
+on:
+  pull_request:
+    paths:
+      - 'motion-library/tests/real-media-smoke.mjs'
+      - 'motion-library/tests/fixtures/real-media-stage.mjs'
+      - '.github/workflows/real-media-smoke.yml'
+      - 'motion-library/scripts/unattended-edit.mjs'
+  workflow_dispatch:
+jobs:
+  render-six-second-video:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check FFmpeg and FFprobe
+        run: |
+          ffmpeg -hide_banner -version | head -n 2
+          ffprobe -hide_banner -version | head -n 2
+      - name: Run actual 6s video / screenshot / audio pipeline
+        run: node motion-library/tests/real-media-smoke.mjs
+      - name: Save playable QA video and inspection frames
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: real-media-smoke-output
+          path: |
+            projects/qa-real-media-smoke-20261022/production/final.mp4
+            projects/qa-real-media-smoke-20261022/production/frame-before.png
+            projects/qa-real-media-smoke-20261022/production/frame-after.png
+            projects/qa-real-media-smoke-20261022/production/storyboard.html
+            projects/qa-real-media-smoke-20261022/production/run-report.json
+            projects/qa-real-media-smoke-20261022/production/qc-report.json
+            projects/qa-real-media-smoke-20261022/production/smoke-summary.json
+          if-no-files-found: warn
