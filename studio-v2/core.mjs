@@ -200,7 +200,7 @@ export function produce(dir) {
     const segments=[];
     for(const s of data.plan.scenes){
       const dest=path.join(stage,s.id+'.mp4');ffScene(dir,data,s,dest);
-      segments.push(dest);report.stages.push({id:s.id,renderer:s.render_mode==='custom'?'custom-hyperframes':'basic-real-media',status:'rendered',file:path.relative(dir,dest),sha256:sha(fs.readFileSync(dest))});save();
+      segments.push(dest);report.stages.push({id:s.id,renderer:s.render_mode==='custom'?'custom-validated-render':'basic-real-media',status:'rendered',file:path.relative(dir,dest),sha256:sha(fs.readFileSync(dest))});save();
     }
     // Concatenate clips with identical encoding, codec and geometry; sound is always sourced from the final edited presenter track.
     const list=path.join(out,'concat.txt');
