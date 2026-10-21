@@ -17,13 +17,15 @@ function fixture() {
   fs.copyFileSync(path.join(repository,'motion-library/public/review-projects/ai-tools-real-20260930/host.jpg'),path.join(temp,'host.jpg'));
   fs.copyFileSync(path.join(repository,'projects/chatgpt-settings-20261004/production/assets/screen-style.png'),path.join(temp,'screen.png'));
   ff(['ffmpeg','-hide_banner','-loglevel','error','-nostdin','-y','-loop','1','-framerate','30','-i',path.join(temp,'host.jpg'),'-f','lavfi','-i','sine=frequency=220:sample_rate=48000','-t','6','-vf','scale=1280:720','-c:v','libx264','-preset','ultrafast','-pix_fmt','yuv420p','-c:a','aac','-shortest',path.join(temp,'talking.mp4')]);
+  ff(['ffmpeg','-hide_banner','-loglevel','error','-nostdin','-y','-f','lavfi','-i','sine=frequency=330:sample_rate=48000','-t','6',path.join(temp,'bed.wav')]);
+  ff(['ffmpeg','-hide_banner','-loglevel','error','-nostdin','-y','-f','lavfi','-i','sine=frequency=880:sample_rate=48000','-t','0.2',path.join(temp,'click.wav')]);
   const plan={version:1,source:{video:'talking.mp4'},assets:[{
     id:'ui-proof',kind:'screenshot',file:'screen.png',origin:'历史软件真实截图，仓库projects/chatgpt-settings-20261004，QA仅验证能力',checked_at:'2026-10-22',verified:true
   }],scenes:[
     {id:'s1',start:0,end:2,type:'presenter',layout:'full',assets:[],intent:'人物开场',visual:'先保留原真人',sound:'测试音轨，无音效'},
-    {id:'s2',start:2,end:4,type:'evidence',layout:'split',assets:['ui-proof'],intent:'展示真正的软件',visual:'人居左图居右，不允许遮脸',sound:'保持声音'},
-    {id:'s3',start:4,end:6,type:'evidence',layout:'full',assets:['ui-proof'],intent:'阅读软件细节',visual:'全屏截图清晰停留',sound:'不加不必要的声音'}
-  ]};
+    {id:'s2',start:2,end:4,type:'evidence',layout:'split',music_state:'mute',assets:['ui-proof'],intent:'展示真正的软件',visual:'人居左图居右，不允许遮脸',sound:'保持声音'},
+    {id:'s3',start:4,end:6,type:'evidence',layout:'full',music_state:'low',assets:['ui-proof'],intent:'阅读软件细节',visual:'全屏截图清晰停留',sound:'不加不必要的声音'}
+  ],music:{file:'bed.wav',gain:0.03,license_confirmed:true},sfx:[{file:'click.wav',at:2,gain:0.08,license_confirmed:true}]};
   fs.writeFileSync(path.join(temp,'studio/plan.json'),JSON.stringify(plan,null,2));
   return {temp,plan,cleanup:()=>fs.rmSync(temp,{recursive:true,force:true})};
 }
