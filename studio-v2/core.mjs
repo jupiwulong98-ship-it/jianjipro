@@ -122,7 +122,7 @@ function ffScene(dir,data,s,out,poster=false) {
   let graph='',input=0;
   if(s.render_mode==='custom' && !poster){
     args.push('-i',fileInside(dir,'studio/renders/'+s.id+'.mp4'));
-    graph='[0:v]scale='+WIDTH+':'+HEIGHT+':force_original_aspect_ratio=decrease,pad='+WIDTH+':'+HEIGHT:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p[v]';
+    graph='[0:v]scale='+WIDTH+':'+HEIGHT+':force_original_aspect_ratio=decrease,pad='+WIDTH+':'+HEIGHT+':(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p[v]';
   }else{
     args.push('-ss',String(s.start),'-t',String(length),'-i',data.source);
     const media=s.assets.map(id=>data.assets.get(id));
@@ -137,7 +137,7 @@ function ffScene(dir,data,s,out,poster=false) {
       graph=fit(1,HALF,HEIGHT,'left')+';'+fit(2,HALF,HEIGHT,'right')+';[left][right]hstack=inputs=2,format=yuv420p[v]';
     } else if((s.layout||'full')==='split'){
       // Cropping the source to its center half prevents placing a screenshot on top of the face.
-      graph='[0:v]crop=iw/2:ih:iw/4:0,scale='+HALF+':'+HEIGHT+':force_original_aspect_ratio=increase,crop='+HALF+':'+HEIGHT,setsar=1[left];'+fit(1,HALF,HEIGHT,'right',true)+';[left][right]hstack=inputs=2,format=yuv420p[v]';
+      graph='[0:v]crop=iw/2:ih:iw/4:0,scale='+HALF+':'+HEIGHT+':force_original_aspect_ratio=increase,crop='+HALF+':'+HEIGHT+',setsar=1[left];'+fit(1,HALF,HEIGHT,'right',true)+';[left][right]hstack=inputs=2,format=yuv420p[v]';
     } else graph=fit(1,WIDTH,HEIGHT,'stage',true)+';[stage]format=yuv420p[v]';
   }
   args.push('-filter_complex',graph,'-map','[v]','-an');
