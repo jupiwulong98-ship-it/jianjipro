@@ -115,14 +115,14 @@ function cmd(binary,args,cwd) {
   if(x.status!==0)throw Error(binary+' 命令失败：'+(x.stderr||x.error?.message||'').slice(-1000));
   return x.stdout;
 }
-const WIDTH=1280,HEIGHT=720,FPS=30;
+const WIDTH=1920,HEIGHT=1080,HALF=WIDTH/2,FPS=30;
 function ffScene(dir,data,s,out,poster=false) {
   const length=s.end-s.start; // final edited transcript and presenter share the same clock
   const args=['-hide_banner','-loglevel','error','-nostdin','-y'];
   let graph='',input=0;
   if(s.render_mode==='custom' && !poster){
     args.push('-i',fileInside(dir,'studio/renders/'+s.id+'.mp4'));
-    graph='[0:v]scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p[v]';
+    graph='[0:v]scale='+WIDTH+':'+HEIGHT+':force_original_aspect_ratio=decrease,pad='+WIDTH+':'+HEIGHT:(ow-iw)/2:(oh-ih)/2,setsar=1,format=yuv420p[v]';
   }else{
     args.push('-ss',String(s.start),'-t',String(length),'-i',data.source);
     const media=s.assets.map(id=>data.assets.get(id));
@@ -134,10 +134,10 @@ function ffScene(dir,data,s,out,poster=false) {
     };
     if(s.type==='presenter')graph=fit(0,WIDTH,HEIGHT,'stage')+';[stage]format=yuv420p[v]';
     else if(s.type==='comparison'){
-      graph=fit(1,640,720,'left')+';'+fit(2,640,720,'right')+';[left][right]hstack=inputs=2,format=yuv420p[v]';
+      graph=fit(1,HALF,HEIGHT,'left')+';'+fit(2,HALF,HEIGHT,'right')+';[left][right]hstack=inputs=2,format=yuv420p[v]';
     } else if((s.layout||'full')==='split'){
       // Cropping the source to its center half prevents placing a screenshot on top of the face.
-      graph='[0:v]crop=iw/2:ih:iw/4:0,scale=640:720:force_original_aspect_ratio=increase,crop=640:720,setsar=1[left];'+fit(1,640,720,'right',true)+';[left][right]hstack=inputs=2,format=yuv420p[v]';
+      graph='[0:v]crop=iw/2:ih:iw/4:0,scale='+HALF+':'+HEIGHT+':force_original_aspect_ratio=increase,crop='+HALF+':'+HEIGHT,setsar=1[left];'+fit(1,HALF,HEIGHT,'right',true)+';[left][right]hstack=inputs=2,format=yuv420p[v]';
     } else graph=fit(1,WIDTH,HEIGHT,'stage',true)+';[stage]format=yuv420p[v]';
   }
   args.push('-filter_complex',graph,'-map','[v]','-an');
