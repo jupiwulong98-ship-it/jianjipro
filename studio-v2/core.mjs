@@ -64,6 +64,7 @@ export function inspect(dir) {
     if(s.type==='presenter'&&s.assets.length)throw Error('纯真人段不应硬塞素材：'+s.id);
     if(s.type==='comparison'&&s.layout==='split'&&s.assets.length>2)throw Error('对比只支持2素材，超过请用自定义HyperFrames效果');
     if(s.render_mode&&!['basic','custom'].includes(s.render_mode))throw Error('渲染方式必须为basic或custom：'+s.id);
+    if(s.music_state&&!['normal','low','mute'].includes(s.music_state))throw Error('音乐状态不正确：'+s.id);
     if(s.focus){const {x,y,w,h}=s.focus;
       if(![x,y,w,h].every(Number.isFinite)||x<0||y<0||w<=0||h<=0||x+w>1.001||y+h>1.001)throw Error('真实界面局部聚焦范围无效：'+s.id);
       if(s.type==='presenter'||s.type==='comparison')throw Error('局部聚焦仅适用于单真实媒体：'+s.id);
@@ -164,7 +165,9 @@ function makeAudio(dir,data,muteVideo) {
   if(data.plan.music){
     input.push('-stream_loop','-1','-i',fileInside(dir,data.plan.music.file));
     const gain=Math.max(0,Math.min(.3,Number(data.plan.music.gain??.045)));
-    tracks.push('['+index+':a:0]volume='+gain+',atrim=duration='+data.duration+',asetpts=N/SR/TB[music]');
+    const duck=data.plan.scenes.filter(s=>s.music_state==='low'||s.music_state==='mute').map(s=>
+      ',volume='+(s.music_state==='mute'?0:0.42)+':enable=\'between(t\\,'+s.start+'\\,'+s.end+')\'').join('');
+    tracks.push('['+index+':a:0]atrim=duration='+data.duration+',asetpts=N/SR/TB,volume='+gain+duck+'[music]');
     segments.push('[music]');index++;
   }
   for(const [i,cue] of (data.plan.sfx||[]).entries()){
