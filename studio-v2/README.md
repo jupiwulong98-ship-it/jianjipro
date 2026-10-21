@@ -55,6 +55,27 @@ node --test studio-v2/test.mjs                                        # 实媒�
 - studio/output/final.mp4：整条带人声音轨的成片
 - studio/output/report.json：运行报告，审美状态明确待确认
 
+
+## 真实截图局部聚焦与 HyperFrames 自定义渲染交接
+
+为了解决原来「截图太小、看不清」的问题，镜头可以设置局部裁切矩形，例如在同一段真实素材上使用 focus；数值都是原图宽高的相对比例，静帧预览与基本合成严格共用同一个裁切：
+
+~~~json
+{"id":"a2","start":3,"end":6,"type":"evidence","layout":"split","assets":["ui"],"focus":{"x":0.25,"y":0.14,"w":0.65,"h":0.70},"intent":"看清按钮","visual":"人物左，真实UI在右侧聚焦","sound":"短提示后留白","render_mode":"basic"}
+~~~
+
+对需要更精细动画的镜头，由 Codex 在确认素材和整片构图方向之后用 HyperFrames 设计并生成视频。该镜头在 plan.json 内写 render_mode: "custom"；FFmpeg并不自行创造漂亮动效，不应静默回退到普通截图。
+
+Codex 在用户确认后生成 studio/renders/<镜头ID>.mp4（必须与该镜头的剪后持续时间一致），并生成 studio/renders/manifest.json：
+
+~~~json
+{"binding":"当前 studio 画面板的 binding SHA256","clips":{"a2":"该动态成片文件的SHA256"}}
+~~~
+
+produce 会严格校验 binding、SHA256、视频存在性和分镜时间一致；如有旧片、缺片或版本漂移就拒绝拼装。**用户已经确认视觉方向后，Codex 可以批量完成这些精细动态片段，不需要额外逐10秒人类批准。**
+
+静帧中的几何、素材使用方式仍是预先审的方向，真正的动态表达和声音节奏要在正式合成后进行连续审片。可替换的渲染实现并非固定模板系统；旧108卡永远不是默认选择器。
+
 ## 实现范围，不允许夸大
 
 **本次已经写入的程序**：媒体/来源核验、统一镜头与时基、两个独立的人工确认、源文件变更导致旧确认失效、基于同一构图的实际预演与整片FFmpeg渲染、基础的背景音乐与指定时间SFX混音、存在性/时间轴/音轨技术验收和全片报告。
