@@ -43,6 +43,11 @@ test('两道确认门禁：素材与整片画面都看完才允许整片制作�
    const p=spawnSync('ffprobe',['-v','error','-show_entries','stream=codec_type','-of','csv=p=0',path.join(f.temp,done.output)],{encoding:'utf8'});
    assert.match(p.stdout,/video/);assert.match(p.stdout,/audio/);
    assert.equal(done.human_visual_audio_review,'pending');
+   const output=path.join(repository,'studio-v2/qa-output');fs.mkdirSync(output,{recursive:true});
+   fs.copyFileSync(path.join(f.temp,done.output),path.join(output,'test-final.mp4'));
+   fs.copyFileSync(path.join(f.temp,'studio/previews/s2.jpg'),path.join(output,'test-split-preview.jpg'));
+   fs.copyFileSync(path.join(f.temp,'studio/previews/s3.jpg'),path.join(output,'test-full-preview.jpg'));
+   fs.copyFileSync(path.join(f.temp,'studio/output/report.json'),path.join(output,'report.json'));
    // Source asset bytes changed, so the same reviewer cannot silently approve old visuals.
    fs.appendFileSync(path.join(f.temp,'screen.png'),'changed');
    assert.equal(review(f.temp).assets_approved,false);assert.equal(review(f.temp).visual_approved,false);
