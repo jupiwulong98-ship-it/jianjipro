@@ -35,6 +35,7 @@ test('两道确认门禁：素材与整片画面都看完才允许整片制作�
    assert.throws(()=>produce(f.temp),/先在网页确认/);
    const pv=preview(f.temp);assert.equal(pv.scenes,3);
    assert.ok(fs.existsSync(path.join(f.temp,'studio/previews/s2.jpg')));
+   assert.ok(fs.existsSync(path.join(f.temp,'studio/previews/s2.m4a')));
    approve(f.temp,'assets',d.binding);
    assert.equal(review(f.temp).assets_approved,true);
    assert.equal(review(f.temp).visual_approved,false);
@@ -81,6 +82,8 @@ test('真实网页接受两次全片预制作确认，拒绝旧版本，且静�
    assert.equal(first.scenes.length,3);assert.equal(first.assets.length,1);
    const image=await fetch(endpoint+'/media?f='+encodeURIComponent('studio/previews/s2.jpg'));
    assert.equal(image.status,200);assert.match(image.headers.get('content-type'),/image\/jpeg/);
+   const voice=await fetch(endpoint+'/media?f='+encodeURIComponent('studio/previews/s2.m4a'));
+   assert.equal(voice.status,200);assert.match(voice.headers.get('content-type'),/audio\/mp4/);
    const bad=await fetch(endpoint+'/api/review',{method:'POST',headers:{'Content-Type':'application/json'},
      body:JSON.stringify({binding:'stale',action:'assets'})});
    assert.equal(bad.status,409);
