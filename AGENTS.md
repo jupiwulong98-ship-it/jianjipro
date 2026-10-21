@@ -1,5 +1,17 @@
 # JIANJIPRO Agent Contract
 
+## 2026-10-22 新默认：无值守整片制作（高于旧逐段审批流程）
+
+**用户已明确：不要每10秒守着电脑确认。** 新影片默认采用整片自动执行：ChatCut初剪 → 全片导演规划（含声音节奏）→ AI实际抓取截图/录屏与核验来源 → 真实素材构图板 → 全片粗剪 → HyperFrames/Remotion批量动效 → 全片声音及装配 → 连续视听/QC返修 → **只提交一次完整成片供用户最终确认**。视频可按场景批次内部执行，但不得每10秒请求用户审批。
+
+先读 docs/style-engine-v2/unattended-production.md、styles/qiuzhi-real-evidence-rhythm-v1/STYLE.md。复用既有Semantic Mapper/Visual Conceiver/Shotbook/执行器，不要再造一套规划架构。旧工作台中的“每段策划未确认不得制作”仅适用于用户主动选择的交互精修模式；无值守模式由 Codex 对全片记录决策、证据及质量风险，直接连续执行，不将 AI 自审伪装为用户已认可。
+
+**实图优先**：真实产品UI、Logo、截图、操作录屏先采集，再设计实际构图；不得拿泛蓝知识卡或 QA 占位截图冒充信息。真实证据缺失时不编造：事实性的演示应报缺失或回退真人且明确披露不能证明的部分。声音规划与镜头规划同时进行，而非后补装饰音。
+
+使用 motion-library/scripts/unattended-edit.mjs 的 board/check/run 命令，确认项目 production/scene-assets.json、workflow.json 和 qc-report.json 完整。它们只负责合同、媒体真实性门禁与无人中断执行；**Codex 必须实际实现项目级素材采集/渲染/音频/QC命令**，不准只生成 JSON 宣称已完成一键剪辑。技术通过仅可标记 ready_for_final_human_review，满意效果须用户看整片后确认。
+
+---
+
 目标：把参考视频的编辑语言学习成可复用规则，并把全新口播自动规划、补素材、编排镜头、选卡、执行和质检。
 
 ## 总流程
